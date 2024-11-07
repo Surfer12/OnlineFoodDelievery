@@ -1,44 +1,54 @@
 package main.java.com.example;
 
-public class RatingsHandler<T> implements RatingsBussinessLogic<T> {
-    private RatingsBussinessLogic<T> ratings;
+import java.util.LinkedList;
+import java.util.Queue;
 
-    public RatingsHandler() {
-        this.ratings = new CircularBuffer<>();
-    }
+public class RatingsHandler<T> implements RatingsBussinessLogic<T> {
+    private Queue<T> ratingsQueue = new LinkedList<>();
+    private static final int MAX_SIZE = 10;
 
     @Override
     public void add(T element) {
-        ratings.add(element);
+        if (ratingsQueue.size() >= MAX_SIZE) {
+            ratingsQueue.poll(); // Remove oldest rating
+        }
+        ratingsQueue.offer(element);
     }
 
     @Override
     public T remove() {
-        return ratings.remove();
+        return ratingsQueue.poll();
     }
 
     @Override
     public T get() {
-        return ratings.get();
+        return ratingsQueue.peek();
     }
 
     @Override
     public void clear() {
-        ratings.clear();
+        ratingsQueue.clear();
     }
 
     @Override
     public boolean isEmpty() {
-        return ratings.isEmpty();
+        return ratingsQueue.isEmpty();
     }
 
     @Override
     public boolean isFull() {
-        return ratings.isFull();
+        return ratingsQueue.size() >= MAX_SIZE;
     }
 
     @Override
     public int size() {
-        return ratings.size();
+        return ratingsQueue.size();
+    }
+
+    @Override
+    public void enforceMaxSize() {
+        while (ratingsQueue.size() > MAX_SIZE) {
+            ratingsQueue.poll();
+        }
     }
 }

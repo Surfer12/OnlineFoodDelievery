@@ -8,4 +8,5 @@ public interface RatingsBussinessLogic<T> {
     boolean isEmpty();
     boolean isFull();
     int size();
+    void enforceMaxSize();
 }

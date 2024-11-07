@@ -3,7 +3,7 @@ package main.java.com.example;
 public class Driver {
     private String name;
     private String vehicle;
-    private RatingsHandler<Integer> ratings;
+    private RatingsHandler<Integer> ratings = new RatingsHandler<>();
 
     public Driver(String name, String vehicle) {
         this.name = name;
@@ -17,6 +17,7 @@ public class Driver {
 
     public void updateRating(int rating) {
         ratings.add(rating); 
+        ratings.enforceMaxSize();
     }
 
     // Getters and setters
