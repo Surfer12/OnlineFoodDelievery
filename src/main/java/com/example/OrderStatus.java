@@ -1,19 +1,43 @@
 package main.java.com.example;
 
-public class OrderStatus {
-    public static final OrderStatus PLACED = new OrderStatus("Placed");
-    public static final OrderStatus PREPARING = new OrderStatus("Preparing");
-    public static final OrderStatus READY = new OrderStatus("Ready");
-    public static final OrderStatus DELIVERED = new OrderStatus("Delivered");
-    public static final OrderStatus CANCELLED = new OrderStatus("Cancelled");
+public enum OrderStatus {
+    PLACED("Order has been placed"),
+    ACCEPTED("Order has been accepted by driver"),
+    IN_DELIVERY("Order is being delivered"),
+    DELIVERED("Order has been delivered");
 
-    private String value;
+    private final String description;
+    private long timestamp;
 
-    private OrderStatus(String value) {
-        this.value = value;
+    OrderStatus(String description) {
+        this.description = description;
+        this.timestamp = System.currentTimeMillis();
     }
 
-    public String getValue() {
-        return value;
+    public String getDescription() {
+        return description;
+    }
+
+    public long getTimestamp() {
+        return timestamp;
+    }
+
+    public void updateTimestamp() {
+        this.timestamp = System.currentTimeMillis();
+    }
+
+    public boolean canTransitionTo(OrderStatus nextStatus) {
+        switch (this) {
+            case PLACED:
+                return nextStatus == ACCEPTED;
+            case ACCEPTED:
+                return nextStatus == IN_DELIVERY;
+            case IN_DELIVERY:
+                return nextStatus == DELIVERED;
+            case DELIVERED:
+                return false;
+            default:
+                return false;
+        }
     }
 }
