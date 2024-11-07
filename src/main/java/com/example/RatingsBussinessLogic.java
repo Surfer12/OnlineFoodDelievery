@@ -1,6 +1,6 @@
 package main.java.com.example;
 
-public interface CircularBuffer<T> {
+public interface RatingsBussinessLogic<T> {
     void add(T element);
     T remove();
     T get();

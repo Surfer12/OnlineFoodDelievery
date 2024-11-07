@@ -1,7 +1,6 @@
 package main.java.com.example;
 
-
-public class Rating {
+public class Rating extends RatingsHandler<Integer> {
     private Driver driver;
     private int score;
     private String comments;

@@ -1,15 +1,14 @@
 package main.java.com.example;
 
-import main.java.com.example.CircularBuffer; // Import the CircularBuffer class
-
 public class Driver {
     private String name;
     private String vehicle;
-    private CircularBuffer<Integer> ratings;
+    private RatingsHandler<Integer> ratings;
 
     public Driver(String name, String vehicle) {
         this.name = name;
         this.vehicle = vehicle;
+        this.ratings = new RatingsHandler<>();
     }
 
     public void acceptOrder(Order order) {
@@ -17,7 +16,7 @@ public class Driver {
     }
 
     public void updateRating(int rating) {
-        ratings.add(rating); // Assuming add method adds a rating to the circular buffer
+        ratings.add(rating); 
     }
 
     // Getters and setters
@@ -27,9 +26,5 @@ public class Driver {
 
     public String getVehicle() {
         return vehicle;
-    }
-
-    public CircularBuffer<Integer> getRatings() {
-        return ratings;
     }
 }
