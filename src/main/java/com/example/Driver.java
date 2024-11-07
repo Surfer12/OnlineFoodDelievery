@@ -5,12 +5,11 @@ import main.java.com.example.CircularBuffer; // Import the CircularBuffer class
 public class Driver {
     private String name;
     private String vehicle;
-    private CircularBuffer<Integer> ratings; // Assuming CircularBuffer is a custom class for storing ratings
+    private CircularBuffer<Integer> ratings;
 
     public Driver(String name, String vehicle) {
         this.name = name;
         this.vehicle = vehicle;
-        this.ratings = new CircularBuffer<>(10); // Example size
     }
 
     public void acceptOrder(Order order) {

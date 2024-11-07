@@ -37,25 +37,6 @@ online-food-delivery-system
 - **Driver Management**: Drivers can accept orders and have ratings stored in a circular buffer.
 - **Menu Management**: Menu items can be created and managed, with the ability to extend for specific items.
 
-## Setup Instructions
-
-1. Clone the repository:
-   ```
-   git clone <repository-url>
-   ```
-2. Navigate to the project directory:
-   ```
-   cd online-food-delivery-system
-   ```
-3. Build the project using Maven:
-   ```
-   mvn clean install
-   ```
-4. Run the application:
-   ```
-   mvn exec:java -Dexec.mainClass="com.example.MainClass"
-   ```
-
 ## Usage
 
 - Create a `Customer` object to place orders and rate drivers.
