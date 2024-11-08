@@ -5,9 +5,12 @@ import java.util.concurrent.ConcurrentHashMap;
 
 import order.Order;
 import user.Driver;
+import order.OrderStatus;
 
 import java.util.ArrayList;
 import java.util.Optional;
+
+import exceptions.ValidationException;
 
 public class DeliverySystem {
    private final queue.OrderQueue orderQueue;
@@ -29,7 +32,7 @@ public class DeliverySystem {
          order.processPayment("CREDIT_CARD"); // Process payment first
          orderQueue.enqueue(order); // Then add to queue
          attemptToAssignDriver(order);
-      } catch (validation.ValidationException | exceptions.PaymentException e) {
+      } catch (ValidationException | exceptions.PaymentException e) {
          // Handle exceptions appropriately
          throw new exceptions.OrderProcessingException("Failed to submit order: " + e.getMessage());
       }

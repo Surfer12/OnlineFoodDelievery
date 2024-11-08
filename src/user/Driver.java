@@ -13,6 +13,8 @@ public class Driver {
    private String licenseNumber;
    private Location currentLocation;
    private RatingsHandler ratings;
+   private Order currentOrder;
+   private boolean isAvailable;
 
    public Driver(Long id, String name, String vehicle, String licenseNumber) {
       this.id = id;
@@ -20,6 +22,7 @@ public class Driver {
       this.vehicle = vehicle;
       this.licenseNumber = licenseNumber;
       this.ratings = new RatingsHandler();
+      this.isAvailable = true;
    }
 
    public void acceptOrder(Order order) {
@@ -37,6 +40,11 @@ public class Driver {
 
    public void addRating(Rating rating) {
       ratings.add(rating);
+   }
+
+   public void completeCurrentDelivery() {
+      this.currentOrder = null;
+      this.isAvailable = true;
    }
 
    // Getters
