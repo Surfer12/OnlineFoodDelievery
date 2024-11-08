@@ -11,22 +11,6 @@ A Java-based food delivery system implementing core OOP principles and efficient
 
 ## Implementation Details
 
-### Code Structure & Documentation
-1. **Clear Class Responsibilities**
-   - Each class has a single, well-defined purpose
-   - Methods are concise and focused
-   - Maximum 80 characters per line for readability
-
-2. **Naming Conventions**
-   - Classes: PascalCase (e.g., `MenuItem`, `RatingsHandler`)
-   - Methods: camelCase (e.g., `placeOrder`, `addRating`)
-   - Variables: descriptive names that explain purpose
-
-3. **Documentation**
-   - Class-level comments explaining purpose
-   - Method documentation for public APIs
-   - Inline comments explaining complex logic
-
 ### Data Structures
 - **Circular Buffer**: For driver ratings (fixed size: 10)
   ```java
