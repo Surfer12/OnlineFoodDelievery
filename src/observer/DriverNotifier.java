@@ -13,7 +13,7 @@ public class DriverNotifier implements OrderObserver {
    @Override
    public void update(Order order) {
       if (order.getDriverId() != null) {
-         notificationService.sendOrderStatusUpdate(order, order.getStatus());
+         notificationService.sendOrderStatusUpdateToCustomer(order, order.getStatus());
       }
    }
 }

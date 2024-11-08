@@ -1,8 +1,8 @@
 package location;
 
 public class Location {
-   private double latitude;
-   private double longitude;
+   private final double latitude;
+   private final double longitude;
 
    public Location(double latitude, double longitude) {
       this.latitude = latitude;
@@ -17,11 +17,14 @@ public class Location {
       return longitude;
    }
 
-   public double distanceTo(Location other) {
+   public double calculateDistanceInKilometers(Location destination) {
+      if (destination == null) {
+         throw new IllegalArgumentException("Destination location cannot be null");
+      }
       // Simplified distance calculation (could be replaced with more accurate
       // calculation)
-      double dx = this.latitude - other.latitude;
-      double dy = this.longitude - other.longitude;
-      return Math.sqrt(dx * dx + dy * dy);
+      double latitudeDiff = this.latitude - destination.latitude;
+      double longitudeDiff = this.longitude - destination.longitude;
+      return Math.sqrt(latitudeDiff * latitudeDiff + longitudeDiff * longitudeDiff);
    }
 }

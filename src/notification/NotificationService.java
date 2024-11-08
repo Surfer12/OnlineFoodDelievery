@@ -5,11 +5,11 @@ import order.OrderStatus;
 import user.Driver;
 
 public interface NotificationService {
-   void sendOrderConfirmation(Order order);
+   void sendOrderConfirmationToCustomer(Order order);
 
-   void sendDriverAssigned(Order order, Driver driver);
+   void sendDriverAssignmentNotification(Order order, Driver driver);
 
-   void sendOrderStatusUpdate(Order order, OrderStatus newStatus);
+   void sendOrderStatusUpdateToCustomer(Order order, OrderStatus newStatus);
 
-   void sendDeliveryComplete(Order order);
+   void sendDeliveryCompletionNotification(Order order);
 }

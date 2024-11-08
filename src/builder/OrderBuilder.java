@@ -12,7 +12,10 @@ public class OrderBuilder {
    private Location deliveryLocation;
    private String customerEmail;
 
-   public OrderBuilder withCustomerId(Long customerId) {
+   public OrderBuilder withValidatedCustomerId(Long customerId) {
+      if (customerId == null || customerId <= 0) {
+         throw new IllegalArgumentException("Invalid customer ID");
+      }
       this.customerId = customerId;
       return this;
    }
@@ -27,28 +30,38 @@ public class OrderBuilder {
       return this;
    }
 
-   public OrderBuilder withDeliveryLocation(Location location) {
+   public OrderBuilder withValidatedDeliveryLocation(Location location) {
+      if (location == null) {
+         throw new IllegalArgumentException("Delivery location cannot be null");
+      }
       this.deliveryLocation = location;
       return this;
    }
 
    public Order build() {
-      validateOrder();
+      validateOrderRequirements();
       return new Order(customerId, items, deliveryLocation, customerEmail);
    }
 
-   private void validateOrder() {
+   private void validateOrderRequirements() {
+      List<String> validationErrors = new ArrayList<>();
+
       if (customerId == null) {
-         throw new IllegalStateException("Order must have a customer ID");
+         validationErrors.add("Customer ID is required");
       }
       if (items.isEmpty()) {
-         throw new IllegalStateException("Order must contain at least one item");
+         validationErrors.add("Order must contain at least one item");
       }
       if (deliveryLocation == null) {
-         throw new IllegalStateException("Order must have a delivery location");
+         validationErrors.add("Delivery location is required");
       }
       if (customerEmail == null || customerEmail.isEmpty()) {
-         throw new IllegalStateException("Order must have a customer email");
+         validationErrors.add("Customer email is required");
+      }
+
+      if (!validationErrors.isEmpty()) {
+         throw new IllegalStateException("Order validation failed: " +
+               String.join(", ", validationErrors));
       }
    }
 }

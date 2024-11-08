@@ -55,14 +55,14 @@ public class DeliverySystem {
    }
 
    private void notifyOrderSubmission(Order order) {
-      notificationService.sendOrderConfirmation(order);
+      notificationService.sendOrderConfirmationToCustomer(order);
    }
 
    private void assignDriverIfAvailable(Order order) {
       Optional<Driver> matchedDriver = findMatchingDriver(order);
       matchedDriver.ifPresent(driver -> {
          assignOrderToDriver(order, driver);
-         notificationService.sendDriverAssigned(order, driver);
+         notificationService.sendDriverAssignmentNotification(order, driver);
       });
    }
 
@@ -95,7 +95,7 @@ public class DeliverySystem {
       Optional<Driver> driver = Optional.ofNullable(busyDrivers.get(driverId));
       driver.ifPresent(d -> {
          processDeliveryCompletion(orderId, d);
-         d.getCurrentOrder().ifPresent(notificationService::sendDeliveryComplete);
+         d.getCurrentOrder().ifPresent(order -> notificationService.sendDeliveryCompletionNotification(order));
       });
    }
 

@@ -1,77 +1,77 @@
 package rating;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Deque;
+import java.util.LinkedList;
 import java.util.Optional;
+import exceptions.QueueFullException;
 
-public class RatingsHandler implements RatingsBussinessLogic<Rating> {
-   private static final int MAX_RATINGS = 10;
-   private List<Rating> ratings;
+public class RatingsHandler<T> implements RatingsBusinessLogic<T> {
+   private final int maxRatings;
+   private final Deque<T> ratingsQueue;
 
-   public RatingsHandler() {
-      this.ratings = new ArrayList<>();
-   }
-
-   @Override
-   public void add(Rating rating) {
-      if (!rating.validate()) {
-         throw new IllegalArgumentException("Invalid rating score");
+   public RatingsHandler(int maxRatings) {
+      if (maxRatings <= 0) {
+         throw new IllegalArgumentException("Maximum ratings must be positive");
       }
+      this.maxRatings = maxRatings;
+      this.ratingsQueue = new LinkedList<>();
+   }
 
-      if (isFull()) {
-         remove(); // Remove oldest rating
+   @Override
+   public void addRating(T rating) {
+      if (rating == null) {
+         throw new IllegalArgumentException("Rating cannot be null");
       }
-      ratings.add(rating);
-   }
-
-   @Override
-   public Optional<Rating> remove() {
-      return isEmpty() ? Optional.empty() : Optional.of(ratings.remove(0));
-   }
-
-   @Override
-   public Optional<Rating> get() {
-      return isEmpty() ? Optional.empty() : Optional.of(ratings.get(0));
-   }
-
-   @Override
-   public void clear() {
-      ratings.clear();
-   }
-
-   @Override
-   public boolean isEmpty() {
-      return ratings.isEmpty();
-   }
-
-   @Override
-   public boolean isFull() {
-      return ratings.size() >= MAX_RATINGS;
-   }
-
-   @Override
-   public int size() {
-      return ratings.size();
-   }
-
-   @Override
-   public void enforceMaxSize() {
-      while (ratings.size() > MAX_RATINGS) {
-         ratings.remove(0);
+      if (isRatingQueueFull()) {
+         throw new QueueFullException("Ratings queue is at maximum capacity: " + maxRatings);
       }
+      ratingsQueue.addLast(rating);
+   }
+
+   @Override
+   public Optional<T> removeOldestRating() {
+      return Optional.ofNullable(ratingsQueue.pollFirst());
+   }
+
+   @Override
+   public Optional<T> getLatestRating() {
+      return Optional.ofNullable(ratingsQueue.peekLast());
+   }
+
+   @Override
+   public void enforceRatingQueueMaxSize() {
+      while (ratingsQueue.size() > maxRatings) {
+         ratingsQueue.removeFirst();
+      }
+   }
+
+   @Override
+   public void clearAllRatings() {
+      ratingsQueue.clear();
+   }
+
+   @Override
+   public boolean isRatingQueueEmpty() {
+      return ratingsQueue.isEmpty();
+   }
+
+   @Override
+   public boolean isRatingQueueFull() {
+      return ratingsQueue.size() >= maxRatings;
+   }
+
+   @Override
+   public int getCurrentRatingCount() {
+      return ratingsQueue.size();
    }
 
    public double calculateAverageRating() {
-      if (ratings.isEmpty()) {
+      if (ratingsQueue.isEmpty()) {
          return 0.0;
       }
-      return ratings.stream()
-            .mapToInt(Rating::getScore)
+      return ratingsQueue.stream()
+            .mapToDouble(rating -> (double) rating)
             .average()
             .orElse(0.0);
-   }
-
-   public List<Rating> getRatings() {
-      return new ArrayList<>(ratings);
    }
 }

@@ -13,7 +13,7 @@ public class Driver {
    private String vehicle;
    private String licenseNumber;
    private Location currentLocation;
-   private RatingsHandler ratings;
+   private RatingsHandler<Rating> ratings;
    private Order currentOrder;
    private boolean isAvailable;
 
@@ -22,7 +22,7 @@ public class Driver {
       this.name = name;
       this.vehicle = vehicle;
       this.licenseNumber = licenseNumber;
-      this.ratings = new RatingsHandler();
+      this.ratings = new RatingsHandler<Rating>(10);
       this.isAvailable = true;
    }
 
@@ -53,7 +53,7 @@ public class Driver {
    }
 
    public void addRating(Rating rating) {
-      ratings.add(rating);
+      ratings.addRating(rating);
    }
 
    public void completeCurrentDelivery() {
@@ -79,6 +79,16 @@ public class Driver {
    }
 
    public Location getCurrentLocation() {
+      if (currentLocation == null) {
+         throw new IllegalStateException("Driver location not set");
+      }
       return currentLocation;
+   }
+
+   public void setCurrentLocation(Location location) {
+      if (location == null) {
+         throw new IllegalArgumentException("Location cannot be null");
+      }
+      this.currentLocation = location;
    }
 }

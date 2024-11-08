@@ -40,24 +40,42 @@ public class OrderTracker implements OrderSubject {
       }
    }
 
-   public void updateOrderStatus(Long orderId, OrderStatus newStatus, Driver driver) {
-      orderStatuses.put(orderId, newStatus);
+   public void updateOrderStatus(Long orderId, OrderStatus newStatus, Driver assignedDriver) {
+      validateOrderUpdateRequest(orderId, newStatus);
+      updateStatusInDatabase(orderId, newStatus);
 
-      if (newStatus == OrderStatus.IN_DELIVERY) {
-         calculateAndUpdateEstimatedDeliveryTime(orderId, driver);
+      if (isDeliveryInProgress(newStatus)) {
+         updateDeliveryEstimates(orderId, assignedDriver);
       }
 
-      findOrderById(orderId).ifPresent(this::notifyObservers);
+      notifyObserversAboutOrderUpdate(orderId);
    }
 
-   private void calculateAndUpdateEstimatedDeliveryTime(Long orderId, Driver driver) {
-      // Calculate based on driver location, traffic, etc.
-      LocalDateTime estimatedTime = LocalDateTime.now().plusMinutes(30);
+   private void validateOrderUpdateRequest(Long orderId, OrderStatus newStatus) {
+      if (orderId == null || newStatus == null) {
+         throw new IllegalArgumentException("Order ID and status cannot be null");
+      }
+   }
+
+   private boolean isDeliveryInProgress(OrderStatus status) {
+      return status == OrderStatus.IN_DELIVERY;
+   }
+
+   private void updateStatusInDatabase(Long orderId, OrderStatus newStatus) {
+      orderStatuses.put(orderId, newStatus);
+   }
+
+   private void notifyObserversAboutOrderUpdate(Long orderId) {
+      findOrderById(orderId).ifPresent(this::notifyObserversOfUpdate);
+   }
+
+   private void updateDeliveryEstimates(Long orderId, Driver driver) {
+      LocalDateTime estimatedTime = calculateEstimatedDeliveryTime(driver);
       estimatedDeliveryTimes.put(orderId, estimatedTime);
    }
 
-   public OrderStatus getOrderStatus(Long orderId) {
-      return orderStatuses.getOrDefault(orderId, OrderStatus.PLACED);
+   public Optional<OrderStatus> getOrderStatus(Long orderId) {
+      return Optional.ofNullable(orderStatuses.get(orderId));
    }
 
    public Optional<LocalDateTime> getEstimatedDeliveryTime(Long orderId) {
@@ -66,5 +84,14 @@ public class OrderTracker implements OrderSubject {
 
    private Optional<Order> findOrderById(Long orderId) {
       return Optional.ofNullable(orders.get(orderId));
+   }
+
+   private void notifyObserversOfUpdate(Order order) {
+      notifyObservers(order);
+   }
+
+   private LocalDateTime calculateEstimatedDeliveryTime(Driver driver) {
+      // Basic calculation: current time + 30 minutes
+      return LocalDateTime.now().plusMinutes(30);
    }
 }

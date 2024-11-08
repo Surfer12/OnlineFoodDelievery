@@ -1,5 +1,7 @@
 package menu;
 
+import java.util.Optional;
+
 public abstract class MenuItem {
    private Long id;
    private String name;
@@ -44,16 +46,16 @@ public abstract class MenuItem {
       this.available = available;
    }
 
-   public String getDescription() {
-      return description;
+   public Optional<String> getDescription() {
+      return Optional.ofNullable(description);
    }
 
    public double getPrice() {
       return price;
    }
 
-   public String getCategory() {
-      return category;
+   public Optional<String> getCategory() {
+      return Optional.ofNullable(category);
    }
 
    public int getPreparationTime() {
