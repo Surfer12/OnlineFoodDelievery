@@ -65,6 +65,7 @@ public class RatingsHandler<T> implements RatingsBusinessLogic<T> {
       return ratingsQueue.size();
    }
 
+   @Override
    public double calculateAverageRating() {
       if (ratingsQueue.isEmpty()) {
          return 0.0;
@@ -73,5 +74,10 @@ public class RatingsHandler<T> implements RatingsBusinessLogic<T> {
             .mapToDouble(rating -> (double) rating)
             .average()
             .orElse(0.0);
+   }
+
+   @Override
+   public int getMaxRatings() {
+      return maxRatings;
    }
 }

@@ -172,3 +172,155 @@ The system demonstrates modern Java practices through:
 - Immutable objects where appropriate
 - Thread-safe collections (ConcurrentHashMap)
 - Clear separation of concerns
+
+## Class Diagram
+```mermaid 
+classDiagram
+    %% Menu Package
+    class MenuItem {
+        <<abstract>>
+        -Long id
+        -String name
+        -String description
+        -double price
+        -String category
+        -int preparationTime
+        -boolean available
+        +calculateTotal()
+        +updatePrice(double)
+        +isAvailable()
+        +getDetails()
+    }
+    
+    class Hamburger {
+        -List~Topping~ toppings
+        +addTopping(Topping)
+        +calculateTotal()
+    }
+    
+    class Drink {
+        -Size size
+        +calculateTotal()
+    }
+    
+    class Size {
+        <<enumeration>>
+        SMALL
+        MEDIUM
+        LARGE
+        -double priceMultiplier
+    }
+    
+    class Topping {
+        -String name
+        -double price
+    }
+
+    %% Order Package
+    class Order {
+        -Long orderId
+        -Long customerId
+        -Long driverId
+        -List~MenuItem~ items
+        -OrderStatus status
+        -double totalAmount
+        -LocalDateTime orderTime
+        -Payment payment
+        -Location deliveryLocation
+        +calculateTotal()
+        +updateStatus()
+    }
+
+    class OrderStatus {
+        <<enumeration>>
+        PLACED
+        ACCEPTED
+        IN_DELIVERY
+        DELIVERED
+    }
+
+    %% Observer Package
+    class OrderSubject {
+        <<interface>>
+        +attach(OrderObserver)
+        +detach(OrderObserver)
+        +notifyObservers(Order)
+    }
+
+    class OrderObserver {
+        <<interface>>
+        +update(Order)
+    }
+
+    class OrderTrackingService {
+        -List~OrderObserver~ observers
+        +attach(OrderObserver)
+        +detach(OrderObserver)
+        +notifyObservers(Order)
+    }
+
+    class CustomerNotifier {
+        -NotificationService notificationService
+        +update(Order)
+    }
+
+    %% User Package
+    class Customer {
+        -Long id
+        -String name
+        -String address
+        -String phone
+        -String email
+        -List~Order~ orderHistory
+        +placeOrder(List~MenuItem~)
+        +rateDriver(Driver, int, String)
+    }
+
+    class Driver {
+        -Long id
+        -String name
+        -String vehicle
+        -String licenseNumber
+        -Location currentLocation
+        -RatingsHandler ratings
+        -Order currentOrder
+        -boolean isAvailable
+        +acceptOrder(Order)
+        +completeDelivery(Order)
+    }
+
+    %% Factory Package
+    class MenuItemFactory {
+        -static long nextId
+        +createMenuItem(String, String, String, double)
+        +createCustomMenuItem(String, String, String, double, Size)
+    }
+
+    %% Main Package
+    class DeliverySystem {
+        -OrderQueue orderQueue
+        -Map~Long, Driver~ availableDrivers
+        -Map~Long, Driver~ busyDrivers
+        -OrderTracker orderTracker
+        -DriverMatchingStrategy driverMatcher
+        -NotificationService notificationService
+        +registerDriver(Driver)
+        +completeDelivery(Long, Long)
+    }
+
+    %% Relationships
+    MenuItem <|-- Hamburger
+    MenuItem <|-- Drink
+    OrderSubject <|.. OrderTrackingService
+    OrderObserver <|.. CustomerNotifier
+    MenuItemFactory ..> MenuItem
+    Order o-- MenuItem
+    Customer --> Order
+    Driver --> Order
+    DeliverySystem --> OrderQueue
+    DeliverySystem --> Driver
+    Hamburger --> Topping
+    Drink --> Size
+    Order --> OrderStatus
+    CustomerNotifier --> NotificationService
+```

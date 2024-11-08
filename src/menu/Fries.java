@@ -14,6 +14,10 @@ public class Fries extends MenuItem {
       this.seasoned = true;
    }
 
+   public Size getSize() {
+      return size;
+   }
+
    @Override
    public double calculateTotal() {
       double total = getPrice() * size.getPriceMultiplier();

@@ -1,41 +1,51 @@
 package rating;
 
 import java.util.Optional;
+import exceptions.QueueFullException;
 
-/**
- * Manages a queue of ratings with size constraints and FIFO behavior.
- * 
- * @param <T> The type of rating being managed
- */
 public interface RatingsBusinessLogic<T> {
-   /**
-    * Adds a new rating to the queue.
-    * 
-    * @throws QueueFullException if the queue is at maximum capacity
-    */
-   void addRating(T rating);
+    /**
+     * Adds a new rating to the queue.
+     * 
+     * @throws QueueFullException if the queue is at maximum capacity
+     */
+    void addRating(T rating);
 
-   /**
-    * Removes and returns the oldest rating in the queue.
-    * 
-    * @return Optional containing the oldest rating, or empty if queue is empty
-    */
-   Optional<T> removeOldestRating();
+    /**
+     * Removes and returns the oldest rating in the queue.
+     * 
+     * @return Optional containing the oldest rating, or empty if queue is empty
+     */
+    Optional<T> removeOldestRating();
 
-   /**
-    * Retrieves the most recently added rating without removing it.
-    * 
-    * @return Optional containing the newest rating, or empty if queue is empty
-    */
-   Optional<T> getLatestRating();
+    /**
+     * Retrieves the most recently added rating without removing it.
+     * 
+     * @return Optional containing the newest rating, or empty if queue is empty
+     */
+    Optional<T> getLatestRating();
 
-   void clearAllRatings();
+    void clearAllRatings();
 
-   boolean isRatingQueueEmpty();
+    boolean isRatingQueueEmpty();
 
-   boolean isRatingQueueFull();
+    boolean isRatingQueueFull();
 
-   int getCurrentRatingCount();
+    int getCurrentRatingCount();
 
-   void enforceRatingQueueMaxSize();
+    void enforceRatingQueueMaxSize();
+
+    /**
+     * Calculates the average of all ratings in the queue.
+     * 
+     * @return The average rating, or 0.0 if the queue is empty
+     */
+    double calculateAverageRating();
+
+    /**
+     * Gets the maximum number of ratings allowed in the queue.
+     * 
+     * @return The maximum capacity of the ratings queue
+     */
+    int getMaxRatings();
 }
