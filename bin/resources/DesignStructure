@@ -34,19 +34,151 @@ public abstract class MenuItem {
     }
 }
 ```
+I'll elaborate on the Abstraction section by providing detailed explanations using examples from the existing codebase:
 
 ### 2. Abstraction
 
-The system uses both interfaces and abstract classes:
+The system effectively uses both interfaces and abstract classes to hide implementation details and define contracts:
 
 1. **Interfaces**:
-- `OrderObserver`: Defines notification behavior
-- `OrderSubject`: Defines subject behavior for observer pattern
-- `DriverMatchingStrategy`: Abstracts driver matching logic
+
+a. `OrderObserver`: Defines notification behavior
+```java:src/observer/OrderObserver.java
+public interface OrderObserver {
+   public void update(Order order);
+}
+```
+This interface abstracts the notification mechanism, implemented by both CustomerNotifier and DriverNotifier classes.
+
+b. `OrderSubject`: Defines subject behavior for observer pattern
+```java:src/observer/OrderSubject.java
+public interface OrderSubject {
+    void attach(OrderObserver observer);
+    void detach(OrderObserver observer);
+    void notifyObservers(Order order);
+}
+```
+Implemented by OrderTracker and OrderTrackingService to manage observer notifications.
+
+c. `DriverMatchingStrategy`: Abstracts driver matching logic
+```java:src/matching/DriverMatchingStrategy.java
+public interface DriverMatchingStrategy {
+   Optional<Driver> findBestMatch(Order order, List<Driver> availableDrivers);
+}
+```
+Allows for different matching algorithms through implementations like ProximityBasedMatchingStrategy.
+
+d. `NotificationService`: Abstracts notification delivery
+
+```7:15:src/notification/NotificationService.java
+public interface NotificationService {
+   void sendOrderConfirmationToCustomer(Order order);
+
+   void sendDriverAssignmentNotification(Order order, Driver driver);
+
+   void sendOrderStatusUpdateToCustomer(Order order, OrderStatus newStatus);
+
+   void sendDeliveryCompletionNotification(Order order);
+}
+```
+
+
+2. **Abstract Classes**:
+
+a. `MenuItem`: Base class for all menu items
+
+```java
+5:23:src/menu/MenuItem.java
+public abstract class MenuItem {
+   private Long id;
+   private String name;
+   private String description;
+   private double price;
+   private String category;
+   private int preparationTime;
+   private boolean available;
+
+   public MenuItem(Long id, String name, String description, double price, String category, int preparationTime) {
+      this.id = id;
+      this.name = name;
+      this.description = description;
+      this.price = price;
+      this.category = category;
+      this.preparationTime = preparationTime;
+      this.available = true;
+   }
+
+```
+
+Provides common functionality while allowing specific implementations for different food items.
+
+3. **Implementation Examples**:
+
+a. CustomerNotifier implementing OrderObserver:
+
+```java
+6:17:src/observer/CustomerNotifier.java
+public class CustomerNotifier implements OrderObserver {
+   private final NotificationService notificationService;
+
+   public CustomerNotifier(NotificationService notificationService) {
+      this.notificationService = notificationService;
+   }
+
+   @Override
+   public void update(Order order) {
+      notificationService.sendOrderStatusUpdateToCustomer(order, order.getStatus());
+   }
+}
+```
+
+
+b. OrderTracker implementing OrderSubject:
+
+```java 
+14:41:src/order/OrderTracker.java
+public class OrderTracker implements OrderSubject {
+   private final Map<Long, OrderStatus> orderStatuses;
+   private final Map<Long, LocalDateTime> estimatedDeliveryTimes;
+   private final List<OrderObserver> observers;
+   private final Map<Long, Order> orders = new ConcurrentHashMap<>();
+
+   public OrderTracker() {
+      this.orderStatuses = new ConcurrentHashMap<>();
+      this.estimatedDeliveryTimes = new ConcurrentHashMap<>();
+      this.observers = new ArrayList<>();
+   }
+
+   @Override
+   public void attach(OrderObserver observer) {
+      observers.add(observer);
+   }
+
+   @Override
+   public void detach(OrderObserver observer) {
+      observers.remove(observer);
+   }
+
+   @Override
+   public void notifyObservers(Order order) {
+      for (OrderObserver observer : observers) {
+         observer.update(order);
+      }
+   }
+```
+
+
+The benefits of this abstraction approach include:
+- **Loose Coupling**: Components interact through interfaces rather than concrete implementations
+- **Flexibility**: Easy to add new implementations (e.g., new notification types or matching strategies)
+- **Maintainability**: Implementation details are hidden behind clean interfaces
+- **Testability**: Interfaces make it easy to mock components for testing
+- **Extensibility**: New functionality can be added without modifying existing code
+
+This abstraction design allows the system to be easily extended with new features while maintaining a clean and maintainable codebase.
 
 2. **Abstract Classes**:
 - `MenuItem`: Base class for all menu items with common properties
-
 ### 3. Inheritance
 
 The system uses inheritance through the MenuItem hierarchy, managed by MenuItemFactory:
