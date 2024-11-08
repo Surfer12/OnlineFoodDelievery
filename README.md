@@ -1,121 +1,86 @@
-### Plan
-1. Analyze class relationships
-2. Review design decisions
-3. Explain architecture choices
-4. Document patterns used
-
-### Class Diagram Analysis
-
-1. **Class Structure**
-- `Customer`
-  - Uses Long ID for database integration
-  - Contains personal info (name, address, phone) for delivery
-  - Methods focus on order placement and driver rating
-
-2. **Relationships**
-- Customer -(1:many)-> Order
-  - One customer can place multiple orders
-  - Orders track customer via customerID
-- Order -(many:many)-> MenuItem
-  - Orders contain multiple menu items
-  - Items can be in multiple orders
-- Driver -(1:many)-> Order
-  - One driver handles multiple orders
-  - Uses ID reference for efficiency
-
-3. **Design Patterns**
-- Observer Pattern
-  - Order status changes notify relevant parties
-- Strategy Pattern
-  - Rating system uses circular buffer strategy
-- Builder Pattern
-  - Order construction is step-by-step
-
-4. **Architecture Decisions**
-- Used IDs instead of object references
-  - Better database integration
-  - Reduced memory footprint
-  - Easier serialization
-- Circular Buffer for Ratings
-  - Efficient memory usage
-  - FIFO implementation
-  - Fixed size performance
-
-5. **Data Types**
-- Long for IDs
-  - Scalable for large datasets
-  - Standard database practice
-- DateTime for timestamps
-  - Precise order tracking
-  - Timezone handling
-
-This architecture supports:
-- Scalability
-- Maintainability
-- Database integration
-- Clean separation of concerns
-
-
 # Online Food Delivery System
 
-This project is an online food delivery system that allows customers to place orders, rate drivers, and manage menu items. It is structured using Java and follows object-oriented principles.
+A Java-based food delivery system implementing core OOP principles and efficient data structures.
 
-## Features
+## Core Features
 
-- **Customer Management**: Customers can place orders and rate drivers.
-- **Order Processing**: Orders are managed with statuses and can contain multiple menu items.
-- **Driver Management**: Drivers can accept orders and have ratings stored in a circular buffer.
-- **Menu Management**: Menu items can be created and managed, with the ability to extend for specific items.
-- **Payment Integration**
-    - Supports multiple payment methods (credit card, PayPal, etc.)
-    - Secure transaction processing
-    - Order confirmation upon successful payment
+- **Order Management**: Place and track orders for hamburgers, fries, and drinks
+- **Delivery Handling**: Driver assignment and delivery status tracking
+- **Rating System**: Customer ratings for drivers using circular buffer (max 10 ratings)
+- **FIFO Order Processing**: Orders processed in sequence received
 
-## Usage of IDs rather than just names. 
+## Implementation Details
 
-- Create a `Customer` object to place orders and rate drivers.
-- Use the `Order` class to manage order details and statuses.
-- Implement the `Driver` class to handle order acceptance and rating updates.
-- Define `MenuItem` objects for the available food items.
-- **Integrate `Payment` objects to handle transactions**
+### Code Structure & Documentation
+1. **Clear Class Responsibilities**
+   - Each class has a single, well-defined purpose
+   - Methods are concise and focused
+   - Maximum 80 characters per line for readability
 
-Let's analyze why we use ID fields step by step:
+2. **Naming Conventions**
+   - Classes: PascalCase (e.g., `MenuItem`, `RatingsHandler`)
+   - Methods: camelCase (e.g., `placeOrder`, `addRating`)
+   - Variables: descriptive names that explain purpose
 
-1. **Database Integration**
-   - IDs serve as primary keys in databases
-   - Enable unique identification of each entity
-   - Essential for persistence and data retrieval
+3. **Documentation**
+   - Class-level comments explaining purpose
+   - Method documentation for public APIs
+   - Inline comments explaining complex logic
 
-2. **Relationship Management**
-   - Allows referencing entities across the system
-   - `Order` can reference `Customer` and `Driver` through their IDs
-   - More efficient than storing entire objects
+### Data Structures
+- **Circular Buffer**: For driver ratings (fixed size: 10)
+  ```java
+  class RatingsHandler {
+      private List<Rating> ratings; // Max size 10
+      public void add(Rating rating) {
+          if (ratings.size() >= 10) {
+              ratings.remove(0); // Remove oldest
+          }
+          ratings.add(rating);
+      }
+  }
+  ```
 
-3. **Performance Benefits**
-   - Faster lookups using numeric IDs vs other fields
-   - Smaller memory footprint than using full objects
-   - Efficient indexing in databases
+- **Queue**: FIFO order processing
+  ```java
+  class OrderQueue {
+      private Queue<Order> pendingOrders;
+      public void addOrder(Order order) {
+          pendingOrders.offer(order);
+      }
+  }
+  ```
 
-4. **Data Integrity**
-   - Ensures each entity is uniquely identifiable
-   - Prevents duplicate entries
-   - Simplifies data validation
+### OOP Principles
+1. **Encapsulation**
+   - Private fields with getter/setter methods
+   - Internal implementation hidden from external classes
 
-5. **Best Practices**
-   - Standard practice in enterprise applications
-   - Follows database normalization principles
-   - Enables scalability of the system
+2. **Inheritance**
+   ```java
+   abstract class MenuItem {
+       protected double price;
+       public abstract double calculateTotal();
+   }
+   
+   class Hamburger extends MenuItem {
+       public double calculateTotal() {
+           return price + toppings.stream()
+                   .mapToDouble(Topping::getPrice)
+                   .sum();
+       }
+   }
+   ```
 
-Therefore, IDs are essential for:
-- Database integration
-- Entity relationships
-- System performance
-- Data integrity
-- Scalability
+3. **Polymorphism**
+   - Order processing varies by menu item type
+   - Rating system implements common interface
 
+4. **Abstraction**
+   - Clear interfaces for order and delivery operations
+   - Complex operations hidden behind simple methods
 
-## Class Diagram
-
+### Class Diagram
 ```mermaid
 classDiagram
     class Customer {
@@ -136,7 +101,7 @@ classDiagram
         -List~MenuItem~ items
         -OrderStatus status
         -double totalAmount
-        -DateTime orderTime
+        -LocalDateTime orderTime
         +addItem(MenuItem item) void
         +removeItem(MenuItem item) void
         +calculateTotal() double
@@ -173,7 +138,7 @@ classDiagram
         -Long driverId
         -int score
         -String comment
-        -DateTime timestamp
+        -LocalDateTime timestamp
         +validate() boolean
         +getRatingDetails() String
     }
@@ -191,7 +156,7 @@ classDiagram
         -Long orderId
         -String paymentMethod
         -double amount
-        -DateTime paymentTime
+        -LocalDateTime paymentTime
         +processPayment() boolean
         +refundPayment() boolean
     }
@@ -204,3 +169,9 @@ classDiagram
     Order --> OrderStatus : has
     Order "1" --> "1" Payment : includes
 ```
+
+## Development Timeline
+- **Nov 8**: Initial design submission
+- **Nov 14**: Design revision
+- **Nov 21**: Core implementation demo
+- **Dec 5**: Final system demonstration
