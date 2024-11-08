@@ -1,18 +1,15 @@
-I'll help create a detailed markdown explanation of the design and OOP principles based on the provided codebase.
-
 # Online Food Delivery System Design Documentation
 
 ## Class Structure and Relationships
 
-The system is designed with clear separation of concerns and follows object-oriented principles. The class diagram (shown in README.md, lines 68-155) illustrates the following key components:
+The system is designed with clear separation of concerns and follows object-oriented principles:
 
 ### Core Classes
 1. **Customer**: Manages customer information and order placement
-2. **Driver**: Handles delivery operations and rating management
+2. **Driver**: Handles delivery operations, location tracking, and rating management
 3. **Order**: Processes order details and status tracking
-4. **MenuItem**: Base class for food items
-5. **Payment**: Handles payment processing
-6. **Rating**: Manages driver ratings
+4. **MenuItem**: Base class for food items with size and customization options
+5. **OrderTracker**: Manages order status updates and notifications
 
 ## OOP Principles Implementation
 
@@ -20,160 +17,112 @@ The system is designed with clear separation of concerns and follows object-orie
 
 The codebase demonstrates strong encapsulation through:
 
-- Private fields with public getters/setters
-- Data hiding within classes
-
-Example from Order class:
+Example from MenuItem class:
 ```java
-private Long orderId;
-private Long customerId;
-private List<MenuItem> items;
+public abstract class MenuItem {
+    private Long id;
+    private String name;
+    private String description;
+    private double price;
+    private String category;
+    private int preparationTime;
+    private boolean available;
 
-public Long getOrderId() {
-    return orderId;
-}
-
-public List<MenuItem> getItems() {
-    return new ArrayList<>(items); // Returns copy to protect internal state
+    // Controlled access through Optional
+    public Optional<String> getDescription() {
+        return Optional.ofNullable(description);
+    }
 }
 ```
 
 ### 2. Abstraction
 
-Abstraction is implemented through:
+The system uses both interfaces and abstract classes:
 
 1. **Interfaces**:
-- `QueueOperations`: Defines queue behavior (lines 1-15 in QueueOperations.java)
-- `NotificationService`: Abstracts notification handling (lines 1-15 in NotificationService.java)
+- `OrderObserver`: Defines notification behavior
+- `OrderSubject`: Defines subject behavior for observer pattern
 - `DriverMatchingStrategy`: Abstracts driver matching logic
 
 2. **Abstract Classes**:
-- `MenuItem`: Base class for all menu items with common properties and abstract methods:
-```java
-public abstract class MenuItem {
-    private String name;
-    private double price;
-    public abstract double calculateTotal();
-}
-```
+- `MenuItem`: Base class for all menu items with common properties
 
 ### 3. Inheritance
 
-The system uses inheritance to create specialized versions of base classes:
+The system uses inheritance through the MenuItem hierarchy, managed by MenuItemFactory:
 
-1. **Menu Items Hierarchy**:
-- Base: MenuItem (abstract)
-- Subclasses:
-  - Hamburger (lines 1-24 in Hamburger.java)
-  - Drink (lines 1-15 in Drink.java)
-  - Fries (lines 1-22 in Fries.java)
-
-Each subclass extends the base MenuItem class and implements its own `calculateTotal()` method.
-
-### 4. Polymorphism
-
-Polymorphism is demonstrated through:
-
-1. **Method Overriding**:
-- Different MenuItem implementations provide their own calculateTotal() logic:
-  - Hamburger: Includes toppings in calculation
-  - Drink: Uses size multiplier
-  - Fries: Considers size and seasoning
-
-2. **Interface Implementation**:
-- Multiple implementations of interfaces:
-  - EmailNotificationService implements NotificationService
-  - ProximityBasedMatchingStrategy implements DriverMatchingStrategy
-
-Example from ProximityBasedMatchingStrategy.java (lines 14-24):
 ```java
-@Override
-public Optional<Driver> findBestMatch(Order order, List<Driver> availableDrivers) {
-    // Implementation specific to proximity-based matching
+public MenuItem createMenuItem(String type, String name, String description, double basePrice) {
+    return switch (type.toLowerCase()) {
+        case "hamburger" -> new Hamburger(nextId++, name, description, basePrice);
+        case "drink" -> new Drink(nextId++, name, description, basePrice, Size.MEDIUM);
+        case "fries" -> new Fries(nextId++, name, description, basePrice, Size.MEDIUM);
+        default -> throw new IllegalArgumentException("Unknown menu item type: " + type);
+    };
 }
 ```
 
-I'll help expand the Design Patterns section with more detailed explanations and code examples.
+### 4. Polymorphism
 
-````markdown:src/resources/DesignStructure
+Demonstrated through:
+
+1. **Interface Implementation**:
+```java
+public class CustomerNotifier implements OrderObserver {
+    private final NotificationService notificationService;
+
+    @Override
+    public void update(Order order) {
+        notificationService.sendOrderStatusUpdateToCustomer(order, order.getStatus());
+    }
+}
+```
+
+2. **Method Overriding**: Different implementations for different menu items and strategies
+
 ## Design Patterns
 
-The system implements several design patterns to promote flexibility, maintainability, and loose coupling:
+### 1. Builder Pattern
 
-### 1. Strategy Pattern
+Used for complex order construction with validation:
 
-Used to define a family of algorithms and make them interchangeable. In our system, this is primarily implemented through driver matching strategies.
+```java
+public class OrderBuilder {
+    private Long customerId;
+    private List<MenuItem> items = new ArrayList<>();
+    private Location deliveryLocation;
+    private String customerEmail;
 
-#### Implementation Example:
+    public OrderBuilder withValidatedCustomerId(Long customerId) {
+        if (customerId == null || customerId <= 0) {
+            throw new IllegalArgumentException("Invalid customer ID");
+        }
+        this.customerId = customerId;
+        return this;
+    }
 
-````java
-// Interface defining the strategy
-public interface DriverMatchingStrategy {
-    Optional<Driver> findBestMatch(Order order, List<Driver> availableDrivers);
-}
+    // Additional builder methods...
 
-// Concrete strategy implementations
-public class ProximityBasedMatchingStrategy implements DriverMatchingStrategy {
-    @Override
-    public Optional<Driver> findBestMatch(Order order, List<Driver> availableDrivers) {
-        // Match drivers based on proximity to restaurant/customer
-        return availableDrivers.stream()
-            .min((d1, d2) -> compareDistance(d1, d2, order));
+    public Order build() {
+        validateOrderRequirements();
+        return new Order(customerId, items, deliveryLocation, customerEmail);
     }
 }
-
-public class RatingBasedMatchingStrategy implements DriverMatchingStrategy {
-    @Override
-    public Optional<Driver> findBestMatch(Order order, List<Driver> availableDrivers) {
-        // Match drivers based on their rating
-        return availableDrivers.stream()
-            .filter(driver -> driver.getRating() >= 4.0)
-            .findFirst();
-    }
-}
-
-// Strategy usage in delivery service
-public class DeliveryService {
-    private DriverMatchingStrategy matchingStrategy;
-    
-    public void setMatchingStrategy(DriverMatchingStrategy strategy) {
-        this.matchingStrategy = strategy;
-    }
-    
-    public Optional<Driver> assignDriver(Order order, List<Driver> availableDrivers) {
-        return matchingStrategy.findBestMatch(order, availableDrivers);
-    }
-}
-````
+```
 
 ### 2. Observer Pattern
 
-Implemented to handle real-time notifications for order status updates. This pattern allows multiple subscribers (customer, driver, restaurant) to receive updates about order status changes.
+Implemented for order tracking and notifications:
 
-#### Implementation Example:
-
-````java
-// Subject interface
-public interface OrderSubject {
-    void attach(OrderObserver observer);
-    void detach(OrderObserver observer);
-    void notifyObservers(Order order);
-}
-
-// Observer interface
-public interface OrderObserver {
-    void update(Order order);
-}
-
-// Concrete implementation
-public class OrderTracker implements OrderSubject {
+```java
+public class OrderTrackingService implements OrderSubject {
     private List<OrderObserver> observers = new ArrayList<>();
-    
+
     @Override
     public void attach(OrderObserver observer) {
         observers.add(observer);
     }
-    
+
     @Override
     public void notifyObservers(Order order) {
         for (OrderObserver observer : observers) {
@@ -181,88 +130,45 @@ public class OrderTracker implements OrderSubject {
         }
     }
 }
-
-// Concrete observers
-public class CustomerNotifier implements OrderObserver {
-    @Override
-    public void update(Order order) {
-        // Notify customer about order status change
-    }
-}
-
-public class DriverNotifier implements OrderObserver {
-    @Override
-    public void update(Order order) {
-        // Notify driver about order status change
-    }
-}
-````
+```
 
 ### 3. Factory Pattern
 
-Used for creating different types of menu items while encapsulating the creation logic.
+Used for creating menu items with consistent ID generation:
 
-#### Implementation Example:
-
-````java
+```java
 public class MenuItemFactory {
-    public MenuItem createMenuItem(String type, String name, double basePrice) {
+    private static long nextId = 1;
+
+    public MenuItem createMenuItem(String type, String name, String description, double basePrice) {
         return switch (type.toLowerCase()) {
-            case "hamburger" -> new Hamburger(name, basePrice);
-            case "drink" -> new Drink(name, basePrice);
-            case "fries" -> new Fries(name, basePrice);
+            case "hamburger" -> new Hamburger(nextId++, name, description, basePrice);
+            case "drink" -> new Drink(nextId++, name, description, basePrice, Size.MEDIUM);
+            case "fries" -> new Fries(nextId++, name, description, basePrice, Size.MEDIUM);
             default -> throw new IllegalArgumentException("Unknown menu item type: " + type);
         };
     }
 }
+```
 
-// Usage
-MenuItemFactory factory = new MenuItemFactory();
-MenuItem burger = factory.createMenuItem("hamburger", "Classic Burger", 9.99);
-MenuItem drink = factory.createMenuItem("drink", "Cola", 2.99);
-````
+### 4. Strategy Pattern
 
-### 4. Builder Pattern
+Used for flexible driver matching algorithms:
 
-Implemented for complex object construction, particularly for orders with multiple items and customizations.
-
-#### Implementation Example:
-
-````java
-public class OrderBuilder {
-    private Order order = new Order();
-    
-    public OrderBuilder withCustomer(Customer customer) {
-        order.setCustomerId(customer.getId());
-        return this;
-    }
-    
-    public OrderBuilder addItem(MenuItem item) {
-        order.getItems().add(item);
-        return this;
-    }
-    
-    public OrderBuilder withDeliveryAddress(Address address) {
-        order.setDeliveryAddress(address);
-        return this;
-    }
-    
-    public Order build() {
-        // Validate order
-        if (order.getCustomerId() == null) {
-            throw new IllegalStateException("Order must have a customer");
-        }
-        return order;
-    }
+```java
+public interface DriverMatchingStrategy {
+    Optional<Driver> findBestMatch(Order order, List<Driver> availableDrivers);
 }
 
-// Usage
-Order order = new OrderBuilder()
-    .withCustomer(customer)
-    .addItem(burger)
-    .addItem(fries)
-    .withDeliveryAddress(address)
-    .build();
-````
+// Implementation in ProximityBasedMatchingStrategy
+public Optional<Driver> findBestMatch(Order order, List<Driver> availableDrivers) {
+    // Implementation specific to proximity-based matching
+}
+```
 
-These design patterns work together to create a flexible and maintainable system that can be easily extended with new features while maintaining loose coupling between components.
+The system demonstrates modern Java practices through:
+- Use of Optional for null safety
+- Strong validation in builders
+- Immutable objects where appropriate
+- Thread-safe collections (ConcurrentHashMap)
+- Clear separation of concerns

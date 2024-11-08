@@ -3,8 +3,6 @@ package observer;
 import java.util.ArrayList;
 import java.util.List;
 import order.Order;
-import observer.OrderSubject;
-import observer.OrderObserver;
 
 public class OrderTrackingService implements OrderSubject {
    private List<OrderObserver> observers = new ArrayList<>();
