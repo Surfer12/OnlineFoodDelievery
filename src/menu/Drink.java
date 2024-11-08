@@ -1,10 +1,5 @@
 package menu;
 
-import java.util.List;
-
-import menu.MenuItem;
-import menu.Size;
-
 public class Drink extends MenuItem {
    private Size size;
 

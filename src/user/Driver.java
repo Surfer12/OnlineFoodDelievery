@@ -34,6 +34,19 @@ public class Driver {
       order.updateStatus(OrderStatus.DELIVERED);
    }
 
+   public void setCurrentOrder(Order order) {
+      this.currentOrder = order;
+      this.isAvailable = false;
+   }
+
+   public Order getCurrentOrder() {
+      return currentOrder;
+   }
+
+   public boolean isAvailable() {
+      return isAvailable;
+   }
+
    public double getAverageRating() {
       return ratings.calculateAverageRating();
    }

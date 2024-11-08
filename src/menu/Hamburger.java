@@ -3,9 +3,6 @@ package menu;
 import java.util.ArrayList;
 import java.util.List;
 
-import menu.MenuItem;
-import menu.Topping;
-
 public class Hamburger extends MenuItem {
    private List<Topping> toppings;
 
