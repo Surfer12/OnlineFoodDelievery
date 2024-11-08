@@ -1,11 +1,13 @@
 package queue;
 
+import java.util.Optional;
+
 public interface QueueOperations<T> {
    void enqueue(T item);
 
-   T dequeue();
+   Optional<T> dequeue();
 
-   T peek();
+   Optional<T> peek();
 
    boolean isEmpty();
 

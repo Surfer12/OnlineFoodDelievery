@@ -3,6 +3,7 @@ package queue;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Optional;
 import java.util.Queue;
 
 import order.Order;
@@ -30,13 +31,13 @@ public class OrderQueue implements QueueOperations<Order> {
    }
 
    @Override
-   public Order dequeue() {
-      return orders.poll();
+   public Optional<Order> dequeue() {
+      return Optional.ofNullable(orders.poll());
    }
 
    @Override
-   public Order peek() {
-      return orders.peek();
+   public Optional<Order> peek() {
+      return Optional.ofNullable(orders.peek());
    }
 
    @Override

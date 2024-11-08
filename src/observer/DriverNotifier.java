@@ -1,0 +1,19 @@
+package observer;
+
+import order.Order;
+import notification.NotificationService;
+
+public class DriverNotifier implements OrderObserver {
+   private final NotificationService notificationService;
+
+   public DriverNotifier(NotificationService notificationService) {
+      this.notificationService = notificationService;
+   }
+
+   @Override
+   public void update(Order order) {
+      if (order.getDriverId() != null) {
+         notificationService.sendOrderStatusUpdate(order, order.getStatus());
+      }
+   }
+}

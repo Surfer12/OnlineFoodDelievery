@@ -5,6 +5,7 @@ import order.OrderStatus;
 import location.Location;
 import rating.Rating;
 import rating.RatingsHandler;
+import java.util.Optional;
 
 public class Driver {
    private Long id;
@@ -39,8 +40,8 @@ public class Driver {
       this.isAvailable = false;
    }
 
-   public Order getCurrentOrder() {
-      return currentOrder;
+   public Optional<Order> getCurrentOrder() {
+      return Optional.ofNullable(currentOrder);
    }
 
    public boolean isAvailable() {

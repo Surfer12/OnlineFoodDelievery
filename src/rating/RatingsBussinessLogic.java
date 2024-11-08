@@ -1,11 +1,13 @@
 package rating;
 
+import java.util.Optional;
+
 public interface RatingsBussinessLogic<T> {
     void add(T element);
 
-    T remove();
+    Optional<T> remove();
 
-    T get();
+    Optional<T> get();
 
     void clear();
 

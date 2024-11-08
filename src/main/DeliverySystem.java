@@ -13,12 +13,20 @@ import exceptions.PaymentException;
 import exceptions.OrderProcessingException;
 import notification.NotificationService;
 import notification.EmailNotificationService;
+import factory.MenuItemFactory;
+import menu.MenuItem;
+import menu.Size;
+import builder.OrderBuilder;
+import location.Location;
+import observer.OrderSubject;
+import observer.OrderObserver;
+import order.OrderTracker;
 
 public class DeliverySystem {
    private final queue.OrderQueue orderQueue;
    private final Map<Long, Driver> availableDrivers;
    private final Map<Long, Driver> busyDrivers;
-   private final order.OrderTracker orderTracker;
+   private final OrderTracker orderTracker;
    private final matching.DriverMatchingStrategy driverMatcher;
    private final NotificationService notificationService;
 
@@ -26,7 +34,7 @@ public class DeliverySystem {
       this.orderQueue = new queue.OrderQueue(10);
       this.availableDrivers = new ConcurrentHashMap<>();
       this.busyDrivers = new ConcurrentHashMap<>();
-      this.orderTracker = new order.OrderTracker();
+      this.orderTracker = new OrderTracker();
       this.driverMatcher = new matching.ProximityBasedMatchingStrategy();
       this.notificationService = new EmailNotificationService();
    }
@@ -84,11 +92,11 @@ public class DeliverySystem {
    }
 
    public void completeDelivery(Long orderId, Long driverId) {
-      Driver driver = busyDrivers.get(driverId);
-      if (driver != null) {
-         processDeliveryCompletion(orderId, driver);
-         notificationService.sendDeliveryComplete(driver.getCurrentOrder());
-      }
+      Optional<Driver> driver = Optional.ofNullable(busyDrivers.get(driverId));
+      driver.ifPresent(d -> {
+         processDeliveryCompletion(orderId, d);
+         d.getCurrentOrder().ifPresent(notificationService::sendDeliveryComplete);
+      });
    }
 
    private void processDeliveryCompletion(Long orderId, Driver driver) {

@@ -2,6 +2,7 @@ package rating;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 public class RatingsHandler implements RatingsBussinessLogic<Rating> {
    private static final int MAX_RATINGS = 10;
@@ -24,13 +25,13 @@ public class RatingsHandler implements RatingsBussinessLogic<Rating> {
    }
 
    @Override
-   public Rating remove() {
-      return ratings.isEmpty() ? null : ratings.remove(0); // Remove oldest rating
+   public Optional<Rating> remove() {
+      return isEmpty() ? Optional.empty() : Optional.of(ratings.remove(0));
    }
 
    @Override
-   public Rating get() {
-      return ratings.isEmpty() ? null : ratings.get(0);
+   public Optional<Rating> get() {
+      return isEmpty() ? Optional.empty() : Optional.of(ratings.get(0));
    }
 
    @Override
