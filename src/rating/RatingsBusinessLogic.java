@@ -1,4 +1,4 @@
-package com.example.rating;
+package rating;
 
 public interface RatingsBusinessLogic<T> {
    void add(T element);

@@ -1,4 +1,4 @@
-package main.java.com.example.rating;
+package rating;
 
 import java.util.ArrayList;
 import java.util.List;

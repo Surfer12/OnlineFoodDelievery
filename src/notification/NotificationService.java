@@ -1,3 +1,8 @@
+package notification;
+
+import order.Order;
+import user.Driver;
+
 public interface NotificationService {
    void sendOrderConfirmation(Order order);
 

@@ -1,6 +1,6 @@
-package main.java.com.example.rating;
+package rating;
 
-public interface RatingsBussinessLogic<T> {
+public interface RatingsBusinessLogic<T> {
     void add(T element);
 
     T remove();

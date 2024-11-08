@@ -1,9 +1,10 @@
+package main;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-import main.java.com.example.order.Order;
-import main.java.com.example.user.Driver;
+import order.Order;
+import user.Driver;
 
 import java.util.ArrayList;
 import java.util.Optional;

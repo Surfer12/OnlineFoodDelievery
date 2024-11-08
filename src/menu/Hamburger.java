@@ -1,4 +1,4 @@
-package com.example.menu;
+package menu;
 
 import java.util.ArrayList;
 import java.util.List;

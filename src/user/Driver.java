@@ -1,10 +1,10 @@
-package main.java.com.example.user;
+package user;
 
-import main.java.com.example.OrderStatus;
-import main.java.com.example.location.Location;
-import main.java.com.example.order.Order;
-import main.java.com.example.rating.Rating;
-import main.java.com.example.rating.RatingsHandler;
+import order.Order;
+import order.OrderStatus;
+import location.Location;
+import rating.Rating;
+import rating.RatingsHandler;
 
 public class Driver {
    private Long id;

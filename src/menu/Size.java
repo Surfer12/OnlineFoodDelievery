@@ -1,3 +1,5 @@
+package menu;
+
 public enum Size {
    SMALL(0.8),
    MEDIUM(1.0),

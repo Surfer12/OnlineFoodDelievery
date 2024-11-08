@@ -1,3 +1,5 @@
+package queue;
+
 public interface QueueOperations<T> {
    void enqueue(T item);
 

@@ -1,3 +1,8 @@
+package notification;
+
+import order.Order;
+import user.Driver;
+
 public class EmailNotificationService implements NotificationService {
    @Override
    public void sendOrderConfirmation(Order order) {

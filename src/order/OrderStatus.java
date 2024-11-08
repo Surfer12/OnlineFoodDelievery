@@ -1,4 +1,4 @@
-package main.java.com.example;
+package order;
 
 public enum OrderStatus {
     PLACED,

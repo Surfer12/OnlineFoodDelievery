@@ -1,4 +1,4 @@
-package main.java.com.example.payment;
+package payment;
 
 import java.time.LocalDateTime;
 

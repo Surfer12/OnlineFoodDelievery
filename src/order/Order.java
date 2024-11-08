@@ -1,13 +1,13 @@
-package main.java.com.example.order;
+package order;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
-import main.java.com.example.OrderStatus;
-import main.java.com.example.location.Location;
-import main.java.com.example.menu.MenuItem;
-import main.java.com.example.payment.Payment;
+import order.OrderStatus;
+import location.Location;
+import menu.MenuItem;
+import payment.Payment;
 
 public class Order {
    private Long orderId;

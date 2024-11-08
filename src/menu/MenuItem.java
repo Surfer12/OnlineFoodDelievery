@@ -1,4 +1,4 @@
-package main.java.com.example.menu;
+package menu;
 
 public class MenuItem {
    private Long id;

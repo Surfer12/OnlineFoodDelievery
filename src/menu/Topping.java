@@ -1,3 +1,5 @@
+package menu;
+
 public class Topping {
    private String name;
    private double price;

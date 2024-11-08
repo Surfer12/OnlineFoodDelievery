@@ -1,11 +1,11 @@
-package main.java.com.example.user;
+package user;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import main.java.com.example.menu.MenuItem;
-import main.java.com.example.order.Order;
-import main.java.com.example.rating.Rating;
+import menu.MenuItem;
+import order.Order;
+import rating.Rating;
 
 public class Customer {
    private Long id;
