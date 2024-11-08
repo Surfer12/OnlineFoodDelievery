@@ -1,24 +1,44 @@
 package main.java.com.example;
 
+import java.util.ArrayList;
+import java.util.List;
 
 public class Customer {
+    private Long id;
     private String name;
     private String address;
     private String phone;
+    private String email;
+    private List<Order> orderHistory;
 
-    public Customer(String name, String address, String phone) {
+    public Customer(Long id, String name, String address, String phone, String email) {
+        this.id = id;
         this.name = name;
         this.address = address;
         this.phone = phone;
+        this.email = email;
+        this.orderHistory = new ArrayList<>();
     }
 
-    public void placeOrder(Order order) {
-        // Implementation for placing an order
+    public Order placeOrder(List<MenuItem> items) {
+        Order order = new Order(this.id, items);
+        orderHistory.add(order);
+        return order;
     }
 
-    public void rateDriver(Driver driver, int rating) {
-        // Implementation for rating a driver
+    public void rateDriver(Driver driver, int score, String comment) {
+        Rating rating = new Rating(this.id, driver.getId(), score, comment);
+        driver.addRating(rating);
     }
 
-    // Getters and Setters (if needed)
+    public List<Order> getOrderHistory() {
+        return new ArrayList<>(orderHistory);
+    }
+
+    // Getters
+    public Long getId() { return id; }
+    public String getName() { return name; }
+    public String getAddress() { return address; }
+    public String getPhone() { return phone; }
+    public String getEmail() { return email; }
 }

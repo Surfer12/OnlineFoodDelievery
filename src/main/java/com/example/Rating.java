@@ -1,25 +1,36 @@
 package main.java.com.example;
 
-public class Rating extends RatingsHandler<Integer> {
-    private Driver driver;
+import java.time.LocalDateTime;
+
+public class Rating {
+    private Long id;
+    private Long customerId;
+    private Long driverId;
     private int score;
-    private String comments;
+    private String comment;
+    private LocalDateTime timestamp;
 
-    public Rating(Driver driver, int score, String comments) {
-        this.driver = driver;
+    public Rating(Long customerId, Long driverId, int score, String comment) {
+        this.customerId = customerId;
+        this.driverId = driverId;
         this.score = score;
-        this.comments = comments;
+        this.comment = comment;
+        this.timestamp = LocalDateTime.now();
     }
 
-    public Driver getDriver() {
-        return driver;
+    public boolean validate() {
+        return score >= 1 && score <= 5;
     }
 
-    public int getScore() {
-        return score;
+    public String getRatingDetails() {
+        return String.format("Rating: %d/5 - %s", score, comment);
     }
 
-    public String getComments() {
-        return comments;
-    }
+    // Getters
+    public Long getId() { return id; }
+    public Long getCustomerId() { return customerId; }
+    public Long getDriverId() { return driverId; }
+    public int getScore() { return score; }
+    public String getComment() { return comment; }
+    public LocalDateTime getTimestamp() { return timestamp; }
 }

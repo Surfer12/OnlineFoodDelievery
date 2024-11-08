@@ -1,31 +1,42 @@
 package main.java.com.example;
 
 public class Driver {
+    private Long id;
     private String name;
     private String vehicle;
-    private RatingsHandler<Integer> ratings = new RatingsHandler<>();
+    private String licenseNumber;
+    private Location currentLocation;
+    private RatingsHandler ratings;
 
-    public Driver(String name, String vehicle) {
+    public Driver(Long id, String name, String vehicle, String licenseNumber) {
+        this.id = id;
         this.name = name;
         this.vehicle = vehicle;
-        this.ratings = new RatingsHandler<>();
+        this.licenseNumber = licenseNumber;
+        this.ratings = new RatingsHandler();
     }
 
     public void acceptOrder(Order order) {
-        // Logic to accept an order
+        order.setDriverId(this.id);
+        order.updateStatus(OrderStatus.ACCEPTED);
     }
 
-    public void updateRating(int rating) {
-        ratings.add(rating); 
-        ratings.enforceMaxSize();
+    public void completeDelivery(Order order) {
+        order.updateStatus(OrderStatus.DELIVERED);
     }
 
-    // Getters and setters
-    public String getName() {
-        return name;
+    public double getAverageRating() {
+        return ratings.calculateAverageRating();
     }
 
-    public String getVehicle() {
-        return vehicle;
+    public void addRating(Rating rating) {
+        ratings.add(rating);
     }
+
+    // Getters
+    public Long getId() { return id; }
+    public String getName() { return name; }
+    public String getVehicle() { return vehicle; }
+    public String getLicenseNumber() { return licenseNumber; }
+    public Location getCurrentLocation() { return currentLocation; }
 }
