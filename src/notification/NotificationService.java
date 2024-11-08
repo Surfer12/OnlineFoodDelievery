@@ -1,6 +1,7 @@
 package notification;
 
 import order.Order;
+import order.OrderStatus;
 import user.Driver;
 
 public interface NotificationService {

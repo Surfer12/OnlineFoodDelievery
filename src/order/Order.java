@@ -8,6 +8,8 @@ import order.OrderStatus;
 import location.Location;
 import menu.MenuItem;
 import payment.Payment;
+import exceptions.ValidationException;
+import exceptions.PaymentException;
 
 public class Order {
    private Long orderId;

@@ -1,6 +1,6 @@
 package rating;
 
-public interface RatingsBusinessLogic<T> {
+public interface RatingsBussinessLogic<T> {
     void add(T element);
 
     T remove();

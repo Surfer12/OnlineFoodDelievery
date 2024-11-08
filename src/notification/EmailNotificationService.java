@@ -2,6 +2,7 @@ package notification;
 
 import order.Order;
 import user.Driver;
+import order.OrderStatus;
 
 public class EmailNotificationService implements NotificationService {
    @Override
@@ -23,8 +24,20 @@ public class EmailNotificationService implements NotificationService {
       sendEmail(order.getCustomerEmail(), "Driver Assigned", message);
    }
 
+   @Override
+   public void sendOrderStatusUpdate(Order order, OrderStatus newStatus) {
+      String message = String.format("Order #%d status updated: %s", order.getOrderId(), newStatus);
+      sendEmail(order.getCustomerEmail(), "Order Status Update", message);
+   }
+
+   @Override
+   public void sendDeliveryComplete(Order order) {
+      String message = String.format("Order #%d has been delivered.", order.getOrderId());
+      sendEmail(order.getCustomerEmail(), "Delivery Complete", message);
+   }
+
    private void sendEmail(String email, String subject, String message) {
-      // Implementation for sending emails
-      // This would typically integrate with an email service
+      System.out.printf("Sending email to %s%nSubject: %s%nMessage: %s%n",
+            email, subject, message);
    }
 }

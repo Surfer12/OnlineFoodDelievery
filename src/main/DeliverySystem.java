@@ -10,18 +10,18 @@ import java.util.ArrayList;
 import java.util.Optional;
 
 public class DeliverySystem {
-   private final OrderQueue orderQueue;
+   private final queue.OrderQueue orderQueue;
    private final Map<Long, Driver> availableDrivers;
    private final Map<Long, Driver> busyDrivers;
-   private final OrderTracker orderTracker;
-   private final DriverMatchingStrategy driverMatcher;
+   private final order.OrderTracker orderTracker;
+   private final matching.DriverMatchingStrategy driverMatcher;
 
    public DeliverySystem() {
-      this.orderQueue = new OrderQueue(100); // Max 100 orders in queue
+      this.orderQueue = new queue.OrderQueue(10); // Max 10 orders in queue
       this.availableDrivers = new ConcurrentHashMap<>();
       this.busyDrivers = new ConcurrentHashMap<>();
-      this.orderTracker = new OrderTracker();
-      this.driverMatcher = new ProximityBasedMatchingStrategy();
+      this.orderTracker = new order.OrderTracker();
+      this.driverMatcher = new matching.ProximityBasedMatchingStrategy();
    }
 
    public void submitOrder(Order order) {
@@ -29,9 +29,9 @@ public class DeliverySystem {
          order.processPayment("CREDIT_CARD"); // Process payment first
          orderQueue.enqueue(order); // Then add to queue
          attemptToAssignDriver(order);
-      } catch (ValidationException | PaymentException e) {
+      } catch (validation.ValidationException | exceptions.PaymentException e) {
          // Handle exceptions appropriately
-         throw new OrderProcessingException("Failed to submit order: " + e.getMessage());
+         throw new exceptions.OrderProcessingException("Failed to submit order: " + e.getMessage());
       }
    }
 
@@ -47,7 +47,7 @@ public class DeliverySystem {
       driver.acceptOrder(order);
       availableDrivers.remove(driver.getId());
       busyDrivers.put(driver.getId(), driver);
-      orderTracker.updateOrderStatus(order.getOrderId(), OrderStatus.ACCEPTED, driver);
+      orderTracker.updateOrderStatus(order.getOrderId(), order.OrderStatus.ACCEPTED, driver);
    }
 
    public void registerDriver(Driver driver) {
@@ -59,7 +59,7 @@ public class DeliverySystem {
       if (driver != null) {
          driver.completeCurrentDelivery();
          availableDrivers.put(driverId, driver);
-         orderTracker.updateOrderStatus(orderId, OrderStatus.DELIVERED, driver);
+         orderTracker.updateOrderStatus(orderId, order.OrderStatus.DELIVERED, driver);
       }
    }
 }

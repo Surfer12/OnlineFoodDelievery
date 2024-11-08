@@ -1,9 +1,9 @@
-package com.example.validation;
+package validation;
 
-import com.example.exceptions.ValidationException;
-import com.example.Order;
-import com.example.MenuItem;
-import com.example.Payment;
+import exceptions.ValidationException;
+import order.Order;
+import menu.MenuItem;
+import payment.Payment;
 
 import java.util.ArrayList;
 import java.util.List;

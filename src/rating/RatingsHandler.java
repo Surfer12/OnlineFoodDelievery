@@ -3,6 +3,8 @@ package rating;
 import java.util.ArrayList;
 import java.util.List;
 
+import rating.Rating;
+
 public class RatingsHandler implements RatingsBussinessLogic<Rating> {
    private static final int MAX_RATINGS = 10;
    private List<Rating> ratings;

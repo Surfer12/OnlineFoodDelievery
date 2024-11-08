@@ -5,8 +5,7 @@ public class Fries extends MenuItem {
    private boolean seasoned;
 
    public Fries(Long id, String name, String description, double basePrice, Size size) {
-      super(id, name, description, basePrice, 5); // 5 minutes prep time
-      this.category = "FRIES";
+      super(id, name, description, basePrice, "FRIES", 5); // 5 minutes prep time
       this.size = size;
       this.seasoned = false;
    }
@@ -17,7 +16,7 @@ public class Fries extends MenuItem {
 
    @Override
    public double calculateTotal() {
-      double total = price * size.getPriceMultiplier();
+      double total = getPrice() * size.getPriceMultiplier();
       return seasoned ? total + 0.50 : total;
    }
 }

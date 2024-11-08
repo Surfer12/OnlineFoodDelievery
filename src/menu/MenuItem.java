@@ -1,6 +1,6 @@
 package menu;
 
-public class MenuItem {
+public abstract class MenuItem {
    private Long id;
    private String name;
    private String description;
@@ -40,6 +40,10 @@ public class MenuItem {
       return name;
    }
 
+   public void setAvailable(boolean available) {
+      this.available = available;
+   }
+
    public String getDescription() {
       return description;
    }
@@ -54,5 +58,9 @@ public class MenuItem {
 
    public int getPreparationTime() {
       return preparationTime;
+   }
+
+   public double calculateTotal() {
+      return price;
    }
 }
