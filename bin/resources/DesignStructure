@@ -179,28 +179,27 @@ classDiagram
     %% Menu Package
     class MenuItem {
         <<abstract>>
-        -Long id
-        -String name
-        -String description
-        -double price
-        -String category
-        -int preparationTime
-        -boolean available
-        +calculateTotal()
-        +updatePrice(double)
-        +isAvailable()
-        +getDetails()
+        private Long id
+        private String name
+        private String description
+        private double price
+        private String category
+        private int preparationTime
+        private boolean available
+        public calculateTotal()
+        public updatePrice(double)
+        public isAvailable()
+        public getDetails()
     }
     
     class Hamburger {
-        -List~Topping~ toppings
-        +addTopping(Topping)
-        +calculateTotal()
+        private double basePrice
+        public calculateTotal()
     }
     
     class Drink {
-        -Size size
-        +calculateTotal()
+        private Size size
+        public calculateTotal()
     }
     
     class Size {
@@ -208,27 +207,22 @@ classDiagram
         SMALL
         MEDIUM
         LARGE
-        -double priceMultiplier
-    }
-    
-    class Topping {
-        -String name
-        -double price
+        private double priceMultiplier
     }
 
     %% Order Package
     class Order {
-        -Long orderId
-        -Long customerId
-        -Long driverId
-        -List~MenuItem~ items
-        -OrderStatus status
-        -double totalAmount
-        -LocalDateTime orderTime
-        -Payment payment
-        -Location deliveryLocation
-        +calculateTotal()
-        +updateStatus()
+        private Long orderId
+        private Long customerId
+        private Long driverId
+        private List~MenuItem~ items
+        private OrderStatus status
+        private double totalAmount
+        private LocalDateTime orderTime
+        private Payment payment
+        private Location deliveryLocation
+        public calculateTotal()
+        public updateStatus()
     }
 
     class OrderStatus {
@@ -242,85 +236,185 @@ classDiagram
     %% Observer Package
     class OrderSubject {
         <<interface>>
-        +attach(OrderObserver)
-        +detach(OrderObserver)
-        +notifyObservers(Order)
+        public attach(OrderObserver)
+        public detach(OrderObserver)
+        public notifyObservers(Order)
     }
 
     class OrderObserver {
         <<interface>>
-        +update(Order)
+        public update(Order)
     }
 
     class OrderTrackingService {
-        -List~OrderObserver~ observers
-        +attach(OrderObserver)
-        +detach(OrderObserver)
-        +notifyObservers(Order)
+        private List~OrderObserver~ observers
+        public attach(OrderObserver)
+        public detach(OrderObserver)
+        public notifyObservers(Order)
     }
 
     class CustomerNotifier {
-        -NotificationService notificationService
-        +update(Order)
+        private NotificationService notificationService
+        public update(Order)
     }
 
     %% User Package
     class Customer {
-        -Long id
-        -String name
-        -String address
-        -String phone
-        -String email
-        -List~Order~ orderHistory
-        +placeOrder(List~MenuItem~)
-        +rateDriver(Driver, int, String)
+        private Long id
+        private String name
+        private String address
+        private String phone
+        private String email
+        private List~Order~ orderHistory
+        public placeOrder(List~MenuItem~)
+        public rateDriver(Driver, int, String)
     }
 
     class Driver {
-        -Long id
-        -String name
-        -String vehicle
-        -String licenseNumber
-        -Location currentLocation
-        -RatingsHandler ratings
-        -Order currentOrder
-        -boolean isAvailable
-        +acceptOrder(Order)
-        +completeDelivery(Order)
+        private Long id
+        private String name
+        private String vehicle
+        private String licenseNumber
+        private Location currentLocation
+        private RatingsHandler ratings
+        private Order currentOrder
+        private boolean isAvailable
+        public acceptOrder(Order)
+        public completeDelivery(Order)
     }
 
     %% Factory Package
     class MenuItemFactory {
-        -static long nextId
-        +createMenuItem(String, String, String, double)
-        +createCustomMenuItem(String, String, String, double, Size)
+        private static long nextId
+        public createMenuItem(String, String, String, double)
+        public createCustomMenuItem(String, String, String, double, Size)
     }
 
     %% Main Package
     class DeliverySystem {
-        -OrderQueue orderQueue
-        -Map~Long, Driver~ availableDrivers
-        -Map~Long, Driver~ busyDrivers
-        -OrderTracker orderTracker
-        -DriverMatchingStrategy driverMatcher
-        -NotificationService notificationService
-        +registerDriver(Driver)
-        +completeDelivery(Long, Long)
+        private OrderQueue orderQueue
+        private Map~Long, Driver~ availableDrivers
+        private Map~Long, Driver~ busyDrivers
+        private OrderTracker orderTracker
+        private DriverMatchingStrategy driverMatcher
+        private NotificationService notificationService
+        public DeliverySystem(DriverMatchingStrategy, NotificationService)
+        public registerDriver(Driver driver)
+        public completeDelivery(Long orderId, Long driverId)
+    }
+
+        class Rating {
+        private Long id
+        private Long customerId
+        private Long driverId
+        private int score
+        private String comment
+        private LocalDateTime timestamp
+        public Rating(Long customerId, Long driverId, int score, String comment)
+        public boolean validate()
+        public String getRatingDetails()
+        public Long getId()
+        public Long getCustomerId()
+        public Long getDriverId()
+        public int getScore()
+        public String getComment()
+        public LocalDateTime getTimestamp()
+    }
+
+    class RatingsHandler {
+        private int maxRatings
+        private Deque~T~ ratingsQueue
+        public RatingsHandler(int maxRatings)
+        public void addRating(T rating)
+        public Optional~T~ removeOldestRating()
+        public Optional~T~ getLatestRating()
+        public void enforceRatingQueueMaxSize()
+        public void clearAllRatings()
+        public boolean isRatingQueueEmpty()
+        public boolean isRatingQueueFull()
+        public int getCurrentRatingCount()
+        public double calculateAverageRating()
+        public int getMaxRatings()
+    }
+
+    class RatingsBusinessLogic {
+        <<interface>>
+        public void addRating(T rating)
+        public Optional~T~ removeOldestRating()
+        public Optional~T~ getLatestRating()
+        public void clearAllRatings()
+        public boolean isRatingQueueEmpty()
+        public boolean isRatingQueueFull()
+        public int getCurrentRatingCount()
+        public void enforceRatingQueueMaxSize()
+        public double calculateAverageRating()
+        public int getMaxRatings()
+    }
+
+    class Payment {
+        private Long paymentId
+        private Long orderId
+        private String paymentMethod
+        private double amount
+        private LocalDateTime paymentTime
+        private boolean isProcessed
+        private boolean isRefunded
+        public Payment(Long orderId, String paymentMethod, double amount)
+        public boolean processPayment()
+        public boolean refundPayment()
+        public Long getPaymentId()
+        public Long getOrderId()
+        public String getPaymentMethod()
+        public double getAmount()
+        public LocalDateTime getPaymentTime()
+        public boolean isProcessed()
+        public boolean isRefunded()
+    }
+
+    class Fries {
+        private Size size
+        public calculateTotal()
+    }
+
+    %% Add Rating relationships
+    RatingsBusinessLogic <|.. RatingsHandler
+    RatingsHandler --> Rating
+
+    class OrderQueue {
+        private Queue~Order~ orders
+        private int maxQueueSize
+        private OrderValidator validator
+        public OrderQueue(int maxQueueSize)
+        public void enqueue(Order order)
+        public Optional~Order~ dequeue()
+        public Optional~Order~ peek()
+        public boolean isEmpty()
+        public int size()
+        public void clear()
+        public List~Order~ getPendingOrders()
+    }
+
+    class OrderValidator {
+        <<interface>>
+        public boolean validate(Order order)
     }
 
     %% Relationships
+    MenuItem <|-- Fries
     MenuItem <|-- Hamburger
     MenuItem <|-- Drink
     OrderSubject <|.. OrderTrackingService
     OrderObserver <|.. CustomerNotifier
     MenuItemFactory ..> MenuItem
     Order o-- MenuItem
-    Customer --> Order
-    Driver --> Order
+    Customer "1" --> "*" Order : places
+    Order "*" --> "*" MenuItem : contains
+    Driver "1" --> "*" Order : accepts
+    Customer "1" --> "*" Rating : gives
+    Driver "1" --> "*" Rating : receives
+    Order --> OrderStatus : has
+    Order "1" --> "1" Payment : includes
     DeliverySystem --> OrderQueue
-    DeliverySystem --> Driver
-    Hamburger --> Topping
-    Drink --> Size
-    Order --> OrderStatus
-    CustomerNotifier --> NotificationService
+    OrderQueue --> Order
+    OrderQueue --> OrderValidator : uses
 ```
