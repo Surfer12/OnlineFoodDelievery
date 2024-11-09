@@ -3,10 +3,10 @@ package main;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Optional;
 import queue.OrderQueue; // Import the queue package
 import model.Driver;
-import matching.DriverMatchingStrategy;
 import notification.NotificationService;
 import notification.EmailNotificationService;
 import exception.ValidationException;
@@ -26,7 +26,6 @@ public class DeliverySystem {
    private final Map<Long, Driver> availableDrivers;
    private final Map<Long, Driver> busyDrivers;
    private final OrderTracker orderTracker;
-   private final matching.DriverMatchingStrategy driverMatcher;
    private final NotificationService notificationService;
 
    public DeliverySystem() {
@@ -34,7 +33,6 @@ public class DeliverySystem {
       this.availableDrivers = new ConcurrentHashMap<>();
       this.busyDrivers = new ConcurrentHashMap<>();
       this.orderTracker = new OrderTracker();
-      this.driverMatcher = new matching.ProximityBasedMatchingStrategy();
       this.notificationService = new EmailNotificationService();
    }
 
@@ -66,9 +64,7 @@ public class DeliverySystem {
    }
 
    private Optional<Driver> findMatchingDriver(Order order) {
-      return driverMatcher.findBestMatch(
-            order,
-            new ArrayList<>(availableDrivers.values()));
+      return Optional.empty();
    }
 
    private void assignOrderToDriver(Order order, Driver driver) {
@@ -127,23 +123,23 @@ public class DeliverySystem {
       MenuItem burger = factory.createMenuItem("hamburger", "Beef Burger", "Juicy beef patty with lettuce", 8.99);
 
       // Define delivery locations with zipcode and address
-      Location location1 = new Location(40.7128, -74.0060, "10001", "123 Oak St");
-      Location location2 = new Location(34.0522, -118.2437, "90001", "456 Elm St");
+      Location location1 = new Location("10001", "123 Oak St");
+      Location location2 = new Location("90001", "456 Elm St");
 
       // Create orders using OrderBuilder with zipcode and address
       Order order1 = new OrderBuilder()
-                      .withValidatedCustomerId(101L)
-                      .withCustomerEmail("customer1@example.com")
-                      .addItem(pizza)
-                      .withDeliveryLocation("123 Oak St", 40.7128, -74.0060, "10001")
-                      .build();
+            .withValidatedCustomerId(101L)
+            .withCustomerEmail("customer1@example.com")
+            .addItem(pizza)
+            .withDeliveryLocation("10001", "123 Oak St")
+            .build();
 
       Order order2 = new OrderBuilder()
-                      .withValidatedCustomerId(102L)
-                      .withCustomerEmail("customer2@example.com")
-                      .addItem(burger)
-                      .withDeliveryLocation("456 Elm St", 34.0522, -118.2437, "90001")
-                      .build();
+            .withValidatedCustomerId(102L)
+            .withCustomerEmail("customer2@example.com")
+            .addItem(burger)
+            .withDeliveryLocation("456 Elm St", 34.0522, -118.2437, "90001")
+            .build();
 
       // Add orders to the list
       List<Order> orders = new ArrayList<>();
