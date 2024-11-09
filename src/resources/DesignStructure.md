@@ -226,9 +226,12 @@ public class CustomerNotifier implements OrderObserver {
 
 ## Design Patterns
 
-### 1. Builder Pattern
+### 1. Builder Pattern 
 
 Used for complex order construction with validation:
+1. Step by step construction of the order object
+2. Validation of the order object at each step
+3. Return of the order object after final validation before creation.
 
 ```java
 public class OrderBuilder {
@@ -237,19 +240,21 @@ public class OrderBuilder {
     private Location deliveryLocation;
     private String customerEmail;
 
-    public OrderBuilder withValidatedCustomerId(Long customerId) {
-        if (customerId == null || customerId <= 0) {
-            throw new IllegalArgumentException("Invalid customer ID");
-        }
-        this.customerId = customerId;
-        return this;
-    }
-
     public Order build() {
         validateOrderRequirements();
         return new Order(customerId, items, deliveryLocation, customerEmail);
     }
 }
+```
+
+Example of basic order:
+```java
+Order basicOrder = new OrderBuilder()
+    .withValidatedCustomerId(123L)
+    .addItem(burger)
+    .withDeliveryLocation(location)
+    .withCustomerEmail("customer@example.com")
+    .build();
 ```
 
 ### 2. Observer Pattern
@@ -295,25 +300,13 @@ public class MenuItemFactory {
 
 ### 4. Strategy Pattern
 
-Used for flexible driver matching algorithms:
-
-```java
-public interface DriverMatchingStrategy {
-    Optional<Driver> findBestMatch(Order order, List<Driver> availableDrivers);
-}
-
-// Implementation in ProximityBasedMatchingStrategy
-public Optional<Driver> findBestMatch(Order order, List<Driver> availableDrivers) {
-    // Implementation specific to proximity-based matching
-}
-```
+Used for flexible driver and customer notificaitons. 
 
 The system demonstrates modern Java practices through:
 - Use of Optional for null safety
-- Strong validation in builders
+- Strong validation in builders of orders from customers
 - Immutable objects where appropriate
-- Thread-safe collections (ConcurrentHashMap)
-- Clear separation of concerns
+- Clear separation of concerns with explicit package structuring and interface as well as abstract class utilization. 
 
 ## Class Diagram
 ```mermaid 
@@ -326,7 +319,6 @@ classDiagram
         private String description
         private double price
         private String category
-        private int preparationTime
         private boolean available
         public calculateTotal()
         public updatePrice(double)
@@ -560,248 +552,3 @@ classDiagram
     OrderQueue --> Order
     OrderQueue --> OrderValidator : uses
 ```
-Additional Notes: 
-
-### Observer pattern:
-
-The Observer pattern is used to notify customers and drivers about order updates. The OrderSubject interface defines the subject behavior, and the OrderObserver interface defines the update contract for order updates. The CustomerNotifier and DriverNotifier classes implement the OrderObserver interface and provide specific implementations of the update method.
-
-### Observer Pattern Explanation
-
-The Observer pattern is a behavioral design pattern that establishes a one-to-many relationship between objects. When one object (the Subject/Observable) changes state, all its dependents (Observers) are notified and updated automatically.
-
-## Structure in Your System
-
-### 1. Core Components
-
-**Subject Interface (`OrderSubject`)**
-```java:src/observer/OrderSubject.java
-public interface OrderSubject {
-    void attach(OrderObserver observer);    // Add an observer
-    void detach(OrderObserver observer);    // Remove an observer
-    void notifyObservers(Order order);      // Notify all observers
-}
-```
-
-**Observer Interface (`OrderObserver`)**
-```java:src/observer/OrderObserver.java
-public interface OrderObserver {
-    void update(Order order);    // Method called when subject changes
-}
-```
-
-### 2. Implementation Examples
-
-**Concrete Subject (`OrderTracker`)**
-```java:src/order/OrderTracker.java
-public class OrderTracker implements OrderSubject {
-    private final List<OrderObserver> observers = new ArrayList<>();
-
-    @Override
-    public void attach(OrderObserver observer) {
-        observers.add(observer);
-    }
-
-    @Override
-    public void detach(OrderObserver observer) {
-        observers.remove(observer);
-    }
-
-    @Override
-    public void notifyObservers(Order order) {
-        for (OrderObserver observer : observers) {
-            observer.update(order);
-        }
-    }
-}
-```
-
-**Concrete Observers**
-```java:src/observer/CustomerNotifier.java
-public class CustomerNotifier implements OrderObserver {
-    private final NotificationService notificationService;
-
-    @Override
-    public void update(Order order) {
-        notificationService.sendOrderStatusUpdateToCustomer(order, order.getStatus());
-    }
-}
-```
-
-## Benefits in System
-
-1. **Decoupled Communication**: The order tracking system doesn't need to know about specific notification implementations.
-2. **Easy Extension**: You can add new types of notifications (SMS, Email, Push) without modifying existing code.
-3. **Real-time Updates**: All interested parties get immediate updates when order status changes.
-
-## Usage Example
-
-```java
-// Create the subject
-OrderTracker orderTracker = new OrderTracker();
-
-// Create observers
-CustomerNotifier customerNotifier = new CustomerNotifier(notificationService);
-DriverNotifier driverNotifier = new DriverNotifier(notificationService);
-
-// Register observers
-orderTracker.attach(customerNotifier);
-orderTracker.attach(driverNotifier);
-
-// When order status changes
-Order order = new Order(/*...*/);
-order.setStatus(OrderStatus.IN_DELIVERY);
-orderTracker.notifyObservers(order);  // All observers will be notified
-```
-
-## Common Use Cases in Your System
-
-1. Order status updates
-2. Driver location changes
-3. Payment status notifications
-4. Delivery time updates
-
-This pattern is particularly useful in your food delivery system because it allows for a flexible notification system where different components can subscribe to order updates without creating tight coupling between the order processing and notification logic."
-
-## The Strategy pattern 
-
-allows you to define a family of algorithms, encapsulate each one, and make them interchangeable. In your system, it's used to handle different types of notifications.
-
-
-"I'll explain how the Strategy pattern is used in the NotificationService implementation.
-
-# Strategy Pattern in NotificationService
-
-The Strategy pattern allows you to define a family of algorithms, encapsulate each one, and make them interchangeable. In your system, it's used to handle different types of notifications.
-
-## Core Structure
-
-### 1. Strategy Interface
-````java:src/notification/NotificationService.java
-public interface NotificationService {
-    void sendOrderConfirmationToCustomer(Order order);
-    void sendDriverAssignmentNotification(Order order, Driver driver);
-    void sendOrderStatusUpdateToCustomer(Order order, OrderStatus newStatus);
-    void sendDeliveryCompletionNotification(Order order);
-}
-````
-
-### 2. Concrete Strategy Examples
-````java:src/notification/EmailNotificationService.java
-public class EmailNotificationService implements NotificationService {
-    private final EmailClient emailClient;
-
-    @Override
-    public void sendOrderConfirmationToCustomer(Order order) {
-        String email = order.getCustomerEmail();
-        String message = createOrderConfirmationMessage(order);
-        emailClient.sendEmail(email, "Order Confirmation", message);
-    }
-
-    // Other method implementations...
-}
-````
-
-````java:src/notification/SMSNotificationService.java
-public class SMSNotificationService implements NotificationService {
-    private final SMSGateway smsGateway;
-
-    @Override
-    public void sendOrderConfirmationToCustomer(Order order) {
-        String phone = order.getCustomerPhone();
-        String message = createOrderConfirmationMessage(order);
-        smsGateway.sendSMS(phone, message);
-    }
-
-    // Other method implementations...
-}
-````
-
-### 3. Usage Example
-````java:src/notification/NotificationManager.java
-public class NotificationManager {
-    private final NotificationService notificationService;
-
-    // Inject the specific notification strategy
-    public NotificationManager(NotificationService notificationService) {
-        this.notificationService = notificationService;
-    }
-
-    public void handleOrderConfirmation(Order order) {
-        notificationService.sendOrderConfirmationToCustomer(order);
-    }
-}
-
-// Usage
-NotificationService emailService = new EmailNotificationService();
-NotificationService smsService = new SMSNotificationService();
-
-// Use email notifications
-NotificationManager emailManager = new NotificationManager(emailService);
-
-// Use SMS notifications
-NotificationManager smsManager = new NotificationManager(smsService);
-````
-
-## Benefits
-
-1. **Flexibility**: Easy to add new notification types (e.g., push notifications, WhatsApp)
-2. **Single Responsibility**: Each notification service handles one type of notification
-3. **Runtime Switching**: Can change notification strategy based on user preferences
-4. **Testing**: Easy to mock for testing purposes
-5. **Configuration**: Can be configured via dependency injection
-
-## Common Use Cases
-
-1. **User Preferences**
-````java
-public class UserPreferenceBasedNotificationService implements NotificationService {
-    private final Map<NotificationType, NotificationService> services;
-    
-    public void sendOrderConfirmationToCustomer(Order order) {
-        NotificationType preferredType = order.getCustomer().getPreferredNotificationType();
-        NotificationService service = services.get(preferredType);
-        service.sendOrderConfirmationToCustomer(order);
-    }
-}
-````
-
-2. **Fallback Mechanism**
-````java
-public class FallbackNotificationService implements NotificationService {
-    private final List<NotificationService> services;
-    
-    public void sendOrderConfirmationToCustomer(Order order) {
-        for (NotificationService service : services) {
-            try {
-                service.sendOrderConfirmationToCustomer(order);
-                return; // Success
-            } catch (NotificationException e) {
-                // Log and try next service
-                continue;
-            }
-        }
-        throw new NotificationFailedException("All notification attempts failed");
-    }
-}
-````
-
-3. **Multi-Channel Notifications**
-````java
-public class MultiChannelNotificationService implements NotificationService {
-    private final List<NotificationService> services;
-    
-    public void sendOrderConfirmationToCustomer(Order order) {
-        CompletableFuture<?>[] futures = services.stream()
-            .map(service -> CompletableFuture.runAsync(() -> 
-                service.sendOrderConfirmationToCustomer(order)))
-            .toArray(CompletableFuture[]::new);
-        
-        CompletableFuture.allOf(futures).join();
-    }
-}
-````
-
-This pattern makes your notification system highly flexible and maintainable, allowing for easy addition of new notification methods without changing the existing code."
-
-
