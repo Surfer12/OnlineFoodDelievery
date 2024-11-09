@@ -129,7 +129,7 @@ Provides common base abstract concept while allowing specific implementations fo
 a. CustomerNotifier implementing OrderObserver:
 
 ```java
-6:17:src/observer/CustomerNotifier.java
+src/observer/CustomerNotifier.java
 public class CustomerNotifier implements OrderObserver {
    private final NotificationService notificationService;
 
@@ -180,7 +180,7 @@ public class OrderTracker implements OrderSubject {
 ```
 
 
-The benefits of this abstraction approach include:
+### Benefits of this abstraction approach include:
 - **Loose Coupling**: Components interact through interfaces rather than concrete implementations
 - **Flexibility**: Easy to add new implementations (e.g., new notification types or matching strategies)
 - **Maintainability**: Implementation details are hidden behind clean interfaces
@@ -189,11 +189,11 @@ The benefits of this abstraction approach include:
 
 This abstraction design allows the system to be easily extended with new features while maintaining a clean and maintainable codebase.
 
-2. **Abstract Classes**:
-- `MenuItem`: Base class for all menu items with common properties
 ### 3. Inheritance
 
 The system uses inheritance through the MenuItem hierarchy, managed by MenuItemFactory:
+
+Use of switch statement to create different menu items based on the type and the factory pattern to manage the creation of menu items.
 
 ```java
 public MenuItem createMenuItem(String type, String name, String description, double basePrice) {
@@ -222,7 +222,7 @@ public class CustomerNotifier implements OrderObserver {
 }
 ```
 
-2. **Method Overriding**: Different implementations for different menu items and strategies
+2. **Method Overriding**: Different implementations for notifications to customers and drivers about associated order updates. 
 
 ## Design Patterns
 
@@ -244,8 +244,6 @@ public class OrderBuilder {
         this.customerId = customerId;
         return this;
     }
-
-    // Additional builder methods...
 
     public Order build() {
         validateOrderRequirements();
