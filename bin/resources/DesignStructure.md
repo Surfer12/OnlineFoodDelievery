@@ -1,3 +1,5 @@
+![alt text](FlowchartFinal.svg)
+
 # Online Food Delivery System Design Documentation
 
 ## Class Structure and Relationships
@@ -34,6 +36,79 @@ public abstract class MenuItem {
     }
 }
 ```
+I'll help you describe the data structures used in your food delivery system. Based on the codebase shown, here's a comprehensive breakdown:
+
+### Data Structures Used
+
+1. **ConcurrentHashMap**
+
+1.1 **Why ConcurrentHashMap over HashMap?**
+
+**Thread-safety measures ensure that the food delivery system can handle multiple concurrent users, orders, and drivers without data corruption or race conditions.**
+
+- Multiple threads can access the order system simultaneously
+- Better performance in concurrent scenarios
+- Built-in thread safety without external synchronization
+- Atomic operations for status updates
+
+Used for:
+- Order status tracking (`orderStatuses`)
+- Estimated delivery times (`estimatedDeliveryTimes`) 
+- Active orders (`orders`)
+
+Benefits:
+- Thread-safe operations for concurrent order processing
+- Better performance than synchronized collections
+- Atomic operations support
+- No null values allowed, reducing potential errors
+
+2. **ArrayList**
+Used for:
+- Observer pattern implementation
+- Menu item storage in orders
+
+2.1 **Why ArrayList over LinkedList for Order Items?**
+- Frequent random access when processing orders
+- Less memory overhead
+- Better cache locality
+- Infrequent insertions/deletions in the middle
+
+Benefits:
+- Dynamic sizing for variable number of items
+- Fast random access
+- Good for sequential access patterns
+- Efficient for small to medium collections
+
+3. **Queue Interface**
+
+3.1 **Why Queue for Order Processing?**
+- Natural FIFO behavior matches business requirements
+- Clear separation of concerns
+- Easy to implement priority ordering if needed later
+- Efficient enqueue/dequeue operations
+Used for:
+- FIFO order processing
+- Ensuring orders are processed in sequence
+
+Benefits:
+- Natural fit for order processing workflow
+- Maintains order sequence
+- Clear separation of concerns
+
+4. **Fixed-Size List**
+Used in the rating system to maintain recent driver ratings:
+
+4.1 **Why Fixed-Size List for Ratings?**
+- Constant memory usage
+- Only recent ratings are relevant
+- Simple implementation
+- Efficient access and updates
+
+Benefits:
+- Constant memory usage
+- Efficient for maintaining recent ratings
+- Automatic removal of old ratings
+
 
 ### 2. Abstraction
 
@@ -69,16 +144,6 @@ public class DriverNotifier implements OrderObserver {
    }
 }
 ```
-
-b. `OrderSubject`: Defines subject behavior for observer pattern
-```java:src/observer/OrderSubject.java
-public interface OrderSubject {
-    void attach(OrderObserver observer);
-    void detach(OrderObserver observer);
-    void notifyObservers(Order order);
-}
-```
-Implemented by OrderTracker and OrderTrackingService to manage observer notifications.
 
 d. `NotificationService`: Abstracts notification delivery
 
@@ -308,247 +373,8 @@ The system demonstrates modern Java practices through:
 - Immutable objects where appropriate
 - Clear separation of concerns with explicit package structuring and interface as well as abstract class utilization. 
 
-## Class Diagram
-```mermaid 
-classDiagram
-    %% Menu Package
-    class MenuItem {
-        <<abstract>>
-        private Long id
-        private String name
-        private String description
-        private double price
-        private String category
-        private boolean available
-        public calculateTotal()
-        public updatePrice(double)
-        public isAvailable()
-        public getDetails()
-    }
-    
-    class Hamburger {
-        private double basePrice
-        public calculateTotal()
-    }
-    
-    class Drink {
-        private Size size
-        public calculateTotal()
-    }
-    
-    class Size {
-        <<enumeration>>
-        SMALL
-        MEDIUM
-        LARGE
-        private double priceMultiplier
-    }
 
-    %% Order Package
-    class Order {
-        private Long orderId
-        private Long customerId
-        private Long driverId
-        private List~MenuItem~ items
-        private OrderStatus status
-        private double totalAmount
-        private LocalDateTime orderTime
-        private Payment payment
-        private Location deliveryLocation
-        public calculateTotal()
-        public updateStatus()
-    }
 
-    class OrderStatus {
-        <<enumeration>>
-        PLACED
-        ACCEPTED
-        IN_DELIVERY
-        DELIVERED
-    }
 
-    %% Observer Package
-    class OrderSubject {
-        <<interface>>
-        public attach(OrderObserver)
-        public detach(OrderObserver)
-        public notifyObservers(Order)
-    }
 
-    class OrderObserver {
-        <<interface>>
-        public update(Order)
-    }
 
-    class OrderTrackingService {
-        private List~OrderObserver~ observers
-        public attach(OrderObserver)
-        public detach(OrderObserver)
-        public notifyObservers(Order)
-    }
-
-    class CustomerNotifier {
-        private NotificationService notificationService
-        public update(Order)
-    }
-
-    %% User Package
-    class Customer {
-        private Long id
-        private String name
-        private String address
-        private String phone
-        private String email
-        private List~Order~ orderHistory
-        public placeOrder(List~MenuItem~)
-        public rateDriver(Driver, int, String)
-    }
-
-    class Driver {
-        private Long id
-        private String name
-        private String vehicle
-        private String licenseNumber
-        private Location currentLocation
-        private RatingsHandler ratings
-        private Order currentOrder
-        private boolean isAvailable
-        public acceptOrder(Order)
-        public completeDelivery(Order)
-    }
-
-    %% Factory Package
-    class MenuItemFactory {
-        private static long nextId
-        public createMenuItem(String, String, String, double)
-        public createCustomMenuItem(String, String, String, double, Size)
-    }
-
-    %% Main Package
-    class DeliverySystem {
-        private OrderQueue orderQueue
-        private Map~Long, Driver~ availableDrivers
-        private Map~Long, Driver~ busyDrivers
-        private OrderTracker orderTracker
-        private DriverMatchingStrategy driverMatcher
-        private NotificationService notificationService
-        public DeliverySystem(DriverMatchingStrategy, NotificationService)
-        public registerDriver(Driver driver)
-        public completeDelivery(Long orderId, Long driverId)
-    }
-
-        class Rating {
-        private Long id
-        private Long customerId
-        private Long driverId
-        private int score
-        private String comment
-        private LocalDateTime timestamp
-        public Rating(Long customerId, Long driverId, int score, String comment)
-        public boolean validate()
-        public String getRatingDetails()
-        public Long getId()
-        public Long getCustomerId()
-        public Long getDriverId()
-        public int getScore()
-        public String getComment()
-        public LocalDateTime getTimestamp()
-    }
-
-    class RatingsHandler {
-        private int maxRatings
-        private Deque~T~ ratingsQueue
-        public RatingsHandler(int maxRatings)
-        public void addRating(T rating)
-        public Optional~T~ removeOldestRating()
-        public Optional~T~ getLatestRating()
-        public void enforceRatingQueueMaxSize()
-        public void clearAllRatings()
-        public boolean isRatingQueueEmpty()
-        public boolean isRatingQueueFull()
-        public int getCurrentRatingCount()
-        public double calculateAverageRating()
-        public int getMaxRatings()
-    }
-
-    class RatingsBusinessLogic {
-        <<interface>>
-        public void addRating(T rating)
-        public Optional~T~ removeOldestRating()
-        public Optional~T~ getLatestRating()
-        public void clearAllRatings()
-        public boolean isRatingQueueEmpty()
-        public boolean isRatingQueueFull()
-        public int getCurrentRatingCount()
-        public void enforceRatingQueueMaxSize()
-        public double calculateAverageRating()
-        public int getMaxRatings()
-    }
-
-    class Payment {
-        private Long paymentId
-        private Long orderId
-        private String paymentMethod
-        private double amount
-        private LocalDateTime paymentTime
-        private boolean isProcessed
-        private boolean isRefunded
-        public Payment(Long orderId, String paymentMethod, double amount)
-        public boolean processPayment()
-        public boolean refundPayment()
-        public Long getPaymentId()
-        public Long getOrderId()
-        public String getPaymentMethod()
-        public double getAmount()
-        public LocalDateTime getPaymentTime()
-        public boolean isProcessed()
-        public boolean isRefunded()
-    }
-
-    class Fries {
-        private Size size
-        public calculateTotal()
-    }
-
-    %% Add Rating relationships
-    RatingsBusinessLogic <|.. RatingsHandler
-    RatingsHandler --> Rating
-
-    class OrderQueue {
-        private Queue~Order~ orders
-        private int maxQueueSize
-        private OrderValidator validator
-        public OrderQueue(int maxQueueSize)
-        public void enqueue(Order order)
-        public Optional~Order~ dequeue()
-        public Optional~Order~ peek()
-        public boolean isEmpty()
-        public int size()
-        public void clear()
-        public List~Order~ getPendingOrders()
-    }
-
-    class OrderValidator {
-        <<interface>>
-        public boolean validate(Order order)
-    }
-
-    %% Relationships
-    MenuItem <|-- Fries
-    MenuItem <|-- Hamburger
-    MenuItem <|-- Drink
-    OrderSubject <|.. OrderTrackingService
-    OrderObserver <|.. CustomerNotifier
-    MenuItemFactory ..> MenuItem
-    Order o-- MenuItem
-    Customer "1" --> "*" Order : places
-    Order "*" --> "*" MenuItem : contains
-    Driver "1" --> "*" Order : accepts
-    Customer "1" --> "*" Rating : gives
-    Driver "1" --> "*" Rating : receives
-    Order --> OrderStatus : has
-    Order "1" --> "1" Payment : includes
-    DeliverySystem --> OrderQueue
-    OrderQueue --> Order
-    OrderQueue --> OrderValidator : uses
-```

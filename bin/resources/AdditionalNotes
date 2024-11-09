@@ -1,4 +1,129 @@
 Additional Notes: 
+I'll explain thread safety and how it's implemented in your food delivery system.
+
+### Thread Safety Explanation
+
+Thread safety means that a piece of code can safely be executed by multiple threads simultaneously without causing data corruption or race conditions. Here are the key concepts:
+
+1. **Race Conditions**
+````java:src/order/OrderTracker.java
+// Unsafe example (what not to do):
+private Map<Long, OrderStatus> orderStatuses = new HashMap<>(); // Not thread-safe!
+
+// Safe implementation:
+private final Map<Long, OrderStatus> orderStatuses = new ConcurrentHashMap<>();
+````
+
+Race conditions occur when multiple threads try to modify the same data simultaneously. For example:
+- Thread 1: Reads order status
+- Thread 2: Updates order status
+- Thread 1: Updates order status (overwrites Thread 2's update!)
+
+2. **Atomic Operations**
+````java:src/order/OrderTracker.java
+// Thread-safe atomic operation
+orderStatuses.putIfAbsent(orderId, OrderStatus.PENDING);
+
+// Instead of unsafe separate check-then-act:
+if (!orderStatuses.containsKey(orderId)) {  // Race condition possible here!
+    orderStatuses.put(orderId, OrderStatus.PENDING);
+}
+````
+
+3. **Synchronized Collections**
+````java:src/observer/OrderTracker.java
+// Thread-safe list for observers
+private final List<OrderObserver> observers = Collections.synchronizedList(new ArrayList<>());
+
+@Override
+public void notifyObservers(Order order) {
+    // Create a copy to avoid concurrent modification
+    List<OrderObserver> observersCopy = new ArrayList<>(observers);
+    for (OrderObserver observer : observersCopy) {
+        observer.update(order);
+    }
+}
+````
+
+### Benefits of ConcurrentHashMap
+
+1. **Segment Locking**
+````java:src/main/DeliverySystem.java
+private final Map<Long, Driver> availableDrivers = new ConcurrentHashMap<>();
+private final Map<Long, Driver> busyDrivers = new ConcurrentHashMap<>();
+````
+
+- Divides the map into segments
+- Only locks the relevant segment during updates
+- Other threads can still access different segments
+- Better performance than fully synchronized maps
+
+2. **Atomic Operations**
+````java:src/order/OrderTracker.java
+// Atomic operation examples
+orderStatuses.computeIfPresent(orderId, (id, status) -> OrderStatus.DELIVERED);
+orderStatuses.replace(orderId, oldStatus, newStatus);
+````
+
+3. **Memory Consistency**
+- All operations have happens-before guarantees
+- Changes made by one thread are visible to other threads
+- Prevents memory visibility issues
+
+### Best Practices Implemented
+
+1. **Immutable Objects**
+````java:src/order/Order.java
+// Immutable order details
+private final Long orderId;
+private final Long customerId;
+private final List<MenuItem> items;  // Defensive copy in getter
+````
+
+2. **Defensive Copying**
+````java:src/user/Customer.java
+public List<Order> getOrderHistory() {
+    // Return a copy to prevent external modifications
+    return new ArrayList<>(orderHistory);
+}
+````
+
+3. **Final Fields**
+````java:src/notification/NotificationService.java
+private final NotificationService notificationService;
+private final OrderTracker orderTracker;
+````
+
+### Thread Safety Patterns Used
+
+1. **Observer Pattern (Thread-Safe Implementation)**
+````java:src/observer/OrderTracker.java
+public void attach(OrderObserver observer) {
+    synchronized(observers) {
+        observers.add(observer);
+    }
+}
+
+public void detach(OrderObserver observer) {
+    synchronized(observers) {
+        observers.remove(observer);
+    }
+}
+````
+
+2. **Builder Pattern (Thread-Safe)**
+````java:src/order/OrderBuilder.java
+// Thread-safe through immutability
+public Order build() {
+    validateOrderRequirements();
+    return new Order(customerId, 
+                    new ArrayList<>(items), // defensive copy
+                    deliveryLocation, 
+                    customerEmail);
+}
+````
+
+These thread-safety measures ensure that your food delivery system can handle multiple concurrent users, orders, and drivers without data corruption or race conditions.
 
 ### Observer pattern:
 
