@@ -1,14 +1,13 @@
-package order;
-
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
+import exception.PaymentException;
+import exception.ValidationException;
 import location.Location;
 import menu.MenuItem;
+import orderUtilities.OrderStatus;
 import payment.Payment;
-import exceptions.ValidationException;
-import exceptions.PaymentException;
 
 public class Order {
    private Long orderId;

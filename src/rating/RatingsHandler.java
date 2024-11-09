@@ -3,7 +3,8 @@ package rating;
 import java.util.Deque;
 import java.util.LinkedList;
 import java.util.Optional;
-import exceptions.QueueFullException;
+
+import exception.QueueFullException;
 
 public class RatingsHandler<T> implements RatingsBusinessLogic<T> {
    private final int maxRatings;

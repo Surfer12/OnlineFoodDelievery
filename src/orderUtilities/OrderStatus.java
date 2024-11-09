@@ -1,4 +1,4 @@
-package order;
+package orderUtilities;
 
 public enum OrderStatus {
     PLACED,

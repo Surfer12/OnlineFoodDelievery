@@ -1,8 +1,8 @@
 package notification;
 
-import order.Order;
-import order.OrderStatus;
-import user.Driver;
+import model.Driver;
+import model.Order;
+import orderUtilities.OrderStatus;
 
 public interface NotificationService {
    void sendOrderConfirmationToCustomer(Order order);

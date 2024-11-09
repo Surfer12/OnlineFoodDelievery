@@ -1,10 +1,9 @@
-package user;
+package model;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import menu.MenuItem;
-import order.Order;
 import rating.Rating;
 
 public class Customer {

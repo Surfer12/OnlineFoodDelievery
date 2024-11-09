@@ -1,8 +1,9 @@
-package order;
+package orderUtilities;
 
 import java.util.ArrayList;
 import java.util.List;
 import menu.MenuItem;
+import model.Order;
 import location.Location;
 
 public class OrderBuilder {
@@ -43,11 +44,14 @@ public class OrderBuilder {
       return this;
    }
 
-   public OrderBuilder withDeliveryLocation(Location location) {
-      if (location == null) {
-         throw new IllegalArgumentException("Delivery location cannot be null");
+   public OrderBuilder withDeliveryLocation(String address, double latitude, double longitude, String zipcode) {
+      if (address == null || address.trim().isEmpty()) {
+         throw new IllegalArgumentException("Address cannot be null or empty");
       }
-      this.deliveryLocation = location;
+      if (zipcode == null || zipcode.trim().isEmpty()) {
+         throw new IllegalArgumentException("Zipcode cannot be null or empty");
+      }
+      this.deliveryLocation = new Location(latitude, longitude, zipcode, address); // Updated Location constructor
       return this;
    }
 

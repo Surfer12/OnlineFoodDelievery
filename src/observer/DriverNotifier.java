@@ -1,6 +1,6 @@
 package observer;
 
-import order.Order;
+import model.Order;
 import notification.NotificationService;
 
 public class DriverNotifier implements OrderObserver {

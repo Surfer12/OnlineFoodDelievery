@@ -1,8 +1,8 @@
 package notification;
 
-import order.Order;
-import order.OrderStatus;
-import user.Driver;
+import model.Driver;
+import model.Order;
+import orderUtilities.OrderStatus;
 
 public class EmailNotificationService implements NotificationService {
    private static final String ORDER_CONFIRMATION_SUBJECT = "Order Confirmation";

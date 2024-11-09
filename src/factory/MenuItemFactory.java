@@ -1,6 +1,10 @@
 package factory;
 
-import menu.*;
+import menu.MenuItem;
+import menu.Hamburger;
+import menu.Drink;
+import menu.Fries;
+import menu.Size;
 
 public class MenuItemFactory {
    private static long nextId = 1;

@@ -1,12 +1,13 @@
 package validation;
 
-import exceptions.ValidationException;
-import order.Order;
 import menu.MenuItem;
+import model.Order;
 import payment.Payment;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import exception.ValidationException;
 
 public class OrderValidator {
    private static final int MAX_ITEMS_PER_ORDER = 20;

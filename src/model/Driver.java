@@ -1,8 +1,7 @@
-package user;
+package model;
 
-import order.Order;
-import order.OrderStatus;
 import location.Location;
+import orderUtilities.OrderStatus;
 import rating.Rating;
 import rating.RatingsHandler;
 import java.util.Optional;

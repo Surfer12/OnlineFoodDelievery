@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.Queue;
 
-import order.Order;
+import model.Order;
 import validation.OrderValidator;
 
 public class OrderQueue implements QueueOperations<Order> {
@@ -23,7 +23,7 @@ public class OrderQueue implements QueueOperations<Order> {
    @Override
    public void enqueue(Order order) {
       if (orders.size() >= maxQueueSize) {
-         throw new exceptions.QueueFullException("Order queue is at maximum capacity");
+         throw new exception.QueueFullException("Order queue is at maximum capacity");
       }
 
       validator.validateOrder(order);

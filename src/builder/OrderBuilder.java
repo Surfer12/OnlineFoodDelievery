@@ -1,7 +1,7 @@
 package builder;
 
-import order.Order;
 import menu.MenuItem;
+import model.Order;
 import location.Location;
 import java.util.ArrayList;
 import java.util.List;
