@@ -39,7 +39,6 @@ public class Customer {
       return new ArrayList<>(orderHistory);
    }
 
-   // Getters
    public Long getId() {
       return id;
    }

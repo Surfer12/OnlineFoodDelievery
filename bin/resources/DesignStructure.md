@@ -2,39 +2,38 @@
 
 ## Class Structure and Relationships
 
-The system is designed with clear separation of concerns and follows object-oriented principles:
+The system is designed with separation of concerns among classes and associated relationships and follows object-oriented principles in a few key areas.
 
 ### Core Classes
 1. **Customer**: Manages customer information and order placement
 2. **Driver**: Handles delivery operations, location tracking, and rating management
 3. **Order**: Processes order details and status tracking
-4. **MenuItem**: Base class for food items with size and customization options
-5. **OrderTracker**: Manages order status updates and notifications
+4. **MenuItem**: Base abstract class for food items
+5. **OrderTracker**: Manages order status updates
 
 ## OOP Principles Implementation
 
 ### 1. Encapsulation
 
 The codebase demonstrates strong encapsulation through:
+- Private fields that are only accessible through public methods
 
-Example from MenuItem class:
+Example from Abstract MenuItem class:
 ```java
 public abstract class MenuItem {
-    private Long id;
-    private String name;
-    private String description;
-    private double price;
-    private String category;
-    private int preparationTime;
-    private boolean available;
+   private Long id;
+   private String name;
+   private String description;
+   private double price;
+   private String category;
+   private boolean available;
 
-    // Controlled access through Optional
+    // Null exception safe access through Optional
     public Optional<String> getDescription() {
         return Optional.ofNullable(description);
     }
 }
 ```
-I'll elaborate on the Abstraction section by providing detailed explanations using examples from the existing codebase:
 
 ### 2. Abstraction
 
@@ -42,13 +41,34 @@ The system effectively uses both interfaces and abstract classes to hide impleme
 
 1. **Interfaces**:
 
-a. `OrderObserver`: Defines notification behavior
-```java:src/observer/OrderObserver.java
+NotificationService is an interface that defines the contract for sending notifications to customers and drivers through the OrderObserver interface. This interface abstracts the notification delivery update mechanism.
+
+OrderObserver defines the update 'contract' for order updates as necessary. This interface abstracts the notification update mechanism and is known as the 'Observer' in the Observer pattern.
+```java
+:src/observer/OrderObserver.java
 public interface OrderObserver {
    public void update(Order order);
 }
 ```
-This interface abstracts the notification mechanism, implemented by both CustomerNotifier and DriverNotifier classes.
+Implemented by both CustomerNotifier and DriverNotifier classes.
+Example from DriverNotifier:
+```java
+src/observer/DriverNotifier.java
+public class DriverNotifier implements OrderObserver {
+   private final NotificationService notificationService;
+
+   public DriverNotifier(NotificationService notificationService) {
+      this.notificationService = notificationService;
+   }
+
+   @Override
+   public void update(Order order) {
+      if (order.getDriverId() != null) {
+         notificationService.sendOrderStatusUpdateToCustomer(order, order.getStatus());
+      }
+   }
+}
+```
 
 b. `OrderSubject`: Defines subject behavior for observer pattern
 ```java:src/observer/OrderSubject.java
@@ -60,17 +80,10 @@ public interface OrderSubject {
 ```
 Implemented by OrderTracker and OrderTrackingService to manage observer notifications.
 
-c. `DriverMatchingStrategy`: Abstracts driver matching logic
-```java:src/matching/DriverMatchingStrategy.java
-public interface DriverMatchingStrategy {
-   Optional<Driver> findBestMatch(Order order, List<Driver> availableDrivers);
-}
-```
-Allows for different matching algorithms through implementations like ProximityBasedMatchingStrategy.
-
 d. `NotificationService`: Abstracts notification delivery
 
-```7:15:src/notification/NotificationService.java
+```java
+src/notification/NotificationService.java
 public interface NotificationService {
    void sendOrderConfirmationToCustomer(Order order);
 
@@ -88,14 +101,13 @@ public interface NotificationService {
 a. `MenuItem`: Base class for all menu items
 
 ```java
-5:23:src/menu/MenuItem.java
+src/menu/MenuItem.java
 public abstract class MenuItem {
    private Long id;
    private String name;
    private String description;
    private double price;
    private String category;
-   private int preparationTime;
    private boolean available;
 
    public MenuItem(Long id, String name, String description, double price, String category, int preparationTime) {
@@ -110,7 +122,7 @@ public abstract class MenuItem {
 
 ```
 
-Provides common functionality while allowing specific implementations for different food items.
+Provides common base abstract concept while allowing specific implementations for different food items like hamburgers, fries, and drinks.
 
 3. **Implementation Examples**:
 
@@ -550,3 +562,248 @@ classDiagram
     OrderQueue --> Order
     OrderQueue --> OrderValidator : uses
 ```
+Additional Notes: 
+
+### Observer pattern:
+
+The Observer pattern is used to notify customers and drivers about order updates. The OrderSubject interface defines the subject behavior, and the OrderObserver interface defines the update contract for order updates. The CustomerNotifier and DriverNotifier classes implement the OrderObserver interface and provide specific implementations of the update method.
+
+### Observer Pattern Explanation
+
+The Observer pattern is a behavioral design pattern that establishes a one-to-many relationship between objects. When one object (the Subject/Observable) changes state, all its dependents (Observers) are notified and updated automatically.
+
+## Structure in Your System
+
+### 1. Core Components
+
+**Subject Interface (`OrderSubject`)**
+```java:src/observer/OrderSubject.java
+public interface OrderSubject {
+    void attach(OrderObserver observer);    // Add an observer
+    void detach(OrderObserver observer);    // Remove an observer
+    void notifyObservers(Order order);      // Notify all observers
+}
+```
+
+**Observer Interface (`OrderObserver`)**
+```java:src/observer/OrderObserver.java
+public interface OrderObserver {
+    void update(Order order);    // Method called when subject changes
+}
+```
+
+### 2. Implementation Examples
+
+**Concrete Subject (`OrderTracker`)**
+```java:src/order/OrderTracker.java
+public class OrderTracker implements OrderSubject {
+    private final List<OrderObserver> observers = new ArrayList<>();
+
+    @Override
+    public void attach(OrderObserver observer) {
+        observers.add(observer);
+    }
+
+    @Override
+    public void detach(OrderObserver observer) {
+        observers.remove(observer);
+    }
+
+    @Override
+    public void notifyObservers(Order order) {
+        for (OrderObserver observer : observers) {
+            observer.update(order);
+        }
+    }
+}
+```
+
+**Concrete Observers**
+```java:src/observer/CustomerNotifier.java
+public class CustomerNotifier implements OrderObserver {
+    private final NotificationService notificationService;
+
+    @Override
+    public void update(Order order) {
+        notificationService.sendOrderStatusUpdateToCustomer(order, order.getStatus());
+    }
+}
+```
+
+## Benefits in System
+
+1. **Decoupled Communication**: The order tracking system doesn't need to know about specific notification implementations.
+2. **Easy Extension**: You can add new types of notifications (SMS, Email, Push) without modifying existing code.
+3. **Real-time Updates**: All interested parties get immediate updates when order status changes.
+
+## Usage Example
+
+```java
+// Create the subject
+OrderTracker orderTracker = new OrderTracker();
+
+// Create observers
+CustomerNotifier customerNotifier = new CustomerNotifier(notificationService);
+DriverNotifier driverNotifier = new DriverNotifier(notificationService);
+
+// Register observers
+orderTracker.attach(customerNotifier);
+orderTracker.attach(driverNotifier);
+
+// When order status changes
+Order order = new Order(/*...*/);
+order.setStatus(OrderStatus.IN_DELIVERY);
+orderTracker.notifyObservers(order);  // All observers will be notified
+```
+
+## Common Use Cases in Your System
+
+1. Order status updates
+2. Driver location changes
+3. Payment status notifications
+4. Delivery time updates
+
+This pattern is particularly useful in your food delivery system because it allows for a flexible notification system where different components can subscribe to order updates without creating tight coupling between the order processing and notification logic."
+
+## The Strategy pattern 
+
+allows you to define a family of algorithms, encapsulate each one, and make them interchangeable. In your system, it's used to handle different types of notifications.
+
+
+"I'll explain how the Strategy pattern is used in the NotificationService implementation.
+
+# Strategy Pattern in NotificationService
+
+The Strategy pattern allows you to define a family of algorithms, encapsulate each one, and make them interchangeable. In your system, it's used to handle different types of notifications.
+
+## Core Structure
+
+### 1. Strategy Interface
+````java:src/notification/NotificationService.java
+public interface NotificationService {
+    void sendOrderConfirmationToCustomer(Order order);
+    void sendDriverAssignmentNotification(Order order, Driver driver);
+    void sendOrderStatusUpdateToCustomer(Order order, OrderStatus newStatus);
+    void sendDeliveryCompletionNotification(Order order);
+}
+````
+
+### 2. Concrete Strategy Examples
+````java:src/notification/EmailNotificationService.java
+public class EmailNotificationService implements NotificationService {
+    private final EmailClient emailClient;
+
+    @Override
+    public void sendOrderConfirmationToCustomer(Order order) {
+        String email = order.getCustomerEmail();
+        String message = createOrderConfirmationMessage(order);
+        emailClient.sendEmail(email, "Order Confirmation", message);
+    }
+
+    // Other method implementations...
+}
+````
+
+````java:src/notification/SMSNotificationService.java
+public class SMSNotificationService implements NotificationService {
+    private final SMSGateway smsGateway;
+
+    @Override
+    public void sendOrderConfirmationToCustomer(Order order) {
+        String phone = order.getCustomerPhone();
+        String message = createOrderConfirmationMessage(order);
+        smsGateway.sendSMS(phone, message);
+    }
+
+    // Other method implementations...
+}
+````
+
+### 3. Usage Example
+````java:src/notification/NotificationManager.java
+public class NotificationManager {
+    private final NotificationService notificationService;
+
+    // Inject the specific notification strategy
+    public NotificationManager(NotificationService notificationService) {
+        this.notificationService = notificationService;
+    }
+
+    public void handleOrderConfirmation(Order order) {
+        notificationService.sendOrderConfirmationToCustomer(order);
+    }
+}
+
+// Usage
+NotificationService emailService = new EmailNotificationService();
+NotificationService smsService = new SMSNotificationService();
+
+// Use email notifications
+NotificationManager emailManager = new NotificationManager(emailService);
+
+// Use SMS notifications
+NotificationManager smsManager = new NotificationManager(smsService);
+````
+
+## Benefits
+
+1. **Flexibility**: Easy to add new notification types (e.g., push notifications, WhatsApp)
+2. **Single Responsibility**: Each notification service handles one type of notification
+3. **Runtime Switching**: Can change notification strategy based on user preferences
+4. **Testing**: Easy to mock for testing purposes
+5. **Configuration**: Can be configured via dependency injection
+
+## Common Use Cases
+
+1. **User Preferences**
+````java
+public class UserPreferenceBasedNotificationService implements NotificationService {
+    private final Map<NotificationType, NotificationService> services;
+    
+    public void sendOrderConfirmationToCustomer(Order order) {
+        NotificationType preferredType = order.getCustomer().getPreferredNotificationType();
+        NotificationService service = services.get(preferredType);
+        service.sendOrderConfirmationToCustomer(order);
+    }
+}
+````
+
+2. **Fallback Mechanism**
+````java
+public class FallbackNotificationService implements NotificationService {
+    private final List<NotificationService> services;
+    
+    public void sendOrderConfirmationToCustomer(Order order) {
+        for (NotificationService service : services) {
+            try {
+                service.sendOrderConfirmationToCustomer(order);
+                return; // Success
+            } catch (NotificationException e) {
+                // Log and try next service
+                continue;
+            }
+        }
+        throw new NotificationFailedException("All notification attempts failed");
+    }
+}
+````
+
+3. **Multi-Channel Notifications**
+````java
+public class MultiChannelNotificationService implements NotificationService {
+    private final List<NotificationService> services;
+    
+    public void sendOrderConfirmationToCustomer(Order order) {
+        CompletableFuture<?>[] futures = services.stream()
+            .map(service -> CompletableFuture.runAsync(() -> 
+                service.sendOrderConfirmationToCustomer(order)))
+            .toArray(CompletableFuture[]::new);
+        
+        CompletableFuture.allOf(futures).join();
+    }
+}
+````
+
+This pattern makes your notification system highly flexible and maintainable, allowing for easy addition of new notification methods without changing the existing code."
+
+
