@@ -21,26 +21,16 @@ public class Location {
       return longitude;
    }
 
-   public String getZipcode() {
-      return zipcode;
-   }
+   throw new IllegalArgumentException("Destination location cannot be null");return address;
 
-         throw new IllegalArgumentException("Destination location cannot be null");
-      return address;
-      // Simplified distance calculation (could be replaced with more accurate
-      // calculation)
-      double latitudeDiff = this.latitude - destination.getLatitude();
-      double longitudeDiff = this.longitude - destination.getLongitude();
-      return Math.sqrt(latitudeDiff * latitudeDiff + longitudeDiff * longitudeDiff);
-   }
-}
-      if (destination == null) {
-         throw new IllegalArgumentException("Destination location cannot be null");
-      }
-      // Simplified distance calculation (could be replaced with more accurate
-      // calculation)
-      double latitudeDiff = this.latitude - destination.latitude;
-      double longitudeDiff = this.longitude - destination.longitude;
-      return Math.sqrt(latitudeDiff * latitudeDiff + longitudeDiff * longitudeDiff);
-   }
-}
+   // Simplified distance calculation (could be replaced with more accurate
+   // calculation)
+   double latitudeDiff = this.latitude - destination.getLatitude();
+   double longitudeDiff = this.longitude - destination
+         .getLongitude();return Math.sqrt(latitudeDiff*latitudeDiff+longitudeDiff*longitudeDiff);}}if(destination==null){throw new IllegalArgumentException("Destination location cannot be null");}
+   // Simplified distance calculation (could be replaced with more accurate
+   // calculation)
+   double latitudeDiff = this.latitude - destination.latitude;
+   double longitudeDiff = this.longitude
+         - destination.longitude;return Math.sqrt(latitudeDiff*latitudeDiff+longitudeDiff*longitudeDiff);
+}}
