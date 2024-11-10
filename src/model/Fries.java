@@ -1,12 +1,19 @@
-package menu;
+package model;
 
 public class Fries extends MenuItem {
    private Size size;
    private boolean seasoned;
+   private int quantity;
 
-   public Fries(Long id, String name, String description, double basePrice, Size size) {
-      super(id, name, description, basePrice, "FRIES", 5); // 5 minutes prep time
+   public Fries(Long id, String name, String description, double basePrice, Size size, int quantity) {
+      super(id, name, description, basePrice, "FRIES");
       this.size = size;
+      this.quantity = quantity;
+   }
+
+   @Override
+   public int getQuantity() {
+      return quantity;
    }
 
    public Size getSize() {

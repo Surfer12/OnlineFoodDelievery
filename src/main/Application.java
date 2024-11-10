@@ -4,8 +4,9 @@ import notification.CustomerNotifier;
 import notification.DriverNotifier;
 import model.Order;
 import model.Driver;
+import model.Size;
+import model.MenuItem;
 import factory.MenuItemFactory;
-import menu.MenuItem;
 import orderUtilities.OrderBuilder;
 import notification.NotificationService;
 
@@ -29,7 +30,8 @@ public class Application {
         MenuItemFactory factory = new MenuItemFactory();
 
         // Create menu items
-        MenuItem pizza = factory.createMenuItem("hamburger", "Pepperoni Pizza", "Spicy pepperoni with cheese", 12.99);
+        MenuItem pizza = factory.createMenuItem("hamburger", "Pepperoni Pizza", "Spicy pepperoni with cheese", 12.99,
+                Size.MEDIUM, 1);
 
         // Build the order using OrderBuilder
         Order order = new OrderBuilder()

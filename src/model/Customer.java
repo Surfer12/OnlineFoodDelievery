@@ -3,7 +3,6 @@ package model;
 import java.util.ArrayList;
 import java.util.List;
 
-import menu.MenuItem;
 import rating.Rating;
 
 public class Customer {

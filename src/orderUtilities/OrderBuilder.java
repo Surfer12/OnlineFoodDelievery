@@ -2,7 +2,8 @@ package orderUtilities;
 
 import java.util.ArrayList;
 import java.util.List;
-import menu.MenuItem;
+
+import model.MenuItem;
 import model.Order;
 import location.Location;
 import utils.InputValidationUtils;

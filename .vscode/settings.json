@@ -3,5 +3,7 @@
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
         "lib/**/*.jar"
-    ]
+    ],
+    "files.autoSave": "off",
+    "editor.fontFamily": "'Monaspace Krypton', monospace"
 }

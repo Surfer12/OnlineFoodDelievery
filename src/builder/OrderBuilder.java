@@ -1,6 +1,6 @@
 package builder;
 
-import menu.MenuItem;
+import model.MenuItem;
 import model.Order;
 import location.Location;
 import java.util.ArrayList;

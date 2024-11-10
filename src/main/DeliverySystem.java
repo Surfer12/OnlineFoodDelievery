@@ -7,6 +7,8 @@ import java.util.List;
 import java.util.Optional;
 import observer.OrderObserver;
 import model.Driver;
+import model.MenuItem;
+import model.Size;
 import notification.NotificationService;
 import observer.OrderEvent;
 import exception.ValidationException;
@@ -15,7 +17,6 @@ import exception.OrderProcessingException;
 import tracker.OrderTracker;
 import model.Order;
 import orderUtilities.OrderStatus;
-import menu.MenuItem;
 import factory.MenuItemFactory; // Added import for MenuItemFactory
 import orderUtilities.OrderBuilder; // Add import for OrderBuilder
 
@@ -133,8 +134,10 @@ public class DeliverySystem {
       MenuItemFactory factory = new MenuItemFactory();
 
       // Create menu items using the factory
-      MenuItem pizza = factory.createMenuItem("hamburger", "Pepperoni Pizza", "Spicy pepperoni with cheese", 12.99);
-      MenuItem burger = factory.createMenuItem("hamburger", "Beef Burger", "Juicy beef patty with lettuce", 8.99);
+      MenuItem pizza = factory.createMenuItem("hamburger", "Pepperoni Pizza", "Spicy pepperoni with cheese", 12.99,
+            Size.MEDIUM, 1);
+      MenuItem burger = factory.createMenuItem("hamburger", "Beef Burger", "Juicy beef patty with lettuce", 8.99,
+            Size.MEDIUM, 1);
 
       // Create orders using OrderBuilder with zipcode and address
       Order order1 = new OrderBuilder()

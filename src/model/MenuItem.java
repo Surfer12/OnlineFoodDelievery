@@ -1,4 +1,4 @@
-package menu;
+package model;
 
 import java.util.Optional;
 
@@ -8,16 +8,14 @@ public abstract class MenuItem {
    private String description;
    private double price;
    private String category;
-   private int preparationTime;
    private boolean available;
 
-   public MenuItem(Long id, String name, String description, double price, String category, int preparationTime) {
+   public MenuItem(Long id, String name, String description, double price, String category) {
       this.id = id;
       this.name = name;
       this.description = description;
       this.price = price;
       this.category = category;
-      this.preparationTime = preparationTime;
       this.available = true;
    }
 
@@ -58,11 +56,9 @@ public abstract class MenuItem {
       return Optional.ofNullable(category);
    }
 
-   public int getPreparationTime() {
-      return preparationTime;
-   }
-
    public double calculateTotal() {
       return price;
    }
+
+   public abstract int getQuantity();
 }

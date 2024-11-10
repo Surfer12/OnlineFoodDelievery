@@ -1,4 +1,4 @@
-package menu;
+package model;
 
 public enum Size {
    SMALL(0.8),
