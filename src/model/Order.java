@@ -137,4 +137,8 @@ public class Order {
    public Payment getPayment() {
       return payment;
    }
+
+   public Driver getAssignedDriver() {
+      return Driver.getDriverById(driverId);
+   }
 }

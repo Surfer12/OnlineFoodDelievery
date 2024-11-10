@@ -90,4 +90,8 @@ public class Driver {
       }
       this.currentLocation = location;
    }
+
+   public static Driver getDriverById(Long driverId) {
+      return Driver.getDriverById(driverId);
+   }
 }

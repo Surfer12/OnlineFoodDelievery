@@ -5,8 +5,10 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+import observer.OrderObserver;
 import model.Driver;
 import notification.NotificationService;
+import observer.OrderEvent;
 import notification.EmailNotificationService;
 import exception.ValidationException;
 import exception.PaymentException;
@@ -14,8 +16,6 @@ import exception.OrderProcessingException;
 import tracker.OrderTracker;
 import model.Order;
 import orderUtilities.OrderStatus;
-
-import location.Location;
 import menu.MenuItem;
 import factory.MenuItemFactory; // Added import for MenuItemFactory
 import orderUtilities.OrderBuilder; // Add import for OrderBuilder
@@ -26,6 +26,7 @@ public class DeliverySystem {
    private final Map<Long, Driver> busyDrivers;
    private final OrderTracker orderTracker;
    private final NotificationService notificationService;
+   private final List<OrderObserver> observers = new ArrayList<>();
 
    public DeliverySystem() {
       this.orderQueue = new queue.OrderQueue(10);
@@ -35,10 +36,21 @@ public class DeliverySystem {
       this.notificationService = new EmailNotificationService();
    }
 
+   public void addObserver(OrderObserver observer) {
+      observers.add(observer);
+   }
+
+   private void notifyObservers(Order order, OrderEvent event) {
+      for (OrderObserver observer : observers) {
+         observer.onOrderEvent(order, event);
+      }
+   }
+
    public void submitOrder(Order order) {
       validateAndProcessOrder(order);
       notifyOrderSubmission(order);
       assignDriverIfAvailable(order);
+      notifyObservers(order, OrderEvent.ORDER_SUBMITTED);
    }
 
    private void validateAndProcessOrder(Order order) {
@@ -66,10 +78,11 @@ public class DeliverySystem {
       return Optional.empty();
    }
 
-   private void assignOrderToDriver(Order order, Driver driver) {
+   void assignOrderToDriver(Order order, Driver driver) {
       driver.acceptOrder(order);
       updateDriverStatus(driver);
       updateOrderStatus(order, driver);
+      notifyObservers(order, OrderEvent.DRIVER_ASSIGNED);
    }
 
    private void updateDriverStatus(Driver driver) {
@@ -90,6 +103,13 @@ public class DeliverySystem {
       driver.ifPresent(d -> {
          processDeliveryCompletion(orderId, d);
          d.getCurrentOrder().ifPresent(order -> notificationService.sendDeliveryCompletionNotification(order));
+      });
+      driver.ifPresent(d -> {
+         processDeliveryCompletion(orderId, d);
+         d.getCurrentOrder().ifPresent(order -> {
+            notificationService.sendDeliveryCompletionNotification(order);
+            notifyObservers(order, OrderEvent.DELIVERY_COMPLETED);
+         });
       });
    }
 
@@ -120,10 +140,6 @@ public class DeliverySystem {
       // Create menu items using the factory
       MenuItem pizza = factory.createMenuItem("hamburger", "Pepperoni Pizza", "Spicy pepperoni with cheese", 12.99);
       MenuItem burger = factory.createMenuItem("hamburger", "Beef Burger", "Juicy beef patty with lettuce", 8.99);
-
-      // Define delivery locations with zipcode, address, latitude, and longitude
-      Location location1 = new Location("10001", "123 Oak St");
-      Location location2 = new Location("90001", "456 Elm St");
 
       // Create orders using OrderBuilder with zipcode and address
       Order order1 = new OrderBuilder()

@@ -3,5 +3,11 @@ package observer;
 import model.Order;
 
 public interface OrderObserver {
-   public void update(Order order);
+    void update(Order order);
+
+    void onOrderEvent(Order order, OrderEvent event);
+
+    void customerNotification(Order order, OrderEvent event);
+
+    void driverNotification(Order order, OrderEvent event);
 }

@@ -13,3 +13,4 @@ public interface NotificationService {
 
    void sendDeliveryCompletionNotification(Order order);
 }
+
