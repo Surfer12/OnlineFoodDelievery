@@ -9,6 +9,12 @@ import menu.MenuItem;
 import orderUtilities.OrderBuilder;
 import notification.NotificationService;
 
+import java.util.Scanner;
+
+import ConsoleInputHandler.ConsoleInputHandler;
+import ConsoleInputValidator.InputValidator;
+import ConsoleInputValidator.PositiveIntegerValidator;
+
 public class Application {
     public static void main(String[] args) {
         DeliverySystem deliverySystem = new DeliverySystem();
@@ -30,7 +36,7 @@ public class Application {
                 .withValidatedCustomerId(1L)
                 .withCustomerEmail("jane.doe@example.com")
                 .addItem(pizza)
-                .withDeliveryLocation("456 Elm Street", "12345")
+                .withValidatedDeliveryLocation("456 Elm Street", "12345")
                 .build();
 
         // Submit the order
@@ -42,5 +48,18 @@ public class Application {
         // Assign driver and complete delivery
         deliverySystem.assignOrderToDriver(order, driver);
         deliverySystem.completeDelivery(order.getOrderId(), driver.getId());
+
+        Scanner scanner = new Scanner(System.in);
+
+        // Create a PositiveIntegerValidator instance
+        PositiveIntegerValidator positiveIntegerValidator = new PositiveIntegerValidator();
+        InputValidator<Integer> inputValidator = new InputValidator<>(positiveIntegerValidator, "Positive Integer");
+
+        ConsoleInputHandler<Integer> inputHandler = new ConsoleInputHandler<>(scanner, inputValidator);
+
+        Integer userInput = inputHandler.getInput("Enter a positive integer: ");
+        System.out.println("You entered: " + userInput);
+
+        scanner.close();
     }
 }

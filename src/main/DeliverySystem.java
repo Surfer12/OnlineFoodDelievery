@@ -141,14 +141,14 @@ public class DeliverySystem {
             .withValidatedCustomerId(101L)
             .withCustomerEmail("customer1@example.com")
             .addItem(pizza)
-            .withDeliveryLocation("10001", "123 Oak St")
+            .withValidatedDeliveryLocation("10001", "123 Oak St")
             .build();
 
       Order order2 = new OrderBuilder()
             .withValidatedCustomerId(102L)
             .withCustomerEmail("customer2@example.com")
             .addItem(burger)
-            .withDeliveryLocation("90001", "456 Elm St")
+            .withValidatedDeliveryLocation("90001", "456 Elm St")
             .build();
 
       // Add orders to the list

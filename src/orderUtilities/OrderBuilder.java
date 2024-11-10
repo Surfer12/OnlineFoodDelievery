@@ -5,6 +5,7 @@ import java.util.List;
 import menu.MenuItem;
 import model.Order;
 import location.Location;
+import utils.InputValidationUtils;
 
 public class OrderBuilder {
    private Long customerId;
@@ -21,9 +22,8 @@ public class OrderBuilder {
    }
 
    public OrderBuilder withCustomerEmail(String email) {
-      if (email == null || email.trim().isEmpty()) {
-         throw new IllegalArgumentException("Email cannot be null or empty");
-      }
+      InputValidationUtils.validateTextInput(email, "Customer email");
+      InputValidationUtils.validateEmailFormat(email);
       this.customerEmail = email;
       return this;
    }
@@ -44,14 +44,17 @@ public class OrderBuilder {
       return this;
    }
 
-   public OrderBuilder withDeliveryLocation(String address, String zipcode) {
-      if (address == null || address.trim().isEmpty()) {
-         throw new IllegalArgumentException("Address cannot be null or empty");
-      }
-      if (zipcode == null || zipcode.trim().isEmpty()) {
-         throw new IllegalArgumentException("Zipcode cannot be null or empty");
-      }
-      this.deliveryLocation = new Location(zipcode, address); // Updated Location constructor
+   public OrderBuilder withValidatedDeliveryLocation(String address, String zipcode) {
+      InputValidationUtils.validateTextInput(address, "Address");
+      InputValidationUtils.validateTextInput(zipcode, "Zipcode");
+      this.deliveryLocation = new Location(zipcode, address);
+      return this;
+   }
+
+   public OrderBuilder withValidatedPhoneNumber(String phoneNumber) {
+      InputValidationUtils.validateTextInput(phoneNumber, "Phone number");
+      InputValidationUtils.validatePhoneNumber(phoneNumber);
+      // Store phone number if needed
       return this;
    }
 
