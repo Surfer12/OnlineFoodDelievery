@@ -6,27 +6,26 @@ This document synthesizes guidelines from various cursor rules documents to prov
 
 ### 1. General Development
 
-**Purpose:** Offer Copilot assistance for everyday Java programming tasks, adhering to standard coding conventions and best practices.
+**Purpose:** Provide concise assistance for Java programming tasks, adhering to coding conventions and best practices.
 
-- **Coding Standards:** Follow the [Universal Java Cursor Rules Document](./UniversalJavaCursorRulesDocument.cursorrules) for naming conventions, documentation practices, and code organization.
-- **Best Practices:** Encourage the use of SOLID principles, clean code methodologies, and efficient algorithm implementations.
-- **Common Libraries:** Utilize popular libraries such as Spring for dependency injection and Hibernate for ORM.
+- **Coding Standards:** Follow standard naming conventions, documentation practices, and code organization principles.
+- **Best Practices:** Utilize SOLID principles, clean code methodologies, and efficient algorithm implementations.
+- **Common Libraries:** Employ popular libraries such as Spring for dependency injection and Hibernate for ORM.
 
 ### 2. Testing and Debugging
 
-**Purpose:** Guide Copilot in providing support for writing unit tests, integration tests, and debugging Java applications without revealing test solutions.
+**Purpose:** Guide Copilot in supporting the creation of unit tests, integration tests, and debugging Java applications without providing direct test solutions.
 
-- **Testing Frameworks:** Use JUnit 5 and Mockito for creating and managing tests.
+- **Testing Frameworks:** Use JUnit 5 and Mockito for managing tests.
 - **Debugging Techniques:** Suggest using IDE debugging tools, logging frameworks like SLF4J, and proper exception handling.
-- **Cursor Rules Compliance:** Refer to the [Cursor Rules Document for Test Taking](./testcursorrules.cursorrules) to ensure guidance does not include direct test solutions.
 
 ### 3. Framework Maintenance
 
 **Purpose:** Assist in updating and maintaining Java frameworks by implementing design patterns and integrating modern Java features.
 
-- **Design Patterns:** Apply patterns from the [Updated Java Development Guide: Modern Design Pattern Principles](./FinalizeFrameworkUpkeep.cursorrules).
+- **Design Patterns:** Apply relevant design patterns to enhance framework structure.
 - **Modern Features:** Leverage Java 17+ features such as records, sealed classes, and the Stream API.
-- **Framework Integration:** Support integration with frameworks like Spring Boot, Spring Cloud, and Hibernate for building scalable applications.
+- **Framework Integration:** Support integration with frameworks like Spring Boot and Hibernate for building scalable applications.
 
 ### 4. Specialized Scenarios
 
