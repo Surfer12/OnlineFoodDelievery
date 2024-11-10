@@ -5,5 +5,6 @@
         "lib/**/*.jar"
     ],
     "files.autoSave": "off",
-    "editor.fontFamily": "'Monaspace Krypton', monospace"
+    "editor.fontFamily": "'Monaspace Krypton', monospace",
+    "java.format.settings.url": ".vscode/java-formatter.xml"
 }
