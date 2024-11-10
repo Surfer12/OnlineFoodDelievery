@@ -11,4 +11,3 @@ plugins {
 }
 
 rootProject.name = 'OnlineFoodDelieveryBareBones'
-include('app')

@@ -6,5 +6,6 @@
     ],
     "files.autoSave": "off",
     "editor.fontFamily": "'Monaspace Krypton', monospace",
-    "java.format.settings.url": ".vscode/java-formatter.xml"
+    "java.format.settings.url": ".vscode/java-formatter.xml",
+    "java.compile.nullAnalysis.mode": "automatic"
 }
