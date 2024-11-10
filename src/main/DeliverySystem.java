@@ -9,7 +9,6 @@ import observer.OrderObserver;
 import model.Driver;
 import notification.NotificationService;
 import observer.OrderEvent;
-import notification.EmailNotificationService;
 import exception.ValidationException;
 import exception.PaymentException;
 import exception.OrderProcessingException;
@@ -33,7 +32,7 @@ public class DeliverySystem {
       this.availableDrivers = new ConcurrentHashMap<>();
       this.busyDrivers = new ConcurrentHashMap<>();
       this.orderTracker = new OrderTracker();
-      this.notificationService = new EmailNotificationService();
+      this.notificationService = new NotificationService();
    }
 
    public void addObserver(OrderObserver observer) {
@@ -100,10 +99,6 @@ public class DeliverySystem {
 
    public void completeDelivery(Long orderId, Long driverId) {
       Optional<Driver> driver = Optional.ofNullable(busyDrivers.get(driverId));
-      driver.ifPresent(d -> {
-         processDeliveryCompletion(orderId, d);
-         d.getCurrentOrder().ifPresent(order -> notificationService.sendDeliveryCompletionNotification(order));
-      });
       driver.ifPresent(d -> {
          processDeliveryCompletion(orderId, d);
          d.getCurrentOrder().ifPresent(order -> {

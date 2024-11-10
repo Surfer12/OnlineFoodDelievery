@@ -7,14 +7,17 @@ import model.Driver;
 import factory.MenuItemFactory;
 import menu.MenuItem;
 import orderUtilities.OrderBuilder;
+import notification.NotificationService;
 
 public class Application {
     public static void main(String[] args) {
         DeliverySystem deliverySystem = new DeliverySystem();
 
         // Register observers
-        deliverySystem.addObserver(new CustomerNotifier(null));
-        deliverySystem.addObserver(new DriverNotifier(null));
+        // With a valid NotificationService
+        NotificationService notificationService = new NotificationService();
+        deliverySystem.addObserver(new CustomerNotifier(notificationService));
+        deliverySystem.addObserver(new DriverNotifier(notificationService));
 
         // Initialize MenuItemFactory
         MenuItemFactory factory = new MenuItemFactory();
