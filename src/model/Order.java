@@ -1,3 +1,5 @@
+package model;
+
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
@@ -28,7 +30,7 @@ public class Order {
       this.status = OrderStatus.PLACED;
       this.orderTime = LocalDateTime.now();
       this.totalAmount = calculateTotal();
-      this.deliveryLocation = deliveryLocation;
+      this.deliveryLocation = new Location(deliveryLocation.getZipcode(), deliveryLocation.getAddress());
       this.customerEmail = customerEmail;
    }
 

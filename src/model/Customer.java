@@ -24,7 +24,7 @@ public class Customer {
    }
 
    public Order placeOrder(List<MenuItem> items) {
-      Order order = new Order(this.id, items, new location.Location(0, 0), this.email);
+      Order order = new Order(this.id, items, new location.Location(this.address, "zipcode"), this.email);
       orderHistory.add(order);
       return order;
    }

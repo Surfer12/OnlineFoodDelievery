@@ -5,7 +5,6 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
-import queue.OrderQueue; // Import the queue package
 import model.Driver;
 import notification.NotificationService;
 import notification.EmailNotificationService;
@@ -15,7 +14,7 @@ import exception.OrderProcessingException;
 import tracker.OrderTracker;
 import model.Order;
 import orderUtilities.OrderStatus;
-import java.util.Arrays;
+
 import location.Location;
 import menu.MenuItem;
 import factory.MenuItemFactory; // Added import for MenuItemFactory
@@ -122,7 +121,7 @@ public class DeliverySystem {
       MenuItem pizza = factory.createMenuItem("hamburger", "Pepperoni Pizza", "Spicy pepperoni with cheese", 12.99);
       MenuItem burger = factory.createMenuItem("hamburger", "Beef Burger", "Juicy beef patty with lettuce", 8.99);
 
-      // Define delivery locations with zipcode and address
+      // Define delivery locations with zipcode, address, latitude, and longitude
       Location location1 = new Location("10001", "123 Oak St");
       Location location2 = new Location("90001", "456 Elm St");
 
@@ -138,7 +137,7 @@ public class DeliverySystem {
             .withValidatedCustomerId(102L)
             .withCustomerEmail("customer2@example.com")
             .addItem(burger)
-            .withDeliveryLocation("456 Elm St", 34.0522, -118.2437, "90001")
+            .withDeliveryLocation("90001", "456 Elm St")
             .build();
 
       // Add orders to the list

@@ -44,14 +44,14 @@ public class OrderBuilder {
       return this;
    }
 
-   public OrderBuilder withDeliveryLocation(String address, double latitude, double longitude, String zipcode) {
+   public OrderBuilder withDeliveryLocation(String address, String zipcode) {
       if (address == null || address.trim().isEmpty()) {
          throw new IllegalArgumentException("Address cannot be null or empty");
       }
       if (zipcode == null || zipcode.trim().isEmpty()) {
          throw new IllegalArgumentException("Zipcode cannot be null or empty");
       }
-      this.deliveryLocation = new Location(latitude, longitude, zipcode, address); // Updated Location constructor
+      this.deliveryLocation = new Location(zipcode, address); // Updated Location constructor
       return this;
    }
 
