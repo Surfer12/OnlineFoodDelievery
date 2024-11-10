@@ -1,0 +1,19 @@
+package validators;
+
+import model.OrderItem;
+
+public class OrderItemValidator implements InputValidator.Validator<OrderItem> {
+    @Override
+    public OrderItem parse(String input) {
+        // Assuming input is in the format "menuItemId,quantity"
+        String[] parts = input.split(",");
+        Long menuItemId = Long.parseLong(parts[0].trim());
+        int quantity = Integer.parseInt(parts[1].trim());
+        return new OrderItem(menuItemId, quantity);
+    }
+
+    @Override
+    public boolean isValid(OrderItem value) {
+        return value != null && value.getQuantity() > 0;
+    }
+}

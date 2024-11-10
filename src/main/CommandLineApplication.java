@@ -1,32 +1,57 @@
 package main;
 
-import java.util.Scanner;
-
 import ConsoleInputHandler.ConsoleInputHandler;
 import ConsoleInputValidator.InputValidator;
-import ConsoleInputValidator.NameValidator;
+import validation.NameValidator;
 import ConsoleInputValidator.PositiveIntegerValidator;
+import validation.EmailValidator;
+import validation.MenuItemValidator;
+import validation.OrderItemValidator;
+
+import java.util.Scanner;
 
 public class CommandLineApplication {
    public static void main(String[] args) {
       try (Scanner scanner = new Scanner(System.in)) {
-         // Create a NameValidator instance
+         // Name Input
          NameValidator nameValidator = new NameValidator();
          InputValidator<String> nameInputValidator = new InputValidator<>(nameValidator, "Name");
-
          ConsoleInputHandler<String> nameInputHandler = new ConsoleInputHandler<>(scanner, nameInputValidator);
          String userName = nameInputHandler.getInput("Enter your name: ");
          System.out.println("Hello, " + userName + "!");
 
-         // Create a PositiveIntegerValidator instance
+         // Age Input
          PositiveIntegerValidator positiveIntegerValidator = new PositiveIntegerValidator();
          InputValidator<Integer> positiveIntegerInputValidator = new InputValidator<>(positiveIntegerValidator,
                "Positive Integer");
-
          ConsoleInputHandler<Integer> positiveIntegerInputHandler = new ConsoleInputHandler<>(scanner,
                positiveIntegerInputValidator);
          Integer userAge = positiveIntegerInputHandler.getInput("Enter your age (positive integer): ");
          System.out.println("You entered age: " + userAge + "!");
+
+         // Email Input
+         EmailValidator emailValidator = new EmailValidator();
+         InputValidator<String> emailInputValidator = new InputValidator<>(emailValidator, "Email");
+         ConsoleInputHandler<String> emailInputHandler = new ConsoleInputHandler<>(scanner, emailInputValidator);
+         String userEmail = emailInputHandler.getInput("Enter your email: ");
+         System.out.println("You entered email: " + userEmail + "!");
+
+         // Menu Item Input
+         MenuItemValidator menuItemValidator = new MenuItemValidator();
+         InputValidator<MenuItem> menuItemInputValidator = new InputValidator<>(menuItemValidator, "Menu Item");
+         ConsoleInputHandler<MenuItem> menuItemInputHandler = new ConsoleInputHandler<>(scanner,
+               menuItemInputValidator);
+         MenuItem menuItem = menuItemInputHandler.getInput("Enter menu item (name,price,available): ");
+         System.out.println("Menu item added: " + menuItem.getName() + "!");
+
+         // Order Item Input
+         OrderItemValidator orderItemValidator = new OrderItemValidator();
+         InputValidator<OrderItem> orderItemInputValidator = new InputValidator<>(orderItemValidator, "Order Item");
+         ConsoleInputHandler<OrderItem> orderItemInputHandler = new ConsoleInputHandler<>(scanner,
+               orderItemInputValidator);
+         OrderItem orderItem = orderItemInputHandler.getInput("Enter order item (menuItemId,quantity): ");
+         System.out.println("Order item added with ID: " + orderItem.getMenuItemId() + " and quantity: "
+               + orderItem.getQuantity() + "!");
       } catch (Exception e) {
          System.err.println("An error occurred: " + e.getMessage());
       }

@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.Scanner;
 
 import ConsoleInputValidator.InputValidator;
-import ConsoleInputValidator.InputHandler;
 
 public class ConsoleInputHandler<T> implements InputHandler<T> {
    private final Scanner scanner;
