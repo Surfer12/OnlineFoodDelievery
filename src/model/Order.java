@@ -1,14 +1,14 @@
 package model;
 
+import exception.PaymentException;
+import exception.ValidationException;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
-
-import exception.PaymentException;
-import exception.ValidationException;
 import location.Location;
 import orderUtilities.OrderStatus;
 import payment.Payment;
+
 
 public class Order {
    private Long orderId;
