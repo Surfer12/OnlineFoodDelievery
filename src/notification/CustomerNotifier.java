@@ -21,13 +21,14 @@ public class CustomerNotifier implements OrderObserver {
    }
 
    @Override
-   public void customerNotification(Order order, OrderEvent event) {
+   public void customerNotificationOfOrder(Order order, OrderEvent event) {
 
    }
 
    @Override
-   public void driverNotification(Order order, OrderEvent event) {
-      // TODO Auto-generated method stub
+   public void driverNotificationToCustomer(Order order, OrderEvent event) {
+      String message = "Your driver is " + event.getStatus() + " for order #" + order.getOrderId();
+      notificationService.sendNotification(order.getCustomerEmail(), message);
    }
 
    @Override

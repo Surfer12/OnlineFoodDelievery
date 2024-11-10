@@ -12,5 +12,6 @@ public interface NotificationService {
    void sendOrderStatusUpdateToCustomer(Order order, OrderStatus newStatus);
 
    void sendDeliveryCompletionNotification(Order order);
-}
 
+   void sendNotification(String customerEmail, String message);
+}

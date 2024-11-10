@@ -20,17 +20,16 @@ public class DriverNotifier implements OrderObserver {
 
    @Override
    public void onOrderEvent(Order order, OrderEvent event) {
-      // Implement logic to notify driver about the event
+      driverNotificationToCustomer(order, event);
    }
 
    @Override
-   public void driverNotification(Order order, OrderEvent event) {
-      // Implement logic to notify driver about the event
+   public void driverNotificationToCustomer(Order order, OrderEvent event) {
+      notificationService.sendOrderStatusUpdateToCustomer(order, order.getStatus());
    }
 
    @Override
-   public void customerNotification(Order order, OrderEvent event) {
-      // TODO Auto-generated method stub
+   public void customerNotificationOfOrder(Order order, OrderEvent event) {
 
    }
 }

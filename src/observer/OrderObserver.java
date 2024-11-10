@@ -7,7 +7,7 @@ public interface OrderObserver {
 
     void onOrderEvent(Order order, OrderEvent event);
 
-    void customerNotification(Order order, OrderEvent event);
+    void customerNotificationOfOrder(Order order, OrderEvent event);
 
-    void driverNotification(Order order, OrderEvent event);
+    void driverNotificationToCustomer(Order order, OrderEvent event);
 }
