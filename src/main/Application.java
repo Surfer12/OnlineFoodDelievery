@@ -16,6 +16,9 @@ import ConsoleInputHandler.ConsoleInputHandler;
 import ConsoleInputValidator.InputValidator;
 import ConsoleInputValidator.PositiveIntegerValidator;
 
+/**
+ * The Application class is the entry point for the delivery system application.
+ */
 public class Application {
 
     /**

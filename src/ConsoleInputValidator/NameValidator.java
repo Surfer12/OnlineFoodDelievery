@@ -37,10 +37,22 @@ public class NameValidator implements InputValidator.Validator<String> {
       return value != null && value.matches("[a-zA-Z\\s]+");
    }
 
+   /**
+    * Returns a list of unique names from the given list of names.
+    *
+    * @param names The list of names to be processed
+    * @return A list of unique names
+    */
    List<String> getUniqueNames(List<String> names) {
       return names.stream().distinct().collect(Collectors.toList());
    }
 
+   /**
+    * Returns a set of unique names from the given list of names.
+    *
+    * @param names The list of names to be processed
+    * @return A set of unique names
+    */
    public Set<String> getUniqueNamesForHashSet(List<String> names) {
       return new HashSet<>(names);
    }
