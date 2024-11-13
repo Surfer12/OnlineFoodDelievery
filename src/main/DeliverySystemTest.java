@@ -120,4 +120,75 @@ public class DeliverySystemTest {
         assertFalse(driver.getCurrentOrder().isPresent());
         assertEquals(OrderStatus.DELIVERED, order.getStatus());
     }
+
+    @Test
+    public void testSubmitOrder_UsingMockito() {
+        MenuItemFactory factory = new MenuItemFactory();
+        MenuItem pizza = factory.createMenuItem("hamburger", "Pepperoni Pizza", "Spicy pepperoni with cheese", 12.99, Size.MEDIUM, 1);
+
+        Order order = Mockito.mock(Order.class);
+        when(order.getCustomerId()).thenReturn(1L);
+        when(order.getCustomerEmail()).thenReturn("jane.doe@example.com");
+        when(order.getItems()).thenReturn(List.of(pizza));
+        when(order.getDeliveryLocation()).thenReturn("456 Elm Street");
+        when(order.getZipcode()).thenReturn("12345");
+
+        deliverySystem.submitOrder(order);
+
+        verify(order).processPayment(anyString());
+        verify(notificationService).sendOrderConfirmationToCustomer(order);
+    }
+
+    @Test
+    public void testAssignOrderToDriver_UsingMockito() {
+        MenuItemFactory factory = new MenuItemFactory();
+        MenuItem pizza = factory.createMenuItem("hamburger", "Pepperoni Pizza", "Spicy pepperoni with cheese", 12.99, Size.MEDIUM, 1);
+
+        Order order = Mockito.mock(Order.class);
+        when(order.getCustomerId()).thenReturn(1L);
+        when(order.getCustomerEmail()).thenReturn("jane.doe@example.com");
+        when(order.getItems()).thenReturn(List.of(pizza));
+        when(order.getDeliveryLocation()).thenReturn("456 Elm Street");
+        when(order.getZipcode()).thenReturn("12345");
+
+        Driver driver = Mockito.mock(Driver.class);
+        when(driver.getId()).thenReturn(101L);
+        when(driver.getName()).thenReturn("Bob Smith");
+        when(driver.getVehicle()).thenReturn("Car");
+        when(driver.getLicenseNumber()).thenReturn("ABC123");
+
+        deliverySystem.registerDriver(driver);
+        deliverySystem.submitOrder(order);
+        deliverySystem.assignOrderToDriver(order, driver);
+
+        verify(driver).acceptOrder(order);
+        verify(notificationService).sendDriverAssignmentNotification(order, driver);
+    }
+
+    @Test
+    public void testCompleteDelivery_UsingMockito() {
+        MenuItemFactory factory = new MenuItemFactory();
+        MenuItem pizza = factory.createMenuItem("hamburger", "Pepperoni Pizza", "Spicy pepperoni with cheese", 12.99, Size.MEDIUM, 1);
+
+        Order order = Mockito.mock(Order.class);
+        when(order.getCustomerId()).thenReturn(1L);
+        when(order.getCustomerEmail()).thenReturn("jane.doe@example.com");
+        when(order.getItems()).thenReturn(List.of(pizza));
+        when(order.getDeliveryLocation()).thenReturn("456 Elm Street");
+        when(order.getZipcode()).thenReturn("12345");
+
+        Driver driver = Mockito.mock(Driver.class);
+        when(driver.getId()).thenReturn(101L);
+        when(driver.getName()).thenReturn("Bob Smith");
+        when(driver.getVehicle()).thenReturn("Car");
+        when(driver.getLicenseNumber()).thenReturn("ABC123");
+
+        deliverySystem.registerDriver(driver);
+        deliverySystem.submitOrder(order);
+        deliverySystem.assignOrderToDriver(order, driver);
+        deliverySystem.completeDelivery(order.getOrderId(), driver.getId());
+
+        verify(driver).completeCurrentDelivery();
+        verify(notificationService).sendDeliveryCompletionNotification(order);
+    }
 }

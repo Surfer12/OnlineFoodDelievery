@@ -244,3 +244,20 @@ The Online Food Delivery System is designed with a modular architecture to ensur
 The system follows core OOP principles such as encapsulation, inheritance, polymorphism, and abstraction to ensure a clean and maintainable codebase. The use of design patterns such as the Builder pattern for constructing orders and the Observer pattern for notifying observers of order events further enhances the system's design.
 
 The class diagram provided in the "Implementation Details" section illustrates the relationships between the key classes in the system.
+
+## Frequently Asked Questions (FAQs)
+
+### Q1: What is the purpose of the Online Food Delivery System?
+A1: The Online Food Delivery System is designed to manage food orders, assign drivers for delivery, and track the delivery status. It also includes features for customer ratings and order processing.
+
+### Q2: How do I place an order?
+A2: You can place an order by creating an instance of the `OrderBuilder` class, adding menu items, and submitting the order to the `DeliverySystem`. Refer to the usage example for placing an order.
+
+### Q3: How are drivers assigned to orders?
+A3: Drivers are assigned to orders based on their availability. The `DeliverySystem` automatically assigns a driver to an order when it is submitted.
+
+### Q4: How can I track the status of my order?
+A4: The `DeliverySystem` tracks the status of each order and sends notifications to customers about the order status updates.
+
+### Q5: What are the dependencies required to run the application?
+A5: The application requires Java 17 and Gradle. Additionally, it uses dependencies such as JUnit Jupiter for unit testing, Mockito for mocking in unit tests, and Guava for additional utilities.
