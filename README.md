@@ -159,3 +159,37 @@ classDiagram
 - **Nov 14**: Design revision
 - **Nov 21**: Core implementation demo
 - **Dec 5**: Final system demonstration
+
+## Running the Application
+
+To run the application, follow these steps:
+
+1. **Clone the repository**:
+   ```sh
+   git clone https://github.com/Surfer12/OnlineFoodDelieveryV.01.git
+   cd OnlineFoodDelieveryV.01
+   ```
+
+2. **Build the project**:
+   ```sh
+   ./gradlew build
+   ```
+
+3. **Run the application**:
+   ```sh
+   ./gradlew run
+   ```
+
+## Dependencies
+
+The project uses the following dependencies:
+
+- **JUnit Jupiter**: For unit testing
+- **Mockito**: For mocking in unit tests
+- **Guava**: For additional utilities
+
+## Setup Steps
+
+1. **Ensure you have Java 17 installed**.
+2. **Ensure you have Gradle installed**.
+3. **Follow the steps in the "Running the Application" section to build and run the project**.
