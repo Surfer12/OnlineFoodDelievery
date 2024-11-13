@@ -1,21 +1,20 @@
 package queue;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Optional;
-import java.util.Queue;
+import java.util.concurrent.ConcurrentLinkedQueue;
 
 import model.Order;
 import validation.OrderValidator;
 
 public class OrderQueue implements QueueOperations<Order> {
-   private final Queue<Order> orders;
+   private final ConcurrentLinkedQueue<Order> orders;
    private final int maxQueueSize;
    private final OrderValidator validator;
 
    public OrderQueue(int maxQueueSize) {
-      this.orders = new LinkedList<>();
+      this.orders = new ConcurrentLinkedQueue<>();
       this.maxQueueSize = maxQueueSize;
       this.validator = new OrderValidator();
    }
