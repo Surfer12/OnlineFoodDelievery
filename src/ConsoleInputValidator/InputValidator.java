@@ -1,5 +1,7 @@
 package ConsoleInputValidator;
 
+import exception.ValidationException;
+
 /**
  * A class that validates and parses input of a generic type.
  *
@@ -35,9 +37,14 @@ public class InputValidator<T> {
     *
     * @param input the input string to parse
     * @return the parsed value of type T
+    * @throws ValidationException if the input is invalid
     */
    public T parse(String input) {
-      return validator.parse(input);
+      try {
+         return validator.parse(input);
+      } catch (Exception e) {
+         throw new ValidationException("Invalid input: " + e.getMessage());
+      }
    }
 
    /**

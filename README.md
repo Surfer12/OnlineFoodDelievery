@@ -193,3 +193,54 @@ The project uses the following dependencies:
 1. **Ensure you have Java 17 installed**.
 2. **Ensure you have Gradle installed**.
 3. **Follow the steps in the "Running the Application" section to build and run the project**.
+
+## Usage Examples
+
+### Example 1: Placing an Order
+```java
+DeliverySystem deliverySystem = new DeliverySystem();
+MenuItemFactory factory = new MenuItemFactory();
+MenuItem pizza = factory.createMenuItem("hamburger", "Pepperoni Pizza", "Spicy pepperoni with cheese", 12.99, Size.MEDIUM, 1);
+
+Order order = new OrderBuilder()
+    .withValidatedCustomerId(1L)
+    .withCustomerEmail("jane.doe@example.com")
+    .addItem(pizza)
+    .withValidatedDeliveryLocation("456 Elm Street", "12345")
+    .build();
+
+deliverySystem.submitOrder(order);
+```
+
+### Example 2: Assigning a Driver
+```java
+Driver driver = new Driver(101L, "Bob Smith", "Car", "ABC123");
+deliverySystem.registerDriver(driver);
+deliverySystem.assignOrderToDriver(order, driver);
+```
+
+### Example 3: Completing a Delivery
+```java
+deliverySystem.completeDelivery(order.getOrderId(), driver.getId());
+```
+
+## System Architecture Overview
+
+The Online Food Delivery System is designed with a modular architecture to ensure scalability, maintainability, and ease of testing. The key components of the system are:
+
+1. **DeliverySystem**: Manages the overall order processing, driver assignment, and delivery tracking.
+2. **OrderBuilder**: Constructs and validates orders.
+3. **OrderQueue**: Manages the queue of pending orders.
+4. **NotificationService**: Handles sending notifications to customers and drivers.
+5. **InputValidationUtils**: Provides utility methods for input validation.
+6. **OrderValidator**: Validates orders before processing.
+7. **ConsoleInputHandler**: Handles console input and validation.
+8. **InputValidator**: Validates and parses input of a generic type.
+9. **Driver**: Represents a delivery driver.
+10. **Order**: Represents a customer order.
+11. **MenuItem**: Represents a menu item.
+12. **Rating**: Represents a customer rating for a driver.
+
+The system follows core OOP principles such as encapsulation, inheritance, polymorphism, and abstraction to ensure a clean and maintainable codebase. The use of design patterns such as the Builder pattern for constructing orders and the Observer pattern for notifying observers of order events further enhances the system's design.
+
+The class diagram provided in the "Implementation Details" section illustrates the relationships between the key classes in the system.
