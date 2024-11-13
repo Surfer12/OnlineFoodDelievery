@@ -153,6 +153,11 @@ public class DeliverySystem {
       availableDrivers.put(driver.getId(), driver);
    }
 
+   /**
+    * The main method to run the application.
+    *
+    * @param args the command line arguments
+    */
    public static void main(String[] args) {
       // ...existing code...
       DeliverySystem system = new DeliverySystem();
