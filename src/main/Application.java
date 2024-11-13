@@ -17,6 +17,12 @@ import ConsoleInputValidator.InputValidator;
 import ConsoleInputValidator.PositiveIntegerValidator;
 
 public class Application {
+
+    /**
+     * The main method to run the application.
+     *
+     * @param args the command line arguments
+     */
     public static void main(String[] args) {
         DeliverySystem deliverySystem = new DeliverySystem();
 
@@ -41,15 +47,19 @@ public class Application {
                 .withValidatedDeliveryLocation("456 Elm Street", "12345")
                 .build();
 
-        // Submit the order
-        deliverySystem.submitOrder(order);
+        try {
+            // Submit the order
+            deliverySystem.submitOrder(order);
 
-        // Create a driver with required parameters
-        Driver driver = new Driver(101L, "Bob Smith", "Car", "ABC123");
+            // Create a driver with required parameters
+            Driver driver = new Driver(101L, "Bob Smith", "Car", "ABC123");
 
-        // Assign driver and complete delivery
-        deliverySystem.assignOrderToDriver(order, driver);
-        deliverySystem.completeDelivery(order.getOrderId(), driver.getId());
+            // Assign driver and complete delivery
+            deliverySystem.assignOrderToDriver(order, driver);
+            deliverySystem.completeDelivery(order.getOrderId(), driver.getId());
+        } catch (Exception e) {
+            System.err.println("An error occurred while processing the order: " + e.getMessage());
+        }
 
         Scanner scanner = new Scanner(System.in);
 

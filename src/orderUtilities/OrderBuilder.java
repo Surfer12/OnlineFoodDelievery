@@ -8,12 +8,22 @@ import model.Order;
 import location.Location;
 import utils.InputValidationUtils;
 
+/**
+ * The OrderBuilder class is used to construct Order objects with validated inputs.
+ */
 public class OrderBuilder {
    private Long customerId;
    private List<MenuItem> items = new ArrayList<>();
    private Location deliveryLocation;
    private String customerEmail;
 
+   /**
+    * Sets and validates the customer ID.
+    *
+    * @param customerId the customer ID
+    * @return the OrderBuilder instance
+    * @throws IllegalArgumentException if the customer ID is invalid
+    */
    public OrderBuilder withValidatedCustomerId(Long customerId) {
       if (customerId == null || customerId <= 0) {
          throw new IllegalArgumentException("Invalid customer ID");
@@ -22,6 +32,13 @@ public class OrderBuilder {
       return this;
    }
 
+   /**
+    * Sets and validates the customer email.
+    *
+    * @param email the customer email
+    * @return the OrderBuilder instance
+    * @throws IllegalArgumentException if the email is invalid
+    */
    public OrderBuilder withCustomerEmail(String email) {
       InputValidationUtils.validateTextInput(email, "Customer email");
       InputValidationUtils.validateEmailFormat(email);
@@ -29,6 +46,13 @@ public class OrderBuilder {
       return this;
    }
 
+   /**
+    * Adds a menu item to the order.
+    *
+    * @param item the menu item
+    * @return the OrderBuilder instance
+    * @throws IllegalArgumentException if the item is null
+    */
    public OrderBuilder addItem(MenuItem item) {
       if (item == null) {
          throw new IllegalArgumentException("Menu item cannot be null");
@@ -37,6 +61,13 @@ public class OrderBuilder {
       return this;
    }
 
+   /**
+    * Sets and validates the list of menu items.
+    *
+    * @param items the list of menu items
+    * @return the OrderBuilder instance
+    * @throws IllegalArgumentException if the items list is null or empty
+    */
    public OrderBuilder withItems(List<MenuItem> items) {
       if (items == null || items.isEmpty()) {
          throw new IllegalArgumentException("Items list cannot be null or empty");
@@ -45,6 +76,14 @@ public class OrderBuilder {
       return this;
    }
 
+   /**
+    * Sets and validates the delivery location.
+    *
+    * @param address the delivery address
+    * @param zipcode the delivery zipcode
+    * @return the OrderBuilder instance
+    * @throws IllegalArgumentException if the address or zipcode is invalid
+    */
    public OrderBuilder withValidatedDeliveryLocation(String address, String zipcode) {
       InputValidationUtils.validateTextInput(address, "Address");
       InputValidationUtils.validateTextInput(zipcode, "Zipcode");
@@ -52,6 +91,13 @@ public class OrderBuilder {
       return this;
    }
 
+   /**
+    * Sets and validates the phone number.
+    *
+    * @param phoneNumber the phone number
+    * @return the OrderBuilder instance
+    * @throws IllegalArgumentException if the phone number is invalid
+    */
    public OrderBuilder withValidatedPhoneNumber(String phoneNumber) {
       InputValidationUtils.validateTextInput(phoneNumber, "Phone number");
       InputValidationUtils.validatePhoneNumber(phoneNumber);
@@ -59,6 +105,11 @@ public class OrderBuilder {
       return this;
    }
 
+   /**
+    * Validates the order requirements.
+    *
+    * @throws IllegalStateException if any order requirement is not met
+    */
    private void validateOrderRequirements() {
       List<String> validationErrors = new ArrayList<>();
 
@@ -81,6 +132,12 @@ public class OrderBuilder {
       }
    }
 
+   /**
+    * Builds and returns the validated Order object.
+    *
+    * @return the constructed Order object
+    * @throws IllegalStateException if the order validation fails
+    */
    public Order build() {
       validateOrderRequirements();
       return new Order(customerId, items, deliveryLocation, customerEmail);

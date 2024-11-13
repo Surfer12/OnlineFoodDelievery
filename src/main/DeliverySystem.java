@@ -20,6 +20,9 @@ import orderUtilities.OrderStatus;
 import factory.MenuItemFactory; // Added import for MenuItemFactory
 import orderUtilities.OrderBuilder; // Add import for OrderBuilder
 
+/**
+ * The DeliverySystem class manages the order processing, driver assignment, and delivery tracking.
+ */
 public class DeliverySystem {
    private final queue.OrderQueue orderQueue;
    private final Map<Long, Driver> availableDrivers;
@@ -46,11 +49,20 @@ public class DeliverySystem {
       }
    }
 
+   /**
+    * Submits an order for processing.
+    *
+    * @param order the order to be submitted
+    */
    public void submitOrder(Order order) {
-      validateAndProcessOrder(order);
-      notifyOrderSubmission(order);
-      assignDriverIfAvailable(order);
-      notifyObservers(order, OrderEvent.ORDER_SUBMITTED);
+      try {
+         validateAndProcessOrder(order);
+         notifyOrderSubmission(order);
+         assignDriverIfAvailable(order);
+         notifyObservers(order, OrderEvent.ORDER_SUBMITTED);
+      } catch (OrderProcessingException e) {
+         System.err.println("Error submitting order: " + e.getMessage());
+      }
    }
 
    private void validateAndProcessOrder(Order order) {
@@ -78,11 +90,21 @@ public class DeliverySystem {
       return Optional.empty();
    }
 
+   /**
+    * Assigns an order to a driver.
+    *
+    * @param order  the order to be assigned
+    * @param driver the driver to be assigned to the order
+    */
    void assignOrderToDriver(Order order, Driver driver) {
-      driver.acceptOrder(order);
-      updateDriverStatus(driver);
-      updateOrderStatus(order, driver);
-      notifyObservers(order, OrderEvent.DRIVER_ASSIGNED);
+      try {
+         driver.acceptOrder(order);
+         updateDriverStatus(driver);
+         updateOrderStatus(order, driver);
+         notifyObservers(order, OrderEvent.DRIVER_ASSIGNED);
+      } catch (Exception e) {
+         System.err.println("Error assigning order to driver: " + e.getMessage());
+      }
    }
 
    private void updateDriverStatus(Driver driver) {
@@ -94,10 +116,21 @@ public class DeliverySystem {
       orderTracker.updateOrderStatus(order.getOrderId(), OrderStatus.ACCEPTED, driver);
    }
 
+   /**
+    * Registers a driver to the system.
+    *
+    * @param driver the driver to be registered
+    */
    public void registerDriver(Driver driver) {
       availableDrivers.put(driver.getId(), driver);
    }
 
+   /**
+    * Completes the delivery of an order.
+    *
+    * @param orderId  the ID of the order to be completed
+    * @param driverId the ID of the driver who completed the delivery
+    */
    public void completeDelivery(Long orderId, Long driverId) {
       Optional<Driver> driver = Optional.ofNullable(busyDrivers.get(driverId));
       driver.ifPresent(d -> {
