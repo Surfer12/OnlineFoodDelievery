@@ -8,12 +8,7 @@ import rating.Rating;
 /**
  * Represents a customer in the system.
  */
-public class Customer {
-   private Long id;
-   private String name;
-   private String address;
-   private String phone;
-   private String email;
+public class Customer extends Person {
    private List<Order> orderHistory;
 
    /**
@@ -26,11 +21,7 @@ public class Customer {
     * @param email   the email address of the customer
     */
    public Customer(Long id, String name, String address, String phone, String email) {
-      this.id = id;
-      this.name = name;
-      this.address = address;
-      this.phone = phone;
-      this.email = email;
+      super(id, name, address, phone, email);
       this.orderHistory = new ArrayList<>();
    }
 
@@ -41,7 +32,7 @@ public class Customer {
     * @return the created Order object
     */
    public Order placeOrder(List<MenuItem> items) {
-      Order order = new Order(this.id, items, new location.Location(this.address, "zipcode"), this.email);
+      Order order = new Order(this.getId(), items, new location.Location(this.getAddress(), "zipcode"), this.getEmail());
       orderHistory.add(order);
       return order;
    }
@@ -54,7 +45,7 @@ public class Customer {
     * @param comment the rating comment
     */
    public void rateDriver(Driver driver, int score, String comment) {
-      Rating rating = new Rating(this.id, driver.getId(), score, comment);
+      Rating rating = new Rating(this.getId(), driver.getId(), score, comment);
       driver.addRating(rating);
    }
 
@@ -65,50 +56,5 @@ public class Customer {
     */
    public List<Order> getOrderHistory() {
       return new ArrayList<>(orderHistory);
-   }
-
-   /**
-    * Returns the ID of the customer.
-    *
-    * @return the ID of the customer
-    */
-   public Long getId() {
-      return id;
-   }
-
-   /**
-    * Returns the name of the customer.
-    *
-    * @return the name of the customer
-    */
-   public String getName() {
-      return name;
-   }
-
-   /**
-    * Returns the address of the customer.
-    *
-    * @return the address of the customer
-    */
-   public String getAddress() {
-      return address;
-   }
-
-   /**
-    * Returns the phone number of the customer.
-    *
-    * @return the phone number of the customer
-    */
-   public String getPhone() {
-      return phone;
-   }
-
-   /**
-    * Returns the email address of the customer.
-    *
-    * @return the email address of the customer
-    */
-   public String getEmail() {
-      return email;
    }
 }
