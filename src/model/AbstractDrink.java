@@ -1,5 +1,7 @@
 package model;
 
+import java.util.Optional;
+
 /**
  * Abstract class representing a drink menu item.
  */
@@ -18,7 +20,8 @@ public abstract class AbstractDrink extends AbstractMenuItem {
      * @param size        the size of the drink
      * @param quantity    the quantity of the drink
      */
-    public AbstractDrink(Long id, String name, String description, double price, String category, Size size, int quantity) {
+    public AbstractDrink(Long id, String name, String description, double price, String category, Size size,
+            int quantity) {
         super(id, name, description, price, category);
         this.size = size;
         this.quantity = quantity;
@@ -68,7 +71,7 @@ public abstract class AbstractDrink extends AbstractMenuItem {
      * @return a string containing the details of the drink
      */
     @Override
-    public String getDetails() {
-        return String.format("%s - %s ($%.2f)", getName(), getDescription().orElse(""), getPrice());
+    public Optional<String> getDetails() {
+        return Optional.of(String.format("%s - %s ($%.2f)", getName(), getDescription().orElse(""), getPrice()));
     }
 }
