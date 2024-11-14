@@ -9,9 +9,7 @@ import java.util.Optional;
 /**
  * Represents a driver in the system.
  */
-public class Driver {
-   private Long id;
-   private String name;
+public class Driver extends Person {
    private String vehicle;
    private String licenseNumber;
    private Location currentLocation;
@@ -28,8 +26,7 @@ public class Driver {
     * @param licenseNumber the license number of the driver
     */
    public Driver(Long id, String name, String vehicle, String licenseNumber) {
-      this.id = id;
-      this.name = name;
+      super(id, name, null, null, null);
       this.vehicle = vehicle;
       this.licenseNumber = licenseNumber;
       this.ratings = new RatingsHandler<Rating>(10);
@@ -42,7 +39,7 @@ public class Driver {
     * @param order the order to accept
     */
    public void acceptOrder(Order order) {
-      order.setDriverId(this.id);
+      order.setDriverId(this.getId());
       order.updateStatus(OrderStatus.ACCEPTED);
    }
 
@@ -107,24 +104,6 @@ public class Driver {
    public void completeCurrentDelivery() {
       this.currentOrder = null;
       this.isAvailable = true;
-   }
-
-   /**
-    * Returns the ID of the driver.
-    *
-    * @return the ID of the driver
-    */
-   public Long getId() {
-      return id;
-   }
-
-   /**
-    * Returns the name of the driver.
-    *
-    * @return the name of the driver
-    */
-   public String getName() {
-      return name;
    }
 
    /**
