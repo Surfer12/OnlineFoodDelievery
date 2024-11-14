@@ -65,6 +65,8 @@ A Java-based food delivery system implementing core OOP principles and efficient
    - Complex operations hidden behind simple methods
 
 ### Class Diagram
+![Class Diagram](src/resources/FlowchartFinal.svg)
+
 ```mermaid
 classDiagram
     class Customer {
