@@ -1,10 +1,9 @@
 package ConsoleInputHandler;
 
-import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.Mockito.*;
+import org.junit.jupiter.api.Test;
+import org.mockito.Mock;
 
 import java.time.LocalDate;
-import java.util.List;
 import java.util.Scanner;
 
 import org.junit.jupiter.api.BeforeEach;
@@ -34,7 +33,7 @@ public class ConsoleInputHandlerTest {
     @Mock
     private InputValidator<String> mockPatternValidator;
 
-    @Mock
+    @MockA
     private InputValidator<Object> mockCustomObjectValidator;
 
     private ConsoleInputHandler<String> consoleInputHandler;
