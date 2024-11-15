@@ -51,20 +51,25 @@ public class Order {
     * @throws ValidationException if the item is null or not available
     */
    public void addItem(MenuItem item) {
-      if (status != OrderStatus.PLACED) {
-         throw new IllegalStateException("Cannot modify order after it has been accepted");
-      }
+      try {
+         if (status != OrderStatus.PLACED) {
+            throw new IllegalStateException("Cannot modify order after it has been accepted");
+         }
 
-      if (item == null) {
-         throw new ValidationException("Cannot add null item to order");
-      }
+         if (item == null) {
+            throw new ValidationException("Cannot add null item to order");
+         }
 
-      if (!item.isAvailable()) {
-         throw new ValidationException("Item " + item.getName() + " is not available");
-      }
+         if (!item.isAvailable()) {
+            throw new ValidationException("Item " + item.getName() + " is not available");
+         }
 
-      items.add(item);
-      this.totalAmount = calculateTotal();
+         items.add(item);
+         this.totalAmount = calculateTotal();
+      } catch (IllegalStateException | ValidationException e) {
+         System.err.println("Error in addItem: " + e.getMessage());
+         throw e;
+      }
    }
 
    /**
@@ -74,11 +79,16 @@ public class Order {
     * @throws IllegalStateException if the order has already been accepted
     */
    public void removeItem(MenuItem item) {
-      if (status == OrderStatus.PLACED) {
-         items.remove(item);
-         this.totalAmount = calculateTotal();
-      } else {
-         throw new IllegalStateException("Cannot modify order after it has been accepted");
+      try {
+         if (status == OrderStatus.PLACED) {
+            items.remove(item);
+            this.totalAmount = calculateTotal();
+         } else {
+            throw new IllegalStateException("Cannot modify order after it has been accepted");
+         }
+      } catch (IllegalStateException e) {
+         System.err.println("Error in removeItem: " + e.getMessage());
+         throw e;
       }
    }
 
@@ -128,13 +138,18 @@ public class Order {
     * @throws PaymentException if the payment processing fails
     */
    public void processPayment(String paymentMethod) {
-      if (payment != null) {
-         throw new IllegalStateException("Payment has already been processed");
-      }
+      try {
+         if (payment != null) {
+            throw new IllegalStateException("Payment has already been processed");
+         }
 
-      payment = new Payment(this.orderId, paymentMethod, this.totalAmount);
-      if (!payment.processPayment()) {
-         throw new PaymentException("Payment processing failed");
+         payment = new Payment(this.orderId, paymentMethod, this.totalAmount);
+         if (!payment.processPayment()) {
+            throw new PaymentException("Payment processing failed");
+         }
+      } catch (IllegalStateException | PaymentException e) {
+         System.err.println("Error in processPayment: " + e.getMessage());
+         throw e;
       }
    }
 

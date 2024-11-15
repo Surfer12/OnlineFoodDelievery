@@ -132,14 +132,18 @@ public class DeliverySystem {
     * @param driverId the ID of the driver who completed the delivery
     */
    public void completeDelivery(Long orderId, Long driverId) {
-      Optional<Driver> driver = Optional.ofNullable(busyDrivers.get(driverId));
-      driver.ifPresent(d -> {
-         processDeliveryCompletion(orderId, d);
-         d.getCurrentOrder().ifPresent(order -> {
-            notificationService.sendDeliveryCompletionNotification(order);
-            notifyObservers(order, OrderEvent.DELIVERY_COMPLETED);
+      try {
+         Optional<Driver> driver = Optional.ofNullable(busyDrivers.get(driverId));
+         driver.ifPresent(d -> {
+            processDeliveryCompletion(orderId, d);
+            d.getCurrentOrder().ifPresent(order -> {
+               notificationService.sendDeliveryCompletionNotification(order);
+               notifyObservers(order, OrderEvent.DELIVERY_COMPLETED);
+            });
          });
-      });
+      } catch (Exception e) {
+         System.err.println("Error completing delivery: " + e.getMessage());
+      }
    }
 
    private void processDeliveryCompletion(Long orderId, Driver driver) {

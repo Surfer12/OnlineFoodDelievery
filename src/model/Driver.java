@@ -131,10 +131,15 @@ public class Driver extends Person {
     * @throws IllegalStateException if the driver's location is not set
     */
    public Location getCurrentLocation() {
-      if (currentLocation == null) {
-         throw new IllegalStateException("Driver location not set");
+      try {
+         if (currentLocation == null) {
+            throw new IllegalStateException("Driver location not set");
+         }
+         return currentLocation;
+      } catch (IllegalStateException e) {
+         System.err.println("Error in getCurrentLocation: " + e.getMessage());
+         throw e;
       }
-      return currentLocation;
    }
 
    /**
@@ -144,10 +149,15 @@ public class Driver extends Person {
     * @throws IllegalArgumentException if the location is null
     */
    public void setCurrentLocation(Location location) {
-      if (location == null) {
-         throw new IllegalArgumentException("Location cannot be null");
+      try {
+         if (location == null) {
+            throw new IllegalArgumentException("Location cannot be null");
+         }
+         this.currentLocation = location;
+      } catch (IllegalArgumentException e) {
+         System.err.println("Error in setCurrentLocation: " + e.getMessage());
+         throw e;
       }
-      this.currentLocation = location;
    }
 
    /**

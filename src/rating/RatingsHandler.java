@@ -11,22 +11,32 @@ public class RatingsHandler<T> implements RatingsBusinessLogic<T> {
    private final Deque<T> ratingsQueue;
 
    public RatingsHandler(int maxRatings) {
-      if (maxRatings <= 0) {
-         throw new IllegalArgumentException("Maximum ratings must be positive");
+      try {
+         if (maxRatings <= 0) {
+            throw new IllegalArgumentException("Maximum ratings must be positive");
+         }
+         this.maxRatings = maxRatings;
+         this.ratingsQueue = new LinkedList<>();
+      } catch (IllegalArgumentException e) {
+         System.err.println("Error in RatingsHandler constructor: " + e.getMessage());
+         throw e;
       }
-      this.maxRatings = maxRatings;
-      this.ratingsQueue = new LinkedList<>();
    }
 
    @Override
    public void addRating(T rating) {
-      if (rating == null) {
-         throw new IllegalArgumentException("Rating cannot be null");
+      try {
+         if (rating == null) {
+            throw new IllegalArgumentException("Rating cannot be null");
+         }
+         if (isRatingQueueFull()) {
+            throw new QueueFullException("Ratings queue is at maximum capacity: " + maxRatings);
+         }
+         ratingsQueue.addLast(rating);
+      } catch (IllegalArgumentException | QueueFullException e) {
+         System.err.println("Error in addRating: " + e.getMessage());
+         throw e;
       }
-      if (isRatingQueueFull()) {
-         throw new QueueFullException("Ratings queue is at maximum capacity: " + maxRatings);
-      }
-      ratingsQueue.addLast(rating);
    }
 
    @Override

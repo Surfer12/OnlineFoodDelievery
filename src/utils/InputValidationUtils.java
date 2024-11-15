@@ -15,8 +15,13 @@ public class InputValidationUtils {
     * @throws ValidationException if the input is null or empty
     */
    public static void validateTextInput(String input, String fieldName) {
-      if (input == null || input.trim().isEmpty()) {
-         throw new ValidationException(fieldName + " cannot be null or empty");
+      try {
+         if (input == null || input.trim().isEmpty()) {
+            throw new ValidationException(fieldName + " cannot be null or empty");
+         }
+      } catch (ValidationException e) {
+         System.err.println("Error in validateTextInput: " + e.getMessage());
+         throw e;
       }
    }
 
@@ -32,6 +37,9 @@ public class InputValidationUtils {
          Double.parseDouble(input);
       } catch (NumberFormatException e) {
          throw new ValidationException(fieldName + " must be a valid number");
+      } catch (ValidationException e) {
+         System.err.println("Error in validateNumericInput: " + e.getMessage());
+         throw e;
       }
    }
 
@@ -43,8 +51,13 @@ public class InputValidationUtils {
     * @throws ValidationException if the number is not positive
     */
    public static void validatePositiveNumber(double number, String fieldName) {
-      if (number <= 0) {
-         throw new ValidationException(fieldName + " must be greater than zero");
+      try {
+         if (number <= 0) {
+            throw new ValidationException(fieldName + " must be greater than zero");
+         }
+      } catch (ValidationException e) {
+         System.err.println("Error in validatePositiveNumber: " + e.getMessage());
+         throw e;
       }
    }
 
@@ -55,9 +68,14 @@ public class InputValidationUtils {
     * @throws ValidationException if the email format is invalid
     */
    public static void validateEmailFormat(String email) {
-      String emailRegex = "^[A-Za-z0-9+_.-]+@(.+)$";
-      if (!email.matches(emailRegex)) {
-         throw new ValidationException("Invalid email format");
+      try {
+         String emailRegex = "^[A-Za-z0-9+_.-]+@(.+)$";
+         if (!email.matches(emailRegex)) {
+            throw new ValidationException("Invalid email format");
+         }
+      } catch (ValidationException e) {
+         System.err.println("Error in validateEmailFormat: " + e.getMessage());
+         throw e;
       }
    }
 
@@ -68,9 +86,14 @@ public class InputValidationUtils {
     * @throws ValidationException if the phone number format is invalid
     */
    public static void validatePhoneNumber(String phoneNumber) {
-      String phoneRegex = "^\\+?[0-9]{10,15}$";
-      if (!phoneNumber.matches(phoneRegex)) {
-         throw new ValidationException("Invalid phone number format");
+      try {
+         String phoneRegex = "^\\+?[0-9]{10,15}$";
+         if (!phoneNumber.matches(phoneRegex)) {
+            throw new ValidationException("Invalid phone number format");
+         }
+      } catch (ValidationException e) {
+         System.err.println("Error in validatePhoneNumber: " + e.getMessage());
+         throw e;
       }
    }
 }

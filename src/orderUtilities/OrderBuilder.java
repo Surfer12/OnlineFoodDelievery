@@ -25,10 +25,15 @@ public class OrderBuilder {
     * @throws IllegalArgumentException if the customer ID is invalid
     */
    public OrderBuilder withValidatedCustomerId(Long customerId) {
-      if (customerId == null || customerId <= 0) {
-         throw new IllegalArgumentException("Invalid customer ID");
+      try {
+         if (customerId == null || customerId <= 0) {
+            throw new IllegalArgumentException("Invalid customer ID");
+         }
+         this.customerId = customerId;
+      } catch (IllegalArgumentException e) {
+         System.err.println("Error in withValidatedCustomerId: " + e.getMessage());
+         throw e;
       }
-      this.customerId = customerId;
       return this;
    }
 
@@ -40,9 +45,14 @@ public class OrderBuilder {
     * @throws IllegalArgumentException if the email is invalid
     */
    public OrderBuilder withCustomerEmail(String email) {
-      InputValidationUtils.validateTextInput(email, "Customer email");
-      InputValidationUtils.validateEmailFormat(email);
-      this.customerEmail = email;
+      try {
+         InputValidationUtils.validateTextInput(email, "Customer email");
+         InputValidationUtils.validateEmailFormat(email);
+         this.customerEmail = email;
+      } catch (IllegalArgumentException e) {
+         System.err.println("Error in withCustomerEmail: " + e.getMessage());
+         throw e;
+      }
       return this;
    }
 
@@ -54,10 +64,15 @@ public class OrderBuilder {
     * @throws IllegalArgumentException if the item is null
     */
    public OrderBuilder addItem(MenuItem item) {
-      if (item == null) {
-         throw new IllegalArgumentException("Menu item cannot be null");
+      try {
+         if (item == null) {
+            throw new IllegalArgumentException("Menu item cannot be null");
+         }
+         this.items.add(item);
+      } catch (IllegalArgumentException e) {
+         System.err.println("Error in addItem: " + e.getMessage());
+         throw e;
       }
-      this.items.add(item);
       return this;
    }
 
@@ -69,10 +84,15 @@ public class OrderBuilder {
     * @throws IllegalArgumentException if the items list is null or empty
     */
    public OrderBuilder withItems(List<MenuItem> items) {
-      if (items == null || items.isEmpty()) {
-         throw new IllegalArgumentException("Items list cannot be null or empty");
+      try {
+         if (items == null || items.isEmpty()) {
+            throw new IllegalArgumentException("Items list cannot be null or empty");
+         }
+         this.items = new ArrayList<>(items); // Create defensive copy
+      } catch (IllegalArgumentException e) {
+         System.err.println("Error in withItems: " + e.getMessage());
+         throw e;
       }
-      this.items = new ArrayList<>(items); // Create defensive copy
       return this;
    }
 
@@ -85,9 +105,14 @@ public class OrderBuilder {
     * @throws IllegalArgumentException if the address or zipcode is invalid
     */
    public OrderBuilder withValidatedDeliveryLocation(String address, String zipcode) {
-      InputValidationUtils.validateTextInput(address, "Address");
-      InputValidationUtils.validateTextInput(zipcode, "Zipcode");
-      this.deliveryLocation = new Location(zipcode, address);
+      try {
+         InputValidationUtils.validateTextInput(address, "Address");
+         InputValidationUtils.validateTextInput(zipcode, "Zipcode");
+         this.deliveryLocation = new Location(zipcode, address);
+      } catch (IllegalArgumentException e) {
+         System.err.println("Error in withValidatedDeliveryLocation: " + e.getMessage());
+         throw e;
+      }
       return this;
    }
 
@@ -99,9 +124,14 @@ public class OrderBuilder {
     * @throws IllegalArgumentException if the phone number is invalid
     */
    public OrderBuilder withValidatedPhoneNumber(String phoneNumber) {
-      InputValidationUtils.validateTextInput(phoneNumber, "Phone number");
-      InputValidationUtils.validatePhoneNumber(phoneNumber);
-      // Store phone number if needed
+      try {
+         InputValidationUtils.validateTextInput(phoneNumber, "Phone number");
+         InputValidationUtils.validatePhoneNumber(phoneNumber);
+         // Store phone number if needed
+      } catch (IllegalArgumentException e) {
+         System.err.println("Error in withValidatedPhoneNumber: " + e.getMessage());
+         throw e;
+      }
       return this;
    }
 
@@ -111,24 +141,29 @@ public class OrderBuilder {
     * @throws IllegalStateException if any order requirement is not met
     */
    private void validateOrderRequirements() {
-      List<String> validationErrors = new ArrayList<>();
+      try {
+         List<String> validationErrors = new ArrayList<>();
 
-      if (customerId == null) {
-         validationErrors.add("Customer ID is required");
-      }
-      if (items.isEmpty()) {
-         validationErrors.add("Order must contain at least one item");
-      }
-      if (deliveryLocation == null) {
-         validationErrors.add("Delivery location is required");
-      }
-      if (customerEmail == null || customerEmail.trim().isEmpty()) {
-         validationErrors.add("Customer email is required");
-      }
+         if (customerId == null) {
+            validationErrors.add("Customer ID is required");
+         }
+         if (items.isEmpty()) {
+            validationErrors.add("Order must contain at least one item");
+         }
+         if (deliveryLocation == null) {
+            validationErrors.add("Delivery location is required");
+         }
+         if (customerEmail == null || customerEmail.trim().isEmpty()) {
+            validationErrors.add("Customer email is required");
+         }
 
-      if (!validationErrors.isEmpty()) {
-         throw new IllegalStateException("Order validation failed: " +
-               String.join(", ", validationErrors));
+         if (!validationErrors.isEmpty()) {
+            throw new IllegalStateException("Order validation failed: " +
+                  String.join(", ", validationErrors));
+         }
+      } catch (IllegalStateException e) {
+         System.err.println("Error in validateOrderRequirements: " + e.getMessage());
+         throw e;
       }
    }
 
@@ -139,7 +174,12 @@ public class OrderBuilder {
     * @throws IllegalStateException if the order validation fails
     */
    public Order build() {
-      validateOrderRequirements();
+      try {
+         validateOrderRequirements();
+      } catch (IllegalStateException e) {
+         System.err.println("Error in build: " + e.getMessage());
+         throw e;
+      }
       return new Order(customerId, items, deliveryLocation, customerEmail);
    }
 }
