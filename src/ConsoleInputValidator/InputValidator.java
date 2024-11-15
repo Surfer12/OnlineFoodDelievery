@@ -46,8 +46,9 @@ public class InputValidator<T> {
    public T parse(String input) {
       try {
          return validator.parse(input);
-      } catch (Exception e) {
-         throw new ValidationException("Invalid input: " + e.getMessage());
+      } catch (ValidationException e) {
+         System.err.println("Error in parse: " + e.getMessage());
+         throw e;
       }
    }
 

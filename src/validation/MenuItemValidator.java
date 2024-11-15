@@ -18,6 +18,7 @@ public class MenuItemValidator implements InputValidator.Validator<MenuItem> {
          price = Double.parseDouble(parts[1].trim());
          available = Boolean.parseBoolean(parts[2].trim());
       } catch (NumberFormatException | ArrayIndexOutOfBoundsException e) {
+         System.err.println("Error in parse: Invalid input format. Please provide input in the format 'name,price,available,description,category'.");
          throw new IllegalArgumentException(
                "Invalid input format. Please provide input in the format 'name,price,available,description,category'.",
                e);

@@ -24,10 +24,15 @@ public class OrderBuilder {
     * @throws IllegalArgumentException if the customer ID is null or invalid
     */
    public OrderBuilder withValidatedCustomerId(Long customerId) {
-      if (customerId == null || customerId <= 0) {
-         throw new IllegalArgumentException("Invalid customer ID");
+      try {
+         if (customerId == null || customerId <= 0) {
+            throw new IllegalArgumentException("Invalid customer ID");
+         }
+         this.customerId = customerId;
+      } catch (IllegalArgumentException e) {
+         System.err.println("Error in withValidatedCustomerId: " + e.getMessage());
+         throw e;
       }
-      this.customerId = customerId;
       return this;
    }
 
@@ -61,10 +66,15 @@ public class OrderBuilder {
     * @throws IllegalArgumentException if the delivery location is null
     */
    public OrderBuilder withValidatedDeliveryLocation(Location location) {
-      if (location == null) {
-         throw new IllegalArgumentException("Delivery location cannot be null");
+      try {
+         if (location == null) {
+            throw new IllegalArgumentException("Delivery location cannot be null");
+         }
+         this.deliveryLocation = location;
+      } catch (IllegalArgumentException e) {
+         System.err.println("Error in withValidatedDeliveryLocation: " + e.getMessage());
+         throw e;
       }
-      this.deliveryLocation = location;
       return this;
    }
 
@@ -75,7 +85,12 @@ public class OrderBuilder {
     * @throws IllegalStateException if any required field is missing or invalid
     */
    public Order build() {
-      validateOrderRequirements();
+      try {
+         validateOrderRequirements();
+      } catch (IllegalStateException e) {
+         System.err.println("Error in build: " + e.getMessage());
+         throw e;
+      }
       return new Order(customerId, items, deliveryLocation, customerEmail);
    }
 

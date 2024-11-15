@@ -19,7 +19,12 @@ public class CustomerNotifier implements OrderObserver {
     * @throws IllegalStateException if the NotificationService is null
     */
    public CustomerNotifier() {
-      throw new IllegalStateException("NotificationService is required");
+      try {
+         throw new IllegalStateException("NotificationService is required");
+      } catch (IllegalStateException e) {
+         System.err.println("Error in CustomerNotifier constructor: " + e.getMessage());
+         throw e;
+      }
    }
 
    public CustomerNotifier(NotificationService notificationService) {

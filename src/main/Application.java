@@ -27,30 +27,30 @@ public class Application {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        DeliverySystem deliverySystem = new DeliverySystem();
-
-        // Register observers
-        // With a valid NotificationService
-        NotificationService notificationService = new NotificationService();
-        deliverySystem.addObserver(new CustomerNotifier(notificationService));
-        deliverySystem.addObserver(new DriverNotifier(notificationService));
-
-        // Initialize MenuItemFactory
-        MenuItemFactory factory = new MenuItemFactory();
-
-        // Create menu items
-        MenuItem pizza = factory.createMenuItem("hamburger", "Pepperoni Pizza", "Spicy pepperoni with cheese", 12.99,
-                Size.MEDIUM, 1);
-
-        // Build the order using OrderBuilder
-        Order order = new OrderBuilder()
-                .withValidatedCustomerId(1L)
-                .withCustomerEmail("jane.doe@example.com")
-                .addItem(pizza)
-                .withValidatedDeliveryLocation("456 Elm Street", "12345")
-                .build();
-
         try {
+            DeliverySystem deliverySystem = new DeliverySystem();
+
+            // Register observers
+            // With a valid NotificationService
+            NotificationService notificationService = new NotificationService();
+            deliverySystem.addObserver(new CustomerNotifier(notificationService));
+            deliverySystem.addObserver(new DriverNotifier(notificationService));
+
+            // Initialize MenuItemFactory
+            MenuItemFactory factory = new MenuItemFactory();
+
+            // Create menu items
+            MenuItem pizza = factory.createMenuItem("hamburger", "Pepperoni Pizza", "Spicy pepperoni with cheese", 12.99,
+                    Size.MEDIUM, 1);
+
+            // Build the order using OrderBuilder
+            Order order = new OrderBuilder()
+                    .withValidatedCustomerId(1L)
+                    .withCustomerEmail("jane.doe@example.com")
+                    .addItem(pizza)
+                    .withValidatedDeliveryLocation("456 Elm Street", "12345")
+                    .build();
+
             // Submit the order
             deliverySystem.submitOrder(order);
 
@@ -60,21 +60,21 @@ public class Application {
             // Assign driver and complete delivery
             deliverySystem.assignOrderToDriver(order, driver);
             deliverySystem.completeDelivery(order.getOrderId(), driver.getId());
+
+            Scanner scanner = new Scanner(System.in);
+
+            // Create a PositiveIntegerValidator instance
+            PositiveIntegerValidator positiveIntegerValidator = new PositiveIntegerValidator();
+            InputValidator<Integer> inputValidator = new InputValidator<>(positiveIntegerValidator, "Positive Integer");
+
+            ConsoleInputHandler<Integer> inputHandler = new ConsoleInputHandler<>(scanner, inputValidator);
+
+            Integer userInput = inputHandler.getInput("Enter a positive integer: ");
+            System.out.println("You entered: " + userInput);
+
+            scanner.close();
         } catch (Exception e) {
             System.err.println("An error occurred while processing the order: " + e.getMessage());
         }
-
-        Scanner scanner = new Scanner(System.in);
-
-        // Create a PositiveIntegerValidator instance
-        PositiveIntegerValidator positiveIntegerValidator = new PositiveIntegerValidator();
-        InputValidator<Integer> inputValidator = new InputValidator<>(positiveIntegerValidator, "Positive Integer");
-
-        ConsoleInputHandler<Integer> inputHandler = new ConsoleInputHandler<>(scanner, inputValidator);
-
-        Integer userInput = inputHandler.getInput("Enter a positive integer: ");
-        System.out.println("You entered: " + userInput);
-
-        scanner.close();
     }
 }
