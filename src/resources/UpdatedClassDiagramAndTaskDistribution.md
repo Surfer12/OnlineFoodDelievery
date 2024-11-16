@@ -77,7 +77,7 @@ Create a flexible and extensible menu item system with polymorphic behavior.
 **Focus Areas:**
 - Delivery system architecture
 - Concurrent processing
-- Driver matching and order queue management
+- Order queue management
 
 **Key Responsibilities:**
 - Implement `DeliverySystem`
