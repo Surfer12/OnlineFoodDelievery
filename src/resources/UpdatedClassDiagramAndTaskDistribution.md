@@ -1,128 +1,104 @@
-# Updated Class Diagram and Task Distribution
+# Task Distribution
 
-## Task Distribution
 Overall will be divided into a single task that each individual will complete.
 
 Ensure that each OOP Principle is implemented in the code and apparent throughout the project.
 
-### OOP Principles:
-- Polymorphism: 
-- Abstraction: 
-- Inheritance: 
-- Encapsulation: 
+OOP Principles:
 
-The project tasks will be divided into four main areas of focus, each with specific OOP principle responsibilities and design pattern implementations: 
+- Polymorphism:
+- Abstraction:
+- Inheritance:
+- Encapsulation:
 
-### 1. Order Processing and Workflow Team
-**Focus Areas:**
-- Polymorphism in Order and MenuItem classes
-- Observer Pattern implementation
-- Order lifecycle management
+The project tasks will be divided into four main areas of focus, each with specific OOP principle responsibilities and design pattern implementations:
 
-**Key Responsibilities:**
-- Implement `Order` class with polymorphic behavior
-- Develop `OrderTracker` and notification mechanisms
-- Manage `OrderStatus` transitions
-- Implement `OrderObserver` and `OrderSubject` interfaces
+# 1. **Order Processing and Workflow** 
+## Ryan Oates
+   - **Focus Areas:**
+     - Polymorphism in Order and MenuItem classes
+     - Observer Pattern implementation
+     - Order lifecycle management
+   - **Key Responsibilities:**
+     - Implement Order class with polymorphic behavior
+     - Develop OrderTracker and notification mechanisms
+     - Manage OrderStatus transitions
+     - Implement OrderObserver and OrderSubject interfaces
+   - **OOP Principles of focus area:**
+     - Inheritance in Person, Customer, and Driver classes
+     - Abstraction: Hide complex order processing details
+     - Encapsulation: Protect order state and transitions
+   - **Potential Team Member Task:** Implement polymorphic order processing and validation and notification system for customer and driver
 
-**OOP Principles:**
-- Polymorphism: Different order processing for various menu items
-- Abstraction: Hide complex order processing details
-- Encapsulation: Protect order state and transitions
+# 2. **User and Interaction Management** 
+## Gigi 
+   - **Focus Areas:**
+     - Builder Pattern for user and order creation
+     - Rating and feedback system
+   - **Key Responsibilities:**
+     - Develop Person base class
+     - Implement Customer and Driver inheritance
+     - Create OrderBuilder with strong validation
+     - Manage RatingsHandler and rating mechanisms
+   - **OOP Principles:**
+     - Inheritance: Extending base Person class
+     - Encapsulation: Protecting user data
+     - Abstraction: Providing clean interfaces for user interactions
+   - **Potential Team Member Task:** Design and implement user-related classes with robust builder patterns and inheritance structures.
 
-**Potential Team Member Task:**
-Implement polymorphic order processing and notification system, ensuring clean separation of concerns.
+# 3. **Menu and Item Management Team**
+## Selena 
+   - **Focus Areas:**
+     - Polymorphism: Order item processing and validation for various menu item types notifying driver and customer of status of availability, location, successful delivery.
+     - Abstract and concrete menu item implementations
+     - Factory methods for menu item creation
+     - Price calculation and item management
+   - **Key Responsibilities:**
+     - Implement MenuItem abstract class
+     - Create concrete classes like Hamburger, Drink
+     - Develop menu item factory
+     - Implement availability logic
+   - **OOP Principles:**
+     - Abstraction: Abstract menu item base class
+     - Polymorphism: Different methods for menu item type utilities 
+     - Encapsulation: Protecting menu item properties
+   - **Potential Team Member Task:** Create a flexible and extensible menu item system with polymorphic behavior.
 
-### 2. User and Interaction Management Team
-**Focus Areas:**
-- Inheritance in Person, Customer, and Driver classes
-- Builder Pattern for user and order creation
-- Rating and feedback system
+# 4. **System Infrastructure and System Performance**
+## Nick 
+   - **Focus Areas:**
+     - Order queue management
+   - **Key Responsibilities:**
+     - Implement notification system 
+     - Develop ratings queue collections
+     - Manage order queue and ratings operations 
+   - **OOP Principles:**
+     - Dependency Inversion: Using interfaces for rating and notifications for abstract 
+     - Interface-based design
+     - Encapsulation of operations
+   - **Potential Team Member Task:** Design the system's core infrastructure with a focus on modular design and error avoidance through input validation and effective design. 
 
-**Key Responsibilities:**
-- Develop `Person` base class
-- Implement `Customer` and `Driver` inheritance
-- Create `OrderBuilder` with strong validation
-- Manage `RatingsHandler` and rating mechanisms
+## Learning Objectives for Each: 
 
-**OOP Principles:**
-- Inheritance: Extending base Person class
-- Encapsulation: Protecting user data
-- Abstraction: Providing clean interfaces for user interactions
+- **Order Processing:** 
+  - Event-driven programming
+  - Observer pattern understanding 
+  - State management 
 
-**Potential Team Member Task:**
-Design and implement user-related classes with robust builder patterns and inheritance structures.
+- **User and Interaction:** 
+  - Object-oriented design pattern usage with 
+  - Builder pattern
+  - Inheritance hierarchies
 
-### 3. Menu and Item Management Team
-**Focus Areas:**
-- Abstract and concrete menu item implementations
-- Factory methods for menu item creation
-- Price calculation and item management
+- **Menu and Item:**
+  - Abstract class design
+  - Polymorphic validation 
+  - Factory method design pattern 
 
-**Key Responsibilities:**
-- Implement `MenuItem` abstract class
-- Create concrete classes like `Hamburger`, `Drink`
-- Develop menu item factory
-- Implement pricing and availability logic
+- **System Infrastructure and System Design Team:**
+  - Design patterns
+  - System architecture
 
-**OOP Principles:**
-- Abstraction: Abstract menu item base class
-- Polymorphism: Different calculation methods for items
-- Encapsulation: Protecting menu item properties
-
-**Potential Team Member Task:**
-Create a flexible and extensible menu item system with polymorphic behavior.
-
-### 4. System Infrastructure and Concurrency Team
-**Focus Areas:**
-- Delivery system architecture
-- Concurrent processing
-- Order queue management
-
-**Key Responsibilities:**
-- Implement `DeliverySystem`
-- Develop thread-safe collections
-- Create driver matching strategies
-- Manage order queue and concurrent operations
-
-**OOP Principles:**
-- Dependency Inversion: Using interfaces for matching strategies
-- Interface-based design
-- Encapsulation of concurrent operations
-
-**Potential Team Member Task:**
-Design the system's core infrastructure with a focus on thread safety and modular design.
-
-### Collaborative Approach
-
-1. **Shared Design Document:** Maintain the class diagram and design principles document
-2. **Regular Code Reviews:** Ensure consistency across implementations
-3. **Interface Contracts:** Clearly define interfaces between teams
-4. **Continuous Integration:** Use tools to validate interactions between components
-
-### Learning Objectives for Each Team
-
-1. **Order Processing Team:**
-   - Advanced event-driven programming
-   - Observer pattern
-   - State management
-
-2. **User and Interaction Team:**
-   - Object-oriented design
-   - Builder pattern
-   - Inheritance hierarchies
-
-3. **Menu and Item Team:**
-   - Abstract class design
-   - Polymorphic behavior
-   - Factory methods
-
-4. **System Infrastructure Team:**
-   - Concurrent programming
-   - Design patterns
-   - System architecture
-
-This approach allows each team to focus on a specific area while contributing to the overall system, providing a comprehensive learning experience in Java and object-oriented design. 
 
 ## Class Diagram
 
