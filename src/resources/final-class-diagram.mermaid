@@ -1,0 +1,181 @@
+classDiagram
+    %% Core Entity Classes
+    class Person {
+        <<abstract>>
+        private Long id
+        private String name
+        private String address
+        private String phone
+        private String email
+        public Long getId()
+        public void setId(Long id)
+        public String getName()
+        public void setName(String name)
+        public String getAddress()
+        public void setAddress(String address)
+        public String getPhone()
+        public void setPhone(String phone)
+    }
+
+    class Customer {
+        private List~Order~ orderHistory
+        public Order placeOrder(List~MenuItem~ items)
+        public void rateDriver(Driver driver, int score, String comment)
+        public List~Order~ getOrderHistory()
+    }
+
+    class Driver {
+        private String vehicle
+        private String licenseNumber
+        private Location currentLocation
+        private RatingsHandler ratings
+        private Order currentOrder
+        private boolean isAvailable
+        public void acceptOrder(Order order)
+        public void completeDelivery(Order order)
+        public Optional~Order~ getCurrentOrder()
+        public Location getCurrentLocation()
+        public void setCurrentLocation(Location location)
+        public boolean isAvailable()
+    }
+
+    %% Menu Items
+    class MenuItem {
+        <<abstract>>
+        private Long id
+        private String name
+        private String description
+        private double price
+        private String category
+        private boolean available
+        public Long getId()
+        public String getName()
+        public double getPrice()
+        public boolean isAvailable()
+        public void setAvailable(boolean available)
+        public double calculateTotal()
+        public abstract int getQuantity()
+    }
+
+    class Hamburger {
+        private int quantity
+        public double calculateTotal()
+        public int getQuantity()
+    }
+
+    class Drink {
+        private Size size
+        private int quantity
+        public double calculateTotal()
+        public Size getSize()
+        public void setSize(Size size)
+        public int getQuantity()
+    }
+
+    class Size {
+        <<enumeration>>
+        SMALL
+        MEDIUM
+        LARGE
+        private double priceMultiplier
+    }
+
+    %% Order Management
+    class Order {
+        private Long orderId
+        private Long customerId
+        private Long driverId
+        private List~MenuItem~ items
+        private OrderStatus status
+        private double totalAmount
+        private Location deliveryLocation
+        private Payment payment
+        public double calculateTotal()
+        public void updateStatus(OrderStatus newStatus)
+        public void processPayment(String method)
+        public Location getDeliveryLocation()
+    }
+
+    class OrderQueue {
+        private Queue~Order~ orders
+        private int maxQueueSize
+        public void enqueue(Order order)
+        public Optional~Order~ peek()
+        public boolean isEmpty()
+    }
+
+    class OrderStatus {
+        <<enumeration>>
+        PLACED
+        ACCEPTED
+        IN_DELIVERY
+        DELIVERED
+    }
+
+    %% Rating System
+    class Rating {
+        private Long id
+        private Long customerId
+        private Long driverId
+        private int score
+        private String comment
+        private LocalDateTime timestamp
+        public boolean validate()
+        public String getRatingDetails()
+    }
+
+    class RatingsHandler~T~ {
+        private int maxRatings
+        private Queue~T~ ratingsQueue
+        public void addRating(T rating)
+        public double calculateAverageRating()
+        public void pollRating(T Rating)
+    }
+
+    %% System Management
+    class DeliverySystem {
+        <<Main>>
+        private OrderQueue orderQueue
+        private OrderTracker orderTracker
+        private NotificationService notificationService
+        public void submitOrder(Order order)
+        public void registerDriverToOrder(Driver driver)
+        public void assignOrderToDriver(Order order, Driver driver)
+        public void completeDelivery(Long orderId, Long driverId)
+    }
+
+    %% Observer Pattern Components
+    class OrderObserver {
+        <<interface>>
+        public void update(Order order)
+        public void onOrderEvent(Order order, OrderEvent event)
+    }
+
+    class CustomerNotifier {
+        private NotificationService notificationService
+        public void update(Order order)
+        public void onOrderEvent(Order order, OrderEvent event)
+    }
+
+    class DriverNotifier {
+        private NotificationService notificationService
+        public void update(Order order)
+        public void onOrderEvent(Order order, OrderEvent event)
+    }
+
+    %% Core Relationships
+    Person <|-- Customer : extends
+    Person <|-- Driver : extends
+    MenuItem <|-- Hamburger : extends
+    MenuItem <|-- Drink : extends
+    OrderObserver <|.. CustomerNotifier : implements
+    OrderObserver <|.. DriverNotifier : implements
+    Customer "1" --> "*" Order : places
+    Driver "1" --> "1" RatingsHandler : has
+    Driver "1" --> "*" Order : delivers
+    Order "*" --> "*" MenuItem : contains
+    Order --> OrderStatus : has
+    DeliverySystem --> OrderQueue : manages
+    DeliverySystem --> OrderObserver : notifies
+    Customer "1" --> "*" Rating : gives
+    Driver "1" --> "*" Rating : receives
