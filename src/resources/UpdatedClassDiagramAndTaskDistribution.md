@@ -99,229 +99,209 @@ The project tasks will be divided into four main areas of focus, each with speci
   - Design patterns
   - System architecture
 
-
-## Class Diagram
-
 ```mermaid
 classDiagram
-    %% Core Classes
-    class Person {
-        private Long id
-        private String name
-        private String address
-        private String phone
-        private String email
-        public Long getId()
-        public void setId(Long id)
-        public String getName()
-        public void setName(String name)
-        public String getAddress()
-        public void setAddress(String address)
-        public String getPhone()
-        public void setPhone(String phone)
-        public String getEmail()
-        public void setEmail(String email)
-    }
-
-    class Customer {
-        private List~Order~ orderHistory
-        public Order placeOrder(List~MenuItem~ items)
-        public void rateDriver(Driver driver, int score, String comment)
-        public List~Order~ getOrderHistory()
-    }
-
-    class Driver {
-        private String vehicle
-        private String licenseNumber
-        private Location currentLocation
-        private RatingsHandler ratings
-        private Order currentOrder
-        private boolean isAvailable
-        public void acceptOrder(Order order)
-        public void completeDelivery(Order order)
-        public Optional~Order~ getCurrentOrder()
-        public String getVehicle()
-        public void setVehicle(String vehicle)
-        public String getLicenseNumber()
-        public void setLicenseNumber(String licenseNumber)
-        public Location getCurrentLocation()
-        public void setCurrentLocation(Location currentLocation)
-        public boolean isAvailable()
-        public void setAvailable(boolean isAvailable)
-    }
-
-    class MenuItem {
-        <<abstract>>
-        private Long id
-        private String name
-        private String description
-        private double price
-        private String category
-        private boolean available
-        public Long getId()
-        public void setId(Long id)
-        public String getName()
-        public void setName(String name)
-        public Optional~String~ getDescription()
-        public double getPrice()
-        public Optional~String~ getCategory()
-        public boolean isAvailable()
-        public void setAvailable(boolean available)
-        public double calculateTotal()
-        public void updatePrice(double newPrice)
-        public String getDetails()
-        public int getQuantity()
-    }
-
-    class Hamburger {
-        private int quantity
-        public double calculateTotal()
-        public int getQuantity()
-    }
-
-    class Drink {
-        private Size size
-        private int quantity
-        public double calculateTotal()
-        public String getDetails()
-        public Size getSize()
-        public void setSize(Size size)
-        public int getQuantity()
-    }
-
-    class Size {
-        <<enumeration>>
-        SMALL
-        MEDIUM
-        LARGE
-        private double priceMultiplier
-        public double getPriceMultiplier()
-    }
-
-    %% Order-related Classes
-    class Order {
-        private Long orderId
-        private Long customerId
-        private Long driverId
-        private List~MenuItem~ items
-        private OrderStatus status
-        private double totalAmount
-        private LocalDateTime orderTime
-        private Payment payment
-        private Location deliveryLocation
-        public double calculateTotal()
-        public void updateStatus(OrderStatus newStatus)
-        public void processPayment(String paymentMethod)
-        public Location getDeliveryLocation()
-        public String getCustomerEmail()
-        public void setEstimatedDeliveryTime(LocalDateTime time)
-    }
-
-    class OrderBuilder {
-        private Long customerId
-        private List~MenuItem~ items
-        private Location deliveryLocation
-        private String customerEmail
-        public OrderBuilder withValidatedCustomerId(Long customerId)
-        public OrderBuilder withCustomerEmail(String email)
-        public OrderBuilder addItem(MenuItem item)
-        public OrderBuilder withItems(List~MenuItem~ items)
-        public OrderBuilder withDeliveryLocation(Location location)
-        private void validateOrderRequirements()
-        public Order build()
-    }
-
-    class OrderStatus {
-        <<enumeration>>
-        PLACED
-        ACCEPTED
-        IN_DELIVERY
-        DELIVERED
-    }
-
-    %% Notification and Tracking
-    class OrderSubject {
-        <<interface>>
-        public void attach(OrderObserver observer)
-        public void detach(OrderObserver observer)
-        public void notifyObservers(Order order)
-    }
-
-    class OrderObserver {
-        <<interface>>
-        public void update(Order order)
-    }
-
-    class CustomerNotifier {
-        private NotificationService notificationService
-        public void update(Order order)
-    }
-
-    class OrderTrackingService {
-        private List~OrderObserver~ observers
-        public void attach(OrderObserver observer)
-        public void detach(OrderObserver observer)
-        public void notifyObservers(Order order)
-    }
-
-    %% Payment and Ratings
-    class Payment {
-        private Long paymentId
-        private Long orderId
-        private String paymentMethod
-        private double amount
-        private LocalDateTime paymentTime
-        private boolean isProcessed
-        private boolean isRefunded
-        public boolean processPayment()
-        public boolean refundPayment()
-    }
-
-    class Rating {
-        private Long id
-        private Long customerId
-        private Long driverId
-        private int score
-        private String comment
-        private LocalDateTime timestamp
-        public boolean validate()
-        public String getRatingDetails()
-    }
-
-    class RatingsHandler~T~ {
-        private int maxRatings
-        private Deque~T~ ratingsQueue
-        public void addRating(T rating)
-        public double calculateAverageRating()
-        public void clearAllRatings()
-    }
-
-    %% System Management
-    class DeliverySystem {
-        private OrderQueue orderQueue
-        private Map~Long, Driver~ availableDrivers
-        private Map~Long, Driver~ busyDrivers
-        private OrderTracker orderTracker
-        private DriverMatchingStrategy driverMatcher
-        private NotificationService notificationService
-        public void registerDriver(Driver driver)
-        public void completeDelivery(Long orderId, Long driverId)
-    }
-
-    %% Relationships
-    Person <|-- Customer
-    Person <|-- Driver
-    MenuItem <|-- Hamburger
-    MenuItem <|-- Drink
-    OrderSubject <|.. OrderTrackingService
-    OrderObserver <|.. CustomerNotifier
-    Order "*" o-- "*" MenuItem
-    Customer "1" --> "*" Order
-    Driver "1" --> "*" Order
-    Driver "1" --> "1" RatingsHandler
-    Customer "1" --> "*" Rating
-    Driver "1" --> "*" Rating
-    Order --> OrderStatus
-    Order "1" --> "1" Payment
-    OrderBuilder ..> Order : creates
-    DeliverySystem --> OrderQueue
+   %% Core Classes
+   class Person {
+       private Long id
+       private String name
+       private String address
+       private String phone
+       private String email
+       public Long getId()
+       public void setId(Long id)
+       public String getName()
+       public void setName(String name)
+       public String getAddress()
+       public void setAddress(String address)
+       public String getPhone()
+       public void setPhone(String phone)
+       public String getEmail()
+       public void setEmail(String email)
+   }
+   class Customer {
+       private List~Order~ orderHistory
+       public Order placeOrder(List~MenuItem~ items)
+       public void rateDriver(Driver driver, int score, String comment)
+       public List~Order~ getOrderHistory()
+   }
+   class Driver {
+       private String vehicle
+       private String licenseNumber
+       private Location currentLocation
+       private RatingsHandler ratings
+       private Order currentOrder
+       private boolean isAvailable
+       public void acceptOrder(Order order)
+       public void completeDelivery(Order order)
+       public Optional~Order~ getCurrentOrder()
+       public String getVehicle()
+       public void setVehicle(String vehicle)
+       public String getLicenseNumber()
+       public void setLicenseNumber(String licenseNumber)
+       public Location getCurrentLocation()
+       public void setCurrentLocation(Location currentLocation)
+       public boolean isAvailable()
+       public void setAvailable(boolean isAvailable)
+   }
+   class MenuItem {
+       <<abstract>>
+       private Long id
+       private String name
+       private String description
+       private double price
+       private String category
+       private boolean available
+       public Long getId()
+       public void setId(Long id)
+       public String getName()
+       public void setName(String name)
+       public Optional~String~ getDescription()
+       public double getPrice()
+       public Optional~String~ getCategory()
+       public boolean isAvailable()
+       public void setAvailable(boolean available)
+       public double calculateTotal()
+       public void updatePrice(double newPrice)
+       public String getDetails()
+       public int getQuantity()
+   }
+   class Hamburger {
+       private int quantity
+       public double calculateTotal()
+       public int getQuantity()
+   }
+   class Drink {
+       private Size size
+       private int quantity
+       public double calculateTotal()
+       public String getDetails()
+       public Size getSize()
+       public void setSize(Size size)
+       public int getQuantity()
+   }
+   class Size {
+       <<enumeration>>
+       SMALL
+       MEDIUM
+       LARGE
+       private double priceMultiplier
+       public double getPriceMultiplier()
+   }
+   %% Order-related Classes
+   class Order {
+       private Long orderId
+       private Long customerId
+       private Long driverId
+       private List~MenuItem~ items
+       private OrderStatus status
+       private double totalAmount
+       private LocalDateTime orderTime
+       private Payment payment
+       private Location deliveryLocation
+       public double calculateTotal()
+       public void updateStatus(OrderStatus newStatus)
+       public void processPayment(String paymentMethod)
+       public Location getDeliveryLocation()
+       public String getCustomerEmail()
+       public void setEstimatedDeliveryTime(LocalDateTime time)
+   }
+   class OrderBuilder {
+       private Long customerId
+       private List~MenuItem~ items
+       private Location deliveryLocation
+       private String customerEmail
+       public OrderBuilder withValidatedCustomerId(Long customerId)
+       public OrderBuilder withCustomerEmail(String email)
+       public OrderBuilder addItem(MenuItem item)
+       public OrderBuilder withItems(List~MenuItem~ items)
+       public OrderBuilder withDeliveryLocation(Location location)
+       private void validateOrderRequirements()
+       public Order build()
+   }
+   class OrderStatus {
+       <<enumeration>>
+       PLACED
+       ACCEPTED
+       IN_DELIVERY
+       DELIVERED
+   }
+   %% Notification and Tracking
+   class OrderSubject {
+       <<interface>>
+       public void attach(OrderObserver observer)
+       public void detach(OrderObserver observer)
+       public void notifyObservers(Order order)
+   }
+   class OrderObserver {
+       <<interface>>
+       public void update(Order order)
+   }
+   class CustomerNotifier {
+       private NotificationService notificationService
+       public void update(Order order)
+   }
+   class OrderTrackingService {
+       private List~OrderObserver~ observers
+       public void attach(OrderObserver observer)
+       public void detach(OrderObserver observer)
+       public void notifyObservers(Order order)
+   }
+   %% Payment and Ratings
+   class Payment {
+       private Long paymentId
+       private Long orderId
+       private String paymentMethod
+       private double amount
+       private LocalDateTime paymentTime
+       private boolean isProcessed
+       private boolean isRefunded
+       public boolean processPayment()
+       public boolean refundPayment()
+   }
+   class Rating {
+       private Long id
+       private Long customerId
+       private Long driverId
+       private int score
+       private String comment
+       private LocalDateTime timestamp
+       public boolean validate()
+       public String getRatingDetails()
+   }
+   class RatingsHandler~T~ {
+       private int maxRatings
+       private Deque~T~ ratingsQueue
+       public void addRating(T rating)
+       public double calculateAverageRating()
+       public void clearAllRatings()
+   }
+   %% System Management
+   class DeliverySystem {
+       private OrderQueue orderQueue
+       private Map~Long, Driver~ availableDrivers
+       private Map~Long, Driver~ busyDrivers
+       private OrderTracker orderTracker
+       private DriverMatchingStrategy driverMatcher
+       private NotificationService notificationService
+       public void registerDriver(Driver driver)
+       public void completeDelivery(Long orderId, Long driverId)
+   }
+   %% Relationships
+   Person <|-- Customer
+   Person <|-- Driver
+   MenuItem <|-- Hamburger
+   MenuItem <|-- Drink
+   OrderSubject <|.. OrderTrackingService
+   OrderObserver <|.. CustomerNotifier
+   Order "*" o-- "*" MenuItem
+   Customer "1" --> "*" Order
+   Driver "1" --> "*" Order
+   Driver "1" --> "1" RatingsHandler
+   Customer "1" --> "*" Rating
+   Driver "1" --> "*" Rating
+   Order --> OrderStatus
+   Order "1" --> "1" Payment
+   OrderBuilder ..> Order : creates
+   DeliverySystem --> OrderQueue
+```
