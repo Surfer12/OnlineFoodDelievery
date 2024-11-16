@@ -25,32 +25,32 @@
 
     <h2>The project tasks will be divided into these four main areas of focus, each with specific OOP principle responsibilities and concise seperation of concerns to demonstrate core OOP principles and design patterns:</h2>
 
-    <h3>1. <strong>Order Processing and Workflow</strong></h3>
+    <h3>1. <strong>Order Processing and Validation</strong></h3>
     <h4>Ryan </h4>
     <ul>
         <li><strong>Focus Areas:</strong>
             <ul>
-                <li>Polymorphism in Order and MenuItem classes</li>
-                <li>Observer Pattern implementation</li>
+                <li>Polymorphism Validation in Order and MenuItem classes</li>
+                <li>Observer Pattern Order Update and Notification Implementation</li>
                 <li>Order lifecycle management</li>
             </ul>
         </li>
         <li><strong>Key Responsibilities:</strong>
             <ul>
-                <li>Implement Order class with polymorphic behavior</li>
+                <li>Implement Order class with polymorphic attributes and behaviors for validation across all order types</li>
                 <li>Develop OrderTracker and notification mechanisms</li>
-                <li>Manage OrderStatus transitions</li>
-                <li>Implement OrderObserver and OrderSubject interfaces</li>
+                <li>Manage OrderStatus and OrderNotification classes</li>
+                <li>Implement OrderObserver and OrderSubject interfaces for notification and update system</li>
             </ul>
         </li>
         <li><strong>OOP Principles of focus area:</strong>
             <ul>
-                <li>Inheritance in Person, Customer, and Driver classes</li>
+                <li>Inheritance in Order, OrderStatus, and OrderNotification classes</li>
                 <li>Abstraction: Hide complex order processing details</li>
                 <li>Encapsulation: Protect order state and transitions</li>
             </ul>
         </li>
-        <li><strong>Potential Team Member Task:</strong> Implement polymorphic order processing and validation and notification system for customer and driver</li>
+        <li><strong>Team Member Task:</strong> Implement polymorphic order processing and validation and notification system for customer and driver</li>
     </ul>
 
     <h3>2. <strong>User and Interaction Management</strong></h3>
@@ -58,26 +58,24 @@
     <ul>
         <li><strong>Focus Areas:</strong>
             <ul>
-                <li>Builder Pattern for user and order creation</li>
                 <li>Rating and feedback system</li>
             </ul>
         </li>
         <li><strong>Key Responsibilities:</strong>
             <ul>
+                <li>Create OrderBuilder with strong validation</li>
                 <li>Develop Person base class</li>
                 <li>Implement Customer and Driver inheritance</li>
-                <li>Create OrderBuilder with strong validation</li>
-                <li>Manage RatingsHandler and rating mechanisms</li>
             </ul>
         </li>
         <li><strong>OOP Principles:</strong>
             <ul>
                 <li>Inheritance: Extending base Person class</li>
                 <li>Encapsulation: Protecting user data</li>
-                <li>Abstraction: Providing clean interfaces for user interactions</li>
+                <li>Abstraction: Providing interfaces for user interactions with order building from the command line</li>
             </ul>
         </li>
-        <li><strong>Potential Team Member Task:</strong> Design and implement user-related classes with robust builder patterns and inheritance structures.</li>
+        <li><strong>Team Member Task:</strong> Design and implement user-related classes with builder pattern and inheritance structures .</li>
     </ul>
 
     <h3>3. <strong>Menu and Item Management Team</strong></h3>
@@ -106,7 +104,7 @@
                 <li>Encapsulation: Protecting menu item properties</li>
             </ul>
         </li>
-        <li><strong>Potential Team Member Task:</strong> Create a flexible and extensible menu item system with polymorphic behavior.</li>
+        <li><strong>Team Member Task:</strong> Create a flexible and extensible menu item system with polymorphic behavior.</li>
     </ul>
 
     <h3>4. <strong>System Infrastructure and System Performance</strong></h3>
@@ -115,6 +113,7 @@
         <li><strong>Focus Areas:</strong>
             <ul>
                 <li>Order queue management</li>
+                <li>Manage RatingsHandler and rating mechanisms</li>
             </ul>
         </li>
         <li><strong>Key Responsibilities:</strong>
