@@ -6,6 +6,8 @@ import orderUtilities.OrderStatus;
 
 /**
  * The NotificationService class handles sending notifications to customers and drivers.
+ * This class provides methods to send various types of notifications, including order confirmation,
+ * driver assignment, order status updates, and delivery completion notifications.
  */
 public class NotificationService {
    private static final String ORDER_CONFIRMATION_SUBJECT = "Order Confirmation";
