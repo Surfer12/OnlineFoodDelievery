@@ -16,8 +16,8 @@
     "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
     "java.configuration.runtimes": [
         {
-            "name": "JavaSE-17",
-            "path": "/Users/ryanoates/.cursor/extensions/redhat.java-1.36.0-darwin-arm64/jre/17.0.13-macosx-aarch64",
+            "name": "JavaSE-22",
+            "path": "/Users/ryanoates/Library/Java/JavaVirtualMachines/temurin-22.0.2/Contents/Home",
             "default": true
         }
     ],
