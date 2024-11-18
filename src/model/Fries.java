@@ -50,7 +50,34 @@ public class Fries extends MenuItem {
     */
    @Override
    public double calculateTotal() {
-      double total = getPrice() * size.getPriceMultiplier();
+      double total = getPrice() * size.getPriceMultiplier() * quantity;
       return seasoned ? total + 0.50 : total;
+   }
+
+   /**
+    * Sets the size of the fries.
+    *
+    * @param size the new size of the fries
+    */
+   public void setSize(Size size) {
+      this.size = size;
+   }
+
+   /**
+    * Checks if the fries are seasoned.
+    *
+    * @return true if the fries are seasoned, false otherwise
+    */
+   public boolean isSeasoned() {
+      return seasoned;
+   }
+
+   /**
+    * Sets the seasoned status of the fries.
+    *
+    * @param seasoned the new seasoned status of the fries
+    */
+   public void setSeasoned(boolean seasoned) {
+      this.seasoned = seasoned;
    }
 }

@@ -18,16 +18,10 @@ public class CustomerNotifier implements OrderObserver {
     * @param notificationService the NotificationService to use for sending notifications
     * @throws IllegalStateException if the NotificationService is null
     */
-   public CustomerNotifier() {
-      try {
-         throw new IllegalStateException("NotificationService is required");
-      } catch (IllegalStateException e) {
-         System.err.println("Error in CustomerNotifier constructor: " + e.getMessage());
-         throw e;
-      }
-   }
-
    public CustomerNotifier(NotificationService notificationService) {
+      if (notificationService == null) {
+         throw new IllegalStateException("NotificationService is required");
+      }
       this.notificationService = notificationService;
    }
 
@@ -49,7 +43,8 @@ public class CustomerNotifier implements OrderObserver {
     */
    @Override
    public void customerNotificationOfOrder(Order order, OrderEvent event) {
-
+      String message = "Your order #" + order.getOrderId() + " is " + event.getStatus();
+      notificationService.sendNotification(order.getCustomerEmail(), message);
    }
 
    /**
@@ -82,6 +77,30 @@ public class CustomerNotifier implements OrderObserver {
          case DELIVERY_COMPLETED:
             notificationService.sendDeliveryCompletionNotification(order);
             break;
+         case ORDER_ACCEPTED:
+            notifyOrderAccepted(order);
+            break;
+         case IN_DELIVERY:
+            notifyOrderInDelivery(order);
+            break;
+         case DELIVERED:
+            notifyOrderDelivered(order);
+            break;
       }
+   }
+
+   private void notifyOrderAccepted(Order order) {
+      String message = "Your order #" + order.getOrderId() + " has been accepted.";
+      notificationService.sendNotification(order.getCustomerEmail(), message);
+   }
+
+   private void notifyOrderInDelivery(Order order) {
+      String message = "Your order #" + order.getOrderId() + " is in delivery.";
+      notificationService.sendNotification(order.getCustomerEmail(), message);
+   }
+
+   private void notifyOrderDelivered(Order order) {
+      String message = "Your order #" + order.getOrderId() + " has been delivered.";
+      notificationService.sendNotification(order.getCustomerEmail(), message);
    }
 }

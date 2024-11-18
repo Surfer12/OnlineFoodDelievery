@@ -34,6 +34,7 @@ public class Order {
     * @param customerEmail the email of the customer
     */
    public Order(Long customerId, List<MenuItem> items, Location deliveryLocation, String customerEmail) {
+      validateOrderInputs(customerId, items, deliveryLocation, customerEmail);
       this.customerId = customerId;
       this.items = new ArrayList<>(items);
       this.status = OrderStatus.PLACED;
@@ -41,6 +42,27 @@ public class Order {
       this.totalAmount = calculateTotal();
       this.deliveryLocation = new Location(deliveryLocation.getZipcode(), deliveryLocation.getAddress());
       this.customerEmail = customerEmail;
+   }
+
+   private void validateOrderInputs(Long customerId, List<MenuItem> items, Location deliveryLocation, String customerEmail) {
+      List<String> errors = new ArrayList<>();
+      
+      if (customerId == null || customerId <= 0) {
+         errors.add("Invalid customer ID");
+      }
+      if (items == null || items.isEmpty()) {
+         errors.add("Order must contain at least one item");
+      }
+      if (deliveryLocation == null) {
+         errors.add("Delivery location is required");
+      }
+      if (customerEmail == null || !isValidEmail(customerEmail)) {
+         errors.add("Valid customer email is required");
+      }
+      
+      if (!errors.isEmpty()) {
+         throw new ValidationException("Order validation failed: " + String.join(", ", errors));
+      }
    }
 
    /**
@@ -109,7 +131,25 @@ public class Order {
     * @param status the new status of the order
     */
    public void updateStatus(OrderStatus status) {
+      validateStatusTransition(this.status, status);
       this.status = status;
+   }
+
+   private void validateStatusTransition(OrderStatus currentStatus, OrderStatus newStatus) {
+      if (!isValidStatusTransition(currentStatus, newStatus)) {
+         throw new IllegalStateException(
+            String.format("Invalid status transition from %s to %s", currentStatus, newStatus)
+         );
+      }
+   }
+
+   private boolean isValidStatusTransition(OrderStatus current, OrderStatus next) {
+      return switch (current) {
+         case PLACED -> next == OrderStatus.ACCEPTED;
+         case ACCEPTED -> next == OrderStatus.IN_DELIVERY;
+         case IN_DELIVERY -> next == OrderStatus.DELIVERED;
+         case DELIVERED -> false;
+      };
    }
 
    /**
@@ -268,5 +308,9 @@ public class Order {
     */
    public Driver getAssignedDriver() {
       return Driver.getDriverById(driverId);
+   }
+
+   private boolean isValidEmail(String email) {
+      return email.matches("^[A-Za-z0-9+_.-]+@(.+)$");
    }
 }

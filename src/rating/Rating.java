@@ -1,53 +1,90 @@
 package rating;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
+
+import exception.ValidationException;
 
 public class Rating {
-   private Long id;
-   private Long customerId;
-   private Long driverId;
-   private int score;
-   private String comment;
-   private LocalDateTime timestamp;
+    private final Long id;
+    private final Long customerId;
+    private final Long driverId;
+    private final int score;
+    private final String comment;
+    private final LocalDateTime timestamp;
 
-   public Rating(Long customerId, Long driverId, int score, String comment) {
-      this.customerId = customerId;
-      this.driverId = driverId;
-      this.score = score;
-      this.comment = comment;
-      this.timestamp = LocalDateTime.now();
-   }
+    private Rating(Builder builder) {
+        this.id = builder.id;
+        this.customerId = builder.customerId;
+        this.driverId = builder.driverId;
+        this.score = builder.score;
+        this.comment = builder.comment;
+        this.timestamp = LocalDateTime.now();
+        
+        validate();
+    }
 
-   public boolean validate() {
-      return score >= 1 && score <= 5;
-   }
+    private void validate() {
+        List<String> errors = new ArrayList<>();
+        
+        if (score < 1 || score > 5) {
+            errors.add("Rating score must be between 1 and 5");
+        }
+        if (customerId == null || customerId <= 0) {
+            errors.add("Invalid customer ID");
+        }
+        if (driverId == null || driverId <= 0) {
+            errors.add("Invalid driver ID");
+        }
+        if (comment != null && comment.length() > 500) {
+            errors.add("Comment cannot exceed 500 characters");
+        }
 
-   public String getRatingDetails() {
-      return String.format("Rating: %d/5 - %s", score, comment);
-   }
+        if (!errors.isEmpty()) {
+            throw new ValidationException("Rating validation failed: " + 
+                String.join(", ", errors));
+        }
+    }
 
-   // Getters
-   public Long getId() {
-      return id;
-   }
+    public static class Builder {
+        private Long id;
+        private Long customerId;
+        private Long driverId;
+        private int score;
+        private String comment;
 
-   public Long getCustomerId() {
-      return customerId;
-   }
+        public Builder customerId(Long customerId) {
+            this.customerId = customerId;
+            return this;
+        }
 
-   public Long getDriverId() {
-      return driverId;
-   }
+        public Builder driverId(Long driverId) {
+            this.driverId = driverId;
+            return this;
+        }
 
-   public int getScore() {
-      return score;
-   }
+        public Builder score(int score) {
+            this.score = score;
+            return this;
+        }
 
-   public String getComment() {
-      return comment;
-   }
+        public Builder comment(String comment) {
+            this.comment = comment;
+            return this;
+        }
 
-   public LocalDateTime getTimestamp() {
-      return timestamp;
-   }
+        public Rating build() {
+            return new Rating(this);
+        }
+    }
+
+    // Getters only - Rating is immutable
+    public Long getId() { return id; }
+    public Long getCustomerId() { return customerId; }
+    public Long getDriverId() { return driverId; }
+    public int getScore() { return score; }
+    public Optional<String> getComment() { return Optional.ofNullable(comment); }
+    public LocalDateTime getTimestamp() { return timestamp; }
 }
