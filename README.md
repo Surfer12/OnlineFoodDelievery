@@ -261,3 +261,27 @@ A4: The `DeliverySystem` tracks the status of each order and sends notifications
 
 ### Q5: What are the dependencies required to run the application?
 A5: The application requires Java 17 and Gradle. Additionally, it uses dependencies such as JUnit Jupiter for unit testing, Mockito for mocking in unit tests, and Guava for additional utilities.
+
+## Troubleshooting Tips
+
+### Common Issues and Solutions
+
+#### Issue 1: Build Failure
+- **Solution**: Ensure you have Java 17 and Gradle installed. Run `./gradlew clean build` to clean and build the project.
+
+#### Issue 2: Application Not Starting
+- **Solution**: Check for any error messages in the console. Ensure all dependencies are correctly installed. Run `./gradlew dependencies` to verify.
+
+#### Issue 3: Order Not Being Processed
+- **Solution**: Ensure the order is correctly constructed and submitted. Check for any validation errors in the console output.
+
+#### Issue 4: Driver Not Being Assigned
+- **Solution**: Ensure drivers are registered and available. Check the driver assignment logic in the `DeliverySystem` class.
+
+#### Issue 5: Notification Not Being Sent
+- **Solution**: Check the `NotificationService` class for any errors. Ensure the email/SMS service is correctly configured.
+
+### Additional Resources
+- **Gradle Documentation**: [https://docs.gradle.org/](https://docs.gradle.org/)
+- **JUnit 5 Documentation**: [https://junit.org/junit5/docs/current/user-guide/](https://junit.org/junit5/docs/current/user-guide/)
+- **Mockito Documentation**: [https://site.mockito.org/](https://site.mockito.org/)

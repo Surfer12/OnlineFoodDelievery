@@ -50,4 +50,34 @@ class InputValidatorTest {
         String invalidInput = "abc";
         assertThrows(NumberFormatException.class, () -> positiveIntegerValidator.parse(invalidInput));
     }
+
+    @Test
+    void testNameValidatorEmptyInput() {
+        String emptyName = "";
+        assertFalse(nameValidator.isValid(emptyName));
+    }
+
+    @Test
+    void testNameValidatorNullInput() {
+        String nullName = null;
+        assertFalse(nameValidator.isValid(nullName));
+    }
+
+    @Test
+    void testPositiveIntegerValidatorZeroInput() {
+        Integer zeroNumber = 0;
+        assertFalse(positiveIntegerValidator.isValid(zeroNumber));
+    }
+
+    @Test
+    void testPositiveIntegerValidatorLargeInput() {
+        Integer largeNumber = Integer.MAX_VALUE;
+        assertTrue(positiveIntegerValidator.isValid(largeNumber));
+    }
+
+    @Test
+    void testPositiveIntegerValidatorUnknownInput() {
+        String unknownInput = "unknown";
+        assertEquals(10, positiveIntegerValidator.parse(unknownInput));
+    }
 }
