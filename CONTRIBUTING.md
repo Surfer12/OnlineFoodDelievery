@@ -80,11 +80,21 @@ If you have an idea for an enhancement, please create an issue on GitHub with a 
 - Use meaningful variable and method names.
 - Write comments to explain complex logic.
 
+### Code Formatting
+
+- Ensure consistent code formatting and style across the entire codebase.
+- Use a linter or code formatter to maintain code consistency.
+
 ## Testing
 
 - Write unit tests for new features and bug fixes.
 - Ensure all tests pass before submitting a PR.
 - Use JUnit and Mockito for testing.
+
+### Comprehensive Testing
+
+- Implement comprehensive unit tests to cover edge cases and potential issues.
+- Ensure higher code quality and reliability through thorough testing.
 
 ## Issue Reporting
 
@@ -97,6 +107,11 @@ If you have an idea for an enhancement, please create an issue on GitHub with a 
 2. Create a pull request with a clear description of the changes.
 3. Reference any related issues in the pull request description.
 4. Wait for a review and address any feedback.
+
+### Detailed Guidelines
+
+- Follow the detailed guidelines for contributing to the project.
+- Include information on the code style, testing, and the pull request process.
 
 ## License
 
