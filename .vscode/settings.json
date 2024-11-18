@@ -20,5 +20,6 @@
             "path": "/Users/ryanoates/.cursor/extensions/redhat.java-1.36.0-darwin-arm64/jre/17.0.13-macosx-aarch64",
             "default": true
         }
-    ]
+    ],
+    "java.configuration.updateBuildConfiguration": "interactive"
 }
