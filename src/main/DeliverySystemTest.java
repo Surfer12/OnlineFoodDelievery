@@ -191,4 +191,77 @@ public class DeliverySystemTest {
         verify(driver).completeCurrentDelivery();
         verify(notificationService).sendDeliveryCompletionNotification(order);
     }
+
+    @Test
+    public void testSubmitOrder_InvalidEmail() {
+        MenuItemFactory factory = new MenuItemFactory();
+        MenuItem pizza = factory.createMenuItem("hamburger", "Pepperoni Pizza", "Spicy pepperoni with cheese", 12.99, Size.MEDIUM, 1);
+
+        Order order = new OrderBuilder()
+                .withValidatedCustomerId(1L)
+                .withCustomerEmail("invalid-email")
+                .addItem(pizza)
+                .withValidatedDeliveryLocation("456 Elm Street", "12345")
+                .build();
+
+        assertThrows(ValidationException.class, () -> deliverySystem.submitOrder(order));
+    }
+
+    @Test
+    public void testAssignOrderToDriver_NoAvailableDrivers() {
+        MenuItemFactory factory = new MenuItemFactory();
+        MenuItem pizza = factory.createMenuItem("hamburger", "Pepperoni Pizza", "Spicy pepperoni with cheese", 12.99, Size.MEDIUM, 1);
+
+        Order order = new OrderBuilder()
+                .withValidatedCustomerId(1L)
+                .withCustomerEmail("jane.doe@example.com")
+                .addItem(pizza)
+                .withValidatedDeliveryLocation("456 Elm Street", "12345")
+                .build();
+
+        deliverySystem.submitOrder(order);
+
+        assertThrows(OrderProcessingException.class, () -> deliverySystem.assignOrderToDriver(order, null));
+    }
+
+    @Test
+    public void testCompleteDelivery_InvalidOrderId() {
+        Driver driver = new Driver(101L, "Bob Smith", "Car", "ABC123");
+
+        deliverySystem.registerDriver(driver);
+
+        assertThrows(OrderProcessingException.class, () -> deliverySystem.completeDelivery(999L, driver.getId()));
+    }
+
+    @Test
+    public void testSubmitOrder_EmptyOrderItems() {
+        Order order = new OrderBuilder()
+                .withValidatedCustomerId(1L)
+                .withCustomerEmail("jane.doe@example.com")
+                .withValidatedDeliveryLocation("456 Elm Street", "12345")
+                .build();
+
+        assertThrows(ValidationException.class, () -> deliverySystem.submitOrder(order));
+    }
+
+    @Test
+    public void testAssignOrderToDriver_DriverAlreadyAssigned() {
+        MenuItemFactory factory = new MenuItemFactory();
+        MenuItem pizza = factory.createMenuItem("hamburger", "Pepperoni Pizza", "Spicy pepperoni with cheese", 12.99, Size.MEDIUM, 1);
+
+        Order order = new OrderBuilder()
+                .withValidatedCustomerId(1L)
+                .withCustomerEmail("jane.doe@example.com")
+                .addItem(pizza)
+                .withValidatedDeliveryLocation("456 Elm Street", "12345")
+                .build();
+
+        Driver driver = new Driver(101L, "Bob Smith", "Car", "ABC123");
+
+        deliverySystem.registerDriver(driver);
+        deliverySystem.submitOrder(order);
+        deliverySystem.assignOrderToDriver(order, driver);
+
+        assertThrows(OrderProcessingException.class, () -> deliverySystem.assignOrderToDriver(order, driver));
+    }
 }

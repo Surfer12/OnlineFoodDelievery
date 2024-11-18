@@ -5,6 +5,7 @@ import org.mockito.Mock;
 
 import java.time.LocalDate;
 import java.util.Scanner;
+import java.util.List;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -12,6 +13,9 @@ import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
 import ConsoleInputValidator.InputValidator;
+
+import static org.junit.jupiter.api.Assertions.*;
+import static org.mockito.Mockito.*;
 
 public class ConsoleInputHandlerTest {
 
@@ -33,7 +37,7 @@ public class ConsoleInputHandlerTest {
     @Mock
     private InputValidator<String> mockPatternValidator;
 
-    @MockA
+    @Mock
     private InputValidator<Object> mockCustomObjectValidator;
 
     private ConsoleInputHandler<String> consoleInputHandler;
@@ -190,6 +194,60 @@ public class ConsoleInputHandlerTest {
         verify(mockScanner).nextLine();
         verify(mockCustomObjectValidator).parse("valid object");
         verify(mockCustomObjectValidator).isValid(validObject);
+    }
+
+    @Test
+    public void testGetInput_EmptyInput() {
+        when(mockScanner.nextLine()).thenReturn("", "valid input");
+        when(mockInputValidator.parse("")).thenReturn("");
+        when(mockInputValidator.isValid("")).thenReturn(false);
+        when(mockInputValidator.parse("valid input")).thenReturn("valid input");
+        when(mockInputValidator.isValid("valid input")).thenReturn(true);
+
+        String result = consoleInputHandler.getInput("Enter input: ");
+
+        assertEquals("valid input", result);
+        verify(mockScanner, times(2)).nextLine();
+        verify(mockInputValidator, times(2)).parse(anyString());
+        verify(mockInputValidator, times(2)).isValid(anyString());
+    }
+
+    @Test
+    public void testGetInput_NullInput() {
+        when(mockScanner.nextLine()).thenReturn(null, "valid input");
+        when(mockInputValidator.parse(null)).thenReturn(null);
+        when(mockInputValidator.isValid(null)).thenReturn(false);
+        when(mockInputValidator.parse("valid input")).thenReturn("valid input");
+        when(mockInputValidator.isValid("valid input")).thenReturn(true);
+
+        String result = consoleInputHandler.getInput("Enter input: ");
+
+        assertEquals("valid input", result);
+        verify(mockScanner, times(2)).nextLine();
+        verify(mockInputValidator, times(2)).parse(anyString());
+        verify(mockInputValidator, times(2)).isValid(anyString());
+    }
+
+    @Test
+    public void testGetMultipleInputs_EmptyAndNullInputs() {
+        when(mockScanner.nextLine()).thenReturn("valid input 1", "", null, "valid input 2", "stop");
+        when(mockInputValidator.parse("valid input 1")).thenReturn("valid input 1");
+        when(mockInputValidator.isValid("valid input 1")).thenReturn(true);
+        when(mockInputValidator.parse("")).thenReturn("");
+        when(mockInputValidator.isValid("")).thenReturn(false);
+        when(mockInputValidator.parse(null)).thenReturn(null);
+        when(mockInputValidator.isValid(null)).thenReturn(false);
+        when(mockInputValidator.parse("valid input 2")).thenReturn("valid input 2");
+        when(mockInputValidator.isValid("valid input 2")).thenReturn(true);
+
+        List<String> result = consoleInputHandler.getMultipleInputs("Enter input: ", "stop");
+
+        assertEquals(2, result.size());
+        assertTrue(result.contains("valid input 1"));
+        assertTrue(result.contains("valid input 2"));
+        verify(mockScanner, times(5)).nextLine();
+        verify(mockInputValidator, times(5)).parse(anyString());
+        verify(mockInputValidator, times(4)).isValid(anyString());
     }
 
     private enum TestEnum {
