@@ -4,6 +4,14 @@ import exception.ValidationException;
 
 /**
  * Utility class for input validation.
+ *
+ * <p>Usage example:
+ * <pre>
+ * {@code
+ * String input = "example";
+ * InputValidationUtils.validateTextInput(input, "Field");
+ * }
+ * </pre>
  */
 public class InputValidationUtils {
 

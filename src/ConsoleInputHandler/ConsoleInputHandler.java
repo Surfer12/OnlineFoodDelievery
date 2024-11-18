@@ -10,6 +10,17 @@ import ConsoleInputValidator.InputValidator;
  * The ConsoleInputHandler class handles console input and validates it using the provided InputValidator.
  *
  * @param <T> the type of input to handle
+ *
+ * <p>Usage example:
+ * <pre>
+ * {@code
+ * Scanner scanner = new Scanner(System.in);
+ * InputValidator<Integer> validator = new PositiveIntegerValidator();
+ * ConsoleInputHandler<Integer> inputHandler = new ConsoleInputHandler<>(scanner, validator);
+ * Integer userInput = inputHandler.getInput("Enter a positive integer: ");
+ * System.out.println("You entered: " + userInput);
+ * }
+ * </pre>
  */
 public class ConsoleInputHandler<T> implements InputHandler<T> {
    private final Scanner scanner;

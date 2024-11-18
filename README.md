@@ -285,3 +285,101 @@ A5: The application requires Java 17 and Gradle. Additionally, it uses dependenc
 - **Gradle Documentation**: [https://docs.gradle.org/](https://docs.gradle.org/)
 - **JUnit 5 Documentation**: [https://junit.org/junit5/docs/current/user-guide/](https://junit.org/junit5/docs/current/user-guide/)
 - **Mockito Documentation**: [https://site.mockito.org/](https://site.mockito.org/)
+
+## Detailed Documentation for Each Class and Method
+
+### DeliverySystem
+The `DeliverySystem` class manages the order processing, driver assignment, and delivery tracking.
+
+#### Methods:
+- `submitOrder(Order order)`: Submits an order for processing.
+- `assignOrderToDriver(Order order, Driver driver)`: Assigns an order to a driver.
+- `completeDelivery(Long orderId, Long driverId)`: Completes the delivery of an order.
+- `registerDriver(Driver driver)`: Registers a driver to the system.
+
+### Application
+The `Application` class is the entry point for the delivery system application.
+
+#### Methods:
+- `main(String[] args)`: The main method to run the application.
+
+### NotificationService
+The `NotificationService` class handles sending notifications to customers and drivers.
+
+#### Methods:
+- `sendOrderConfirmationToCustomer(Order order)`: Sends an order confirmation email to the customer.
+- `sendDriverAssignmentNotification(Order order, Driver driver)`: Sends a driver assignment notification email to the customer.
+- `sendOrderStatusUpdateToCustomer(Order order, OrderStatus newStatus)`: Sends an order status update email to the customer.
+- `sendDeliveryCompletionNotification(Order order)`: Sends a delivery completion notification email to the customer.
+
+### Order
+The `Order` class represents an order in the system.
+
+#### Methods:
+- `addItem(MenuItem item)`: Adds a menu item to the order.
+- `removeItem(MenuItem item)`: Removes a menu item from the order.
+- `calculateTotal()`: Calculates the total amount of the order.
+- `updateStatus(OrderStatus status)`: Updates the status of the order.
+- `processPayment(String paymentMethod)`: Processes the payment for the order.
+
+### MenuItem
+The `MenuItem` class represents a menu item in the system.
+
+#### Methods:
+- `updatePrice(double price)`: Updates the price of the menu item.
+- `isAvailable()`: Checks if the menu item is available.
+- `getDetails()`: Gets the details of the menu item.
+- `calculateTotal()`: Calculates the total price of the menu item.
+- `getQuantity()`: Gets the quantity of the menu item.
+
+### Driver
+The `Driver` class represents a driver in the system.
+
+#### Methods:
+- `acceptOrder(Order order)`: Accepts an order and updates its status to accepted.
+- `completeDelivery(Order order)`: Completes the delivery of an order and updates its status to delivered.
+- `setCurrentOrder(Order order)`: Sets the current order for the driver and marks the driver as unavailable.
+- `getCurrentOrder()`: Returns the current order of the driver.
+- `isAvailable()`: Checks if the driver is available.
+- `getAverageRating()`: Returns the average rating of the driver.
+- `addRating(Rating rating)`: Adds a rating for the driver.
+- `completeCurrentDelivery()`: Completes the current delivery and marks the driver as available.
+- `getVehicle()`: Returns the vehicle of the driver.
+- `getLicenseNumber()`: Returns the license number of the driver.
+- `getCurrentLocation()`: Returns the current location of the driver.
+- `setCurrentLocation(Location location)`: Sets the current location of the driver.
+- `getDriverById(Long driverId)`: Retrieves a driver by their ID.
+
+### ConsoleInputHandler
+The `ConsoleInputHandler` class handles console input and validates it using the provided `InputValidator`.
+
+#### Methods:
+- `getInput(String prompt)`: Prompts the user for input and validates it.
+- `getMultipleInputs(String prompt, String stopCommand)`: Prompts the user for multiple inputs until the stop command is entered, and validates each input.
+
+### InputValidator
+The `InputValidator` class validates and parses input of a generic type.
+
+#### Methods:
+- `isValid(T value)`: Checks if the given value is valid.
+- `parse(String input)`: Parses the given input string into a value of type T.
+- `getTypeName()`: Returns the name of the type being validated and parsed.
+
+### InputValidationUtils
+The `InputValidationUtils` class provides utility methods for input validation.
+
+#### Methods:
+- `validateTextInput(String input, String fieldName)`: Validates that the input text is not null or empty.
+- `validateNumericInput(String input, String fieldName)`: Validates that the input text is a valid number.
+- `validatePositiveNumber(double number, String fieldName)`: Validates that the number is positive.
+- `validateEmailFormat(String email)`: Validates that the email format is valid.
+- `validatePhoneNumber(String phoneNumber)`: Validates that the phone number format is valid.
+
+### ValidationUtils
+The `ValidationUtils` class provides utility methods for validation.
+
+#### Methods:
+- `validateCustomerId(Long customerId)`: Validates the customer ID.
+- `validateItems(List<?> items, int maxItems)`: Validates the list of items.
+- `validateAmount(double amount, double maxAmount)`: Validates the amount.
+- `validatePayment(Payment payment)`: Validates the payment.

@@ -11,6 +11,17 @@ import payment.Payment;
 
 /**
  * Represents an order in the system.
+ * 
+ * <p>Usage example:
+ * <pre>
+ * {@code
+ * List<MenuItem> items = new ArrayList<>();
+ * items.add(new Hamburger(1L, "Cheeseburger", "Delicious cheeseburger", 5.99, Size.MEDIUM, 1));
+ * Location location = new Location("12345", "123 Main St");
+ * Order order = new Order(1L, items, location, "customer@example.com");
+ * order.processPayment("CREDIT_CARD");
+ * }
+ * </pre>
  */
 public class Order {
    private Long orderId;

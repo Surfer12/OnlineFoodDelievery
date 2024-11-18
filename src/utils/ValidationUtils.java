@@ -6,6 +6,22 @@ import payment.Payment;
 
 /**
  * Utility class for validation methods.
+ *
+ * <p>Usage example:
+ * <pre>
+ * {@code
+ * Long customerId = 123L;
+ * List<String> items = List.of("item1", "item2");
+ * double amount = 50.0;
+ * double maxAmount = 100.0;
+ * Payment payment = new Payment(1L, "CREDIT_CARD", amount);
+ *
+ * ValidationUtils.validateCustomerId(customerId);
+ * ValidationUtils.validateItems(items, 5);
+ * ValidationUtils.validateAmount(amount, maxAmount);
+ * ValidationUtils.validatePayment(payment);
+ * }
+ * </pre>
  */
 public class ValidationUtils {
 
@@ -16,8 +32,13 @@ public class ValidationUtils {
     * @throws ValidationException if the customer ID is invalid
     */
    public static void validateCustomerId(Long customerId) {
-      if (customerId == null || customerId <= 0) {
-         throw new ValidationException("Invalid customer ID");
+      try {
+         if (customerId == null || customerId <= 0) {
+            throw new ValidationException("Invalid customer ID");
+         }
+      } catch (ValidationException e) {
+         System.err.println("Error in validateCustomerId: " + e.getMessage());
+         throw e;
       }
    }
 
@@ -29,11 +50,16 @@ public class ValidationUtils {
     * @throws ValidationException if the list is null, empty, or exceeds the maximum limit
     */
    public static void validateItems(List<?> items, int maxItems) {
-      if (items == null || items.isEmpty()) {
-         throw new ValidationException("List cannot be null or empty");
-      }
-      if (items.size() > maxItems) {
-         throw new ValidationException("Exceeds maximum item limit of " + maxItems);
+      try {
+         if (items == null || items.isEmpty()) {
+            throw new ValidationException("List cannot be null or empty");
+         }
+         if (items.size() > maxItems) {
+            throw new ValidationException("Exceeds maximum item limit of " + maxItems);
+         }
+      } catch (ValidationException e) {
+         System.err.println("Error in validateItems: " + e.getMessage());
+         throw e;
       }
    }
 
@@ -45,11 +71,16 @@ public class ValidationUtils {
     * @throws ValidationException if the amount is less than or equal to zero or exceeds the maximum limit
     */
    public static void validateAmount(double amount, double maxAmount) {
-      if (amount <= 0) {
-         throw new ValidationException("Amount must be greater than zero");
-      }
-      if (amount > maxAmount) {
-         throw new ValidationException("Amount exceeds maximum limit of " + maxAmount);
+      try {
+         if (amount <= 0) {
+            throw new ValidationException("Amount must be greater than zero");
+         }
+         if (amount > maxAmount) {
+            throw new ValidationException("Amount exceeds maximum limit of " + maxAmount);
+         }
+      } catch (ValidationException e) {
+         System.err.println("Error in validateAmount: " + e.getMessage());
+         throw e;
       }
    }
 
@@ -60,8 +91,13 @@ public class ValidationUtils {
     * @throws ValidationException if the payment is not processed
     */
    public static void validatePayment(Payment payment) {
-      if (payment != null && !payment.isProcessed()) {
-         throw new ValidationException("Payment must be processed");
+      try {
+         if (payment != null && !payment.isProcessed()) {
+            throw new ValidationException("Payment must be processed");
+         }
+      } catch (ValidationException e) {
+         System.err.println("Error in validatePayment: " + e.getMessage());
+         throw e;
       }
    }
 }
