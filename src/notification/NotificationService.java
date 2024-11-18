@@ -55,6 +55,12 @@ public class NotificationService {
       sendEmail(order.getCustomerEmail(), DELIVERY_COMPLETION_SUBJECT, message);
    }
 
+   /**
+    * Formats the order confirmation message.
+    *
+    * @param order the order to confirm
+    * @return the formatted order confirmation message
+    */
    private String formatOrderConfirmationMessage(Order order) {
       return String.format(
             "Order #%d confirmed. Total: $%.2f",
@@ -62,6 +68,13 @@ public class NotificationService {
             order.getTotalAmount());
    }
 
+   /**
+    * Formats the driver assignment message.
+    *
+    * @param order  the order for which the driver is assigned
+    * @param driver the assigned driver
+    * @return the formatted driver assignment message
+    */
    private String formatDriverAssignmentMessage(Order order, Driver driver) {
       return String.format(
             "Driver %s has been assigned to your order. %s",
@@ -69,18 +82,37 @@ public class NotificationService {
             formatEstimatedDeliveryTime(order));
    }
 
+   /**
+    * Formats the estimated delivery time message.
+    *
+    * @param order the order for which the delivery time is estimated
+    * @return the formatted estimated delivery time message
+    */
    private String formatEstimatedDeliveryTime(Order order) {
       return order.getEstimatedDeliveryTime() != null
             ? "Estimated delivery time: " + order.getEstimatedDeliveryTime()
             : "Delivery time to be determined";
    }
 
+   /**
+    * Formats the status update message.
+    *
+    * @param order     the order to update
+    * @param newStatus the new status of the order
+    * @return the formatted status update message
+    */
    private String formatStatusUpdateMessage(Order order, OrderStatus newStatus) {
       return String.format("Order #%d status updated: %s",
             order.getOrderId(),
             newStatus);
    }
 
+   /**
+    * Formats the delivery completion message.
+    *
+    * @param order the order that has been delivered
+    * @return the formatted delivery completion message
+    */
    private String formatDeliveryCompletionMessage(Order order) {
       return String.format("Order #%d has been delivered successfully.",
             order.getOrderId());
