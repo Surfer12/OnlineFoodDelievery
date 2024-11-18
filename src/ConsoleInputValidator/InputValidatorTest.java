@@ -80,4 +80,40 @@ class InputValidatorTest {
         String unknownInput = "unknown";
         assertEquals(10, positiveIntegerValidator.parse(unknownInput));
     }
+
+    @Test
+    void testCommandLineInput_ValidName() {
+        String validName = "Jane Doe";
+        assertTrue(nameValidator.isValid(validName));
+    }
+
+    @Test
+    void testCommandLineInput_InvalidName() {
+        String invalidName = "Jane123";
+        assertFalse(nameValidator.isValid(invalidName));
+    }
+
+    @Test
+    void testCommandLineInput_ValidPositiveInteger() {
+        Integer validNumber = 20;
+        assertTrue(positiveIntegerValidator.isValid(validNumber));
+    }
+
+    @Test
+    void testCommandLineInput_InvalidPositiveInteger() {
+        Integer invalidNumber = -10;
+        assertFalse(positiveIntegerValidator.isValid(invalidNumber));
+    }
+
+    @Test
+    void testCommandLineInput_ParseValidPositiveInteger() {
+        String validInput = "25";
+        assertEquals(25, positiveIntegerValidator.parse(validInput));
+    }
+
+    @Test
+    void testCommandLineInput_ParseInvalidPositiveInteger() {
+        String invalidInput = "xyz";
+        assertThrows(NumberFormatException.class, () -> positiveIntegerValidator.parse(invalidInput));
+    }
 }
