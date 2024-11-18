@@ -101,6 +101,7 @@ public class NotificationService {
       } catch (Exception e) {
          System.err.printf("Failed to send email to %s%nSubject: %s%nMessage: %s%nError: %s%n",
                recipientEmail, subject, message, e.getMessage());
+         sendSMS(recipientEmail, message); // Fallback to SMS if email fails
       }
    }
 
@@ -112,5 +113,22 @@ public class NotificationService {
     */
    public void sendNotification(String recipientEmail, String message) {
       sendEmail(recipientEmail, "", message);
+   }
+
+   /**
+    * Sends an SMS to the specified recipient.
+    *
+    * @param recipientPhone the recipient's phone number
+    * @param message        the message body of the SMS
+    */
+   private void sendSMS(String recipientPhone, String message) {
+      try {
+         // In a real implementation, this would use an SMS service
+         System.out.printf("Sending SMS to %s%nMessage: %s%n",
+               recipientPhone, message);
+      } catch (Exception e) {
+         System.err.printf("Failed to send SMS to %s%nMessage: %s%nError: %s%n",
+               recipientPhone, message, e.getMessage());
+      }
    }
 }

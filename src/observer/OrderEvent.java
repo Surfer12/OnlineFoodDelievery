@@ -6,7 +6,13 @@ public enum OrderEvent {
 
     DRIVER_ASSIGNED("assigned"),
 
-    DELIVERY_COMPLETED("completed");
+    DELIVERY_COMPLETED("completed"),
+
+    ORDER_ACCEPTED("accepted"),
+
+    IN_DELIVERY("in delivery"),
+
+    DELIVERED("delivered");
 
     private final String status;
 

@@ -29,6 +29,7 @@ public abstract class MenuItem {
       this.price = price;
       this.category = category;
       this.available = true;
+      validatePrice(price);
    }
 
    /**
@@ -37,6 +38,7 @@ public abstract class MenuItem {
     * @param price the new price of the menu item
     */
    public void updatePrice(double price) {
+      validatePrice(price);
       this.price = price;
    }
 
@@ -117,9 +119,7 @@ public abstract class MenuItem {
     *
     * @return the total price of the menu item
     */
-   public double calculateTotal() {
-      return price;
-   }
+   public abstract double calculateTotal();
 
    /**
     * Gets the quantity of the menu item.
@@ -127,4 +127,15 @@ public abstract class MenuItem {
     * @return the quantity of the menu item
     */
    public abstract int getQuantity();
+
+   /**
+    * Validates the price of the menu item.
+    *
+    * @param price the price to validate
+    */
+   protected void validatePrice(double price) {
+      if (price <= 0) {
+         throw new IllegalArgumentException("Price must be greater than zero");
+      }
+   }
 }

@@ -17,12 +17,7 @@ public class Drink extends MenuItem {
 
    @Override
    public double calculateTotal() {
-      return getPrice() * quantity;
-   }
-
-   @Override
-   public String getDetails() {
-      return String.format("%s - %s ($%.2f)", getName(), getDescription().orElse(""), getPrice());
+      return getPrice() * size.getPriceMultiplier() * quantity;
    }
 
    public Size getSize() {
