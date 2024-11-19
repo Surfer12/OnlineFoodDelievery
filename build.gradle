@@ -5,16 +5,16 @@
  * Learn more about Gradle by exploring our Samples at https://docs.gradle.org/8.11/samples
  */
 plugins {
-    `java-library`
+    id 'java-library'
 }
 
 java {
     toolchain {
-        languageVersion = JavaLanguageVersion.of(17)
+        languageVersion = JavaLanguageVersion.of(17)ersion = JavaLanguageVersion.of(17)
     }
 }
 
-version = "1.2.1"
+version = '1.2.1'
 
 // build.gradle
 
