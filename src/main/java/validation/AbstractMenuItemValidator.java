@@ -1,5 +1,7 @@
 package validation;
 
+import model.MenuItem;
+
 /**
  * Abstract class that defines common methods for validating menu items.
  */

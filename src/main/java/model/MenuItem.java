@@ -29,7 +29,6 @@ public abstract class MenuItem {
       this.price = price;
       this.category = category;
       this.available = true;
-      validatePrice(price);
    }
 
    /**
@@ -41,6 +40,7 @@ public abstract class MenuItem {
       validatePrice(price);
       this.price = price;
    }
+
 
    /**
     * Checks if the menu item is available.

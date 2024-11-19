@@ -1,8 +1,7 @@
 package validation;
 
+import CustomException.ValidationException;
 import model.Order;
-
-import exception.ValidationException;
 import utils.ValidationUtils;
 
 /**

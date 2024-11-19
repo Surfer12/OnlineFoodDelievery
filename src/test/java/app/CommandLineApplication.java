@@ -1,13 +1,14 @@
-package main;
+package app;
+
+import java.util.Scanner;
 
 import ConsoleInputHandler.ConsoleInputHandler;
 import ConsoleInputValidator.InputValidator;
 import ConsoleInputValidator.NameValidator;
 import ConsoleInputValidator.PositiveIntegerValidator;
+import model.MenuItem;
 import validation.EmailValidator;
 import validation.MenuItemValidator;
-import model.MenuItem;
-import java.util.Scanner;
 
 /**
  * CommandLineApplication is the entry point for the command-line interface of the application.

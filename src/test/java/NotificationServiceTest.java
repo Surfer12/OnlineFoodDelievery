@@ -1,4 +1,3 @@
-package notification;
 
 import model.Driver;
 import model.Order;

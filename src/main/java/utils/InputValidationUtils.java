@@ -1,6 +1,6 @@
 package utils;
 
-import exception.ValidationException;
+import CustomException.ValidationException;
 
 /**
  * Utility class for input validation.
