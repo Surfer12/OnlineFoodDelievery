@@ -6,6 +6,6 @@
     "editor.experimental.treeSitterTelemetry": true,
     "editor.columnSelection": true,
     "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.configuration.updateBuildConfiguration": "interactive",
 }
     
