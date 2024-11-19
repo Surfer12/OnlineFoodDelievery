@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-import exception.ValidationException;
+import CustomException.ValidationException;
 
 public class Rating {
     private final Long id;
