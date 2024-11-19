@@ -1,4 +1,4 @@
-package ConsoleInputHandler;
+package ConsoleInputHandlerTest;
 
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
@@ -8,8 +8,6 @@ import java.util.Scanner;
 import java.util.List;
 
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
 import ConsoleInputValidator.InputValidator;
