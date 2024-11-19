@@ -1,4 +1,4 @@
-package exception;
+package CustomException;
 
 /**
  * Exception thrown when the order queue is full.
