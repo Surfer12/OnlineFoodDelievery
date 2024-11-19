@@ -45,7 +45,12 @@ public class Customer extends Person {
     * @param comment the rating comment
     */
    public void rateDriver(Driver driver, int score, String comment) {
-      Rating rating = new Rating(this.getId(), driver.getId(), score, comment);
+      Rating rating = new Rating.Builder()
+            .customerId(this.getId())
+            .driverId(driver.getId())
+            .score(score)
+            .comment(comment)
+            .build();
       driver.addRating(rating);
    }
 
