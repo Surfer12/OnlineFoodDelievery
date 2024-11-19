@@ -26,6 +26,17 @@ public class Rating {
         validate();
     }
 
+    public Rating(Long customerId, Long driverId, int score, String comment) {
+        this.id = null;
+        this.customerId = customerId;
+        this.driverId = driverId;
+        this.score = score;
+        this.comment = comment;
+        this.timestamp = LocalDateTime.now();
+        
+        validate();
+    }
+
     private void validate() {
         List<String> errors = new ArrayList<>();
         
