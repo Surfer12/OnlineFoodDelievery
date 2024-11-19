@@ -1,7 +1,5 @@
 package utils;
 
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
 import CustomException.ValidationException;
 import payment.Payment;
 import java.util.Arrays;

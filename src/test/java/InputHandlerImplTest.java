@@ -4,6 +4,7 @@ import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
 import ConsoleInputValidator.InputValidator;
+import ConsoleInputHandler.InputHandlerImpl;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -11,6 +12,7 @@ import java.util.Scanner;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
+
 
 public class InputHandlerImplTest {
 
