@@ -1,24 +1,11 @@
 {
-    "java.project.sourcePaths": ["src"],
-    "java.project.outputPath": "bin",
-    "java.project.referencedLibraries": [
-        "lib/**/*.jar"
-    ],
-    "files.autoSave": "onFocusChange",
-    "editor.fontFamily": "'Monaspace Krypton', monospace",
     "java.format.settings.url": ".vscode/java-formatter.xml",
-    "java.compile.nullAnalysis.mode": "automatic",
     "editor.wordWrap": "on",
     "editor.experimental.asyncTokenizationLogging": false,
     "editor.experimentalInlineEdit.enabled": true,
     "editor.experimental.treeSitterTelemetry": true,
     "editor.columnSelection": true,
     "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-    "java.configuration.runtimes": [
-        {
-            "name": "JavaSE-21",
-            "path": "/Library/Java/JavaVirtualMachines/temurin-21.jre/Contents/Home"
-        }
-    ],
-    "java.configuration.updateBuildConfiguration": "interactive"
+    "java.configuration.updateBuildConfiguration": "automatic",
 }
+    
