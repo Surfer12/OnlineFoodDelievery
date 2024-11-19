@@ -1,10 +1,11 @@
 package model;
 
-import exception.PaymentException;
-import exception.ValidationException;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
+
+import CustomException.PaymentException;
+import CustomException.ValidationException;
 import location.Location;
 import orderUtilities.OrderStatus;
 import payment.Payment;

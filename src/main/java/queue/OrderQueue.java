@@ -23,12 +23,12 @@ public class OrderQueue implements QueueOperations<Order> {
    public void enqueue(Order order) {
       try {
          if (orders.size() >= maxQueueSize) {
-            throw new exception.QueueFullException("Order queue is at maximum capacity");
+            throw new CustomException.QueueFullException("Order queue is at maximum capacity");
          }
 
          validator.validateOrder(order);
          orders.offer(order);
-      } catch (exception.QueueFullException e) {
+      } catch (CustomException.QueueFullException e) {
          System.err.println("Error in enqueue: " + e.getMessage());
          throw e;
       }

@@ -1,4 +1,4 @@
-package main;
+package app;
 
 import notification.CustomerNotifier;
 import notification.DriverNotifier;
@@ -9,7 +9,6 @@ import model.MenuItem;
 import factory.MenuItemFactory;
 import orderUtilities.OrderBuilder;
 import notification.NotificationService;
-
 import java.util.Scanner;
 
 import ConsoleInputHandler.ConsoleInputHandler;
@@ -28,13 +27,14 @@ public class Application {
      */
     public static void main(String[] args) {
         try {
-            DeliverySystem deliverySystem = new DeliverySystem();
+            
 
             // Register observers
             // With a valid NotificationService
             NotificationService notificationService = new NotificationService();
-            deliverySystem.addObserver(new CustomerNotifier(notificationService));
-            deliverySystem.addObserver(new DriverNotifier(notificationService));
+            System.addObserver(new CustomerNotifier(notificationService));
+            Driver driver = new Driver(101L, "Bob Smith", "Car", "ABC123");
+            driver.addObserver(new DriverNotifier(notificationService));
 
             // Initialize MenuItemFactory
             MenuItemFactory factory = new MenuItemFactory();

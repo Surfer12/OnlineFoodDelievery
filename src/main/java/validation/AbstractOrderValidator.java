@@ -1,5 +1,10 @@
 package validation;
 
+import java.util.List;
+
+import model.MenuItem;
+import model.Order;
+
 /**
  * Abstract class that defines type-specific validation methods for orders.
  */

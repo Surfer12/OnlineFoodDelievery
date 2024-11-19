@@ -1,7 +1,6 @@
 package validation;
 
 import ConsoleInputValidator.InputValidator;
-import model.ConcreteMenuItem;
 import model.MenuItem;
 
 public class MenuItemValidator implements InputValidator.Validator<MenuItem> {
@@ -28,7 +27,7 @@ public class MenuItemValidator implements InputValidator.Validator<MenuItem> {
 
    private MenuItem createMenuItem(String name, double price, boolean available, String description, String category) {
       // Logic to determine which subclass to instantiate
-      return new ConcreteMenuItem(name, price, available, description, category);
+      return new MenuItem(name, price, available, description, category);
    }
 
    @Override

@@ -2,7 +2,7 @@ package utils;
 
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
-import exception.ValidationException;
+import CustomException.ValidationException;
 
 public class InputValidationUtilsTest {
 

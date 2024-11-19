@@ -2,11 +2,13 @@ package model;
 
 public class Hamburger extends MenuItem {
    private int quantity;
+   private String type;
+   private long id;
    private boolean hasCheese;
    private boolean hasBacon;
 
-   public Hamburger(Long id, String name, String description, double price, int quantity) {
-      super(id, name, description, price, "HAMBURGER");
+   public Hamburger(long id, String name, String description, double basePrice, Size size, int quantity) {
+      super(id, name, description, basePrice, "HAMBURGER");
       this.quantity = quantity;
    }
 
@@ -23,6 +25,14 @@ public class Hamburger extends MenuItem {
       return quantity;
    }
 
+   public void setQuantity(int quantity) {
+      this.quantity = quantity;
+   }
+
+   public void setType(String type) {
+      this.type = type;
+   }
+
    public void addCheese() {
       this.hasCheese = true;
    }
@@ -30,4 +40,10 @@ public class Hamburger extends MenuItem {
    public void addBacon() {
       this.hasBacon = true;
    }
+
+   public String getType() {
+      return type;
+   }
 }
+
+

@@ -1,4 +1,4 @@
-package main;
+
 
 import ConsoleInputHandler.ConsoleInputHandler;
 import ConsoleInputValidator.InputValidator;

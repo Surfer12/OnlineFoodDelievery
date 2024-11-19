@@ -13,9 +13,9 @@ public class MenuItemFactory {
          int quantity) {
       try {
          return switch (type.toLowerCase()) {
-            case "hamburger" -> new Hamburger(nextId++, name, description, basePrice, size, 1);
-            case "drink" -> new Drink(nextId++, name, description, basePrice, size, 1);
-            case "fries" -> new Fries(nextId++, name, description, basePrice, size, 1);
+            case "hamburger" -> new Hamburger(nextId++, name, description, basePrice, size, quantity);
+            case "drink" -> new Drink(nextId++, name, description, basePrice, size, quantity);
+            case "fries" -> new Fries(nextId++, name, description, basePrice, size, quantity);
             default -> throw new IllegalArgumentException("Unknown menu item type: " + type);
          };
       } catch (IllegalArgumentException e) {
