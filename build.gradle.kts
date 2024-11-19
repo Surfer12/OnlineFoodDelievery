@@ -15,3 +15,16 @@ java {
 }
 
 version = "1.2.1"
+
+// build.gradle
+
+dependencies {
+    // Other dependencies...
+
+    // JUnit Jupiter (JUnit 5)
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+
+    // Mockito
+    testImplementation 'org.mockito:mockito-core:3.12.4'
+}
