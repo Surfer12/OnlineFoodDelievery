@@ -2,6 +2,9 @@ package validation;
 
 import ConsoleInputValidator.InputValidator;
 import model.MenuItem;
+import model.Hamburger;
+import model.Drink;
+import model.Fries;
 
 public class MenuItemValidator implements InputValidator.Validator<MenuItem> {
    @Override
@@ -26,8 +29,17 @@ public class MenuItemValidator implements InputValidator.Validator<MenuItem> {
    }
 
    private MenuItem createMenuItem(String name, double price, boolean available, String description, String category) {
-      // Create a concrete MenuItem implementation
-      return new MenuItem(name, price, available, description, category);
+      // Example of creating different MenuItem subclasses based on category
+      switch (category.toLowerCase()) {
+         case "hamburger":
+            return new Hamburger(name, price, available, description);
+         case "drink":
+            return new Drink(name, price, available, description);
+         case "fries":
+            return new Fries(name, price, available, description);
+         default:
+            return new MenuItem(name, price, available, description, category) {};
+      }
    }
 
    @Override
