@@ -1,4 +1,4 @@
-package exception;
+package CustomException;
 
 /**
  * Exception thrown when an error occurs during payment processing.
