@@ -26,7 +26,7 @@ public class MenuItemValidator implements InputValidator.Validator<MenuItem> {
    }
 
    private MenuItem createMenuItem(String name, double price, boolean available, String description, String category) {
-      // Logic to determine which subclass to instantiate
+      // Create a concrete MenuItem implementation
       return new MenuItem(name, price, available, description, category);
    }
 

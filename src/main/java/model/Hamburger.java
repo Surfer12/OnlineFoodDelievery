@@ -44,6 +44,14 @@ public class Hamburger extends MenuItem {
    public String getType() {
       return type;
    }
+
+   @Override
+   public String toString() {
+      return "Hamburger{" +
+            "quantity=" + quantity +
+            ", type='" + type + '\'' +
+            '}';
+   }
 }
 
 

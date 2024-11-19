@@ -11,6 +11,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.mockito.MockitoAnnotations;
 
 import ConsoleInputValidator.InputValidator;
+import ConsoleInputHandler.ConsoleInputHandler;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
