@@ -1,0 +1,902 @@
+ *  Executing task: gradle: build 
+
+Reusing configuration cache.
+<==-----------> 18% EXECUTING [100ms]
+> :compileJava
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:3: error: package org.junit.jupiter.api does not exist
+import org.junit.jupiter.api.BeforeEach;
+                            ^
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:4: error: package org.junit.jupiter.api does not exist
+import org.junit.jupiter.api.Test;
+                            ^
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:5: error: package org.mockito does not exist
+import org.mockito.Mock;
+                  ^
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:6: error: package org.mockito does not exist
+import org.mockito.MockitoAnnotations;
+                  ^
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:14: error: package org.junit.jupiter.api does not exist
+import static org.junit.jupiter.api.Assertions.*;
+                                   ^
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:15: error: package org.mockito does not exist
+import static org.mockito.Mockito.*;
+                         ^
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:3: error: package org.junit.jupiter.api does not exist
+import org.junit.jupiter.api.Test;
+                            ^
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:4: error: package org.mockito does not exist
+import org.mockito.Mock;
+                  ^
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:10: error: package org.junit.jupiter.api does not exist
+import org.junit.jupiter.api.BeforeEach;
+                            ^
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:11: error: package org.junit.jupiter.api does not exist
+import org.junit.jupiter.api.Test;
+                            ^
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:12: error: package org.mockito does not exist
+import org.mockito.Mock;
+                  ^
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:13: error: package org.mockito does not exist
+import org.mockito.MockitoAnnotations;
+                  ^
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:17: error: package org.junit.jupiter.api does not exist
+import static org.junit.jupiter.api.Assertions.*;
+                                   ^
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:18: error: package org.mockito does not exist
+import static org.mockito.Mockito.*;
+                         ^
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/model/Order.java:3: error: package exception does not exist
+import exception.PaymentException;
+                ^
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/model/Order.java:4: error: package exception does not exist
+import exception.ValidationException;
+                ^
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/notification/NotificationServiceTest.java:6: error: package org.junit.jupiter.api does not exist
+import org.junit.jupiter.api.BeforeEach;
+                            ^
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/notification/NotificationServiceTest.java:7: error: package org.junit.jupiter.api does not exist
+import org.junit.jupiter.api.Test;
+                            ^
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/notification/NotificationServiceTest.java:8: error: package org.mockito does not exist
+import org.mockito.Mockito;
+                  ^
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/notification/NotificationServiceTest.java:10: error: package org.mockito does not exist
+import static org.mockito.Mockito.*;
+                         ^
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/utils/ValidationUtils.java:4: error: package exception does not exist
+import exception.ValidationException;
+                ^
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/utils/ValidationUtilsTest.java:3: error: package org.junit.jupiter.api does not exist
+import static org.junit.jupiter.api.Assertions.*;
+                                   ^
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/utils/ValidationUtilsTest.java:4: error: package org.junit.jupiter.api does not exist
+import org.junit.jupiter.api.Test;
+                            ^
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/utils/ValidationUtilsTest.java:5: error: package exception does not exist
+import exception.ValidationException;
+                ^
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/utils/InputValidationUtilsTest.java:3: error: package org.junit.jupiter.api does not exist
+import static org.junit.jupiter.api.Assertions.*;
+                                   ^
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/utils/InputValidationUtilsTest.java:4: error: package org.junit.jupiter.api does not exist
+import org.junit.jupiter.api.Test;
+                            ^
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/utils/InputValidationUtilsTest.java:5: error: package exception does not exist
+import exception.ValidationException;
+                ^
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/utils/InputValidationUtils.java:3: error: package exception does not exist
+import exception.ValidationException;
+                ^
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/model/AbstractFries.java:6: error: cannot find symbol
+public abstract class AbstractFries extends AbstractMenuItem {
+                                            ^
+  symbol: class AbstractMenuItem
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/validation/OrderValidator.java:5: error: package exception does not exist
+import exception.ValidationException;
+                ^
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputValidator/InputValidatorTest.java:3: error: package org.junit.jupiter.api does not exist
+import org.junit.jupiter.api.BeforeEach;
+                            ^
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputValidator/InputValidatorTest.java:4: error: package org.junit.jupiter.api does not exist
+import org.junit.jupiter.api.Test;
+                            ^
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputValidator/InputValidatorTest.java:5: error: package org.junit.jupiter.api does not exist
+import static org.junit.jupiter.api.Assertions.*;
+                                   ^
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/validation/MenuItemValidator.java:4: error: cannot find symbol
+import model.ConcreteMenuItem;
+            ^
+  symbol:   class ConcreteMenuItem
+  location: package model
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/validation/AbstractOrderValidator.java:6: error: cannot find symbol
+public abstract class AbstractOrderValidator extends AbstractValidator<Order> {
+                                                                       ^
+  symbol: class Order
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/validation/AbstractOrderValidator.java:15: error: cannot find symbol
+    public abstract boolean validate(Order order);
+                                     ^
+  symbol:   class Order
+  location: class AbstractOrderValidator
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/validation/AbstractOrderValidator.java:24: error: cannot find symbol
+    public abstract Order parse(String input);
+                    ^
+  symbol:   class Order
+  location: class AbstractOrderValidator
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/validation/AbstractOrderValidator.java:40: error: cannot find symbol
+    public abstract boolean validateItems(List<MenuItem> items);
+                                          ^
+  symbol:   class List
+  location: class AbstractOrderValidator
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/validation/AbstractOrderValidator.java:40: error: cannot find symbol
+    public abstract boolean validateItems(List<MenuItem> items);
+                                               ^
+  symbol:   class MenuItem
+  location: class AbstractOrderValidator
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/validation/AbstractMenuItemValidator.java:6: error: cannot find symbol
+public abstract class AbstractMenuItemValidator extends AbstractValidator<MenuItem> {
+                                                                          ^
+  symbol: class MenuItem
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/validation/AbstractMenuItemValidator.java:15: error: cannot find symbol
+    public abstract boolean validate(MenuItem menuItem);
+                                     ^
+  symbol:   class MenuItem
+  location: class AbstractMenuItemValidator
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/validation/AbstractMenuItemValidator.java:24: error: cannot find symbol
+    public abstract MenuItem parse(String input);
+                    ^
+  symbol:   class MenuItem
+  location: class AbstractMenuItemValidator
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:19: error: cannot find symbol
+    @Mock
+     ^
+  symbol:   class Mock
+  location: class InputHandlerImplTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:22: error: cannot find symbol
+    @Mock
+     ^
+  symbol:   class Mock
+  location: class InputHandlerImplTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:25: error: cannot find symbol
+    @Mock
+     ^
+  symbol:   class Mock
+  location: class InputHandlerImplTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:28: error: cannot find symbol
+    @Mock
+     ^
+  symbol:   class Mock
+  location: class InputHandlerImplTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:31: error: cannot find symbol
+    @Mock
+     ^
+  symbol:   class Mock
+  location: class InputHandlerImplTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:34: error: cannot find symbol
+    @Mock
+     ^
+  symbol:   class Mock
+  location: class InputHandlerImplTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:37: error: cannot find symbol
+    @Mock
+     ^
+  symbol:   class Mock
+  location: class InputHandlerImplTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:47: error: cannot find symbol
+    @BeforeEach
+     ^
+  symbol:   class BeforeEach
+  location: class InputHandlerImplTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:58: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class InputHandlerImplTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:72: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class InputHandlerImplTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:88: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class InputHandlerImplTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:103: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class InputHandlerImplTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:123: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class InputHandlerImplTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:138: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class InputHandlerImplTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:153: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class InputHandlerImplTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:167: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class InputHandlerImplTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:181: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class InputHandlerImplTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:196: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class InputHandlerImplTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:212: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class InputHandlerImplTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:228: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class InputHandlerImplTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:22: error: cannot find symbol
+    @Mock
+     ^
+  symbol:   class Mock
+  location: class ConsoleInputHandlerTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:25: error: cannot find symbol
+    @Mock
+     ^
+  symbol:   class Mock
+  location: class ConsoleInputHandlerTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:28: error: cannot find symbol
+    @Mock
+     ^
+  symbol:   class Mock
+  location: class ConsoleInputHandlerTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:31: error: cannot find symbol
+    @Mock
+     ^
+  symbol:   class Mock
+  location: class ConsoleInputHandlerTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:34: error: cannot find symbol
+    @Mock
+     ^
+  symbol:   class Mock
+  location: class ConsoleInputHandlerTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:37: error: cannot find symbol
+    @Mock
+     ^
+  symbol:   class Mock
+  location: class ConsoleInputHandlerTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:40: error: cannot find symbol
+    @Mock
+     ^
+  symbol:   class Mock
+  location: class ConsoleInputHandlerTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:50: error: cannot find symbol
+    @BeforeEach
+     ^
+  symbol:   class BeforeEach
+  location: class ConsoleInputHandlerTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:61: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class ConsoleInputHandlerTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:75: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class ConsoleInputHandlerTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:91: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class ConsoleInputHandlerTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:106: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class ConsoleInputHandlerTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:126: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class ConsoleInputHandlerTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:141: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class ConsoleInputHandlerTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:156: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class ConsoleInputHandlerTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:170: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class ConsoleInputHandlerTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:184: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class ConsoleInputHandlerTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:199: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class ConsoleInputHandlerTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:215: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class ConsoleInputHandlerTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:231: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class ConsoleInputHandlerTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/notification/NotificationServiceTest.java:18: error: cannot find symbol
+    @BeforeEach
+     ^
+  symbol:   class BeforeEach
+  location: class NotificationServiceTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/notification/NotificationServiceTest.java:25: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class NotificationServiceTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/notification/NotificationServiceTest.java:38: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class NotificationServiceTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/notification/NotificationServiceTest.java:51: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class NotificationServiceTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/notification/NotificationServiceTest.java:62: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class NotificationServiceTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/utils/ValidationUtilsTest.java:12: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class ValidationUtilsTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/utils/ValidationUtilsTest.java:17: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class ValidationUtilsTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/utils/ValidationUtilsTest.java:23: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class ValidationUtilsTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/utils/ValidationUtilsTest.java:29: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class ValidationUtilsTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/utils/ValidationUtilsTest.java:36: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class ValidationUtilsTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/utils/ValidationUtilsTest.java:43: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class ValidationUtilsTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/utils/ValidationUtilsTest.java:48: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class ValidationUtilsTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/utils/ValidationUtilsTest.java:54: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class ValidationUtilsTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/utils/ValidationUtilsTest.java:60: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class ValidationUtilsTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/utils/ValidationUtilsTest.java:66: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class ValidationUtilsTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/utils/InputValidationUtilsTest.java:9: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class InputValidationUtilsTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/utils/InputValidationUtilsTest.java:14: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class InputValidationUtilsTest
+/Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/utils/InputValidationUtilsTest.java:20: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class InputValidationUtilsTest
+100 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler output below.
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/model/AbstractFries.java:6: error: cannot find symbol
+  public abstract class AbstractFries extends AbstractMenuItem {
+                                              ^
+    symbol: class AbstractMenuItem
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/validation/AbstractOrderValidator.java:6: error: cannot find symbol
+  public abstract class AbstractOrderValidator extends AbstractValidator<Order> {
+                                                                         ^
+    symbol: class Order
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/validation/AbstractMenuItemValidator.java:6: error: cannot find symbol
+  public abstract class AbstractMenuItemValidator extends AbstractValidator<MenuItem> {
+                                                                            ^
+    symbol: class MenuItem
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:3: error: package org.junit.jupiter.api does not exist
+  import org.junit.jupiter.api.BeforeEach;
+                              ^
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:4: error: package org.junit.jupiter.api does not exist
+  import org.junit.jupiter.api.Test;
+                              ^
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:5: error: package org.mockito does not exist
+  import org.mockito.Mock;
+                    ^
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:6: error: package org.mockito does not exist
+  import org.mockito.MockitoAnnotations;
+                    ^
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:14: error: package org.junit.jupiter.api does not exist
+  import static org.junit.jupiter.api.Assertions.*;
+                                     ^
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:15: error: package org.mockito does not exist
+  import static org.mockito.Mockito.*;
+                           ^
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:3: error: package org.junit.jupiter.api does not exist
+  import org.junit.jupiter.api.Test;
+                              ^
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:4: error: package org.mockito does not exist
+  import org.mockito.Mock;
+                    ^
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:10: error: package org.junit.jupiter.api does not exist
+  import org.junit.jupiter.api.BeforeEach;
+                              ^
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:11: error: package org.junit.jupiter.api does not exist
+  import org.junit.jupiter.api.Test;
+                              ^
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:12: error: package org.mockito does not exist
+  import org.mockito.Mock;
+                    ^
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:13: error: package org.mockito does not exist
+  import org.mockito.MockitoAnnotations;
+                    ^
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:17: error: package org.junit.jupiter.api does not exist
+  import static org.junit.jupiter.api.Assertions.*;
+                                     ^
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:18: error: package org.mockito does not exist
+  import static org.mockito.Mockito.*;
+                           ^
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/model/Order.java:3: error: package exception does not exist
+  import exception.PaymentException;
+                  ^
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/model/Order.java:4: error: package exception does not exist
+  import exception.ValidationException;
+                  ^
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/notification/NotificationServiceTest.java:6: error: package org.junit.jupiter.api does not exist
+  import org.junit.jupiter.api.BeforeEach;
+                              ^
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/notification/NotificationServiceTest.java:7: error: package org.junit.jupiter.api does not exist
+  import org.junit.jupiter.api.Test;
+                              ^
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/notification/NotificationServiceTest.java:8: error: package org.mockito does not exist
+  import org.mockito.Mockito;
+                    ^
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/notification/NotificationServiceTest.java:10: error: package org.mockito does not exist
+  import static org.mockito.Mockito.*;
+                           ^
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/utils/ValidationUtils.java:4: error: package exception does not exist
+  import exception.ValidationException;
+                  ^
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/utils/ValidationUtilsTest.java:3: error: package org.junit.jupiter.api does not exist
+  import static org.junit.jupiter.api.Assertions.*;
+                                     ^
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/utils/ValidationUtilsTest.java:4: error: package org.junit.jupiter.api does not exist
+  import org.junit.jupiter.api.Test;
+                              ^
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/utils/ValidationUtilsTest.java:5: error: package exception does not exist
+  import exception.ValidationException;
+                  ^
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/utils/InputValidationUtilsTest.java:3: error: package org.junit.jupiter.api does not exist
+  import static org.junit.jupiter.api.Assertions.*;
+                                     ^
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/utils/InputValidationUtilsTest.java:4: error: package org.junit.jupiter.api does not exist
+  import org.junit.jupiter.api.Test;
+                              ^
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/utils/InputValidationUtilsTest.java:5: error: package exception does not exist
+  import exception.ValidationException;
+                  ^
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/utils/InputValidationUtils.java:3: error: package exception does not exist
+  import exception.ValidationException;
+                  ^
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/validation/OrderValidator.java:5: error: package exception does not exist
+  import exception.ValidationException;
+                  ^
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputValidator/InputValidatorTest.java:3: error: package org.junit.jupiter.api does not exist
+  import org.junit.jupiter.api.BeforeEach;
+                              ^
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputValidator/InputValidatorTest.java:4: error: package org.junit.jupiter.api does not exist
+  import org.junit.jupiter.api.Test;
+                              ^
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputValidator/InputValidatorTest.java:5: error: package org.junit.jupiter.api does not exist
+  import static org.junit.jupiter.api.Assertions.*;
+                                     ^
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/validation/MenuItemValidator.java:4: error: cannot find symbol
+  import model.ConcreteMenuItem;
+              ^
+    symbol:   class ConcreteMenuItem
+    location: package model
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/validation/AbstractOrderValidator.java:15: error: cannot find symbol
+      public abstract boolean validate(Order order);
+                                       ^
+    symbol:   class Order
+    location: class AbstractOrderValidator
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/validation/AbstractOrderValidator.java:24: error: cannot find symbol
+      public abstract Order parse(String input);
+                      ^
+    symbol:   class Order
+    location: class AbstractOrderValidator
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/validation/AbstractOrderValidator.java:40: error: cannot find symbol
+      public abstract boolean validateItems(List<MenuItem> items);
+                                            ^
+    symbol:   class List
+    location: class AbstractOrderValidator
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/validation/AbstractOrderValidator.java:40: error: cannot find symbol
+      public abstract boolean validateItems(List<MenuItem> items);
+                                                 ^
+    symbol:   class MenuItem
+    location: class AbstractOrderValidator
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/validation/AbstractMenuItemValidator.java:15: error: cannot find symbol
+      public abstract boolean validate(MenuItem menuItem);
+                                       ^
+    symbol:   class MenuItem
+    location: class AbstractMenuItemValidator
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/validation/AbstractMenuItemValidator.java:24: error: cannot find symbol
+      public abstract MenuItem parse(String input);
+                      ^
+    symbol:   class MenuItem
+    location: class AbstractMenuItemValidator
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:19: error: cannot find symbol
+      @Mock
+       ^
+    symbol:   class Mock
+    location: class InputHandlerImplTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:22: error: cannot find symbol
+      @Mock
+       ^
+    symbol:   class Mock
+    location: class InputHandlerImplTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:25: error: cannot find symbol
+      @Mock
+       ^
+    symbol:   class Mock
+    location: class InputHandlerImplTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:28: error: cannot find symbol
+      @Mock
+       ^
+    symbol:   class Mock
+    location: class InputHandlerImplTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:31: error: cannot find symbol
+      @Mock
+       ^
+    symbol:   class Mock
+    location: class InputHandlerImplTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:34: error: cannot find symbol
+      @Mock
+       ^
+    symbol:   class Mock
+    location: class InputHandlerImplTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:37: error: cannot find symbol
+      @Mock
+       ^
+    symbol:   class Mock
+    location: class InputHandlerImplTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:47: error: cannot find symbol
+      @BeforeEach
+       ^
+    symbol:   class BeforeEach
+    location: class InputHandlerImplTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:58: error: cannot find symbol
+      @Test
+       ^
+    symbol:   class Test
+    location: class InputHandlerImplTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:72: error: cannot find symbol
+      @Test
+       ^
+    symbol:   class Test
+    location: class InputHandlerImplTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:88: error: cannot find symbol
+      @Test
+       ^
+    symbol:   class Test
+    location: class InputHandlerImplTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:103: error: cannot find symbol
+      @Test
+       ^
+    symbol:   class Test
+    location: class InputHandlerImplTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:123: error: cannot find symbol
+      @Test
+       ^
+    symbol:   class Test
+    location: class InputHandlerImplTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:138: error: cannot find symbol
+      @Test
+       ^
+    symbol:   class Test
+    location: class InputHandlerImplTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:153: error: cannot find symbol
+      @Test
+       ^
+    symbol:   class Test
+    location: class InputHandlerImplTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:167: error: cannot find symbol
+      @Test
+       ^
+    symbol:   class Test
+    location: class InputHandlerImplTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:181: error: cannot find symbol
+      @Test
+       ^
+    symbol:   class Test
+    location: class InputHandlerImplTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:196: error: cannot find symbol
+      @Test
+       ^
+    symbol:   class Test
+    location: class InputHandlerImplTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:212: error: cannot find symbol
+      @Test
+       ^
+    symbol:   class Test
+    location: class InputHandlerImplTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/InputHandlerImplTest.java:228: error: cannot find symbol
+      @Test
+       ^
+    symbol:   class Test
+    location: class InputHandlerImplTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:22: error: cannot find symbol
+      @Mock
+       ^
+    symbol:   class Mock
+    location: class ConsoleInputHandlerTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:25: error: cannot find symbol
+      @Mock
+       ^
+    symbol:   class Mock
+    location: class ConsoleInputHandlerTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:28: error: cannot find symbol
+      @Mock
+       ^
+    symbol:   class Mock
+    location: class ConsoleInputHandlerTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:31: error: cannot find symbol
+      @Mock
+       ^
+    symbol:   class Mock
+    location: class ConsoleInputHandlerTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:34: error: cannot find symbol
+      @Mock
+       ^
+    symbol:   class Mock
+    location: class ConsoleInputHandlerTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:37: error: cannot find symbol
+      @Mock
+       ^
+    symbol:   class Mock
+    location: class ConsoleInputHandlerTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:40: error: cannot find symbol
+      @Mock
+       ^
+    symbol:   class Mock
+    location: class ConsoleInputHandlerTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:50: error: cannot find symbol
+      @BeforeEach
+       ^
+    symbol:   class BeforeEach
+    location: class ConsoleInputHandlerTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:61: error: cannot find symbol
+      @Test
+       ^
+    symbol:   class Test
+    location: class ConsoleInputHandlerTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:75: error: cannot find symbol
+      @Test
+       ^
+    symbol:   class Test
+    location: class ConsoleInputHandlerTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:91: error: cannot find symbol
+      @Test
+       ^
+    symbol:   class Test
+    location: class ConsoleInputHandlerTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:106: error: cannot find symbol
+      @Test
+       ^
+    symbol:   class Test
+    location: class ConsoleInputHandlerTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:126: error: cannot find symbol
+      @Test
+       ^
+    symbol:   class Test
+    location: class ConsoleInputHandlerTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:141: error: cannot find symbol
+      @Test
+       ^
+    symbol:   class Test
+    location: class ConsoleInputHandlerTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:156: error: cannot find symbol
+      @Test
+       ^
+    symbol:   class Test
+    location: class ConsoleInputHandlerTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:170: error: cannot find symbol
+      @Test
+       ^
+    symbol:   class Test
+    location: class ConsoleInputHandlerTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:184: error: cannot find symbol
+      @Test
+       ^
+    symbol:   class Test
+    location: class ConsoleInputHandlerTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:199: error: cannot find symbol
+      @Test
+       ^
+    symbol:   class Test
+    location: class ConsoleInputHandlerTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:215: error: cannot find symbol
+      @Test
+       ^
+    symbol:   class Test
+    location: class ConsoleInputHandlerTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/ConsoleInputHandler/ConsoleInputHandlerTest.java:231: error: cannot find symbol
+      @Test
+       ^
+    symbol:   class Test
+    location: class ConsoleInputHandlerTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/notification/NotificationServiceTest.java:18: error: cannot find symbol
+      @BeforeEach
+       ^
+    symbol:   class BeforeEach
+    location: class NotificationServiceTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/notification/NotificationServiceTest.java:25: error: cannot find symbol
+      @Test
+       ^
+    symbol:   class Test
+    location: class NotificationServiceTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/notification/NotificationServiceTest.java:38: error: cannot find symbol
+      @Test
+       ^
+    symbol:   class Test
+    location: class NotificationServiceTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/notification/NotificationServiceTest.java:51: error: cannot find symbol
+      @Test
+       ^
+    symbol:   class Test
+    location: class NotificationServiceTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/notification/NotificationServiceTest.java:62: error: cannot find symbol
+      @Test
+       ^
+    symbol:   class Test
+    location: class NotificationServiceTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/utils/ValidationUtilsTest.java:12: error: cannot find symbol
+      @Test
+       ^
+    symbol:   class Test
+    location: class ValidationUtilsTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/utils/ValidationUtilsTest.java:17: error: cannot find symbol
+      @Test
+       ^
+    symbol:   class Test
+    location: class ValidationUtilsTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/utils/ValidationUtilsTest.java:23: error: cannot find symbol
+      @Test
+       ^
+    symbol:   class Test
+    location: class ValidationUtilsTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/utils/ValidationUtilsTest.java:29: error: cannot find symbol
+      @Test
+       ^
+    symbol:   class Test
+    location: class ValidationUtilsTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/utils/ValidationUtilsTest.java:36: error: cannot find symbol
+      @Test
+       ^
+    symbol:   class Test
+    location: class ValidationUtilsTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/utils/ValidationUtilsTest.java:43: error: cannot find symbol
+      @Test
+       ^
+    symbol:   class Test
+    location: class ValidationUtilsTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/utils/ValidationUtilsTest.java:48: error: cannot find symbol
+      @Test
+       ^
+    symbol:   class Test
+    location: class ValidationUtilsTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/utils/ValidationUtilsTest.java:54: error: cannot find symbol
+      @Test
+       ^
+    symbol:   class Test
+    location: class ValidationUtilsTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/utils/ValidationUtilsTest.java:60: error: cannot find symbol
+      @Test
+       ^
+    symbol:   class Test
+    location: class ValidationUtilsTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/utils/ValidationUtilsTest.java:66: error: cannot find symbol
+      @Test
+       ^
+    symbol:   class Test
+    location: class ValidationUtilsTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/utils/InputValidationUtilsTest.java:9: error: cannot find symbol
+      @Test
+       ^
+    symbol:   class Test
+    location: class InputValidationUtilsTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/utils/InputValidationUtilsTest.java:14: error: cannot find symbol
+      @Test
+       ^
+    symbol:   class Test
+    location: class InputValidationUtilsTest
+  /Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/src/main/java/utils/InputValidationUtilsTest.java:20: error: cannot find symbol
+      @Test
+       ^
+    symbol:   class Test
+    location: class InputValidationUtilsTest
+  100 errors  // build.gradle
+  
+  dependencies {
+      // Other dependencies...
+  
+      // JUnit Jupiter (JUnit 5)
+      testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+      testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+  
+      // Mockito
+      testImplementation 'org.mockito:mockito-core:3.12.4'
+  }
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to get full insights.
+
+> Task :compileJava FAILED
+[Incubating] Problems report is available at: file:///Users/ryanoates/FoodDeliveryProject/OnlineFoodDelievery/build/reports/problems/problems-report.html
+1 actionable task: 1 executed
+Configuration cache entry reused.
+Could not execute build using connection to Gradle distribution 'https://services.gradle.org/distributions/gradle-8.11-bin.zip'.
+ *  The terminal process failed to launch (exit code: 1). 
+ *  Press any key to close the terminal. 

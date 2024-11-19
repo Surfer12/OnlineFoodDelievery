@@ -5,7 +5,7 @@ import java.util.concurrent.ConcurrentLinkedDeque;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-import exception.QueueFullException;
+import CustomException.QueueFullException;
 
 public class RatingsHandler<T> implements RatingsBusinessLogic<T> {
    private final int maxRatings;

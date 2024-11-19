@@ -2,7 +2,7 @@ package rating;
 
 import java.util.Optional;
 
-import exception.QueueFullException;
+import CustomException.QueueFullException;
 
 public interface RatingsBusinessLogic<T> {
     /**
