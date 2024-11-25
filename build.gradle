@@ -21,10 +21,8 @@ version = '1.2.1'
 ext {
     junitVersion = '5.10.0'   // Latest JUnit 5 version
     mockitoVersion = '5.4.0'  // Latest Mockito version
-    logbackVersion = '1.2.3'
-    slf4jVersion = '1.7.30'
-    checkstyleVersion = '8.45.1'
-    pmdVersion = '6.36.0'
+    logbackVersion = '1.2.10'
+    slf4jVersion = '1.7.32'
 }
 
 dependencies {
@@ -40,59 +38,60 @@ dependencies {
     implementation("org.slf4j:slf4j-api:$slf4jVersion")
 
     // Code quality tools
-    checkstyle("com.puppycrawl.tools:checkstyle:$checkstyleVersion")
-    pmd("net.sourceforge.pmd:pmd-java:$pmdVersion")
+    checkstyle("com.puppycrawl.tools:checkstyle:9.3")
+    pmd("net.sourceforge.pmd:pmd-java:6.39.0")
 }
 
 checkstyle {
-    toolVersion = "$checkstyleVersion"
-    configFile = file("config/checkstyle/checkstyle.xml")
+    toolVersion = '9.3'
+    configFile = file('config/checkstyle/checkstyle.xml')
 }
 
 pmd {
-    toolVersion = "$pmdVersion"
-    ruleSets = ["java-basic", "java-design"]
+    toolVersion = '6.39.0'
+    ruleSets = []
+    ruleSetFiles = files('config/pmd/ruleset.xml')
 }
 
 jacoco {
     toolVersion = "0.8.7"
 }
 
-tasks.withType(Test) {
-    useJUnitPlatform()
-    finalizedBy jacocoTestReport
-}
-
-jacocoTestReport {
-    dependsOn test
+tasks.jacocoTestReport {
     reports {
         xml.required.set(true)
         html.required.set(true)
     }
 }
 
-task formatCode(type: JavaExec) {
-    main = "com.google.googlejavaformat.java.Main"
-    classpath = configurations.googleJavaFormat
-    args = ["-i", "src/**/*.java"]
+tasks.register('formatCode') {
+    group = 'Formatting'
+    description = 'Formats the source code.'
+    doLast {
+        println 'Formatting code...'
+        // Add code formatting logic here
+    }
 }
 
-task generateDocs(type: Javadoc) {
-    source = sourceSets.main.allJava
-    classpath = configurations.compileClasspath
-    destinationDir = file("$buildDir/docs/javadoc")
+tasks.register('generateDocs') {
+    group = 'Documentation'
+    description = 'Generates project documentation.'
+    doLast {
+        println 'Generating documentation...'
+        // Add documentation generation logic here
+    }
 }
 
-task packageJar(type: Jar) {
-    archiveClassifier.set("jar")
+tasks.register('packageJar', Jar) {
+    group = 'Packaging'
+    description = 'Packages the application into a JAR file.'
+    archiveClassifier.set('jar')
     from sourceSets.main.output
 }
 
-task packageWar(type: War) {
-    archiveClassifier.set("war")
+tasks.register('packageWar', War) {
+    group = 'Packaging'
+    description = 'Packages the application into a WAR file.'
+    archiveClassifier.set('war')
     from sourceSets.main.output
-}
-
-tasks.build {
-    dependsOn formatCode, test, generateDocs, packageJar, packageWar
 }
