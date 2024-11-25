@@ -6,7 +6,6 @@ import ConsoleInputHandler.ConsoleInputHandler;
 import ConsoleInputValidator.InputValidator;
 import ConsoleInputValidator.NameValidator;
 import ConsoleInputValidator.PositiveIntegerValidator;
-import model.MenuItem;
 import validation.EmailValidator;
 import validation.MenuItemValidator;
 

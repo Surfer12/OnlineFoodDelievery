@@ -13,7 +13,6 @@ import java.util.Scanner;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
-
 public class InputHandlerImplTest {
 
     @Mock

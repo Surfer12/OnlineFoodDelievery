@@ -1,7 +1,5 @@
 package app;
 
-import notification.CustomerNotifier;
-import notification.DriverNotifier;
 import model.Order;
 import model.Driver;
 import model.Size;
