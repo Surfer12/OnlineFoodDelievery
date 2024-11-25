@@ -17,8 +17,8 @@ public class MenuItemValidator implements InputValidator.Validator<MenuItem> {
         boolean available;
         String description = parts.length > 3 ? parts[3].trim() : null; // Optional description
         String category = parts.length > 4 ? parts[4].trim() : null; // Optional category
-        Size size = parts.length > 5 ? Size.valueOf(parts[5].trim().toUpperCase()) : Size.MEDIUM; // Default size
-        int quantity = parts.length > 6 ? Integer.parseInt(parts[6].trim()) : 1; // Default quantity
+        Size size = parts.length > 5 ? Size.valueOf(parts[5].trim().toUpperCase()) : Size.MEDIUM; // Optional size
+        int quantity = parts.length > 6 ? Integer.parseInt(parts[6].trim()) : 1; // Optional quantity
         try {
             price = Double.parseDouble(parts[1].trim());
             available = Boolean.parseBoolean(parts[2].trim());
@@ -35,23 +35,13 @@ public class MenuItemValidator implements InputValidator.Validator<MenuItem> {
         // Example of creating different MenuItem subclasses based on category
         switch (category.toLowerCase()) {
             case "hamburger":
-                return new Hamburger(0L, name, description, price, size, quantity);
+                return new Hamburger(0, name, description, price, size, quantity);
             case "drink":
                 return new Drink(0L, name, description, price, size, quantity);
             case "fries":
                 return new Fries(0L, name, description, price, size, quantity);
             default:
-                return new MenuItem(0L, name, description, price, category) {
-                    @Override
-                    public double calculateTotal() {
-                        return price * quantity;
-                    }
-
-                    @Override
-                    public int getQuantity() {
-                        return quantity;
-                    }
-                };
+                throw new IllegalArgumentException("Unknown menu item category: " + category);
         }
     }
 
