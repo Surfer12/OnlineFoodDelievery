@@ -1,5 +1,8 @@
 plugins {
     id 'java-library'
+    id 'checkstyle'
+    id 'pmd'
+    id 'jacoco'
 }
 
 repositories {
@@ -18,6 +21,10 @@ version = '1.2.1'
 ext {
     junitVersion = '5.10.0'   // Latest JUnit 5 version
     mockitoVersion = '5.4.0'  // Latest Mockito version
+    logbackVersion = '1.2.3'
+    slf4jVersion = '1.7.30'
+    checkstyleVersion = '8.45.1'
+    pmdVersion = '6.36.0'
 }
 
 dependencies {
@@ -27,4 +34,65 @@ dependencies {
 
     // Mockito
     testImplementation("org.mockito:mockito-core:5.4.0")
+
+    // Logging libraries
+    implementation("ch.qos.logback:logback-classic:$logbackVersion")
+    implementation("org.slf4j:slf4j-api:$slf4jVersion")
+
+    // Code quality tools
+    checkstyle("com.puppycrawl.tools:checkstyle:$checkstyleVersion")
+    pmd("net.sourceforge.pmd:pmd-java:$pmdVersion")
+}
+
+checkstyle {
+    toolVersion = "$checkstyleVersion"
+    configFile = file("config/checkstyle/checkstyle.xml")
+}
+
+pmd {
+    toolVersion = "$pmdVersion"
+    ruleSets = ["java-basic", "java-design"]
+}
+
+jacoco {
+    toolVersion = "0.8.7"
+}
+
+tasks.withType(Test) {
+    useJUnitPlatform()
+    finalizedBy jacocoTestReport
+}
+
+jacocoTestReport {
+    dependsOn test
+    reports {
+        xml.required.set(true)
+        html.required.set(true)
+    }
+}
+
+task formatCode(type: JavaExec) {
+    main = "com.google.googlejavaformat.java.Main"
+    classpath = configurations.googleJavaFormat
+    args = ["-i", "src/**/*.java"]
+}
+
+task generateDocs(type: Javadoc) {
+    source = sourceSets.main.allJava
+    classpath = configurations.compileClasspath
+    destinationDir = file("$buildDir/docs/javadoc")
+}
+
+task packageJar(type: Jar) {
+    archiveClassifier.set("jar")
+    from sourceSets.main.output
+}
+
+task packageWar(type: War) {
+    archiveClassifier.set("war")
+    from sourceSets.main.output
+}
+
+tasks.build {
+    dependsOn formatCode, test, generateDocs, packageJar, packageWar
 }
