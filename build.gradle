@@ -1,8 +1,6 @@
 plugins {
     id 'java-library'
     id 'checkstyle'
-    id 'pmd'
-    id 'jacoco'
 }
 
 repositories {
@@ -21,8 +19,6 @@ version = '1.2.1'
 ext {
     junitVersion = '5.10.0'   // Latest JUnit 5 version
     mockitoVersion = '5.4.0'  // Latest Mockito version
-    logbackVersion = '1.2.10'
-    slf4jVersion = '1.7.32'
 }
 
 dependencies {
@@ -33,65 +29,11 @@ dependencies {
     // Mockito
     testImplementation("org.mockito:mockito-core:5.4.0")
 
-    // Logging libraries
-    implementation("ch.qos.logback:logback-classic:$logbackVersion")
-    implementation("org.slf4j:slf4j-api:$slf4jVersion")
-
-    // Code quality tools
-    checkstyle("com.puppycrawl.tools:checkstyle:9.3")
-    pmd("net.sourceforge.pmd:pmd-java:6.39.0")
+    // Checkstyle
+    checkstyle 'com.puppycrawl.tools:checkstyle:8.45.1'
 }
 
 checkstyle {
-    toolVersion = '9.3'
+    toolVersion = '8.45.1'
     configFile = file('config/checkstyle/checkstyle.xml')
-}
-
-pmd {
-    toolVersion = '6.39.0'
-    ruleSets = []
-    ruleSetFiles = files('config/pmd/ruleset.xml')
-}
-
-jacoco {
-    toolVersion = "0.8.7"
-}
-
-tasks.jacocoTestReport {
-    reports {
-        xml.required.set(true)
-        html.required.set(true)
-    }
-}
-
-tasks.register('formatCode') {
-    group = 'Formatting'
-    description = 'Formats the source code.'
-    doLast {
-        println 'Formatting code...'
-        // Add code formatting logic here
-    }
-}
-
-tasks.register('generateDocs') {
-    group = 'Documentation'
-    description = 'Generates project documentation.'
-    doLast {
-        println 'Generating documentation...'
-        // Add documentation generation logic here
-    }
-}
-
-tasks.register('packageJar', Jar) {
-    group = 'Packaging'
-    description = 'Packages the application into a JAR file.'
-    archiveClassifier.set('jar')
-    from sourceSets.main.output
-}
-
-tasks.register('packageWar', War) {
-    group = 'Packaging'
-    description = 'Packages the application into a WAR file.'
-    archiveClassifier.set('war')
-    from sourceSets.main.output
 }
