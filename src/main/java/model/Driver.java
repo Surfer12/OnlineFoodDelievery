@@ -1,31 +1,25 @@
 package model;
 
 public class Driver {
-   private final Long id;
    private final String name;
-   private final String vehicleType;
-   private final String licensePlate;
+   private final String email;
+   private final String phoneNumber;
 
-   public Driver(final Long id, final String name, final String vehicleType, final String licensePlate) {
-      this.id = id;
+   public Driver(final String name, final String email, final String phoneNumber) {
       this.name = name;
-      this.vehicleType = vehicleType;
-      this.licensePlate = licensePlate;
-   }
-
-   public Long getId() {
-      return this.id;
+      this.email = email;
+      this.phoneNumber = phoneNumber;
    }
 
    public String getName() {
       return this.name;
    }
 
-   public String getVehicleType() {
-      return this.vehicleType;
+   public String getEmail() {
+      return this.email;
    }
 
-   public String getLicensePlate() {
-      return this.licensePlate;
+   public String getPhoneNumber() {
+      return this.phoneNumber;
    }
 }
