@@ -41,4 +41,9 @@ public class MenuItemValidator implements Validator<MenuItem> {
     public String getTypeName() {
         return "menu item";
     }
+
+    public String getErrorMessage() {
+        return "Invalid menu item";
+    }
+
 }
