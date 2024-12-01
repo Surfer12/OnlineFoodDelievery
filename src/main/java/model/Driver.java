@@ -1,5 +1,7 @@
 package model;
 
+import rating.Rating;
+
 public class Driver {
    private final Long id;
    private final String name;
@@ -33,7 +35,8 @@ public class Driver {
       return this.licensePlate;
    }
 
-   public void addRating(final double rating) {
+   public void addRating(final Rating rating) {
       // Placeholder for adding rating logic
+      System.out.println("Rating added: " + rating);
    }
 }

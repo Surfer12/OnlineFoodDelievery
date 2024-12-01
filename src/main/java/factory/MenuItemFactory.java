@@ -16,4 +16,9 @@ public class MenuItemFactory {
          default -> throw new IllegalArgumentException("Unknown menu item type: " + type);
       };
    }
+
+   public static MenuItem createMenuItem(final String type, final String name, final String description,
+         final double price, final int quantity) {
+      return MenuItemFactory.createMenuItem(type, name, description, price, Size.MEDIUM, quantity);
+   }
 }

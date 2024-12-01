@@ -1,16 +1,24 @@
 package validation;
 
+import java.util.regex.Pattern;
+
 import utilities.Validator;
 
 public class EmailValidator implements Validator<String> {
+   private static final Pattern EMAIL_PATTERN = Pattern.compile(
+         "^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+$");
+
    @Override
    public String parse(final String input) {
       return input.trim();
    }
 
    @Override
-   public boolean isValid(final String value) {
-      final String emailRegex = "^[A-Za-z0-9+_.-]+@(.+)$";
-      return value != null && value.matches(emailRegex);
+   public boolean isValid(final String email) {
+      return email != null && EmailValidator.EMAIL_PATTERN.matcher(email).matches();
+   }
+
+   public String getTypeName() {
+      return "email address";
    }
 }

@@ -1,53 +1,44 @@
 package validation;
 
-import ConsoleInputValidator.InputValidator;
-import model.MenuItem;
-import model.Hamburger;
 import model.Drink;
 import model.Fries;
+import model.Hamburger;
+import model.MenuItem;
 import model.Size;
+import utilities.Validator;
 
-public class MenuItemValidator implements InputValidator.Validator<MenuItem> {
+public class MenuItemValidator implements Validator<MenuItem> {
     @Override
-    public MenuItem parse(String input) {
-        // Assuming input is in the format "name,price,available,description,category,size,quantity"
-        String[] parts = input.split(",");
-        String name = parts[0].trim();
-        double price;
-        boolean available;
-        String description = parts.length > 3 ? parts[3].trim() : null; // Optional description
-        String category = parts.length > 4 ? parts[4].trim() : null; // Optional category
-        Size size = parts.length > 5 ? Size.valueOf(parts[5].trim().toUpperCase()) : Size.MEDIUM; // Optional size
-        int quantity = parts.length > 6 ? Integer.parseInt(parts[6].trim()) : 1; // Optional quantity
-        try {
-            price = Double.parseDouble(parts[1].trim());
-            available = Boolean.parseBoolean(parts[2].trim());
-        } catch (NumberFormatException | ArrayIndexOutOfBoundsException e) {
-            System.err.println("Error in parse: Invalid input format. Please provide input in the format 'name,price,available,description,category,size,quantity'.");
-            throw new IllegalArgumentException(
-                    "Invalid input format. Please provide input in the format 'name,price,available,description,category,size,quantity'.",
-                    e);
+    public MenuItem parse(final String input) {
+        // Simplified parsing logic
+        final String[] parts = input.split(",");
+        if (parts.length < 6) {
+            throw new IllegalArgumentException("Invalid menu item format");
         }
-        return createMenuItem(name, price, available, description, category, size, quantity);
-    }
 
-    private MenuItem createMenuItem(String name, double price, boolean available, String description, String category, Size size, int quantity) {
-        // Example of creating different MenuItem subclasses based on category
-        switch (category.toLowerCase()) {
-            case "hamburger":
-                return new Hamburger(0, name, description, price, size, quantity);
-            case "drink":
-                return new Drink(0L, name, description, price, size, quantity);
-            case "fries":
-                return new Fries(0L, name, description, price, size, quantity);
-            default:
-                throw new IllegalArgumentException("Unknown menu item category: " + category);
-        }
+        final String type = parts[0].trim();
+        final String name = parts[1].trim();
+        final String description = parts[2].trim();
+        final double price = Double.parseDouble(parts[3].trim());
+        final Size size = Size.valueOf(parts[4].trim().toUpperCase());
+        final int quantity = Integer.parseInt(parts[5].trim());
+
+        return switch (type.toLowerCase()) {
+            case "hamburger" -> new Hamburger(0L, name, description, price, size, quantity);
+            case "drink" -> new Drink(0L, name, description, price, size, quantity);
+            case "fries" -> new Fries(0L, name, description, price, size, quantity);
+            default -> throw new IllegalArgumentException("Unknown menu item type: " + type);
+        };
     }
 
     @Override
-    public boolean isValid(MenuItem value) {
-        // Check if the MenuItem has a valid price and name
-        return value != null && value.getPrice() > 0 && !value.getName().isEmpty();
+    public boolean isValid(final MenuItem item) {
+        return item != null
+                && item.getName() != null && !item.getName().isEmpty()
+                && item.getPrice() > 0;
+    }
+
+    public String getTypeName() {
+        return "menu item";
     }
 }
