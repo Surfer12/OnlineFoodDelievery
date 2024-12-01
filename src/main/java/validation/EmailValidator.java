@@ -16,7 +16,13 @@ public class EmailValidator implements Validator<String> {
       return email != null && EmailValidator.EMAIL_PATTERN.matcher(email).matches();
    }
 
+   @Override
    public String getTypeName() {
       return "email address";
+   }
+
+   @Override
+   public boolean validate(final String input) {
+      return input != null && EmailValidator.EMAIL_PATTERN.matcher(input).matches();
    }
 }

@@ -1,7 +1,6 @@
 package validation;
 
 public class PositiveLongValidator implements Validator<Long> {
-    @Override
     public boolean validate(Long input) {
         return input != null && input > 0;
     }
@@ -17,12 +16,8 @@ public class PositiveLongValidator implements Validator<Long> {
 
     @Override
     public boolean isValid(Long value) {
-        // TODO Auto-generated method stub
-        return false;
+        return value != null && value > 0;
     }
-
-
-
 
     @Override
     public String getTypeName() {
