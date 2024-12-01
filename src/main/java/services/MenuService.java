@@ -12,4 +12,6 @@ public interface MenuService {
     MenuItem getMenuItemByIndex(int index);
 
     int getMenuSize();
+
+    List<MenuItem> getAllMenuItems();
 }
