@@ -22,17 +22,25 @@ public class DeliverySystemCLI {
 
     private boolean running = true;
 
-    public DeliverySystemCLI() {
-        this.scanner = new Scanner(System.in);
-        this.menuManager = new MenuManager();
-        this.orderManager = new OrderManager();
-        this.driverManager = new DriverManager();
+    public DeliverySystemCLI(Scanner scanner, MenuManager menuManager, OrderManager orderManager,
+            DriverManager driverManager, ConsoleInputHandler<Integer> positiveIntegerHandler) {
+        this.scanner = scanner;
+        this.menuManager = menuManager;
+        this.orderManager = orderManager;
+        this.driverManager = driverManager;
+        this.positiveIntegerHandler = positiveIntegerHandler;
+    }
 
-        this.positiveIntegerHandler = new ConsoleInputHandler<>(
-                new InputValidatorImpl<>(
-                        new PositiveIntegerValidator(),
-                        "Positive Integer",
-                        "Invalid positive integer"));
+    public DeliverySystemCLI() {
+        this(new Scanner(System.in),
+                new MenuManager(),
+                new OrderManager(),
+                new DriverManager(),
+                new ConsoleInputHandler<>(
+                        new InputValidatorImpl<>(
+                                new PositiveIntegerValidator(),
+                                "Positive Integer",
+                                "Invalid positive integer")));
     }
 
     public void start() {

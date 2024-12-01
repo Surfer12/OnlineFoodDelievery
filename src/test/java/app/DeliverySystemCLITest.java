@@ -14,6 +14,7 @@ import org.mockito.MockitoAnnotations;
 import managers.DriverManager;
 import managers.MenuManager;
 import managers.OrderManager;
+import services.OrderService;
 import validation.ConsoleInputHandler;
 
 public class DeliverySystemCLITest {
@@ -28,6 +29,12 @@ public class DeliverySystemCLITest {
     private DriverManager driverManager;
     @Mock
     private ConsoleInputHandler<Integer> positiveIntegerHandler;
+    @Mock
+    private ConsoleInputHandler<Integer> menuChoiceHandler;
+    @Mock
+    private OrderService orderService;
+    @Mock
+    private ConsoleInputHandler<Long> orderIdHandler;
 
     @InjectMocks
     private DeliverySystemCLI deliverySystemCLI;
@@ -35,6 +42,9 @@ public class DeliverySystemCLITest {
     @BeforeEach
     public void setUp() {
         MockitoAnnotations.openMocks(this);
+        when(this.menuManager.getMenuChoiceHandler()).thenReturn(this.menuChoiceHandler);
+        when(this.orderManager.getOrderService()).thenReturn(this.orderService);
+        when(this.orderManager.getOrderIdHandler()).thenReturn(this.orderIdHandler);
     }
 
     @Test
