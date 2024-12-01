@@ -1,7 +1,0 @@
-rootProject.name = 'OnlineFoodDelievery'
-
-// Include the main project module
-include 'app'
-
-// Disable source control for now
-// sourceControl is not recommended with configuration cache 
