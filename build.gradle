@@ -7,20 +7,16 @@ plugins {
     id 'java-library'
 }
 
-// Add these repository definitions
 repositories {
-    // Use Maven Central for resolving dependencies
     mavenCentral()
-    
-    // Optional: Add Maven local repository if needed
     mavenLocal()
 }
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_21
-    targetCompatibility = JavaVersion.VERSION_21
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
     toolchain {
-        vendor.set(JvmVendorSpec.ADOPTIUM)
+        languageVersion.set(JavaLanguageVersion.of(17))
     }
 }
 
@@ -31,29 +27,31 @@ configurations {
 }
 
 application {
-    mainClassName = 'OnlineFoodDelivery.src.main.java'
-}
-
-
-// Configuration cache optimization
-tasks.withType(GenerateModuleMetadata) {
-    enabled = true
+    mainClass = 'com.onlinefooddelivery.OnlineFoodDeliveryApplication'
 }
 
 dependencies {
-    // JUnit Jupiter (JUnit 5)
-    testImplementation("org.junit.jupiter:junit-jupiter-api:5.10.0")
-    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.10.0")
-
-    // Mockito
-    testImplementation("org.mockito:mockito-core:5.4.0")
-
-     implementation platform(libs.bundles.logging)
-    testImplementation platform(libs.bundles.testing)
+    // Spring Boot
+    implementation 'org.springframework.boot:spring-boot-starter'
+    
+    // Logging
+    implementation 'org.slf4j:slf4j-api:2.0.9'
+    implementation 'ch.qos.logback:logback-classic:1.4.14'
+    
+    // Testing
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.10.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.10.1'
+    testImplementation 'org.mockito:mockito-core:5.8.0'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    
+    // Lombok
+    compileOnly 'org.projectlombok:lombok:1.18.30'
+    annotationProcessor 'org.projectlombok:lombok:1.18.30'
 }
-    test {
-        useJUnitPlatform()
-        testLogging {
+
+test {
+    useJUnitPlatform()
+    testLogging {
         events 'passed', 'skipped', 'failed'
     }
 }
