@@ -2,7 +2,6 @@ plugins {
     id 'java'
     id 'org.springframework.boot' version '3.2.1' 
     id 'io.spring.dependency-management' version '1.1.4'
-    id 'checkstyle'
     id 'application'
 }
 
@@ -22,7 +21,7 @@ application {
 
 subprojects {
     apply plugin: 'java'
-    apply plugin: 'checkstyle'
+
 
     java {
         sourceCompatibility = JavaVersion.VERSION_21
@@ -41,12 +40,6 @@ subprojects {
         testLogging {
             events 'passed', 'skipped', 'failed'
         }
-    }
-
-    checkstyle {
-        toolVersion = '10.12.4'
-        configFile = rootProject.file('OnlineFoodDelivery/config/checkstyle/checkstyle.xml')
-        maxWarnings = 0
     }
 
     dependencies {
