@@ -71,6 +71,12 @@ dependencies {
     testImplementation "org.mockito:mockito-core:${mockitoVersion}"
     testImplementation "org.mockito:mockito-junit-jupiter:${mockitoVersion}"
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+    // Add these to resolve potential missing classes
+    implementation 'org.apache.commons:commons-lang3:3.12.0'
+    
+    // If you're using a specific delivery system or notification service
+    implementation project(':app')  // Assuming you have an 'app' module
 }
 
 // Application configuration
