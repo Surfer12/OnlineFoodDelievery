@@ -11,6 +11,7 @@ import model.MenuItem;
 import model.Order;
 import utilities.ConsoleInputHandler;
 import utilities.InputValidator;
+import utilities.InputValidatorImpl;
 import utilities.PositiveIntegerValidator;
 
 public class Application {
@@ -50,10 +51,10 @@ public class Application {
 
             try (Scanner scanner = new Scanner(System.in)) {
                 final PositiveIntegerValidator positiveIntegerValidator = new PositiveIntegerValidator();
-                final InputValidator<Integer> inputValidator = new InputValidator<>(
+                final InputValidator<Integer> inputValidator = new InputValidatorImpl<>(
                         positiveIntegerValidator, "Positive Integer");
 
-                final ConsoleInputHandler<Integer> inputHandler = new ConsoleInputHandler<>(scanner, inputValidator);
+                final ConsoleInputHandler<Integer> inputHandler = new ConsoleInputHandler<>(inputValidator);
 
                 final Integer userInput = inputHandler.getInput("Enter a positive integer: ");
                 System.out.println("You entered: " + userInput);
