@@ -80,4 +80,8 @@ public class Order {
    public void setEstimatedDeliveryTime(LocalDateTime estimatedDeliveryTime) {
       this.estimatedDeliveryTime = estimatedDeliveryTime;
    }
+
+   public Long getId() {
+      return this.orderId;
+   }
 }

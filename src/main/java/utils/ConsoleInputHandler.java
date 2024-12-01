@@ -12,20 +12,41 @@ public class ConsoleInputHandler<T> {
     }
 
     public T handleInput(Scanner scanner, String prompt) {
-        T input;
         while (true) {
             System.out.print(prompt);
+            String input = scanner.nextLine();
             try {
-                input = (T) scanner.nextLine();
-                if (this.validator.validate(input)) {
-                    break;
+                T parsedInput = this.validator.parse(input);
+                if (this.validator.isValid(parsedInput)) {
+                    return parsedInput;
                 } else {
                     System.out.println("Invalid input. Please try again.");
                 }
             } catch (Exception e) {
-                System.out.println("Error processing input. Please try again.");
+                System.out.println("Error parsing input: " + e.getMessage());
             }
         }
-        return input;
+    }
+
+    public T handleInput(Scanner scanner, String prompt, ValidatorCondition<T> condition) {
+        while (true) {
+            System.out.print(prompt);
+            String input = scanner.nextLine();
+            try {
+                T parsedInput = this.validator.parse(input);
+                if (this.validator.isValid(parsedInput) && condition.test(parsedInput)) {
+                    return parsedInput;
+                } else {
+                    System.out.println("Invalid input. Please try again.");
+                }
+            } catch (Exception e) {
+                System.out.println("Error parsing input: " + e.getMessage());
+            }
+        }
+    }
+
+    @FunctionalInterface
+    public interface ValidatorCondition<T> {
+        boolean test(T input);
     }
 }

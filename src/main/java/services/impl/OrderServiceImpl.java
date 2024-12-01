@@ -1,5 +1,6 @@
 package services.impl;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -9,7 +10,15 @@ import model.Order;
 import services.OrderService;
 
 public class OrderServiceImpl implements OrderService {
-    private final Map<Long, Order> orderTracker = new HashMap<>();
+    private List<Order> orders = new ArrayList<>();
+
+    @Override
+    public Order getOrderById(Long orderId) {
+        return this.orders.stream()
+                     .filter(order -> order.getId().equals(orderId))
+                     .findFirst()
+                     .orElse(null);
+    }
 
     @Override
     public Order createOrder(List<MenuItem> items) {
@@ -18,7 +27,7 @@ public class OrderServiceImpl implements OrderService {
         }
 
         Order newOrder = new Order(0L, "New Order", items, null);
-        this.orderTracker.put(newOrder.getOrderId(), newOrder);
+        this.orders.add(newOrder);
         return newOrder;
     }
 
@@ -44,7 +53,7 @@ public class OrderServiceImpl implements OrderService {
 
     @Override
     public String getOrderStatus(Long orderId) {
-        Order order = this.orderTracker.get(orderId);
+        Order order = this.getOrderById(orderId);
         return order != null ? "Order in progress" : "Order not found";
     }
 }

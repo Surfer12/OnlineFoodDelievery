@@ -1,4 +1,3 @@
-
 package utils;
 
 import utilities.InputValidator;
@@ -11,7 +10,17 @@ public class InputValidatorImpl<T> implements InputValidator<T> {
     }
 
     @Override
-    public boolean validate(T input) {
+    public String getTypeName() {
+        return this.validator.getTypeName();
+    }
+
+    @Override
+    public boolean isValid(T input) {
         return this.validator.validate(input);
+    }
+
+    @Override
+    public T parse(String input) {
+        return this.validator.parse(input);
     }
 }
