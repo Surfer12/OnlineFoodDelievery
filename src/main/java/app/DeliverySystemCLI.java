@@ -49,11 +49,11 @@ public class DeliverySystemCLI {
         this.orderQueue = new OrderQueue(MAX_QUEUE_SIZE);
 
         // Initialize validators
-        this.menuChoiceValidator = new InputValidatorImpl<>(new MenuItemValidator());
+        this.menuChoiceValidator = new InputValidatorImpl<>(new MenuItemValidator(), "Menu Choice", "Invalid menu choice");
         this.menuChoiceHandler = new ConsoleInputHandler<>(this.menuChoiceValidator);
         this.positiveIntegerValidator = new PositiveIntegerValidator(); // Changed type
         this.positiveIntegerHandler = new ConsoleInputHandler<Integer>(this.positiveIntegerValidator);
-        this.orderIdValidator = new InputValidatorImpl<Long>(new PositiveLongValidator());
+        this.orderIdValidator = new InputValidatorImpl<Long>(new PositiveLongValidator(), "Order ID", "Invalid Order ID");
         this.orderIdHandler = new ConsoleInputHandler<>(this.orderIdValidator);
     }
 

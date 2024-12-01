@@ -4,6 +4,7 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+import java.util.function.Predicate;
 
 /**
  * The ConsoleInputHandler class handles console input and validates it using
@@ -99,5 +100,19 @@ public class ConsoleInputHandler<T> implements InputHandler<T> {
       @SuppressWarnings("unchecked")
       final T[] result = inputs.toArray((T[]) Array.newInstance(inputs.get(0).getClass(), inputs.size()));
       return result;
+   }
+
+   public T handleInput(Scanner scanner, String prompt) {
+       return this.getInput(prompt);
+   }
+
+   public T handleInput(Scanner scanner, String prompt, Predicate<T> condition) {
+       while (true) {
+           T input = this.getInput(prompt);
+           if (condition.test(input)) {
+               return input;
+           }
+           System.out.println("Input does not meet the required condition.");
+       }
    }
 }
