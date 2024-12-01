@@ -1,15 +1,15 @@
 package app;
 
-import static org.mockito.Mockito.verify;
-import static org.mockito.Mockito.when;
-
 import java.util.Scanner;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.mockito.MockitoAnnotations;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+import org.mockito.junit.jupiter.MockitoExtension;
 
 import managers.DriverManager;
 import managers.MenuManager;
@@ -17,6 +17,7 @@ import managers.OrderManager;
 import services.OrderService;
 import validation.ConsoleInputHandler;
 
+@ExtendWith(MockitoExtension.class)
 public class DeliverySystemCLITest {
 
     @Mock
@@ -41,7 +42,6 @@ public class DeliverySystemCLITest {
 
     @BeforeEach
     public void setUp() {
-        MockitoAnnotations.openMocks(this);
         when(this.menuManager.getMenuChoiceHandler()).thenReturn(this.menuChoiceHandler);
         when(this.orderManager.getOrderService()).thenReturn(this.orderService);
         when(this.orderManager.getOrderIdHandler()).thenReturn(this.orderIdHandler);
@@ -49,8 +49,9 @@ public class DeliverySystemCLITest {
 
     @Test
     public void testStartPlaceOrder() {
-        when(this.menuManager.getMenuChoiceHandler().handleInput(this.scanner, "Enter your choice below: "))
-                .thenReturn(1);
+        when(this.menuChoiceHandler.handleInput(this.scanner, "Enter your choice below: "))
+                .thenReturn(1)
+                .thenReturn(null);
         when(this.positiveIntegerHandler.handleInput(this.scanner, "Enter your choice below: ")).thenReturn(1);
 
         this.deliverySystemCLI.start();
@@ -60,8 +61,9 @@ public class DeliverySystemCLITest {
 
     @Test
     public void testStartCheckOrderStatus() {
-        when(this.menuManager.getMenuChoiceHandler().handleInput(this.scanner, "Enter your choice below: "))
-                .thenReturn(2);
+        when(this.menuChoiceHandler.handleInput(this.scanner, "Enter your choice below: "))
+                .thenReturn(2)
+                .thenReturn(null);
 
         this.deliverySystemCLI.start();
 
@@ -70,8 +72,9 @@ public class DeliverySystemCLITest {
 
     @Test
     public void testStartViewMenu() {
-        when(this.menuManager.getMenuChoiceHandler().handleInput(this.scanner, "Enter your choice below: "))
-                .thenReturn(3);
+        when(this.menuChoiceHandler.handleInput(this.scanner, "Enter your choice below: "))
+                .thenReturn(3)
+                .thenReturn(null);
 
         this.deliverySystemCLI.start();
 
@@ -80,8 +83,9 @@ public class DeliverySystemCLITest {
 
     @Test
     public void testStartManageDrivers() {
-        when(this.menuManager.getMenuChoiceHandler().handleInput(this.scanner, "Enter your choice below: "))
-                .thenReturn(4);
+        when(this.menuChoiceHandler.handleInput(this.scanner, "Enter your choice below: "))
+                .thenReturn(4)
+                .thenReturn(null);
 
         this.deliverySystemCLI.start();
 
@@ -90,21 +94,23 @@ public class DeliverySystemCLITest {
 
     @Test
     public void testStartRateDriver() {
-        when(this.menuManager.getMenuChoiceHandler().handleInput(this.scanner, "Enter your choice below: "))
-                .thenReturn(5);
-        when(this.orderManager.getOrderIdHandler().handleInput(this.scanner, "Enter Order ID to rate driver: "))
+        when(this.menuChoiceHandler.handleInput(this.scanner, "Enter your choice below: "))
+                .thenReturn(5)
+                .thenReturn(null);
+        when(this.orderIdHandler.handleInput(this.scanner, "Enter Order ID to rate driver: "))
                 .thenReturn(1L);
-        when(this.orderManager.getOrderService().getOrderById(1L)).thenReturn(null);
+        when(this.orderService.getOrderById(1L)).thenReturn(null);
 
         this.deliverySystemCLI.start();
 
-        verify(this.driverManager).rateDriver(this.scanner, null, this.menuManager.getMenuChoiceHandler());
+        verify(this.driverManager).rateDriver(this.scanner, null, this.menuChoiceHandler);
     }
 
     @Test
     public void testStartExit() {
-        when(this.menuManager.getMenuChoiceHandler().handleInput(this.scanner, "Enter your choice below: "))
-                .thenReturn(6);
+        when(this.menuChoiceHandler.handleInput(this.scanner, "Enter your choice below: "))
+                .thenReturn(6)
+                .thenReturn(null);
 
         this.deliverySystemCLI.start();
 
