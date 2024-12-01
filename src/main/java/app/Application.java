@@ -9,6 +9,7 @@ import factory.MenuItemFactory;
 import model.Driver;
 import model.MenuItem;
 import model.Order;
+import model.Size;
 import utilities.ConsoleInputHandler;
 import utilities.InputValidator;
 import utilities.InputValidatorImpl;
@@ -29,13 +30,12 @@ public class Application {
 
             final Driver driver = new Driver(101L, "Bob Smith", "Car", "ABC123");
 
-            final MenuItemFactory factory = new MenuItemFactory();
-
-            final MenuItem pizza = factory.createMenuItem(
+            final MenuItem pizza = MenuItemFactory.createMenuItem(
                     "hamburger",
                     "Pepperoni Pizza",
                     "Spicy pepperoni with cheese",
                     12.99,
+                    Size.MEDIUM,
                     1);
 
             final Order order = new OrderBuilder()

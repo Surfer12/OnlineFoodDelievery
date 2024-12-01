@@ -1,6 +1,5 @@
 package utilities;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -34,6 +33,37 @@ public class ConsoleInputHandler<T> implements InputHandler<T> {
    public ConsoleInputHandler(final InputValidator<T> inputValidator) {
       this.inputValidator = inputValidator;
       this.scanner = new Scanner(System.in);
+   }
+
+   @Override
+   public T[] getMultipleInputs(final String prompt, final String delimiter) {
+      final List<T> inputs = new ArrayList<>();
+      while (true) {
+         System.out.println(prompt);
+         final String input = this.scanner.nextLine();
+
+         if (input.equals(delimiter)) {
+            break;
+         }
+
+         try {
+            final T value = this.inputValidator.parse(input);
+            if (this.inputValidator.isValid(value)) {
+               inputs.add(value);
+            } else {
+               System.out.println("Invalid input. Please enter a valid " + this.inputValidator.getTypeName() + ".");
+            }
+         } catch (final Exception e) {
+            System.out.println("Error parsing input: " + e.getMessage());
+         }
+      }
+
+      // Create an array of the correct type
+      if (inputs.isEmpty()) {
+         return (T[]) Array.newInstance(Object.class, 0);
+      }
+
+      return inputs.toArray((T[]) Array.newInstance(inputs.get(0).getClass(), inputs.size()));
    }
 
    /**
@@ -89,45 +119,5 @@ public class ConsoleInputHandler<T> implements InputHandler<T> {
          }
       }
       return inputs;
-   }
-
-   /**
-    * Prompts the user for multiple inputs until the stop command is entered, and
-    * validates each input.
-    *
-    * @param prompt      the prompt to display to the user
-    * @param stopCommand the command to stop input
-    * @return an array of validated inputs
-    */
-   @Override
-   @SuppressWarnings("unchecked")
-   public T[] getMultipleInputs(final String prompt, final String delimiter) {
-      final List<T> inputs = new ArrayList<>();
-      while (true) {
-         System.out.println(prompt);
-         final String input = this.scanner.nextLine();
-
-         if (input.equals(delimiter)) {
-            break;
-         }
-
-         try {
-            final T value = this.inputValidator.parse(input);
-            if (this.inputValidator.isValid(value)) {
-               inputs.add(value);
-            } else {
-               System.out.println("Invalid input. Please enter a valid " + this.inputValidator.getTypeName() + ".");
-            }
-         } catch (final Exception e) {
-            System.out.println("Error parsing input: " + e.getMessage());
-         }
-      }
-
-      // Create an array of the correct type
-      if (inputs.isEmpty()) {
-         return (T[]) Array.newInstance(Object.class, 0);
-      }
-
-      return inputs.toArray((T[]) Array.newInstance(inputs.get(0).getClass(), inputs.size()));
    }
 }
