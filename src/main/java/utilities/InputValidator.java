@@ -1,9 +1,17 @@
 package utilities;
 
 public interface InputValidator<T> {
-    T parse(String input);
 
-    boolean isValid(T value);
+    boolean isValid(T input);
 
     String getTypeName();
+
+    T parse(String input);
+
+    default String getErrorMessage() {
+
+        return "Invalid input";
+
+    }
+
 }
