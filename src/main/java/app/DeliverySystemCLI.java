@@ -19,16 +19,21 @@ public class DeliverySystemCLI {
     private final DriverManager driverManager;
 
     private final ConsoleInputHandler<Integer> positiveIntegerHandler;
+    private final ConsoleInputHandler<String> emailHandler;
+    private final ConsoleInputHandler<String> locationHandler;
 
     private boolean running = true;
 
     public DeliverySystemCLI(Scanner scanner, MenuManager menuManager, OrderManager orderManager,
-            DriverManager driverManager, ConsoleInputHandler<Integer> positiveIntegerHandler) {
+            DriverManager driverManager, ConsoleInputHandler<Integer> positiveIntegerHandler,
+            ConsoleInputHandler<String> emailHandler, ConsoleInputHandler<String> locationHandler) {
         this.scanner = scanner;
         this.menuManager = menuManager;
         this.orderManager = orderManager;
         this.driverManager = driverManager;
         this.positiveIntegerHandler = positiveIntegerHandler;
+        this.emailHandler = emailHandler;
+        this.locationHandler = locationHandler;
     }
 
     public DeliverySystemCLI() {
@@ -40,7 +45,11 @@ public class DeliverySystemCLI {
                         new InputValidatorImpl<>(
                                 new PositiveIntegerValidator(),
                                 "Positive Integer",
-                                "Invalid positive integer")));
+                                "Invalid positive integer")),
+                new ConsoleInputHandler<>(
+                        InputValidatorImpl.emailValidator()),
+                new ConsoleInputHandler<>(
+                        InputValidatorImpl.deliveryLocationValidator()));
     }
 
     public void start() {
@@ -55,13 +64,15 @@ public class DeliverySystemCLI {
                 continue;
 
             switch (choice) {
-                case 1->this.orderManager.processOrderPlacement(
+                case 1 -> this.orderManager.processOrderPlacement(
                         this.scanner,
                         this.menuManager,
-                        this.positiveIntegerHandler);
-                case 2->this.orderManager.checkOrderStatus(this.scanner);
-                case 3->this.menuManager.displayMenu();
-                case 4->this.driverManager.manageDriverMenu(this.scanner, this.orderManager);
+                        this.positiveIntegerHandler,
+                        this.emailHandler,
+                        this.locationHandler);
+                case 2 -> this.orderManager.checkOrderStatus(this.scanner);
+                case 3 -> this.menuManager.displayMenu();
+                case 4 -> this.driverManager.manageDriverMenu(this.scanner, this.orderManager);
                 case 5 -> this.driverManager.rateDriver(
                         this.scanner,
                         this.orderManager.getOrderService().getOrderById(

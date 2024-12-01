@@ -38,7 +38,13 @@ public class DriverServiceImpl implements DriverService {
     @Override
     public void rateDriver(Driver driver, Integer rating) {
         if (driver != null) {
+            if (rating < 1 || rating > 5) {
+                System.out.println("Rating must be between 1 and 5.");
+                return;
+            }
             driver.addRating(rating);
+        } else {
+            System.out.println("Driver not found.");
         }
     }
 }

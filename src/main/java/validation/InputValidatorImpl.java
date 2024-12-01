@@ -11,6 +11,63 @@ public class InputValidatorImpl<T> implements InputValidator<T> {
         this.errorMessage = errorMessage;
     }
 
+    // Add validators for email and delivery location
+    public static InputValidator<String> emailValidator() {
+        return new InputValidatorImpl<>(
+            new Validator<String>() {
+                @Override
+                public String parse(String input) {
+                    return input.trim();
+                }
+
+                @Override
+                public boolean validate(String input) {
+                    return input.matches("^[A-Za-z0-9+_.-]+@(.+)$");
+                }
+
+                @Override
+                public boolean isValid(String value) {
+                    return validate(value);
+                }
+
+                @Override
+                public String getTypeName() {
+                    return "Email";
+                }
+            },
+            "Email",
+            "Invalid email format"
+        );
+    }
+
+    public static InputValidator<String> deliveryLocationValidator() {
+        return new InputValidatorImpl<>(
+            new Validator<String>() {
+                @Override
+                public String parse(String input) {
+                    return input.trim();
+                }
+
+                @Override
+                public boolean validate(String input) {
+                    return !input.isEmpty();
+                }
+
+                @Override
+                public boolean isValid(String value) {
+                    return validate(value);
+                }
+
+                @Override
+                public String getTypeName() {
+                    return "Delivery Location";
+                }
+            },
+            "Delivery Location",
+            "Delivery location cannot be empty"
+        );
+    }
+
     @Override
     public T parse(final String input) {
         return this.validator.parse(input);

@@ -53,7 +53,7 @@ public class ConsoleInputHandler<T> implements InputHandler<T> {
             if (this.inputValidator.isValid(value)) {
                return value;
             }
-            System.out.println("Invalid input. Please enter a valid " + this.inputValidator.getTypeName() + ".");
+            System.out.println(this.inputValidator.getErrorMessage());
          } catch (final Exception e) {
             System.out.println("Error parsing input: " + e.getMessage());
          }

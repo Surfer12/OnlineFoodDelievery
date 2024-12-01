@@ -44,6 +44,9 @@ public class Application {
             deliverySystem.assignOrderToDriver(order, driver);
             deliverySystem.completeDelivery(order.getOrderId(), driver.getId());
 
+        } catch (final IllegalArgumentException e) {
+            Application.logger.log(Level.SEVERE, "Invalid input provided", e);
+            System.err.println("Invalid input: " + e.getMessage());
         } catch (final Exception e) {
             Application.logger.log(Level.SEVERE, "An error occurred while processing the order", e);
             System.err.println("An error occurred while processing the order: " + e.getMessage());

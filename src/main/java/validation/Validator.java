@@ -8,4 +8,9 @@ public interface Validator<T> {
     boolean isValid(T value);
 
     String getTypeName();
+
+    // Add new methods for extended validation
+    default boolean hasError(T value) {
+        return !isValid(value);
+    }
 }

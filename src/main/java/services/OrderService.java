@@ -12,4 +12,7 @@ public interface OrderService {
     void displayOrderDetails(Order order);
 
     String getOrderStatus(Long orderId);
+
+    // Add method to retrieve orders in FIFO
+    List<Order> getAllOrders(); // Ensure orders are retrieved in the order they were placed
 }
