@@ -1,0 +1,83 @@
+
+Project Assignment: Online Food Delivery System (Java)
+Objective:
+This project aims to design and implement a simplified online food delivery system
+using Java. It will serve as a practical exercise to demonstrate your understanding of
+object-oriented programming (OOP) principles and data structures.
+System Requirements:
+The online food delivery system should encompass the following core functionalities:
+• Ordering:
+o Customers can place orders for hamburgers, fries, and drinks.
+o Each menu item should have a name and price.
+o Orders should store details about the customer, selected items, and order
+status (e.g., placed, accepted, delivered).
+• Delivery:
+o Drivers can accept and deliver orders.
+o The system keeps track of basic driver information (e.g., name, location).
+• Rating:
+o Customers can rate drivers on a scale of 1 to 5 after an order is delivered.
+o Each driver can have a maximum of 10 ratings stored at a time, with new
+ratings replacing the oldest ones.
+• Order Processing:
+o Orders must be processed in the order they are received (First-In, First-
+Out).
+Tasks:
+To successfully complete this project, you will need to undertake the following tasks:
+1. Design:
+o Create comprehensive class diagrams to model the system's structure,
+including all relevant classes and their attributes and methods.
+o Clearly define the relationships between these classes (e.g., inheritance)
+o Ensure your design adheres to OOP principles.
+2. OOP Principles:
+o Provide a detailed explanation of how your design incorporates the four
+fundamental OOP principles:
+▪ Encapsulation:
+▪ Abstraction:
+▪ Inheritance:
+▪ Polymorphism:
+3. Data Structures:
+o Describe the data structures you will use to implement the system's
+functionalities
+o Justify your choices based on the specific requirements and efficiency
+considerations.
+4. Implementation:
+o Write the Java code to implement the system based on your design.
+o Include necessary methods for:
+▪ Placing orders.
+▪ Accepting and delivering orders.
+▪ Calculating order totals.
+▪ Managing driver ratings.
+▪ etc
+o Ensure that orders are processed in the correct order.
+o Utilize GitHub for collaborative development and version control.
+5. Demonstration:
+o You will be required to demonstrate your working system. Specific
+instructions for the demonstration will be provided later.
+Submission and Deadlines:
+• Friday, November 8, 2024 (100 points):
+o Submit a PDF document named "CIS233_GROUP_NAME.pdf" (replace
+"GROUP_NAME" with your actual group name).
+o This document should include:
+▪ The first version of the system design (Class diagrams).
+▪ Explanations of how you applied OOP principles.
+▪ Descriptions of the chosen data structures.
+o One person from each group should submit the document.
+Grading Rubric (for this submission only):
+o Design (60%): The system is well-designed using OOP principles, and
+class diagrams clearly represent the system's structure.
+o Data Structures (30%): Appropriate data structures are chosen and
+effectively utilized.
+o Document Clarity (10%): The submitted document is clear, concise, and
+easy to read.
+• Thursday, November 14, 2024 (50points):
+o Submit a revised version of the system design and implementation based
+on the feedback received.
+• Thursday, November 21, 2024 (50 points):
+o Demonstrate the current system code with some core classes
+implemented.
+• Thursday, December 5, 2024 (100 points):
+o Submit the final code and demonstrate the complete working system.
+This project assignment is designed to assess your ability to apply OOP concepts, data
+structures, and software development best practices. Ensure that your design is robust,
+your code is well-documented, and your system meets all the specified requirements.
+Good luck!
