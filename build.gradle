@@ -1,15 +1,36 @@
 plugins {
+    id 'java'
     id 'java-library'
+    id 'application'
+    id 'org.springframework.boot' version '3.4.0'
+    id 'io.spring.dependency-management' version '1.1.0'
+    id 'io.freefair.lombok' version '8.1.0'
     id 'checkstyle'
 }
 
+group = 'com.yourcompany'
+version = '0.0.1-SNAPSHOT'
+
+// Add these repository definitions
 repositories {
+    // Use Maven Central for resolving dependencies
     mavenCentral()
+    
+    // Optional: Add Maven local repository if needed
+    mavenLocal()
 }
 
 java {
+    sourceCompatibility = JavaVersion.VERSION_23
+    targetCompatibility = JavaVersion.VERSION_23
     toolchain {
-        languageVersion = JavaLanguageVersion.of(17) // Ensure Java 17 toolchain is used
+        vendor.set(JvmVendorSpec.ADOPTIUM)
+    }
+}
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
     }
 }
 // Dependency versions
@@ -33,4 +54,9 @@ dependencies {
 checkstyle {
     toolVersion = '8.45.1'
     configFile = file('config/checkstyle/checkstyle.xml')
+}
+
+// Configuration cache optimization
+tasks.withType(GenerateModuleMetadata) {
+    enabled = true
 }
