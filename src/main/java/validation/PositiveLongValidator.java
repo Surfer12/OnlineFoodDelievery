@@ -16,6 +16,15 @@ public class PositiveLongValidator implements Validator<Long> {
     }
 
     @Override
+    public boolean isValid(Long value) {
+        // TODO Auto-generated method stub
+        return false;
+    }
+
+
+
+
+    @Override
     public String getTypeName() {
         return "Positive Long";
     }

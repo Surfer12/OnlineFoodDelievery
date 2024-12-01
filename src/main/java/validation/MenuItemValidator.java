@@ -19,4 +19,10 @@ public class MenuItemValidator implements Validator<Integer> {
     public String getTypeName() {
         return "Menu Choice";
     }
+
+    @Override
+    public boolean isValid(Integer value) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'isValid'");
+    }
 }
