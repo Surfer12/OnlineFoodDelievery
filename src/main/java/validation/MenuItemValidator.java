@@ -1,9 +1,15 @@
 package validation;
 
-public class MenuItemValidator implements Validator<Integer> {
+public class MenuItemValidator implements InputValidator<Integer> {
+    private final int maxMenuSize;
+
+    public MenuItemValidator(int maxMenuSize) {
+        this.maxMenuSize = maxMenuSize;
+    }
+
     @Override
-    public boolean validate(Integer input) {
-        return input != null && input >= 1 && input <= 6;
+    public boolean isValid(Integer input) {
+        return input != null && input > 0 && input <= this.maxMenuSize;
     }
 
     @Override
@@ -18,11 +24,5 @@ public class MenuItemValidator implements Validator<Integer> {
     @Override
     public String getTypeName() {
         return "Menu Choice";
-    }
-
-    @Override
-    public boolean isValid(Integer value) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'isValid'");
     }
 }

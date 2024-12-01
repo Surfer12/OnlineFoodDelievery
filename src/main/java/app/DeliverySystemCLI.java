@@ -49,8 +49,13 @@ public class DeliverySystemCLI {
         this.orderService = new OrderServiceImpl();
         this.orderQueue = new OrderQueue(MAX_QUEUE_SIZE);
 
+        // Get the menu size from menuService
+        int menuSize = this.menuService.getMenuSize();
+
         // Initialize validators
-        this.menuChoiceValidator = new InputValidatorImpl<>(new MenuItemValidator(), "Menu Choice",
+        this.menuChoiceValidator = new InputValidatorImpl<>(
+                new MenuItemValidator(menuSize),
+                "Menu Choice",
                 "Invalid menu choice");
         this.menuChoiceHandler = new ConsoleInputHandler<>(this.menuChoiceValidator);
         this.positiveIntegerValidator = new PositiveIntegerValidator();
