@@ -8,34 +8,35 @@ import java.util.logging.Logger;
 import model.Driver;
 import model.MenuItem;
 import model.Order;
+import queue.OrderQueue;
 import services.DriverService;
 import services.MenuService;
 import services.OrderService;
 import services.impl.DriverServiceImpl;
 import services.impl.MenuServiceImpl;
 import services.impl.OrderServiceImpl;
-import utilities.ConsoleInputHandler;
-import utilities.InputValidator;
-import utilities.InputValidatorImpl;
 import utilities.PositiveIntegerValidator;
+import utils.ConsoleInputHandler;
+import utils.InputValidatorImpl;
 import validation.MenuItemValidator;
 
 public class DeliverySystemCLI {
     private static final Logger logger = Logger.getLogger(DeliverySystemCLI.class.getName());
+    private static final int MAX_QUEUE_SIZE = 100; // Maximum number of orders in queue
 
     private final Scanner scanner;
     private final MenuService menuService;
     private final OrderService orderService;
     private final DriverService driverService;
+    private final OrderQueue orderQueue;
 
     // Validators and input handlers
-    private final InputValidator<Integer> menuChoiceValidator;
+    private final InputValidatorImpl<Integer> menuChoiceValidator;
     private final ConsoleInputHandler<Integer> menuChoiceHandler;
-    private final InputValidator<Integer> positiveIntegerValidator;
+    private final InputValidatorImpl<Integer> positiveIntegerValidator;
     private final ConsoleInputHandler<Integer> positiveIntegerHandler;
 
     private final List<Driver> drivers;
-
     private boolean running = true;
 
     public DeliverySystemCLI() {
@@ -43,15 +44,14 @@ public class DeliverySystemCLI {
         this.driverService = new DriverServiceImpl();
         this.menuService = new MenuServiceImpl();
         this.orderService = new OrderServiceImpl();
+        this.orderQueue = new OrderQueue(MAX_QUEUE_SIZE);
         this.drivers = new ArrayList<>();
 
-        // Validator for menu choices (1-6)
+        // Initialize validators
         this.menuChoiceValidator = new InputValidatorImpl<>(new MenuItemValidator());
         this.menuChoiceHandler = new ConsoleInputHandler<>(this.menuChoiceValidator);
 
-        // Validator for positive integers
-        final PositiveIntegerValidator positiveValidator = new PositiveIntegerValidator();
-        this.positiveIntegerValidator = new InputValidatorImpl<>(positiveValidator);
+        this.positiveIntegerValidator = new InputValidatorImpl<>(new PositiveIntegerValidator());
         this.positiveIntegerHandler = new ConsoleInputHandler<>(this.positiveIntegerValidator);
     }
 
@@ -79,8 +79,6 @@ public class DeliverySystemCLI {
 
     private void placeOrder() {
         System.out.println("\n=== Place Order ===");
-
-        // Display menu items
         this.menuService.displayMenu();
 
         List<MenuItem> orderItems = new ArrayList<>();
@@ -91,7 +89,7 @@ public class DeliverySystemCLI {
             Integer itemChoice = this.positiveIntegerHandler.handleInput(
                     this.scanner,
                     "Select a menu item: ",
-                    input -> input >= 0 && input <= menuService.getMenuSize());
+                    input -> input >= 0 && input <= this.menuService.getMenuSize());
 
             if (itemChoice == null || itemChoice == 0) {
                 addingItems = false;
@@ -103,7 +101,7 @@ public class DeliverySystemCLI {
             Integer quantity = this.positiveIntegerHandler.handleInput(
                     this.scanner,
                     "Enter quantity: ",
-                    input -> input > 0);
+                    input -> input > 0 && input <= 10); // Added maximum quantity limit
 
             if (quantity != null) {
                 for (int i = 0; i < quantity; i++) {
@@ -117,10 +115,17 @@ public class DeliverySystemCLI {
             return;
         }
 
-        // Create and submit order
-        Order newOrder = this.orderService.createOrder(orderItems);
-        this.orderService.displayOrderDetails(newOrder);
-        System.out.println("Order placed successfully! Order ID: " + newOrder.getOrderId());
+        try {
+            // Create order and add to FIFO queue
+            Order newOrder = this.orderService.createOrder(orderItems);
+            this.orderQueue.enqueue(newOrder);
+            this.orderService.displayOrderDetails(newOrder);
+            System.out.println("Order placed successfully! Order ID: " + newOrder.getOrderId());
+            logger.info("New order added to queue: " + newOrder.getOrderId());
+        } catch (CustomException.QueueFullException e) {
+            System.out.println("Sorry, we are currently at maximum order capacity. Please try again later.");
+            logger.warning("Order queue full: " + e.getMessage());
+        }
     }
 
     private void viewMenu() {
@@ -142,11 +147,13 @@ public class DeliverySystemCLI {
             Order order = this.orderService.getOrderById(orderId);
             if (order != null) {
                 System.out.println("Order Status: " + order.getStatus());
+                System.out.println("Queue Position: " + this.orderQueue.getPositionInQueue(order));
             } else {
                 System.out.println("Order not found.");
             }
         } catch (Exception e) {
             System.out.println("Error checking order status: " + e.getMessage());
+            logger.severe("Error in checkOrderStatus: " + e.getMessage());
         }
     }
 
