@@ -6,20 +6,19 @@
 	</projects>
 	<buildSpec>
 		<buildCommand>
-			<name>java.bs.JavaProblemChecker</name>
+			<name>org.eclipse.jdt.core.javabuilder</name>
 			<arguments>
 			</arguments>
 		</buildCommand>
 		<buildCommand>
-			<name>com.microsoft.gradle.bs.importer.builder.BuildServerBuilder</name>
-			<triggers>full,incremental,</triggers>
+			<name>org.eclipse.buildship.core.gradleprojectbuilder</name>
 			<arguments>
 			</arguments>
 		</buildCommand>
 	</buildSpec>
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
-		<nature>com.microsoft.gradle.bs.importer.GradleBuildServerProjectNature</nature>
+		<nature>org.eclipse.buildship.core.gradleprojectnature</nature>
 	</natures>
 	<filteredResources>
 		<filter>

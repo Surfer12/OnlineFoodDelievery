@@ -2,17 +2,31 @@ plugins {
     id 'java'
     id 'org.springframework.boot' version '3.2.1' 
     id 'io.spring.dependency-management' version '1.1.4'
+    id 'io.freefair.lombok' version '8.1.0'
     id 'application'
     id 'java-library'
 }
 
-allprojects {
-    group = 'com.yourcompany'
-    version = '0.0.1-SNAPSHOT'
+// Add these repository definitions
+repositories {
+    // Use Maven Central for resolving dependencies
+    mavenCentral()
+    
+    // Optional: Add Maven local repository if needed
+    mavenLocal()
+}
 
-    repositories {
-        mavenCentral()
-        mavenLocal()
+java {
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
+    toolchain {
+        vendor.set(JvmVendorSpec.ADOPTIUM)
+    }
+}
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
     }
 }
 
@@ -20,31 +34,26 @@ application {
     mainClassName = 'OnlineFoodDelivery.src.main.java'
 }
 
-subprojects {
-    apply plugin: 'java'
 
+// Configuration cache optimization
+tasks.withType(GenerateModuleMetadata) {
+    enabled = true
+}
 
-    java {
-        sourceCompatibility = JavaVersion.VERSION_21
-        targetCompatibility = JavaVersion.VERSION_21
-    }
+dependencies {
+    // JUnit Jupiter (JUnit 5)
+    testImplementation("org.junit.jupiter:junit-jupiter-api:5.10.0")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.10.0")
 
-    ext {
-        junitVersion = '5.10.1'
-        mockitoVersion = '5.8.0'
-        springBootVersion = '3.2.1'
-        slf4jVersion = '2.0.9'
-    }
+    // Mockito
+    testImplementation("org.mockito:mockito-core:5.4.0")
 
+     implementation platform(libs.bundles.logging)
+    testImplementation platform(libs.bundles.testing)
+}
     test {
         useJUnitPlatform()
         testLogging {
-            events 'passed', 'skipped', 'failed'
-        }
-    }
-
-    dependencies {
-        implementation platform(libs.bundles.logging)
-        testImplementation platform(libs.bundles.testing)
+        events 'passed', 'skipped', 'failed'
     }
 }
