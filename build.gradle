@@ -43,4 +43,9 @@ subprojects {
         configFile = rootProject.file('config/checkstyle/checkstyle.xml')
         maxWarnings = 0
     }
+
+    dependencies {
+        implementation platform(libs.bundles.logging)
+        testImplementation platform(libs.bundles.testing)
+    }
 }
