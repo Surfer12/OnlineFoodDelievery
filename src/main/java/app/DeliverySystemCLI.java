@@ -47,13 +47,13 @@ public class DeliverySystemCLI {
                 continue;
 
             switch (choice) {
-                case 1 -> this.orderManager.processOrderPlacement(
+                case 1->this.orderManager.processOrderPlacement(
                         this.scanner,
                         this.menuManager,
                         this.positiveIntegerHandler);
-                case 2 -> this.orderManager.checkOrderStatus(this.scanner);
-                case 3 -> this.menuManager.displayMenu();
-                case 4 -> this.driverManager.manageDriverMenu(this.scanner, this.orderManager);
+                case 2->this.orderManager.checkOrderStatus(this.scanner);
+                case 3->this.menuManager.displayMenu();
+                case 4->this.driverManager.manageDriverMenu(this.scanner, this.orderManager);
                 case 5 -> this.driverManager.rateDriver(
                         this.scanner,
                         this.orderManager.getOrderService().getOrderById(
