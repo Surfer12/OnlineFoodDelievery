@@ -1,14 +1,43 @@
 package tracker;
 
-import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-import java.util.Optional;
 import java.util.concurrent.ConcurrentHashMap;
 
-import backup_20241201_041133.src.main.java.orderUtilities.OrderStatus;
+import model.Driver;
+import model.Order;
+import model.OrderStatus;
 
+public class OrderTracker implements OrderSubject {
+   private final Map<Long, OrderStatus> orderStatuses = new ConcurrentHashMap<>();
+   private final List<OrderObserver> observers = new ArrayList<>();
+   private final Map<Long, Order> orders = new ConcurrentHashMap<>();
+
+   @Override
+   public void attach(final OrderObserver observer) {
+      this.observers.add(observer);
+   }
+
+   @Override
+   public void detach(final OrderObserver observer) {
+      this.observers.remove(observer);
+   }
+
+   @Override
+   public void notifyObservers(final Order order) {
+      for (final OrderObserver observer : this.observers) {
+         observer.update(order, this.orderStatuses.get(order.getOrderId()));
+      }
+   }
+
+   public void updateOrderStatus(final Long orderId, final OrderStatus newStatus, final Driver assignedDriver) {
+        this.validateOrderUpdateRequest(orderId, newStatus);
+        updateStatusInDatabase(orderId, newStatus);
+        updateDeliveryEstimates(orderId, assignedDriver);
+    }
+
+   private void validateOrderUpdateRequest(final Long orderId, final OrderStatus newStatus) {
 public class OrderTracker implements OrderSubject {
    private final Map<Long, OrderStatus> orderStatuses;
    private final Map<Long, LocalDateTime> estimatedDeliveryTimes;
