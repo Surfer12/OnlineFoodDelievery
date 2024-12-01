@@ -43,6 +43,9 @@ files_to_remove=(
     "bin"
     "out"
     ".gradle"
+    "$SRC_DIR/test/java"
+    "gradlew"
+    "gradlew.bat"
 )
 
 # Directories to preserve
