@@ -11,4 +11,6 @@ public interface OrderService {
     void displayOrderDetails(Order order);
 
     String getOrderStatus(Long orderId);
+
+    Order getOrderById(Long orderId);
 }

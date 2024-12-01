@@ -8,8 +8,10 @@ import java.util.logging.Logger;
 import model.Driver;
 import model.MenuItem;
 import model.Order;
+import services.DriverService;
 import services.MenuService;
 import services.OrderService;
+import services.impl.DriverServiceImpl;
 import services.impl.MenuServiceImpl;
 import services.impl.OrderServiceImpl;
 import utilities.ConsoleInputHandler;
@@ -24,6 +26,7 @@ public class DeliverySystemCLI {
     private final Scanner scanner;
     private final MenuService menuService;
     private final OrderService orderService;
+    private final DriverService driverService;
 
     // Validators and input handlers
     private final InputValidator<Integer> menuChoiceValidator;
@@ -39,15 +42,16 @@ public class DeliverySystemCLI {
         this.scanner = new Scanner(System.in);
         this.menuService = new MenuServiceImpl();
         this.orderService = new OrderServiceImpl();
+        this.driverService = new DriverServiceImpl();
         this.drivers = new ArrayList<>();
 
         // Validator for menu choices (1-6)
-        this.menuChoiceValidator = new MenuItemValidator();
+        this.menuChoiceValidator = new InputValidatorImpl<>(new MenuItemValidator());
         this.menuChoiceHandler = new ConsoleInputHandler<>(this.menuChoiceValidator);
 
         // Validator for positive integers
         final PositiveIntegerValidator positiveValidator = new PositiveIntegerValidator();
-        this.positiveIntegerValidator = new InputValidatorImpl<>(positiveValidator, "Positive Integer");
+        this.positiveIntegerValidator = new InputValidatorImpl<>(positiveValidator);
         this.positiveIntegerHandler = new ConsoleInputHandler<>(this.positiveIntegerValidator);
     }
 
@@ -174,7 +178,8 @@ public class DeliverySystemCLI {
         List<Driver> availableDrivers = this.driverService.getAvailableDrivers();
         System.out.println("\n--- Available Drivers ---");
         for (Driver driver : availableDrivers) {
-            System.out.println(driver.getName() + " - " + driver.getVehicle());
+            System.out.println(driver.getName() + " - " + driver.getVehicle()); // Ensure getVehicle() is defined in
+                                                                                // Driver
         }
     }
 
@@ -195,7 +200,8 @@ public class DeliverySystemCLI {
         System.out.println("\n--- Available Drivers ---");
         for (int i = 0; i < availableDrivers.size(); i++) {
             Driver driver = availableDrivers.get(i);
-            System.out.printf("%d. %s - %s\n", i + 1, driver.getName(), driver.getVehicle());
+            System.out.printf("%d. %s - %s\n", i + 1, driver.getName(), driver.getVehicle()); // Ensure getVehicle() is
+                                                                                              // defined in Driver
         }
 
         Integer driverChoice = this.menuChoiceHandler.handleInput(
