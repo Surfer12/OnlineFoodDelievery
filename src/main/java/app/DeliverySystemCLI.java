@@ -51,7 +51,6 @@ public class DeliverySystemCLI {
 
         // Get the menu size from menuService
         int menuSize = this.menuService.getMenuSize();
-
         // Initialize validators
         this.menuChoiceValidator = new InputValidatorImpl<>(
                 new MenuItemValidator(menuSize),
@@ -60,7 +59,7 @@ public class DeliverySystemCLI {
         this.menuChoiceHandler = new ConsoleInputHandler<>(this.menuChoiceValidator);
         this.positiveIntegerValidator = new PositiveIntegerValidator();
         this.positiveIntegerHandler = new ConsoleInputHandler<Integer>(
-                new InputValidatorImpl<>(this.positiveIntegerValidator, "Positive Integer",
+                new InputValidatorImpl<Integer>(this.positiveIntegerValidator, "Positive Integer",
                         "Invalid positive integer"));
         this.orderIdValidator = new InputValidatorImpl<Long>(new PositiveLongValidator(), "Order ID",
                 "Invalid Order ID");

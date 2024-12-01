@@ -3,7 +3,6 @@ package validation;
 public class InputValidatorImpl<T> implements InputValidator<T> {
     private final Validator<T> validator;
     private final String typeName;
-
     private final String errorMessage;
 
     public InputValidatorImpl(final Validator<T> validator, final String typeName, final String errorMessage) {
@@ -28,10 +27,7 @@ public class InputValidatorImpl<T> implements InputValidator<T> {
     }
 
     @Override
-
     public String getErrorMessage() {
         return this.errorMessage;
-
     }
-
 }
