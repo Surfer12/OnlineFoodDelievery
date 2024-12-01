@@ -2,7 +2,6 @@ package validation;
 
 import CustomException.ValidationException;
 import model.Order;
-import utils.ValidationUtils;
 
 /**
  * The OrderValidator class provides methods to validate an Order object.

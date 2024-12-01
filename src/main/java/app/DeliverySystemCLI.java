@@ -16,8 +16,8 @@ import services.impl.DriverServiceImpl;
 import services.impl.MenuServiceImpl;
 import services.impl.OrderServiceImpl;
 import utilities.PositiveIntegerValidator;
-import utils.ConsoleInputHandler;
-import utils.InputValidatorImpl;
+import validation.ConsoleInputHandler;
+import validation.InputValidatorImpl;
 import validation.MenuItemValidator;
 
 public class DeliverySystemCLI {
@@ -51,7 +51,7 @@ public class DeliverySystemCLI {
         this.menuChoiceValidator = new InputValidatorImpl<>(new MenuItemValidator());
         this.menuChoiceHandler = new ConsoleInputHandler<>(this.menuChoiceValidator);
 
-        this.positiveIntegerValidator = new InputValidatorImpl<>(new PositiveIntegerValidator());
+        this.positiveIntegerValidator = new InputValidatorImpl<Integer>(new PositiveIntegerValidator());
         this.positiveIntegerHandler = new ConsoleInputHandler<>(this.positiveIntegerValidator);
     }
 

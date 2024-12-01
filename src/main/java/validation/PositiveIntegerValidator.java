@@ -1,7 +1,5 @@
 package validation;
 
-import utils.Validator;
-
 public class PositiveIntegerValidator implements Validator<Integer> {
     @Override
     public boolean validate(Integer input) {
