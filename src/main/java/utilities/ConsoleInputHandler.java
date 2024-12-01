@@ -1,5 +1,6 @@
 package utilities;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -68,7 +69,8 @@ public class ConsoleInputHandler<T> implements InputHandler<T> {
     */
 
    @Override
-   public List<T> getMultipleInputs(final String prompt, final String stopCommand) {
+   @SuppressWarnings("unchecked")
+   public T[] getMultipleInputs(final String prompt, final String stopCommand) {
       final List<T> inputs = new ArrayList<>();
       while (true) {
          System.out.println(prompt);
@@ -81,12 +83,21 @@ public class ConsoleInputHandler<T> implements InputHandler<T> {
             if (this.inputValidator.isValid(value)) {
                inputs.add(value);
             } else {
-               System.out.println("Invalid input. Please try again.");
+               System.out.println("Invalid input. Please enter a valid " + this.inputValidator.getTypeName() + ".");
             }
          } catch (final Exception e) {
             System.out.println("Error parsing input: " + e.getMessage());
          }
       }
-      return inputs;
+
+      // Create an array of the correct type
+      if (inputs.isEmpty()) {
+         return (T[]) Array.newInstance(Object.class, 0);
+      }
+
+      // Use reflection to create an array of the correct type
+      @SuppressWarnings("unchecked")
+      final T[] result = inputs.toArray((T[]) Array.newInstance(inputs.get(0).getClass(), inputs.size()));
+      return result;
    }
 }
