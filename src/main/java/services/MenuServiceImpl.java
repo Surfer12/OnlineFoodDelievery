@@ -18,7 +18,4 @@ public class MenuServiceImpl implements MenuService {
 
     // ...methods to add, remove, update menu items...
 }
-
-public class MenuServiceImpl {
-    
-}
+    }    // ...methods to add, remove, update menu items...}
