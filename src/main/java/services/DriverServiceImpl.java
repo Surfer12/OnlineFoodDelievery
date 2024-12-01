@@ -31,7 +31,7 @@ public class DriverServiceImpl implements DriverService {
             driver.setAvailable(false);
             order.setDriver(driver);
             // Optionally update order status
-            order.setStatus(OrderStatus.IN_PROGRESS);
+            order.setStatus(OrderStatus.IN_PROGRESS); // Ensure OrderStatus.IN_PROGRESS exists
         }
     }
 
