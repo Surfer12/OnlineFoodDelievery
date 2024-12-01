@@ -2,10 +2,10 @@ package validation;
 
 import utils.Validator;
 
-public class MenuItemValidator implements Validator<Integer> {
+public class PositiveIntegerValidator implements Validator<Integer> {
     @Override
     public boolean validate(Integer input) {
-        return input != null && input >= 1 && input <= 6;
+        return input != null && input > 0;
     }
 
     @Override
@@ -19,6 +19,6 @@ public class MenuItemValidator implements Validator<Integer> {
 
     @Override
     public String getTypeName() {
-        return "Menu Choice";
+        return "Positive Integer";
     }
 }
