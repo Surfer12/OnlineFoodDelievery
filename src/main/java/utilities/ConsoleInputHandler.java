@@ -1,5 +1,6 @@
 package utilities;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -66,6 +67,7 @@ public class ConsoleInputHandler<T> implements InputHandler<T> {
     * @param stopCommand the command to stop input
     * @return a list of validated inputs
     */
+
    @Override
    public List<T> getMultipleInputs(final String prompt, final String stopCommand) {
       final List<T> inputs = new ArrayList<>();
@@ -98,6 +100,7 @@ public class ConsoleInputHandler<T> implements InputHandler<T> {
     * @return an array of validated inputs
     */
    @Override
+   @SuppressWarnings("unchecked")
    public T[] getMultipleInputs(final String prompt, final String delimiter) {
       final List<T> inputs = new ArrayList<>();
       while (true) {
@@ -120,8 +123,11 @@ public class ConsoleInputHandler<T> implements InputHandler<T> {
          }
       }
 
-      @SuppressWarnings("unchecked")
-      final T[] result = (T[]) inputs.toArray();
-      return result;
+      // Create an array of the correct type
+      if (inputs.isEmpty()) {
+         return (T[]) Array.newInstance(inputs.get(0).getClass(), 0);
+      }
+
+      return inputs.toArray((T[]) Array.newInstance(inputs.get(0).getClass(), inputs.size()));
    }
 }
