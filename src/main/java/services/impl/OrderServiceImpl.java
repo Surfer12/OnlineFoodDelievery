@@ -17,7 +17,7 @@ public class OrderServiceImpl implements OrderService {
             throw new IllegalArgumentException("Order must contain at least one item");
         }
 
-        Order newOrder = new Order(items);
+        Order newOrder = new Order(0L, "New Order", items, null);
         this.orderTracker.put(newOrder.getOrderId(), newOrder);
         return newOrder;
     }

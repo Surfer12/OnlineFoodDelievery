@@ -3,6 +3,9 @@ package services.impl;
 import java.util.ArrayList;
 import java.util.List;
 
+import model.Drink;
+import model.Fries;
+import model.Hamburger;
 import model.MenuItem;
 import model.Size;
 import services.MenuService;
@@ -16,10 +19,10 @@ public class MenuServiceImpl implements MenuService {
     }
 
     private void initializeMenu() {
-        this.menu.add(new MenuItem("Hamburger", 5.99, Size.MEDIUM));
-        this.menu.add(new MenuItem("Cheeseburger", 6.49, Size.MEDIUM));
-        this.menu.add(new MenuItem("Fries", 2.99, Size.MEDIUM));
-        this.menu.add(new MenuItem("Soft Drink", 1.99, Size.MEDIUM));
+        this.menu.add(new Hamburger(0L, "Hamburger", "A simple hamburger", 5.99, Size.MEDIUM, 1));
+        this.menu.add(new Hamburger(0L, "Cheeseburger", "A cheeseburger with cheese", 6.49, Size.MEDIUM, 1));
+        this.menu.add(new Fries(0L, "Fries", "A simple fries", 2.99, Size.MEDIUM, 1));
+        this.menu.add(new Drink(0L, "Soft Drink", "A soft drink", 1.99, Size.MEDIUM, 1));
     }
 
     @Override
