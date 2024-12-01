@@ -16,7 +16,6 @@ import services.impl.DriverServiceImpl;
 import services.impl.MenuServiceImpl;
 import services.impl.OrderServiceImpl;
 import validation.ConsoleInputHandler;
-import validation.InputValidator;
 import validation.InputValidatorImpl;
 import validation.MenuItemValidator;
 import validation.PositiveIntegerValidator;
@@ -51,11 +50,15 @@ public class DeliverySystemCLI {
         this.orderQueue = new OrderQueue(MAX_QUEUE_SIZE);
 
         // Initialize validators
-        this.menuChoiceValidator = new InputValidatorImpl<>(new MenuItemValidator(), "Menu Choice", "Invalid menu choice");
+        this.menuChoiceValidator = new InputValidatorImpl<>(new MenuItemValidator(), "Menu Choice",
+                "Invalid menu choice");
         this.menuChoiceHandler = new ConsoleInputHandler<>(this.menuChoiceValidator);
-        this.positiveIntegerValidator = new PositiveIntegerValidator(); // Changed type
-        this.positiveIntegerHandler = new ConsoleInputHandler<Integer>((InputValidator<Integer>) this.positiveIntegerValidator);
-        this.orderIdValidator = new InputValidatorImpl<Long>(new PositiveLongValidator(), "Order ID", "Invalid Order ID");
+        this.positiveIntegerValidator = new PositiveIntegerValidator();
+        this.positiveIntegerHandler = new ConsoleInputHandler<Integer>(
+                new InputValidatorImpl<>(this.positiveIntegerValidator, "Positive Integer",
+                        "Invalid positive integer"));
+        this.orderIdValidator = new InputValidatorImpl<Long>(new PositiveLongValidator(), "Order ID",
+                "Invalid Order ID");
         this.orderIdHandler = new ConsoleInputHandler<>(this.orderIdValidator);
     }
 
@@ -152,7 +155,8 @@ public class DeliverySystemCLI {
             if (order != null) {
                 System.out.println("Order Status: " + order.getStatus());
                 // TODO: Implement getPositionInQueue(Order order) in OrderQueue
-                // System.out.println("Queue Position: " + this.orderQueue.getPositionInQueue(order));
+                // System.out.println("Queue Position: " +
+                // this.orderQueue.getPositionInQueue(order));
             } else {
                 System.out.println("Order not found.");
             }
