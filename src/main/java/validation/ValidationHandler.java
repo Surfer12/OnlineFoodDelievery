@@ -1,6 +1,5 @@
 package validation;
 
-
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
@@ -33,7 +32,8 @@ public class ValidationHandler<T> {
                 if (this.validator.isValid(value)) {
                     return value;
                 }
-                System.out.println(this.errorMessage != null ? this.errorMessage : "Invalid input. Please enter a valid " + this.typeName + ".");
+                System.out.println(this.errorMessage != null ? this.errorMessage
+                        : "Invalid input. Please enter a valid " + this.typeName + ".");
             } catch (final Exception e) {
                 System.out.println("Error parsing input: " + e.getMessage());
             }
@@ -61,7 +61,10 @@ public class ValidationHandler<T> {
         }
 
         if (inputs.isEmpty()) {
-            return (T[]) Array.newInstance(Object.class, 0);
+            @SuppressWarnings("unchecked")
+            final T[] emptyArray = (T[]) java.lang.reflect.Array.newInstance(
+                    inputs.isEmpty() ? Object.class : inputs.get(0).getClass(), 0);
+            return emptyArray;
         }
 
         @SuppressWarnings("unchecked")

@@ -4,9 +4,14 @@ public class PositiveIntegerValidator implements Validator<Integer> {
 
     public PositiveIntegerValidator() {
     }
+
     @Override
     public Integer parse(final String input) {
-        return Integer.parseInt(input);
+        try {
+            return Integer.parseInt(input);
+        } catch (NumberFormatException e) {
+            return null;
+        }
     }
 
     @Override
@@ -14,6 +19,12 @@ public class PositiveIntegerValidator implements Validator<Integer> {
         return value > 0;
     }
 
+    @Override
+    public boolean validate(final Integer input) {
+        return input != null && input > 0;
+    }
+
+    @Override
     public String getTypeName() {
         return "positive integer";
     }
