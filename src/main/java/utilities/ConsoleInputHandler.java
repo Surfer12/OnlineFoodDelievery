@@ -125,7 +125,7 @@ public class ConsoleInputHandler<T> implements InputHandler<T> {
 
       // Create an array of the correct type
       if (inputs.isEmpty()) {
-         return (T[]) Array.newInstance(inputs.get(0).getClass(), 0);
+         return (T[]) Array.newInstance(Object.class, 0);
       }
 
       return inputs.toArray((T[]) Array.newInstance(inputs.get(0).getClass(), inputs.size()));
