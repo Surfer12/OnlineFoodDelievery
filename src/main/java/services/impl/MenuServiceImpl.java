@@ -54,4 +54,9 @@ public class MenuServiceImpl implements MenuService {
     public int getMenuSize() {
         return this.menu.size();
     }
+
+    @Override
+    public List<MenuItem> getAllMenuItems() {
+        return new ArrayList<>(this.menu);
+    }
 }
