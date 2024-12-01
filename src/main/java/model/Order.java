@@ -1,6 +1,7 @@
 package model;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Order {
@@ -11,15 +12,17 @@ public class Order {
    private final Long orderId;
    private double totalAmount;
    private LocalDateTime estimatedDeliveryTime;
+   private OrderStatus status;
 
    public Order(final Long customerId, final String customerEmail, final List<MenuItem> items,
          final Location deliveryLocation) {
       this.customerId = customerId;
       this.customerEmail = customerEmail;
-      this.items = items;
+      this.items = items != null ? new ArrayList<>(items) : new ArrayList<>();
       this.deliveryLocation = deliveryLocation;
       this.orderId = System.currentTimeMillis(); // Simple ID generation
       this.calculateTotalAmount();
+      this.status = OrderStatus.SUBMITTED;
    }
 
    // Convenience constructor for single item
@@ -38,10 +41,6 @@ public class Order {
             .sum();
    }
 
-   public void setEstimatedDeliveryTime(final LocalDateTime estimatedDeliveryTime) {
-      this.estimatedDeliveryTime = estimatedDeliveryTime;
-   }
-
    public Long getOrderId() {
       return this.orderId;
    }
@@ -55,7 +54,7 @@ public class Order {
    }
 
    public List<MenuItem> getItems() {
-      return this.items;
+      return new ArrayList<>(this.items);
    }
 
    public Location getDeliveryLocation() {
@@ -66,7 +65,19 @@ public class Order {
       return this.totalAmount;
    }
 
+   public OrderStatus getStatus() {
+      return this.status;
+   }
+
+   public void setStatus(OrderStatus status) {
+      this.status = status;
+   }
+
    public LocalDateTime getEstimatedDeliveryTime() {
       return this.estimatedDeliveryTime;
+   }
+
+   public void setEstimatedDeliveryTime(LocalDateTime estimatedDeliveryTime) {
+      this.estimatedDeliveryTime = estimatedDeliveryTime;
    }
 }
