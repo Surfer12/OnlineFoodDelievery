@@ -40,9 +40,9 @@ public class DeliverySystemCLI {
 
     public DeliverySystemCLI() {
         this.scanner = new Scanner(System.in);
+        this.driverService = new DriverServiceImpl();
         this.menuService = new MenuServiceImpl();
         this.orderService = new OrderServiceImpl();
-        this.driverService = new DriverServiceImpl();
         this.drivers = new ArrayList<>();
 
         // Validator for menu choices (1-6)
@@ -134,9 +134,7 @@ public class DeliverySystemCLI {
 
     private void checkOrderStatus() {
         try {
-            Long orderId = this.menuChoiceHandler.handleInput(
-                    this.scanner,
-                    "Enter Order ID to check status: ");
+            Long orderId = this.menuChoiceHandler.handleInput(this.scanner, "Enter Order ID to check status: ");
 
             if (orderId == null)
                 return;
