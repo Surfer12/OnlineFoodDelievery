@@ -33,6 +33,8 @@ public class DeliverySystemCLI {
 
     private final List<Driver> drivers;
 
+    private boolean running = true;
+
     public DeliverySystemCLI() {
         this.scanner = new Scanner(System.in);
         this.menuService = new MenuServiceImpl();
@@ -50,8 +52,7 @@ public class DeliverySystemCLI {
     }
 
     public void start() {
-        boolean running = true;
-        while (running) {
+        while (this.running) {
             this.displayMainMenu();
 
             // Use validated input for menu choice
@@ -66,7 +67,7 @@ public class DeliverySystemCLI {
                 case 3 -> this.viewMenu();
                 case 4 -> this.manageDrivers();
                 case 5 -> this.rateDriver();
-                case 6 -> running = false;
+                case 6 -> this.running = false;
             }
         }
         this.scanner.close();
@@ -119,29 +120,143 @@ public class DeliverySystemCLI {
     }
 
     private void viewMenu() {
-        this.menuService.displayMenu();
+        List<MenuItem> menu = this.menuService.getAllMenuItems();
+        System.out.println("\n--- Current Menu ---");
+        for (int i = 0; i < menu.size(); i++) {
+            MenuItem item = menu.get(i);
+            System.out.printf("%d. %s - $%.2f\n", i + 1, item.getName(), item.getPrice());
+        }
     }
 
     private void checkOrderStatus() {
         try {
-            // Validate order ID input
-            Long orderId = this.positiveIntegerHandler.handleLongInput(
+            Long orderId = this.menuChoiceHandler.handleInput(
                     this.scanner,
                     "Enter Order ID to check status: ");
 
             if (orderId == null)
                 return;
 
-            final String status = this.orderService.getOrderStatus(orderId);
-            System.out.println("Order Status for Order ID " + orderId + ": " + status);
-
-        } catch (final Exception e) {
-            logger.log(Level.SEVERE, "Error checking order status", e);
+            Order order = this.orderService.getOrderById(orderId);
+            if (order != null) {
+                System.out.println("Order Status: " + order.getStatus());
+            } else {
+                System.out.println("Order not found.");
+            }
+        } catch (Exception e) {
             System.out.println("Error checking order status: " + e.getMessage());
         }
     }
 
-    // Other methods (manageDrivers, rateDriver, displayMainMenu) remain the same
+    private void manageDrivers() {
+        System.out.println("\n--- Driver Management ---");
+        System.out.println("1. View Available Drivers");
+        System.out.println("2. Assign Driver to Order");
+        System.out.println("3. Return to Main Menu");
+
+        Integer choice = this.menuChoiceHandler.handleInput(
+                this.scanner,
+                "Enter your choice: ");
+
+        if (choice == null)
+            return;
+
+        switch (choice) {
+            case 1 -> this.listAvailableDrivers();
+            case 2 -> this.assignDriverToOrder();
+            case 3 -> {
+            } // Return to main menu
+            default -> System.out.println("Invalid choice.");
+        }
+    }
+
+    private void listAvailableDrivers() {
+        List<Driver> availableDrivers = this.driverService.getAvailableDrivers();
+        System.out.println("\n--- Available Drivers ---");
+        for (Driver driver : availableDrivers) {
+            System.out.println(driver.getName() + " - " + driver.getVehicle());
+        }
+    }
+
+    private void assignDriverToOrder() {
+        Long orderId = this.menuChoiceHandler.handleInput(
+                this.scanner,
+                "Enter Order ID to assign driver: ");
+
+        if (orderId == null)
+            return;
+
+        List<Driver> availableDrivers = this.driverService.getAvailableDrivers();
+        if (availableDrivers.isEmpty()) {
+            System.out.println("No available drivers at the moment.");
+            return;
+        }
+
+        System.out.println("\n--- Available Drivers ---");
+        for (int i = 0; i < availableDrivers.size(); i++) {
+            Driver driver = availableDrivers.get(i);
+            System.out.printf("%d. %s - %s\n", i + 1, driver.getName(), driver.getVehicle());
+        }
+
+        Integer driverChoice = this.menuChoiceHandler.handleInput(
+                this.scanner,
+                "Select a driver (enter number): ");
+
+        if (driverChoice == null || driverChoice < 1 || driverChoice > availableDrivers.size())
+            return;
+
+        Driver selectedDriver = availableDrivers.get(driverChoice - 1);
+        Order order = this.orderService.getOrderById(orderId);
+
+        if (order != null) {
+            this.driverService.assignDriverToOrder(selectedDriver, order);
+            System.out.println("Driver assigned successfully.");
+        } else {
+            System.out.println("Order not found.");
+        }
+    }
+
+    private void rateDriver() {
+        Long orderId = this.menuChoiceHandler.handleInput(
+                this.scanner,
+                "Enter Order ID to rate driver: ");
+
+        if (orderId == null)
+            return;
+
+        Order order = this.orderService.getOrderById(orderId);
+        if (order == null) {
+            System.out.println("Order not found.");
+            return;
+        }
+
+        Driver driver = this.driverService.getDriverForOrder(order);
+        if (driver == null) {
+            System.out.println("No driver assigned to this order.");
+            return;
+        }
+
+        Integer rating = this.menuChoiceHandler.handleInput(
+                this.scanner,
+                "Rate the driver (1-5 stars): ",
+                input -> input >= 1 && input <= 5);
+
+        if (rating != null) {
+            this.driverService.rateDriver(driver, rating);
+            System.out.println("Thank you for your feedback!");
+        }
+    }
+
+    private void displayMainMenu() {
+        System.out.println("\n--- Online Food Delivery System ---");
+        System.out.println("1. Place a New Order");
+        System.out.println("2. Check Order Status");
+        System.out.println("3. View Menu");
+        System.out.println("4. Manage Drivers");
+        System.out.println("5. Rate Driver");
+        System.out.println("6. Exit");
+        System.out.print("Enter your choice: ");
+    }
 
     public static void main(final String[] args) {
         final DeliverySystemCLI cli = new DeliverySystemCLI();

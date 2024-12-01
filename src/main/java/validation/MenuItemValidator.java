@@ -5,9 +5,9 @@ import model.Fries;
 import model.Hamburger;
 import model.MenuItem;
 import model.Size;
-import utilities.Validator;
+import utilities.InputValidator;
 
-public class MenuItemValidator implements Validator<MenuItem> {
+public class MenuItemValidator implements InputValidator<MenuItem> {
     @Override
     public MenuItem parse(final String input) {
         // Simplified parsing logic
@@ -38,10 +38,12 @@ public class MenuItemValidator implements Validator<MenuItem> {
                 && item.getPrice() > 0;
     }
 
+    @Override
     public String getTypeName() {
         return "menu item";
     }
 
+    @Override
     public String getErrorMessage() {
         return "Invalid menu item";
     }

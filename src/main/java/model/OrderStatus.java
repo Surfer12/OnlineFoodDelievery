@@ -1,8 +1,8 @@
 package model;
 
 public enum OrderStatus {
-    PENDING,
-    CONFIRMED,
+    SUBMITTED,
+    PROCESSING,
     PREPARING,
     OUT_FOR_DELIVERY,
     DELIVERED,
