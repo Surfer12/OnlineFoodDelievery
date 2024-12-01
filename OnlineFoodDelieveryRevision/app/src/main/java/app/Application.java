@@ -1,6 +1,6 @@
 package app;
 
-import java.sql.Driver;
+import model.Driver;
 import java.util.Scanner;
 
 import apple.laf.JRSUIConstants.Size;
