@@ -51,8 +51,8 @@ public class Application {
 
             try (Scanner scanner = new Scanner(System.in)) {
                 final PositiveIntegerValidator positiveIntegerValidator = new PositiveIntegerValidator();
-                final InputValidator<Integer> inputValidator = new InputValidatorImpl<>(
-                        positiveIntegerValidator, "Positive Integer");
+                final InputValidator<Integer> inputValidator = new InputValidatorImpl<Integer>(
+                        positiveIntegerValidator, "Positive Integer", null);
 
                 final ConsoleInputHandler<Integer> inputHandler = new ConsoleInputHandler<>(inputValidator);
 
