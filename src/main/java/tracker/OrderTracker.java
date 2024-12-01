@@ -1,19 +1,13 @@
 package tracker;
 
 import java.time.LocalDateTime;
-import java.util.Map;
-import java.util.concurrent.ConcurrentHashMap;
-
-import model.Driver;
-import model.Order;
-
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
+import java.util.concurrent.ConcurrentHashMap;
 
-import observer.OrderSubject;
-import orderUtilities.OrderStatus;
-import observer.OrderObserver;
+import backup_20241201_041133.src.main.java.orderUtilities.OrderStatus;
 
 public class OrderTracker implements OrderSubject {
    private final Map<Long, OrderStatus> orderStatuses;
@@ -28,73 +22,73 @@ public class OrderTracker implements OrderSubject {
    }
 
    @Override
-   public void attach(OrderObserver observer) {
-      observers.add(observer);
+   public void attach(final OrderObserver observer) {
+      this.observers.add(observer);
    }
 
    @Override
-   public void detach(OrderObserver observer) {
-      observers.remove(observer);
+   public void detach(final OrderObserver observer) {
+      this.observers.remove(observer);
    }
 
    @Override
-   public void notifyObservers(Order order) {
-      for (OrderObserver observer : observers) {
+   public void notifyObservers(final Order order) {
+      for (final OrderObserver observer : this.observers) {
          observer.update(order);
       }
    }
 
-   public void updateOrderStatus(Long orderId, OrderStatus newStatus, Driver assignedDriver) {
-      validateOrderUpdateRequest(orderId, newStatus);
-      updateStatusInDatabase(orderId, newStatus);
+   public void updateOrderStatus(final Long orderId, final OrderStatus newStatus, final Driver assignedDriver) {
+      this.validateOrderUpdateRequest(orderId, newStatus);
+      this.updateStatusInDatabase(orderId, newStatus);
 
-      if (isDeliveryInProgress(newStatus)) {
-         updateDeliveryEstimates(orderId, assignedDriver);
+      if (this.isDeliveryInProgress(newStatus)) {
+         this.updateDeliveryEstimates(orderId, assignedDriver);
       }
 
-      notifyObserversAboutOrderUpdate(orderId);
+      this.notifyObserversAboutOrderUpdate(orderId);
    }
 
-   private void validateOrderUpdateRequest(Long orderId, OrderStatus newStatus) {
+   private void validateOrderUpdateRequest(final Long orderId, final OrderStatus newStatus) {
       if (orderId == null || newStatus == null) {
          throw new IllegalArgumentException("Order ID and status cannot be null");
       }
    }
 
-   private boolean isDeliveryInProgress(OrderStatus status) {
+   private boolean isDeliveryInProgress(final OrderStatus status) {
       return status == OrderStatus.IN_DELIVERY;
    }
 
-   private void updateStatusInDatabase(Long orderId, OrderStatus newStatus) {
-      orderStatuses.put(orderId, newStatus);
+   private void updateStatusInDatabase(final Long orderId, final OrderStatus newStatus) {
+      this.orderStatuses.put(orderId, newStatus);
    }
 
-   private void notifyObserversAboutOrderUpdate(Long orderId) {
-      findOrderById(orderId).ifPresent(this::notifyObserversOfUpdate);
+   private void notifyObserversAboutOrderUpdate(final Long orderId) {
+      this.findOrderById(orderId).ifPresent(this::notifyObserversOfUpdate);
    }
 
-   private void updateDeliveryEstimates(Long orderId, Driver driver) {
-      LocalDateTime estimatedTime = calculateEstimatedDeliveryTime(driver);
-      estimatedDeliveryTimes.put(orderId, estimatedTime);
+   private void updateDeliveryEstimates(final Long orderId, final Driver driver) {
+      final LocalDateTime estimatedTime = this.calculateEstimatedDeliveryTime(driver);
+      this.estimatedDeliveryTimes.put(orderId, estimatedTime);
    }
 
-   public Optional<OrderStatus> getOrderStatus(Long orderId) {
-      return Optional.ofNullable(orderStatuses.get(orderId));
+   public Optional<OrderStatus> getOrderStatus(final Long orderId) {
+      return Optional.ofNullable(this.orderStatuses.get(orderId));
    }
 
-   public Optional<LocalDateTime> getEstimatedDeliveryTime(Long orderId) {
-      return Optional.ofNullable(estimatedDeliveryTimes.get(orderId));
+   public Optional<LocalDateTime> getEstimatedDeliveryTime(final Long orderId) {
+      return Optional.ofNullable(this.estimatedDeliveryTimes.get(orderId));
    }
 
-   private Optional<Order> findOrderById(Long orderId) {
-      return Optional.ofNullable(orders.get(orderId));
+   private Optional<Order> findOrderById(final Long orderId) {
+      return Optional.ofNullable(this.orders.get(orderId));
    }
 
-   private void notifyObserversOfUpdate(Order order) {
-      notifyObservers(order);
+   private void notifyObserversOfUpdate(final Order order) {
+      this.notifyObservers(order);
    }
 
-   private LocalDateTime calculateEstimatedDeliveryTime(Driver driver) {
+   private LocalDateTime calculateEstimatedDeliveryTime(final Driver driver) {
       // Basic calculation: current time + 30 minutes
       return LocalDateTime.now().plusMinutes(30);
    }

@@ -1,11 +1,4 @@
-import model.Driver;
-import model.Order;
-import orderUtilities.OrderStatus;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-import org.mockito.Mockito;
-
-import static org.mockito.Mockito.*;
+import backup_20241201_041133.src.main.java.orderUtilities.OrderStatus;
 
 public class NotificationServiceTest {
 
@@ -15,56 +8,56 @@ public class NotificationServiceTest {
 
     @BeforeEach
     public void setUp() {
-        notificationService = new NotificationService();
-        mockOrder = Mockito.mock(Order.class);
-        mockDriver = Mockito.mock(Driver.class);
+        this.notificationService = new NotificationService();
+        this.mockOrder = Mockito.mock(Order.class);
+        this.mockDriver = Mockito.mock(Driver.class);
     }
 
     @Test
     public void testSendOrderConfirmationToCustomer() {
-        when(mockOrder.getCustomerEmail()).thenReturn("customer@example.com");
-        when(mockOrder.getOrderId()).thenReturn(1L);
-        when(mockOrder.getTotalAmount()).thenReturn(100.0);
+        when(this.mockOrder.getCustomerEmail()).thenReturn("customer@example.com");
+        when(this.mockOrder.getOrderId()).thenReturn(1L);
+        when(this.mockOrder.getTotalAmount()).thenReturn(100.0);
 
-        notificationService.sendOrderConfirmationToCustomer(mockOrder);
+        this.notificationService.sendOrderConfirmationToCustomer(this.mockOrder);
 
-        verify(mockOrder).getCustomerEmail();
-        verify(mockOrder).getOrderId();
-        verify(mockOrder).getTotalAmount();
+        verify(this.mockOrder).getCustomerEmail();
+        verify(this.mockOrder).getOrderId();
+        verify(this.mockOrder).getTotalAmount();
     }
 
     @Test
     public void testSendDriverAssignmentNotification() {
-        when(mockOrder.getCustomerEmail()).thenReturn("customer@example.com");
-        when(mockOrder.getOrderId()).thenReturn(1L);
-        when(mockDriver.getName()).thenReturn("John Doe");
+        when(this.mockOrder.getCustomerEmail()).thenReturn("customer@example.com");
+        when(this.mockOrder.getOrderId()).thenReturn(1L);
+        when(this.mockDriver.getName()).thenReturn("John Doe");
 
-        notificationService.sendDriverAssignmentNotification(mockOrder, mockDriver);
+        this.notificationService.sendDriverAssignmentNotification(this.mockOrder, this.mockDriver);
 
-        verify(mockOrder).getCustomerEmail();
-        verify(mockOrder).getOrderId();
-        verify(mockDriver).getName();
+        verify(this.mockOrder).getCustomerEmail();
+        verify(this.mockOrder).getOrderId();
+        verify(this.mockDriver).getName();
     }
 
     @Test
     public void testSendOrderStatusUpdateToCustomer() {
-        when(mockOrder.getCustomerEmail()).thenReturn("customer@example.com");
-        when(mockOrder.getOrderId()).thenReturn(1L);
+        when(this.mockOrder.getCustomerEmail()).thenReturn("customer@example.com");
+        when(this.mockOrder.getOrderId()).thenReturn(1L);
 
-        notificationService.sendOrderStatusUpdateToCustomer(mockOrder, OrderStatus.ACCEPTED);
+        this.notificationService.sendOrderStatusUpdateToCustomer(this.mockOrder, OrderStatus.ACCEPTED);
 
-        verify(mockOrder).getCustomerEmail();
-        verify(mockOrder).getOrderId();
+        verify(this.mockOrder).getCustomerEmail();
+        verify(this.mockOrder).getOrderId();
     }
 
     @Test
     public void testSendDeliveryCompletionNotification() {
-        when(mockOrder.getCustomerEmail()).thenReturn("customer@example.com");
-        when(mockOrder.getOrderId()).thenReturn(1L);
+        when(this.mockOrder.getCustomerEmail()).thenReturn("customer@example.com");
+        when(this.mockOrder.getOrderId()).thenReturn(1L);
 
-        notificationService.sendDeliveryCompletionNotification(mockOrder);
+        this.notificationService.sendDeliveryCompletionNotification(this.mockOrder);
 
-        verify(mockOrder).getCustomerEmail();
-        verify(mockOrder).getOrderId();
+        verify(this.mockOrder).getCustomerEmail();
+        verify(this.mockOrder).getOrderId();
     }
 }

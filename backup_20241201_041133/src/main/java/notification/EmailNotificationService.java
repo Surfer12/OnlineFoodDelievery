@@ -1,9 +1,5 @@
 package notification;
 
-import model.Driver;
-import model.Order;
-import orderUtilities.OrderStatus;
-
 public class EmailNotificationService implements NotificationService {
     private static final String ORDER_CONFIRMATION_SUBJECT = "Order Confirmation";
     private static final String DRIVER_ASSIGNMENT_SUBJECT = "Driver Assigned";
