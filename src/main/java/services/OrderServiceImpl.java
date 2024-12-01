@@ -1,5 +1,4 @@
-package services;
-package service;
+package services
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,8 +17,4 @@ public class OrderServiceImpl implements OrderService {
     }
 
     // ...methods to create, update, delete orders...
-}
-
-public class OrderServiceImpl {
-    
-}
+}   
