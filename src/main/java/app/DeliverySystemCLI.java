@@ -5,7 +5,6 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 import java.util.Scanner;
-import java.util.function.Predicate;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -16,6 +15,7 @@ import utilities.ConsoleInputHandler;
 import utilities.InputValidator;
 import utilities.InputValidatorImpl;
 import utilities.PositiveIntegerValidator;
+import utilities.Validator;
 
 public class DeliverySystemCLI {
     private static final Logger logger = Logger.getLogger(DeliverySystemCLI.class.getName());
@@ -39,10 +39,25 @@ public class DeliverySystemCLI {
         this.deliverySystem = new DeliverySystem();
         this.orderQueue = new LinkedList<>();
         this.drivers = new ArrayList<>();
-
         // Validator for menu choices (1-6)
+        Validator<Integer> menuChoiceValidator = new Validator<Integer>() {
+            @Override
+            public Integer parse(String input) {
+                return Integer.parseInt(input);
+            }
+
+            @Override
+            public boolean isValid(Integer value) {
+                return value >= 1 && value <= 6;
+            }
+
+            public String getTypeName() {
+                return "Menu Choice";
+            }
+        };
         this.menuChoiceValidator = new InputValidatorImpl<>(
-                (Predicate<Integer>) input -> input >= 1 && input <= 6,
+                menuChoiceValidator,
+                "Menu Choice",
                 "Menu Choice must be between 1 and 6");
         this.menuChoiceHandler = new ConsoleInputHandler<>(this.menuChoiceValidator);
 

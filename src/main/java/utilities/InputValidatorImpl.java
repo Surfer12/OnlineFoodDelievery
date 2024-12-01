@@ -4,9 +4,12 @@ public class InputValidatorImpl<T> implements InputValidator<T> {
     private final Validator<T> validator;
     private final String typeName;
 
-    public InputValidatorImpl(final Validator<T> validator, final String typeName) {
+    private final String errorMessage;
+
+    public InputValidatorImpl(final Validator<T> validator, final String typeName, final String errorMessage) {
         this.validator = validator;
         this.typeName = typeName;
+        this.errorMessage = errorMessage;
     }
 
     @Override
@@ -23,4 +26,11 @@ public class InputValidatorImpl<T> implements InputValidator<T> {
     public String getTypeName() {
         return this.typeName;
     }
+
+    @Override
+
+    public String getErrorMessage() {
+        return this.errorMessage;
+    }
+
 }
