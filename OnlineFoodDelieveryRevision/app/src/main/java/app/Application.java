@@ -3,17 +3,10 @@ package app;
 import java.sql.Driver;
 import java.util.Scanner;
 
-import org.slf4j.LoggerFactory;
-
-import ConsoleInputHandler.ConsoleInputHandler;
-import ConsoleInputValidator.InputValidator;
-import ConsoleInputValidator.PositiveIntegerValidator;
-import app.factory.MenuItemFactory;
-import app.model.MenuItem;
-import app.model.Order;
-import app.orderUtilities.OrderBuilder;
 import apple.laf.JRSUIConstants.Size;
-import notification.NotificationService;
+import utilities.ConsoleInputHandler.ConsoleInputHandler;
+import utilities.ConsoleInputValidator.InputValidator;
+import utilities.ConsoleInputValidator.PositiveIntegerValidator;
 
 class DeliverySystem {
     public void submitOrder(final Order order) {

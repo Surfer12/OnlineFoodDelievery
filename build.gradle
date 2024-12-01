@@ -4,6 +4,7 @@ plugins {
 
 dependencies {
     api project(':model')
+
     implementation project(':utilities')
     implementation project(':notification')
     
@@ -14,3 +15,5 @@ dependencies {
     testImplementation "org.junit.jupiter:junit-jupiter-api:${junitVersion}"
     testImplementation "org.mockito:mockito-core:${mockitoVersion}"
 }
+
+
