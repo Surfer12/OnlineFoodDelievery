@@ -50,9 +50,7 @@ public class DeliverySystemCLI {
         // Initialize validators
         this.menuChoiceValidator = new InputValidatorImpl<>(new MenuItemValidator());
         this.menuChoiceHandler = new ConsoleInputHandler<>(this.menuChoiceValidator);
-
-        this.positiveIntegerValidator = new InputValidatorImpl<Integer>(new PositiveIntegerValidator());
-        this.positiveIntegerHandler = new ConsoleInputHandler<>(this.positiveIntegerValidator);
+        this.positiveIntegerValidator = new PositiveIntegerValidator();
     }
 
     public void start() {
@@ -139,7 +137,7 @@ public class DeliverySystemCLI {
 
     private void checkOrderStatus() {
         try {
-            Long orderId = this.menuChoiceHandler.handleInput(this.scanner, "Enter Order ID to check status: ");
+            Integer orderId = this.menuChoiceHandler.handleInput(this.scanner, "Enter Order ID to check status: ");
 
             if (orderId == null)
                 return;
@@ -189,7 +187,7 @@ public class DeliverySystemCLI {
     }
 
     private void assignDriverToOrder() {
-        Long orderId = this.menuChoiceHandler.handleInput(
+        Integer orderId = this.menuChoiceHandler.handleInput(
                 this.scanner,
                 "Enter Order ID to assign driver: ");
 

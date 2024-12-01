@@ -6,6 +6,8 @@ public class PositiveIntegerValidator implements Validator<Integer> {
         return input != null && input > 0;
     }
 
+    
+
     @Override
     public Integer parse(String input) {
         try {
