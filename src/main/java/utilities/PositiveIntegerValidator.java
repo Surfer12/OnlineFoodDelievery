@@ -1,6 +1,9 @@
 package utilities;
 
 public class PositiveIntegerValidator implements Validator<Integer> {
+
+    public PositiveIntegerValidator() {
+    }
     @Override
     public Integer parse(final String input) {
         return Integer.parseInt(input);

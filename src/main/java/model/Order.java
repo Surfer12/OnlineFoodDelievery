@@ -13,6 +13,7 @@ public class Order {
    private double totalAmount;
    private LocalDateTime estimatedDeliveryTime;
    private OrderStatus status;
+   private Driver driver;
 
    public Order(final Long customerId, final String customerEmail, final List<MenuItem> items,
          final Location deliveryLocation) {
@@ -83,5 +84,13 @@ public class Order {
 
    public Long getId() {
       return this.orderId;
+   }
+
+   public Driver getDriver() {
+      return this.driver;
+   }
+
+   public void setDriver(Driver driver) {
+      this.driver = driver;
    }
 }

@@ -6,7 +6,7 @@ import model.MenuItem;
 import model.Order;
 
 public interface OrderService {
-    Order getOrderById(Integer orderId);
+    Order getOrderById(Long orderId);
     Order createOrder(List<MenuItem> items);
 
     void displayOrderDetails(Order order);

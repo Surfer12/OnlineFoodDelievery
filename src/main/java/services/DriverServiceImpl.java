@@ -5,6 +5,7 @@ import java.util.List;
 
 import model.Driver;
 import model.Order;
+import model.OrderStatus;
 
 public class DriverServiceImpl implements DriverService {
     private List<Driver> drivers = new ArrayList<>();
@@ -26,9 +27,11 @@ public class DriverServiceImpl implements DriverService {
 
     @Override
     public void assignDriverToOrder(Driver driver, Order order) {
-        if (driver != null) {
+        if (driver != null && order != null) {
             driver.setAvailable(false);
             order.setDriver(driver);
+            // Optionally update order status
+            order.setStatus(OrderStatus.IN_PROGRESS);
         }
     }
 
