@@ -19,6 +19,7 @@ import utilities.PositiveIntegerValidator;
 import validation.ConsoleInputHandler;
 import validation.InputValidatorImpl;
 import validation.MenuItemValidator;
+import validation.PositiveLongValidator;
 
 public class DeliverySystemCLI {
     private static final Logger logger = Logger.getLogger(DeliverySystemCLI.class.getName());
@@ -33,10 +34,11 @@ public class DeliverySystemCLI {
     // Validators and input handlers
     private final InputValidatorImpl<Integer> menuChoiceValidator;
     private final ConsoleInputHandler<Integer> menuChoiceHandler;
-    private final InputValidatorImpl<Integer> positiveIntegerValidator;
+    private final PositiveIntegerValidator positiveIntegerValidator; // Changed type
     private final ConsoleInputHandler<Integer> positiveIntegerHandler;
+    private final InputValidatorImpl<Long> orderIdValidator;
+    private final ConsoleInputHandler<Long> orderIdHandler;
 
-    private final List<Driver> drivers;
     private boolean running = true;
 
     public DeliverySystemCLI() {
@@ -45,14 +47,14 @@ public class DeliverySystemCLI {
         this.menuService = new MenuServiceImpl();
         this.orderService = new OrderServiceImpl();
         this.orderQueue = new OrderQueue(MAX_QUEUE_SIZE);
-        this.drivers = new ArrayList<>();
-        this.positiveIntegerValidator = new InputValidatorImpl<>(new PositiveIntegerValidator());
 
         // Initialize validators
         this.menuChoiceValidator = new InputValidatorImpl<>(new MenuItemValidator());
         this.menuChoiceHandler = new ConsoleInputHandler<>(this.menuChoiceValidator);
+        this.positiveIntegerValidator = new PositiveIntegerValidator(); // Changed type
         this.positiveIntegerHandler = new ConsoleInputHandler<>(this.positiveIntegerValidator);
-        this.positiveIntegerValidator = new PositiveIntegerValidator();
+        this.orderIdValidator = new InputValidatorImpl<>(new PositiveLongValidator(), "Order ID", "Please enter a valid Order ID.");
+        this.orderIdHandler = new ConsoleInputHandler<>(this.orderIdValidator);
     }
 
     public void start() {
@@ -139,7 +141,7 @@ public class DeliverySystemCLI {
 
     private void checkOrderStatus() {
         try {
-            Integer orderId = this.menuChoiceHandler.handleInput(this.scanner, "Enter Order ID to check status: ");
+            Long orderId = this.orderIdHandler.handleInput(this.scanner, "Enter Order ID to check status: ");
 
             if (orderId == null)
                 return;
@@ -147,7 +149,8 @@ public class DeliverySystemCLI {
             Order order = this.orderService.getOrderById(orderId);
             if (order != null) {
                 System.out.println("Order Status: " + order.getStatus());
-                System.out.println("Queue Position: " + this.orderQueue.getPositionInQueue(order));
+                // TODO: Implement getPositionInQueue(Order order) in OrderQueue
+                // System.out.println("Queue Position: " + this.orderQueue.getPositionInQueue(order));
             } else {
                 System.out.println("Order not found.");
             }
@@ -189,7 +192,7 @@ public class DeliverySystemCLI {
     }
 
     private void assignDriverToOrder() {
-        Integer orderId = this.menuChoiceHandler.handleInput(
+        Long orderId = this.orderIdHandler.handleInput(
                 this.scanner,
                 "Enter Order ID to assign driver: ");
 
@@ -228,7 +231,7 @@ public class DeliverySystemCLI {
     }
 
     private void rateDriver() {
-        Long orderId = this.menuChoiceHandler.handleInput(
+        Long orderId = this.orderIdHandler.handleInput(
                 this.scanner,
                 "Enter Order ID to rate driver: ");
 
@@ -270,6 +273,7 @@ public class DeliverySystemCLI {
     }
 
     public static void main(final String[] args) {
+
         final DeliverySystemCLI cli = new DeliverySystemCLI();
         cli.start();
     }
