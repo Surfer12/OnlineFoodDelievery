@@ -1,6 +1,5 @@
 package app;
 
-import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -10,10 +9,6 @@ import model.Driver;
 import model.MenuItem;
 import model.Order;
 import model.Size;
-import validation.ConsoleInputHandler;
-import validation.InputValidator;
-import validation.InputValidatorImpl;
-import validation.PositiveIntegerValidator;
 
 public class Application {
     private static final Logger logger = Logger.getLogger(Application.class.getName());
@@ -48,17 +43,6 @@ public class Application {
             deliverySystem.submitOrder(order);
             deliverySystem.assignOrderToDriver(order, driver);
             deliverySystem.completeDelivery(order.getOrderId(), driver.getId());
-
-            try (Scanner scanner = new Scanner(System.in)) {
-                final PositiveIntegerValidator positiveIntegerValidator = new PositiveIntegerValidator();
-                final InputValidator<Integer> inputValidator = new InputValidatorImpl<Integer>(
-                        positiveIntegerValidator, "Positive Integer", null);
-
-                final ConsoleInputHandler<Integer> inputHandler = new ConsoleInputHandler<>(inputValidator);
-
-                final Integer userInput = inputHandler.getInput("Enter a positive integer: ");
-                System.out.println("You entered: " + userInput);
-            }
 
         } catch (final Exception e) {
             Application.logger.log(Level.SEVERE, "An error occurred while processing the order", e);
