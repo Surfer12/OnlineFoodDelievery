@@ -1,4 +1,4 @@
-package utils;
+package validation;
 
 public interface Validator<T> {
     boolean validate(T input);
