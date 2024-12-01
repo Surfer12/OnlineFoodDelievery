@@ -1,0 +1,3 @@
+module model {
+    exports model;
+}
