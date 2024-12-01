@@ -25,6 +25,10 @@ dirs_to_preserve=(
     "src/main/resources/logback.xml"
     ".git"
     "docs"
+    "OnlineFoodDelieveryRevision/workflows"
+    "OnlineFoodDelieveryRevision/gradle"
+    "OnlineFoodDelieveryRevision/.github"
+    "config/checkstyle"
 )
 
 # Preserve each directory
