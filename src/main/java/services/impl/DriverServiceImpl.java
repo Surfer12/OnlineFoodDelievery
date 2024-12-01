@@ -23,24 +23,19 @@ public class DriverServiceImpl implements DriverService {
 
     @Override
     public Driver getDriverForOrder(Order order) {
-        // Implementation to assign a driver to the order
-        return this.drivers.stream().filter(Driver::isAvailable).findFirst().orElse(null);
+        // Implementation code
+        return null;
     }
 
     @Override
     public void assignDriverToOrder(Driver driver, Order order) {
-        // Implementation to assign the driver to the order
-        if (driver != null) {
-            driver.setAvailable(false);
-            order.setDriver(driver);
-        }
+        // Implementation code
     }
 
     @Override
     public void rateDriver(Driver driver, Integer rating) {
-        // Implementation to rate the driver
-        if (driver != null) {
-            driver.addRating(rating);
-        }
+        // Implementation code
     }
+
+    // ...additional methods...
 }
