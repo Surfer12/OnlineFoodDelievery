@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import backup_20241201_041133.src.main.java.ConsoleInputHandler.InputHandler;
-
 /**
  * The ConsoleInputHandler class handles console input and validates it using
  * the provided InputValidator.
@@ -24,19 +22,17 @@ import backup_20241201_041133.src.main.java.ConsoleInputHandler.InputHandler;
  *            System.out.println("You entered: " + userInput);
  */
 public class ConsoleInputHandler<T> implements InputHandler<T> {
-   private final Scanner scanner;
    private final InputValidator<T> inputValidator;
+   private final Scanner scanner;
 
    /**
-    * Constructs a ConsoleInputHandler with the specified Scanner and
-    * InputValidator.
+    * Constructs a ConsoleInputHandler with the specified InputValidator.
     *
-    * @param scanner        the Scanner to use for reading input
     * @param inputValidator the InputValidator to use for validating input
     */
-   public ConsoleInputHandler(final Scanner scanner, final InputValidator<T> inputValidator) {
-      this.scanner = scanner;
+   public ConsoleInputHandler(final InputValidator<T> inputValidator) {
       this.inputValidator = inputValidator;
+      this.scanner = new Scanner(System.in);
    }
 
    /**
@@ -48,15 +44,14 @@ public class ConsoleInputHandler<T> implements InputHandler<T> {
    @Override
    public T getInput(final String prompt) {
       while (true) {
-         System.out.print(prompt);
+         System.out.println(prompt);
          final String input = this.scanner.nextLine();
          try {
             final T value = this.inputValidator.parse(input);
             if (this.inputValidator.isValid(value)) {
                return value;
-            } else {
-               System.out.println("Invalid input. Please enter a valid " + this.inputValidator.getTypeName() + ".");
             }
+            System.out.println("Invalid input. Please enter a valid " + this.inputValidator.getTypeName() + ".");
          } catch (final Exception e) {
             System.out.println("Error parsing input: " + e.getMessage());
          }
@@ -75,7 +70,7 @@ public class ConsoleInputHandler<T> implements InputHandler<T> {
    public List<T> getMultipleInputs(final String prompt, final String stopCommand) {
       final List<T> inputs = new ArrayList<>();
       while (true) {
-         System.out.print(prompt);
+         System.out.println(prompt);
          final String input = this.scanner.nextLine();
          if (input.equalsIgnoreCase(stopCommand)) {
             break;
@@ -92,5 +87,41 @@ public class ConsoleInputHandler<T> implements InputHandler<T> {
          }
       }
       return inputs;
+   }
+
+   /**
+    * Prompts the user for multiple inputs until the stop command is entered, and
+    * validates each input.
+    *
+    * @param prompt      the prompt to display to the user
+    * @param stopCommand the command to stop input
+    * @return an array of validated inputs
+    */
+   @Override
+   public T[] getMultipleInputs(final String prompt, final String delimiter) {
+      final List<T> inputs = new ArrayList<>();
+      while (true) {
+         System.out.println(prompt);
+         final String input = this.scanner.nextLine();
+
+         if (input.equals(delimiter)) {
+            break;
+         }
+
+         try {
+            final T value = this.inputValidator.parse(input);
+            if (this.inputValidator.isValid(value)) {
+               inputs.add(value);
+            } else {
+               System.out.println("Invalid input. Please enter a valid " + this.inputValidator.getTypeName() + ".");
+            }
+         } catch (final Exception e) {
+            System.out.println("Error parsing input: " + e.getMessage());
+         }
+      }
+
+      @SuppressWarnings("unchecked")
+      final T[] result = (T[]) inputs.toArray();
+      return result;
    }
 }

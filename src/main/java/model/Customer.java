@@ -3,7 +3,6 @@ package model;
 import java.util.ArrayList;
 import java.util.List;
 
-import backup_20241201_041133.src.main.java.model.Person;
 import rating.Rating;
 
 /**
@@ -17,31 +16,35 @@ public class Customer extends Person {
     *
     * @param id      the ID of the customer
     * @param name    the name of the customer
-    * @param address the address of the customer
-    * @param phone   the phone number of the customer
     * @param email   the email address of the customer
+    * @param address the address of the customer
     */
-   public Customer(final Long id, final String name, final String address, final String phone, final String email) {
-      super(id, name, address, phone, email);
+   public Customer(final Long id, final String name, final String email, final String address) {
+      super(id, name, email, address);
       this.orderHistory = new ArrayList<>();
    }
 
    /**
     * Places an order for the customer.
     *
-    * @param items the list of menu items to order
-    * @return the created Order object
+    * @param items  the list of menu items to order
+    * @param driver the driver to rate
     */
-   public Order placeOrder(final List<MenuItem> items) {
-      final Order order = new Order(this.getId(), items, new location.Location(this.getAddress(), "zipcode"),
-            this.getEmail());
-      this.orderHistory.add(order);
-      return order;
+   public void placeOrder(final List<MenuItem> items, final Driver driver) {
+      final Order order = new Order(
+            this.getId(),
+            this.getEmail(),
+            items,
+            new Location(this.getAddress(), "zipcode"));
+
+      // Example of rating logic
+      driver.addRating(4.5); // Hardcoded rating for demonstration
    }
 
    /**
-    * Rates a driver for a completed delivery.
+    * Returns the order history of the customer.
     *
+    * @return a list of past orders
     * @param driver  the driver to rate
     * @param score   the rating score
     * @param comment the rating comment
