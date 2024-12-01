@@ -15,10 +15,10 @@ import services.OrderService;
 import services.impl.DriverServiceImpl;
 import services.impl.MenuServiceImpl;
 import services.impl.OrderServiceImpl;
-import utilities.PositiveIntegerValidator;
 import validation.ConsoleInputHandler;
 import validation.InputValidatorImpl;
 import validation.MenuItemValidator;
+import validation.PositiveIntegerValidator;
 import validation.PositiveLongValidator;
 
 public class DeliverySystemCLI {
@@ -52,8 +52,8 @@ public class DeliverySystemCLI {
         this.menuChoiceValidator = new InputValidatorImpl<>(new MenuItemValidator());
         this.menuChoiceHandler = new ConsoleInputHandler<>(this.menuChoiceValidator);
         this.positiveIntegerValidator = new PositiveIntegerValidator(); // Changed type
-        this.positiveIntegerHandler = new ConsoleInputHandler<>(this.positiveIntegerValidator);
-        this.orderIdValidator = new InputValidatorImpl<>(new PositiveLongValidator(), "Order ID", "Please enter a valid Order ID.");
+        this.positiveIntegerHandler = new ConsoleInputHandler<Integer>(this.positiveIntegerValidator);
+        this.orderIdValidator = new InputValidatorImpl<Long>(new PositiveLongValidator());
         this.orderIdHandler = new ConsoleInputHandler<>(this.orderIdValidator);
     }
 
