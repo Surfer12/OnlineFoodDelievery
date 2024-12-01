@@ -52,7 +52,7 @@ public class DeliverySystemCLI {
         // Get the menu size from menuService
         int menuSize = this.menuService.getMenuSize();
         // Initialize validators
-        this.menuChoiceValidator = new InputValidatorImpl<>(
+        this.menuChoiceValidator = new InputValidatorImpl<Integer>(
                 new MenuItemValidator(menuSize),
                 "Menu Choice",
                 "Invalid menu choice");

@@ -1,15 +1,10 @@
 package validation;
 
-public class MenuItemValidator implements InputValidator<Integer> {
+public class MenuItemValidator implements Validator<Integer> {
     private final int maxMenuSize;
 
     public MenuItemValidator(int maxMenuSize) {
         this.maxMenuSize = maxMenuSize;
-    }
-
-    @Override
-    public boolean isValid(Integer input) {
-        return input != null && input > 0 && input <= this.maxMenuSize;
     }
 
     @Override
@@ -19,6 +14,16 @@ public class MenuItemValidator implements InputValidator<Integer> {
         } catch (NumberFormatException e) {
             return null;
         }
+    }
+
+    @Override
+    public boolean validate(Integer input) {
+        return this.isValid(input);
+    }
+
+    @Override
+    public boolean isValid(Integer value) {
+        return value != null && value > 0 && value <= this.maxMenuSize;
     }
 
     @Override
