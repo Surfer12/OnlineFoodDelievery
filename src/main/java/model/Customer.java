@@ -37,14 +37,12 @@ public class Customer extends Person {
             items,
             new Location(this.getAddress(), "zipcode"));
 
-      // Example of rating logic
-      driver.addRating(4.5); // Hardcoded rating for demonstration
+      this.orderHistory.add(order);
    }
 
    /**
-    * Returns the order history of the customer.
+    * Rates a driver.
     *
-    * @return a list of past orders
     * @param driver  the driver to rate
     * @param score   the rating score
     * @param comment the rating comment
@@ -56,6 +54,8 @@ public class Customer extends Person {
             .score(score)
             .comment(comment)
             .build();
+
+      // Assuming Driver has a method to add a Rating object
       driver.addRating(rating);
    }
 
