@@ -10,10 +10,10 @@ import model.Driver;
 import model.MenuItem;
 import model.Order;
 import model.Size;
-import utilities.ConsoleInputHandler;
-import utilities.InputValidator;
-import utilities.InputValidatorImpl;
-import utilities.PositiveIntegerValidator;
+import validation.ConsoleInputHandler;
+import validation.InputValidator;
+import validation.InputValidatorImpl;
+import validation.PositiveIntegerValidator;
 
 public class Application {
     private static final Logger logger = Logger.getLogger(Application.class.getName());

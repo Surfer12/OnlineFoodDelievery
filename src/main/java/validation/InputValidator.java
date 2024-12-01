@@ -1,4 +1,4 @@
-package utilities;
+package validation;
 
 public interface InputValidator<T> {
 

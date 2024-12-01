@@ -1,24 +1,20 @@
 package validation;
 
 public class PositiveIntegerValidator implements Validator<Integer> {
-    @Override
-    public boolean validate(Integer input) {
-        return input != null && input > 0;
+
+    public PositiveIntegerValidator() {
     }
-
-    
-
     @Override
-    public Integer parse(String input) {
-        try {
-            return Integer.parseInt(input);
-        } catch (NumberFormatException e) {
-            return null;
-        }
+    public Integer parse(final String input) {
+        return Integer.parseInt(input);
     }
 
     @Override
+    public boolean isValid(final Integer value) {
+        return value > 0;
+    }
+
     public String getTypeName() {
-        return "Positive Integer";
+        return "positive integer";
     }
 }
