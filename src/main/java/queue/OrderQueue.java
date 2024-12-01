@@ -1,33 +1,33 @@
 package queue;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Optional;
-import java.util.concurrent.ConcurrentLinkedQueue;
 
 import model.Order;
 import validation.OrderValidator;
 
 public class OrderQueue implements QueueOperations<Order> {
-   private final ConcurrentLinkedQueue<Order> orders;
-   private final int maxQueueSize;
+   private final LinkedList<Order> queue;
+   private final int maxSize;
    private final OrderValidator validator;
 
-   public OrderQueue(int maxQueueSize) {
-      this.orders = new ConcurrentLinkedQueue<>();
-      this.maxQueueSize = maxQueueSize;
+   public OrderQueue(int maxSize) {
+      this.queue = new LinkedList<>();
+      this.maxSize = maxSize;
       this.validator = new OrderValidator();
    }
 
    @Override
-   public void enqueue(Order order) {
+   public synchronized void enqueue(Order order) throws CustomException.QueueFullException {
       try {
-         if (orders.size() >= maxQueueSize) {
+         if (this.queue.size() >= this.maxSize) {
             throw new CustomException.QueueFullException("Order queue is at maximum capacity");
          }
 
-         validator.validateOrder(order);
-         orders.offer(order);
+         this.validator.validateOrder(order);
+         this.queue.add(order);
       } catch (CustomException.QueueFullException e) {
          System.err.println("Error in enqueue: " + e.getMessage());
          throw e;
@@ -35,31 +35,42 @@ public class OrderQueue implements QueueOperations<Order> {
    }
 
    @Override
-   public Optional<Order> dequeue() {
-      return Optional.ofNullable(orders.poll());
+   public synchronized Optional<Order> dequeue() {
+      return Optional.ofNullable(this.queue.poll());
    }
 
    @Override
    public Optional<Order> peek() {
-      return Optional.ofNullable(orders.peek());
+      return Optional.ofNullable(this.queue.peek());
    }
 
    @Override
    public boolean isEmpty() {
-      return orders.isEmpty();
+      return this.queue.isEmpty();
    }
 
    @Override
    public int size() {
-      return orders.size();
+      return this.queue.size();
    }
 
    @Override
    public void clear() {
-      orders.clear();
+      this.queue.clear();
    }
 
    public List<Order> getPendingOrders() {
-      return new ArrayList<>(orders);
+      return new ArrayList<>(this.queue);
+   }
+
+   public synchronized int getPositionInQueue(Order order) {
+      int position = 1;
+      for (Order o : this.queue) {
+         if (o.getId().equals(order.getId())) {
+            return position;
+         }
+         position++;
+      }
+      return -1; // Order not found in queue
    }
 }

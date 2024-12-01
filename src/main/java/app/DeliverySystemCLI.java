@@ -46,10 +46,12 @@ public class DeliverySystemCLI {
         this.orderService = new OrderServiceImpl();
         this.orderQueue = new OrderQueue(MAX_QUEUE_SIZE);
         this.drivers = new ArrayList<>();
+        this.positiveIntegerValidator = new InputValidatorImpl<>(new PositiveIntegerValidator());
 
         // Initialize validators
         this.menuChoiceValidator = new InputValidatorImpl<>(new MenuItemValidator());
         this.menuChoiceHandler = new ConsoleInputHandler<>(this.menuChoiceValidator);
+        this.positiveIntegerHandler = new ConsoleInputHandler<>(this.positiveIntegerValidator);
         this.positiveIntegerValidator = new PositiveIntegerValidator();
     }
 
