@@ -36,7 +36,7 @@ public class InputValidatorImpl<T> implements InputValidator<T> {
                 }
             },
             "Email",
-            "Invalid email format"
+            "Invalid email format. Please enter a valid email."
         );
     }
 
@@ -64,7 +64,7 @@ public class InputValidatorImpl<T> implements InputValidator<T> {
                 }
             },
             "Delivery Location",
-            "Delivery location cannot be empty"
+            "Delivery location cannot be empty. Please enter a valid location."
         );
     }
 

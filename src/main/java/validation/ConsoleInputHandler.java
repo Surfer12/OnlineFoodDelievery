@@ -45,19 +45,24 @@ public class ConsoleInputHandler<T> implements InputHandler<T> {
     */
    @Override
    public T getInput(final String prompt) {
-      while (true) {
-         System.out.println(prompt);
-         final String input = this.scanner.nextLine();
+      T input = null;
+      boolean valid = false;
+      while (!valid) {
+         System.out.print(prompt);
+         final String userInput = this.scanner.nextLine();
          try {
-            final T value = this.inputValidator.parse(input);
-            if (this.inputValidator.isValid(value)) {
-               return value;
+            final T parsedInput = this.inputValidator.parse(userInput);
+            if (this.inputValidator.isValid(parsedInput)) {
+               input = parsedInput;
+               valid = true;
+            } else {
+               System.out.println(this.inputValidator.getErrorMessage());
             }
-            System.out.println(this.inputValidator.getErrorMessage());
          } catch (final Exception e) {
-            System.out.println("Error parsing input: " + e.getMessage());
+            System.out.println("Error: " + e.getMessage());
          }
       }
+      return input;
    }
 
    /**

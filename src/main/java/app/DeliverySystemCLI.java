@@ -60,8 +60,10 @@ public class DeliverySystemCLI {
                     this.scanner,
                     "Enter your choice below: ");
 
-            if (choice == null)
+            if (choice == null) {
+                System.out.println("Invalid input. Please try again.");
                 continue;
+            }
 
             switch (choice) {
                 case 1 -> this.orderManager.processOrderPlacement(
@@ -80,7 +82,11 @@ public class DeliverySystemCLI {
                                         this.scanner,
                                         "Enter Order ID to rate driver: ")),
                         this.menuManager.getMenuChoiceHandler());
-                case 6 -> this.running = false;
+                case 6 -> {
+                    System.out.println("Exiting...");
+                    this.running = false;
+                }
+                default -> System.out.println("Invalid choice. Please enter a number between 1 and 6.");
             }
         }
         this.scanner.close();
@@ -94,7 +100,7 @@ public class DeliverySystemCLI {
         System.out.println("4. Manage Drivers");
         System.out.println("5. Rate Driver");
         System.out.println("6. Exit");
-        System.out.print("Please choose an option from the list above; Options One through Six: ");
+        System.out.print("Please choose an option from the list above (1-6): ");
     }
 
     public static void main(final String[] args) {
