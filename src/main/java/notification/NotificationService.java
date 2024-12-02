@@ -1,8 +1,8 @@
 package notification;
 
-import order.Order; // Updated import
 import model.Driver;
 import model.OrderStatus;
+import order.Order;
 
 public interface NotificationService {
     void sendNotification(String message);

@@ -1,14 +1,10 @@
 package services.impl;
 
+import model.*;
+import services.MenuService;
+
 import java.util.ArrayList;
 import java.util.List;
-
-import model.Drink;
-import model.Fries;
-import model.Hamburger;
-import model.MenuItem;
-import model.Size;
-import services.MenuService;
 
 public class MenuServiceImpl implements MenuService {
     private final List<MenuItem> menu;

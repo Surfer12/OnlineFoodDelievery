@@ -1,23 +1,20 @@
 package managers;
 
-import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.Mockito.*;
-
-import java.util.Arrays;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
-
+import model.Driver;
+import model.Order;
+import model.OrderStatus;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-
-import model.Driver;
-import model.Order;
-import model.OrderStatus;
 import services.DriverService;
 import validation.ConsoleInputHandler;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Scanner;
+
+import static org.mockito.Mockito.*;
 
 class DriverManagerTest {
 

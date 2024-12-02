@@ -1,11 +1,11 @@
 package services;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import model.Driver;
 import model.Order;
 import model.OrderStatus;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class DriverServiceImpl implements DriverService {
     private List<Driver> drivers = new ArrayList<>();

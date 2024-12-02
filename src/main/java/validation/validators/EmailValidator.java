@@ -1,8 +1,8 @@
 package validation.validators;
 
-import java.util.regex.Pattern;
-
 import validation.InputValidator;
+
+import java.util.regex.Pattern;
 
 public class EmailValidator implements InputValidator<String> {
     private static final String EMAIL_REGEX = "^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+$";

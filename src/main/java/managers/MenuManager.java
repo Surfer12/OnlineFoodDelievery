@@ -1,15 +1,15 @@
 package managers;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
-
 import model.MenuItem;
 import services.MenuService;
 import services.impl.MenuServiceImpl;
 import validation.ConsoleInputHandler;
 import validation.InputValidatorImpl;
 import validation.MenuItemValidator;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
 
 public class MenuManager {
     private final MenuService menuService;

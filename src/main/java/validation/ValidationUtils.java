@@ -1,9 +1,9 @@
 package validation;
 
-import java.util.List;
-
 import CustomException.ValidationException;
 import payment.Payment;
+
+import java.util.List;
 
 /**
  * Utility class for validation methods.

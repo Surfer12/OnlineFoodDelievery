@@ -1,10 +1,8 @@
 package services;
 
-import java.util.List;
-
 import model.MenuItem;
-import order.OrderService;
-import model.OrderModel;
+
+import java.util.List;
 
 public interface OrderService {
     Order getOrderById(Long orderId);

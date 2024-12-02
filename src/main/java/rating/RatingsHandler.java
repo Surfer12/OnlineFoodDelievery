@@ -1,11 +1,11 @@
 package rating;
 
+import CustomException.QueueFullException;
+
 import java.util.Optional;
 import java.util.concurrent.ConcurrentLinkedDeque;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
-
-import CustomException.QueueFullException;
 
 public class RatingsHandler<T> implements RatingsBusinessLogic<T> {
    private final int maxRatings;

@@ -1,15 +1,13 @@
 package services;
 
-import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.Mockito.*;
+import model.MenuItem;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import services.impl.MenuServiceImpl;
 
 import java.util.List;
 
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-
-import model.MenuItem;
-import services.impl.MenuServiceImpl;
+import static org.junit.jupiter.api.Assertions.*;
 
 class MenuServiceTest {
     private MenuService menuService;

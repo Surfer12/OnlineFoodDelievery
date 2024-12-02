@@ -1,14 +1,9 @@
 package model;
 
 
-import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Objects;
-import java.util.Queue;
-
 import rating.Rating;
+
+import java.util.*;
 
 public class Driver {
    private final Long id;

@@ -1,13 +1,13 @@
 package services.impl;
 
+import model.MenuItem;
+import model.Order;
+import services.OrderService;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-import model.MenuItem;
-import model.Order;
-import services.OrderService;
 
 public class OrderServiceImpl implements OrderService {
     private List<Order> orders = new ArrayList<>();

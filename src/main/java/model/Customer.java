@@ -1,9 +1,9 @@
 package model;
 
+import rating.Rating;
+
 import java.util.ArrayList;
 import java.util.List;
-
-import rating.Rating;
 
 /**
  * Represents a customer in the system.

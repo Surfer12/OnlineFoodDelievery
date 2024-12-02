@@ -1,7 +1,7 @@
 package observer;
 
-import order.Order; // Updated import
-import model.OrderStatus; // Added import
+import model.OrderStatus;
+import order.Order;
 
 public interface OrderObserver {
     void update(Order order, OrderStatus status); // Updated method signature

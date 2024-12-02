@@ -3,6 +3,8 @@ package app;
 import java.util.LinkedList;
 import java.util.Queue;
 
+import model.Order;
+
 public class OrderQueue {
     private final Queue<Order> orders;
 
@@ -29,4 +31,4 @@ public class OrderQueue {
     public boolean isEmpty() {
         return this.orders.isEmpty();
     }
-} 
+}

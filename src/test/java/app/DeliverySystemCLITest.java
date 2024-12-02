@@ -1,21 +1,21 @@
 package app;
 
-import java.util.Scanner;
-
+import managers.DriverManager;
+import managers.MenuManager;
+import managers.OrderManager;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import static org.mockito.Mockito.verify;
-import static org.mockito.Mockito.when;
 import org.mockito.junit.jupiter.MockitoExtension;
-
-import managers.DriverManager;
-import managers.MenuManager;
-import managers.OrderManager;
 import services.OrderService;
 import validation.ConsoleInputHandler;
+
+import java.util.Scanner;
+
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
 
 @ExtendWith(MockitoExtension.class)
 public class DeliverySystemCLITest {

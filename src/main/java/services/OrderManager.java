@@ -1,9 +1,9 @@
 package services;
 
-import java.util.Scanner;
-
 import managers.MenuManager;
 import validation.ConsoleInputHandler;
+
+import java.util.Scanner;
 
 public interface OrderManager {
     // ...existing code...

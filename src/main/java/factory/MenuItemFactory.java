@@ -1,12 +1,6 @@
 package factory;
 
-import model.Drink;
-import model.Hamburger;
-import model.MenuItem;
-import model.Pizza;
-import model.Salad;
-import model.Size;
-import model.Fries;
+import model.*;
 
 public class MenuItemFactory {
    public static MenuItem createMenuItem(String type, String name, String description,

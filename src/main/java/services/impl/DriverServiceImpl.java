@@ -5,17 +5,17 @@
 
 package services.impl;
 
+import model.Driver;
+import model.Order;
+import model.OrderStatus;
+import services.DriverService;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
-
-import model.Driver;
-import model.Order;
-import model.OrderStatus;
-import services.DriverService;
 
 public class DriverServiceImpl implements DriverService {
     private static final Logger logger = Logger.getLogger(DriverServiceImpl.class.getName());

@@ -1,22 +1,21 @@
 package managers;
 
-import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.Mockito.*;
+import model.MenuItem;
+import model.Order;
+import model.OrderStatus;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.mockito.Mock;
+import org.mockito.MockitoAnnotations;
+import services.OrderService;
+import validation.ConsoleInputHandler;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-import org.mockito.Mock;
-import org.mockito.MockitoAnnotations;
-
-import model.MenuItem;
-import model.Order;
-import model.OrderStatus;
-import services.OrderService;
-import validation.ConsoleInputHandler;
+import static org.junit.jupiter.api.Assertions.*;
+import static org.mockito.Mockito.*;
 
 class OrderManagerTest {
 

@@ -1,23 +1,19 @@
 package integration;
 
 
-import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.Mockito.*;
+import app.DeliverySystemCLI;
+import managers.DriverManager;
+import managers.MenuManager;
+import managers.OrderManager;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 import java.util.Scanner;
 
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-
-import app.DeliverySystemCLI;
-import managers.DriverManager;
-import managers.MenuManager;
-import managers.OrderManager;
-import model.Order;
-import model.OrderStatus;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class DeliverySystemIntegrationTest {
     private ByteArrayOutputStream outputStream;

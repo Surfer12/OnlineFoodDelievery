@@ -1,9 +1,9 @@
 package observer;
 
+import model.Order;
+
 import java.util.ArrayList;
 import java.util.List;
-
-import model.Order;
 
 public class OrderTrackingService implements OrderSubject {
    private List<OrderObserver> observers = new ArrayList<>();

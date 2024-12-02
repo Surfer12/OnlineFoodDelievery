@@ -1,8 +1,8 @@
 package services;
 
-import java.util.List;
-
 import model.MenuItem;
+
+import java.util.List;
 
 public interface MenuService {
     void displayMenu();

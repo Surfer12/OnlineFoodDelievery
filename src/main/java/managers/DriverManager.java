@@ -1,18 +1,16 @@
 package managers;
 
-import java.util.List;
-import java.util.Scanner;
-import java.util.logging.Logger;
-
 import model.Driver;
-import order.OrderService;
-import model.OrderModel;
+import model.OrderStatus;
 import services.DriverService;
 import services.impl.DriverServiceImpl;
 import validation.ConsoleInputHandler;
 import validation.InputValidatorImpl;
 import validation.MenuItemValidator;
-import model.OrderStatus;
+
+import java.util.List;
+import java.util.Scanner;
+import java.util.logging.Logger;
 
 public class DriverManager {
     private static final Logger logger = Logger.getLogger(DriverManager.class.getName());
