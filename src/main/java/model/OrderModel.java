@@ -35,15 +35,8 @@ final String postalCode) {
    }
 
 
-   public Order(Long customerId, String customerEmail, List<MenuItem> items, String deliveryAddress, String postalCode) {
-      this.customerId = customerId;
-      this.customerEmail = customerEmail;
-      this.items = items;
-      this.deliveryAddress = deliveryAddress;
-      this.postalCode = postalCode;
-      this.deliveryLocation = new Location(deliveryAddress, postalCode); // Added initialization
-      this.orderId = System.currentTimeMillis(); // Simple ID generation
-      this.status = OrderStatus.SUBMITTED;
+   public OrderModel(Long customerId, String customerEmail, List<MenuItem> items, String deliveryAddress, String postalCode) {
+      this(customerId, customerEmail, items, new Location(deliveryAddress, postalCode));
       this.totalAmount = calculateTotalAmount();
    }
 
