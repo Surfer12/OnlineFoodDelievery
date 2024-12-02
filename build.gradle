@@ -34,6 +34,10 @@ dependencies {
     // Spring Boot
     implementation 'org.springframework.boot:spring-boot-starter:3.4.0'
     
+    // Logging
+    implementation platform('org.slf4j:slf4j-bom:2.0.9')
+    implementation 'org.slf4j:slf4j-api'
+    implementation 'ch.qos.logback:logback-classic:1.4.14'    
     // Testing
     testImplementation platform('org.junit:junit-bom:5.10.1')
     testImplementation 'org.junit.jupiter:junit-jupiter'
