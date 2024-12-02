@@ -77,14 +77,3 @@ test {
     }
 } */
 
-
-task clearLocalCache {
-    // Hook to clear the local cache after the build is finished
-    doLast {
-        delete file("$buildDir/caches")
-    }
-}
-
-// Add clearLocalCache as a final task to run after the build
-tasks.build.finalizedBy(clearLocalCache)
-
