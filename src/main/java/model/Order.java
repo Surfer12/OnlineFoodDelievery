@@ -35,7 +35,6 @@ public class Order {
             customerId,
             customerEmail,
             List.of(item),
-   
             new Location(address, postalCode));
    }
 
@@ -55,6 +54,7 @@ public class Order {
       this.items = items;
       this.deliveryAddress = deliveryAddress;
       this.postalCode = postalCode;
+      this.deliveryLocation = new Location(deliveryAddress, postalCode); // Added initialization
       this.orderId = System.currentTimeMillis(); // Simple ID generation
       this.status = OrderStatus.SUBMITTED;
       this.totalAmount = calculateTotalAmount();
