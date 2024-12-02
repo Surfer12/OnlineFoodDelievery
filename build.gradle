@@ -48,6 +48,10 @@ dependencies {
     // Lombok
     compileOnly 'org.projectlombok:lombok:1.18.30'
     annotationProcessor 'org.projectlombok:lombok:1.18.30'
+
+    // Monitoring and Metrics
+    implementation 'org.springframework.boot:spring-boot-starter-actuator:3.4.0'
+    implementation 'io.micrometer:micrometer-registry-prometheus:1.12.0'
 }
 
 test {
@@ -76,4 +80,29 @@ test {
         }
     }
 } */
+
+tasks.withType(JavaCompile) {
+    options.fork = true
+    options.forkOptions.jvmArgs += [
+        // Heap and Memory Logging
+        '-XX:+HeapDumpOnOutOfMemoryError',
+        '-XX:HeapDumpPath=build/heapdump',
+        '-verbose:gc', 
+        '-Xloggc:build/gc.log', 
+        '-XX:+PrintGCDetails', 
+        '-XX:+PrintGCTimeStamps',
+        '-XX:+PrintGCDateStamps',
+        '-XX:+PrintHeapAtGC',
+        '-XX:+PrintTenuringDistribution',
+        '-XX:+PrintGCApplicationStoppedTime',
+        '-XX:+UseGCLogFileRotation', 
+        '-XX:NumberOfGCLogFiles=5', 
+        '-XX:GCLogFileSize=5M',
+        
+        // Memory Management
+        '-XX:+UseG1GC',  // Use G1 Garbage Collector
+        '-XX:MaxGCPauseMillis=200',  // Max pause time goal
+        '-XX:G1HeapRegionSize=8m'  // Adjust region size
+    ]
+}
 

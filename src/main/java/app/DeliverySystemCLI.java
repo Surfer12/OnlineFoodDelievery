@@ -24,9 +24,9 @@ public class DeliverySystemCLI {
 
     private boolean running = true;
 
-    public DeliverySystemCLI(Scanner scanner, MenuManager menuManager, OrderManager orderManager,
-            DriverManager driverManager, ConsoleInputHandler<Integer> positiveIntegerHandler,
-            ConsoleInputHandler<String> emailHandler, ConsoleInputHandler<String> locationHandler) {
+    public DeliverySystemCLI(final Scanner scanner, final MenuManager menuManager, final OrderManager orderManager,
+            final DriverManager driverManager, final ConsoleInputHandler<Integer> positiveIntegerHandler,
+            final ConsoleInputHandler<String> emailHandler, final ConsoleInputHandler<String> locationHandler) {
         this.scanner = scanner;
         this.menuManager = menuManager;
         this.orderManager = orderManager;
@@ -56,7 +56,7 @@ public class DeliverySystemCLI {
         while (this.running) {
             this.displayMainMenu();
 
-            Integer choice = this.menuManager.getMenuChoiceHandler().handleInput(
+            final Integer choice = this.menuManager.getMenuChoiceHandler().handleInput(
                     this.scanner,
                     "Enter your choice below: ");
 
