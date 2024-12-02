@@ -86,6 +86,39 @@ class OrderManagerTest {
         verify(orderService).getOrderById(orderId);
     }
 
+    @Test
+    void processOrderPlacement_QueueFull_HandlesException() {
+        // Arrange
+        MenuItem item = new MenuItem("Test Item", "Description", 10.0);
+        List<MenuItem> items = Arrays.asList(item);
+        when(orderService.createOrder(any()))
+            .thenThrow(new CustomException.QueueFullException("Queue is full"));
+
+        // Act & Assert
+        assertThrows(CustomException.QueueFullException.class, () ->
+            orderManager.createOrder(items)
+        );
+    }
+
+    @Test
+    void getPendingOrders_ReturnsOnlySubmittedOrders() {
+        // Arrange
+        Order submittedOrder = new Order();
+        submittedOrder.setStatus(OrderStatus.SUBMITTED);
+        Order deliveredOrder = new Order();
+        deliveredOrder.setStatus(OrderStatus.DELIVERED);
+        
+        when(orderService.getAllOrders())
+            .thenReturn(Arrays.asList(submittedOrder, deliveredOrder));
+
+        // Act
+        List<Order> pendingOrders = orderManager.getPendingOrders();
+
+        // Assert
+        assertEquals(1, pendingOrders.size());
+        assertEquals(OrderStatus.SUBMITTED, pendingOrders.get(0).getStatus());
+    }
+
     private void setField(Object target, String fieldName, Object value) {
         try {
             java.lang.reflect.Field field = target.getClass().getDeclaredField(fieldName);
