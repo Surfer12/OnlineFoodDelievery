@@ -3,6 +3,7 @@ package builder;
 import model.MenuItem;
 import model.Order;
 import java.util.List;
+import exception.CustomException; // Ensure CustomException is correctly imported
 
 public class OrderBuilder {
    private Long customerId;
@@ -34,21 +35,19 @@ public class OrderBuilder {
 
    public Order build() {
       // Create a concrete implementation of Order
-      return new Order(this.customerId, this.customerEmail, this.items, this.deliveryAddress, this.postalCode) {
-         // You can override any methods if needed
-      };
+      return new Order(this.customerId, this.customerEmail, this.items, this.deliveryAddress, this.postalCode);
    }
 
    public Order createOrder(List<MenuItem> orderItems) throws CustomException.QueueFullException {
       // ...existing code...
 
-      Order newOrder = new OrderBuilder()
-              .withCustomerId(validatedCustomerId)
+      Order newOrder = this.withCustomerId(validatedCustomerId)
               .withCustomerEmail(validatedEmail)
               .withItems(orderItems)
               .withDeliveryLocation(validatedAddress, validatedPostalCode)
               .build();
 
       // ...existing code...
+      return newOrder;
    }
 }

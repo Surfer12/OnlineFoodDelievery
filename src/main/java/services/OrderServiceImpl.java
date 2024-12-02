@@ -15,7 +15,7 @@ public class OrderServiceImpl implements OrderService {
 
     @Override
     public Order getOrderById(Long orderId) {
-        return this.orders.stream()
+        return this.orderQueue.stream()
                 .filter(order -> order.getId().equals(orderId))
                 .findFirst()
                 .orElse(null);

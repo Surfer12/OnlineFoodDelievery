@@ -14,6 +14,8 @@ public class Order {
    private LocalDateTime estimatedDeliveryTime;
    private OrderStatus status;
    private Driver driver;
+   private String deliveryAddress;
+   private String postalCode;
 
    public Order(final Long customerId, final String customerEmail, final List<MenuItem> items,
          final Location deliveryLocation) {
@@ -42,6 +44,17 @@ public class Order {
       this.deliveryLocation = new Location("unknown", "00000"); // Default or placeholder value
       this.orderId = System.currentTimeMillis(); // Simple ID generation
       this.items = items != null ? new ArrayList<>(items) : new ArrayList<>();
+      this.status = OrderStatus.SUBMITTED;
+      this.totalAmount = calculateTotalAmount();
+   }
+
+   public Order(Long customerId, String customerEmail, List<MenuItem> items, String deliveryAddress, String postalCode) {
+      this.customerId = customerId;
+      this.customerEmail = customerEmail;
+      this.items = items;
+      this.deliveryAddress = deliveryAddress;
+      this.postalCode = postalCode;
+      this.orderId = System.currentTimeMillis(); // Simple ID generation
       this.status = OrderStatus.SUBMITTED;
       this.totalAmount = calculateTotalAmount();
    }

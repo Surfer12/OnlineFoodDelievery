@@ -6,6 +6,7 @@ import model.MenuItem;
 import model.Pizza;
 import model.Salad;
 import model.Size;
+import model.Fries;
 
 public class MenuItemFactory {
    public static MenuItem createMenuItem(String type, String name, String description,
@@ -14,9 +15,9 @@ public class MenuItemFactory {
          case "pizza" -> new Pizza(null, name, description, price, size, quantity);
          case "hamburger" -> new Hamburger(null, name, description, price, size, quantity);
          case "burger" -> new Hamburger(null, name, description, price, size, quantity);
+         case "fries" -> new Fries(null, name, description, price, size, quantity);
          case "salad" -> new Salad(null, name, description, price, size, quantity);
          case "drink" -> new Drink(null, name, description, price, size, quantity);
          default -> throw new IllegalArgumentException("Unknown menu item type: " + type);
-      };
-   }
+      };   }
 }

@@ -4,15 +4,19 @@ import java.util.ArrayList;
 import java.util.List;
 
 import model.MenuItem;
+import model.Hamburger;
+import model.Fries;
+import model.Drink;
+import model.Size;
 
 public class MenuServiceImpl implements MenuService {
     private final List<MenuItem> menuItems;
 
     public MenuServiceImpl() {
         this.menuItems = List.of(
-            new MenuItem("Hamburger", 5.99),
-            new MenuItem("Fries", 2.99),
-            new MenuItem("Drink", 1.99)
+            new Hamburger(1L, "Hamburger", "A simple hamburger", 5.99, Size.MEDIUM, 1),
+            new Fries(2L, "Fries", "A side of fries", 2.99, Size.MEDIUM, 1),
+            new Drink(3L, "Soft Drink", "A refreshing beverage", 1.99, Size.MEDIUM, 1)
             // Add more items if needed
         );
     }
