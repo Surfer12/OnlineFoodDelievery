@@ -1,27 +1,27 @@
 package observer;
 
-import model.Order;
-
 import java.util.ArrayList;
 import java.util.List;
 
+import model.Order;
+
 public class OrderTrackingService implements OrderSubject {
-   private List<OrderObserver> observers = new ArrayList<>();
+   private final List<OrderObserver> observers = new ArrayList<>();
 
    @Override
-   public void attach(OrderObserver observer) {
-      observers.add(observer);
+   public void attach(final OrderObserver observer) {
+      this.observers.add(observer);
    }
 
    @Override
-   public void detach(OrderObserver observer) {
-      observers.remove(observer);
+   public void detach(final OrderObserver observer) {
+      this.observers.remove(observer);
    }
 
    @Override
-   public void notifyObservers(Order order) {
-      for (OrderObserver observer : observers) {
-         observer.update(order);
+   public void notifyObservers(final Order order) {
+      for (final OrderObserver observer : this.observers) {
+         observer.update(order, order.getStatus());
       }
    }
 }

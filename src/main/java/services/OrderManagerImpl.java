@@ -1,9 +1,12 @@
 package services;
 
-import managers.MenuManager;
-import validation.ConsoleInputHandler;
-
+import java.util.List;
 import java.util.Scanner;
+
+import managers.MenuManager;
+import model.MenuItem;
+import model.Order;
+import validation.ConsoleInputHandler;
 
 public class OrderManagerImpl implements OrderManager {
     // ...existing code...
@@ -15,21 +18,27 @@ public class OrderManagerImpl implements OrderManager {
             final ConsoleInputHandler<Integer> positiveIntegerHandler,
             final ConsoleInputHandler<String> emailHandler,
             final ConsoleInputHandler<String> locationHandler) {
-        // ...existing code...
+        // Get menu items
+        final List<MenuItem> orderItems = menuManager.getMenuItems(scanner, positiveIntegerHandler);
+
         // Use emailHandler to get and validate email
         final String email = emailHandler.getInput("Enter your email: ");
 
         // Use locationHandler to get and validate delivery location
         final String location = locationHandler.getInput("Enter delivery location: ");
+        final String postalCode = locationHandler.getInput("Enter postal code: ");
 
-        // TODO OrderServiceImpl ID Generator
-        OrderServiceImpl orderService = new OrderServiceImpl();
-        IdGenerator idGenerator = new IdGenerator();
-        // Create a new order with the provided email and location
-        final Order order = new Order(idGenerator.generateId(), email, location);
+        // Create a new order with the provided details
+        final OrderServiceImpl orderService = new OrderServiceImpl();
+        final Order order = new Order(
+                IdGenerator.generateId(),
+                email,
+                orderItems,
+                location,
+                postalCode);
 
-        // Add the order to the queue
-        orderService.addOrder(order);
+        // Add the order to the service
+        orderService.createOrder(orderItems);
     }
 
     // ...existing code...
