@@ -1,7 +1,16 @@
 package managers;
 
+import java.util.List;
+import java.util.Scanner;
+import java.util.logging.Logger;
+import java.util.stream.Collectors;
+
 import model.MenuItem;
 import model.Order;
+import model.OrderStatus;
+import notification.BasicNotificationService;
+import observer.CustomerNotifier;
+import observer.DriverNotifier;
 import queue.OrderQueue;
 import services.OrderService;
 import services.impl.OrderServiceImpl;
@@ -9,16 +18,6 @@ import tracker.OrderTracker;
 import validation.ConsoleInputHandler;
 import validation.InputValidatorImpl;
 import validation.PositiveLongValidator;
-import model.OrderStatus;
-import notification.CustomerNotifier;
-import notifiers.DriverNotifier;
-import services.NotificationService;
-import services.impl.NotificationServiceImpl;
-
-import java.util.List;
-import java.util.Scanner;
-import java.util.logging.Logger;
-import java.util.stream.Collectors;
 
 public class OrderManager {
     private static final Logger logger = Logger.getLogger(OrderManager.class.getName());
@@ -31,7 +30,7 @@ public class OrderManager {
 
     public OrderManager() {
         this.orderService = new OrderServiceImpl();
-        this.orderQueue = new OrderQueue(MAX_QUEUE_SIZE);
+        this.orderQueue = new OrderQueue(OrderManager.MAX_QUEUE_SIZE);
         this.orderIdHandler = new ConsoleInputHandler<>(
                 new InputValidatorImpl<>(
                         new PositiveLongValidator(),
@@ -40,47 +39,47 @@ public class OrderManager {
         this.orderTracker = new OrderTracker(); // Initialize OrderTracker
     }
 
-    public Order createOrder(List<MenuItem> orderItems) throws CustomException.QueueFullException {
+    public Order createOrder(final List<MenuItem> orderItems) throws CustomException.QueueFullException {
         if (orderItems.isEmpty()) {
             System.out.println("No items selected. Order cancelled.");
             return null;
         }
 
         try {
-            Order newOrder = this.orderService.createOrder(orderItems);
+            final Order newOrder = this.orderService.createOrder(orderItems);
             this.orderQueue.enqueue(newOrder);
             this.orderService.displayOrderDetails(newOrder);
             System.out.println("Order placed successfully!");
             System.out.println("Order ID: " + newOrder.getOrderId());
             System.out.println("Total Amount: $" + newOrder.getTotalAmount());
-            this.orderTracker.attach(new CustomerNotifier(new NotificationServiceImpl())); // Attach observer
-            this.orderTracker.attach(new DriverNotifier(new NotificationServiceImpl())); // Attach another observer
+            this.orderTracker.attach(new CustomerNotifier(new BasicNotificationService())); // Attach observer
+            this.orderTracker.attach(new DriverNotifier(new BasicNotificationService())); // Attach another observer
             this.orderTracker.notifyObservers(newOrder); // Notify observers
-            logger.info("New order added to queue: " + newOrder.getOrderId());
+            OrderManager.logger.info("New order added to queue: " + newOrder.getOrderId());
             return newOrder;
-        } catch (CustomException.QueueFullException e) {
+        } catch (final CustomException.QueueFullException e) {
             System.out.println("Sorry, we are currently at maximum order capacity. Please try again later.");
-            logger.warning("Order queue full: " + e.getMessage());
+            OrderManager.logger.warning("Order queue full: " + e.getMessage());
             throw e;
         }
     }
 
-    public void checkOrderStatus(Scanner scanner) {
+    public void checkOrderStatus(final Scanner scanner) {
         try {
-            Long orderId = this.orderIdHandler.handleInput(scanner, "Enter Order ID to check status: ");
+            final Long orderId = this.orderIdHandler.handleInput(scanner, "Enter Order ID to check status: ");
 
             if (orderId == null)
                 return;
 
-            Order order = this.orderService.getOrderById(orderId);
+            final Order order = this.orderService.getOrderById(orderId);
             if (order != null) {
                 System.out.println("Order Status: " + order.getStatus());
             } else {
                 System.out.println("Order not found.");
             }
-        } catch (Exception e) {
+        } catch (final Exception e) {
             System.out.println("Error checking order status: " + e.getMessage());
-            logger.severe("Error in checkOrderStatus: " + e.getMessage());
+            OrderManager.logger.severe("Error in checkOrderStatus: " + e.getMessage());
         }
     }
 
@@ -92,36 +91,36 @@ public class OrderManager {
         return this.orderService;
     }
 
-    public void processOrderPlacement(Scanner scanner, MenuManager menuManager,
-            ConsoleInputHandler<Integer> positiveIntegerHandler,
-            ConsoleInputHandler<String> emailHandler,
-            ConsoleInputHandler<String> locationHandler) {
+    public void processOrderPlacement(final Scanner scanner, final MenuManager menuManager,
+            final ConsoleInputHandler<Integer> positiveIntegerHandler,
+            final ConsoleInputHandler<String> emailHandler,
+            final ConsoleInputHandler<String> locationHandler) {
         try {
-            List<MenuItem> orderItems = menuManager.selectMenuItems(scanner, positiveIntegerHandler);
+            final List<MenuItem> orderItems = menuManager.selectMenuItems(scanner, positiveIntegerHandler);
 
             if (!orderItems.isEmpty()) {
-                Order newOrder = this.createOrder(orderItems);
+                final Order newOrder = this.createOrder(orderItems);
 
                 // Optional: Prompt for driver assignment after order creation
                 if (newOrder != null) {
                     System.out.println("Would you like to assign a driver now? (Y/N)");
-                    String response = scanner.nextLine().trim().toUpperCase();
-                    if (response.equals("Y")) {
+                    final String response = scanner.nextLine().trim().toUpperCase();
+                    if ("Y".equals(response)) {
                         // You might want to pass the DriverManager as a parameter
                         // or create a method to handle driver assignment
                         this.assignDriverToNewOrder(scanner, newOrder);
                     }
                 }
             }
-        } catch (CustomException.QueueFullException e) {
-            logger.warning("Order queue full: " + e.getMessage());
+        } catch (final CustomException.QueueFullException e) {
+            OrderManager.logger.warning("Order queue full: " + e.getMessage());
             System.out.println("Sorry, we cannot accept more orders at the moment.");
         }
     }
 
-    private void assignDriverToNewOrder(Scanner scanner, Order order) {
+    private void assignDriverToNewOrder(final Scanner scanner, final Order order) {
         // This method could be moved to DriverManager if preferred
-        DriverManager driverManager = new DriverManager();
+        final DriverManager driverManager = new DriverManager();
         driverManager.assignDriverToOrder(scanner, order, this.orderIdHandler);
         this.orderTracker.updateOrderStatus(order.getOrderId(), OrderStatus.CONFIRMED,
                 driverManager.getAssignedDriver(order));
@@ -133,7 +132,7 @@ public class OrderManager {
                 .collect(Collectors.toList());
     }
 
-    public void updateOrderStatus(Order order, String status) {
+    public void updateOrderStatus(final Order order, final String status) {
         order.setStatus(OrderStatus.valueOf(status));
         this.orderService.updateOrder(order);
         this.orderTracker.updateOrderStatus(order.getOrderId(), OrderStatus.valueOf(status), null); // Update tracker

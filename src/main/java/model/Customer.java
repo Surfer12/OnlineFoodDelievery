@@ -1,9 +1,9 @@
 package model;
 
-import rating.Rating;
-
 import java.util.ArrayList;
 import java.util.List;
+
+import rating.Rating;
 
 /**
  * Represents a customer in the system.
@@ -35,8 +35,8 @@ public class Customer extends Person {
             this.getId(),
             this.getEmail(),
             items,
-            new Location(this.getAddress(), "zipcode"));
-
+            new Location(this.getAddress(), this.getPostalCode()),
+            driver.getId());
       this.orderHistory.add(order);
    }
 
