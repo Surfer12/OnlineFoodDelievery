@@ -5,6 +5,7 @@ plugins {
     id 'io.freefair.lombok' version '8.1.0'
     id 'application'
     id 'java-library'
+    id 'distribution'
 }
 
 repositories {
@@ -57,7 +58,24 @@ test {
     }
 }
 
-
+/* distributions {
+    main {
+        contents {
+            from('bin') {
+                into 'bin'
+            }
+            from('build') {
+                into 'build'
+            }
+        from('build-cache') {
+                into 'build-cache'
+            }
+            from('gradle') {
+                into '.gradle'
+            }
+        }
+    }
+} */
 
 
 task clearLocalCache {
