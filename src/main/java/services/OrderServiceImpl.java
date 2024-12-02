@@ -57,4 +57,10 @@ public class OrderServiceImpl implements OrderService {
         Order order = this.getOrderById(orderId);
         return order != null ? order.getStatus().toString() : "Order not found";
     }
+
+    @Override
+    public List<Order> getAllOrders() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getAllOrders'");
+    }
 }
