@@ -1,3 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inspection_tool class="AnonymousClassComplexity" enabled="true" level="WARNING" enabled_by_default="true">
+  <option name="m_limit" value="3"/>
+</inspection_tool>
 <problems>
 <problem>
   <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidatorImpl.java</file>

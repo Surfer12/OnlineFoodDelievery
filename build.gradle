@@ -7,18 +7,18 @@ plugins {
     id 'java-library'
     id 'distribution'
 }
-
-// Create directories
-def createDirectories = tasks.register('createDirectories') {
+// TODO fix this
+/* // Create directories
+tasks.register('createDirectories') {
     doFirst {
-        mkdir 'build'
-        mkdir 'build/heapdump'
-        mkdir 'build/logs'
-        mkdir 'src/dist'
+        file('build').mkdirs()
+        file('build/heapdump').mkdirs()
+        file('build/logs').mkdirs()
+        file('src/dist').mkdirs()
     }
-}
-
-tasks.named('compileJava') {
+} */
+// TODO FIX this
+/* tasks.named('compileJava') {
     dependsOn createDirectories
     options.fork = true
     options.forkOptions.jvmArgs = [
@@ -29,7 +29,7 @@ tasks.named('compileJava') {
         '-XX:MaxGCPauseMillis=200',
         '-XX:+UseStringDeduplication'
     ]
-}
+} */
 
 repositories {
     mavenCentral()

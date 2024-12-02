@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inspection_tool class="AbstractClassWithoutAbstractMethods" enabled="true" level="WARNING" enabled_by_default="true"/>
 <problems>
 <problem>
   <file>file://$PROJECT_DIR$/src/main/java/model/Person.java</file>
