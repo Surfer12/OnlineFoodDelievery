@@ -1,12 +1,12 @@
 package queue;
 
-import model.Order;
-import validation.OrderValidator;
-
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Optional;
+
+import model.Order;
+import validation.OrderValidator;
 
 public class OrderQueue implements QueueOperations<Order> {
    private final LinkedList<Order> queue;

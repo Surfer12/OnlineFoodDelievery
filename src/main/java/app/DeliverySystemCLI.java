@@ -1,18 +1,20 @@
 package app;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
 import managers.DriverManager;
 import managers.MenuManager;
 import managers.OrderManager;
 import model.ConcreteMenuItem;
 import model.MenuItem;
+import model.Size;
+import queue.OrderQueue;
 import validation.ConsoleInputHandler;
 import validation.validators.EmailValidator;
 import validation.validators.LocationValidator;
 import validation.validators.PositiveIntegerValidator;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
 
 public class DeliverySystemCLI {
     private final Scanner scanner;
@@ -22,9 +24,9 @@ public class DeliverySystemCLI {
     private final ConsoleInputHandler<String> emailHandler;
     private final ConsoleInputHandler<String> locationHandler;
 
-    private MenuManager menuManager;
-    private OrderManager orderManager;
-    private DriverManager driverManager;
+    private final MenuManager menuManager;
+    private final OrderManager orderManager;
+    private final DriverManager driverManager;
 
     public DeliverySystemCLI() {
         this.scanner = new Scanner(System.in);
@@ -43,7 +45,8 @@ public class DeliverySystemCLI {
     }
 
     // Constructor with required parameters
-    public DeliverySystemCLI(Scanner scanner, MenuManager menuManager, OrderManager orderManager, DriverManager driverManager) {
+    public DeliverySystemCLI(final Scanner scanner, final MenuManager menuManager, final OrderManager orderManager,
+            final DriverManager driverManager) {
         this.scanner = scanner;
         this.menuManager = menuManager;
         this.orderManager = orderManager;
@@ -52,33 +55,36 @@ public class DeliverySystemCLI {
 
     private void initializeMenu() {
         // Initialize menu items using ConcreteMenuItem
-        final MenuItem hamburger = new ConcreteMenuItem(1L, "Hamburger", "Beef patty with lettuce and tomato", 5.99, Size.MEDIUM, 1);
+        final MenuItem hamburger = new ConcreteMenuItem(1L, "Hamburger", "Beef patty with lettuce and tomato", 5.99,
+                Size.MEDIUM, 1);
         final MenuItem fries = new ConcreteMenuItem(2L, "Fries", "Crispy golden fries", 2.99, Size.LARGE, 1);
         final MenuItem drink = new ConcreteMenuItem(3L, "Drink", "Refreshing beverage", 1.99, Size.SMALL, 1);
-        menuManager.addMenuItem(hamburger);
-        menuManager.addMenuItem(fries);
-        menuManager.addMenuItem(drink);
+        this.menuManager.addMenuItem(hamburger);
+        this.menuManager.addMenuItem(fries);
+        this.menuManager.addMenuItem(drink);
     }
 
     public void start() {
         System.out.println("=== Online Food Delivery System ===");
 
         while (true) {
-            displayMainMenu();
-            Integer choice = positiveIntHandler.handleInput(scanner, "Enter your choice: ");
+            this.displayMainMenu();
+            final Integer choice = this.positiveIntHandler.handleInput(this.scanner, "Enter your choice: ");
 
             if (choice == null)
                 continue;
 
             switch (choice) {
-                case 1 -> orderManager.processOrderPlacement(scanner, menuManager, positiveIntHandler, emailHandler, locationHandler);
-                case 2 -> orderManager.checkOrderStatus(scanner);
-                case 3 -> menuManager.displayMenu();
-                case 4 -> driverManager.manageDriverMenu(scanner, orderManager);
-                case 5 -> driverManager.rateDriverInteractive(scanner, orderManager);
+                case 1 -> this.orderManager.processOrderPlacement(this.scanner, this.menuManager,
+                        this.positiveIntHandler, this.emailHandler,
+                        this.locationHandler);
+                case 2 -> this.orderManager.checkOrderStatus(this.scanner);
+                case 3 -> this.menuManager.displayMenu();
+                case 4 -> this.driverManager.manageDriverMenu(this.scanner, this.orderManager);
+                case 5 -> this.driverManager.rateDriverInteractive(this.scanner, this.orderManager);
                 case 6 -> {
                     System.out.println("Exiting system. Goodbye!");
-                    scanner.close();
+                    this.scanner.close();
                     return;
                 }
                 default -> System.out.println("Invalid choice. Please try again.");
@@ -129,13 +135,16 @@ public class DeliverySystemCLI {
                 for (final String itemNum : itemNumbers) {
                     switch (itemNum) {
                         case "1":
-                            selectedItems.add(new ConcreteMenuItem(1L, "Hamburger", "Beef patty with lettuce and tomato", 5.99, Size.MEDIUM, 1));
+                            selectedItems.add(new ConcreteMenuItem(1L, "Hamburger",
+                                    "Beef patty with lettuce and tomato", 5.99, Size.MEDIUM, 1));
                             break;
                         case "2":
-                            selectedItems.add(new ConcreteMenuItem(2L, "Fries", "Crispy golden fries", 2.99, Size.LARGE, 1));
+                            selectedItems
+                                    .add(new ConcreteMenuItem(2L, "Fries", "Crispy golden fries", 2.99, Size.LARGE, 1));
                             break;
                         case "3":
-                            selectedItems.add(new ConcreteMenuItem(3L, "Drink", "Refreshing beverage", 1.99, Size.SMALL, 1));
+                            selectedItems
+                                    .add(new ConcreteMenuItem(3L, "Drink", "Refreshing beverage", 1.99, Size.SMALL, 1));
                             break;
                         default:
                             System.out.println("Invalid item number: " + itemNum);

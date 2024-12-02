@@ -1,8 +1,7 @@
 package managers;
 
-
 import model.MenuItem;
-import order.OrderStatus;
+import model.Order;
 import queue.OrderQueue;
 import services.OrderService;
 import services.impl.OrderServiceImpl;
@@ -10,6 +9,11 @@ import tracker.OrderTracker;
 import validation.ConsoleInputHandler;
 import validation.InputValidatorImpl;
 import validation.PositiveLongValidator;
+import model.OrderStatus;
+import notification.CustomerNotifier;
+import notifiers.DriverNotifier;
+import services.NotificationService;
+import services.impl.NotificationServiceImpl;
 
 import java.util.List;
 import java.util.Scanner;
@@ -119,7 +123,8 @@ public class OrderManager {
         // This method could be moved to DriverManager if preferred
         DriverManager driverManager = new DriverManager();
         driverManager.assignDriverToOrder(scanner, order, this.orderIdHandler);
-        this.orderTracker.updateOrderStatus(order.getOrderId(), OrderStatus.CONFIRMED, driverManager.getAssignedDriver(order));
+        this.orderTracker.updateOrderStatus(order.getOrderId(), OrderStatus.CONFIRMED,
+                driverManager.getAssignedDriver(order));
     }
 
     public List<Order> getPendingOrders() {

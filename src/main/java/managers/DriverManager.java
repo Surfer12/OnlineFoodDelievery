@@ -1,7 +1,7 @@
 package managers;
 
 import model.Driver;
-import model.OrderStatus;
+import model.Order;
 import services.DriverService;
 import services.impl.DriverServiceImpl;
 import validation.ConsoleInputHandler;
@@ -61,7 +61,8 @@ public class DriverManager {
             this.driverService.assignDriverToOrder(selectedDriver, order);
             order.setStatus(OrderStatus.CONFIRMED); // Update order status
             System.out.println("Driver assigned successfully.");
-            logger.info("Driver " + selectedDriver.getName() + " assigned to order " + order.getId()); // Use getId() method
+            logger.info("Driver " + selectedDriver.getName() + " assigned to order " + order.getId()); // Use getId()
+                                                                                                       // method
         } else {
             System.out.println("Order not found.");
         }
@@ -91,7 +92,8 @@ public class DriverManager {
                 scanner,
                 "Enter Order ID to rate driver: ");
 
-        if (orderId == null) return;
+        if (orderId == null)
+            return;
 
         Order order = orderManager.getOrderService().getOrderById(orderId);
         if (order != null && order.getStatus() == OrderStatus.DELIVERED) {
@@ -141,7 +143,7 @@ public class DriverManager {
         Order order = orderManager.getOrderService().getOrderById(orderId);
         if (order != null) {
             this.assignDriverToOrder(scanner, order, orderManager.getOrderIdHandler());
-        } else { 
+        } else {
             System.out.println("Order not found.");
         }
     }

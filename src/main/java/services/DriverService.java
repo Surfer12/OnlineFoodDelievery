@@ -1,13 +1,16 @@
 package services;
 
-import model.Driver;
-import model.OrderModel;
-
 import java.util.List;
+
+import model.Driver;
+import model.Order;
 
 public interface DriverService {
     List<Driver> getAvailableDrivers();
-    Driver getDriverForOrder(OrderModel order);
-    void assignDriverToOrder(Driver driver, OrderModel order);
+
+    Driver getDriverForOrder(Order order);
+
+    void assignDriverToOrder(Driver driver, Order order);
+
     void rateDriver(Driver driver, Integer rating);
 }

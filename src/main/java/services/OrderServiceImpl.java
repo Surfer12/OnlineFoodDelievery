@@ -2,13 +2,23 @@ package services;
 
 import model.MenuItem;
 import model.OrderStatus;
-import order.Order;
-
+import model.Order;
+import queue.OrderQueue;
 import java.util.*;
+import java.util.concurrent.atomic.AtomicLong;
 
 public class OrderServiceImpl implements OrderService {
     private final Queue<Order> orderQueue = new LinkedList<>(); // Ensure FIFO processing
     private IdGenerator idGenerator = new IdGenerator();
+
+    // Static inner class for generating unique order IDs
+    private static class IdGenerator {
+        private final AtomicLong counter = new AtomicLong(0);
+
+        public Long generateId() {
+            return counter.incrementAndGet();
+        }
+    }
 
     @Override
     public Order getOrderById(Long orderId) {
@@ -20,18 +30,20 @@ public class OrderServiceImpl implements OrderService {
 
     @Override
     public Order createOrder(List<MenuItem> items) {
+        return createOrder(null, null, null, items);
+    }
+
+    public Order createOrder(String customerEmail, String deliveryAddress, String postalCode, List<MenuItem> items) {
         if (items == null || items.isEmpty()) {
             throw new IllegalArgumentException("Order must contain at least one item");
         }
 
         Order order = new Order(
-            // Provide necessary parameters according to the new constructor
-            idGenerator.generateId(),
-            customerEmail,
-            deliveryAddress,
-            postalCode,
-            items
-        );
+                idGenerator.generateId(),
+                items,
+                customerEmail,
+                deliveryAddress,
+                postalCode);
         order.setStatus(OrderStatus.PENDING); // Initialize status
         orderQueue.add(order);
         return order;
