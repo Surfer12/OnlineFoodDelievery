@@ -35,6 +35,7 @@ public class Order {
             customerId,
             customerEmail,
             List.of(item),
+   
             new Location(address, postalCode));
    }
 

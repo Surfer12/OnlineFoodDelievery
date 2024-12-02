@@ -19,23 +19,17 @@ public class DeliverySystemCLI {
         final MenuItem drink = new MenuItem("Drink", 1.99);
     }
 
-    private final ConsoleInputHandler<String> emailHandler = 
-        new ConsoleInputHandler<>(
-            InputValidationUtils::validateEmailFormat, 
-            "Invalid email format"
-        );
+    private final ConsoleInputHandler<String> emailHandler = new ConsoleInputHandler<>(
+            InputValidationUtils::validateEmailFormat,
+            "Invalid email format");
 
-    private final ConsoleInputHandler<Integer> positiveIntHandler = 
-        new ConsoleInputHandler<>(
-            input -> input > 0, 
-            "Invalid positive integer"
-        );
+    private final ConsoleInputHandler<Integer> positiveIntHandler = new ConsoleInputHandler<>(
+            input -> input > 0,
+            "Invalid positive integer");
 
-    private final ConsoleInputHandler<String> locationHandler = 
-        new ConsoleInputHandler<>(
-            InputValidationUtils::validateLocation, 
-            "Invalid location"
-        );
+    private final ConsoleInputHandler<String> locationHandler = new ConsoleInputHandler<>(
+            InputValidationUtils::validateLocation,
+            "Invalid location");
 
     public void start() {
         // Main application logic will be implemented here
