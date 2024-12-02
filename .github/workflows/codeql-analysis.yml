@@ -1,0 +1,39 @@
+name: CodeQL
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  analyze:
+    name: Analyze
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up CodeQL
+        uses: github/codeql-action/setup@v2
+
+      - name: Initialize CodeQL
+        uses: github/codeql-action/autobuild@v2
+
+      - name: Run CodeQL Analysis
+        uses: github/codeql-action/analyze@v2
+        with:
+          category: "github/onlinefooddelievery-java"
+
+      - name: Upload CodeQL Results
+        uses: actions/upload-artifact@v2
+        with:
+          name: codeql-results
+          path: ./codeql-results
+
+      - name: Display CodeQL Analysis Summary
+        run: |
+          echo "CodeQL analysis completed."
+          echo "Results can be found in the artifacts."
+          echo "Available contexts: ${{ toJson(github) }}"
+          echo "Available expression functions: hashFiles"
