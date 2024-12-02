@@ -1,125 +1,46 @@
 package app;
 
 import java.util.Scanner;
-import java.util.logging.Logger;
-
-import managers.DriverManager;
-import managers.MenuManager;
-import managers.OrderManager;
-import validation.ConsoleInputHandler;
-import validation.InputValidatorImpl;
-import validation.PositiveIntegerValidator;
-import validation.InputValidationUtils; // Add this import
 
 public class DeliverySystemCLI {
-    private static final Logger logger = Logger.getLogger(DeliverySystemCLI.class.getName());
-
     private final Scanner scanner;
-    private final MenuManager menuManager;
-    private final OrderManager orderManager;
-    private final DriverManager driverManager;
-
-    private final ConsoleInputHandler<Integer> positiveIntegerHandler;
-    private final ConsoleInputHandler<String> emailHandler;
-    private final ConsoleInputHandler<String> locationHandler;
-
-    private boolean running = true;
-
-    public DeliverySystemCLI(final Scanner scanner, final MenuManager menuManager, final OrderManager orderManager,
-            final DriverManager driverManager, final ConsoleInputHandler<Integer> positiveIntegerHandler,
-            final ConsoleInputHandler<String> emailHandler, final ConsoleInputHandler<String> locationHandler) {
-        this.scanner = scanner;
-        this.menuManager = menuManager;
-        this.orderManager = orderManager;
-        this.driverManager = driverManager;
-        this.positiveIntegerHandler = positiveIntegerHandler;
-        this.emailHandler = emailHandler;
-        this.locationHandler = locationHandler;
-    }
+    private final OrderQueue orderQueue;
 
     public DeliverySystemCLI() {
-        this(new Scanner(System.in),
-                new MenuManager(),
-                new OrderManager(),
-                new DriverManager(),
-                new ConsoleInputHandler<>(
-                        new InputValidatorImpl<>(
-                                new PositiveIntegerValidator(),
-                                "Positive Integer",
-                                "Invalid positive integer")),
-                new ConsoleInputHandler<>(
-                        InputValidationUtils::validateEmailFormat),
-                new ConsoleInputHandler<>(
-                        InputValidationUtils::validateLocation));
+        this.scanner = new Scanner(System.in);
+        this.orderQueue = new OrderQueue();
+        this.initializeMenu();
     }
+
+    private void initializeMenu() {
+        // Initialize menu items
+        final MenuItem hamburger = new MenuItem("Hamburger", 5.99);
+        final MenuItem fries = new MenuItem("Fries", 2.99);
+        final MenuItem drink = new MenuItem("Drink", 1.99);
+    }
+
+    private final ConsoleInputHandler<String> emailHandler = 
+        new ConsoleInputHandler<>(
+            InputValidationUtils::validateEmailFormat, 
+            "Invalid email format"
+        );
+
+    private final ConsoleInputHandler<Integer> positiveIntHandler = 
+        new ConsoleInputHandler<>(
+            input -> input > 0, 
+            "Invalid positive integer"
+        );
+
+    private final ConsoleInputHandler<String> locationHandler = 
+        new ConsoleInputHandler<>(
+            InputValidationUtils::validateLocation, 
+            "Invalid location"
+        );
 
     public void start() {
-        while (this.running) {
-            try {
-                this.displayMainMenu();
-        
-                Integer choice = this.menuManager.getMenuChoiceHandler().handleInput(
-                        this.scanner,
-                        "Please enter your choice (1-7): ");
-        
-                if (choice == null) {
-                    System.out.println("Invalid input. Please enter a number between 1 and 7.");
-                    continue;
-                }
-        
-                switch (choice) {
-                    case 1:
-                        // Place a new order
-                        this.orderManager.processOrderPlacement(
-                                this.scanner,
-                                this.menuManager,
-                                this.positiveIntegerHandler);
-                        break;
-                    case 2:
-                        // Accept and deliver an order
-                        this.driverManager.acceptAndDeliverOrder(this.scanner, this.orderManager);
-                        break;
-                    case 3:
-                        // Check order status
-                        this.orderManager.checkOrderStatus(this.scanner);
-                        break;
-                    case 4:
-                        // View menu
-                        this.menuManager.displayMenu();
-                        break;
-                    case 5:
-                        // Manage drivers
-                        this.driverManager.manageDriverMenu(this.scanner, this.orderManager);
-                        break;
-                    case 6:
-                        // Rate driver
-                        this.driverManager.rateDriverInteractive(this.scanner, this.orderManager);
-                        break;
-                    case 7:
-                        System.out.println("Thank you for using the Online Food Delivery System. Goodbye!");
-                        this.running = false;
-                        break;
-                    default:
-                        System.out.println("Invalid choice. Please enter a number between 1 and 7.");
-                }
-            } catch (Exception e) {
-                System.out.println("An unexpected error occurred: " + e.getMessage());
-                logger.severe("Error in start(): " + e);
-            }
-        }
-        this.scanner.close();
-    }
-
-    private void displayMainMenu() {
-        System.out.println("\n--- Online Food Delivery System ---");
-        System.out.println("1. Place a New Order");
-        System.out.println("2. Accept and Deliver an Order");
-        System.out.println("3. Check Order Status");
-        System.out.println("4. View Menu");
-        System.out.println("5. Manage Drivers");
-        System.out.println("6. Rate Driver");
-        System.out.println("7. Exit");
-        System.out.print("Please choose an option from the list above (1-7): ");
+        // Main application logic will be implemented here
+        System.out.println("Online Food Delivery System");
+        // TODO: Implement main menu and core functionality
     }
 
     public static void main(final String[] args) {
