@@ -35,9 +35,6 @@ public class Order {
     private final List<MenuItem> items; // List of items in the order
     private OrderStatus status; // Current status of the order
     private Driver assignedDriver; // Driver responsible for delivery
-    private final List<MenuItem> items; // List of items in the order
-    private OrderStatus status; // Current status of the order
-    private Driver assignedDriver; // Driver responsible for delivery
 
     /**
      * Constructor to create a new order.
