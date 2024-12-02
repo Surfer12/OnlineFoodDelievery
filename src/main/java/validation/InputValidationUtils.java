@@ -43,11 +43,11 @@ public class InputValidationUtils {
    public static void validateNumericInput(String input, String fieldName) {
       try {
          Double.parseDouble(input);
+         if (input == null || input.trim().isEmpty()) {
+            throw new ValidationException(fieldName + " cannot be null or empty");
+         }
       } catch (NumberFormatException e) {
          throw new ValidationException(fieldName + " must be a valid number");
-      } catch (ValidationException e) {
-         System.err.println("Error in validateNumericInput: " + e.getMessage());
-         throw e;
       }
    }
 

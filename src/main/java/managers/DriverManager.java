@@ -11,6 +11,7 @@ import services.impl.DriverServiceImpl;
 import validation.ConsoleInputHandler;
 import validation.InputValidatorImpl;
 import validation.MenuItemValidator;
+import model.OrderStatus;
 
 public class DriverManager {
     private static final Logger logger = Logger.getLogger(DriverManager.class.getName());

@@ -43,9 +43,9 @@ class OrderManagerTest {
     @Test
     void createOrder_ValidItems_Success() throws CustomException.QueueFullException {
         // Arrange
-        MenuItem item = new MenuItem("Test Item", "Description", 10.0);
+        MenuItem item = new ConcreteMenuItem("Test Item", "Description", 10.0);
         List<MenuItem> items = Arrays.asList(item);
-        Order expectedOrder = new Order();
+        Order expectedOrder = new Order(items);
         when(orderService.createOrder(items)).thenReturn(expectedOrder);
 
         // Act

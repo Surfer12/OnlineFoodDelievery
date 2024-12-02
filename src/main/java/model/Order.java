@@ -36,6 +36,12 @@ public class Order {
             new Location(address, postalCode));
    }
 
+   public Order(List<MenuItem> items) {
+      this.items = items;
+      this.status = OrderStatus.SUBMITTED;
+      this.totalAmount = calculateTotalAmount();
+   }
+
    private void calculateTotalAmount() {
       this.totalAmount = this.items.stream()
             .mapToDouble(MenuItem::getPrice)
