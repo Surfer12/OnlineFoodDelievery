@@ -30,6 +30,14 @@ public class DeliverySystemCLI {
         this.locationHandler = new ConsoleInputHandler<String>(new LocationValidator());
     }
 
+    // Constructor with required parameters
+    public DeliverySystemCLI(Scanner scanner, MenuManager menuManager, OrderManager orderManager, DriverManager driverManager) {
+        this.scanner = scanner;
+        this.menuManager = menuManager;
+        this.orderManager = orderManager;
+        this.driverManager = driverManager;
+    }
+
     private void initializeMenu() {
         // Initialize menu items using ConcreteMenuItem
         final ConcreteMenuItem hamburger = new ConcreteMenuItem("Hamburger", 5.99);
