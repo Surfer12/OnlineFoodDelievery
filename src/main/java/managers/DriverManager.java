@@ -1,7 +1,9 @@
 package managers;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.Scanner;
+import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import model.Driver;
@@ -20,7 +22,7 @@ public class DriverManager {
     private final ConsoleInputHandler<Integer> menuChoiceHandler;
 
     public DriverManager() {
-        this.driverService = new DriverServiceImpl(); // Added DriverServiceImpl integration
+        this.driverService = new DriverServiceImpl();
         this.menuChoiceHandler = new ConsoleInputHandler<>(
                 new InputValidatorImpl<>(
                         new MenuItemValidator(3),
@@ -29,19 +31,26 @@ public class DriverManager {
     }
 
     public void listAvailableDrivers() {
-        final List<Driver> availableDrivers = this.driverService.getAvailableDrivers(); // Updated to use driverService
-        System.out.println("\n--- Available Drivers ---");
-        for (final Driver driver : availableDrivers) {
-            System.out.println(driver.getName() + " - " + driver.getVehicle());
+        final List<Driver> availableDrivers = this.driverService.getAvailableDrivers();
+        if (availableDrivers.isEmpty()) {
+            System.out.println("No drivers currently available.");
+            return;
         }
+
+        System.out.println("\n--- Available Drivers ---");
+        availableDrivers.forEach(driver -> System.out.println(driver.getName() + " - " + driver.getVehicle()));
     }
 
-    public void assignDriverToOrder(final Scanner scanner, final Order order,
-            final ConsoleInputHandler<Long> orderIdHandler) {
+    public Optional<Driver> assignDriverToOrder(final Scanner scanner, final Order order) {
+        if (order == null) {
+            DriverManager.logger.warning("Attempted to assign driver to null order.");
+            return Optional.empty();
+        }
+
         final List<Driver> availableDrivers = this.driverService.getAvailableDrivers();
         if (availableDrivers.isEmpty()) {
             System.out.println("No available drivers at the moment.");
-            return;
+            return Optional.empty();
         }
 
         System.out.println("\n--- Available Drivers ---");
@@ -54,115 +63,61 @@ public class DriverManager {
                 scanner,
                 "Select a driver (enter number): ");
 
-        if (driverChoice == null || driverChoice < 1 || driverChoice > availableDrivers.size())
-            return;
+        if (driverChoice == null || driverChoice < 1 || driverChoice > availableDrivers.size()) {
+            System.out.println("Invalid driver selection.");
+            return Optional.empty();
+        }
 
         final Driver selectedDriver = availableDrivers.get(driverChoice - 1);
+        this.driverService.assignDriverToOrder(selectedDriver, order);
+        order.setStatus(OrderStatus.CONFIRMED);
 
-        if (order != null) {
-            this.driverService.assignDriverToOrder(selectedDriver, order);
-            order.setStatus(OrderStatus.CONFIRMED); // Update order status
-            System.out.println("Driver assigned successfully.");
-            DriverManager.logger.info("Driver " + selectedDriver.getName() + " assigned to order " + order.getId()); // Use
-                                                                                                                     // getId()
-            // method
-        } else {
-            System.out.println("Order not found.");
-        }
+        DriverManager.logger.info(() -> String.format("Driver %s assigned to order %d",
+                selectedDriver.getName(), order.getId()));
+
+        return Optional.of(selectedDriver);
     }
 
-    public void rateDriver(final Scanner scanner, final Order order,
-            final ConsoleInputHandler<Integer> menuChoiceHandler) {
+    public void rateDriver(final Scanner scanner, final Order order) {
+        if (order == null) {
+            System.out.println("No order provided for driver rating.");
+            return;
+        }
+
         final Driver driver = this.driverService.getDriverForOrder(order);
         if (driver == null) {
             System.out.println("No driver assigned to this order.");
             return;
         }
 
-        final Integer rating = menuChoiceHandler.handleInput(
-                scanner,
-                "Rate the driver (1-5 stars): ",
-                input -> input >= 1 && input <= 5);
-
-        if (rating != null) {
-            driver.addRating(rating); // Use addRating method
-            System.out.println("Thank you for your feedback!");
-            DriverManager.logger.info("Driver " + driver.getName() + " rated: " + rating + " stars");
-        }
-    }
-
-    public void rateDriverInteractive(final Scanner scanner, final OrderManager orderManager) {
-        final Long orderId = orderManager.getOrderIdHandler().handleInput(
-                scanner,
-                "Enter Order ID to rate driver: ");
-
-        if (orderId == null)
-            return;
-
-        final Order order = orderManager.getOrderService().getOrderById(orderId);
-        if (order != null && order.getStatus() == OrderStatus.DELIVERED) {
-            this.rateDriver(scanner, order, this.menuChoiceHandler);
-        } else {
-            System.out.println("Order not found or not delivered yet.");
-        }
-    }
-
-    public ConsoleInputHandler<Integer> getMenuChoiceHandler() {
-        return this.menuChoiceHandler;
-    }
-
-    public void manageDriverMenu(final Scanner scanner, final OrderManager orderManager) {
-        while (true) {
-            System.out.println("\n--- Driver Management ---");
-            System.out.println("1. View Available Drivers");
-            System.out.println("2. Assign Driver to Order");
-            System.out.println("3. Return to Main Menu");
-
-            final Integer choice = this.menuChoiceHandler.handleInput(
-                    scanner,
-                    "Enter your choice: ");
-
-            if (choice == null)
+        System.out.println("Rate your driver (1-5 stars):");
+        try {
+            final int rating = Integer.parseInt(scanner.nextLine());
+            if (rating < 1 || rating > 5) {
+                System.out.println("Invalid rating. Please enter a number between 1 and 5.");
                 return;
-
-            switch (choice) {
-                case 1 -> this.listAvailableDrivers();
-                case 2 -> this.assignDriverToOrderInteractive(scanner, orderManager);
-                case 3 -> {
-                    return; // Return to main menu
-                }
-                default -> System.out.println("Invalid choice.");
             }
+
+            driver.updateRating(rating);
+            System.out.println("Thank you for your feedback!");
+            DriverManager.logger.info(() -> String.format("Driver %s rated %d stars", driver.getName(), rating));
+        } catch (final NumberFormatException e) {
+            System.out.println("Invalid input. Please enter a number.");
+            DriverManager.logger.log(Level.WARNING, "Invalid rating input", e);
         }
     }
 
-    private void assignDriverToOrderInteractive(final Scanner scanner, final OrderManager orderManager) {
-        final Long orderId = orderManager.getOrderIdHandler().handleInput(
-                scanner,
-                "Enter Order ID to assign driver: ");
-
-        if (orderId == null)
-            return;
-
-        final Order order = orderManager.getOrderService().getOrderById(orderId);
-        if (order != null) {
-            this.assignDriverToOrder(scanner, order, orderManager.getOrderIdHandler());
-        } else {
-            System.out.println("Order not found.");
-        }
-    }
-
-    public void acceptAndDeliverOrder(final Scanner scanner, final OrderManager orderManager) {
-        final List<Order> pendingOrders = orderManager.getPendingOrders();
-        if (pendingOrders.isEmpty()) {
-            System.out.println("No pending orders to accept.");
+    public void acceptPendingOrder(final Scanner scanner, final List<Order> pendingOrders) {
+        if (pendingOrders == null || pendingOrders.isEmpty()) {
+            System.out.println("No pending orders available.");
             return;
         }
 
         System.out.println("\n--- Pending Orders ---");
         for (int i = 0; i < pendingOrders.size(); i++) {
             final Order order = pendingOrders.get(i);
-            System.out.printf("%d. Order ID: %d, Customer: %s\n", i + 1, order.getId(), order.getCustomerEmail());
+            System.out.printf("%d. Order ID: %d - Status: %s\n",
+                    i + 1, order.getId(), order.getStatus());
         }
 
         final Integer orderChoice = this.menuChoiceHandler.handleInput(
@@ -170,21 +125,25 @@ public class DriverManager {
                 "Select an order to accept: ");
 
         if (orderChoice == null || orderChoice < 1 || orderChoice > pendingOrders.size()) {
-            System.out.println("Invalid choice.");
+            System.out.println("Invalid order selection.");
             return;
         }
 
         final Order selectedOrder = pendingOrders.get(orderChoice - 1);
+        final Optional<Driver> driver = this.driverService.findAvailableDriver();
 
-        final Driver driver = this.driverService.getAvailableDrivers().stream().findFirst().orElse(null);
-        if (driver == null) {
-            System.out.println("No available drivers at the moment.");
-            return;
-        }
-
-        this.driverService.assignDriverToOrder(driver, selectedOrder);
-        selectedOrder.setStatus(OrderStatus.IN_PROGRESS);
-        System.out.println("Order assigned to driver " + driver.getName() + " and is now in progress.");
-        DriverManager.logger.info("Order " + selectedOrder.getId() + " delivered.");
+        driver.ifPresentOrElse(
+                selectedDriver -> {
+                    this.driverService.assignDriverToOrder(selectedDriver, selectedOrder);
+                    selectedOrder.setStatus(OrderStatus.IN_PROGRESS);
+                    System.out.println("Order assigned to driver " + selectedDriver.getName() +
+                            " and is now in progress.");
+                    DriverManager.logger.info(() -> String.format("Order %d assigned to driver %s",
+                            selectedOrder.getId(), selectedDriver.getName()));
+                },
+                () -> {
+                    System.out.println("No available drivers at the moment.");
+                    DriverManager.logger.warning("No available drivers to accept order");
+                });
     }
 }

@@ -5,88 +5,103 @@
 
 package services.impl;
 
-import model.Driver;
-import model.Order;
-import model.OrderStatus;
-import services.DriverService;
-
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
-import java.util.concurrent.ConcurrentHashMap;
+import java.util.Optional;
+import java.util.logging.Level;
 import java.util.logging.Logger;
-import java.util.stream.Collectors;
+
+import model.Driver;
+import model.Order;
+import services.DriverService;
 
 public class DriverServiceImpl implements DriverService {
     private static final Logger logger = Logger.getLogger(DriverServiceImpl.class.getName());
-    private final List<Driver> drivers;
-    private final Map<Long, Driver> orderDriverMap;
-
-    public DriverServiceImpl() {
-        this.drivers = new ArrayList<>();
-        this.orderDriverMap = new ConcurrentHashMap<>();
-        initializeDrivers();
-    }
-
-    private void initializeDrivers() {
-        // Initialize with sample drivers
-        drivers.add(new Driver(1L, "John Doe", "Car", "ABC123"));
-        drivers.add(new Driver(2L, "Jane Smith", "Bike", "XYZ789"));
-        drivers.add(new Driver(3L, "Mike Johnson", "Scooter", "DEF456"));
-    }
+    private final List<Driver> drivers = new ArrayList<>();
 
     @Override
     public List<Driver> getAvailableDrivers() {
-        return drivers.stream()
+        return this.drivers.stream()
                 .filter(Driver::isAvailable)
-                .collect(Collectors.toList());
+                .toList();
     }
 
     @Override
-    public Driver getDriverForOrder(Order order) {
-        return orderDriverMap.get(order.getOrderId());
+    public Optional<Driver> findAvailableDriver() {
+        return this.drivers.stream()
+                .filter(Driver::isAvailable)
+                .findFirst();
     }
 
     @Override
-    public void assignDriverToOrder(Driver driver, Order order) {
+    public void assignDriverToOrder(final Driver driver, final Order order) {
         if (driver == null || order == null) {
-            logger.warning("Cannot assign null driver or order");
-            return;
-        }
-
-        driver.setAvailable(false);
-        orderDriverMap.put(order.getOrderId(), driver);
-        order.setDriver(driver);
-        order.setStatus(OrderStatus.IN_PROGRESS);
-        logger.info("Assigned driver " + driver.getId() + " to order " + order.getOrderId());
-    }
-
-    @Override
-    public void rateDriver(Driver driver, Integer rating) {
-        if (driver == null) {
-            logger.warning("Cannot rate null driver");
-            return;
-        }
-
-        if (rating == null || rating < 1 || rating > 5) {
-            logger.warning("Invalid rating value: " + rating);
+            DriverServiceImpl.logger.warning("Cannot assign null driver or order");
             return;
         }
 
         try {
-            driver.addRating(rating);
-            logger.info("Added rating " + rating + " to driver " + driver.getId());
-        } catch (IllegalArgumentException e) {
-            logger.warning("Failed to add rating: " + e.getMessage());
+            driver.acceptOrder(order);
+            DriverServiceImpl.logger.info(() -> String.format("Driver %s assigned to order %d",
+                    driver.getName(), order.getId()));
+        } catch (final Exception e) {
+            DriverServiceImpl.logger.log(Level.SEVERE, "Error assigning driver to order", e);
         }
     }
 
-    public void completeDelivery(Order order) {
-        Driver driver = orderDriverMap.get(order.getOrderId());
-        if (driver != null) {
-            driver.setAvailable(true);
-            order.setStatus(OrderStatus.DELIVERED);
-            logger.info("Delivery completed for order " + order.getOrderId());
+    @Override
+    public Driver getDriverForOrder(final Order order) {
+        if (order == null) {
+            DriverServiceImpl.logger.warning("Cannot find driver for null order");
+            return null;
+        }
+
+        return this.drivers.stream()
+                .filter(driver -> driver.getCurrentOrder()
+                        .map(currentOrder -> currentOrder.getId().equals(order.getId()))
+                        .orElse(false))
+                .findFirst()
+                .orElse(null);
+    }
+
+    @Override
+    public void updateDriverAvailability(final Driver driver, final boolean isAvailable) {
+        if (driver == null) {
+            DriverServiceImpl.logger.warning("Cannot update availability for null driver");
+            return;
+        }
+
+        driver.setAvailable(isAvailable);
+        DriverServiceImpl.logger.info(() -> String.format("Driver %s availability updated to %b",
+                driver.getName(), isAvailable));
+    }
+
+    @Override
+    public List<Driver> getAllDrivers() {
+        return new ArrayList<>(this.drivers);
+    }
+
+    // Additional utility methods
+    public void addDriver(final Driver driver) {
+        if (driver == null) {
+            DriverServiceImpl.logger.warning("Cannot add null driver");
+            return;
+        }
+
+        if (!this.drivers.contains(driver)) {
+            this.drivers.add(driver);
+            DriverServiceImpl.logger.info(() -> String.format("Driver %s added to system", driver.getName()));
+        }
+    }
+
+    public void removeDriver(final Driver driver) {
+        if (driver == null) {
+            DriverServiceImpl.logger.warning("Cannot remove null driver");
+            return;
+        }
+
+        if (this.drivers.remove(driver)) {
+            DriverServiceImpl.logger.info(() -> String.format("Driver %s removed from system", driver.getName()));
         }
     }
 }
