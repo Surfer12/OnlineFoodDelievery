@@ -3,7 +3,8 @@ package services;
 import java.util.List;
 
 import model.MenuItem;
-import order.Order; // Updated import
+import order.OrderService;
+import model.OrderModel;
 
 public interface OrderService {
     Order getOrderById(Long orderId);

@@ -7,8 +7,8 @@ import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
 import model.MenuItem;
-import order.Order; // Updated import
-import model.OrderStatus;
+import order.OrderStatus;
+import model.OrderModel;
 import queue.OrderQueue;
 import services.OrderService;
 import services.impl.OrderServiceImpl;
