@@ -53,9 +53,9 @@ public class DeliverySystemCLI {
 
     private void initializeMenu() {
         // Initialize menu items using ConcreteMenuItem
-        final MenuItem hamburger = new ConcreteMenuItem("Hamburger", 5.99);
-        final MenuItem fries = new ConcreteMenuItem("Fries", 2.99);
-        final MenuItem drink = new ConcreteMenuItem("Drink", 1.99);
+        final MenuItem hamburger = new ConcreteMenuItem(1L, "Hamburger", "Beef patty with lettuce and tomato", 5.99, Size.MEDIUM, 1);
+        final MenuItem fries = new ConcreteMenuItem(2L, "Fries", "Crispy golden fries", 2.99, Size.LARGE, 1);
+        final MenuItem drink = new ConcreteMenuItem(3L, "Drink", "Refreshing beverage", 1.99, Size.SMALL, 1);
         menuManager.addMenuItem(hamburger);
         menuManager.addMenuItem(fries);
         menuManager.addMenuItem(drink);
@@ -130,13 +130,13 @@ public class DeliverySystemCLI {
                 for (final String itemNum : itemNumbers) {
                     switch (itemNum) {
                         case "1":
-                            selectedItems.add(new ConcreteMenuItem("Hamburger", 5.99));
+                            selectedItems.add(new ConcreteMenuItem(1L, "Hamburger", "Beef patty with lettuce and tomato", 5.99, Size.MEDIUM, 1));
                             break;
                         case "2":
-                            selectedItems.add(new ConcreteMenuItem("Fries", 2.99));
+                            selectedItems.add(new ConcreteMenuItem(2L, "Fries", "Crispy golden fries", 2.99, Size.LARGE, 1));
                             break;
                         case "3":
-                            selectedItems.add(new ConcreteMenuItem("Drink", 1.99));
+                            selectedItems.add(new ConcreteMenuItem(3L, "Drink", "Refreshing beverage", 1.99, Size.SMALL, 1));
                             break;
                         default:
                             System.out.println("Invalid item number: " + itemNum);

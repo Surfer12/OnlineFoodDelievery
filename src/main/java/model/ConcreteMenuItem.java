@@ -1,12 +1,10 @@
 package model;
 
 public class ConcreteMenuItem implements MenuItem {
-    private final Long id;
-    private final String name;
-    private final String description;
-    private final double price;
-    private final Size size;
-    private final int quantity;
+    private String name;
+    private double price;
+    private Size size;
+    private int quantity;
 
     public ConcreteMenuItem(final Long id, final String name, final String description,
                             final double price, final Size size, final int quantity) {

@@ -13,6 +13,7 @@ import model.OrderStatus;
 
 public class OrderServiceImpl implements OrderService {
     private final Queue<Order> orderQueue = new LinkedList<>(); // Ensure FIFO processing
+    private IdGenerator idGenerator = new IdGenerator();
 
     @Override
     public Order getOrderById(Long orderId) {
