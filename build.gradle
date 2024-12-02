@@ -9,7 +9,6 @@ plugins {
 
 repositories {
     mavenCentral()
-    mavenLocal()
 }
 
 java {
@@ -56,12 +55,18 @@ test {
     testLogging {
         events 'passed', 'skipped', 'failed'
     }
-
-
 }
 
-run {
-    // ...existing JVM options...
-    // Comment out or remove the heap dump option if present
-    // jvmArgs += "-XX:+HeapDumpOnOutOfMemoryError"
+
+
+
+task clearLocalCache {
+    // Hook to clear the local cache after the build is finished
+    doLast {
+        delete file("$buildDir/caches")
+    }
 }
+
+// Add clearLocalCache as a final task to run after the build
+tasks.build.finalizedBy(clearLocalCache)
+
