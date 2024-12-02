@@ -1,8 +1,7 @@
 package validation;
-package validation;
 
-import static org.junit.jupiter.api.Assertions.*;
-
+import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
@@ -13,40 +12,28 @@ class InputValidationTest {
 
     @Test
     void validateTextInput_ValidInput_NoException() {
-        assertDoesNotThrow(() -> 
-            InputValidationUtils.validateTextInput("valid input", "Test Field")
-        );
+        assertDoesNotThrow(() -> InputValidationUtils.validateTextInput("valid input", "Test Field"));
     }
 
     @ParameterizedTest
-    @ValueSource(strings = {"", " ", "\t", "\n"})
+    @ValueSource(strings = { "", " ", "\t", "\n" })
     void validateTextInput_EmptyOrWhitespace_ThrowsException(String input) {
-        assertThrows(ValidationException.class, () ->
-            InputValidationUtils.validateTextInput(input, "Test Field")
-        );
+        assertThrows(ValidationException.class, () -> InputValidationUtils.validateTextInput(input, "Test Field"));
     }
 
     @Test
     void validateEmailFormat_ValidEmail_NoException() {
-        assertDoesNotThrow(() ->
-            InputValidationUtils.validateEmailFormat("test@example.com")
-        );
+        assertDoesNotThrow(() -> InputValidationUtils.validateEmailFormat("test@example.com"));
     }
 
     @ParameterizedTest
-    @ValueSource(strings = {"invalid", "test@", "@example.com", "test@.com"})
+    @ValueSource(strings = { "invalid", "test@", "@example.com", "test@.com" })
     void validateEmailFormat_InvalidEmail_ThrowsException(String email) {
-        assertThrows(ValidationException.class, () ->
-            InputValidationUtils.validateEmailFormat(email)
-        );
+        assertThrows(ValidationException.class, () -> InputValidationUtils.validateEmailFormat(email));
     }
 
     @Test
     void validatePhoneNumber_ValidNumber_NoException() {
-        assertDoesNotThrow(() ->
-            InputValidationUtils.validatePhoneNumber("+1234567890")
-        );
+        assertDoesNotThrow(() -> InputValidationUtils.validatePhoneNumber("+1234567890"));
     }
 }
-
-

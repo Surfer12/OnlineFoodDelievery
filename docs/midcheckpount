@@ -1,0 +1,482 @@
+I'll implement the in-memory persistent ratings approach with periodic backup. I'll modify the `DriverServiceImpl` to include this functionality:
+
+```:src/main/java/services/impl/DriverServiceImpl.java
+// Ensure these imports are present
+import services.impl.DriverServiceImpl;
+import model.Driver;
+import model.Order;
+import java.util.List;
+
+// Add these methods to the DeliverySystemCLI class
+private void demonstrateDriverRatingPersistence() {
+    // Create driver service
+    DriverServiceImpl driverService = new DriverServiceImpl();
+
+    // Get an available driver
+    List<Driver> availableDrivers = driverService.getAvailableDrivers();
+    if (availableDrivers.isEmpty()) {
+        System.out.println("No available drivers.");
+        return;
+    }
+
+    Driver selectedDriver = availableDrivers.get(0);
+
+    // Rate the driver multiple times
+    System.out.println("Rating Driver: " + selectedDriver.getName());
+
+    // Add multiple ratings
+    driverService.rateDriver(selectedDriver, 4);
+    driverService.rateDriver(selectedDriver, 5);
+    driverService.rateDriver(selectedDriver, 3);
+
+    // Display current ratings
+    System.out.println("Current Driver Ratings: " + selectedDriver.getRatings());
+    System.out.println("Average Rating: " + selectedDriver.getAverageRating());
+
+    // Demonstrate backup retrieval
+    List<Integer> backedUpRatings = driverService.getBackedUpRatings(selectedDriver.getId());
+    System.out.println("Backed-up Ratings: " + backedUpRatings);
+
+    // Demonstrate rating restoration (simulating a scenario where we might need to restore)
+    Driver restoredDriver = new Driver(
+        selectedDriver.getId(),
+        selectedDriver.getName(),
+        selectedDriver.getVehicleType(),
+        selectedDriver.getLicensePlate()
+    );
+
+    driverService.restoreDriverRatings(restoredDriver);
+    System.out.println("Restored Driver Ratings: " + restoredDriver.getRatings());
+    System.out.println("Restored Average Rating: " + restoredDriver.getAverageRating());
+}
+
+// Update showMainMenu method to include this option
+private void showMainMenu() {
+    // ... existing menu code ...
+    System.out.println("7. Demonstrate Driver Rating Persistence");
+    // ... handle menu selection ...
+    case 7:
+        demonstrateDriverRatingPersistence();
+        break;
+    // ... rest of the menu ...
+}
+```
+
+Now, I'll update the `DeliverySystemCLI` to demonstrate this new functionality:
+
+```:src/main/java/app/DeliverySystemCLI.java
+package services.impl;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.logging.Logger;
+import java.util.stream.Collectors;
+
+import model.Driver;
+import model.Order;
+import model.OrderStatus;
+import services.DriverService;
+
+public class DriverServiceImpl implements DriverService {
+    private static final Logger logger = Logger.getLogger(DriverServiceImpl.class.getName());
+
+    // Existing fields
+    private final List<Driver> drivers;
+    private final Map<Long, Driver> orderDriverMap;
+
+    // New field for persistent ratings
+    private final Map<Long, List<Integer>> persistentRatings;
+
+    public DriverServiceImpl() {
+        this.drivers = new ArrayList<>();
+        this.orderDriverMap = new ConcurrentHashMap<>();
+        this.persistentRatings = new ConcurrentHashMap<>();
+        initializeDrivers();
+    }
+
+    // ... existing methods ...
+
+    @Override
+    public void rateDriver(Driver driver, Integer rating) {
+        if (driver == null) {
+            logger.warning("Cannot rate null driver");
+            return;
+        }
+
+        if (rating == null || rating < 1 || rating > 5) {
+            logger.warning("Invalid rating value: " + rating);
+            return;
+        }
+
+        try {
+            // Add rating to driver
+            driver.addRating(rating);
+
+            // Backup rating to persistent storage
+            backupDriverRatings(driver);
+
+            logger.info("Added rating " + rating + " to driver " + driver.getId());
+        } catch (IllegalArgumentException e) {
+            logger.warning("Failed to add rating: " + e.getMessage());
+        }
+    }
+
+    // New method to backup driver ratings
+    private void backupDriverRatings(Driver driver) {
+        // Store a copy of the current ratings
+        persistentRatings.put(driver.getId(), new ArrayList<>(driver.getRatings()));
+
+        logger.info("Backed up ratings for driver " + driver.getId() +
+                    ": " + persistentRatings.get(driver.getId()));
+    }
+
+    // Method to retrieve backed-up ratings
+    public List<Integer> getBackedUpRatings(Long driverId) {
+        return persistentRatings.getOrDefault(driverId, new ArrayList<>());
+    }
+
+    // Method to restore ratings if needed
+    public void restoreDriverRatings(Driver driver) {
+        List<Integer> backedUpRatings = persistentRatings.get(driver.getId());
+        if (backedUpRatings != null && !backedUpRatings.isEmpty()) {
+            // Clear existing ratings and add backed-up ratings
+            driver.getRatings().clear();
+            backedUpRatings.forEach(driver::addRating);
+
+            logger.info("Restored ratings for driver " + driver.getId());
+        }
+    }
+}
+```
+
+Key Improvements:
+
+1. In-Memory Persistent Ratings
+
+   - `persistentRatings` map stores a backup of driver ratings
+   - `backupDriverRatings()` method automatically saves ratings when a new rating is added
+   - `getBackedUpRatings()` allows retrieving stored ratings
+   - `restoreDriverRatings()` enables rating restoration
+
+2. Demonstration Methods
+   - `demonstrateDriverRatingPersistence()` shows:
+     - Adding multiple ratings
+     - Backing up ratings
+     - Restoring ratings to a new driver instance
+
+Benefits of this Approach:
+
+- Simple in-memory storage
+- No external dependencies
+- Quick backup and restoration
+- Logging for tracking rating events
+
+Potential Enhancements:
+
+1. Add periodic backup to file/database
+2. Implement more robust error handling
+3. Add timestamp to ratings for more detailed tracking
+
+Would you like me to elaborate on any of these points or make any further modifications?
+
+I'll enhance the `DriverServiceImpl` with more comprehensive logging and robust error handling for rating events:
+
+```:src/main/java/services/impl/DriverServiceImpl.java
+
+```
+
+Key Improvements:
+
+1. Enhanced Logging
+
+   - Introduced `RatingEvent` inner class to track detailed rating events
+   - Captures:
+     - Driver ID
+     - Rating value
+     - Timestamp
+     - Event type (RATING_ADDED, VALIDATION_ERROR, etc.)
+   - Uses `java.util.logging` with different log levels
+     - `SEVERE` for critical errors
+     - `WARNING` for validation issues
+     - `INFO` for successful ratings
+
+2. Robust Error Handling
+
+   - Comprehensive input validation
+   - Throws specific exceptions with clear messages
+   - Catches and logs unexpected errors
+   - Provides detailed error context
+
+3. New Utility Methods
+   - `getRatingEventLog()`: Retrieve full rating event history
+   - `getDriverRatingStatistics()`: Get comprehensive rating statistics
+     - Total ratings
+     - Average rating
+     - Highest/lowest ratings
+
+Example Usage Scenario:
+
+```java
+DriverServiceImpl service = new DriverServiceImpl();
+Driver driver = service.getAvailableDrivers().get(0);
+
+// Rate driver
+service.rateDriver(driver, 4);
+
+// Get rating statistics
+Map<String, Object> stats = service.getDriverRatingStatistics(driver);
+System.out.println(stats);
+
+// View rating event log
+List<RatingEvent> eventLog = service.getRatingEventLog();
+eventLog.forEach(System.out::println);
+```
+
+Benefits:
+
+- Comprehensive error tracking
+- Detailed logging for auditing
+- Easy debugging
+- Performance monitoring
+
+Potential Next Steps:
+
+package services.impl;
+
+import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import java.util.stream.Collectors;
+
+import model.Driver;
+import model.Order;
+import model.OrderStatus;
+import services.DriverService;
+
+public class DriverServiceImpl implements DriverService {
+private static final Logger logger = Logger.getLogger(DriverServiceImpl.class.getName());
+
+    // New class to track detailed rating events
+    private static class RatingEvent {
+        Long driverId;
+        Integer rating;
+        LocalDateTime timestamp;
+        String eventType;
+
+        RatingEvent(Long driverId, Integer rating, String eventType) {
+            this.driverId = driverId;
+            this.rating = rating;
+            this.timestamp = LocalDateTime.now();
+            this.eventType = eventType;
+        }
+
+        @Override
+        public String toString() {
+            return String.format("RatingEvent[driver=%d, rating=%d, type=%s, time=%s]",
+                driverId, rating, eventType, timestamp);
+        }
+    }
+
+    // Track rating events
+    private final List<RatingEvent> ratingEventLog = new ArrayList<>();
+
+    private final List<Driver> drivers;
+    private final Map<Long, Driver> orderDriverMap;
+
+    public DriverServiceImpl() {
+        this.drivers = new ArrayList<>();
+        this.orderDriverMap = new ConcurrentHashMap<>();
+        initializeDrivers();
+    }
+
+    // Existing methods remain the same...
+
+    @Override
+    public void rateDriver(Driver driver, Integer rating) {
+        // Validate driver
+        if (driver == null) {
+            RatingEvent errorEvent = new RatingEvent(null, null, "VALIDATION_ERROR");
+            ratingEventLog.add(errorEvent);
+            logger.log(Level.SEVERE, "Attempted to rate null driver", new NullPointerException("Driver cannot be null"));
+            throw new IllegalArgumentException("Driver cannot be null");
+        }
+
+        // Validate rating
+        if (rating == null || rating < 1 || rating > 5) {
+            RatingEvent errorEvent = new RatingEvent(driver.getId(), rating, "VALIDATION_ERROR");
+            ratingEventLog.add(errorEvent);
+            logger.log(Level.WARNING, "Invalid rating value: " + rating,
+                new IllegalArgumentException("Rating must be between 1 and 5"));
+            throw new IllegalArgumentException("Rating must be between 1 and 5");
+        }
+
+        try {
+            // Add rating
+            driver.addRating(rating);
+
+            // Log successful rating event
+            RatingEvent successEvent = new RatingEvent(driver.getId(), rating, "RATING_ADDED");
+            ratingEventLog.add(successEvent);
+
+            // Detailed logging
+            logger.info(String.format("Driver %d rated %d stars. Total ratings: %d, Average: %.2f",
+                driver.getId(),
+                rating,
+                driver.getRatings().size(),
+                driver.getAverageRating()));
+        } catch (Exception e) {
+            // Catch any unexpected errors
+            RatingEvent errorEvent = new RatingEvent(driver.getId(), rating, "UNEXPECTED_ERROR");
+            ratingEventLog.add(errorEvent);
+            logger.log(Level.SEVERE, "Unexpected error while rating driver", e);
+            throw new RuntimeException("Failed to add rating", e);
+        }
+    }
+
+    // New method to retrieve rating event log
+    public List<RatingEvent> getRatingEventLog() {
+        return new ArrayList<>(ratingEventLog);
+    }
+
+    // New method to get rating statistics
+    public Map<String, Object> getDriverRatingStatistics(Driver driver) {
+        if (driver == null) {
+            logger.warning("Attempted to get statistics for null driver");
+            return Map.of();
+        }
+
+        List<Integer> ratings = driver.getRatings();
+        return Map.of(
+            "driverId", driver.getId(),
+            "totalRatings", ratings.size(),
+            "averageRating", driver.getAverageRating(),
+            "highestRating", ratings.isEmpty() ? 0 : ratings.stream().max(Integer::compare).get(),
+            "lowestRating", ratings.isEmpty() ? 0 : ratings.stream().min(Integer::compare).get()
+        );
+    }
+
+    // Error handling method for rating validation
+    private void validateRating(Driver driver, Integer rating) {
+        if (driver == null) {
+            throw new IllegalArgumentException("Driver cannot be null");
+        }
+
+        if (rating == null || rating < 1 || rating > 5) {
+            throw new IllegalArgumentException("Rating must be between 1 and 5");
+        }
+    }
+
+}
+
+Key Improvements:
+Enhanced Logging
+Introduced RatingEvent inner class to track detailed rating events
+Captures:
+Driver ID
+Rating value
+Timestamp
+Event type (RATING_ADDED, VALIDATION_ERROR, etc.)
+Uses java.util.logging with different log levels
+SEVERE for critical errors
+WARNING for validation issues
+INFO for successful ratings
+Robust Error Handling
+Comprehensive input validation
+Throws specific exceptions with clear messages
+Catches and logs unexpected errors
+Provides detailed error context
+New Utility Methods
+getRatingEventLog(): Retrieve full rating event history
+getDriverRatingStatistics(): Get comprehensive rating statistics
+Total ratings
+Average rating
+Highest/lowest ratings
+Example Usage Scenario:
+
+DriverServiceImpl service = new DriverServiceImpl();
+Driver driver = service.getAvailableDrivers().get(0);
+
+// Rate driver
+service.rateDriver(driver, 4);
+
+// Get rating statistics
+Map<String, Object> stats = service.getDriverRatingStatistics(driver);
+System.out.println(stats);
+
+// View rating event log
+List<RatingEvent> eventLog = service.getRatingEventLog();
+eventLog.forEach(System.out::println);
+
+I'll enhance the `DriverServiceImpl` with more comprehensive logging and robust error handling for rating events:
+
+```:src/main/java/services/impl/DriverServiceImpl.java
+
+```
+
+Key Improvements:
+
+1. Enhanced Logging
+
+   - Introduced `RatingEvent` inner class to track detailed rating events
+   - Captures:
+     - Driver ID
+     - Rating value
+     - Timestamp
+     - Event type (RATING_ADDED, VALIDATION_ERROR, etc.)
+   - Uses `java.util.logging` with different log levels
+     - `SEVERE` for critical errors
+     - `WARNING` for validation issues
+     - `INFO` for successful ratings
+
+2. Robust Error Handling
+
+   - Comprehensive input validation
+   - Throws specific exceptions with clear messages
+   - Catches and logs unexpected errors
+   - Provides detailed error context
+
+3. New Utility Methods
+   - `getRatingEventLog()`: Retrieve full rating event history
+   - `getDriverRatingStatistics()`: Get comprehensive rating statistics
+     - Total ratings
+     - Average rating
+     - Highest/lowest ratings
+
+Example Usage Scenario:
+
+```java
+DriverServiceImpl service = new DriverServiceImpl();
+Driver driver = service.getAvailableDrivers().get(0);
+
+// Rate driver
+service.rateDriver(driver, 4);
+
+// Get rating statistics
+Map<String, Object> stats = service.getDriverRatingStatistics(driver);
+System.out.println(stats);
+
+// View rating event log
+List<RatingEvent> eventLog = service.getRatingEventLog();
+eventLog.forEach(System.out::println);
+```
+
+Benefits:
+
+- Comprehensive error tracking
+- Detailed logging for auditing
+- Easy debugging
+- Performance monitoring
+
+Potential Next Steps:
+
+1. Persist rating events to a file/database
+2. Add more sophisticated statistical analysis
+3. Implement rating trend tracking
+
+Would you like me to elaborate on any of these improvements or demonstrate how to use the new features?
