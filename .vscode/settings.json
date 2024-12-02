@@ -1,51 +1,102 @@
 {
+    // Java Configuration
     "java.configuration.updateBuildConfiguration": "automatic",
     "java.configuration.runtimes": [
         {
-            "name": "JavaSE-23",
-            "path": "/Library/Java/JavaVirtualMachines/temurin-23.jdk/Contents/Home"
+            "name": "JavaSE-17",
+            "path": "/Library/Java/JavaVirtualMachines/temurin-23.jdk/Contents/Home",
+            "default": true
         }
     ],
     "java.compile.nullAnalysis.mode": "disabled",
-    "editor.experimentalInlineEdit.enabled": true,
-    "editor.experimental.treeSitterTelemetry": true,
-    "editor.defaultColorDecorators": true,
-    "editor.wordWrap": "wordWrapColumn",
-    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-    "editor.codeActions.triggerOnFocusChange": false,
-    "editor.definitionLinkOpensInPeek": true,
-    "editor.foldingImportsByDefault": true,
-    "editor.glyphMargin": false,
-    "editor.cursorSmoothCaretAnimation": "explicit",
-    "editor.cursorBlinking": "phase",
-    "editor.cursorStyle": "block-outline",
-    "editor.find.globalFindClipboard": true,
-    "editor.formatOnPaste": true,
+    "java.project.sourcePaths": [
+        "src/main/java",
+        "src/test/java"
+    ],
+    "java.project.outputPath": "build/classes",
+    "java.project.importOnFirstTimeStartup": "automatic",
+    "java.import.gradle.enabled": true,
+    "java.import.gradle.wrapper.enabled": true,
+    "java.import.gradle.annotationProcessing.enabled": true,
+    "java.import.maven.enabled": false,
+    "java.autobuild.enabled": false,
+    "java.files.autoSave": "onFocusChange",
+    // Java Formatting and Cleanup
+    "java.format.enabled": true,
+    "java.format.onType.enabled": true,
+    "java.format.comments.enabled": true,
+    "java.cleanup.actionsOnSave": [
+        "qualifyMembers",
+        "removeUnusedImports",
+        "sortMembers"
+    ],
+    "java.cleanup.actions": [
+        "organizeImports",
+        "qualifyMembers",
+        "qualifyStaticMembers",
+        "addOverride",
+        "addDeprecated",
+        "stringConcatToTextBlock",
+        "invertEquals",
+        "addFinalModifier",
+        "instanceofPatternMatch",
+        "lambdaExpressionFromAnonymousClass",
+        "lambdaExpression",
+        "switchExpression",
+        "tryWithResource",
+        "renameFileToType",
+        "renameUnusedLocalVariables"
+    ],
+    // Java Development
+    "java.debug.settings.hotCodeReplace": "auto",
+    "java.completion.importOrder": [
+        "java",
+        "javax",
+        "org",
+        "com"
+    ],
+    "java.signatureHelp.enabled": true,
+    "jdk.test.editor.enableShortcuts": true,
+    "jdk.verbose": true,
+    // Gradle Configuration
+    "gradle.buildFile": "build.gradle",
+    "gradle.javaHomeDirectory": "/Library/Java/JavaVirtualMachines/temurin-23.jdk/Contents/Home",
+    "gradle.autoDetect": "on",
+    "gradle.allowParallelRun": true,
+    "gradle.javaDebug.cleanOutput": true,
+    "gradle.nestedProjects": true,
+    "gradle.reuseTerminals": "off",
+    "gradle.focusTaskInExplorer": true,
+    // Editor Configuration
     "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
     "editor.formatOnSaveMode": "modificationsIfAvailable",
-    "diffEditor.codeLens": true,
-    "diffEditor.experimental.showMoves": true,
-    "diffEditor.experimental.useTrueInlineView": true,
-    "diffEditor.hideUnchangedRegions.enabled": true,
-    "editor.minimap.autohide": true,
+    "editor.fontSize": 14,
+    "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.wordWrap": "on",
+    "editor.lineNumbers": "on",
     "editor.minimap.enabled": true,
     "editor.minimap.scale": 2,
+    "editor.minimap.autohide": true,
     "editor.suggest.localityBonus": true,
     "editor.suggest.preview": true,
     "editor.suggest.shareSuggestSelections": true,
+    "editor.experimentalInlineEdit.enabled": true,
+    "editor.experimental.treeSitterTelemetry": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    // Source Control
+    "scm.alwaysShowActions": true,
+    "scm.workingSets.enabled": true,
+    // File Handling
     "files.autoGuessEncoding": true,
     "files.autoSaveWorkspaceFilesOnly": true,
     "files.autoSaveWhenNoErrors": true,
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
-    "workbench.localHistory.maxFileEntries": 500,
-    "workbench.localHistory.maxFileSize": 10000,
-    "workbench.localHistory.mergeWindow": 500,
-    "scm.alwaysShowActions": true,
-    "scm.alwaysShowRepositories": false,
-    "scm.diffDecorationsGutterPattern": {
-        "added": true
-    },
-    "scm.workingSets.enabled": true,
-    "codeQL.cli.executablePath": "/Users/ryanoates/Library/Application Support/Cursor/User/workspaceStorage/be15622c1d142034ad2eec3ce9140e1f/GitHub.vscode-codeql/surfer12-onlinefooddelievery-1/java"
+// CodeQL Configuration
+"codeQL.cli.executablePath": "/Users/ryanoates/Library/Application Support/Cursor/User/workspaceStorage/be15622c1d142034ad2eec3ce9140e1f/GitHub.vscode-codeql/surfer12-onlinefooddelievery-1/java",
+"codeQL.telemetry.enableTelemetry": true
 }
