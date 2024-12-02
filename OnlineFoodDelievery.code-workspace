@@ -5,29 +5,7 @@
 		}
 	],
 	"settings": {
-		"java.dependency.packagePresentation": "hierarchical",
-		"java.project.sourcePaths": [
-			"src/main/java",
-			"src/test/java"
-		],
-		"java.project.outputPath": "target/classes",
-		"java.compile.nullAnalysis.mode": "automatic",
-		"java.import.gradle.enabled": true,
-		"java.import.gradle.wrapper.enabled": true,
-		"java.import.gradle.version": "",
-		"java.server.launchMode": "Standard",
-		"java.cleanup.actions": [
-			"organizeImports",
-			"qualifyMembers"
-		],
-		"java.completion.importOrder": [
-			"java",
-			"javax",
-			"com",
-			"org"
-		],
-		"java.format.settings.url": "${workspaceFolder}/.vscode/java-formatter.xml",
 		"java.configuration.updateBuildConfiguration": "automatic",
-		"codeQL.createQuery.qlPackLocation": "/Users/ryanoates/OnlineFoodDelievery"
+		"java.compile.nullAnalysis.mode": "automatic"
 	}
 }

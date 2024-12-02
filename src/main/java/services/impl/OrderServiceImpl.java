@@ -56,4 +56,10 @@ public class OrderServiceImpl implements OrderService {
         Order order = this.getOrderById(orderId);
         return order != null ? "Order in progress" : "Order not found";
     }
+
+    @Override
+    public List<Order> getAllOrders() {
+        // Implement logic to retrieve all orders
+        return orderRepository.findAll();
+    }
 }

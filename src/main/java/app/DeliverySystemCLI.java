@@ -69,9 +69,7 @@ public class DeliverySystemCLI {
                 case 1 -> this.orderManager.processOrderPlacement(
                         this.scanner,
                         this.menuManager,
-                        this.positiveIntegerHandler,
-                        this.emailHandler,
-                        this.locationHandler);
+                        this.positiveIntegerHandler);
                 case 2 -> this.orderManager.checkOrderStatus(this.scanner);
                 case 3 -> this.menuManager.displayMenu();
                 case 4 -> this.driverManager.manageDriverMenu(this.scanner, this.orderManager);
