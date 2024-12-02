@@ -1,9 +1,9 @@
 package builder;
 
+import java.util.List;
+
 import model.MenuItem;
 import model.Order;
-import java.util.List;
-import exception.CustomException; // Ensure CustomException is correctly imported
 
 public class OrderBuilder {
    private Long customerId;
@@ -38,14 +38,14 @@ public class OrderBuilder {
       return new Order(this.customerId, this.customerEmail, this.items, this.deliveryAddress, this.postalCode);
    }
 
-   public Order createOrder(List<MenuItem> orderItems) throws CustomException.QueueFullException {
+   public Order createOrder(final List<MenuItem> orderItems) throws CustomException.QueueFullException {
       // ...existing code...
 
-      Order newOrder = this.withCustomerId(validatedCustomerId)
-              .withCustomerEmail(validatedEmail)
-              .withItems(orderItems)
-              .withDeliveryLocation(validatedAddress, validatedPostalCode)
-              .build();
+      final Order newOrder = this.withCustomerId(validatedCustomerId)
+            .withCustomerEmail(validatedEmail)
+            .withItems(orderItems)
+            .withDeliveryLocation(validatedAddress, validatedPostalCode)
+            .build();
 
       // ...existing code...
       return newOrder;
