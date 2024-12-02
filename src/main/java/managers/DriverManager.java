@@ -19,7 +19,7 @@ public class DriverManager {
     private final ConsoleInputHandler<Integer> menuChoiceHandler;
 
     public DriverManager() {
-        this.driverService = new DriverServiceImpl();
+        this.driverService = new DriverServiceImpl(); // Added DriverServiceImpl integration
         this.menuChoiceHandler = new ConsoleInputHandler<>(
                 new InputValidatorImpl<>(
                         new MenuItemValidator(3),
@@ -28,7 +28,7 @@ public class DriverManager {
     }
 
     public void listAvailableDrivers() {
-        List<Driver> availableDrivers = this.driverService.getAvailableDrivers();
+        List<Driver> availableDrivers = this.driverService.getAvailableDrivers(); // Updated to use driverService
         System.out.println("\n--- Available Drivers ---");
         for (Driver driver : availableDrivers) {
             System.out.println(driver.getName() + " - " + driver.getVehicle());
@@ -140,7 +140,7 @@ public class DriverManager {
         Order order = orderManager.getOrderService().getOrderById(orderId);
         if (order != null) {
             this.assignDriverToOrder(scanner, order, orderManager.getOrderIdHandler());
-        } else {
+        } else { 
             System.out.println("Order not found.");
         }
     }
@@ -168,10 +168,16 @@ public class DriverManager {
         }
 
         Order selectedOrder = pendingOrders.get(orderChoice - 1);
-        this.assignDriverToOrder(scanner, selectedOrder, orderManager.getOrderIdHandler());
 
-        selectedOrder.setStatus(OrderStatus.DELIVERED);
-        System.out.println("Order delivered successfully.");
+        Driver driver = driverService.getAvailableDrivers().stream().findFirst().orElse(null);
+        if (driver == null) {
+            System.out.println("No available drivers at the moment.");
+            return;
+        }
+
+        driverService.assignDriverToOrder(driver, selectedOrder);
+        selectedOrder.setStatus(OrderStatus.IN_PROGRESS);
+        System.out.println("Order assigned to driver " + driver.getName() + " and is now in progress.");
         logger.info("Order " + selectedOrder.getOrderId() + " delivered.");
     }
 }

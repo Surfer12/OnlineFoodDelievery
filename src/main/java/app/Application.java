@@ -19,6 +19,9 @@ public class Application {
 
     public static void main(final String[] args) {
         try {
+        cli.start(); // Start the CLI application
+
+        try {
             final DeliverySystem deliverySystem = new DeliverySystem();
 
             final NotificationService notificationService = message -> System.out.println("Notification: " + message);
@@ -52,4 +55,7 @@ public class Application {
             System.err.println("An error occurred while processing the order: " + e.getMessage());
         }
     }
+    }
+}
+
 }

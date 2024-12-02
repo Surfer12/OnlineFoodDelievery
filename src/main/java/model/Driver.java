@@ -65,7 +65,7 @@ public class Driver {
          throw new IllegalArgumentException("Rating must be between 1 and 5");
       }
 
-      if (this.ratings.size() == 10) {
+      if (this.ratings.size() == MAX_RATINGS) {
          this.ratings.poll(); // Remove oldest rating
       }
 

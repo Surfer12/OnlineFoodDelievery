@@ -49,7 +49,7 @@ configurations {
 }
 
 application {
-    mainClass = 'app.DeliverySystemCLI'
+    mainClass = 'app.DeliverySystemCLI' // Updated main class
 }
 
 dependencies {

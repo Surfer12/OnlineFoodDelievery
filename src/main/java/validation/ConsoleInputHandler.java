@@ -53,6 +53,7 @@ public class ConsoleInputHandler<T> implements InputHandler<T> {
          final String userInput = this.scanner.nextLine();
          try {
             final T parsedInput = this.inputValidator.parse(userInput);
+            InputValidationUtils.validateTextInput(userInput, "Input"); // Integrated InputValidationUtils
             if (this.inputValidator.isValid(parsedInput)) {
                input = parsedInput;
                valid = true;

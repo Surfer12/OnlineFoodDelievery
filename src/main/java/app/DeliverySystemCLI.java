@@ -47,9 +47,9 @@ public class DeliverySystemCLI {
                                 "Positive Integer",
                                 "Invalid positive integer")),
                 new ConsoleInputHandler<>(
-                        InputValidatorImpl.emailValidator()),
+                        InputValidationUtils::validateEmailFormat),
                 new ConsoleInputHandler<>(
-                        InputValidatorImpl.deliveryLocationValidator()));
+                        InputValidationUtils::validateLocation));
     }
 
     public void start() {
