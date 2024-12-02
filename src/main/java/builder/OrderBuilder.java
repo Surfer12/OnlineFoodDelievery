@@ -2,6 +2,7 @@ package builder;
 
 import java.util.List;
 
+import CustomException.OrderProcessingException;
 import model.MenuItem;
 import model.Order;
 
@@ -38,24 +39,19 @@ public class OrderBuilder {
       return new Order(this.customerId, this.customerEmail, this.items, this.deliveryAddress, this.postalCode);
    }
 
-   public Order createOrder(final List<MenuItem> orderItems) throws CustomException.QueueFullException {
-      // ...existing code...
-      final Long validatedCustomerId = // ...validation logic...
-      final String validatedEmail = // ...validation logic...
-      final String validatedAddress = // ...validation logic...
-      final String validatedPostalCode = // ...validation logic...
+   public Order createOrder(final List<MenuItem> orderItems)
+         throws CustomException.QueueFullException, OrderProcessingException {
+      // Validate customer ID
+      if (this.customerId == null || this.customerId <= 0) {
+         throw new OrderProcessingException("Invalid customer ID");
+      }
+      final Long validatedCustomerId = this.customerId;
 
-      final Order newOrder = this.withCustomerId(validatedCustomerId)
-            .withCustomerEmail(validatedEmail)
-            .withItems(orderItems)
-            .withDeliveryLocation(validatedAddress, validatedPostalCode)
-            .build();
-
-      // ...existing code...
-
-      return newOrder;
-   }
-}
+      // Validate customer email
+      if (this.customerEmail == null || !this.customerEmail.matches("^[A-Za-z0-9+_.-]+@(.+)$")) {
+         throw new OrderProcessingException("Invalid email address");
+      }
+      final String validatedEmail = this.customerEmail;
 
       // Validate order items
       if (orderItems == null || orderItems.isEmpty()) {
