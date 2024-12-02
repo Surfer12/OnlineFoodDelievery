@@ -5,8 +5,8 @@ import java.util.List;
 import order.OrderStatus; // Ensure correct import
 import model.Size;
 
-public class Order {
-    private final Long id;
+public class OrderService {
+    private final Long id; 
     private final String customerEmail;
     private final String deliveryAddress;
     private final String postalCode;
@@ -14,12 +14,7 @@ public class Order {
     private final double totalPrice;
     private OrderStatus status; // Added status field
 
-    public Order(Long id, String customerEmail, String deliveryAddress, String postalCode, List<MenuItem> items) {
-    private Long orderId; // Added field
-    private LocalDateTime estimatedDeliveryTime; // Added field
-    private Driver driver; // Added field
-
-    public Order(Long id, String customerEmail, String deliveryAddress, String postalCode, List<MenuItem> items) {
+    public OrderService(Long id, String customerEmail, String deliveryAddress, String postalCode, List<MenuItem> items) {
         this.id = id;
         this.customerEmail = customerEmail;
         this.deliveryAddress = deliveryAddress;
@@ -77,10 +72,4 @@ public class Order {
     public void setDriver(Driver driver) {
         this.driver = driver;
     }
-}
-
-public enum Size {
-    SMALL,
-    MEDIUM,
-    LARGE
 }
