@@ -1,0 +1,15 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/builder/OrderBuilder.java</file>
+  <line>36</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>builder</package>
+  <entry_point TYPE="class" FQNAME="builder.OrderBuilder$1" />
+  <problem_class id="AnonymousInnerClassMayBeStatic" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Anonymous class may be a named 'static' inner class</problem_class>
+  <description>Anonymous class &lt;code&gt;Order&lt;/code&gt; may be a named 'static' inner class #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>5</length>
+</problem>
+</problems>

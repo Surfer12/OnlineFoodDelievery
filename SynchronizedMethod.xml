@@ -1,0 +1,41 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/OrderQueue.java</file>
+  <line>23</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="method" FQNAME="queue.OrderQueue void enqueue(model.Order order)" />
+  <problem_class id="SynchronizedMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'synchronized' method</problem_class>
+  <description>Method 'enqueue()' declared &lt;code&gt;synchronized&lt;/code&gt; #loc</description>
+  <highlighted_element>synchronized</highlighted_element>
+  <language>JAVA</language>
+  <offset>10</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/OrderQueue.java</file>
+  <line>38</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="method" FQNAME="queue.OrderQueue java.util.Optional&lt;model.Order&gt; dequeue()" />
+  <problem_class id="SynchronizedMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'synchronized' method</problem_class>
+  <description>Method 'dequeue()' declared &lt;code&gt;synchronized&lt;/code&gt; #loc</description>
+  <highlighted_element>synchronized</highlighted_element>
+  <language>JAVA</language>
+  <offset>10</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/OrderQueue.java</file>
+  <line>66</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="method" FQNAME="queue.OrderQueue int getPositionInQueue(model.Order order)" />
+  <problem_class id="SynchronizedMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'synchronized' method</problem_class>
+  <description>Method 'getPositionInQueue()' declared &lt;code&gt;synchronized&lt;/code&gt; #loc</description>
+  <highlighted_element>synchronized</highlighted_element>
+  <language>JAVA</language>
+  <offset>10</offset>
+  <length>12</length>
+</problem>
+</problems>

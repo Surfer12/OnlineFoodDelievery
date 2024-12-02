@@ -1,0 +1,830 @@
+<problems>
+<problem>
+  <file>OnlineFoodDelievery.main</file>
+  <module>OnlineFoodDelievery.main</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.main" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: org.projectlombok:lombok:1.18.28" />
+  </hints>
+  <description>Unused library 'Gradle: org.projectlombok:lombok:1.18.28'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.main</file>
+  <module>OnlineFoodDelievery.main</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.main" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: org.springframework.boot:spring-boot-starter-actuator:3.4.0" />
+  </hints>
+  <description>Unused library 'Gradle: org.springframework.boot:spring-boot-starter-actuator:3.4.0'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.main</file>
+  <module>OnlineFoodDelievery.main</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.main" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: org.springframework.boot:spring-boot-starter:3.4.0" />
+  </hints>
+  <description>Unused library 'Gradle: org.springframework.boot:spring-boot-starter:3.4.0'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.main</file>
+  <module>OnlineFoodDelievery.main</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.main" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: ch.qos.logback:logback-classic:1.4.14" />
+  </hints>
+  <description>Unused library 'Gradle: ch.qos.logback:logback-classic:1.4.14'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.main</file>
+  <module>OnlineFoodDelievery.main</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.main" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: io.micrometer:micrometer-registry-prometheus:1.12.0" />
+  </hints>
+  <description>Unused library 'Gradle: io.micrometer:micrometer-registry-prometheus:1.12.0'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.main</file>
+  <module>OnlineFoodDelievery.main</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.main" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: org.springframework.boot:spring-boot-actuator-autoconfigure:3.4.0" />
+  </hints>
+  <description>Unused library 'Gradle: org.springframework.boot:spring-boot-actuator-autoconfigure:3.4.0'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.main</file>
+  <module>OnlineFoodDelievery.main</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.main" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: io.micrometer:micrometer-jakarta9:1.14.1" />
+  </hints>
+  <description>Unused library 'Gradle: io.micrometer:micrometer-jakarta9:1.14.1'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.main</file>
+  <module>OnlineFoodDelievery.main</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.main" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: org.springframework.boot:spring-boot-starter-logging:3.4.0" />
+  </hints>
+  <description>Unused library 'Gradle: org.springframework.boot:spring-boot-starter-logging:3.4.0'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.main</file>
+  <module>OnlineFoodDelievery.main</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.main" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: org.springframework.boot:spring-boot-autoconfigure:3.4.0" />
+  </hints>
+  <description>Unused library 'Gradle: org.springframework.boot:spring-boot-autoconfigure:3.4.0'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.main</file>
+  <module>OnlineFoodDelievery.main</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.main" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: org.springframework.boot:spring-boot:3.4.0" />
+  </hints>
+  <description>Unused library 'Gradle: org.springframework.boot:spring-boot:3.4.0'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.main</file>
+  <module>OnlineFoodDelievery.main</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.main" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: ch.qos.logback:logback-core:1.5.12" />
+  </hints>
+  <description>Unused library 'Gradle: ch.qos.logback:logback-core:1.5.12'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.main</file>
+  <module>OnlineFoodDelievery.main</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.main" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: io.micrometer:micrometer-core:1.14.1" />
+  </hints>
+  <description>Unused library 'Gradle: io.micrometer:micrometer-core:1.14.1'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.main</file>
+  <module>OnlineFoodDelievery.main</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.main" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: io.prometheus:simpleclient_common:0.16.0" />
+  </hints>
+  <description>Unused library 'Gradle: io.prometheus:simpleclient_common:0.16.0'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.main</file>
+  <module>OnlineFoodDelievery.main</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.main" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: org.springframework.boot:spring-boot-actuator:3.4.0" />
+  </hints>
+  <description>Unused library 'Gradle: org.springframework.boot:spring-boot-actuator:3.4.0'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.main</file>
+  <module>OnlineFoodDelievery.main</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.main" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: org.apache.logging.log4j:log4j-to-slf4j:2.24.1" />
+  </hints>
+  <description>Unused library 'Gradle: org.apache.logging.log4j:log4j-to-slf4j:2.24.1'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.main</file>
+  <module>OnlineFoodDelievery.main</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.main" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: org.slf4j:jul-to-slf4j:2.0.16" />
+  </hints>
+  <description>Unused library 'Gradle: org.slf4j:jul-to-slf4j:2.0.16'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.main</file>
+  <module>OnlineFoodDelievery.main</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.main" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: io.prometheus:simpleclient:0.16.0" />
+  </hints>
+  <description>Unused library 'Gradle: io.prometheus:simpleclient:0.16.0'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.main</file>
+  <module>OnlineFoodDelievery.main</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.main" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: io.prometheus:simpleclient_tracer_otel:0.16.0" />
+  </hints>
+  <description>Unused library 'Gradle: io.prometheus:simpleclient_tracer_otel:0.16.0'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.main</file>
+  <module>OnlineFoodDelievery.main</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.main" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: io.prometheus:simpleclient_tracer_otel_agent:0.16.0" />
+  </hints>
+  <description>Unused library 'Gradle: io.prometheus:simpleclient_tracer_otel_agent:0.16.0'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.main</file>
+  <module>OnlineFoodDelievery.main</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.main" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: io.prometheus:simpleclient_tracer_common:0.16.0" />
+  </hints>
+  <description>Unused library 'Gradle: io.prometheus:simpleclient_tracer_common:0.16.0'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: org.springframework.boot:spring-boot-starter-actuator:3.4.0" />
+  </hints>
+  <description>Unused library 'Gradle: org.springframework.boot:spring-boot-starter-actuator:3.4.0'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: org.springframework.boot:spring-boot-starter-test:3.4.0" />
+  </hints>
+  <description>Unused library 'Gradle: org.springframework.boot:spring-boot-starter-test:3.4.0'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: org.springframework.boot:spring-boot-starter:3.4.0" />
+  </hints>
+  <description>Unused library 'Gradle: org.springframework.boot:spring-boot-starter:3.4.0'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: ch.qos.logback:logback-classic:1.4.14" />
+  </hints>
+  <description>Unused library 'Gradle: ch.qos.logback:logback-classic:1.4.14'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: org.slf4j:slf4j-api:2.0.16" />
+  </hints>
+  <description>Unused library 'Gradle: org.slf4j:slf4j-api:2.0.16'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: io.micrometer:micrometer-registry-prometheus:1.12.0" />
+  </hints>
+  <description>Unused library 'Gradle: io.micrometer:micrometer-registry-prometheus:1.12.0'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: org.projectlombok:lombok:1.18.28" />
+  </hints>
+  <description>Unused library 'Gradle: org.projectlombok:lombok:1.18.28'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: org.junit.jupiter:junit-jupiter:5.11.3" />
+  </hints>
+  <description>Unused library 'Gradle: org.junit.jupiter:junit-jupiter:5.11.3'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: org.springframework.boot:spring-boot-actuator-autoconfigure:3.4.0" />
+  </hints>
+  <description>Unused library 'Gradle: org.springframework.boot:spring-boot-actuator-autoconfigure:3.4.0'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: io.micrometer:micrometer-jakarta9:1.14.1" />
+  </hints>
+  <description>Unused library 'Gradle: io.micrometer:micrometer-jakarta9:1.14.1'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: io.micrometer:micrometer-observation:1.14.1" />
+  </hints>
+  <description>Unused library 'Gradle: io.micrometer:micrometer-observation:1.14.1'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: org.springframework.boot:spring-boot-test-autoconfigure:3.4.0" />
+  </hints>
+  <description>Unused library 'Gradle: org.springframework.boot:spring-boot-test-autoconfigure:3.4.0'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: org.springframework.boot:spring-boot-test:3.4.0" />
+  </hints>
+  <description>Unused library 'Gradle: org.springframework.boot:spring-boot-test:3.4.0'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: org.springframework:spring-test:6.2.0" />
+  </hints>
+  <description>Unused library 'Gradle: org.springframework:spring-test:6.2.0'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: org.springframework:spring-core:6.2.0" />
+  </hints>
+  <description>Unused library 'Gradle: org.springframework:spring-core:6.2.0'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: org.assertj:assertj-core:3.26.3" />
+  </hints>
+  <description>Unused library 'Gradle: org.assertj:assertj-core:3.26.3'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: com.jayway.jsonpath:json-path:2.9.0" />
+  </hints>
+  <description>Unused library 'Gradle: com.jayway.jsonpath:json-path:2.9.0'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: jakarta.xml.bind:jakarta.xml.bind-api:4.0.2" />
+  </hints>
+  <description>Unused library 'Gradle: jakarta.xml.bind:jakarta.xml.bind-api:4.0.2'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: net.minidev:json-smart:2.5.1" />
+  </hints>
+  <description>Unused library 'Gradle: net.minidev:json-smart:2.5.1'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: org.awaitility:awaitility:4.2.2" />
+  </hints>
+  <description>Unused library 'Gradle: org.awaitility:awaitility:4.2.2'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: org.skyscreamer:jsonassert:1.5.3" />
+  </hints>
+  <description>Unused library 'Gradle: org.skyscreamer:jsonassert:1.5.3'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: org.xmlunit:xmlunit-core:2.10.0" />
+  </hints>
+  <description>Unused library 'Gradle: org.xmlunit:xmlunit-core:2.10.0'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: org.springframework.boot:spring-boot-starter-logging:3.4.0" />
+  </hints>
+  <description>Unused library 'Gradle: org.springframework.boot:spring-boot-starter-logging:3.4.0'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: org.springframework.boot:spring-boot-autoconfigure:3.4.0" />
+  </hints>
+  <description>Unused library 'Gradle: org.springframework.boot:spring-boot-autoconfigure:3.4.0'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: org.springframework.boot:spring-boot:3.4.0" />
+  </hints>
+  <description>Unused library 'Gradle: org.springframework.boot:spring-boot:3.4.0'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: jakarta.annotation:jakarta.annotation-api:2.1.1" />
+  </hints>
+  <description>Unused library 'Gradle: jakarta.annotation:jakarta.annotation-api:2.1.1'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: org.yaml:snakeyaml:2.3" />
+  </hints>
+  <description>Unused library 'Gradle: org.yaml:snakeyaml:2.3'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: ch.qos.logback:logback-core:1.5.12" />
+  </hints>
+  <description>Unused library 'Gradle: ch.qos.logback:logback-core:1.5.12'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: io.micrometer:micrometer-core:1.14.1" />
+  </hints>
+  <description>Unused library 'Gradle: io.micrometer:micrometer-core:1.14.1'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: io.prometheus:simpleclient_common:0.16.0" />
+  </hints>
+  <description>Unused library 'Gradle: io.prometheus:simpleclient_common:0.16.0'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: org.junit.jupiter:junit-jupiter-params:5.11.3" />
+  </hints>
+  <description>Unused library 'Gradle: org.junit.jupiter:junit-jupiter-params:5.11.3'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: org.springframework.boot:spring-boot-actuator:3.4.0" />
+  </hints>
+  <description>Unused library 'Gradle: org.springframework.boot:spring-boot-actuator:3.4.0'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: io.micrometer:micrometer-commons:1.14.1" />
+  </hints>
+  <description>Unused library 'Gradle: io.micrometer:micrometer-commons:1.14.1'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: org.springframework:spring-jcl:6.2.0" />
+  </hints>
+  <description>Unused library 'Gradle: org.springframework:spring-jcl:6.2.0'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: jakarta.activation:jakarta.activation-api:2.1.3" />
+  </hints>
+  <description>Unused library 'Gradle: jakarta.activation:jakarta.activation-api:2.1.3'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: net.minidev:accessors-smart:2.5.1" />
+  </hints>
+  <description>Unused library 'Gradle: net.minidev:accessors-smart:2.5.1'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: com.vaadin.external.google:android-json:0.0.20131108.vaadin1" />
+  </hints>
+  <description>Unused library 'Gradle: com.vaadin.external.google:android-json:0.0.20131108.vaadin1'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: org.apache.logging.log4j:log4j-to-slf4j:2.24.1" />
+  </hints>
+  <description>Unused library 'Gradle: org.apache.logging.log4j:log4j-to-slf4j:2.24.1'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: org.slf4j:jul-to-slf4j:2.0.16" />
+  </hints>
+  <description>Unused library 'Gradle: org.slf4j:jul-to-slf4j:2.0.16'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: org.springframework:spring-context:6.2.0" />
+  </hints>
+  <description>Unused library 'Gradle: org.springframework:spring-context:6.2.0'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: io.prometheus:simpleclient:0.16.0" />
+  </hints>
+  <description>Unused library 'Gradle: io.prometheus:simpleclient:0.16.0'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: org.ow2.asm:asm:9.6" />
+  </hints>
+  <description>Unused library 'Gradle: org.ow2.asm:asm:9.6'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: org.apache.logging.log4j:log4j-api:2.24.1" />
+  </hints>
+  <description>Unused library 'Gradle: org.apache.logging.log4j:log4j-api:2.24.1'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: org.springframework:spring-aop:6.2.0" />
+  </hints>
+  <description>Unused library 'Gradle: org.springframework:spring-aop:6.2.0'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: org.springframework:spring-beans:6.2.0" />
+  </hints>
+  <description>Unused library 'Gradle: org.springframework:spring-beans:6.2.0'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: org.springframework:spring-expression:6.2.0" />
+  </hints>
+  <description>Unused library 'Gradle: org.springframework:spring-expression:6.2.0'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: io.prometheus:simpleclient_tracer_otel:0.16.0" />
+  </hints>
+  <description>Unused library 'Gradle: io.prometheus:simpleclient_tracer_otel:0.16.0'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: io.prometheus:simpleclient_tracer_otel_agent:0.16.0" />
+  </hints>
+  <description>Unused library 'Gradle: io.prometheus:simpleclient_tracer_otel_agent:0.16.0'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="UnusedLibrary" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused library</problem_class>
+  <hints>
+    <hint value="Gradle: io.prometheus:simpleclient_tracer_common:0.16.0" />
+  </hints>
+  <description>Unused library 'Gradle: io.prometheus:simpleclient_tracer_common:0.16.0'</description>
+  <highlighted_element />
+  <language />
+</problem>
+</problems>

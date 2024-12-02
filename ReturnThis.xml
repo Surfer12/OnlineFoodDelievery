@@ -1,0 +1,106 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/builder/OrderBuilder.java</file>
+  <line>15</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>builder</package>
+  <entry_point TYPE="method" FQNAME="builder.OrderBuilder builder.OrderBuilder withValidatedCustomerId(java.lang.Long customerId)" />
+  <problem_class id="ReturnThis" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Return of 'this'</problem_class>
+  <description>Return of &lt;code&gt;this&lt;/code&gt; #loc</description>
+  <highlighted_element>this</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/builder/OrderBuilder.java</file>
+  <line>20</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>builder</package>
+  <entry_point TYPE="method" FQNAME="builder.OrderBuilder builder.OrderBuilder withCustomerEmail(java.lang.String email)" />
+  <problem_class id="ReturnThis" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Return of 'this'</problem_class>
+  <description>Return of &lt;code&gt;this&lt;/code&gt; #loc</description>
+  <highlighted_element>this</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/builder/OrderBuilder.java</file>
+  <line>25</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>builder</package>
+  <entry_point TYPE="method" FQNAME="builder.OrderBuilder builder.OrderBuilder addItem(model.MenuItem item)" />
+  <problem_class id="ReturnThis" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Return of 'this'</problem_class>
+  <description>Return of &lt;code&gt;this&lt;/code&gt; #loc</description>
+  <highlighted_element>this</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/builder/OrderBuilder.java</file>
+  <line>31</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>builder</package>
+  <entry_point TYPE="method" FQNAME="builder.OrderBuilder builder.OrderBuilder withDeliveryLocation(java.lang.String address, java.lang.String postalCode)" />
+  <problem_class id="ReturnThis" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Return of 'this'</problem_class>
+  <description>Return of &lt;code&gt;this&lt;/code&gt; #loc</description>
+  <highlighted_element>this</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>71</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating.Builder rating.Rating.Builder customerId(java.lang.Long customerId)" />
+  <problem_class id="ReturnThis" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Return of 'this'</problem_class>
+  <description>Return of &lt;code&gt;this&lt;/code&gt; #loc</description>
+  <highlighted_element>this</highlighted_element>
+  <language>JAVA</language>
+  <offset>19</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>76</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating.Builder rating.Rating.Builder driverId(java.lang.Long driverId)" />
+  <problem_class id="ReturnThis" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Return of 'this'</problem_class>
+  <description>Return of &lt;code&gt;this&lt;/code&gt; #loc</description>
+  <highlighted_element>this</highlighted_element>
+  <language>JAVA</language>
+  <offset>19</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>81</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating.Builder rating.Rating.Builder score(int score)" />
+  <problem_class id="ReturnThis" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Return of 'this'</problem_class>
+  <description>Return of &lt;code&gt;this&lt;/code&gt; #loc</description>
+  <highlighted_element>this</highlighted_element>
+  <language>JAVA</language>
+  <offset>19</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>86</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating.Builder rating.Rating.Builder comment(java.lang.String comment)" />
+  <problem_class id="ReturnThis" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Return of 'this'</problem_class>
+  <description>Return of &lt;code&gt;this&lt;/code&gt; #loc</description>
+  <highlighted_element>this</highlighted_element>
+  <language>JAVA</language>
+  <offset>19</offset>
+  <length>4</length>
+</problem>
+</problems>

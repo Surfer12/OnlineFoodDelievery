@@ -1,0 +1,15 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>37</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager java.util.List&lt;model.MenuItem&gt; selectMenuItems(java.util.Scanner scanner, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="MethodWithMultipleLoops" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Method with multiple loops</problem_class>
+  <description>&lt;code&gt;selectMenuItems&lt;/code&gt; contains 2 loops #loc</description>
+  <highlighted_element>selectMenuItems</highlighted_element>
+  <language>JAVA</language>
+  <offset>26</offset>
+  <length>15</length>
+</problem>
+</problems>

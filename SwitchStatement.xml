@@ -1,0 +1,28 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>68</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI void start()" />
+  <problem_class id="SwitchStatement" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'switch' statement</problem_class>
+  <description>&lt;code&gt;switch&lt;/code&gt; statement #loc</description>
+  <highlighted_element>switch</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>106</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void manageDriverMenu(java.util.Scanner scanner, managers.OrderManager orderManager)" />
+  <problem_class id="SwitchStatement" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'switch' statement</problem_class>
+  <description>&lt;code&gt;switch&lt;/code&gt; statement #loc</description>
+  <highlighted_element>switch</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>6</length>
+</problem>
+</problems>

@@ -1,0 +1,119 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/payment/Payment.java</file>
+  <line>22</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>payment</package>
+  <entry_point TYPE="method" FQNAME="payment.Payment boolean processPayment()" />
+  <problem_class id="BooleanMethodNameMustStartWithQuestion" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Boolean method name must start with question word</problem_class>
+  <description>Boolean method name &lt;code&gt;processPayment&lt;/code&gt; does not start with question word #loc</description>
+  <highlighted_element>processPayment</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/payment/Payment.java</file>
+  <line>32</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>payment</package>
+  <entry_point TYPE="method" FQNAME="payment.Payment boolean refundPayment()" />
+  <problem_class id="BooleanMethodNameMustStartWithQuestion" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Boolean method name must start with question word</problem_class>
+  <description>Boolean method name &lt;code&gt;refundPayment&lt;/code&gt; does not start with question word #loc</description>
+  <highlighted_element>refundPayment</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/AbstractInputValidator.java</file>
+  <line>32</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.AbstractInputValidator boolean validateFormat(java.lang.String input)" />
+  <problem_class id="BooleanMethodNameMustStartWithQuestion" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Boolean method name must start with question word</problem_class>
+  <description>Boolean method name &lt;code&gt;validateFormat&lt;/code&gt; does not start with question word #loc</description>
+  <highlighted_element>validateFormat</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/AbstractInputValidator.java</file>
+  <line>40</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.AbstractInputValidator boolean validateLength(java.lang.String input)" />
+  <problem_class id="BooleanMethodNameMustStartWithQuestion" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Boolean method name must start with question word</problem_class>
+  <description>Boolean method name &lt;code&gt;validateLength&lt;/code&gt; does not start with question word #loc</description>
+  <highlighted_element>validateLength</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/AbstractOrderValidator.java</file>
+  <line>37</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.AbstractOrderValidator boolean validateCustomerId(java.lang.Long customerId)" />
+  <problem_class id="BooleanMethodNameMustStartWithQuestion" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Boolean method name must start with question word</problem_class>
+  <description>Boolean method name &lt;code&gt;validateCustomerId&lt;/code&gt; does not start with question word #loc</description>
+  <highlighted_element>validateCustomerId</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/AbstractOrderValidator.java</file>
+  <line>45</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.AbstractOrderValidator boolean validateItems(java.util.List&lt;model.MenuItem&gt; items)" />
+  <problem_class id="BooleanMethodNameMustStartWithQuestion" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Boolean method name must start with question word</problem_class>
+  <description>Boolean method name &lt;code&gt;validateItems&lt;/code&gt; does not start with question word #loc</description>
+  <highlighted_element>validateItems</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/AbstractOrderValidator.java</file>
+  <line>53</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.AbstractOrderValidator boolean validateTotalAmount(double totalAmount)" />
+  <problem_class id="BooleanMethodNameMustStartWithQuestion" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Boolean method name must start with question word</problem_class>
+  <description>Boolean method name &lt;code&gt;validateTotalAmount&lt;/code&gt; does not start with question word #loc</description>
+  <highlighted_element>validateTotalAmount</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/AbstractValidator.java</file>
+  <line>14</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.AbstractValidator boolean validate(T input)" />
+  <problem_class id="BooleanMethodNameMustStartWithQuestion" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Boolean method name must start with question word</problem_class>
+  <description>Boolean method name &lt;code&gt;validate&lt;/code&gt; does not start with question word #loc</description>
+  <highlighted_element>validate</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/Validator.java</file>
+  <line>6</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.Validator boolean validate(T input)" />
+  <problem_class id="BooleanMethodNameMustStartWithQuestion" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Boolean method name must start with question word</problem_class>
+  <description>Boolean method name &lt;code&gt;validate&lt;/code&gt; does not start with question word #loc</description>
+  <highlighted_element>validate</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>8</length>
+</problem>
+</problems>

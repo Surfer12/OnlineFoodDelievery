@@ -1,0 +1,28 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>10</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java" />
+  <problem_class id="StaticImport" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Static import</problem_class>
+  <description>Static import &lt;code&gt;import static org.mockito.Mockito.verify;&lt;/code&gt;  #loc</description>
+  <highlighted_element>import static org.mockito.Mockito.verify;</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>41</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java" />
+  <problem_class id="StaticImport" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Static import</problem_class>
+  <description>Static import &lt;code&gt;import static org.mockito.Mockito.when;&lt;/code&gt;  #loc</description>
+  <highlighted_element>import static org.mockito.Mockito.when;</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>39</length>
+</problem>
+</problems>

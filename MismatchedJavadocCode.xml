@@ -1,0 +1,15 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>74</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="MismatchedJavadocCode" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Mismatch between Javadoc and code</problem_class>
+  <description>Method is specified to return list but the return type is array</description>
+  <highlighted_element>list</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>4</length>
+</problem>
+</problems>

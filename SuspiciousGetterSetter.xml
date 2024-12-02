@@ -1,0 +1,41 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>85</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order java.lang.Long getId()" />
+  <problem_class id="SuspiciousGetterSetter" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Suspicious getter/setter</problem_class>
+  <description>Getter &lt;code&gt;getId()&lt;/code&gt; returns field 'orderId' #loc</description>
+  <highlighted_element>getId</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/payment/Payment.java</file>
+  <line>62</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>payment</package>
+  <entry_point TYPE="method" FQNAME="payment.Payment boolean isProcessed()" />
+  <problem_class id="SuspiciousGetterSetter" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Suspicious getter/setter</problem_class>
+  <description>Getter &lt;code&gt;isProcessed()&lt;/code&gt; returns field 'isProcessed' #loc</description>
+  <highlighted_element>isProcessed</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/payment/Payment.java</file>
+  <line>66</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>payment</package>
+  <entry_point TYPE="method" FQNAME="payment.Payment boolean isRefunded()" />
+  <problem_class id="SuspiciousGetterSetter" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Suspicious getter/setter</problem_class>
+  <description>Getter &lt;code&gt;isRefunded()&lt;/code&gt; returns field 'isRefunded' #loc</description>
+  <highlighted_element>isRefunded</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>10</length>
+</problem>
+</problems>

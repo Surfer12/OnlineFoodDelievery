@@ -1,0 +1,67 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>46</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrder(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Long&gt; orderIdHandler)" />
+  <problem_class id="MethodCallInLoopCondition" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Method call in loop condition</problem_class>
+  <description>Call to method &lt;code&gt;size()&lt;/code&gt; in loop condition #loc</description>
+  <highlighted_element>size</highlighted_element>
+  <language>JAVA</language>
+  <offset>45</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>31</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager void displayMenu()" />
+  <problem_class id="MethodCallInLoopCondition" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Method call in loop condition</problem_class>
+  <description>Call to method &lt;code&gt;size()&lt;/code&gt; in loop condition #loc</description>
+  <highlighted_element>size</highlighted_element>
+  <language>JAVA</language>
+  <offset>33</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsHandler.java</file>
+  <line>72</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsHandler void enforceRatingQueueMaxSize()" />
+  <problem_class id="MethodCallInLoopCondition" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Method call in loop condition</problem_class>
+  <description>Call to method &lt;code&gt;size()&lt;/code&gt; in loop condition #loc</description>
+  <highlighted_element>size</highlighted_element>
+  <language>JAVA</language>
+  <offset>29</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/MenuServiceImpl.java</file>
+  <line>18</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.MenuServiceImpl void displayMenu()" />
+  <problem_class id="MethodCallInLoopCondition" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Method call in loop condition</problem_class>
+  <description>Call to method &lt;code&gt;size()&lt;/code&gt; in loop condition #loc</description>
+  <highlighted_element>size</highlighted_element>
+  <language>JAVA</language>
+  <offset>43</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/MenuServiceImpl.java</file>
+  <line>31</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.MenuServiceImpl void displayMenu()" />
+  <problem_class id="MethodCallInLoopCondition" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Method call in loop condition</problem_class>
+  <description>Call to method &lt;code&gt;size()&lt;/code&gt; in loop condition #loc</description>
+  <highlighted_element>size</highlighted_element>
+  <language>JAVA</language>
+  <offset>38</offset>
+  <length>4</length>
+</problem>
+</problems>

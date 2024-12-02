@@ -1,0 +1,67 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>19</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating Rating(rating.Rating.Builder builder)" />
+  <problem_class id="UseOfAnotherObjectsPrivateField" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Accessing a non-public field of another object</problem_class>
+  <description>Direct access to non-public field &lt;code&gt;id&lt;/code&gt; of another object #loc</description>
+  <highlighted_element>id</highlighted_element>
+  <language>JAVA</language>
+  <offset>26</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>20</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating Rating(rating.Rating.Builder builder)" />
+  <problem_class id="UseOfAnotherObjectsPrivateField" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Accessing a non-public field of another object</problem_class>
+  <description>Direct access to non-public field &lt;code&gt;customerId&lt;/code&gt; of another object #loc</description>
+  <highlighted_element>customerId</highlighted_element>
+  <language>JAVA</language>
+  <offset>34</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>21</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating Rating(rating.Rating.Builder builder)" />
+  <problem_class id="UseOfAnotherObjectsPrivateField" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Accessing a non-public field of another object</problem_class>
+  <description>Direct access to non-public field &lt;code&gt;driverId&lt;/code&gt; of another object #loc</description>
+  <highlighted_element>driverId</highlighted_element>
+  <language>JAVA</language>
+  <offset>32</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>22</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating Rating(rating.Rating.Builder builder)" />
+  <problem_class id="UseOfAnotherObjectsPrivateField" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Accessing a non-public field of another object</problem_class>
+  <description>Direct access to non-public field &lt;code&gt;score&lt;/code&gt; of another object #loc</description>
+  <highlighted_element>score</highlighted_element>
+  <language>JAVA</language>
+  <offset>29</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>23</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating Rating(rating.Rating.Builder builder)" />
+  <problem_class id="UseOfAnotherObjectsPrivateField" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Accessing a non-public field of another object</problem_class>
+  <description>Direct access to non-public field &lt;code&gt;comment&lt;/code&gt; of another object #loc</description>
+  <highlighted_element>comment</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>7</length>
+</problem>
+</problems>

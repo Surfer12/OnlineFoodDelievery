@@ -1,0 +1,145 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>92</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="CallToSuspiciousStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Call to suspicious 'String' method</problem_class>
+  <description>&lt;code&gt;String.trim()&lt;/code&gt; called in internationalized context #loc</description>
+  <highlighted_element>trim</highlighted_element>
+  <language>JAVA</language>
+  <offset>57</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>92</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="CallToSuspiciousStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Call to suspicious 'String' method</problem_class>
+  <description>&lt;code&gt;String.trim()&lt;/code&gt; called in internationalized context #loc</description>
+  <highlighted_element>trim</highlighted_element>
+  <language>JAVA</language>
+  <offset>57</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>93</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="CallToSuspiciousStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Call to suspicious 'String' method</problem_class>
+  <description>&lt;code&gt;String.equals()&lt;/code&gt; called in internationalized context #loc</description>
+  <highlighted_element>equals</highlighted_element>
+  <language>JAVA</language>
+  <offset>33</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>93</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="CallToSuspiciousStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Call to suspicious 'String' method</problem_class>
+  <description>&lt;code&gt;String.equals()&lt;/code&gt; called in internationalized context #loc</description>
+  <highlighted_element>equals</highlighted_element>
+  <language>JAVA</language>
+  <offset>33</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>84</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="CallToSuspiciousStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Call to suspicious 'String' method</problem_class>
+  <description>&lt;code&gt;String.equalsIgnoreCase()&lt;/code&gt; called in internationalized context #loc</description>
+  <highlighted_element>equalsIgnoreCase</highlighted_element>
+  <language>JAVA</language>
+  <offset>19</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/EmailValidator.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.EmailValidator java.lang.String parse(java.lang.String input)" />
+  <problem_class id="CallToSuspiciousStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Call to suspicious 'String' method</problem_class>
+  <description>&lt;code&gt;String.trim()&lt;/code&gt; called in internationalized context #loc</description>
+  <highlighted_element>trim</highlighted_element>
+  <language>JAVA</language>
+  <offset>19</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>27</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateTextInput(java.lang.String input, java.lang.String fieldName)" />
+  <problem_class id="CallToSuspiciousStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Call to suspicious 'String' method</problem_class>
+  <description>&lt;code&gt;String.trim()&lt;/code&gt; called in internationalized context #loc</description>
+  <highlighted_element>trim</highlighted_element>
+  <language>JAVA</language>
+  <offset>36</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>27</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateTextInput(java.lang.String input, java.lang.String fieldName)" />
+  <problem_class id="CallToSuspiciousStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Call to suspicious 'String' method</problem_class>
+  <description>&lt;code&gt;String.trim()&lt;/code&gt; called in internationalized context #loc</description>
+  <highlighted_element>trim</highlighted_element>
+  <language>JAVA</language>
+  <offset>36</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidatorImpl.java</file>
+  <line>20</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidatorImpl$2 java.lang.String parse(java.lang.String input)" />
+  <problem_class id="CallToSuspiciousStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Call to suspicious 'String' method</problem_class>
+  <description>&lt;code&gt;String.trim()&lt;/code&gt; called in internationalized context #loc</description>
+  <highlighted_element>trim</highlighted_element>
+  <language>JAVA</language>
+  <offset>33</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidatorImpl.java</file>
+  <line>48</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidatorImpl$3 java.lang.String parse(java.lang.String input)" />
+  <problem_class id="CallToSuspiciousStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Call to suspicious 'String' method</problem_class>
+  <description>&lt;code&gt;String.trim()&lt;/code&gt; called in internationalized context #loc</description>
+  <highlighted_element>trim</highlighted_element>
+  <language>JAVA</language>
+  <offset>33</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>48</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="CallToSuspiciousStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Call to suspicious 'String' method</problem_class>
+  <description>&lt;code&gt;String.equalsIgnoreCase()&lt;/code&gt; called in internationalized context #loc</description>
+  <highlighted_element>equalsIgnoreCase</highlighted_element>
+  <language>JAVA</language>
+  <offset>22</offset>
+  <length>16</length>
+</problem>
+</problems>

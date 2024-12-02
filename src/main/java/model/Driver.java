@@ -1,9 +1,12 @@
 package model;
 
+
+import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
+import java.util.Queue;
 
 import rating.Rating;
 
@@ -14,7 +17,7 @@ public class Driver {
    private final String licensePlate;
    private String vehicle;
    private boolean available;
-   private final List<Integer> ratings;
+   private final Queue<Integer> ratings = new ArrayDeque<>(10);
    private static final int MAX_RATINGS = 10;
 
    public Driver(final Long id, final String name, final String vehicleType, final String licensePlate) {
@@ -22,7 +25,6 @@ public class Driver {
       this.name = Objects.requireNonNull(name, "Driver name cannot be null");
       this.vehicleType = Objects.requireNonNull(vehicleType, "Vehicle type cannot be null");
       this.licensePlate = Objects.requireNonNull(licensePlate, "License plate cannot be null");
-      this.ratings = new ArrayList<>();
       this.available = true;
    }
 
@@ -63,8 +65,8 @@ public class Driver {
          throw new IllegalArgumentException("Rating must be between 1 and 5");
       }
 
-      if (this.ratings.size() >= MAX_RATINGS) {
-         this.ratings.remove(0);
+      if (this.ratings.size() == 10) {
+         this.ratings.poll(); // Remove oldest rating
       }
 
       this.ratings.add(rating);

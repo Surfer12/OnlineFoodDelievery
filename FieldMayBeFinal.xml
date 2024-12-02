@@ -1,0 +1,119 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderTrackingService.java</file>
+  <line>9</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="field" FQNAME="observer.OrderTrackingService observers" />
+  <problem_class id="FieldMayBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Field may be 'final'</problem_class>
+  <description>Field &lt;code&gt;observers&lt;/code&gt; may be 'final' #loc</description>
+  <highlighted_element>observers</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/payment/Payment.java</file>
+  <line>7</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>payment</package>
+  <entry_point TYPE="field" FQNAME="payment.Payment orderId" />
+  <problem_class id="FieldMayBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Field may be 'final'</problem_class>
+  <description>Field &lt;code&gt;orderId&lt;/code&gt; may be 'final' #loc</description>
+  <highlighted_element>orderId</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/payment/Payment.java</file>
+  <line>8</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>payment</package>
+  <entry_point TYPE="field" FQNAME="payment.Payment paymentMethod" />
+  <problem_class id="FieldMayBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Field may be 'final'</problem_class>
+  <description>Field &lt;code&gt;paymentMethod&lt;/code&gt; may be 'final' #loc</description>
+  <highlighted_element>paymentMethod</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/payment/Payment.java</file>
+  <line>9</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>payment</package>
+  <entry_point TYPE="field" FQNAME="payment.Payment amount" />
+  <problem_class id="FieldMayBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Field may be 'final'</problem_class>
+  <description>Field &lt;code&gt;amount&lt;/code&gt; may be 'final' #loc</description>
+  <highlighted_element>amount</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/DriverServiceImpl.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="field" FQNAME="services.DriverServiceImpl drivers" />
+  <problem_class id="FieldMayBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Field may be 'final'</problem_class>
+  <description>Field &lt;code&gt;drivers&lt;/code&gt; may be 'final' #loc</description>
+  <highlighted_element>drivers</highlighted_element>
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/MenuServiceImpl.java</file>
+  <line>9</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="field" FQNAME="services.MenuServiceImpl menuItems" />
+  <problem_class id="FieldMayBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Field may be 'final'</problem_class>
+  <description>Field &lt;code&gt;menuItems&lt;/code&gt; may be 'final' #loc</description>
+  <highlighted_element>menuItems</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="field" FQNAME="services.OrderServiceImpl orders" />
+  <problem_class id="FieldMayBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Field may be 'final'</problem_class>
+  <description>Field &lt;code&gt;orders&lt;/code&gt; may be 'final' #loc</description>
+  <highlighted_element>orders</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/DriverServiceImpl.java</file>
+  <line>16</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="field" FQNAME="services.impl.DriverServiceImpl drivers" />
+  <problem_class id="FieldMayBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Field may be 'final'</problem_class>
+  <description>Field &lt;code&gt;drivers&lt;/code&gt; may be 'final' #loc</description>
+  <highlighted_element>drivers</highlighted_element>
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>13</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="field" FQNAME="services.impl.OrderServiceImpl orders" />
+  <problem_class id="FieldMayBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Field may be 'final'</problem_class>
+  <description>Field &lt;code&gt;orders&lt;/code&gt; may be 'final' #loc</description>
+  <highlighted_element>orders</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>6</length>
+</problem>
+</problems>

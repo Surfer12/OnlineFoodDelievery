@@ -1,0 +1,3785 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/CustomException/OrderProcessingException.java</file>
+  <line>7</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>CustomException</package>
+  <entry_point TYPE="method" FQNAME="CustomException.OrderProcessingException OrderProcessingException(java.lang.String message)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>OrderProcessingException</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>24</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/CustomException/PaymentException.java</file>
+  <line>7</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>CustomException</package>
+  <entry_point TYPE="method" FQNAME="CustomException.PaymentException PaymentException(java.lang.String message)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>PaymentException</highlighted_element>
+  <language>JAVA</language>
+  <offset>10</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/CustomException/QueueFullException.java</file>
+  <line>7</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>CustomException</package>
+  <entry_point TYPE="method" FQNAME="CustomException.QueueFullException QueueFullException(java.lang.String message)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>QueueFullException</highlighted_element>
+  <language>JAVA</language>
+  <offset>10</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/CustomException/ValidationException.java</file>
+  <line>7</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>CustomException</package>
+  <entry_point TYPE="method" FQNAME="CustomException.ValidationException ValidationException(java.lang.String message)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>ValidationException</highlighted_element>
+  <language>JAVA</language>
+  <offset>10</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/Application.java</file>
+  <line>13</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="class" FQNAME="app.Application" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>Application</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/Application.java</file>
+  <line>20</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.Application void main(java.lang.String[] args)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>main</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystem.java</file>
+  <line>9</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="class" FQNAME="app.DeliverySystem" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>DeliverySystem</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystem.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystem void submitOrder(model.Order order)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>submitOrder</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystem.java</file>
+  <line>17</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystem void assignOrderToDriver(model.Order order, model.Driver driver)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>assignOrderToDriver</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystem.java</file>
+  <line>22</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystem void completeDelivery(java.lang.Long orderId, java.lang.Long driverId)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>completeDelivery</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystem.java</file>
+  <line>27</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystem java.lang.String getOrderStatus(java.lang.Long orderId)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getOrderStatus</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>13</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="class" FQNAME="app.DeliverySystemCLI" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>DeliverySystemCLI</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>27</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI DeliverySystemCLI(java.util.Scanner scanner, managers.MenuManager menuManager, managers.OrderManager orderManager, managers.DriverManager driverManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; emailHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; locationHandler)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>DeliverySystemCLI</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>39</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI DeliverySystemCLI()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>DeliverySystemCLI</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>55</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI void start()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>start</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>104</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI void main(java.lang.String[] args)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>main</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DriverService.java</file>
+  <line>3</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="class" FQNAME="app.DriverService" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>DriverService</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/Main.java</file>
+  <line>2</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="class" FQNAME="app.Main" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>Main</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/Main.java</file>
+  <line>3</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.Main void main(java.lang.String[] args)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>main</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>13</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="class" FQNAME="app.util.MemoryMonitor" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>MemoryMonitor</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>18</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void logMemoryUsage()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>logMemoryUsage</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>38</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void forceGarbageCollection()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>forceGarbageCollection</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>22</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/builder/OrderBuilder.java</file>
+  <line>6</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>builder</package>
+  <entry_point TYPE="class" FQNAME="builder.OrderBuilder" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>OrderBuilder</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/builder/OrderBuilder.java</file>
+  <line>13</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>builder</package>
+  <entry_point TYPE="method" FQNAME="builder.OrderBuilder builder.OrderBuilder withValidatedCustomerId(java.lang.Long customerId)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>withValidatedCustomerId</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>23</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/builder/OrderBuilder.java</file>
+  <line>18</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>builder</package>
+  <entry_point TYPE="method" FQNAME="builder.OrderBuilder builder.OrderBuilder withCustomerEmail(java.lang.String email)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>withCustomerEmail</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/builder/OrderBuilder.java</file>
+  <line>23</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>builder</package>
+  <entry_point TYPE="method" FQNAME="builder.OrderBuilder builder.OrderBuilder addItem(model.MenuItem item)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>addItem</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/builder/OrderBuilder.java</file>
+  <line>28</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>builder</package>
+  <entry_point TYPE="method" FQNAME="builder.OrderBuilder builder.OrderBuilder withDeliveryLocation(java.lang.String address, java.lang.String postalCode)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>withDeliveryLocation</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/builder/OrderBuilder.java</file>
+  <line>34</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>builder</package>
+  <entry_point TYPE="method" FQNAME="builder.OrderBuilder model.Order build()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>build</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/factory/MenuItemFactory.java</file>
+  <line>10</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>factory</package>
+  <entry_point TYPE="class" FQNAME="factory.MenuItemFactory" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>MenuItemFactory</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/factory/MenuItemFactory.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>factory</package>
+  <entry_point TYPE="method" FQNAME="factory.MenuItemFactory model.MenuItem createMenuItem(java.lang.String type, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>createMenuItem</highlighted_element>
+  <language>JAVA</language>
+  <offset>26</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>15</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="class" FQNAME="managers.DriverManager" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>DriverManager</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>21</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager DriverManager()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>DriverManager</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>30</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void listAvailableDrivers()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>listAvailableDrivers</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>38</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrder(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Long&gt; orderIdHandler)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>assignDriverToOrder</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>69</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void rateDriver(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; menuChoiceHandler)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>rateDriver</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>88</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager validation.ConsoleInputHandler&lt;java.lang.Integer&gt; getMenuChoiceHandler()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getMenuChoiceHandler</highlighted_element>
+  <language>JAVA</language>
+  <offset>40</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>92</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void manageDriverMenu(java.util.Scanner scanner, managers.OrderManager orderManager)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>manageDriverMenu</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>14</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="class" FQNAME="managers.MenuManager" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>MenuManager</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>18</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager MenuManager()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>MenuManager</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>28</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager void displayMenu()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>displayMenu</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>37</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager java.util.List&lt;model.MenuItem&gt; selectMenuItems(java.util.Scanner scanner, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>selectMenuItems</highlighted_element>
+  <language>JAVA</language>
+  <offset>26</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>73</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager validation.ConsoleInputHandler&lt;java.lang.Integer&gt; getMenuChoiceHandler()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getMenuChoiceHandler</highlighted_element>
+  <language>JAVA</language>
+  <offset>40</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>77</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager services.MenuService getMenuService()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getMenuService</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>16</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="class" FQNAME="managers.OrderManager" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>OrderManager</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>16</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="class" FQNAME="managers.OrderManager" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>OrderManager</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>24</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager OrderManager()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>OrderManager</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>24</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager OrderManager()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>OrderManager</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>34</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>createOrder</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>34</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>createOrder</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>54</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void checkOrderStatus(java.util.Scanner scanner)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>checkOrderStatus</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>54</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void checkOrderStatus(java.util.Scanner scanner)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>checkOrderStatus</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>73</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager validation.ConsoleInputHandler&lt;java.lang.Long&gt; getOrderIdHandler()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getOrderIdHandler</highlighted_element>
+  <language>JAVA</language>
+  <offset>37</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>73</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager validation.ConsoleInputHandler&lt;java.lang.Long&gt; getOrderIdHandler()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getOrderIdHandler</highlighted_element>
+  <language>JAVA</language>
+  <offset>37</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>77</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager services.OrderService getOrderService()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getOrderService</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>77</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager services.OrderService getOrderService()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getOrderService</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>81</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>processOrderPlacement</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>21</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>81</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>processOrderPlacement</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>21</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Drink.java</file>
+  <line>3</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="class" FQNAME="model.Drink" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>Drink</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Drink.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Drink Drink(java.lang.Long id, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>Drink</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Drink.java</file>
+  <line>31</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Drink model.Size getSize()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getSize</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Drink.java</file>
+  <line>35</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Drink int getQuantity()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getQuantity</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>10</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="class" FQNAME="model.Driver" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>Driver</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>20</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver Driver(java.lang.Long id, java.lang.String name, java.lang.String vehicleType, java.lang.String licensePlate)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>Driver</highlighted_element>
+  <language>JAVA</language>
+  <offset>10</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>29</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver java.lang.Long getId()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getId</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>33</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver java.lang.String getName()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getName</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>37</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver java.lang.String getVehicleType()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getVehicleType</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>41</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver java.lang.String getLicensePlate()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getLicensePlate</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>45</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver java.lang.String getVehicle()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getVehicle</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>49</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver void setVehicle(java.lang.String vehicle)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>setVehicle</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>53</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver boolean isAvailable()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>isAvailable</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>57</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver void setAvailable(boolean available)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>setAvailable</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>61</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver void addRating(java.lang.Integer rating)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>addRating</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>73</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver void addRating(rating.Rating rating)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>addRating</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>81</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver java.util.List&lt;java.lang.Integer&gt; getRatings()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getRatings</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>85</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver double getAverageRating()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getAverageRating</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Fries.java</file>
+  <line>3</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="class" FQNAME="model.Fries" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>Fries</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Fries.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Fries Fries(java.lang.Long id, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>Fries</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Fries.java</file>
+  <line>31</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Fries model.Size getSize()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getSize</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Fries.java</file>
+  <line>35</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Fries int getQuantity()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getQuantity</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Hamburger.java</file>
+  <line>3</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="class" FQNAME="model.Hamburger" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>Hamburger</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Hamburger.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Hamburger Hamburger(java.lang.Long id, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>Hamburger</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Hamburger.java</file>
+  <line>31</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Hamburger model.Size getSize()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getSize</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Hamburger.java</file>
+  <line>35</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Hamburger int getQuantity()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getQuantity</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Location.java</file>
+  <line>3</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="class" FQNAME="model.Location" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>Location</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Location.java</file>
+  <line>7</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Location Location(java.lang.String address, java.lang.String postalCode)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>Location</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Location.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Location java.lang.String getAddress()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getAddress</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Location.java</file>
+  <line>16</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Location java.lang.String getPostalCode()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getPostalCode</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/MenuItem.java</file>
+  <line>3</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="class" FQNAME="model.MenuItem" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>MenuItem</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/MenuItem.java</file>
+  <line>4</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.MenuItem java.lang.String getName()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getName</highlighted_element>
+  <language>JAVA</language>
+  <offset>10</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/MenuItem.java</file>
+  <line>6</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.MenuItem double getPrice()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getPrice</highlighted_element>
+  <language>JAVA</language>
+  <offset>10</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>7</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="class" FQNAME="model.Order" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>18</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order Order(java.lang.Long customerId, java.lang.String customerEmail, java.util.List&lt;model.MenuItem&gt; items, model.Location deliveryLocation)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>10</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>30</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order Order(java.lang.Long customerId, java.lang.String customerEmail, model.MenuItem item, java.lang.String address, java.lang.String postalCode)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>10</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>45</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order java.lang.Long getOrderId()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getOrderId</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>49</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order java.lang.Long getCustomerId()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getCustomerId</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>53</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order java.lang.String getCustomerEmail()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getCustomerEmail</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>57</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order java.util.List&lt;model.MenuItem&gt; getItems()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getItems</highlighted_element>
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>61</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order model.Location getDeliveryLocation()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getDeliveryLocation</highlighted_element>
+  <language>JAVA</language>
+  <offset>19</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>65</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order double getTotalAmount()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getTotalAmount</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>69</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order model.OrderStatus getStatus()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getStatus</highlighted_element>
+  <language>JAVA</language>
+  <offset>22</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>73</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order void setStatus(model.OrderStatus status)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>setStatus</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>77</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order java.time.LocalDateTime getEstimatedDeliveryTime()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getEstimatedDeliveryTime</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>24</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>81</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order void setEstimatedDeliveryTime(java.time.LocalDateTime estimatedDeliveryTime)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>setEstimatedDeliveryTime</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>24</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>85</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order java.lang.Long getId()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getId</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>89</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order model.Driver getDriver()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getDriver</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>93</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order void setDriver(model.Driver driver)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>setDriver</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/OrderStatus.java</file>
+  <line>3</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="class" FQNAME="model.OrderStatus" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>OrderStatus</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/OrderStatus.java</file>
+  <line>4</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="field" FQNAME="model.OrderStatus SUBMITTED" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>SUBMITTED</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/OrderStatus.java</file>
+  <line>5</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="field" FQNAME="model.OrderStatus IN_PROGRESS" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>IN_PROGRESS</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/OrderStatus.java</file>
+  <line>6</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="field" FQNAME="model.OrderStatus PROCESSING" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>PROCESSING</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/OrderStatus.java</file>
+  <line>7</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="field" FQNAME="model.OrderStatus PREPARING" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>PREPARING</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/OrderStatus.java</file>
+  <line>8</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="field" FQNAME="model.OrderStatus OUT_FOR_DELIVERY" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>OUT_FOR_DELIVERY</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/OrderStatus.java</file>
+  <line>9</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="field" FQNAME="model.OrderStatus DELIVERED" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>DELIVERED</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/OrderStatus.java</file>
+  <line>10</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="field" FQNAME="model.OrderStatus CANCELLED" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>CANCELLED</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Person.java</file>
+  <line>3</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="class" FQNAME="model.Person" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>Person</highlighted_element>
+  <language>JAVA</language>
+  <offset>22</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Person.java</file>
+  <line>9</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Person Person(java.lang.Long id, java.lang.String name, java.lang.String email, java.lang.String address)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>Person</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Person.java</file>
+  <line>16</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Person java.lang.Long getId()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getId</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Person.java</file>
+  <line>20</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Person java.lang.String getName()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getName</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Person.java</file>
+  <line>24</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Person java.lang.String getEmail()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getEmail</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Person.java</file>
+  <line>28</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Person java.lang.String getAddress()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getAddress</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Pizza.java</file>
+  <line>3</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="class" FQNAME="model.Pizza" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>Pizza</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Pizza.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Pizza Pizza(java.lang.Long id, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>Pizza</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Pizza.java</file>
+  <line>31</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Pizza model.Size getSize()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getSize</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Pizza.java</file>
+  <line>35</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Pizza int getQuantity()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getQuantity</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Salad.java</file>
+  <line>3</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="class" FQNAME="model.Salad" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>Salad</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Salad.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Salad Salad(java.lang.Long id, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>Salad</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Salad.java</file>
+  <line>31</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Salad model.Size getSize()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getSize</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Salad.java</file>
+  <line>35</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Salad int getQuantity()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getQuantity</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Size.java</file>
+  <line>3</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="class" FQNAME="model.Size" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>Size</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Size.java</file>
+  <line>4</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="field" FQNAME="model.Size SMALL" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>SMALL</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Size.java</file>
+  <line>4</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="field" FQNAME="model.Size MEDIUM" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>MEDIUM</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Size.java</file>
+  <line>4</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="field" FQNAME="model.Size LARGE" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>LARGE</highlighted_element>
+  <language>JAVA</language>
+  <offset>19</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>7</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="class" FQNAME="notification.BasicNotificationService" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>BasicNotificationService</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>24</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/NotificationService.java</file>
+  <line>7</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="class" FQNAME="notification.NotificationService" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>NotificationService</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/NotificationService.java</file>
+  <line>8</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.NotificationService void sendNotification(java.lang.String message)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>sendNotification</highlighted_element>
+  <language>JAVA</language>
+  <offset>8</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/NotificationService.java</file>
+  <line>10</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.NotificationService void sendOrderConfirmationToCustomer(model.Order order)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>sendOrderConfirmationToCustomer</highlighted_element>
+  <language>JAVA</language>
+  <offset>8</offset>
+  <length>31</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/NotificationService.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.NotificationService void sendDriverAssignmentNotification(model.Order order, model.Driver driver)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>sendDriverAssignmentNotification</highlighted_element>
+  <language>JAVA</language>
+  <offset>8</offset>
+  <length>32</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/NotificationService.java</file>
+  <line>14</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.NotificationService void sendOrderStatusUpdateToCustomer(model.Order order, model.OrderStatus newStatus)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>sendOrderStatusUpdateToCustomer</highlighted_element>
+  <language>JAVA</language>
+  <offset>8</offset>
+  <length>31</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/NotificationService.java</file>
+  <line>16</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.NotificationService void sendDeliveryCompletionNotification(model.Order order)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>sendDeliveryCompletionNotification</highlighted_element>
+  <language>JAVA</language>
+  <offset>8</offset>
+  <length>34</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderEvent.java</file>
+  <line>3</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="class" FQNAME="observer.OrderEvent" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>OrderEvent</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderEvent.java</file>
+  <line>5</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="field" FQNAME="observer.OrderEvent ORDER_SUBMITTED" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>ORDER_SUBMITTED</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderEvent.java</file>
+  <line>7</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="field" FQNAME="observer.OrderEvent DRIVER_ASSIGNED" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>DRIVER_ASSIGNED</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderEvent.java</file>
+  <line>9</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="field" FQNAME="observer.OrderEvent DELIVERY_COMPLETED" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>DELIVERY_COMPLETED</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderEvent.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="field" FQNAME="observer.OrderEvent ORDER_ACCEPTED" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>ORDER_ACCEPTED</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderEvent.java</file>
+  <line>13</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="field" FQNAME="observer.OrderEvent IN_DELIVERY" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>IN_DELIVERY</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderEvent.java</file>
+  <line>15</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="field" FQNAME="observer.OrderEvent DELIVERED" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>DELIVERED</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderEvent.java</file>
+  <line>23</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="method" FQNAME="observer.OrderEvent java.lang.String getStatus()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getStatus</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderObserver.java</file>
+  <line>5</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="class" FQNAME="observer.OrderObserver" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>OrderObserver</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderObserver.java</file>
+  <line>6</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="method" FQNAME="observer.OrderObserver void update(model.Order order)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>update</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderObserver.java</file>
+  <line>8</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="method" FQNAME="observer.OrderObserver void onOrderEvent(model.Order order, observer.OrderEvent event)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>onOrderEvent</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderObserver.java</file>
+  <line>10</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="method" FQNAME="observer.OrderObserver void customerNotificationOfOrder(model.Order order, observer.OrderEvent event)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>customerNotificationOfOrder</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>27</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderObserver.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="method" FQNAME="observer.OrderObserver void driverNotificationToCustomer(model.Order order, observer.OrderEvent event)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>driverNotificationToCustomer</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>28</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderSubject.java</file>
+  <line>5</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="class" FQNAME="observer.OrderSubject" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>OrderSubject</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderSubject.java</file>
+  <line>6</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="method" FQNAME="observer.OrderSubject void attach(observer.OrderObserver observer)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>attach</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderSubject.java</file>
+  <line>8</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="method" FQNAME="observer.OrderSubject void detach(observer.OrderObserver observer)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>detach</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderSubject.java</file>
+  <line>10</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="method" FQNAME="observer.OrderSubject void notifyObservers(model.Order order)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>notifyObservers</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderTrackingService.java</file>
+  <line>8</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="class" FQNAME="observer.OrderTrackingService" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>OrderTrackingService</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/payment/Payment.java</file>
+  <line>5</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>payment</package>
+  <entry_point TYPE="class" FQNAME="payment.Payment" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>Payment</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/payment/Payment.java</file>
+  <line>14</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>payment</package>
+  <entry_point TYPE="method" FQNAME="payment.Payment Payment(java.lang.Long orderId, java.lang.String paymentMethod, double amount)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>Payment</highlighted_element>
+  <language>JAVA</language>
+  <offset>10</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/payment/Payment.java</file>
+  <line>22</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>payment</package>
+  <entry_point TYPE="method" FQNAME="payment.Payment boolean processPayment()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>processPayment</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/payment/Payment.java</file>
+  <line>32</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>payment</package>
+  <entry_point TYPE="method" FQNAME="payment.Payment boolean refundPayment()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>refundPayment</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/payment/Payment.java</file>
+  <line>42</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>payment</package>
+  <entry_point TYPE="method" FQNAME="payment.Payment java.lang.Long getPaymentId()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getPaymentId</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/payment/Payment.java</file>
+  <line>46</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>payment</package>
+  <entry_point TYPE="method" FQNAME="payment.Payment java.lang.Long getOrderId()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getOrderId</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/payment/Payment.java</file>
+  <line>50</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>payment</package>
+  <entry_point TYPE="method" FQNAME="payment.Payment java.lang.String getPaymentMethod()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getPaymentMethod</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/payment/Payment.java</file>
+  <line>54</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>payment</package>
+  <entry_point TYPE="method" FQNAME="payment.Payment double getAmount()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getAmount</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/payment/Payment.java</file>
+  <line>58</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>payment</package>
+  <entry_point TYPE="method" FQNAME="payment.Payment java.time.LocalDateTime getPaymentTime()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getPaymentTime</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/payment/Payment.java</file>
+  <line>62</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>payment</package>
+  <entry_point TYPE="method" FQNAME="payment.Payment boolean isProcessed()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>isProcessed</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/payment/Payment.java</file>
+  <line>66</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>payment</package>
+  <entry_point TYPE="method" FQNAME="payment.Payment boolean isRefunded()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>isRefunded</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/OrderQueue.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="class" FQNAME="queue.OrderQueue" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>OrderQueue</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/OrderQueue.java</file>
+  <line>16</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="method" FQNAME="queue.OrderQueue OrderQueue(int maxSize)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>OrderQueue</highlighted_element>
+  <language>JAVA</language>
+  <offset>10</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/OrderQueue.java</file>
+  <line>62</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="method" FQNAME="queue.OrderQueue java.util.List&lt;model.Order&gt; getPendingOrders()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getPendingOrders</highlighted_element>
+  <language>JAVA</language>
+  <offset>22</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/OrderQueue.java</file>
+  <line>66</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="method" FQNAME="queue.OrderQueue int getPositionInQueue(model.Order order)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getPositionInQueue</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/QueueOperations.java</file>
+  <line>5</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="class" FQNAME="queue.QueueOperations" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>QueueOperations</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/QueueOperations.java</file>
+  <line>6</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="method" FQNAME="queue.QueueOperations void enqueue(T item)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>enqueue</highlighted_element>
+  <language>JAVA</language>
+  <offset>8</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/QueueOperations.java</file>
+  <line>8</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="method" FQNAME="queue.QueueOperations java.util.Optional&lt;T&gt; dequeue()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>dequeue</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/QueueOperations.java</file>
+  <line>10</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="method" FQNAME="queue.QueueOperations java.util.Optional&lt;T&gt; peek()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>peek</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/QueueOperations.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="method" FQNAME="queue.QueueOperations boolean isEmpty()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>isEmpty</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/QueueOperations.java</file>
+  <line>14</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="method" FQNAME="queue.QueueOperations int size()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>size</highlighted_element>
+  <language>JAVA</language>
+  <offset>7</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/QueueOperations.java</file>
+  <line>16</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="method" FQNAME="queue.QueueOperations void clear()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>clear</highlighted_element>
+  <language>JAVA</language>
+  <offset>8</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>10</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="class" FQNAME="rating.Rating" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>Rating</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>29</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating Rating(java.lang.Long customerId, java.lang.Long driverId, int score, java.lang.String comment)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>Rating</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>62</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="class" FQNAME="rating.Rating.Builder" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>Builder</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>69</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating.Builder rating.Rating.Builder customerId(java.lang.Long customerId)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>customerId</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>74</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating.Builder rating.Rating.Builder driverId(java.lang.Long driverId)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>driverId</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>79</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating.Builder rating.Rating.Builder score(int score)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>score</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>84</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating.Builder rating.Rating.Builder comment(java.lang.String comment)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>comment</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>89</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating.Builder rating.Rating build()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>build</highlighted_element>
+  <language>JAVA</language>
+  <offset>22</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>95</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating java.lang.Long getId()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getId</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>96</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating java.lang.Long getCustomerId()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getCustomerId</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>97</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating java.lang.Long getDriverId()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getDriverId</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>98</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating int getScore()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getScore</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>99</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating java.util.Optional&lt;java.lang.String&gt; getComment()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getComment</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>100</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating java.time.LocalDateTime getTimestamp()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getTimestamp</highlighted_element>
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsBusinessLogic.java</file>
+  <line>7</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="class" FQNAME="rating.RatingsBusinessLogic" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>RatingsBusinessLogic</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsBusinessLogic.java</file>
+  <line>7</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="class" FQNAME="rating.RatingsBusinessLogic" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>RatingsBusinessLogic</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsBusinessLogic.java</file>
+  <line>8</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsBusinessLogic void addRating(T rating)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required tag &lt;code&gt;@param&lt;/code&gt; is missing for parameter &lt;code&gt;rating&lt;/code&gt;</description>
+  <highlighted_element>/**</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsBusinessLogic.java</file>
+  <line>8</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsBusinessLogic void addRating(T rating)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required tag &lt;code&gt;@param&lt;/code&gt; is missing for parameter &lt;code&gt;rating&lt;/code&gt;</description>
+  <highlighted_element>/**</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsBusinessLogic.java</file>
+  <line>29</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsBusinessLogic void clearAllRatings()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>clearAllRatings</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsBusinessLogic.java</file>
+  <line>29</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsBusinessLogic void clearAllRatings()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>clearAllRatings</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsBusinessLogic.java</file>
+  <line>31</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsBusinessLogic boolean isRatingQueueEmpty()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>isRatingQueueEmpty</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsBusinessLogic.java</file>
+  <line>31</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsBusinessLogic boolean isRatingQueueEmpty()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>isRatingQueueEmpty</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsBusinessLogic.java</file>
+  <line>33</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsBusinessLogic boolean isRatingQueueFull()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>isRatingQueueFull</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsBusinessLogic.java</file>
+  <line>33</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsBusinessLogic boolean isRatingQueueFull()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>isRatingQueueFull</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsBusinessLogic.java</file>
+  <line>35</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsBusinessLogic int getCurrentRatingCount()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getCurrentRatingCount</highlighted_element>
+  <language>JAVA</language>
+  <offset>8</offset>
+  <length>21</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsBusinessLogic.java</file>
+  <line>35</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsBusinessLogic int getCurrentRatingCount()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getCurrentRatingCount</highlighted_element>
+  <language>JAVA</language>
+  <offset>8</offset>
+  <length>21</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsBusinessLogic.java</file>
+  <line>37</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsBusinessLogic void enforceRatingQueueMaxSize()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>enforceRatingQueueMaxSize</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>25</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsBusinessLogic.java</file>
+  <line>37</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsBusinessLogic void enforceRatingQueueMaxSize()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>enforceRatingQueueMaxSize</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>25</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsHandler.java</file>
+  <line>10</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="class" FQNAME="rating.RatingsHandler" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>RatingsHandler</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsHandler.java</file>
+  <line>15</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsHandler RatingsHandler(int maxRatings)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>RatingsHandler</highlighted_element>
+  <language>JAVA</language>
+  <offset>10</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/DriverService.java</file>
+  <line>8</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="class" FQNAME="services.DriverService" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>DriverService</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/DriverService.java</file>
+  <line>9</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.DriverService java.util.List&lt;model.Driver&gt; getAvailableDrivers()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getAvailableDrivers</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/DriverService.java</file>
+  <line>10</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.DriverService model.Driver getDriverForOrder(model.Order order)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getDriverForOrder</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/DriverService.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.DriverService void assignDriverToOrder(model.Driver driver, model.Order order)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>assignDriverToOrder</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/DriverService.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.DriverService void rateDriver(model.Driver driver, java.lang.Integer rating)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>rateDriver</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/DriverServiceImpl.java</file>
+  <line>10</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="class" FQNAME="services.DriverServiceImpl" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>DriverServiceImpl</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/MenuService.java</file>
+  <line>7</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="class" FQNAME="services.MenuService" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>MenuService</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/MenuService.java</file>
+  <line>8</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.MenuService void displayMenu()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>displayMenu</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/MenuService.java</file>
+  <line>10</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.MenuService java.util.List&lt;model.MenuItem&gt; getMenu()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getMenu</highlighted_element>
+  <language>JAVA</language>
+  <offset>19</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/MenuService.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.MenuService model.MenuItem getMenuItemByIndex(int index)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getMenuItemByIndex</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/MenuService.java</file>
+  <line>14</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.MenuService int getMenuSize()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getMenuSize</highlighted_element>
+  <language>JAVA</language>
+  <offset>8</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/MenuService.java</file>
+  <line>16</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.MenuService java.util.List&lt;model.MenuItem&gt; getAllMenuItems()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getAllMenuItems</highlighted_element>
+  <language>JAVA</language>
+  <offset>19</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/MenuServiceImpl.java</file>
+  <line>8</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="class" FQNAME="services.MenuServiceImpl" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>MenuServiceImpl</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/MenuServiceImpl.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.MenuServiceImpl MenuServiceImpl()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>MenuServiceImpl</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderManager.java</file>
+  <line>8</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="class" FQNAME="services.OrderManager" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>OrderManager</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderManager.java</file>
+  <line>10</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; emailHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; locationHandler)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>processOrderPlacement</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>21</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderManagerImpl.java</file>
+  <line>8</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="class" FQNAME="services.OrderManagerImpl" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>OrderManagerImpl</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderService.java</file>
+  <line>8</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="class" FQNAME="services.OrderService" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>OrderService</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderService.java</file>
+  <line>9</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderService model.Order getOrderById(java.lang.Long orderId)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getOrderById</highlighted_element>
+  <language>JAVA</language>
+  <offset>10</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderService.java</file>
+  <line>10</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderService model.Order createOrder(java.util.List&lt;model.MenuItem&gt; items)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>createOrder</highlighted_element>
+  <language>JAVA</language>
+  <offset>10</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderService.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderService void displayOrderDetails(model.Order order)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>displayOrderDetails</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderService.java</file>
+  <line>14</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderService java.lang.String getOrderStatus(java.lang.Long orderId)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getOrderStatus</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderService.java</file>
+  <line>17</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderService java.util.List&lt;model.Order&gt; getAllOrders()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getAllOrders</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="class" FQNAME="services.OrderServiceImpl" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>OrderServiceImpl</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/DriverServiceImpl.java</file>
+  <line>15</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="class" FQNAME="services.impl.DriverServiceImpl" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>DriverServiceImpl</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/MenuServiceImpl.java</file>
+  <line>13</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="class" FQNAME="services.impl.MenuServiceImpl" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>MenuServiceImpl</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/MenuServiceImpl.java</file>
+  <line>16</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.MenuServiceImpl MenuServiceImpl()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>MenuServiceImpl</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="class" FQNAME="services.impl.OrderServiceImpl" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>OrderServiceImpl</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/orderRepository.java</file>
+  <line>7</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="class" FQNAME="services.impl.orderRepository" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>orderRepository</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/orderRepository.java</file>
+  <line>9</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.orderRepository java.util.List&lt;model.Order&gt; findAll()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>findAll</highlighted_element>
+  <language>JAVA</language>
+  <offset>30</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/tracker/OrderObserver.java</file>
+  <line>6</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>tracker</package>
+  <entry_point TYPE="class" FQNAME="tracker.OrderObserver" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>OrderObserver</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/tracker/OrderObserver.java</file>
+  <line>7</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>tracker</package>
+  <entry_point TYPE="method" FQNAME="tracker.OrderObserver void update(model.Order order, model.OrderStatus newStatus)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>update</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/tracker/OrderSubject.java</file>
+  <line>5</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>tracker</package>
+  <entry_point TYPE="class" FQNAME="tracker.OrderSubject" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>OrderSubject</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/tracker/OrderSubject.java</file>
+  <line>6</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>tracker</package>
+  <entry_point TYPE="method" FQNAME="tracker.OrderSubject void attach(tracker.OrderObserver observer)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>attach</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/tracker/OrderSubject.java</file>
+  <line>8</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>tracker</package>
+  <entry_point TYPE="method" FQNAME="tracker.OrderSubject void detach(tracker.OrderObserver observer)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>detach</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/tracker/OrderSubject.java</file>
+  <line>10</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>tracker</package>
+  <entry_point TYPE="method" FQNAME="tracker.OrderSubject void notifyObservers(model.Order order)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>notifyObservers</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/tracker/OrderTracker.java</file>
+  <line>14</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>tracker</package>
+  <entry_point TYPE="class" FQNAME="tracker.OrderTracker" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>OrderTracker</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/tracker/OrderTracker.java</file>
+  <line>20</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>tracker</package>
+  <entry_point TYPE="method" FQNAME="tracker.OrderTracker OrderTracker()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>OrderTracker</highlighted_element>
+  <language>JAVA</language>
+  <offset>10</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/tracker/OrderTracker.java</file>
+  <line>43</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>tracker</package>
+  <entry_point TYPE="method" FQNAME="tracker.OrderTracker void updateOrderStatus(java.lang.Long orderId, model.OrderStatus newStatus, model.Driver assignedDriver)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>updateOrderStatus</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/tracker/OrderTracker.java</file>
+  <line>66</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>tracker</package>
+  <entry_point TYPE="method" FQNAME="tracker.OrderTracker java.util.Optional&lt;model.OrderStatus&gt; getOrderStatus(java.lang.Long orderId)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getOrderStatus</highlighted_element>
+  <language>JAVA</language>
+  <offset>32</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/tracker/OrderTracker.java</file>
+  <line>70</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>tracker</package>
+  <entry_point TYPE="method" FQNAME="tracker.OrderTracker java.util.Optional&lt;java.time.LocalDateTime&gt; getEstimatedDeliveryTime(java.lang.Long orderId)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getEstimatedDeliveryTime</highlighted_element>
+  <language>JAVA</language>
+  <offset>34</offset>
+  <length>24</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/AbstractInputValidator.java</file>
+  <line>3</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="class" FQNAME="validation.AbstractInputValidator" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required tag &lt;code&gt;@param&lt;/code&gt; is missing for parameter &lt;code&gt;&amp;lt;T&amp;gt;&lt;/code&gt;</description>
+  <highlighted_element>/**</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/AbstractValidator.java</file>
+  <line>3</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="class" FQNAME="validation.AbstractValidator" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required tag &lt;code&gt;@param&lt;/code&gt; is missing for parameter &lt;code&gt;&amp;lt;T&amp;gt;&lt;/code&gt;</description>
+  <highlighted_element>/**</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>110</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler T handleInput(java.util.Scanner scanner, java.lang.String prompt)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>handleInput</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>114</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler T handleInput(java.util.Scanner scanner, java.lang.String prompt, java.util.function.Predicate&lt;T&gt; condition)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>handleInput</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/EmailValidator.java</file>
+  <line>5</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="class" FQNAME="validation.EmailValidator" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>EmailValidator</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputHandler.java</file>
+  <line>3</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="class" FQNAME="validation.InputHandler" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>InputHandler</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputHandler.java</file>
+  <line>4</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputHandler T getInput(java.lang.String prompt)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getInput</highlighted_element>
+  <language>JAVA</language>
+  <offset>6</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputHandler.java</file>
+  <line>6</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getMultipleInputs</highlighted_element>
+  <language>JAVA</language>
+  <offset>8</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidator.java</file>
+  <line>3</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="class" FQNAME="validation.InputValidator" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>InputValidator</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidator.java</file>
+  <line>5</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidator boolean isValid(T input)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>isValid</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidator.java</file>
+  <line>7</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidator java.lang.String getTypeName()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getTypeName</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidator.java</file>
+  <line>9</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidator T parse(java.lang.String input)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>parse</highlighted_element>
+  <language>JAVA</language>
+  <offset>6</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidator.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidator java.lang.String getErrorMessage()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getErrorMessage</highlighted_element>
+  <language>JAVA</language>
+  <offset>19</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidatorImpl.java</file>
+  <line>3</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="class" FQNAME="validation.InputValidatorImpl" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>InputValidatorImpl</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidatorImpl.java</file>
+  <line>8</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidatorImpl InputValidatorImpl(validation.Validator&lt;T&gt; validator, java.lang.String typeName, java.lang.String errorMessage)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>InputValidatorImpl</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidatorImpl.java</file>
+  <line>15</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidatorImpl validation.InputValidator&lt;java.lang.String&gt; emailValidator()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>emailValidator</highlighted_element>
+  <language>JAVA</language>
+  <offset>41</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidatorImpl.java</file>
+  <line>43</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidatorImpl validation.InputValidator&lt;java.lang.String&gt; deliveryLocationValidator()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>deliveryLocationValidator</highlighted_element>
+  <language>JAVA</language>
+  <offset>41</offset>
+  <length>25</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/MenuItemValidator.java</file>
+  <line>3</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="class" FQNAME="validation.MenuItemValidator" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>MenuItemValidator</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/MenuItemValidator.java</file>
+  <line>6</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.MenuItemValidator MenuItemValidator(int maxMenuSize)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>MenuItemValidator</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/PositiveIntegerValidator.java</file>
+  <line>3</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="class" FQNAME="validation.PositiveIntegerValidator" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>PositiveIntegerValidator</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>24</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/PositiveIntegerValidator.java</file>
+  <line>5</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.PositiveIntegerValidator PositiveIntegerValidator()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>PositiveIntegerValidator</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>24</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/PositiveLongValidator.java</file>
+  <line>3</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="class" FQNAME="validation.PositiveLongValidator" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>PositiveLongValidator</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>21</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>19</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler ValidationHandler(validation.Validator&lt;T&gt; validator, java.lang.String typeName, java.lang.String errorMessage)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>ValidationHandler</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>26</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler T getInput(java.lang.String prompt)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getInput</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>43</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getMultipleInputs</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>75</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler java.lang.String getTypeName()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getTypeName</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>79</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler java.lang.String getErrorMessage()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getErrorMessage</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/Validator.java</file>
+  <line>3</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="class" FQNAME="validation.Validator" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>Validator</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/Validator.java</file>
+  <line>4</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.Validator T parse(java.lang.String input)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>parse</highlighted_element>
+  <language>JAVA</language>
+  <offset>6</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/Validator.java</file>
+  <line>6</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.Validator boolean validate(T input)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>validate</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/Validator.java</file>
+  <line>8</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.Validator boolean isValid(T value)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>isValid</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/Validator.java</file>
+  <line>10</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.Validator java.lang.String getTypeName()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>getTypeName</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/Validator.java</file>
+  <line>13</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.Validator boolean hasError(T value)" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>hasError</highlighted_element>
+  <language>JAVA</language>
+  <offset>20</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>21</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="class" FQNAME="app.DeliverySystemCLITest" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>DeliverySystemCLITest</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>21</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>44</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void setUp()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>setUp</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>51</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void testStartPlaceOrder()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>testStartPlaceOrder</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>63</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void testStartCheckOrderStatus()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>testStartCheckOrderStatus</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>25</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>74</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void testStartViewMenu()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>testStartViewMenu</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>85</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void testStartManageDrivers()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>testStartManageDrivers</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>22</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>96</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void testStartRateDriver()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>testStartRateDriver</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>110</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void testStartExit()" />
+  <problem_class id="MissingJavadoc" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing Javadoc</problem_class>
+  <description>Required Javadoc is absent</description>
+  <highlighted_element>testStartExit</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>13</length>
+</problem>
+</problems>

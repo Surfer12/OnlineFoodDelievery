@@ -56,7 +56,7 @@ public class DeliverySystemCLI {
         while (this.running) {
             this.displayMainMenu();
 
-            final Integer choice = this.menuManager.getMenuChoiceHandler().handleInput(
+            Integer choice = this.menuManager.getMenuChoiceHandler().handleInput(
                     this.scanner,
                     "Enter your choice below: ");
 
@@ -66,25 +66,39 @@ public class DeliverySystemCLI {
             }
 
             switch (choice) {
-                case 1 -> this.orderManager.processOrderPlacement(
-                        this.scanner,
-                        this.menuManager,
-                        this.positiveIntegerHandler);
-                case 2 -> this.orderManager.checkOrderStatus(this.scanner);
-                case 3 -> this.menuManager.displayMenu();
-                case 4 -> this.driverManager.manageDriverMenu(this.scanner, this.orderManager);
-                case 5 -> this.driverManager.rateDriver(
-                        this.scanner,
-                        this.orderManager.getOrderService().getOrderById(
-                                this.orderManager.getOrderIdHandler().handleInput(
-                                        this.scanner,
-                                        "Enter Order ID to rate driver: ")),
-                        this.menuManager.getMenuChoiceHandler());
-                case 6 -> {
+                case 1:
+                    // Allow customer to place a new order
+                    this.orderManager.processOrderPlacement(
+                            this.scanner,
+                            this.menuManager,
+                            this.positiveIntegerHandler);
+                    break;
+                case 2:
+                    // Allow driver to accept and deliver an order
+                    this.driverManager.acceptAndDeliverOrder(this.scanner, this.orderManager);
+                    break;
+                case 3:
+                    // Check order status
+                    this.orderManager.checkOrderStatus(this.scanner);
+                    break;
+                case 4:
+                    // View menu
+                    this.menuManager.displayMenu();
+                    break;
+                case 5:
+                    // Manage drivers
+                    this.driverManager.manageDriverMenu(this.scanner, this.orderManager);
+                    break;
+                case 6:
+                    // Rate driver
+                    this.driverManager.rateDriverInteractive(this.scanner, this.orderManager);
+                    break;
+                case 7:
                     System.out.println("Exiting...");
                     this.running = false;
-                }
-                default -> System.out.println("Invalid choice. Please enter a number between 1 and 6.");
+                    break;
+                default:
+                    System.out.println("Invalid choice. Please enter a number between 1 and 7.");
             }
         }
         this.scanner.close();
@@ -93,12 +107,13 @@ public class DeliverySystemCLI {
     private void displayMainMenu() {
         System.out.println("\n--- Online Food Delivery System ---");
         System.out.println("1. Place a New Order");
-        System.out.println("2. Check Order Status");
-        System.out.println("3. View Menu");
-        System.out.println("4. Manage Drivers");
-        System.out.println("5. Rate Driver");
-        System.out.println("6. Exit");
-        System.out.print("Please choose an option from the list above (1-6): ");
+        System.out.println("2. Accept and Deliver an Order");
+        System.out.println("3. Check Order Status");
+        System.out.println("4. View Menu");
+        System.out.println("5. Manage Drivers");
+        System.out.println("6. Rate Driver");
+        System.out.println("7. Exit");
+        System.out.print("Please choose an option from the list above (1-7): ");
     }
 
     public static void main(final String[] args) {

@@ -1,0 +1,54 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/DriverServiceImpl.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="field" FQNAME="services.DriverServiceImpl drivers" />
+  <problem_class id="MismatchedCollectionQueryUpdate" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Mismatched query and update of collection</problem_class>
+  <description>Contents of collection &lt;code&gt;drivers&lt;/code&gt; are queried, but never updated #loc</description>
+  <highlighted_element>drivers</highlighted_element>
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/MenuServiceImpl.java</file>
+  <line>9</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="field" FQNAME="services.MenuServiceImpl menuItems" />
+  <problem_class id="MismatchedCollectionQueryUpdate" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Mismatched query and update of collection</problem_class>
+  <description>Contents of collection &lt;code&gt;menuItems&lt;/code&gt; are queried, but never updated #loc</description>
+  <highlighted_element>menuItems</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/DriverServiceImpl.java</file>
+  <line>16</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="field" FQNAME="services.impl.DriverServiceImpl drivers" />
+  <problem_class id="MismatchedCollectionQueryUpdate" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Mismatched query and update of collection</problem_class>
+  <description>Contents of collection &lt;code&gt;drivers&lt;/code&gt; are queried, but never updated #loc</description>
+  <highlighted_element>drivers</highlighted_element>
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/tracker/OrderTracker.java</file>
+  <line>18</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>tracker</package>
+  <entry_point TYPE="field" FQNAME="tracker.OrderTracker orders" />
+  <problem_class id="MismatchedCollectionQueryUpdate" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Mismatched query and update of collection</problem_class>
+  <description>Contents of collection &lt;code&gt;orders&lt;/code&gt; are queried, but never updated #loc</description>
+  <highlighted_element>orders</highlighted_element>
+  <language>JAVA</language>
+  <offset>34</offset>
+  <length>6</length>
+</problem>
+</problems>

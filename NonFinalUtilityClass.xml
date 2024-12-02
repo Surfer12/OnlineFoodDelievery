@@ -1,0 +1,93 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/Application.java</file>
+  <line>13</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="class" FQNAME="app.Application" />
+  <problem_class id="NonFinalUtilityClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Utility class is not 'final'</problem_class>
+  <description>Utility class &lt;code&gt;Application&lt;/code&gt; is not 'final' #loc</description>
+  <highlighted_element>Application</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/Main.java</file>
+  <line>2</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="class" FQNAME="app.Main" />
+  <problem_class id="NonFinalUtilityClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Utility class is not 'final'</problem_class>
+  <description>Utility class &lt;code&gt;Main&lt;/code&gt; is not 'final' #loc</description>
+  <highlighted_element>Main</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/factory/MenuItemFactory.java</file>
+  <line>10</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>factory</package>
+  <entry_point TYPE="class" FQNAME="factory.MenuItemFactory" />
+  <problem_class id="NonFinalUtilityClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Utility class is not 'final'</problem_class>
+  <description>Utility class &lt;code&gt;MenuItemFactory&lt;/code&gt; is not 'final' #loc</description>
+  <highlighted_element>MenuItemFactory</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/orderRepository.java</file>
+  <line>7</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="class" FQNAME="services.impl.orderRepository" />
+  <problem_class id="NonFinalUtilityClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Utility class is not 'final'</problem_class>
+  <description>Utility class &lt;code&gt;orderRepository&lt;/code&gt; is not 'final' #loc</description>
+  <highlighted_element>orderRepository</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>16</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="class" FQNAME="validation.InputValidationUtils" />
+  <problem_class id="NonFinalUtilityClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Utility class is not 'final'</problem_class>
+  <description>Utility class &lt;code&gt;InputValidationUtils&lt;/code&gt; is not 'final' #loc</description>
+  <highlighted_element>InputValidationUtils</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>16</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="class" FQNAME="validation.InputValidationUtils" />
+  <problem_class id="NonFinalUtilityClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Utility class is not 'final'</problem_class>
+  <description>Utility class &lt;code&gt;InputValidationUtils&lt;/code&gt; is not 'final' #loc</description>
+  <highlighted_element>InputValidationUtils</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationUtils.java</file>
+  <line>27</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="class" FQNAME="validation.ValidationUtils" />
+  <problem_class id="NonFinalUtilityClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Utility class is not 'final'</problem_class>
+  <description>Utility class &lt;code&gt;ValidationUtils&lt;/code&gt; is not 'final' #loc</description>
+  <highlighted_element>ValidationUtils</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>15</length>
+</problem>
+</problems>

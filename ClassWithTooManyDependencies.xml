@@ -1,0 +1,14 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>16</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="class" FQNAME="managers.OrderManager" />
+  <problem_class id="ClassWithTooManyDependencies" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many dependencies</problem_class>
+  <hints />
+  <description>Class 'OrderManager' has too many dependencies (12 &gt; 10)</description>
+  <highlighted_element />
+  <language />
+</problem>
+</problems>

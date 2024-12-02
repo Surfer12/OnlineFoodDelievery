@@ -1,0 +1,171 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/Application.java</file>
+  <line>20</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.Application void main(java.lang.String[] args)" />
+  <problem_class id="FeatureEnvy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Feature envy</problem_class>
+  <description>Class 'DeliverySystem' accessed repeatedly in method &lt;code&gt;main()&lt;/code&gt; #loc</description>
+  <highlighted_element>main</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/Application.java</file>
+  <line>20</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.Application void main(java.lang.String[] args)" />
+  <problem_class id="FeatureEnvy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Feature envy</problem_class>
+  <description>Class 'OrderBuilder' accessed repeatedly in method &lt;code&gt;main()&lt;/code&gt; #loc</description>
+  <highlighted_element>main</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>55</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI void start()" />
+  <problem_class id="FeatureEnvy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Feature envy</problem_class>
+  <description>Class 'MenuManager' accessed repeatedly in method &lt;code&gt;start()&lt;/code&gt; #loc</description>
+  <highlighted_element>start</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>55</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI void start()" />
+  <problem_class id="FeatureEnvy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Feature envy</problem_class>
+  <description>Class 'OrderManager' accessed repeatedly in method &lt;code&gt;start()&lt;/code&gt; #loc</description>
+  <highlighted_element>start</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>38</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrder(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Long&gt; orderIdHandler)" />
+  <problem_class id="FeatureEnvy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Feature envy</problem_class>
+  <description>Class 'Driver' accessed repeatedly in method &lt;code&gt;assignDriverToOrder()&lt;/code&gt; #loc</description>
+  <highlighted_element>assignDriverToOrder</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>117</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrderInteractive(java.util.Scanner scanner, managers.OrderManager orderManager)" />
+  <problem_class id="FeatureEnvy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Feature envy</problem_class>
+  <description>Class 'OrderManager' accessed repeatedly in method &lt;code&gt;assignDriverToOrderInteractive()&lt;/code&gt; #loc</description>
+  <highlighted_element>assignDriverToOrderInteractive</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>30</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Customer.java</file>
+  <line>50</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Customer void rateDriver(model.Driver driver, int score, java.lang.String comment)" />
+  <problem_class id="FeatureEnvy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Feature envy</problem_class>
+  <description>Class 'Builder' accessed repeatedly in method &lt;code&gt;rateDriver()&lt;/code&gt; #loc</description>
+  <highlighted_element>rateDriver</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>34</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="FeatureEnvy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Feature envy</problem_class>
+  <description>Class 'MenuItem' accessed repeatedly in method &lt;code&gt;displayOrderDetails()&lt;/code&gt; #loc</description>
+  <highlighted_element>displayOrderDetails</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>35</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="FeatureEnvy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Feature envy</problem_class>
+  <description>Class 'MenuItem' accessed repeatedly in method &lt;code&gt;displayOrderDetails()&lt;/code&gt; #loc</description>
+  <highlighted_element>displayOrderDetails</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>47</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler T getInput(java.lang.String prompt)" />
+  <problem_class id="FeatureEnvy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Feature envy</problem_class>
+  <description>Class 'InputValidator' accessed repeatedly in method &lt;code&gt;getInput()&lt;/code&gt; #loc</description>
+  <highlighted_element>getInput</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>79</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="FeatureEnvy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Feature envy</problem_class>
+  <description>Class 'InputValidator' accessed repeatedly in method &lt;code&gt;getMultipleInputs()&lt;/code&gt; #loc</description>
+  <highlighted_element>getMultipleInputs</highlighted_element>
+  <language>JAVA</language>
+  <offset>14</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/OrderValidator.java</file>
+  <line>19</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.OrderValidator void validateOrder(model.Order order)" />
+  <problem_class id="FeatureEnvy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Feature envy</problem_class>
+  <description>Class 'Order' accessed repeatedly in method &lt;code&gt;validateOrder()&lt;/code&gt; #loc</description>
+  <highlighted_element>validateOrder</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/OrderValidator.java</file>
+  <line>19</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.OrderValidator void validateOrder(model.Order order)" />
+  <problem_class id="FeatureEnvy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Feature envy</problem_class>
+  <description>Class 'ValidationUtils' accessed repeatedly in method &lt;code&gt;validateOrder()&lt;/code&gt; #loc</description>
+  <highlighted_element>validateOrder</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>13</length>
+</problem>
+</problems>

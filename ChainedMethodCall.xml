@@ -1,0 +1,418 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>59</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI void start()" />
+  <problem_class id="ChainedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Chained method calls</problem_class>
+  <description>Chained method call &lt;code&gt;handleInput()&lt;/code&gt; #loc</description>
+  <highlighted_element>handleInput</highlighted_element>
+  <language>JAVA</language>
+  <offset>75</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>78</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI void start()" />
+  <problem_class id="ChainedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Chained method calls</problem_class>
+  <description>Chained method call &lt;code&gt;getOrderById()&lt;/code&gt; #loc</description>
+  <highlighted_element>getOrderById</highlighted_element>
+  <language>JAVA</language>
+  <offset>60</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>79</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI void start()" />
+  <problem_class id="ChainedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Chained method calls</problem_class>
+  <description>Chained method call &lt;code&gt;handleInput()&lt;/code&gt; #loc</description>
+  <highlighted_element>handleInput</highlighted_element>
+  <language>JAVA</language>
+  <offset>70</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>118</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrderInteractive(java.util.Scanner scanner, managers.OrderManager orderManager)" />
+  <problem_class id="ChainedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Chained method calls</problem_class>
+  <description>Chained method call &lt;code&gt;handleInput()&lt;/code&gt; #loc</description>
+  <highlighted_element>handleInput</highlighted_element>
+  <language>JAVA</language>
+  <offset>56</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>125</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrderInteractive(java.util.Scanner scanner, managers.OrderManager orderManager)" />
+  <problem_class id="ChainedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Chained method calls</problem_class>
+  <description>Chained method call &lt;code&gt;getOrderById()&lt;/code&gt; #loc</description>
+  <highlighted_element>getOrderById</highlighted_element>
+  <language>JAVA</language>
+  <offset>53</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>91</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver double getAverageRating()" />
+  <problem_class id="ChainedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Chained method calls</problem_class>
+  <description>Chained method call &lt;code&gt;mapToInt()&lt;/code&gt; #loc</description>
+  <highlighted_element>mapToInt</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>92</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver double getAverageRating()" />
+  <problem_class id="ChainedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Chained method calls</problem_class>
+  <description>Chained method call &lt;code&gt;average()&lt;/code&gt; #loc</description>
+  <highlighted_element>average</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>93</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver double getAverageRating()" />
+  <problem_class id="ChainedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Chained method calls</problem_class>
+  <description>Chained method call &lt;code&gt;orElse()&lt;/code&gt; #loc</description>
+  <highlighted_element>orElse</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>41</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order void calculateTotalAmount()" />
+  <problem_class id="ChainedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Chained method calls</problem_class>
+  <description>Chained method call &lt;code&gt;mapToDouble()&lt;/code&gt; #loc</description>
+  <highlighted_element>mapToDouble</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>42</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order void calculateTotalAmount()" />
+  <problem_class id="ChainedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Chained method calls</problem_class>
+  <description>Chained method call &lt;code&gt;sum()&lt;/code&gt; #loc</description>
+  <highlighted_element>sum</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/OrderQueue.java</file>
+  <line>69</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="method" FQNAME="queue.OrderQueue int getPositionInQueue(model.Order order)" />
+  <problem_class id="ChainedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Chained method calls</problem_class>
+  <description>Chained method call &lt;code&gt;equals()&lt;/code&gt; #loc</description>
+  <highlighted_element>equals</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsHandler.java</file>
+  <line>128</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsHandler double calculateAverageRating()" />
+  <problem_class id="ChainedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Chained method calls</problem_class>
+  <description>Chained method call &lt;code&gt;mapToDouble()&lt;/code&gt; #loc</description>
+  <highlighted_element>mapToDouble</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsHandler.java</file>
+  <line>129</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsHandler double calculateAverageRating()" />
+  <problem_class id="ChainedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Chained method calls</problem_class>
+  <description>Chained method call &lt;code&gt;average()&lt;/code&gt; #loc</description>
+  <highlighted_element>average</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsHandler.java</file>
+  <line>130</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsHandler double calculateAverageRating()" />
+  <problem_class id="ChainedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Chained method calls</problem_class>
+  <description>Chained method call &lt;code&gt;orElse()&lt;/code&gt; #loc</description>
+  <highlighted_element>orElse</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/DriverServiceImpl.java</file>
+  <line>25</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.DriverServiceImpl model.Driver getDriverForOrder(model.Order order)" />
+  <problem_class id="ChainedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Chained method calls</problem_class>
+  <description>Chained method call &lt;code&gt;orElse()&lt;/code&gt; #loc</description>
+  <highlighted_element>orElse</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>17</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl model.Order getOrderById(java.lang.Long orderId)" />
+  <problem_class id="ChainedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Chained method calls</problem_class>
+  <description>Chained method call &lt;code&gt;equals()&lt;/code&gt; #loc</description>
+  <highlighted_element>equals</highlighted_element>
+  <language>JAVA</language>
+  <offset>47</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>19</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl model.Order getOrderById(java.lang.Long orderId)" />
+  <problem_class id="ChainedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Chained method calls</problem_class>
+  <description>Chained method call &lt;code&gt;orElse()&lt;/code&gt; #loc</description>
+  <highlighted_element>orElse</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>58</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl java.lang.String getOrderStatus(java.lang.Long orderId)" />
+  <problem_class id="ChainedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Chained method calls</problem_class>
+  <description>Chained method call &lt;code&gt;toString()&lt;/code&gt; #loc</description>
+  <highlighted_element>toString</highlighted_element>
+  <language>JAVA</language>
+  <offset>49</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>18</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl model.Order getOrderById(java.lang.Long orderId)" />
+  <problem_class id="ChainedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Chained method calls</problem_class>
+  <description>Chained method call &lt;code&gt;equals()&lt;/code&gt; #loc</description>
+  <highlighted_element>equals</highlighted_element>
+  <language>JAVA</language>
+  <offset>52</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>20</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl model.Order getOrderById(java.lang.Long orderId)" />
+  <problem_class id="ChainedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Chained method calls</problem_class>
+  <description>Chained method call &lt;code&gt;orElse()&lt;/code&gt; #loc</description>
+  <highlighted_element>orElse</highlighted_element>
+  <language>JAVA</language>
+  <offset>22</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/tracker/OrderTracker.java</file>
+  <line>79</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>tracker</package>
+  <entry_point TYPE="method" FQNAME="tracker.OrderTracker void notifyObserversAboutOrderUpdate(java.lang.Long orderId)" />
+  <problem_class id="ChainedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Chained method calls</problem_class>
+  <description>Chained method call &lt;code&gt;ifPresent()&lt;/code&gt; #loc</description>
+  <highlighted_element>ifPresent</highlighted_element>
+  <language>JAVA</language>
+  <offset>34</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>106</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="ChainedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Chained method calls</problem_class>
+  <description>Chained method call &lt;code&gt;getClass()&lt;/code&gt; #loc</description>
+  <highlighted_element>getClass</highlighted_element>
+  <language>JAVA</language>
+  <offset>78</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/EmailValidator.java</file>
+  <line>16</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.EmailValidator boolean isValid(java.lang.String email)" />
+  <problem_class id="ChainedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Chained method calls</problem_class>
+  <description>Chained method call &lt;code&gt;matches()&lt;/code&gt; #loc</description>
+  <highlighted_element>matches</highlighted_element>
+  <language>JAVA</language>
+  <offset>74</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/EmailValidator.java</file>
+  <line>26</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.EmailValidator boolean validate(java.lang.String input)" />
+  <problem_class id="ChainedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Chained method calls</problem_class>
+  <description>Chained method call &lt;code&gt;matches()&lt;/code&gt; #loc</description>
+  <highlighted_element>matches</highlighted_element>
+  <language>JAVA</language>
+  <offset>74</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>66</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="ChainedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Chained method calls</problem_class>
+  <description>Chained method call &lt;code&gt;getClass()&lt;/code&gt; #loc</description>
+  <highlighted_element>getClass</highlighted_element>
+  <language>JAVA</language>
+  <offset>68</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>71</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="ChainedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Chained method calls</problem_class>
+  <description>Chained method call &lt;code&gt;getClass()&lt;/code&gt; #loc</description>
+  <highlighted_element>getClass</highlighted_element>
+  <language>JAVA</language>
+  <offset>80</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>59</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void testStartPlaceOrder()" />
+  <problem_class id="ChainedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Chained method calls</problem_class>
+  <description>Chained method call &lt;code&gt;processOrderPlacement()&lt;/code&gt; #loc</description>
+  <highlighted_element>processOrderPlacement</highlighted_element>
+  <language>JAVA</language>
+  <offset>34</offset>
+  <length>21</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>70</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void testStartCheckOrderStatus()" />
+  <problem_class id="ChainedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Chained method calls</problem_class>
+  <description>Chained method call &lt;code&gt;checkOrderStatus()&lt;/code&gt; #loc</description>
+  <highlighted_element>checkOrderStatus</highlighted_element>
+  <language>JAVA</language>
+  <offset>34</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>81</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void testStartViewMenu()" />
+  <problem_class id="ChainedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Chained method calls</problem_class>
+  <description>Chained method call &lt;code&gt;displayMenu()&lt;/code&gt; #loc</description>
+  <highlighted_element>displayMenu</highlighted_element>
+  <language>JAVA</language>
+  <offset>33</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>92</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void testStartManageDrivers()" />
+  <problem_class id="ChainedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Chained method calls</problem_class>
+  <description>Chained method call &lt;code&gt;manageDriverMenu()&lt;/code&gt; #loc</description>
+  <highlighted_element>manageDriverMenu</highlighted_element>
+  <language>JAVA</language>
+  <offset>35</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>106</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void testStartRateDriver()" />
+  <problem_class id="ChainedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Chained method calls</problem_class>
+  <description>Chained method call &lt;code&gt;rateDriver()&lt;/code&gt; #loc</description>
+  <highlighted_element>rateDriver</highlighted_element>
+  <language>JAVA</language>
+  <offset>35</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>117</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void testStartExit()" />
+  <problem_class id="ChainedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Chained method calls</problem_class>
+  <description>Chained method call &lt;code&gt;close()&lt;/code&gt; #loc</description>
+  <highlighted_element>close</highlighted_element>
+  <language>JAVA</language>
+  <offset>29</offset>
+  <length>5</length>
+</problem>
+</problems>

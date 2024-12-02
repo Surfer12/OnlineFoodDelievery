@@ -1,0 +1,1874 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/Application.java</file>
+  <line>45</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.Application void main(java.lang.String[] args)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getOrderId()&lt;/code&gt; #loc</description>
+  <highlighted_element>getOrderId</highlighted_element>
+  <language>JAVA</language>
+  <offset>50</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/Application.java</file>
+  <line>45</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.Application void main(java.lang.String[] args)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getId()&lt;/code&gt; #loc</description>
+  <highlighted_element>getId</highlighted_element>
+  <language>JAVA</language>
+  <offset>71</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/Application.java</file>
+  <line>49</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.Application void main(java.lang.String[] args)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getMessage()&lt;/code&gt; #loc</description>
+  <highlighted_element>getMessage</highlighted_element>
+  <language>JAVA</language>
+  <offset>53</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/Application.java</file>
+  <line>52</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.Application void main(java.lang.String[] args)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getMessage()&lt;/code&gt; #loc</description>
+  <highlighted_element>getMessage</highlighted_element>
+  <language>JAVA</language>
+  <offset>84</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystem.java</file>
+  <line>13</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystem void submitOrder(model.Order order)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getOrderId()&lt;/code&gt; #loc</description>
+  <highlighted_element>getOrderId</highlighted_element>
+  <language>JAVA</language>
+  <offset>53</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystem.java</file>
+  <line>14</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystem void submitOrder(model.Order order)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getOrderId()&lt;/code&gt; #loc</description>
+  <highlighted_element>getOrderId</highlighted_element>
+  <language>JAVA</language>
+  <offset>35</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystem.java</file>
+  <line>18</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystem void assignOrderToDriver(model.Order order, model.Driver driver)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getOrderId()&lt;/code&gt; #loc</description>
+  <highlighted_element>getOrderId</highlighted_element>
+  <language>JAVA</language>
+  <offset>42</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystem.java</file>
+  <line>18</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystem void assignOrderToDriver(model.Order order, model.Driver driver)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getName()&lt;/code&gt; #loc</description>
+  <highlighted_element>getName</highlighted_element>
+  <language>JAVA</language>
+  <offset>89</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystem.java</file>
+  <line>19</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystem void assignOrderToDriver(model.Order order, model.Driver driver)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getOrderId()&lt;/code&gt; #loc</description>
+  <highlighted_element>getOrderId</highlighted_element>
+  <language>JAVA</language>
+  <offset>35</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>50</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI DeliverySystemCLI()" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;emailValidator()&lt;/code&gt; #loc</description>
+  <highlighted_element>emailValidator</highlighted_element>
+  <language>JAVA</language>
+  <offset>43</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>52</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI DeliverySystemCLI()" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;deliveryLocationValidator()&lt;/code&gt; #loc</description>
+  <highlighted_element>deliveryLocationValidator</highlighted_element>
+  <language>JAVA</language>
+  <offset>43</offset>
+  <length>25</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>78</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI void start()" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getOrderService()&lt;/code&gt; #loc</description>
+  <highlighted_element>getOrderService</highlighted_element>
+  <language>JAVA</language>
+  <offset>42</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>78</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI void start()" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getOrderById()&lt;/code&gt; #loc</description>
+  <highlighted_element>getOrderById</highlighted_element>
+  <language>JAVA</language>
+  <offset>60</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>79</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI void start()" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getOrderIdHandler()&lt;/code&gt; #loc</description>
+  <highlighted_element>getOrderIdHandler</highlighted_element>
+  <language>JAVA</language>
+  <offset>50</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>79</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI void start()" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;handleInput()&lt;/code&gt; #loc</description>
+  <highlighted_element>handleInput</highlighted_element>
+  <language>JAVA</language>
+  <offset>70</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>82</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI void start()" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getMenuChoiceHandler()&lt;/code&gt; #loc</description>
+  <highlighted_element>getMenuChoiceHandler</highlighted_element>
+  <language>JAVA</language>
+  <offset>41</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>23</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void logMemoryUsage()" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getUsed()&lt;/code&gt; #loc</description>
+  <highlighted_element>getUsed</highlighted_element>
+  <language>JAVA</language>
+  <offset>62</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>24</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void logMemoryUsage()" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getCommitted()&lt;/code&gt; #loc</description>
+  <highlighted_element>getCommitted</highlighted_element>
+  <language>JAVA</language>
+  <offset>67</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>25</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void logMemoryUsage()" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getMax()&lt;/code&gt; #loc</description>
+  <highlighted_element>getMax</highlighted_element>
+  <language>JAVA</language>
+  <offset>61</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>28</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void logMemoryUsage()" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getUsed()&lt;/code&gt; #loc</description>
+  <highlighted_element>getUsed</highlighted_element>
+  <language>JAVA</language>
+  <offset>65</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>29</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void logMemoryUsage()" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getCommitted()&lt;/code&gt; #loc</description>
+  <highlighted_element>getCommitted</highlighted_element>
+  <language>JAVA</language>
+  <offset>70</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>30</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void logMemoryUsage()" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getMax()&lt;/code&gt; #loc</description>
+  <highlighted_element>getMax</highlighted_element>
+  <language>JAVA</language>
+  <offset>64</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>34</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void listAvailableDrivers()" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getName()&lt;/code&gt; #loc</description>
+  <highlighted_element>getName</highlighted_element>
+  <language>JAVA</language>
+  <offset>38</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>34</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void listAvailableDrivers()" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getVehicle()&lt;/code&gt; #loc</description>
+  <highlighted_element>getVehicle</highlighted_element>
+  <language>JAVA</language>
+  <offset>65</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>48</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrder(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Long&gt; orderIdHandler)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getName()&lt;/code&gt; #loc</description>
+  <highlighted_element>getName</highlighted_element>
+  <language>JAVA</language>
+  <offset>61</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>48</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrder(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Long&gt; orderIdHandler)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getVehicle()&lt;/code&gt; #loc</description>
+  <highlighted_element>getVehicle</highlighted_element>
+  <language>JAVA</language>
+  <offset>79</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>63</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrder(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Long&gt; orderIdHandler)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getName()&lt;/code&gt; #loc</description>
+  <highlighted_element>getName</highlighted_element>
+  <language>JAVA</language>
+  <offset>51</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>63</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrder(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Long&gt; orderIdHandler)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getOrderId()&lt;/code&gt; #loc</description>
+  <highlighted_element>getOrderId</highlighted_element>
+  <language>JAVA</language>
+  <offset>93</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>84</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void rateDriver(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; menuChoiceHandler)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getName()&lt;/code&gt; #loc</description>
+  <highlighted_element>getName</highlighted_element>
+  <language>JAVA</language>
+  <offset>43</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>127</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrderInteractive(java.util.Scanner scanner, managers.OrderManager orderManager)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getOrderIdHandler()&lt;/code&gt; #loc</description>
+  <highlighted_element>getOrderIdHandler</highlighted_element>
+  <language>JAVA</language>
+  <offset>66</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>33</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager void displayMenu()" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getName()&lt;/code&gt; #loc</description>
+  <highlighted_element>getName</highlighted_element>
+  <language>JAVA</language>
+  <offset>62</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>33</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager void displayMenu()" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getPrice()&lt;/code&gt; #loc</description>
+  <highlighted_element>getPrice</highlighted_element>
+  <language>JAVA</language>
+  <offset>78</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>49</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager java.util.List&lt;model.MenuItem&gt; selectMenuItems(java.util.Scanner scanner, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getMenuSize()&lt;/code&gt; #loc</description>
+  <highlighted_element>getMenuSize</highlighted_element>
+  <language>JAVA</language>
+  <offset>69</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>44</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getOrderId()&lt;/code&gt; #loc</description>
+  <highlighted_element>getOrderId</highlighted_element>
+  <language>JAVA</language>
+  <offset>82</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>44</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getOrderId()&lt;/code&gt; #loc</description>
+  <highlighted_element>getOrderId</highlighted_element>
+  <language>JAVA</language>
+  <offset>82</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>45</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getOrderId()&lt;/code&gt; #loc</description>
+  <highlighted_element>getOrderId</highlighted_element>
+  <language>JAVA</language>
+  <offset>64</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>45</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getOrderId()&lt;/code&gt; #loc</description>
+  <highlighted_element>getOrderId</highlighted_element>
+  <language>JAVA</language>
+  <offset>64</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>49</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getMessage()&lt;/code&gt; #loc</description>
+  <highlighted_element>getMessage</highlighted_element>
+  <language>JAVA</language>
+  <offset>52</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>49</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getMessage()&lt;/code&gt; #loc</description>
+  <highlighted_element>getMessage</highlighted_element>
+  <language>JAVA</language>
+  <offset>52</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>63</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void checkOrderStatus(java.util.Scanner scanner)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getStatus()&lt;/code&gt; #loc</description>
+  <highlighted_element>getStatus</highlighted_element>
+  <language>JAVA</language>
+  <offset>60</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>63</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void checkOrderStatus(java.util.Scanner scanner)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getStatus()&lt;/code&gt; #loc</description>
+  <highlighted_element>getStatus</highlighted_element>
+  <language>JAVA</language>
+  <offset>60</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>68</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void checkOrderStatus(java.util.Scanner scanner)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getMessage()&lt;/code&gt; #loc</description>
+  <highlighted_element>getMessage</highlighted_element>
+  <language>JAVA</language>
+  <offset>67</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>68</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void checkOrderStatus(java.util.Scanner scanner)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getMessage()&lt;/code&gt; #loc</description>
+  <highlighted_element>getMessage</highlighted_element>
+  <language>JAVA</language>
+  <offset>67</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>69</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void checkOrderStatus(java.util.Scanner scanner)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getMessage()&lt;/code&gt; #loc</description>
+  <highlighted_element>getMessage</highlighted_element>
+  <language>JAVA</language>
+  <offset>60</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>69</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void checkOrderStatus(java.util.Scanner scanner)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getMessage()&lt;/code&gt; #loc</description>
+  <highlighted_element>getMessage</highlighted_element>
+  <language>JAVA</language>
+  <offset>60</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>101</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getMessage()&lt;/code&gt; #loc</description>
+  <highlighted_element>getMessage</highlighted_element>
+  <language>JAVA</language>
+  <offset>52</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>101</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getMessage()&lt;/code&gt; #loc</description>
+  <highlighted_element>getMessage</highlighted_element>
+  <language>JAVA</language>
+  <offset>52</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Customer.java</file>
+  <line>35</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Customer void placeOrder(java.util.List&lt;model.MenuItem&gt; items, model.Driver driver)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getId()&lt;/code&gt; #loc</description>
+  <highlighted_element>getId</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Customer.java</file>
+  <line>36</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Customer void placeOrder(java.util.List&lt;model.MenuItem&gt; items, model.Driver driver)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getEmail()&lt;/code&gt; #loc</description>
+  <highlighted_element>getEmail</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Customer.java</file>
+  <line>38</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Customer void placeOrder(java.util.List&lt;model.MenuItem&gt; items, model.Driver driver)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getAddress()&lt;/code&gt; #loc</description>
+  <highlighted_element>getAddress</highlighted_element>
+  <language>JAVA</language>
+  <offset>30</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Customer.java</file>
+  <line>52</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Customer void rateDriver(model.Driver driver, int score, java.lang.String comment)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getId()&lt;/code&gt; #loc</description>
+  <highlighted_element>getId</highlighted_element>
+  <language>JAVA</language>
+  <offset>29</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Customer.java</file>
+  <line>53</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Customer void rateDriver(model.Driver driver, int score, java.lang.String comment)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getId()&lt;/code&gt; #loc</description>
+  <highlighted_element>getId</highlighted_element>
+  <language>JAVA</language>
+  <offset>29</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>78</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver void addRating(rating.Rating rating)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getScore()&lt;/code&gt; #loc</description>
+  <highlighted_element>getScore</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>21</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService void sendOrderConfirmationToCustomer(model.Order order)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getCustomerEmail()&lt;/code&gt; #loc</description>
+  <highlighted_element>getCustomerEmail</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>27</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService void sendDriverAssignmentNotification(model.Order order, model.Driver driver)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getCustomerEmail()&lt;/code&gt; #loc</description>
+  <highlighted_element>getCustomerEmail</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>33</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService void sendOrderStatusUpdateToCustomer(model.Order order, model.OrderStatus newStatus)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getCustomerEmail()&lt;/code&gt; #loc</description>
+  <highlighted_element>getCustomerEmail</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>39</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService void sendDeliveryCompletionNotification(model.Order order)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getCustomerEmail()&lt;/code&gt; #loc</description>
+  <highlighted_element>getCustomerEmail</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>45</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService java.lang.String formatOrderConfirmationMessage(model.Order order)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getOrderId()&lt;/code&gt; #loc</description>
+  <highlighted_element>getOrderId</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>46</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService java.lang.String formatOrderConfirmationMessage(model.Order order)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getTotalAmount()&lt;/code&gt; #loc</description>
+  <highlighted_element>getTotalAmount</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>52</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService java.lang.String formatDriverAssignmentMessage(model.Order order, model.Driver driver)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getName()&lt;/code&gt; #loc</description>
+  <highlighted_element>getName</highlighted_element>
+  <language>JAVA</language>
+  <offset>19</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>53</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService java.lang.String formatDriverAssignmentMessage(model.Order order, model.Driver driver)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;formatEstimatedDeliveryTime()&lt;/code&gt; #loc</description>
+  <highlighted_element>formatEstimatedDeliveryTime</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>27</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>64</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService java.lang.String formatStatusUpdateMessage(model.Order order, model.OrderStatus newStatus)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getOrderId()&lt;/code&gt; #loc</description>
+  <highlighted_element>getOrderId</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>70</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService java.lang.String formatDeliveryCompletionMessage(model.Order order)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getOrderId()&lt;/code&gt; #loc</description>
+  <highlighted_element>getOrderId</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>79</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService void sendEmail(java.lang.String recipientEmail, java.lang.String subject, java.lang.String message)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getMessage()&lt;/code&gt; #loc</description>
+  <highlighted_element>getMessage</highlighted_element>
+  <language>JAVA</language>
+  <offset>51</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>90</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService void sendSMS(java.lang.String recipientPhone, java.lang.String message)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getMessage()&lt;/code&gt; #loc</description>
+  <highlighted_element>getMessage</highlighted_element>
+  <language>JAVA</language>
+  <offset>42</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/OrderQueue.java</file>
+  <line>32</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="method" FQNAME="queue.OrderQueue void enqueue(model.Order order)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getMessage()&lt;/code&gt; #loc</description>
+  <highlighted_element>getMessage</highlighted_element>
+  <language>JAVA</language>
+  <offset>53</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/OrderQueue.java</file>
+  <line>39</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="method" FQNAME="queue.OrderQueue java.util.Optional&lt;model.Order&gt; dequeue()" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;poll()&lt;/code&gt; #loc</description>
+  <highlighted_element>poll</highlighted_element>
+  <language>JAVA</language>
+  <offset>44</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/OrderQueue.java</file>
+  <line>44</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="method" FQNAME="queue.OrderQueue java.util.Optional&lt;model.Order&gt; peek()" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;peek()&lt;/code&gt; #loc</description>
+  <highlighted_element>peek</highlighted_element>
+  <language>JAVA</language>
+  <offset>44</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/OrderQueue.java</file>
+  <line>69</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="method" FQNAME="queue.OrderQueue int getPositionInQueue(model.Order order)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getId()&lt;/code&gt; #loc</description>
+  <highlighted_element>getId</highlighted_element>
+  <language>JAVA</language>
+  <offset>36</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>58</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating void validate()" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;join()&lt;/code&gt; #loc</description>
+  <highlighted_element>join</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsHandler.java</file>
+  <line>23</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsHandler RatingsHandler(int maxRatings)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getMessage()&lt;/code&gt; #loc</description>
+  <highlighted_element>getMessage</highlighted_element>
+  <language>JAVA</language>
+  <offset>72</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsHandler.java</file>
+  <line>41</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsHandler void addRating(T rating)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getMessage()&lt;/code&gt; #loc</description>
+  <highlighted_element>getMessage</highlighted_element>
+  <language>JAVA</language>
+  <offset>55</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsHandler.java</file>
+  <line>52</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsHandler java.util.Optional&lt;T&gt; removeOldestRating()" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;pollFirst()&lt;/code&gt; #loc</description>
+  <highlighted_element>pollFirst</highlighted_element>
+  <language>JAVA</language>
+  <offset>49</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsHandler.java</file>
+  <line>62</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsHandler java.util.Optional&lt;T&gt; getLatestRating()" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;peekLast()&lt;/code&gt; #loc</description>
+  <highlighted_element>peekLast</highlighted_element>
+  <language>JAVA</language>
+  <offset>49</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/MenuServiceImpl.java</file>
+  <line>22</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.MenuServiceImpl void displayMenu()" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getName()&lt;/code&gt; #loc</description>
+  <highlighted_element>getName</highlighted_element>
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/MenuServiceImpl.java</file>
+  <line>23</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.MenuServiceImpl void displayMenu()" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getPrice()&lt;/code&gt; #loc</description>
+  <highlighted_element>getPrice</highlighted_element>
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>17</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl model.Order getOrderById(java.lang.Long orderId)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getId()&lt;/code&gt; #loc</description>
+  <highlighted_element>getId</highlighted_element>
+  <language>JAVA</language>
+  <offset>39</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>17</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl model.Order getOrderById(java.lang.Long orderId)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;equals()&lt;/code&gt; #loc</description>
+  <highlighted_element>equals</highlighted_element>
+  <language>JAVA</language>
+  <offset>47</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>36</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getOrderId()&lt;/code&gt; #loc</description>
+  <highlighted_element>getOrderId</highlighted_element>
+  <language>JAVA</language>
+  <offset>48</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>43</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getOrDefault()&lt;/code&gt; #loc</description>
+  <highlighted_element>getOrDefault</highlighted_element>
+  <language>JAVA</language>
+  <offset>44</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>47</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;printf()&lt;/code&gt; #loc</description>
+  <highlighted_element>printf</highlighted_element>
+  <language>JAVA</language>
+  <offset>55</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>48</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getName()&lt;/code&gt; #loc</description>
+  <highlighted_element>getName</highlighted_element>
+  <language>JAVA</language>
+  <offset>21</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>50</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getPrice()&lt;/code&gt; #loc</description>
+  <highlighted_element>getPrice</highlighted_element>
+  <language>JAVA</language>
+  <offset>21</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/MenuServiceImpl.java</file>
+  <line>35</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.MenuServiceImpl void displayMenu()" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getName()&lt;/code&gt; #loc</description>
+  <highlighted_element>getName</highlighted_element>
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/MenuServiceImpl.java</file>
+  <line>36</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.MenuServiceImpl void displayMenu()" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getPrice()&lt;/code&gt; #loc</description>
+  <highlighted_element>getPrice</highlighted_element>
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>18</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl model.Order getOrderById(java.lang.Long orderId)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getId()&lt;/code&gt; #loc</description>
+  <highlighted_element>getId</highlighted_element>
+  <language>JAVA</language>
+  <offset>44</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>18</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl model.Order getOrderById(java.lang.Long orderId)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;equals()&lt;/code&gt; #loc</description>
+  <highlighted_element>equals</highlighted_element>
+  <language>JAVA</language>
+  <offset>52</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>37</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getOrderId()&lt;/code&gt; #loc</description>
+  <highlighted_element>getOrderId</highlighted_element>
+  <language>JAVA</language>
+  <offset>48</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>44</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getOrDefault()&lt;/code&gt; #loc</description>
+  <highlighted_element>getOrDefault</highlighted_element>
+  <language>JAVA</language>
+  <offset>44</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>49</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;printf()&lt;/code&gt; #loc</description>
+  <highlighted_element>printf</highlighted_element>
+  <language>JAVA</language>
+  <offset>44</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>49</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getName()&lt;/code&gt; #loc</description>
+  <highlighted_element>getName</highlighted_element>
+  <language>JAVA</language>
+  <offset>76</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>49</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getPrice()&lt;/code&gt; #loc</description>
+  <highlighted_element>getPrice</highlighted_element>
+  <language>JAVA</language>
+  <offset>99</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/tracker/OrderTracker.java</file>
+  <line>39</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>tracker</package>
+  <entry_point TYPE="method" FQNAME="tracker.OrderTracker void notifyObservers(model.Order order)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;get()&lt;/code&gt; #loc</description>
+  <highlighted_element>get</highlighted_element>
+  <language>JAVA</language>
+  <offset>51</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/tracker/OrderTracker.java</file>
+  <line>39</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>tracker</package>
+  <entry_point TYPE="method" FQNAME="tracker.OrderTracker void notifyObservers(model.Order order)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getOrderId()&lt;/code&gt; #loc</description>
+  <highlighted_element>getOrderId</highlighted_element>
+  <language>JAVA</language>
+  <offset>61</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/tracker/OrderTracker.java</file>
+  <line>67</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>tracker</package>
+  <entry_point TYPE="method" FQNAME="tracker.OrderTracker java.util.Optional&lt;model.OrderStatus&gt; getOrderStatus(java.lang.Long orderId)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;get()&lt;/code&gt; #loc</description>
+  <highlighted_element>get</highlighted_element>
+  <language>JAVA</language>
+  <offset>52</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/tracker/OrderTracker.java</file>
+  <line>71</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>tracker</package>
+  <entry_point TYPE="method" FQNAME="tracker.OrderTracker java.util.Optional&lt;java.time.LocalDateTime&gt; getEstimatedDeliveryTime(java.lang.Long orderId)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;get()&lt;/code&gt; #loc</description>
+  <highlighted_element>get</highlighted_element>
+  <language>JAVA</language>
+  <offset>61</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/tracker/OrderTracker.java</file>
+  <line>75</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>tracker</package>
+  <entry_point TYPE="method" FQNAME="tracker.OrderTracker java.util.Optional&lt;model.Order&gt; findOrderById(java.lang.Long orderId)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;get()&lt;/code&gt; #loc</description>
+  <highlighted_element>get</highlighted_element>
+  <language>JAVA</language>
+  <offset>45</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>59</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler T getInput(java.lang.String prompt)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getErrorMessage()&lt;/code&gt; #loc</description>
+  <highlighted_element>getErrorMessage</highlighted_element>
+  <language>JAVA</language>
+  <offset>54</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>62</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler T getInput(java.lang.String prompt)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getMessage()&lt;/code&gt; #loc</description>
+  <highlighted_element>getMessage</highlighted_element>
+  <language>JAVA</language>
+  <offset>45</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>92</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getTypeName()&lt;/code&gt; #loc</description>
+  <highlighted_element>getTypeName</highlighted_element>
+  <language>JAVA</language>
+  <offset>95</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>95</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getMessage()&lt;/code&gt; #loc</description>
+  <highlighted_element>getMessage</highlighted_element>
+  <language>JAVA</language>
+  <offset>59</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>106</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;newInstance()&lt;/code&gt; #loc</description>
+  <highlighted_element>newInstance</highlighted_element>
+  <language>JAVA</language>
+  <offset>52</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>106</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;get()&lt;/code&gt; #loc</description>
+  <highlighted_element>get</highlighted_element>
+  <language>JAVA</language>
+  <offset>71</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>106</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getClass()&lt;/code&gt; #loc</description>
+  <highlighted_element>getClass</highlighted_element>
+  <language>JAVA</language>
+  <offset>78</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>106</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;size()&lt;/code&gt; #loc</description>
+  <highlighted_element>size</highlighted_element>
+  <language>JAVA</language>
+  <offset>97</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>31</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateTextInput(java.lang.String input, java.lang.String fieldName)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getMessage()&lt;/code&gt; #loc</description>
+  <highlighted_element>getMessage</highlighted_element>
+  <language>JAVA</language>
+  <offset>63</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>31</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateTextInput(java.lang.String input, java.lang.String fieldName)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getMessage()&lt;/code&gt; #loc</description>
+  <highlighted_element>getMessage</highlighted_element>
+  <language>JAVA</language>
+  <offset>63</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>49</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateNumericInput(java.lang.String input, java.lang.String fieldName)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getMessage()&lt;/code&gt; #loc</description>
+  <highlighted_element>getMessage</highlighted_element>
+  <language>JAVA</language>
+  <offset>66</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>49</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateNumericInput(java.lang.String input, java.lang.String fieldName)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getMessage()&lt;/code&gt; #loc</description>
+  <highlighted_element>getMessage</highlighted_element>
+  <language>JAVA</language>
+  <offset>66</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>67</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validatePositiveNumber(double number, java.lang.String fieldName)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getMessage()&lt;/code&gt; #loc</description>
+  <highlighted_element>getMessage</highlighted_element>
+  <language>JAVA</language>
+  <offset>68</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>67</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validatePositiveNumber(double number, java.lang.String fieldName)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getMessage()&lt;/code&gt; #loc</description>
+  <highlighted_element>getMessage</highlighted_element>
+  <language>JAVA</language>
+  <offset>68</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>85</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateEmailFormat(java.lang.String email)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getMessage()&lt;/code&gt; #loc</description>
+  <highlighted_element>getMessage</highlighted_element>
+  <language>JAVA</language>
+  <offset>65</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>85</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateEmailFormat(java.lang.String email)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getMessage()&lt;/code&gt; #loc</description>
+  <highlighted_element>getMessage</highlighted_element>
+  <language>JAVA</language>
+  <offset>65</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>103</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validatePhoneNumber(java.lang.String phoneNumber)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getMessage()&lt;/code&gt; #loc</description>
+  <highlighted_element>getMessage</highlighted_element>
+  <language>JAVA</language>
+  <offset>65</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>103</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validatePhoneNumber(java.lang.String phoneNumber)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getMessage()&lt;/code&gt; #loc</description>
+  <highlighted_element>getMessage</highlighted_element>
+  <language>JAVA</language>
+  <offset>65</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/OrderValidator.java</file>
+  <line>25</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.OrderValidator void validateOrder(model.Order order)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getCustomerId()&lt;/code&gt; #loc</description>
+  <highlighted_element>getCustomerId</highlighted_element>
+  <language>JAVA</language>
+  <offset>50</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/OrderValidator.java</file>
+  <line>26</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.OrderValidator void validateOrder(model.Order order)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getItems()&lt;/code&gt; #loc</description>
+  <highlighted_element>getItems</highlighted_element>
+  <language>JAVA</language>
+  <offset>45</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/OrderValidator.java</file>
+  <line>27</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.OrderValidator void validateOrder(model.Order order)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getTotalAmount()&lt;/code&gt; #loc</description>
+  <highlighted_element>getTotalAmount</highlighted_element>
+  <language>JAVA</language>
+  <offset>46</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/OrderValidator.java</file>
+  <line>29</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.OrderValidator void validateOrder(model.Order order)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getMessage()&lt;/code&gt; #loc</description>
+  <highlighted_element>getMessage</highlighted_element>
+  <language>JAVA</language>
+  <offset>71</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>38</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler T getInput(java.lang.String prompt)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getMessage()&lt;/code&gt; #loc</description>
+  <highlighted_element>getMessage</highlighted_element>
+  <language>JAVA</language>
+  <offset>63</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>59</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getMessage()&lt;/code&gt; #loc</description>
+  <highlighted_element>getMessage</highlighted_element>
+  <language>JAVA</language>
+  <offset>63</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>66</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;isEmpty()&lt;/code&gt; #loc</description>
+  <highlighted_element>isEmpty</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>66</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;get()&lt;/code&gt; #loc</description>
+  <highlighted_element>get</highlighted_element>
+  <language>JAVA</language>
+  <offset>61</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>66</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getClass()&lt;/code&gt; #loc</description>
+  <highlighted_element>getClass</highlighted_element>
+  <language>JAVA</language>
+  <offset>68</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>71</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;newInstance()&lt;/code&gt; #loc</description>
+  <highlighted_element>newInstance</highlighted_element>
+  <language>JAVA</language>
+  <offset>54</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>71</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;get()&lt;/code&gt; #loc</description>
+  <highlighted_element>get</highlighted_element>
+  <language>JAVA</language>
+  <offset>73</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>71</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getClass()&lt;/code&gt; #loc</description>
+  <highlighted_element>getClass</highlighted_element>
+  <language>JAVA</language>
+  <offset>80</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>71</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;size()&lt;/code&gt; #loc</description>
+  <highlighted_element>size</highlighted_element>
+  <language>JAVA</language>
+  <offset>99</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationUtils.java</file>
+  <line>41</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationUtils void validateCustomerId(java.lang.Long customerId)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getMessage()&lt;/code&gt; #loc</description>
+  <highlighted_element>getMessage</highlighted_element>
+  <language>JAVA</language>
+  <offset>64</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationUtils.java</file>
+  <line>62</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationUtils void validateItems(java.util.List&lt;?&gt; items, int maxItems)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getMessage()&lt;/code&gt; #loc</description>
+  <highlighted_element>getMessage</highlighted_element>
+  <language>JAVA</language>
+  <offset>59</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationUtils.java</file>
+  <line>83</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationUtils void validateAmount(double amount, double maxAmount)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getMessage()&lt;/code&gt; #loc</description>
+  <highlighted_element>getMessage</highlighted_element>
+  <language>JAVA</language>
+  <offset>60</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationUtils.java</file>
+  <line>100</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationUtils void validatePayment(payment.Payment payment)" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getMessage()&lt;/code&gt; #loc</description>
+  <highlighted_element>getMessage</highlighted_element>
+  <language>JAVA</language>
+  <offset>61</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>45</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void setUp()" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getMenuChoiceHandler()&lt;/code&gt; #loc</description>
+  <highlighted_element>getMenuChoiceHandler</highlighted_element>
+  <language>JAVA</language>
+  <offset>30</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>46</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void setUp()" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getOrderService()&lt;/code&gt; #loc</description>
+  <highlighted_element>getOrderService</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>47</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void setUp()" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getOrderIdHandler()&lt;/code&gt; #loc</description>
+  <highlighted_element>getOrderIdHandler</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>52</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void testStartPlaceOrder()" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;handleInput()&lt;/code&gt; #loc</description>
+  <highlighted_element>handleInput</highlighted_element>
+  <language>JAVA</language>
+  <offset>36</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>55</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void testStartPlaceOrder()" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;handleInput()&lt;/code&gt; #loc</description>
+  <highlighted_element>handleInput</highlighted_element>
+  <language>JAVA</language>
+  <offset>41</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>64</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void testStartCheckOrderStatus()" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;handleInput()&lt;/code&gt; #loc</description>
+  <highlighted_element>handleInput</highlighted_element>
+  <language>JAVA</language>
+  <offset>36</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>75</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void testStartViewMenu()" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;handleInput()&lt;/code&gt; #loc</description>
+  <highlighted_element>handleInput</highlighted_element>
+  <language>JAVA</language>
+  <offset>36</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>86</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void testStartManageDrivers()" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;handleInput()&lt;/code&gt; #loc</description>
+  <highlighted_element>handleInput</highlighted_element>
+  <language>JAVA</language>
+  <offset>36</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>97</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void testStartRateDriver()" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;handleInput()&lt;/code&gt; #loc</description>
+  <highlighted_element>handleInput</highlighted_element>
+  <language>JAVA</language>
+  <offset>36</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>100</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void testStartRateDriver()" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;handleInput()&lt;/code&gt; #loc</description>
+  <highlighted_element>handleInput</highlighted_element>
+  <language>JAVA</language>
+  <offset>33</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>102</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void testStartRateDriver()" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;getOrderById()&lt;/code&gt; #loc</description>
+  <highlighted_element>getOrderById</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>111</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void testStartExit()" />
+  <problem_class id="NestedMethodCall" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nested method call</problem_class>
+  <description>Nested method call &lt;code&gt;handleInput()&lt;/code&gt; #loc</description>
+  <highlighted_element>handleInput</highlighted_element>
+  <language>JAVA</language>
+  <offset>36</offset>
+  <length>11</length>
+</problem>
+</problems>

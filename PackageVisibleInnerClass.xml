@@ -1,0 +1,15 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/Application.java</file>
+  <line>16</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="class" FQNAME="app.Application.NotificationService" />
+  <problem_class id="PackageVisibleInnerClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Package-visible nested class</problem_class>
+  <description>Package-visible nested class &lt;code&gt;NotificationService&lt;/code&gt; #loc</description>
+  <highlighted_element>NotificationService</highlighted_element>
+  <language>JAVA</language>
+  <offset>14</offset>
+  <length>19</length>
+</problem>
+</problems>

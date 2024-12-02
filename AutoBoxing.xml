@@ -1,0 +1,574 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/Application.java</file>
+  <line>26</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.Application void main(java.lang.String[] args)" />
+  <problem_class id="AutoBoxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-boxing</problem_class>
+  <description>Auto-boxing &lt;code&gt;101L&lt;/code&gt; #loc</description>
+  <highlighted_element>101L</highlighted_element>
+  <language>JAVA</language>
+  <offset>45</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/Application.java</file>
+  <line>37</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.Application void main(java.lang.String[] args)" />
+  <problem_class id="AutoBoxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-boxing</problem_class>
+  <description>Auto-boxing &lt;code&gt;1L&lt;/code&gt; #loc</description>
+  <highlighted_element>1L</highlighted_element>
+  <language>JAVA</language>
+  <offset>45</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>23</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void logMemoryUsage()" />
+  <problem_class id="AutoBoxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-boxing</problem_class>
+  <description>Auto-boxing &lt;code&gt;heapMemoryUsage.getUsed() / (1024 * 1024)&lt;/code&gt; #loc</description>
+  <highlighted_element>heapMemoryUsage.getUsed() / (1024 * 1024)</highlighted_element>
+  <language>JAVA</language>
+  <offset>46</offset>
+  <length>41</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>24</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void logMemoryUsage()" />
+  <problem_class id="AutoBoxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-boxing</problem_class>
+  <description>Auto-boxing &lt;code&gt;heapMemoryUsage.getCommitted() / (1024 * 1024)&lt;/code&gt; #loc</description>
+  <highlighted_element>heapMemoryUsage.getCommitted() / (1024 * 1024)</highlighted_element>
+  <language>JAVA</language>
+  <offset>51</offset>
+  <length>46</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>25</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void logMemoryUsage()" />
+  <problem_class id="AutoBoxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-boxing</problem_class>
+  <description>Auto-boxing &lt;code&gt;heapMemoryUsage.getMax() / (1024 * 1024)&lt;/code&gt; #loc</description>
+  <highlighted_element>heapMemoryUsage.getMax() / (1024 * 1024)</highlighted_element>
+  <language>JAVA</language>
+  <offset>45</offset>
+  <length>40</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>28</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void logMemoryUsage()" />
+  <problem_class id="AutoBoxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-boxing</problem_class>
+  <description>Auto-boxing &lt;code&gt;nonHeapMemoryUsage.getUsed() / (1024 * 1024)&lt;/code&gt; #loc</description>
+  <highlighted_element>nonHeapMemoryUsage.getUsed() / (1024 * 1024)</highlighted_element>
+  <language>JAVA</language>
+  <offset>46</offset>
+  <length>44</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>29</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void logMemoryUsage()" />
+  <problem_class id="AutoBoxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-boxing</problem_class>
+  <description>Auto-boxing &lt;code&gt;nonHeapMemoryUsage.getCommitted() / (1024 * 1024)&lt;/code&gt; #loc</description>
+  <highlighted_element>nonHeapMemoryUsage.getCommitted() / (1024 * 1024)</highlighted_element>
+  <language>JAVA</language>
+  <offset>51</offset>
+  <length>49</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>30</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void logMemoryUsage()" />
+  <problem_class id="AutoBoxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-boxing</problem_class>
+  <description>Auto-boxing &lt;code&gt;nonHeapMemoryUsage.getMax() / (1024 * 1024)&lt;/code&gt; #loc</description>
+  <highlighted_element>nonHeapMemoryUsage.getMax() / (1024 * 1024)</highlighted_element>
+  <language>JAVA</language>
+  <offset>45</offset>
+  <length>43</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>48</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrder(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Long&gt; orderIdHandler)" />
+  <problem_class id="AutoBoxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-boxing</problem_class>
+  <description>Auto-boxing &lt;code&gt;i + 1&lt;/code&gt; #loc</description>
+  <highlighted_element>i + 1</highlighted_element>
+  <language>JAVA</language>
+  <offset>47</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>33</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager void displayMenu()" />
+  <problem_class id="AutoBoxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-boxing</problem_class>
+  <description>Auto-boxing &lt;code&gt;i + 1&lt;/code&gt; #loc</description>
+  <highlighted_element>i + 1</highlighted_element>
+  <language>JAVA</language>
+  <offset>50</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>33</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager void displayMenu()" />
+  <problem_class id="AutoBoxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-boxing</problem_class>
+  <description>Auto-boxing &lt;code&gt;item.getPrice()&lt;/code&gt; #loc</description>
+  <highlighted_element>item.getPrice()</highlighted_element>
+  <language>JAVA</language>
+  <offset>73</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>78</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver void addRating(rating.Rating rating)" />
+  <problem_class id="AutoBoxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-boxing</problem_class>
+  <description>Auto-boxing &lt;code&gt;rating.getScore()&lt;/code&gt; #loc</description>
+  <highlighted_element>rating.getScore()</highlighted_element>
+  <language>JAVA</language>
+  <offset>21</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>24</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order Order(java.lang.Long customerId, java.lang.String customerEmail, java.util.List&lt;model.MenuItem&gt; items, model.Location deliveryLocation)" />
+  <problem_class id="AutoBoxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-boxing</problem_class>
+  <description>Auto-boxing &lt;code&gt;System.currentTimeMillis()&lt;/code&gt; #loc</description>
+  <highlighted_element>System.currentTimeMillis()</highlighted_element>
+  <language>JAVA</language>
+  <offset>21</offset>
+  <length>26</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>46</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService java.lang.String formatOrderConfirmationMessage(model.Order order)" />
+  <problem_class id="AutoBoxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-boxing</problem_class>
+  <description>Auto-boxing &lt;code&gt;order.getTotalAmount()&lt;/code&gt; #loc</description>
+  <highlighted_element>order.getTotalAmount()</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>22</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/MenuServiceImpl.java</file>
+  <line>21</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.MenuServiceImpl void displayMenu()" />
+  <problem_class id="AutoBoxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-boxing</problem_class>
+  <description>Auto-boxing &lt;code&gt;i + 1&lt;/code&gt; #loc</description>
+  <highlighted_element>i + 1</highlighted_element>
+  <language>JAVA</language>
+  <offset>20</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/MenuServiceImpl.java</file>
+  <line>23</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.MenuServiceImpl void displayMenu()" />
+  <problem_class id="AutoBoxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-boxing</problem_class>
+  <description>Auto-boxing &lt;code&gt;item.getPrice()&lt;/code&gt; #loc</description>
+  <highlighted_element>item.getPrice()</highlighted_element>
+  <language>JAVA</language>
+  <offset>20</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>28</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl model.Order createOrder(java.util.List&lt;model.MenuItem&gt; items)" />
+  <problem_class id="AutoBoxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-boxing</problem_class>
+  <description>Auto-boxing &lt;code&gt;0L&lt;/code&gt; #loc</description>
+  <highlighted_element>0L</highlighted_element>
+  <language>JAVA</language>
+  <offset>35</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>43</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="AutoBoxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-boxing</problem_class>
+  <description>Auto-boxing &lt;code&gt;itemCounts.getOrDefault(item, 0) + 1&lt;/code&gt; #loc</description>
+  <highlighted_element>itemCounts.getOrDefault(item, 0) + 1</highlighted_element>
+  <language>JAVA</language>
+  <offset>33</offset>
+  <length>36</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>43</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="AutoBoxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-boxing</problem_class>
+  <description>Auto-boxing &lt;code&gt;0&lt;/code&gt; #loc</description>
+  <highlighted_element>0</highlighted_element>
+  <language>JAVA</language>
+  <offset>63</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>50</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="AutoBoxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-boxing</problem_class>
+  <description>Auto-boxing &lt;code&gt;item.getPrice() * count&lt;/code&gt; #loc</description>
+  <highlighted_element>item.getPrice() * count</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>23</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>52</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="AutoBoxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-boxing</problem_class>
+  <description>Auto-boxing &lt;code&gt;totalPrice&lt;/code&gt; #loc</description>
+  <highlighted_element>totalPrice</highlighted_element>
+  <language>JAVA</language>
+  <offset>50</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/MenuServiceImpl.java</file>
+  <line>22</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.MenuServiceImpl void initializeMenu()" />
+  <problem_class id="AutoBoxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-boxing</problem_class>
+  <description>Auto-boxing &lt;code&gt;0L&lt;/code&gt; #loc</description>
+  <highlighted_element>0L</highlighted_element>
+  <language>JAVA</language>
+  <offset>36</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/MenuServiceImpl.java</file>
+  <line>23</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.MenuServiceImpl void initializeMenu()" />
+  <problem_class id="AutoBoxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-boxing</problem_class>
+  <description>Auto-boxing &lt;code&gt;0L&lt;/code&gt; #loc</description>
+  <highlighted_element>0L</highlighted_element>
+  <language>JAVA</language>
+  <offset>36</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/MenuServiceImpl.java</file>
+  <line>24</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.MenuServiceImpl void initializeMenu()" />
+  <problem_class id="AutoBoxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-boxing</problem_class>
+  <description>Auto-boxing &lt;code&gt;0L&lt;/code&gt; #loc</description>
+  <highlighted_element>0L</highlighted_element>
+  <language>JAVA</language>
+  <offset>32</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/MenuServiceImpl.java</file>
+  <line>25</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.MenuServiceImpl void initializeMenu()" />
+  <problem_class id="AutoBoxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-boxing</problem_class>
+  <description>Auto-boxing &lt;code&gt;0L&lt;/code&gt; #loc</description>
+  <highlighted_element>0L</highlighted_element>
+  <language>JAVA</language>
+  <offset>32</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/MenuServiceImpl.java</file>
+  <line>34</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.MenuServiceImpl void displayMenu()" />
+  <problem_class id="AutoBoxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-boxing</problem_class>
+  <description>Auto-boxing &lt;code&gt;i + 1&lt;/code&gt; #loc</description>
+  <highlighted_element>i + 1</highlighted_element>
+  <language>JAVA</language>
+  <offset>20</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/MenuServiceImpl.java</file>
+  <line>36</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.MenuServiceImpl void displayMenu()" />
+  <problem_class id="AutoBoxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-boxing</problem_class>
+  <description>Auto-boxing &lt;code&gt;item.getPrice()&lt;/code&gt; #loc</description>
+  <highlighted_element>item.getPrice()</highlighted_element>
+  <language>JAVA</language>
+  <offset>20</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>29</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl model.Order createOrder(java.util.List&lt;model.MenuItem&gt; items)" />
+  <problem_class id="AutoBoxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-boxing</problem_class>
+  <description>Auto-boxing &lt;code&gt;0L&lt;/code&gt; #loc</description>
+  <highlighted_element>0L</highlighted_element>
+  <language>JAVA</language>
+  <offset>35</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>44</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="AutoBoxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-boxing</problem_class>
+  <description>Auto-boxing &lt;code&gt;itemCounts.getOrDefault(item, 0) + 1&lt;/code&gt; #loc</description>
+  <highlighted_element>itemCounts.getOrDefault(item, 0) + 1</highlighted_element>
+  <language>JAVA</language>
+  <offset>33</offset>
+  <length>36</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>44</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="AutoBoxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-boxing</problem_class>
+  <description>Auto-boxing &lt;code&gt;0&lt;/code&gt; #loc</description>
+  <highlighted_element>0</highlighted_element>
+  <language>JAVA</language>
+  <offset>63</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>49</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="AutoBoxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-boxing</problem_class>
+  <description>Auto-boxing &lt;code&gt;item.getPrice() * count&lt;/code&gt; #loc</description>
+  <highlighted_element>item.getPrice() * count</highlighted_element>
+  <language>JAVA</language>
+  <offset>94</offset>
+  <length>23</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>51</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="AutoBoxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-boxing</problem_class>
+  <description>Auto-boxing &lt;code&gt;totalPrice&lt;/code&gt; #loc</description>
+  <highlighted_element>totalPrice</highlighted_element>
+  <language>JAVA</language>
+  <offset>50</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/MenuItemValidator.java</file>
+  <line>13</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.MenuItemValidator java.lang.Integer parse(java.lang.String input)" />
+  <problem_class id="AutoBoxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-boxing</problem_class>
+  <description>Auto-boxing &lt;code&gt;Integer.parseInt(input)&lt;/code&gt; #loc</description>
+  <highlighted_element>Integer.parseInt(input)</highlighted_element>
+  <language>JAVA</language>
+  <offset>19</offset>
+  <length>23</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/PositiveIntegerValidator.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.PositiveIntegerValidator java.lang.Integer parse(java.lang.String input)" />
+  <problem_class id="AutoBoxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-boxing</problem_class>
+  <description>Auto-boxing &lt;code&gt;Integer.parseInt(input)&lt;/code&gt; #loc</description>
+  <highlighted_element>Integer.parseInt(input)</highlighted_element>
+  <language>JAVA</language>
+  <offset>19</offset>
+  <length>23</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/PositiveLongValidator.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.PositiveLongValidator java.lang.Long parse(java.lang.String input)" />
+  <problem_class id="AutoBoxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-boxing</problem_class>
+  <description>Auto-boxing &lt;code&gt;Long.parseLong(input)&lt;/code&gt; #loc</description>
+  <highlighted_element>Long.parseLong(input)</highlighted_element>
+  <language>JAVA</language>
+  <offset>19</offset>
+  <length>21</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>53</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void testStartPlaceOrder()" />
+  <problem_class id="AutoBoxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-boxing</problem_class>
+  <description>Auto-boxing &lt;code&gt;1&lt;/code&gt; #loc</description>
+  <highlighted_element>1</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>55</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void testStartPlaceOrder()" />
+  <problem_class id="AutoBoxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-boxing</problem_class>
+  <description>Auto-boxing &lt;code&gt;1&lt;/code&gt; #loc</description>
+  <highlighted_element>1</highlighted_element>
+  <language>JAVA</language>
+  <offset>108</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>65</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void testStartCheckOrderStatus()" />
+  <problem_class id="AutoBoxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-boxing</problem_class>
+  <description>Auto-boxing &lt;code&gt;2&lt;/code&gt; #loc</description>
+  <highlighted_element>2</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>76</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void testStartViewMenu()" />
+  <problem_class id="AutoBoxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-boxing</problem_class>
+  <description>Auto-boxing &lt;code&gt;3&lt;/code&gt; #loc</description>
+  <highlighted_element>3</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>87</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void testStartManageDrivers()" />
+  <problem_class id="AutoBoxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-boxing</problem_class>
+  <description>Auto-boxing &lt;code&gt;4&lt;/code&gt; #loc</description>
+  <highlighted_element>4</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>98</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void testStartRateDriver()" />
+  <problem_class id="AutoBoxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-boxing</problem_class>
+  <description>Auto-boxing &lt;code&gt;5&lt;/code&gt; #loc</description>
+  <highlighted_element>5</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>101</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void testStartRateDriver()" />
+  <problem_class id="AutoBoxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-boxing</problem_class>
+  <description>Auto-boxing &lt;code&gt;1L&lt;/code&gt; #loc</description>
+  <highlighted_element>1L</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>102</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void testStartRateDriver()" />
+  <problem_class id="AutoBoxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-boxing</problem_class>
+  <description>Auto-boxing &lt;code&gt;1L&lt;/code&gt; #loc</description>
+  <highlighted_element>1L</highlighted_element>
+  <language>JAVA</language>
+  <offset>44</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>112</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void testStartExit()" />
+  <problem_class id="AutoBoxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-boxing</problem_class>
+  <description>Auto-boxing &lt;code&gt;6&lt;/code&gt; #loc</description>
+  <highlighted_element>6</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>1</length>
+</problem>
+</problems>

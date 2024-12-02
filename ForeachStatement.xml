@@ -1,0 +1,80 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>33</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void listAvailableDrivers()" />
+  <problem_class id="ForeachStatement" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Enhanced 'for' statement</problem_class>
+  <description>Extended &lt;code&gt;for&lt;/code&gt; statement #loc</description>
+  <highlighted_element>for</highlighted_element>
+  <language>JAVA</language>
+  <offset>8</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderTrackingService.java</file>
+  <line>23</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="method" FQNAME="observer.OrderTrackingService void notifyObservers(model.Order order)" />
+  <problem_class id="ForeachStatement" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Enhanced 'for' statement</problem_class>
+  <description>Extended &lt;code&gt;for&lt;/code&gt; statement #loc</description>
+  <highlighted_element>for</highlighted_element>
+  <language>JAVA</language>
+  <offset>6</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/OrderQueue.java</file>
+  <line>68</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="method" FQNAME="queue.OrderQueue int getPositionInQueue(model.Order order)" />
+  <problem_class id="ForeachStatement" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Enhanced 'for' statement</problem_class>
+  <description>Extended &lt;code&gt;for&lt;/code&gt; statement #loc</description>
+  <highlighted_element>for</highlighted_element>
+  <language>JAVA</language>
+  <offset>6</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>42</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="ForeachStatement" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Enhanced 'for' statement</problem_class>
+  <description>Extended &lt;code&gt;for&lt;/code&gt; statement #loc</description>
+  <highlighted_element>for</highlighted_element>
+  <language>JAVA</language>
+  <offset>8</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>43</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="ForeachStatement" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Enhanced 'for' statement</problem_class>
+  <description>Extended &lt;code&gt;for&lt;/code&gt; statement #loc</description>
+  <highlighted_element>for</highlighted_element>
+  <language>JAVA</language>
+  <offset>8</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/tracker/OrderTracker.java</file>
+  <line>38</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>tracker</package>
+  <entry_point TYPE="method" FQNAME="tracker.OrderTracker void notifyObservers(model.Order order)" />
+  <problem_class id="ForeachStatement" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Enhanced 'for' statement</problem_class>
+  <description>Extended &lt;code&gt;for&lt;/code&gt; statement #loc</description>
+  <highlighted_element>for</highlighted_element>
+  <language>JAVA</language>
+  <offset>6</offset>
+  <length>3</length>
+</problem>
+</problems>

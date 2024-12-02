@@ -1,0 +1,249 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>23</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void logMemoryUsage()" />
+  <problem_class id="MagicNumber" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Magic number</problem_class>
+  <description>Magic number &lt;code&gt;1024&lt;/code&gt; #loc</description>
+  <highlighted_element>1024</highlighted_element>
+  <language>JAVA</language>
+  <offset>75</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>23</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void logMemoryUsage()" />
+  <problem_class id="MagicNumber" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Magic number</problem_class>
+  <description>Magic number &lt;code&gt;1024&lt;/code&gt; #loc</description>
+  <highlighted_element>1024</highlighted_element>
+  <language>JAVA</language>
+  <offset>82</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>24</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void logMemoryUsage()" />
+  <problem_class id="MagicNumber" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Magic number</problem_class>
+  <description>Magic number &lt;code&gt;1024&lt;/code&gt; #loc</description>
+  <highlighted_element>1024</highlighted_element>
+  <language>JAVA</language>
+  <offset>85</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>24</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void logMemoryUsage()" />
+  <problem_class id="MagicNumber" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Magic number</problem_class>
+  <description>Magic number &lt;code&gt;1024&lt;/code&gt; #loc</description>
+  <highlighted_element>1024</highlighted_element>
+  <language>JAVA</language>
+  <offset>92</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>25</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void logMemoryUsage()" />
+  <problem_class id="MagicNumber" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Magic number</problem_class>
+  <description>Magic number &lt;code&gt;1024&lt;/code&gt; #loc</description>
+  <highlighted_element>1024</highlighted_element>
+  <language>JAVA</language>
+  <offset>73</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>25</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void logMemoryUsage()" />
+  <problem_class id="MagicNumber" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Magic number</problem_class>
+  <description>Magic number &lt;code&gt;1024&lt;/code&gt; #loc</description>
+  <highlighted_element>1024</highlighted_element>
+  <language>JAVA</language>
+  <offset>80</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>28</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void logMemoryUsage()" />
+  <problem_class id="MagicNumber" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Magic number</problem_class>
+  <description>Magic number &lt;code&gt;1024&lt;/code&gt; #loc</description>
+  <highlighted_element>1024</highlighted_element>
+  <language>JAVA</language>
+  <offset>78</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>28</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void logMemoryUsage()" />
+  <problem_class id="MagicNumber" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Magic number</problem_class>
+  <description>Magic number &lt;code&gt;1024&lt;/code&gt; #loc</description>
+  <highlighted_element>1024</highlighted_element>
+  <language>JAVA</language>
+  <offset>85</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>29</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void logMemoryUsage()" />
+  <problem_class id="MagicNumber" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Magic number</problem_class>
+  <description>Magic number &lt;code&gt;1024&lt;/code&gt; #loc</description>
+  <highlighted_element>1024</highlighted_element>
+  <language>JAVA</language>
+  <offset>88</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>29</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void logMemoryUsage()" />
+  <problem_class id="MagicNumber" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Magic number</problem_class>
+  <description>Magic number &lt;code&gt;1024&lt;/code&gt; #loc</description>
+  <highlighted_element>1024</highlighted_element>
+  <language>JAVA</language>
+  <offset>95</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>30</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void logMemoryUsage()" />
+  <problem_class id="MagicNumber" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Magic number</problem_class>
+  <description>Magic number &lt;code&gt;1024&lt;/code&gt; #loc</description>
+  <highlighted_element>1024</highlighted_element>
+  <language>JAVA</language>
+  <offset>76</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>30</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void logMemoryUsage()" />
+  <problem_class id="MagicNumber" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Magic number</problem_class>
+  <description>Magic number &lt;code&gt;1024&lt;/code&gt; #loc</description>
+  <highlighted_element>1024</highlighted_element>
+  <language>JAVA</language>
+  <offset>83</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>33</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void logMemoryUsage()" />
+  <problem_class id="MagicNumber" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Magic number</problem_class>
+  <description>Magic number &lt;code&gt;0.75&lt;/code&gt; #loc</description>
+  <highlighted_element>0.75</highlighted_element>
+  <language>JAVA</language>
+  <offset>76</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>52</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating void validate()" />
+  <problem_class id="MagicNumber" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Magic number</problem_class>
+  <description>Magic number &lt;code&gt;500&lt;/code&gt; #loc</description>
+  <highlighted_element>500</highlighted_element>
+  <language>JAVA</language>
+  <offset>50</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/MenuServiceImpl.java</file>
+  <line>22</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.MenuServiceImpl void initializeMenu()" />
+  <problem_class id="MagicNumber" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Magic number</problem_class>
+  <description>Magic number &lt;code&gt;5.99&lt;/code&gt; #loc</description>
+  <highlighted_element>5.99</highlighted_element>
+  <language>JAVA</language>
+  <offset>75</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/MenuServiceImpl.java</file>
+  <line>23</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.MenuServiceImpl void initializeMenu()" />
+  <problem_class id="MagicNumber" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Magic number</problem_class>
+  <description>Magic number &lt;code&gt;6.49&lt;/code&gt; #loc</description>
+  <highlighted_element>6.49</highlighted_element>
+  <language>JAVA</language>
+  <offset>86</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/MenuServiceImpl.java</file>
+  <line>24</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.MenuServiceImpl void initializeMenu()" />
+  <problem_class id="MagicNumber" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Magic number</problem_class>
+  <description>Magic number &lt;code&gt;2.99&lt;/code&gt; #loc</description>
+  <highlighted_element>2.99</highlighted_element>
+  <language>JAVA</language>
+  <offset>63</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/MenuServiceImpl.java</file>
+  <line>25</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.MenuServiceImpl void initializeMenu()" />
+  <problem_class id="MagicNumber" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Magic number</problem_class>
+  <description>Magic number &lt;code&gt;1.99&lt;/code&gt; #loc</description>
+  <highlighted_element>1.99</highlighted_element>
+  <language>JAVA</language>
+  <offset>66</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/tracker/OrderTracker.java</file>
+  <line>84</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>tracker</package>
+  <entry_point TYPE="method" FQNAME="tracker.OrderTracker java.time.LocalDateTime calculateEstimatedDeliveryTime(model.Driver driver)" />
+  <problem_class id="MagicNumber" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Magic number</problem_class>
+  <description>Magic number &lt;code&gt;30&lt;/code&gt; #loc</description>
+  <highlighted_element>30</highlighted_element>
+  <language>JAVA</language>
+  <offset>45</offset>
+  <length>2</length>
+</problem>
+</problems>

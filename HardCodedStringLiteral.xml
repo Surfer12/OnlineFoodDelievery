@@ -1,0 +1,3218 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/build.gradle</file>
+  <line>4</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/build.gradle" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: 'io.spring.dependency-management'</description>
+  <highlighted_element>'io.spring.dependency-management'</highlighted_element>
+  <language>Groovy</language>
+  <offset>7</offset>
+  <length>33</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/build.gradle</file>
+  <line>7</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/build.gradle" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: 'java-library'</description>
+  <highlighted_element>'java-library'</highlighted_element>
+  <language>Groovy</language>
+  <offset>7</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/build.gradle</file>
+  <line>8</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/build.gradle" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: 'distribution'</description>
+  <highlighted_element>'distribution'</highlighted_element>
+  <language>Groovy</language>
+  <offset>7</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/build.gradle</file>
+  <line>35</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/build.gradle" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal:</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/build.gradle</file>
+  <line>38</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/build.gradle" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: 'org.slf4j:slf4j-bom:2.0.9'</description>
+  <highlighted_element>'org.slf4j:slf4j-bom:2.0.9'</highlighted_element>
+  <language>Groovy</language>
+  <offset>474</offset>
+  <length>27</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/build.gradle</file>
+  <line>39</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/build.gradle" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: 'org.slf4j:slf4j-api'</description>
+  <highlighted_element>'org.slf4j:slf4j-api'</highlighted_element>
+  <language>Groovy</language>
+  <offset>473</offset>
+  <length>21</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/build.gradle</file>
+  <line>40</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/build.gradle" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: 'ch.qos.logback:logback-classic:1.4.14'</description>
+  <highlighted_element>'ch.qos.logback:logback-classic:1.4.14'</highlighted_element>
+  <language>Groovy</language>
+  <offset>465</offset>
+  <length>39</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/build.gradle</file>
+  <line>42</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/build.gradle" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: 'org.junit:junit-bom:5.10.1'</description>
+  <highlighted_element>'org.junit:junit-bom:5.10.1'</highlighted_element>
+  <language>Groovy</language>
+  <offset>484</offset>
+  <length>28</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/build.gradle</file>
+  <line>43</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/build.gradle" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: 'org.junit.jupiter:junit-jupiter'</description>
+  <highlighted_element>'org.junit.jupiter:junit-jupiter'</highlighted_element>
+  <language>Groovy</language>
+  <offset>531</offset>
+  <length>33</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/build.gradle</file>
+  <line>44</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/build.gradle" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: 'org.mockito:mockito-core:5.8.0'</description>
+  <highlighted_element>'org.mockito:mockito-core:5.8.0'</highlighted_element>
+  <language>Groovy</language>
+  <offset>586</offset>
+  <length>32</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/build.gradle</file>
+  <line>45</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/build.gradle" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: 'org.mockito:mockito-junit-jupiter:5.8.0'</description>
+  <highlighted_element>'org.mockito:mockito-junit-jupiter:5.8.0'</highlighted_element>
+  <language>Groovy</language>
+  <offset>641</offset>
+  <length>41</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/build.gradle</file>
+  <line>46</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/build.gradle" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal:</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/build.gradle</file>
+  <line>49</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/build.gradle" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: 'org.projectlombok:lombok:1.18.30'</description>
+  <highlighted_element>'org.projectlombok:lombok:1.18.30'</highlighted_element>
+  <language>Groovy</language>
+  <offset>718</offset>
+  <length>34</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/build.gradle</file>
+  <line>50</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/build.gradle" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: 'org.projectlombok:lombok:1.18.30'</description>
+  <highlighted_element>'org.projectlombok:lombok:1.18.30'</highlighted_element>
+  <language>Groovy</language>
+  <offset>775</offset>
+  <length>34</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/build.gradle</file>
+  <line>53</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/build.gradle" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal:</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/build.gradle</file>
+  <line>54</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/build.gradle" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: 'io.micrometer:micrometer-registry-prometheus:1.12.0'</description>
+  <highlighted_element>'io.micrometer:micrometer-registry-prometheus:1.12.0'</highlighted_element>
+  <language>Groovy</language>
+  <offset>884</offset>
+  <length>53</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/build.gradle</file>
+  <line>61</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/build.gradle" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: 'passed'</description>
+  <highlighted_element>'passed'</highlighted_element>
+  <language>Groovy</language>
+  <offset>825</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/build.gradle</file>
+  <line>61</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/build.gradle" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: 'skipped'</description>
+  <highlighted_element>'skipped'</highlighted_element>
+  <language>Groovy</language>
+  <offset>835</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/build.gradle</file>
+  <line>61</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/build.gradle" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: 'failed'</description>
+  <highlighted_element>'failed'</highlighted_element>
+  <language>Groovy</language>
+  <offset>846</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/build.gradle</file>
+  <line>88</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/build.gradle" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal:</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/build.gradle</file>
+  <line>89</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/build.gradle" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal:</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/build.gradle</file>
+  <line>90</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/build.gradle" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal:</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/build.gradle</file>
+  <line>91</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/build.gradle" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal:</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/build.gradle</file>
+  <line>92</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/build.gradle" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal:</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/build.gradle</file>
+  <line>93</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/build.gradle" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal:</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/build.gradle</file>
+  <line>94</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/build.gradle" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal:</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/build.gradle</file>
+  <line>95</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/build.gradle" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal:</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/build.gradle</file>
+  <line>96</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/build.gradle" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal:</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/build.gradle</file>
+  <line>97</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/build.gradle" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal:</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/build.gradle</file>
+  <line>98</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/build.gradle" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal:</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/build.gradle</file>
+  <line>99</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/build.gradle" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal:</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/build.gradle</file>
+  <line>100</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/build.gradle" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal:</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/build.gradle</file>
+  <line>103</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/build.gradle" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal:</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/build.gradle</file>
+  <line>104</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/build.gradle" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal:</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/build.gradle</file>
+  <line>105</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/build.gradle" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal:</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/Application.java</file>
+  <line>24</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.Application void main(java.lang.String[] args)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Notification: &quot;</description>
+  <highlighted_element>&quot;Notification: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>90</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/Application.java</file>
+  <line>26</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.Application void main(java.lang.String[] args)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Bob Smith&quot;</description>
+  <highlighted_element>&quot;Bob Smith&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>51</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/Application.java</file>
+  <line>26</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.Application void main(java.lang.String[] args)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Car&quot;</description>
+  <highlighted_element>&quot;Car&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>64</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/Application.java</file>
+  <line>29</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.Application void main(java.lang.String[] args)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;hamburger&quot;</description>
+  <highlighted_element>&quot;hamburger&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>20</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/Application.java</file>
+  <line>30</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.Application void main(java.lang.String[] args)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Pepperoni Pizza&quot;</description>
+  <highlighted_element>&quot;Pepperoni Pizza&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>20</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/Application.java</file>
+  <line>31</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.Application void main(java.lang.String[] args)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Spicy pepperoni with cheese&quot;</description>
+  <highlighted_element>&quot;Spicy pepperoni with cheese&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>20</offset>
+  <length>29</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/Application.java</file>
+  <line>38</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.Application void main(java.lang.String[] args)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;jane.doe@example.com&quot;</description>
+  <highlighted_element>&quot;jane.doe@example.com&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>39</offset>
+  <length>22</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/Application.java</file>
+  <line>40</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.Application void main(java.lang.String[] args)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;456 Elm Street&quot;</description>
+  <highlighted_element>&quot;456 Elm Street&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>42</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/Application.java</file>
+  <line>48</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.Application void main(java.lang.String[] args)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Invalid input provided&quot;</description>
+  <highlighted_element>&quot;Invalid input provided&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>49</offset>
+  <length>24</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/Application.java</file>
+  <line>49</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.Application void main(java.lang.String[] args)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Invalid input: &quot;</description>
+  <highlighted_element>&quot;Invalid input: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/Application.java</file>
+  <line>51</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.Application void main(java.lang.String[] args)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;An error occurred while processing the order&quot;</description>
+  <highlighted_element>&quot;An error occurred while processing the order&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>49</offset>
+  <length>46</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/Application.java</file>
+  <line>52</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.Application void main(java.lang.String[] args)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;An error occurred while processing the order: &quot;</description>
+  <highlighted_element>&quot;An error occurred while processing the order: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>48</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystem.java</file>
+  <line>13</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystem void submitOrder(model.Order order)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Order submitted: &quot;</description>
+  <highlighted_element>&quot;Order submitted: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystem.java</file>
+  <line>14</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystem void submitOrder(model.Order order)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Pending&quot;</description>
+  <highlighted_element>&quot;Pending&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>49</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystem.java</file>
+  <line>18</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystem void assignOrderToDriver(model.Order order, model.Driver driver)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Order &quot;</description>
+  <highlighted_element>&quot;Order &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystem.java</file>
+  <line>18</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystem void assignOrderToDriver(model.Order order, model.Driver driver)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot; assigned to driver &quot;</description>
+  <highlighted_element>&quot; assigned to driver &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>57</offset>
+  <length>22</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystem.java</file>
+  <line>19</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystem void assignOrderToDriver(model.Order order, model.Driver driver)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;In Progress&quot;</description>
+  <highlighted_element>&quot;In Progress&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>49</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystem.java</file>
+  <line>23</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystem void completeDelivery(java.lang.Long orderId, java.lang.Long driverId)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Delivery completed for order &quot;</description>
+  <highlighted_element>&quot;Delivery completed for order &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>31</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystem.java</file>
+  <line>23</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystem void completeDelivery(java.lang.Long orderId, java.lang.Long driverId)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot; by driver &quot;</description>
+  <highlighted_element>&quot; by driver &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>69</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystem.java</file>
+  <line>24</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystem void completeDelivery(java.lang.Long orderId, java.lang.Long driverId)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Delivered&quot;</description>
+  <highlighted_element>&quot;Delivered&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>38</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystem.java</file>
+  <line>28</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystem java.lang.String getOrderStatus(java.lang.Long orderId)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Order Not Found&quot;</description>
+  <highlighted_element>&quot;Order Not Found&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>54</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>47</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI DeliverySystemCLI()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Positive Integer&quot;</description>
+  <highlighted_element>&quot;Positive Integer&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>32</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>48</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI DeliverySystemCLI()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Invalid positive integer&quot;</description>
+  <highlighted_element>&quot;Invalid positive integer&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>32</offset>
+  <length>26</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>61</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI void start()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Enter your choice below: &quot;</description>
+  <highlighted_element>&quot;Enter your choice below: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>20</offset>
+  <length>27</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>64</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI void start()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Invalid input. Please try again.&quot;</description>
+  <highlighted_element>&quot;Invalid input. Please try again.&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>35</offset>
+  <length>34</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>81</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI void start()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Enter Order ID to rate driver: &quot;</description>
+  <highlighted_element>&quot;Enter Order ID to rate driver: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>40</offset>
+  <length>33</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>84</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI void start()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Exiting...&quot;</description>
+  <highlighted_element>&quot;Exiting...&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>39</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>87</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI void start()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Invalid choice. Please enter a number between 1 and 6.&quot;</description>
+  <highlighted_element>&quot;Invalid choice. Please enter a number between 1 and 6.&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>46</offset>
+  <length>56</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>94</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI void displayMainMenu()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;\n--- Online Food Delivery System ---&quot;</description>
+  <highlighted_element>&quot;\n--- Online Food Delivery System ---&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>39</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>95</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI void displayMainMenu()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;1. Place a New Order&quot;</description>
+  <highlighted_element>&quot;1. Place a New Order&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>22</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>96</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI void displayMainMenu()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;2. Check Order Status&quot;</description>
+  <highlighted_element>&quot;2. Check Order Status&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>23</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>97</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI void displayMainMenu()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;3. View Menu&quot;</description>
+  <highlighted_element>&quot;3. View Menu&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>98</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI void displayMainMenu()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;4. Manage Drivers&quot;</description>
+  <highlighted_element>&quot;4. Manage Drivers&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>99</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI void displayMainMenu()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;5. Rate Driver&quot;</description>
+  <highlighted_element>&quot;5. Rate Driver&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>100</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI void displayMainMenu()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;6. Exit&quot;</description>
+  <highlighted_element>&quot;6. Exit&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>101</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI void displayMainMenu()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Please choose an option from the list above (1-6): &quot;</description>
+  <highlighted_element>&quot;Please choose an option from the list above (1-6): &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>53</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>22</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void logMemoryUsage()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Heap Memory Usage:&quot;</description>
+  <highlighted_element>&quot;Heap Memory Usage:&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>23</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void logMemoryUsage()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Used: {} MB&quot;</description>
+  <highlighted_element>&quot;Used: {} MB&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>24</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void logMemoryUsage()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Committed: {} MB&quot;</description>
+  <highlighted_element>&quot;Committed: {} MB&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>25</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void logMemoryUsage()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Max: {} MB&quot;</description>
+  <highlighted_element>&quot;Max: {} MB&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>27</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void logMemoryUsage()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Non-Heap Memory Usage:&quot;</description>
+  <highlighted_element>&quot;Non-Heap Memory Usage:&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>24</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>28</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void logMemoryUsage()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Used: {} MB&quot;</description>
+  <highlighted_element>&quot;Used: {} MB&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>29</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void logMemoryUsage()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Committed: {} MB&quot;</description>
+  <highlighted_element>&quot;Committed: {} MB&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>30</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void logMemoryUsage()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Max: {} MB&quot;</description>
+  <highlighted_element>&quot;Max: {} MB&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>34</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void logMemoryUsage()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;High memory usage detected! Over 75% of heap used.&quot;</description>
+  <highlighted_element>&quot;High memory usage detected! Over 75% of heap used.&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>35</offset>
+  <length>52</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>39</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void forceGarbageCollection()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Forcing Garbage Collection&quot;</description>
+  <highlighted_element>&quot;Forcing Garbage Collection&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>28</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/factory/MenuItemFactory.java</file>
+  <line>14</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>factory</package>
+  <entry_point TYPE="method" FQNAME="factory.MenuItemFactory model.MenuItem createMenuItem(java.lang.String type, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;pizza&quot;</description>
+  <highlighted_element>&quot;pizza&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>14</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/factory/MenuItemFactory.java</file>
+  <line>15</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>factory</package>
+  <entry_point TYPE="method" FQNAME="factory.MenuItemFactory model.MenuItem createMenuItem(java.lang.String type, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;hamburger&quot;</description>
+  <highlighted_element>&quot;hamburger&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>14</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/factory/MenuItemFactory.java</file>
+  <line>16</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>factory</package>
+  <entry_point TYPE="method" FQNAME="factory.MenuItemFactory model.MenuItem createMenuItem(java.lang.String type, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;burger&quot;</description>
+  <highlighted_element>&quot;burger&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>14</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/factory/MenuItemFactory.java</file>
+  <line>17</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>factory</package>
+  <entry_point TYPE="method" FQNAME="factory.MenuItemFactory model.MenuItem createMenuItem(java.lang.String type, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;salad&quot;</description>
+  <highlighted_element>&quot;salad&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>14</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/factory/MenuItemFactory.java</file>
+  <line>18</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>factory</package>
+  <entry_point TYPE="method" FQNAME="factory.MenuItemFactory model.MenuItem createMenuItem(java.lang.String type, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;drink&quot;</description>
+  <highlighted_element>&quot;drink&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>14</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>26</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager DriverManager()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Driver Management Choice&quot;</description>
+  <highlighted_element>&quot;Driver Management Choice&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>26</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>27</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager DriverManager()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Invalid choice&quot;</description>
+  <highlighted_element>&quot;Invalid choice&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>32</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void listAvailableDrivers()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;\n--- Available Drivers ---&quot;</description>
+  <highlighted_element>&quot;\n--- Available Drivers ---&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>29</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>41</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrder(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Long&gt; orderIdHandler)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;No available drivers at the moment.&quot;</description>
+  <highlighted_element>&quot;No available drivers at the moment.&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>37</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>45</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrder(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Long&gt; orderIdHandler)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;\n--- Available Drivers ---&quot;</description>
+  <highlighted_element>&quot;\n--- Available Drivers ---&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>29</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>48</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrder(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Long&gt; orderIdHandler)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;%d. %s - %s\n&quot;</description>
+  <highlighted_element>&quot;%d. %s - %s\n&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>30</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>53</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrder(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Long&gt; orderIdHandler)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Select a driver (enter number): &quot;</description>
+  <highlighted_element>&quot;Select a driver (enter number): &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>34</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>62</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrder(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Long&gt; orderIdHandler)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Driver assigned successfully.&quot;</description>
+  <highlighted_element>&quot;Driver assigned successfully.&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>31</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>63</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrder(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Long&gt; orderIdHandler)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Driver &quot;</description>
+  <highlighted_element>&quot;Driver &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>63</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrder(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Long&gt; orderIdHandler)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot; assigned to order &quot;</description>
+  <highlighted_element>&quot; assigned to order &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>63</offset>
+  <length>21</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>65</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrder(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Long&gt; orderIdHandler)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Order not found.&quot;</description>
+  <highlighted_element>&quot;Order not found.&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>72</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void rateDriver(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; menuChoiceHandler)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;No driver assigned to this order.&quot;</description>
+  <highlighted_element>&quot;No driver assigned to this order.&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>35</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>78</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void rateDriver(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; menuChoiceHandler)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Rate the driver (1-5 stars): &quot;</description>
+  <highlighted_element>&quot;Rate the driver (1-5 stars): &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>31</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>83</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void rateDriver(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; menuChoiceHandler)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Thank you for your feedback!&quot;</description>
+  <highlighted_element>&quot;Thank you for your feedback!&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>30</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>84</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void rateDriver(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; menuChoiceHandler)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Driver &quot;</description>
+  <highlighted_element>&quot;Driver &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>84</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void rateDriver(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; menuChoiceHandler)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot; rated: &quot;</description>
+  <highlighted_element>&quot; rated: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>55</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>84</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void rateDriver(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; menuChoiceHandler)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot; stars&quot;</description>
+  <highlighted_element>&quot; stars&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>77</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>94</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void manageDriverMenu(java.util.Scanner scanner, managers.OrderManager orderManager)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;\n--- Driver Management ---&quot;</description>
+  <highlighted_element>&quot;\n--- Driver Management ---&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>29</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>95</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void manageDriverMenu(java.util.Scanner scanner, managers.OrderManager orderManager)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;1. View Available Drivers&quot;</description>
+  <highlighted_element>&quot;1. View Available Drivers&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>27</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>96</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void manageDriverMenu(java.util.Scanner scanner, managers.OrderManager orderManager)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;2. Assign Driver to Order&quot;</description>
+  <highlighted_element>&quot;2. Assign Driver to Order&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>27</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>97</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void manageDriverMenu(java.util.Scanner scanner, managers.OrderManager orderManager)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;3. Return to Main Menu&quot;</description>
+  <highlighted_element>&quot;3. Return to Main Menu&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>24</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>101</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void manageDriverMenu(java.util.Scanner scanner, managers.OrderManager orderManager)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Enter your choice: &quot;</description>
+  <highlighted_element>&quot;Enter your choice: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>20</offset>
+  <length>21</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>112</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void manageDriverMenu(java.util.Scanner scanner, managers.OrderManager orderManager)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Invalid choice.&quot;</description>
+  <highlighted_element>&quot;Invalid choice.&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>46</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>120</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrderInteractive(java.util.Scanner scanner, managers.OrderManager orderManager)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Enter Order ID to assign driver: &quot;</description>
+  <highlighted_element>&quot;Enter Order ID to assign driver: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>35</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>129</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrderInteractive(java.util.Scanner scanner, managers.OrderManager orderManager)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Order not found.&quot;</description>
+  <highlighted_element>&quot;Order not found.&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>24</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager MenuManager()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Menu Choice&quot;</description>
+  <highlighted_element>&quot;Menu Choice&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>25</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager MenuManager()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Invalid menu choice&quot;</description>
+  <highlighted_element>&quot;Invalid menu choice&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>21</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>30</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager void displayMenu()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;\n--- Current Menu ---&quot;</description>
+  <highlighted_element>&quot;\n--- Current Menu ---&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>24</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>33</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager void displayMenu()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;%d. %s - $%.2f\n&quot;</description>
+  <highlighted_element>&quot;%d. %s - $%.2f\n&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>30</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>38</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager java.util.List&lt;model.MenuItem&gt; selectMenuItems(java.util.Scanner scanner, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;\n=== Place Order ===&quot;</description>
+  <highlighted_element>&quot;\n=== Place Order ===&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>23</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>45</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager java.util.List&lt;model.MenuItem&gt; selectMenuItems(java.util.Scanner scanner, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Enter menu item number to add (0 to finish): &quot;</description>
+  <highlighted_element>&quot;Enter menu item number to add (0 to finish): &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>29</offset>
+  <length>47</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>48</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager java.util.List&lt;model.MenuItem&gt; selectMenuItems(java.util.Scanner scanner, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Select a menu item: &quot;</description>
+  <highlighted_element>&quot;Select a menu item: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>20</offset>
+  <length>22</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>57</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager java.util.List&lt;model.MenuItem&gt; selectMenuItems(java.util.Scanner scanner, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Enter quantity: &quot;</description>
+  <highlighted_element>&quot;Enter quantity: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>29</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>60</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager java.util.List&lt;model.MenuItem&gt; selectMenuItems(java.util.Scanner scanner, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Enter quantity: &quot;</description>
+  <highlighted_element>&quot;Enter quantity: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>20</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>30</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager OrderManager()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Order ID&quot;</description>
+  <highlighted_element>&quot;Order ID&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>30</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager OrderManager()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Order ID&quot;</description>
+  <highlighted_element>&quot;Order ID&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>31</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager OrderManager()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Invalid Order ID&quot;</description>
+  <highlighted_element>&quot;Invalid Order ID&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>31</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager OrderManager()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Invalid Order ID&quot;</description>
+  <highlighted_element>&quot;Invalid Order ID&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>36</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;No items selected. Order cancelled.&quot;</description>
+  <highlighted_element>&quot;No items selected. Order cancelled.&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>37</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>36</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;No items selected. Order cancelled.&quot;</description>
+  <highlighted_element>&quot;No items selected. Order cancelled.&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>37</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>44</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Order placed successfully! Order ID: &quot;</description>
+  <highlighted_element>&quot;Order placed successfully! Order ID: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>39</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>44</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Order placed successfully! Order ID: &quot;</description>
+  <highlighted_element>&quot;Order placed successfully! Order ID: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>39</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>45</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;New order added to queue: &quot;</description>
+  <highlighted_element>&quot;New order added to queue: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>28</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>45</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;New order added to queue: &quot;</description>
+  <highlighted_element>&quot;New order added to queue: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>28</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>48</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Sorry, we are currently at maximum order capacity. Please try again later.&quot;</description>
+  <highlighted_element>&quot;Sorry, we are currently at maximum order capacity. Please try again later.&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>76</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>48</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Sorry, we are currently at maximum order capacity. Please try again later.&quot;</description>
+  <highlighted_element>&quot;Sorry, we are currently at maximum order capacity. Please try again later.&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>76</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>49</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Order queue full: &quot;</description>
+  <highlighted_element>&quot;Order queue full: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>49</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Order queue full: &quot;</description>
+  <highlighted_element>&quot;Order queue full: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>56</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void checkOrderStatus(java.util.Scanner scanner)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Enter Order ID to check status: &quot;</description>
+  <highlighted_element>&quot;Enter Order ID to check status: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>68</offset>
+  <length>34</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>56</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void checkOrderStatus(java.util.Scanner scanner)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Enter Order ID to check status: &quot;</description>
+  <highlighted_element>&quot;Enter Order ID to check status: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>68</offset>
+  <length>34</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>63</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void checkOrderStatus(java.util.Scanner scanner)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Order Status: &quot;</description>
+  <highlighted_element>&quot;Order Status: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>35</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>63</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void checkOrderStatus(java.util.Scanner scanner)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Order Status: &quot;</description>
+  <highlighted_element>&quot;Order Status: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>35</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>65</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void checkOrderStatus(java.util.Scanner scanner)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Order not found.&quot;</description>
+  <highlighted_element>&quot;Order not found.&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>35</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>65</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void checkOrderStatus(java.util.Scanner scanner)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Order not found.&quot;</description>
+  <highlighted_element>&quot;Order not found.&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>35</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>68</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void checkOrderStatus(java.util.Scanner scanner)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Error checking order status: &quot;</description>
+  <highlighted_element>&quot;Error checking order status: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>31</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>68</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void checkOrderStatus(java.util.Scanner scanner)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Error checking order status: &quot;</description>
+  <highlighted_element>&quot;Error checking order status: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>31</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>69</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void checkOrderStatus(java.util.Scanner scanner)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Error in checkOrderStatus: &quot;</description>
+  <highlighted_element>&quot;Error in checkOrderStatus: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>26</offset>
+  <length>29</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>69</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void checkOrderStatus(java.util.Scanner scanner)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Error in checkOrderStatus: &quot;</description>
+  <highlighted_element>&quot;Error in checkOrderStatus: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>26</offset>
+  <length>29</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>91</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Would you like to assign a driver now? (Y/N)&quot;</description>
+  <highlighted_element>&quot;Would you like to assign a driver now? (Y/N)&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>39</offset>
+  <length>46</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>91</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Would you like to assign a driver now? (Y/N)&quot;</description>
+  <highlighted_element>&quot;Would you like to assign a driver now? (Y/N)&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>39</offset>
+  <length>46</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>93</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Y&quot;</description>
+  <highlighted_element>&quot;Y&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>40</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>93</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Y&quot;</description>
+  <highlighted_element>&quot;Y&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>40</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>101</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Order queue full: &quot;</description>
+  <highlighted_element>&quot;Order queue full: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>101</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Order queue full: &quot;</description>
+  <highlighted_element>&quot;Order queue full: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>102</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Sorry, we cannot accept more orders at the moment.&quot;</description>
+  <highlighted_element>&quot;Sorry, we cannot accept more orders at the moment.&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>52</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>102</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Sorry, we cannot accept more orders at the moment.&quot;</description>
+  <highlighted_element>&quot;Sorry, we cannot accept more orders at the moment.&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>52</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Customer.java</file>
+  <line>38</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Customer void placeOrder(java.util.List&lt;model.MenuItem&gt; items, model.Driver driver)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;zipcode&quot;</description>
+  <highlighted_element>&quot;zipcode&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>44</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>8</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="field" FQNAME="notification.BasicNotificationService ORDER_CONFIRMATION_SUBJECT" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Order Confirmation&quot;</description>
+  <highlighted_element>&quot;Order Confirmation&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>60</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>9</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="field" FQNAME="notification.BasicNotificationService DRIVER_ASSIGNMENT_SUBJECT" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Driver Assigned&quot;</description>
+  <highlighted_element>&quot;Driver Assigned&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>59</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>10</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="field" FQNAME="notification.BasicNotificationService ORDER_STATUS_UPDATE_SUBJECT" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Order Status Update&quot;</description>
+  <highlighted_element>&quot;Order Status Update&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>61</offset>
+  <length>21</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="field" FQNAME="notification.BasicNotificationService DELIVERY_COMPLETION_SUBJECT" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Delivery Complete&quot;</description>
+  <highlighted_element>&quot;Delivery Complete&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>61</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>15</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService void sendNotification(java.lang.String message)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Notification: &quot;</description>
+  <highlighted_element>&quot;Notification: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>44</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService java.lang.String formatOrderConfirmationMessage(model.Order order)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Order #%d confirmed. Total: $%.2f&quot;</description>
+  <highlighted_element>&quot;Order #%d confirmed. Total: $%.2f&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>35</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>51</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService java.lang.String formatDriverAssignmentMessage(model.Order order, model.Driver driver)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Driver %s has been assigned to your order. %s&quot;</description>
+  <highlighted_element>&quot;Driver %s has been assigned to your order. %s&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>47</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>58</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService java.lang.String formatEstimatedDeliveryTime(model.Order order)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Estimated delivery time: &quot;</description>
+  <highlighted_element>&quot;Estimated delivery time: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>14</offset>
+  <length>27</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>59</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService java.lang.String formatEstimatedDeliveryTime(model.Order order)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Delivery time to be determined&quot;</description>
+  <highlighted_element>&quot;Delivery time to be determined&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>14</offset>
+  <length>32</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>63</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService java.lang.String formatStatusUpdateMessage(model.Order order, model.OrderStatus newStatus)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Order #%d status updated: %s&quot;</description>
+  <highlighted_element>&quot;Order #%d status updated: %s&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>30</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>69</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService java.lang.String formatDeliveryCompletionMessage(model.Order order)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Order #%d has been delivered successfully.&quot;</description>
+  <highlighted_element>&quot;Order #%d has been delivered successfully.&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>44</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>75</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService void sendEmail(java.lang.String recipientEmail, java.lang.String subject, java.lang.String message)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Sending email to %s%nSubject: %s%nMessage: %s%n&quot;</description>
+  <highlighted_element>&quot;Sending email to %s%nSubject: %s%nMessage: %s%n&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>49</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>78</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService void sendEmail(java.lang.String recipientEmail, java.lang.String subject, java.lang.String message)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Failed to send email to %s%nSubject: %s%nMessage: %s%nError: %s%n&quot;</description>
+  <highlighted_element>&quot;Failed to send email to %s%nSubject: %s%nMessage: %s%nError: %s%n&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>67</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>86</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService void sendSMS(java.lang.String recipientPhone, java.lang.String message)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Sending SMS to %s%nMessage: %s%n&quot;</description>
+  <highlighted_element>&quot;Sending SMS to %s%nMessage: %s%n&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>34</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>89</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService void sendSMS(java.lang.String recipientPhone, java.lang.String message)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Failed to send SMS to %s%nMessage: %s%nError: %s%n&quot;</description>
+  <highlighted_element>&quot;Failed to send SMS to %s%nMessage: %s%nError: %s%n&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>52</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderEvent.java</file>
+  <line>5</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="field" FQNAME="observer.OrderEvent ORDER_SUBMITTED" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;submitted&quot;</description>
+  <highlighted_element>&quot;submitted&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>20</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderEvent.java</file>
+  <line>7</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="field" FQNAME="observer.OrderEvent DRIVER_ASSIGNED" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;assigned&quot;</description>
+  <highlighted_element>&quot;assigned&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>20</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderEvent.java</file>
+  <line>9</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="field" FQNAME="observer.OrderEvent DELIVERY_COMPLETED" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;completed&quot;</description>
+  <highlighted_element>&quot;completed&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderEvent.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="field" FQNAME="observer.OrderEvent ORDER_ACCEPTED" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;accepted&quot;</description>
+  <highlighted_element>&quot;accepted&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>19</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderEvent.java</file>
+  <line>13</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="field" FQNAME="observer.OrderEvent IN_DELIVERY" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;in delivery&quot;</description>
+  <highlighted_element>&quot;in delivery&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderEvent.java</file>
+  <line>15</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="field" FQNAME="observer.OrderEvent DELIVERED" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;delivered&quot;</description>
+  <highlighted_element>&quot;delivered&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>14</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/OrderQueue.java</file>
+  <line>32</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="method" FQNAME="queue.OrderQueue void enqueue(model.Order order)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Error in enqueue: &quot;</description>
+  <highlighted_element>&quot;Error in enqueue: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>44</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating void validate()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Rating score must be between 1 and 5&quot;</description>
+  <highlighted_element>&quot;Rating score must be between 1 and 5&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>38</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>47</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating void validate()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Invalid customer ID&quot;</description>
+  <highlighted_element>&quot;Invalid customer ID&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>21</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>50</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating void validate()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Invalid driver ID&quot;</description>
+  <highlighted_element>&quot;Invalid driver ID&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>53</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating void validate()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Comment cannot exceed 500 characters&quot;</description>
+  <highlighted_element>&quot;Comment cannot exceed 500 characters&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>38</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsHandler.java</file>
+  <line>23</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsHandler RatingsHandler(int maxRatings)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Error in RatingsHandler constructor: &quot;</description>
+  <highlighted_element>&quot;Error in RatingsHandler constructor: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>39</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsHandler.java</file>
+  <line>41</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsHandler void addRating(T rating)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Error in addRating: &quot;</description>
+  <highlighted_element>&quot;Error in addRating: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>22</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/DriverServiceImpl.java</file>
+  <line>42</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.DriverServiceImpl void rateDriver(model.Driver driver, java.lang.Integer rating)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Rating must be between 1 and 5.&quot;</description>
+  <highlighted_element>&quot;Rating must be between 1 and 5.&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>35</offset>
+  <length>33</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/DriverServiceImpl.java</file>
+  <line>47</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.DriverServiceImpl void rateDriver(model.Driver driver, java.lang.Integer rating)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Driver not found.&quot;</description>
+  <highlighted_element>&quot;Driver not found.&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/MenuServiceImpl.java</file>
+  <line>17</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.MenuServiceImpl void displayMenu()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;\n=== Menu ===&quot;</description>
+  <highlighted_element>&quot;\n=== Menu ===&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/MenuServiceImpl.java</file>
+  <line>20</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.MenuServiceImpl void displayMenu()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;%d. %s - $%.2f\n&quot;</description>
+  <highlighted_element>&quot;%d. %s - $%.2f\n&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>30</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderManagerImpl.java</file>
+  <line>21</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderManagerImpl void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; emailHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; locationHandler)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Enter your email: &quot;</description>
+  <highlighted_element>&quot;Enter your email: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>51</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderManagerImpl.java</file>
+  <line>24</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderManagerImpl void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; emailHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; locationHandler)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Enter delivery location: &quot;</description>
+  <highlighted_element>&quot;Enter delivery location: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>57</offset>
+  <length>27</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>28</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl model.Order createOrder(java.util.List&lt;model.MenuItem&gt; items)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;New Order&quot;</description>
+  <highlighted_element>&quot;New Order&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>39</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>35</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Order Details:&quot;</description>
+  <highlighted_element>&quot;Order Details:&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>36</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Order ID: &quot;</description>
+  <highlighted_element>&quot;Order ID: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>37</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Items:&quot;</description>
+  <highlighted_element>&quot;Items:&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>47</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;%s x%d - $%.2f\n&quot;</description>
+  <highlighted_element>&quot;%s x%d - $%.2f\n&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>62</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>52</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Total Price: $%.2f\n&quot;</description>
+  <highlighted_element>&quot;Total Price: $%.2f\n&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>26</offset>
+  <length>22</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>58</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl java.lang.String getOrderStatus(java.lang.Long orderId)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Order not found&quot;</description>
+  <highlighted_element>&quot;Order not found&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>62</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/MenuServiceImpl.java</file>
+  <line>22</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.MenuServiceImpl void initializeMenu()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Hamburger&quot;</description>
+  <highlighted_element>&quot;Hamburger&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>40</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/MenuServiceImpl.java</file>
+  <line>22</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.MenuServiceImpl void initializeMenu()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;A simple hamburger&quot;</description>
+  <highlighted_element>&quot;A simple hamburger&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>53</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/MenuServiceImpl.java</file>
+  <line>23</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.MenuServiceImpl void initializeMenu()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Cheeseburger&quot;</description>
+  <highlighted_element>&quot;Cheeseburger&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>40</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/MenuServiceImpl.java</file>
+  <line>23</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.MenuServiceImpl void initializeMenu()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;A cheeseburger with cheese&quot;</description>
+  <highlighted_element>&quot;A cheeseburger with cheese&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>56</offset>
+  <length>28</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/MenuServiceImpl.java</file>
+  <line>24</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.MenuServiceImpl void initializeMenu()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Fries&quot;</description>
+  <highlighted_element>&quot;Fries&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>36</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/MenuServiceImpl.java</file>
+  <line>24</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.MenuServiceImpl void initializeMenu()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;A simple fries&quot;</description>
+  <highlighted_element>&quot;A simple fries&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>45</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/MenuServiceImpl.java</file>
+  <line>25</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.MenuServiceImpl void initializeMenu()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Soft Drink&quot;</description>
+  <highlighted_element>&quot;Soft Drink&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>36</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/MenuServiceImpl.java</file>
+  <line>25</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.MenuServiceImpl void initializeMenu()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;A soft drink&quot;</description>
+  <highlighted_element>&quot;A soft drink&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>50</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/MenuServiceImpl.java</file>
+  <line>30</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.MenuServiceImpl void displayMenu()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;\n=== Menu ===&quot;</description>
+  <highlighted_element>&quot;\n=== Menu ===&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/MenuServiceImpl.java</file>
+  <line>33</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.MenuServiceImpl void displayMenu()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;%d. %s - $%.2f\n&quot;</description>
+  <highlighted_element>&quot;%d. %s - $%.2f\n&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>30</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>29</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl model.Order createOrder(java.util.List&lt;model.MenuItem&gt; items)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;New Order&quot;</description>
+  <highlighted_element>&quot;New Order&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>39</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>36</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Order Details:&quot;</description>
+  <highlighted_element>&quot;Order Details:&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>37</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Order ID: &quot;</description>
+  <highlighted_element>&quot;Order ID: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>38</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Items:&quot;</description>
+  <highlighted_element>&quot;Items:&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>49</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;%s x%d - $%.2f\n&quot;</description>
+  <highlighted_element>&quot;%s x%d - $%.2f\n&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>51</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>51</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Total Price: $%.2f\n&quot;</description>
+  <highlighted_element>&quot;Total Price: $%.2f\n&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>26</offset>
+  <length>22</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>57</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl java.lang.String getOrderStatus(java.lang.Long orderId)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Order in progress&quot;</description>
+  <highlighted_element>&quot;Order in progress&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>57</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl java.lang.String getOrderStatus(java.lang.Long orderId)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Order not found&quot;</description>
+  <highlighted_element>&quot;Order not found&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>53</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>62</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler T getInput(java.lang.String prompt)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Error: &quot;</description>
+  <highlighted_element>&quot;Error: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>92</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Invalid input. Please enter a valid &quot;</description>
+  <highlighted_element>&quot;Invalid input. Please enter a valid &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>34</offset>
+  <length>38</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>95</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Error parsing input: &quot;</description>
+  <highlighted_element>&quot;Error parsing input: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>23</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>120</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler T handleInput(java.util.Scanner scanner, java.lang.String prompt, java.util.function.Predicate&lt;T&gt; condition)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Input does not meet the required condition.&quot;</description>
+  <highlighted_element>&quot;Input does not meet the required condition.&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>30</offset>
+  <length>45</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/EmailValidator.java</file>
+  <line>21</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.EmailValidator java.lang.String getTypeName()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;email address&quot;</description>
+  <highlighted_element>&quot;email address&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>31</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateTextInput(java.lang.String input, java.lang.String fieldName)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Error in validateTextInput: &quot;</description>
+  <highlighted_element>&quot;Error in validateTextInput: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>30</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>31</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateTextInput(java.lang.String input, java.lang.String fieldName)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Error in validateTextInput: &quot;</description>
+  <highlighted_element>&quot;Error in validateTextInput: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>30</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>49</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateNumericInput(java.lang.String input, java.lang.String fieldName)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Error in validateNumericInput: &quot;</description>
+  <highlighted_element>&quot;Error in validateNumericInput: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>33</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>49</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateNumericInput(java.lang.String input, java.lang.String fieldName)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Error in validateNumericInput: &quot;</description>
+  <highlighted_element>&quot;Error in validateNumericInput: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>33</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>67</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validatePositiveNumber(double number, java.lang.String fieldName)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Error in validatePositiveNumber: &quot;</description>
+  <highlighted_element>&quot;Error in validatePositiveNumber: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>35</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>67</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validatePositiveNumber(double number, java.lang.String fieldName)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Error in validatePositiveNumber: &quot;</description>
+  <highlighted_element>&quot;Error in validatePositiveNumber: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>35</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>85</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateEmailFormat(java.lang.String email)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Error in validateEmailFormat: &quot;</description>
+  <highlighted_element>&quot;Error in validateEmailFormat: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>32</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>85</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateEmailFormat(java.lang.String email)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Error in validateEmailFormat: &quot;</description>
+  <highlighted_element>&quot;Error in validateEmailFormat: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>32</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>103</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validatePhoneNumber(java.lang.String phoneNumber)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Error in validatePhoneNumber: &quot;</description>
+  <highlighted_element>&quot;Error in validatePhoneNumber: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>32</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>103</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validatePhoneNumber(java.lang.String phoneNumber)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Error in validatePhoneNumber: &quot;</description>
+  <highlighted_element>&quot;Error in validatePhoneNumber: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>32</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidator.java</file>
+  <line>13</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidator java.lang.String getErrorMessage()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Invalid input&quot;</description>
+  <highlighted_element>&quot;Invalid input&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidatorImpl.java</file>
+  <line>38</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidatorImpl validation.InputValidator&lt;java.lang.String&gt; emailValidator()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Email&quot;</description>
+  <highlighted_element>&quot;Email&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidatorImpl.java</file>
+  <line>39</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidatorImpl validation.InputValidator&lt;java.lang.String&gt; emailValidator()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Invalid email format. Please enter a valid email.&quot;</description>
+  <highlighted_element>&quot;Invalid email format. Please enter a valid email.&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>51</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidatorImpl.java</file>
+  <line>35</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidatorImpl$2 java.lang.String getTypeName()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Email&quot;</description>
+  <highlighted_element>&quot;Email&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidatorImpl.java</file>
+  <line>66</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidatorImpl validation.InputValidator&lt;java.lang.String&gt; deliveryLocationValidator()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Delivery Location&quot;</description>
+  <highlighted_element>&quot;Delivery Location&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidatorImpl.java</file>
+  <line>67</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidatorImpl validation.InputValidator&lt;java.lang.String&gt; deliveryLocationValidator()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Delivery location cannot be empty. Please enter a valid location.&quot;</description>
+  <highlighted_element>&quot;Delivery location cannot be empty. Please enter a valid location.&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>67</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidatorImpl.java</file>
+  <line>63</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidatorImpl$3 java.lang.String getTypeName()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Delivery Location&quot;</description>
+  <highlighted_element>&quot;Delivery Location&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/MenuItemValidator.java</file>
+  <line>31</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.MenuItemValidator java.lang.String getTypeName()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Menu Choice&quot;</description>
+  <highlighted_element>&quot;Menu Choice&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/PositiveIntegerValidator.java</file>
+  <line>29</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.PositiveIntegerValidator java.lang.String getTypeName()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;positive integer&quot;</description>
+  <highlighted_element>&quot;positive integer&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/PositiveLongValidator.java</file>
+  <line>24</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.PositiveLongValidator java.lang.String getTypeName()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Positive Long&quot;</description>
+  <highlighted_element>&quot;Positive Long&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>36</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler T getInput(java.lang.String prompt)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Invalid input. Please enter a valid &quot;</description>
+  <highlighted_element>&quot;Invalid input. Please enter a valid &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>26</offset>
+  <length>38</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>38</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler T getInput(java.lang.String prompt)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Error parsing input: &quot;</description>
+  <highlighted_element>&quot;Error parsing input: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>35</offset>
+  <length>23</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>56</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Invalid input. Please enter a valid &quot;</description>
+  <highlighted_element>&quot;Invalid input. Please enter a valid &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>39</offset>
+  <length>38</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>59</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Error parsing input: &quot;</description>
+  <highlighted_element>&quot;Error parsing input: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>35</offset>
+  <length>23</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationUtils.java</file>
+  <line>41</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationUtils void validateCustomerId(java.lang.Long customerId)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Error in validateCustomerId: &quot;</description>
+  <highlighted_element>&quot;Error in validateCustomerId: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>31</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationUtils.java</file>
+  <line>62</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationUtils void validateItems(java.util.List&lt;?&gt; items, int maxItems)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Error in validateItems: &quot;</description>
+  <highlighted_element>&quot;Error in validateItems: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>26</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationUtils.java</file>
+  <line>83</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationUtils void validateAmount(double amount, double maxAmount)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Error in validateAmount: &quot;</description>
+  <highlighted_element>&quot;Error in validateAmount: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>27</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationUtils.java</file>
+  <line>100</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationUtils void validatePayment(payment.Payment payment)" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Error in validatePayment: &quot;</description>
+  <highlighted_element>&quot;Error in validatePayment: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>28</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>52</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void testStartPlaceOrder()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Enter your choice below: &quot;</description>
+  <highlighted_element>&quot;Enter your choice below: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>62</offset>
+  <length>27</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>55</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void testStartPlaceOrder()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Enter your choice below: &quot;</description>
+  <highlighted_element>&quot;Enter your choice below: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>67</offset>
+  <length>27</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>64</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void testStartCheckOrderStatus()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Enter your choice below: &quot;</description>
+  <highlighted_element>&quot;Enter your choice below: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>62</offset>
+  <length>27</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>75</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void testStartViewMenu()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Enter your choice below: &quot;</description>
+  <highlighted_element>&quot;Enter your choice below: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>62</offset>
+  <length>27</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>86</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void testStartManageDrivers()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Enter your choice below: &quot;</description>
+  <highlighted_element>&quot;Enter your choice below: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>62</offset>
+  <length>27</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>97</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void testStartRateDriver()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Enter your choice below: &quot;</description>
+  <highlighted_element>&quot;Enter your choice below: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>62</offset>
+  <length>27</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>100</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void testStartRateDriver()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Enter Order ID to rate driver: &quot;</description>
+  <highlighted_element>&quot;Enter Order ID to rate driver: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>59</offset>
+  <length>33</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>111</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void testStartExit()" />
+  <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+  <description>Hardcoded string literal: &quot;Enter your choice below: &quot;</description>
+  <highlighted_element>&quot;Enter your choice below: &quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>62</offset>
+  <length>27</length>
+</problem>
+</problems>

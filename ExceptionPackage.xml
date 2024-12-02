@@ -1,0 +1,11 @@
+<problems>
+<problem>
+  <package>CustomException</package>
+  <entry_point TYPE="package" FQNAME="CustomException" />
+  <problem_class id="ExceptionPackage" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Exception package</problem_class>
+  <hints />
+  <description>Package 'CustomException' contains only exception classes</description>
+  <highlighted_element />
+  <language />
+</problem>
+</problems>

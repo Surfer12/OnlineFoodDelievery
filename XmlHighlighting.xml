@@ -1,0 +1,28 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/checkstyle.xml</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/checkstyle.xml" />
+  <problem_class id="XmlHighlighting" severity="ERROR" attribute_key="WRONG_REFERENCES_ATTRIBUTES">XML highlighting</problem_class>
+  <hints />
+  <description>URI is not registered (Settings | Languages &amp; Frameworks | Schemas and DTDs) #loc</description>
+  <highlighted_element>https://checkstyle.org/dtds/configuration_1_3.dtd</highlighted_element>
+  <language>XML</language>
+  <offset>79</offset>
+  <length>49</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>1363</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="XmlHighlighting" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">XML highlighting</problem_class>
+  <hints />
+  <description>Cannot resolve symbol 'http://schema.org/SoftwareSourceCode' #loc</description>
+  <highlighted_element>http://schema.org/SoftwareSourceCode</highlighted_element>
+  <language>HTML</language>
+  <offset>33</offset>
+  <length>36</length>
+</problem>
+</problems>

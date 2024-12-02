@@ -1,0 +1,15 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>62</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="class" FQNAME="rating.Rating.Builder" />
+  <problem_class id="PublicInnerClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'public' nested class</problem_class>
+  <description>'public' nested class &lt;code&gt;Builder&lt;/code&gt; #loc</description>
+  <highlighted_element>Builder</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+</problems>

@@ -1,0 +1,587 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>88</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager validation.ConsoleInputHandler&lt;java.lang.Integer&gt; getMenuChoiceHandler()" />
+  <problem_class id="LombokGetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Getter may be used</problem_class>
+  <description>Field 'menuChoiceHandler' may have Lombok @Getter</description>
+  <highlighted_element>public ConsoleInputHandler&lt;Integer&gt; getMenuChoiceHandler() { return this.menuChoiceHandler; ...</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>105</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>14</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="class" FQNAME="managers.MenuManager" />
+  <problem_class id="LombokGetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Getter may be used</problem_class>
+  <description>Class 'MenuManager' may use Lombok @Getter</description>
+  <highlighted_element>MenuManager</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>73</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager validation.ConsoleInputHandler&lt;java.lang.Long&gt; getOrderIdHandler()" />
+  <problem_class id="LombokGetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Getter may be used</problem_class>
+  <description>Field 'orderIdHandler' may have Lombok @Getter</description>
+  <highlighted_element>public ConsoleInputHandler&lt;Long&gt; getOrderIdHandler() { return this.orderIdHandler; }</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>96</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>73</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager validation.ConsoleInputHandler&lt;java.lang.Long&gt; getOrderIdHandler()" />
+  <problem_class id="LombokGetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Getter may be used</problem_class>
+  <description>Field 'orderIdHandler' may have Lombok @Getter</description>
+  <highlighted_element>public ConsoleInputHandler&lt;Long&gt; getOrderIdHandler() { return this.orderIdHandler; }</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>96</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>77</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager services.OrderService getOrderService()" />
+  <problem_class id="LombokGetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Getter may be used</problem_class>
+  <description>Field 'orderService' may have Lombok @Getter</description>
+  <highlighted_element>public OrderService getOrderService() { return this.orderService; }</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>79</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>77</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager services.OrderService getOrderService()" />
+  <problem_class id="LombokGetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Getter may be used</problem_class>
+  <description>Field 'orderService' may have Lombok @Getter</description>
+  <highlighted_element>public OrderService getOrderService() { return this.orderService; }</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>79</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Drink.java</file>
+  <line>31</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Drink model.Size getSize()" />
+  <problem_class id="LombokGetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Getter may be used</problem_class>
+  <description>Field 'size' may have Lombok @Getter</description>
+  <highlighted_element>public Size getSize() { return this.size; }</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>55</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Drink.java</file>
+  <line>35</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Drink int getQuantity()" />
+  <problem_class id="LombokGetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Getter may be used</problem_class>
+  <description>Field 'quantity' may have Lombok @Getter</description>
+  <highlighted_element>public int getQuantity() { return this.quantity; }</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>62</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>29</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver java.lang.Long getId()" />
+  <problem_class id="LombokGetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Getter may be used</problem_class>
+  <description>Field 'id' may have Lombok @Getter</description>
+  <highlighted_element>public Long getId() { return this.id; }</highlighted_element>
+  <language>JAVA</language>
+  <offset>3</offset>
+  <length>48</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>33</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver java.lang.String getName()" />
+  <problem_class id="LombokGetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Getter may be used</problem_class>
+  <description>Field 'name' may have Lombok @Getter</description>
+  <highlighted_element>public String getName() { return this.name; }</highlighted_element>
+  <language>JAVA</language>
+  <offset>3</offset>
+  <length>54</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>37</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver java.lang.String getVehicleType()" />
+  <problem_class id="LombokGetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Getter may be used</problem_class>
+  <description>Field 'vehicleType' may have Lombok @Getter</description>
+  <highlighted_element>public String getVehicleType() { return this.vehicleType; }</highlighted_element>
+  <language>JAVA</language>
+  <offset>3</offset>
+  <length>68</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>41</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver java.lang.String getLicensePlate()" />
+  <problem_class id="LombokGetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Getter may be used</problem_class>
+  <description>Field 'licensePlate' may have Lombok @Getter</description>
+  <highlighted_element>public String getLicensePlate() { return this.licensePlate; }</highlighted_element>
+  <language>JAVA</language>
+  <offset>3</offset>
+  <length>70</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>45</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver java.lang.String getVehicle()" />
+  <problem_class id="LombokGetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Getter may be used</problem_class>
+  <description>Field 'vehicle' may have Lombok @Getter</description>
+  <highlighted_element>public String getVehicle() { return this.vehicle; }</highlighted_element>
+  <language>JAVA</language>
+  <offset>3</offset>
+  <length>60</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>53</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver boolean isAvailable()" />
+  <problem_class id="LombokGetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Getter may be used</problem_class>
+  <description>Field 'available' may have Lombok @Getter</description>
+  <highlighted_element>public boolean isAvailable() { return this.available; }</highlighted_element>
+  <language>JAVA</language>
+  <offset>3</offset>
+  <length>64</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Fries.java</file>
+  <line>31</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Fries model.Size getSize()" />
+  <problem_class id="LombokGetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Getter may be used</problem_class>
+  <description>Field 'size' may have Lombok @Getter</description>
+  <highlighted_element>public Size getSize() { return this.size; }</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>55</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Fries.java</file>
+  <line>35</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Fries int getQuantity()" />
+  <problem_class id="LombokGetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Getter may be used</problem_class>
+  <description>Field 'quantity' may have Lombok @Getter</description>
+  <highlighted_element>public int getQuantity() { return this.quantity; }</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>62</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Hamburger.java</file>
+  <line>31</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Hamburger model.Size getSize()" />
+  <problem_class id="LombokGetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Getter may be used</problem_class>
+  <description>Field 'size' may have Lombok @Getter</description>
+  <highlighted_element>public Size getSize() { return this.size; }</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>55</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Hamburger.java</file>
+  <line>35</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Hamburger int getQuantity()" />
+  <problem_class id="LombokGetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Getter may be used</problem_class>
+  <description>Field 'quantity' may have Lombok @Getter</description>
+  <highlighted_element>public int getQuantity() { return this.quantity; }</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>62</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Location.java</file>
+  <line>3</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="class" FQNAME="model.Location" />
+  <problem_class id="LombokGetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Getter may be used</problem_class>
+  <description>Class 'Location' may use Lombok @Getter</description>
+  <highlighted_element>Location</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>45</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order java.lang.Long getOrderId()" />
+  <problem_class id="LombokGetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Getter may be used</problem_class>
+  <description>Field 'orderId' may have Lombok @Getter</description>
+  <highlighted_element>public Long getOrderId() { return this.orderId; }</highlighted_element>
+  <language>JAVA</language>
+  <offset>3</offset>
+  <length>58</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>49</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order java.lang.Long getCustomerId()" />
+  <problem_class id="LombokGetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Getter may be used</problem_class>
+  <description>Field 'customerId' may have Lombok @Getter</description>
+  <highlighted_element>public Long getCustomerId() { return this.customerId; }</highlighted_element>
+  <language>JAVA</language>
+  <offset>3</offset>
+  <length>64</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>53</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order java.lang.String getCustomerEmail()" />
+  <problem_class id="LombokGetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Getter may be used</problem_class>
+  <description>Field 'customerEmail' may have Lombok @Getter</description>
+  <highlighted_element>public String getCustomerEmail() { return this.customerEmail; }</highlighted_element>
+  <language>JAVA</language>
+  <offset>3</offset>
+  <length>72</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>61</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order model.Location getDeliveryLocation()" />
+  <problem_class id="LombokGetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Getter may be used</problem_class>
+  <description>Field 'deliveryLocation' may have Lombok @Getter</description>
+  <highlighted_element>public Location getDeliveryLocation() { return this.deliveryLocation; }</highlighted_element>
+  <language>JAVA</language>
+  <offset>3</offset>
+  <length>80</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>65</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order double getTotalAmount()" />
+  <problem_class id="LombokGetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Getter may be used</problem_class>
+  <description>Field 'totalAmount' may have Lombok @Getter</description>
+  <highlighted_element>public double getTotalAmount() { return this.totalAmount; }</highlighted_element>
+  <language>JAVA</language>
+  <offset>3</offset>
+  <length>68</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>69</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order model.OrderStatus getStatus()" />
+  <problem_class id="LombokGetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Getter may be used</problem_class>
+  <description>Field 'status' may have Lombok @Getter</description>
+  <highlighted_element>public OrderStatus getStatus() { return this.status; }</highlighted_element>
+  <language>JAVA</language>
+  <offset>3</offset>
+  <length>63</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>77</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order java.time.LocalDateTime getEstimatedDeliveryTime()" />
+  <problem_class id="LombokGetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Getter may be used</problem_class>
+  <description>Field 'estimatedDeliveryTime' may have Lombok @Getter</description>
+  <highlighted_element>public LocalDateTime getEstimatedDeliveryTime() { return this.estimatedDeliveryTime; }</highlighted_element>
+  <language>JAVA</language>
+  <offset>3</offset>
+  <length>95</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>89</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order model.Driver getDriver()" />
+  <problem_class id="LombokGetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Getter may be used</problem_class>
+  <description>Field 'driver' may have Lombok @Getter</description>
+  <highlighted_element>public Driver getDriver() { return this.driver; }</highlighted_element>
+  <language>JAVA</language>
+  <offset>3</offset>
+  <length>58</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Person.java</file>
+  <line>3</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="class" FQNAME="model.Person" />
+  <problem_class id="LombokGetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Getter may be used</problem_class>
+  <description>Class 'Person' may use Lombok @Getter</description>
+  <highlighted_element>Person</highlighted_element>
+  <language>JAVA</language>
+  <offset>22</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Pizza.java</file>
+  <line>31</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Pizza model.Size getSize()" />
+  <problem_class id="LombokGetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Getter may be used</problem_class>
+  <description>Field 'size' may have Lombok @Getter</description>
+  <highlighted_element>public Size getSize() { return this.size; }</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>55</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Pizza.java</file>
+  <line>35</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Pizza int getQuantity()" />
+  <problem_class id="LombokGetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Getter may be used</problem_class>
+  <description>Field 'quantity' may have Lombok @Getter</description>
+  <highlighted_element>public int getQuantity() { return this.quantity; }</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>62</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Salad.java</file>
+  <line>31</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Salad model.Size getSize()" />
+  <problem_class id="LombokGetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Getter may be used</problem_class>
+  <description>Field 'size' may have Lombok @Getter</description>
+  <highlighted_element>public Size getSize() { return this.size; }</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>55</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Salad.java</file>
+  <line>35</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Salad int getQuantity()" />
+  <problem_class id="LombokGetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Getter may be used</problem_class>
+  <description>Field 'quantity' may have Lombok @Getter</description>
+  <highlighted_element>public int getQuantity() { return this.quantity; }</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>62</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderEvent.java</file>
+  <line>3</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="class" FQNAME="observer.OrderEvent" />
+  <problem_class id="LombokGetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Getter may be used</problem_class>
+  <description>Class 'OrderEvent' may use Lombok @Getter</description>
+  <highlighted_element>OrderEvent</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/payment/Payment.java</file>
+  <line>41</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>payment</package>
+  <entry_point TYPE="method" FQNAME="payment.Payment java.lang.Long getPaymentId()" />
+  <problem_class id="LombokGetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Getter may be used</problem_class>
+  <description>Field 'paymentId' may have Lombok @Getter</description>
+  <highlighted_element>// Getters public Long getPaymentId() { return paymentId; }</highlighted_element>
+  <language>JAVA</language>
+  <offset>3</offset>
+  <length>71</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/payment/Payment.java</file>
+  <line>46</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>payment</package>
+  <entry_point TYPE="method" FQNAME="payment.Payment java.lang.Long getOrderId()" />
+  <problem_class id="LombokGetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Getter may be used</problem_class>
+  <description>Field 'orderId' may have Lombok @Getter</description>
+  <highlighted_element>public Long getOrderId() { return orderId; }</highlighted_element>
+  <language>JAVA</language>
+  <offset>3</offset>
+  <length>53</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/payment/Payment.java</file>
+  <line>50</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>payment</package>
+  <entry_point TYPE="method" FQNAME="payment.Payment java.lang.String getPaymentMethod()" />
+  <problem_class id="LombokGetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Getter may be used</problem_class>
+  <description>Field 'paymentMethod' may have Lombok @Getter</description>
+  <highlighted_element>public String getPaymentMethod() { return paymentMethod; }</highlighted_element>
+  <language>JAVA</language>
+  <offset>3</offset>
+  <length>67</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/payment/Payment.java</file>
+  <line>54</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>payment</package>
+  <entry_point TYPE="method" FQNAME="payment.Payment double getAmount()" />
+  <problem_class id="LombokGetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Getter may be used</problem_class>
+  <description>Field 'amount' may have Lombok @Getter</description>
+  <highlighted_element>public double getAmount() { return amount; }</highlighted_element>
+  <language>JAVA</language>
+  <offset>3</offset>
+  <length>53</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/payment/Payment.java</file>
+  <line>58</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>payment</package>
+  <entry_point TYPE="method" FQNAME="payment.Payment java.time.LocalDateTime getPaymentTime()" />
+  <problem_class id="LombokGetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Getter may be used</problem_class>
+  <description>Field 'paymentTime' may have Lombok @Getter</description>
+  <highlighted_element>public LocalDateTime getPaymentTime() { return paymentTime; }</highlighted_element>
+  <language>JAVA</language>
+  <offset>3</offset>
+  <length>70</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>94</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating java.lang.Long getId()" />
+  <problem_class id="LombokGetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Getter may be used</problem_class>
+  <description>Field 'id' may have Lombok @Getter</description>
+  <highlighted_element>// Getters only - Rating is immutable public Long getId() { return id; }</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>76</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>96</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating java.lang.Long getCustomerId()" />
+  <problem_class id="LombokGetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Getter may be used</problem_class>
+  <description>Field 'customerId' may have Lombok @Getter</description>
+  <highlighted_element>public Long getCustomerId() { return customerId; }</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>50</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>97</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating java.lang.Long getDriverId()" />
+  <problem_class id="LombokGetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Getter may be used</problem_class>
+  <description>Field 'driverId' may have Lombok @Getter</description>
+  <highlighted_element>public Long getDriverId() { return driverId; }</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>46</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>98</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating int getScore()" />
+  <problem_class id="LombokGetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Getter may be used</problem_class>
+  <description>Field 'score' may have Lombok @Getter</description>
+  <highlighted_element>public int getScore() { return score; }</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>39</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>100</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating java.time.LocalDateTime getTimestamp()" />
+  <problem_class id="LombokGetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Getter may be used</problem_class>
+  <description>Field 'timestamp' may have Lombok @Getter</description>
+  <highlighted_element>public LocalDateTime getTimestamp() { return timestamp; }</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>57</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>75</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler java.lang.String getTypeName()" />
+  <problem_class id="LombokGetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Getter may be used</problem_class>
+  <description>Field 'typeName' may have Lombok @Getter</description>
+  <highlighted_element>public String getTypeName() { return this.typeName; }</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>65</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>79</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler java.lang.String getErrorMessage()" />
+  <problem_class id="LombokGetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Getter may be used</problem_class>
+  <description>Field 'errorMessage' may have Lombok @Getter</description>
+  <highlighted_element>public String getErrorMessage() { return this.errorMessage; }</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>73</length>
+</problem>
+</problems>

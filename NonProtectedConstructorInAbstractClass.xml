@@ -1,0 +1,15 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Person.java</file>
+  <line>9</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Person Person(java.lang.Long id, java.lang.String name, java.lang.String email, java.lang.String address)" />
+  <problem_class id="NonProtectedConstructorInAbstractClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Public constructor in abstract class</problem_class>
+  <description>Constructor &lt;code&gt;Person()&lt;/code&gt; of an abstract class should not be declared 'public' #loc</description>
+  <highlighted_element>Person</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>6</length>
+</problem>
+</problems>

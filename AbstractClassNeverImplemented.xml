@@ -1,0 +1,54 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/AbstractInputValidator.java</file>
+  <line>6</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="class" FQNAME="validation.AbstractInputValidator" />
+  <problem_class id="AbstractClassNeverImplemented" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Abstract class which has no concrete subclass</problem_class>
+  <description>Abstract class &lt;code&gt;AbstractInputValidator&lt;/code&gt; has no concrete subclass #loc</description>
+  <highlighted_element>AbstractInputValidator</highlighted_element>
+  <language>JAVA</language>
+  <offset>22</offset>
+  <length>22</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/AbstractMenuItemValidator.java</file>
+  <line>8</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="class" FQNAME="validation.AbstractMenuItemValidator" />
+  <problem_class id="AbstractClassNeverImplemented" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Abstract class which has no concrete subclass</problem_class>
+  <description>Abstract class &lt;code&gt;AbstractMenuItemValidator&lt;/code&gt; has no concrete subclass #loc</description>
+  <highlighted_element>AbstractMenuItemValidator</highlighted_element>
+  <language>JAVA</language>
+  <offset>22</offset>
+  <length>25</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/AbstractOrderValidator.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="class" FQNAME="validation.AbstractOrderValidator" />
+  <problem_class id="AbstractClassNeverImplemented" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Abstract class which has no concrete subclass</problem_class>
+  <description>Abstract class &lt;code&gt;AbstractOrderValidator&lt;/code&gt; has no concrete subclass #loc</description>
+  <highlighted_element>AbstractOrderValidator</highlighted_element>
+  <language>JAVA</language>
+  <offset>22</offset>
+  <length>22</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/AbstractValidator.java</file>
+  <line>6</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="class" FQNAME="validation.AbstractValidator" />
+  <problem_class id="AbstractClassNeverImplemented" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Abstract class which has no concrete subclass</problem_class>
+  <description>Abstract class &lt;code&gt;AbstractValidator&lt;/code&gt; has no concrete subclass #loc</description>
+  <highlighted_element>AbstractValidator</highlighted_element>
+  <language>JAVA</language>
+  <offset>22</offset>
+  <length>17</length>
+</problem>
+</problems>

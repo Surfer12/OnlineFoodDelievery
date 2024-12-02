@@ -1,0 +1,197 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/builder/OrderBuilder.java</file>
+  <line>7</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>builder</package>
+  <entry_point TYPE="field" FQNAME="builder.OrderBuilder customerId" />
+  <problem_class id="InstanceVariableInitialization" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Instance field may not be initialized</problem_class>
+  <description>Instance field &lt;code&gt;customerId&lt;/code&gt; may not be initialized during object construction #loc</description>
+  <highlighted_element>customerId</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/builder/OrderBuilder.java</file>
+  <line>8</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>builder</package>
+  <entry_point TYPE="field" FQNAME="builder.OrderBuilder customerEmail" />
+  <problem_class id="InstanceVariableInitialization" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Instance field may not be initialized</problem_class>
+  <description>Instance field &lt;code&gt;customerEmail&lt;/code&gt; may not be initialized during object construction #loc</description>
+  <highlighted_element>customerEmail</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/builder/OrderBuilder.java</file>
+  <line>9</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>builder</package>
+  <entry_point TYPE="field" FQNAME="builder.OrderBuilder item" />
+  <problem_class id="InstanceVariableInitialization" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Instance field may not be initialized</problem_class>
+  <description>Instance field &lt;code&gt;item&lt;/code&gt; may not be initialized during object construction #loc</description>
+  <highlighted_element>item</highlighted_element>
+  <language>JAVA</language>
+  <offset>20</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/builder/OrderBuilder.java</file>
+  <line>10</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>builder</package>
+  <entry_point TYPE="field" FQNAME="builder.OrderBuilder deliveryAddress" />
+  <problem_class id="InstanceVariableInitialization" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Instance field may not be initialized</problem_class>
+  <description>Instance field &lt;code&gt;deliveryAddress&lt;/code&gt; may not be initialized during object construction #loc</description>
+  <highlighted_element>deliveryAddress</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/builder/OrderBuilder.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>builder</package>
+  <entry_point TYPE="field" FQNAME="builder.OrderBuilder postalCode" />
+  <problem_class id="InstanceVariableInitialization" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Instance field may not be initialized</problem_class>
+  <description>Instance field &lt;code&gt;postalCode&lt;/code&gt; may not be initialized during object construction #loc</description>
+  <highlighted_element>postalCode</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>15</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="field" FQNAME="model.Driver vehicle" />
+  <problem_class id="InstanceVariableInitialization" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Instance field may not be initialized</problem_class>
+  <description>Instance field &lt;code&gt;vehicle&lt;/code&gt; may not be initialized during object construction #loc</description>
+  <highlighted_element>vehicle</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>14</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="field" FQNAME="model.Order estimatedDeliveryTime" />
+  <problem_class id="InstanceVariableInitialization" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Instance field may not be initialized</problem_class>
+  <description>Instance field &lt;code&gt;estimatedDeliveryTime&lt;/code&gt; may not be initialized during object construction #loc</description>
+  <highlighted_element>estimatedDeliveryTime</highlighted_element>
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>21</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>16</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="field" FQNAME="model.Order driver" />
+  <problem_class id="InstanceVariableInitialization" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Instance field may not be initialized</problem_class>
+  <description>Instance field &lt;code&gt;driver&lt;/code&gt; may not be initialized during object construction #loc</description>
+  <highlighted_element>driver</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/payment/Payment.java</file>
+  <line>6</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>payment</package>
+  <entry_point TYPE="field" FQNAME="payment.Payment paymentId" />
+  <problem_class id="InstanceVariableInitialization" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Instance field may not be initialized</problem_class>
+  <description>Instance field &lt;code&gt;paymentId&lt;/code&gt; may not be initialized during object construction #loc</description>
+  <highlighted_element>paymentId</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/payment/Payment.java</file>
+  <line>10</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>payment</package>
+  <entry_point TYPE="field" FQNAME="payment.Payment paymentTime" />
+  <problem_class id="InstanceVariableInitialization" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Instance field may not be initialized</problem_class>
+  <description>Instance field &lt;code&gt;paymentTime&lt;/code&gt; may not be initialized during object construction #loc</description>
+  <highlighted_element>paymentTime</highlighted_element>
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>63</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="field" FQNAME="rating.Rating.Builder id" />
+  <problem_class id="InstanceVariableInitialization" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Instance field may not be initialized</problem_class>
+  <description>Instance field &lt;code&gt;id&lt;/code&gt; may not be initialized during object construction #loc</description>
+  <highlighted_element>id</highlighted_element>
+  <language>JAVA</language>
+  <offset>21</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>64</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="field" FQNAME="rating.Rating.Builder customerId" />
+  <problem_class id="InstanceVariableInitialization" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Instance field may not be initialized</problem_class>
+  <description>Instance field &lt;code&gt;customerId&lt;/code&gt; may not be initialized during object construction #loc</description>
+  <highlighted_element>customerId</highlighted_element>
+  <language>JAVA</language>
+  <offset>21</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>65</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="field" FQNAME="rating.Rating.Builder driverId" />
+  <problem_class id="InstanceVariableInitialization" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Instance field may not be initialized</problem_class>
+  <description>Instance field &lt;code&gt;driverId&lt;/code&gt; may not be initialized during object construction #loc</description>
+  <highlighted_element>driverId</highlighted_element>
+  <language>JAVA</language>
+  <offset>21</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>66</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="field" FQNAME="rating.Rating.Builder score" />
+  <problem_class id="InstanceVariableInitialization" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Instance field may not be initialized</problem_class>
+  <description>Instance field &lt;code&gt;score&lt;/code&gt; may not be initialized during object construction #loc</description>
+  <highlighted_element>score</highlighted_element>
+  <language>JAVA</language>
+  <offset>20</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>67</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="field" FQNAME="rating.Rating.Builder comment" />
+  <problem_class id="InstanceVariableInitialization" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Instance field may not be initialized</problem_class>
+  <description>Instance field &lt;code&gt;comment&lt;/code&gt; may not be initialized during object construction #loc</description>
+  <highlighted_element>comment</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>7</length>
+</problem>
+</problems>

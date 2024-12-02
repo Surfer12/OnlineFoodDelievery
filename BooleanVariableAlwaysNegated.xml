@@ -1,0 +1,15 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>49</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler T getInput(java.lang.String prompt)" />
+  <problem_class id="BooleanVariableAlwaysNegated" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Boolean variable is always inverted</problem_class>
+  <description>Boolean variable &lt;code&gt;valid&lt;/code&gt; is always inverted #loc</description>
+  <highlighted_element>valid</highlighted_element>
+  <language>JAVA</language>
+  <offset>14</offset>
+  <length>5</length>
+</problem>
+</problems>

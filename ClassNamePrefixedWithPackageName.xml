@@ -1,0 +1,132 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/Application.java</file>
+  <line>13</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="class" FQNAME="app.Application" />
+  <problem_class id="ClassNamePrefixedWithPackageName" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class name prefixed with package name</problem_class>
+  <description>Class name &lt;code&gt;Application&lt;/code&gt; begins with its package name #loc</description>
+  <highlighted_element>Application</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/NotificationService.java</file>
+  <line>7</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="class" FQNAME="notification.NotificationService" />
+  <problem_class id="ClassNamePrefixedWithPackageName" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class name prefixed with package name</problem_class>
+  <description>Class name &lt;code&gt;NotificationService&lt;/code&gt; begins with its package name #loc</description>
+  <highlighted_element>NotificationService</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/payment/Payment.java</file>
+  <line>5</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>payment</package>
+  <entry_point TYPE="class" FQNAME="payment.Payment" />
+  <problem_class id="ClassNamePrefixedWithPackageName" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class name prefixed with package name</problem_class>
+  <description>Class name &lt;code&gt;Payment&lt;/code&gt; begins with its package name #loc</description>
+  <highlighted_element>Payment</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/QueueOperations.java</file>
+  <line>5</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="class" FQNAME="queue.QueueOperations" />
+  <problem_class id="ClassNamePrefixedWithPackageName" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class name prefixed with package name</problem_class>
+  <description>Class name &lt;code&gt;QueueOperations&lt;/code&gt; begins with its package name #loc</description>
+  <highlighted_element>QueueOperations</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>10</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="class" FQNAME="rating.Rating" />
+  <problem_class id="ClassNamePrefixedWithPackageName" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class name prefixed with package name</problem_class>
+  <description>Class name &lt;code&gt;Rating&lt;/code&gt; begins with its package name #loc</description>
+  <highlighted_element>Rating</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsBusinessLogic.java</file>
+  <line>7</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="class" FQNAME="rating.RatingsBusinessLogic" />
+  <problem_class id="ClassNamePrefixedWithPackageName" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class name prefixed with package name</problem_class>
+  <description>Class name &lt;code&gt;RatingsBusinessLogic&lt;/code&gt; begins with its package name #loc</description>
+  <highlighted_element>RatingsBusinessLogic</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsBusinessLogic.java</file>
+  <line>7</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="class" FQNAME="rating.RatingsBusinessLogic" />
+  <problem_class id="ClassNamePrefixedWithPackageName" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class name prefixed with package name</problem_class>
+  <description>Class name &lt;code&gt;RatingsBusinessLogic&lt;/code&gt; begins with its package name #loc</description>
+  <highlighted_element>RatingsBusinessLogic</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsHandler.java</file>
+  <line>10</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="class" FQNAME="rating.RatingsHandler" />
+  <problem_class id="ClassNamePrefixedWithPackageName" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class name prefixed with package name</problem_class>
+  <description>Class name &lt;code&gt;RatingsHandler&lt;/code&gt; begins with its package name #loc</description>
+  <highlighted_element>RatingsHandler</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>13</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="class" FQNAME="validation.ValidationHandler" />
+  <problem_class id="ClassNamePrefixedWithPackageName" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class name prefixed with package name</problem_class>
+  <description>Class name &lt;code&gt;ValidationHandler&lt;/code&gt; begins with its package name #loc</description>
+  <highlighted_element>ValidationHandler</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationUtils.java</file>
+  <line>27</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="class" FQNAME="validation.ValidationUtils" />
+  <problem_class id="ClassNamePrefixedWithPackageName" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class name prefixed with package name</problem_class>
+  <description>Class name &lt;code&gt;ValidationUtils&lt;/code&gt; begins with its package name #loc</description>
+  <highlighted_element>ValidationUtils</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>15</length>
+</problem>
+</problems>

@@ -1,0 +1,275 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystem.java</file>
+  <line>10</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="field" FQNAME="app.DeliverySystem orderStatuses" />
+  <problem_class id="CollectionsMustHaveInitialCapacity" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Collection without initial capacity</problem_class>
+  <description>&lt;code&gt;new HashMap&lt;&gt;()&lt;/code&gt; without initial capacity #loc</description>
+  <highlighted_element>HashMap&lt;&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>55</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>41</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager java.util.List&lt;model.MenuItem&gt; selectMenuItems(java.util.Scanner scanner, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="CollectionsMustHaveInitialCapacity" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Collection without initial capacity</problem_class>
+  <description>&lt;code&gt;new ArrayList&lt;&gt;()&lt;/code&gt; without initial capacity #loc</description>
+  <highlighted_element>ArrayList&lt;&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>40</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Customer.java</file>
+  <line>24</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Customer Customer(java.lang.Long id, java.lang.String name, java.lang.String email, java.lang.String address)" />
+  <problem_class id="CollectionsMustHaveInitialCapacity" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Collection without initial capacity</problem_class>
+  <description>&lt;code&gt;new ArrayList&lt;&gt;()&lt;/code&gt; without initial capacity #loc</description>
+  <highlighted_element>ArrayList&lt;&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>30</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>25</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver Driver(java.lang.Long id, java.lang.String name, java.lang.String vehicleType, java.lang.String licensePlate)" />
+  <problem_class id="CollectionsMustHaveInitialCapacity" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Collection without initial capacity</problem_class>
+  <description>&lt;code&gt;new ArrayList&lt;&gt;()&lt;/code&gt; without initial capacity #loc</description>
+  <highlighted_element>ArrayList&lt;&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>22</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order Order(java.lang.Long customerId, java.lang.String customerEmail, java.util.List&lt;model.MenuItem&gt; items, model.Location deliveryLocation)" />
+  <problem_class id="CollectionsMustHaveInitialCapacity" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Collection without initial capacity</problem_class>
+  <description>&lt;code&gt;new ArrayList&lt;&gt;()&lt;/code&gt; without initial capacity #loc</description>
+  <highlighted_element>ArrayList&lt;&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>64</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderTrackingService.java</file>
+  <line>9</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="field" FQNAME="observer.OrderTrackingService observers" />
+  <problem_class id="CollectionsMustHaveInitialCapacity" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Collection without initial capacity</problem_class>
+  <description>&lt;code&gt;new ArrayList&lt;&gt;()&lt;/code&gt; without initial capacity #loc</description>
+  <highlighted_element>ArrayList&lt;&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>47</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>41</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating void validate()" />
+  <problem_class id="CollectionsMustHaveInitialCapacity" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Collection without initial capacity</problem_class>
+  <description>&lt;code&gt;new ArrayList&lt;&gt;()&lt;/code&gt; without initial capacity #loc</description>
+  <highlighted_element>ArrayList&lt;&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>34</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/DriverServiceImpl.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="field" FQNAME="services.DriverServiceImpl drivers" />
+  <problem_class id="CollectionsMustHaveInitialCapacity" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Collection without initial capacity</problem_class>
+  <description>&lt;code&gt;new ArrayList&lt;&gt;()&lt;/code&gt; without initial capacity #loc</description>
+  <highlighted_element>ArrayList&lt;&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>39</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/MenuServiceImpl.java</file>
+  <line>9</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="field" FQNAME="services.MenuServiceImpl menuItems" />
+  <problem_class id="CollectionsMustHaveInitialCapacity" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Collection without initial capacity</problem_class>
+  <description>&lt;code&gt;new ArrayList&lt;&gt;()&lt;/code&gt; without initial capacity #loc</description>
+  <highlighted_element>ArrayList&lt;&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>43</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="field" FQNAME="services.OrderServiceImpl orders" />
+  <problem_class id="CollectionsMustHaveInitialCapacity" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Collection without initial capacity</problem_class>
+  <description>&lt;code&gt;new ArrayList&lt;&gt;()&lt;/code&gt; without initial capacity #loc</description>
+  <highlighted_element>ArrayList&lt;&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>37</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>39</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="CollectionsMustHaveInitialCapacity" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Collection without initial capacity</problem_class>
+  <description>&lt;code&gt;new HashMap&lt;&gt;()&lt;/code&gt; without initial capacity #loc</description>
+  <highlighted_element>HashMap&lt;&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>48</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/DriverServiceImpl.java</file>
+  <line>16</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="field" FQNAME="services.impl.DriverServiceImpl drivers" />
+  <problem_class id="CollectionsMustHaveInitialCapacity" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Collection without initial capacity</problem_class>
+  <description>&lt;code&gt;new ArrayList&lt;&gt;()&lt;/code&gt; without initial capacity #loc</description>
+  <highlighted_element>ArrayList&lt;&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>39</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/MenuServiceImpl.java</file>
+  <line>17</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.MenuServiceImpl MenuServiceImpl()" />
+  <problem_class id="CollectionsMustHaveInitialCapacity" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Collection without initial capacity</problem_class>
+  <description>&lt;code&gt;new ArrayList&lt;&gt;()&lt;/code&gt; without initial capacity #loc</description>
+  <highlighted_element>ArrayList&lt;&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>13</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="field" FQNAME="services.impl.OrderServiceImpl orders" />
+  <problem_class id="CollectionsMustHaveInitialCapacity" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Collection without initial capacity</problem_class>
+  <description>&lt;code&gt;new ArrayList&lt;&gt;()&lt;/code&gt; without initial capacity #loc</description>
+  <highlighted_element>ArrayList&lt;&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>37</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>40</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="CollectionsMustHaveInitialCapacity" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Collection without initial capacity</problem_class>
+  <description>&lt;code&gt;new HashMap&lt;&gt;()&lt;/code&gt; without initial capacity #loc</description>
+  <highlighted_element>HashMap&lt;&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>48</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/tracker/OrderTracker.java</file>
+  <line>18</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>tracker</package>
+  <entry_point TYPE="field" FQNAME="tracker.OrderTracker orders" />
+  <problem_class id="CollectionsMustHaveInitialCapacity" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Collection without initial capacity</problem_class>
+  <description>&lt;code&gt;new ConcurrentHashMap&lt;&gt;()&lt;/code&gt; without initial capacity #loc</description>
+  <highlighted_element>ConcurrentHashMap&lt;&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>47</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/tracker/OrderTracker.java</file>
+  <line>21</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>tracker</package>
+  <entry_point TYPE="method" FQNAME="tracker.OrderTracker OrderTracker()" />
+  <problem_class id="CollectionsMustHaveInitialCapacity" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Collection without initial capacity</problem_class>
+  <description>&lt;code&gt;new ConcurrentHashMap&lt;&gt;()&lt;/code&gt; without initial capacity #loc</description>
+  <highlighted_element>ConcurrentHashMap&lt;&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/tracker/OrderTracker.java</file>
+  <line>22</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>tracker</package>
+  <entry_point TYPE="method" FQNAME="tracker.OrderTracker OrderTracker()" />
+  <problem_class id="CollectionsMustHaveInitialCapacity" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Collection without initial capacity</problem_class>
+  <description>&lt;code&gt;new ConcurrentHashMap&lt;&gt;()&lt;/code&gt; without initial capacity #loc</description>
+  <highlighted_element>ConcurrentHashMap&lt;&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>40</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/tracker/OrderTracker.java</file>
+  <line>23</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>tracker</package>
+  <entry_point TYPE="method" FQNAME="tracker.OrderTracker OrderTracker()" />
+  <problem_class id="CollectionsMustHaveInitialCapacity" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Collection without initial capacity</problem_class>
+  <description>&lt;code&gt;new ArrayList&lt;&gt;()&lt;/code&gt; without initial capacity #loc</description>
+  <highlighted_element>ArrayList&lt;&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>80</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="CollectionsMustHaveInitialCapacity" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Collection without initial capacity</problem_class>
+  <description>&lt;code&gt;new ArrayList&lt;&gt;()&lt;/code&gt; without initial capacity #loc</description>
+  <highlighted_element>ArrayList&lt;&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>33</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>44</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="CollectionsMustHaveInitialCapacity" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Collection without initial capacity</problem_class>
+  <description>&lt;code&gt;new ArrayList&lt;&gt;()&lt;/code&gt; without initial capacity #loc</description>
+  <highlighted_element>ArrayList&lt;&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>35</offset>
+  <length>11</length>
+</problem>
+</problems>

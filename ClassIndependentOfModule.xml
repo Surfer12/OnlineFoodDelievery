@@ -1,0 +1,72 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/CustomException/OrderProcessingException.java</file>
+  <line>6</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>CustomException</package>
+  <entry_point TYPE="class" FQNAME="CustomException.OrderProcessingException" />
+  <problem_class id="ClassIndependentOfModule" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class independent of its module</problem_class>
+  <hints />
+  <description>Class &lt;code&gt;OrderProcessingException&lt;/code&gt; has no dependencies or dependents in its module #loc</description>
+  <highlighted_element>OrderProcessingException</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>24</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/CustomException/PaymentException.java</file>
+  <line>6</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>CustomException</package>
+  <entry_point TYPE="class" FQNAME="CustomException.PaymentException" />
+  <problem_class id="ClassIndependentOfModule" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class independent of its module</problem_class>
+  <hints />
+  <description>Class &lt;code&gt;PaymentException&lt;/code&gt; has no dependencies or dependents in its module #loc</description>
+  <highlighted_element>PaymentException</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DriverService.java</file>
+  <line>3</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="class" FQNAME="app.DriverService" />
+  <problem_class id="ClassIndependentOfModule" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class independent of its module</problem_class>
+  <hints />
+  <description>Class &lt;code&gt;DriverService&lt;/code&gt; has no dependencies or dependents in its module #loc</description>
+  <highlighted_element>DriverService</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>13</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="class" FQNAME="app.util.MemoryMonitor" />
+  <problem_class id="ClassIndependentOfModule" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class independent of its module</problem_class>
+  <hints />
+  <description>Class &lt;code&gt;MemoryMonitor&lt;/code&gt; has no dependencies or dependents in its module #loc</description>
+  <highlighted_element>MemoryMonitor</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>21</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="class" FQNAME="app.DeliverySystemCLITest" />
+  <problem_class id="ClassIndependentOfModule" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class independent of its module</problem_class>
+  <hints />
+  <description>Class &lt;code&gt;DeliverySystemCLITest&lt;/code&gt; has no dependencies or dependents in its module #loc</description>
+  <highlighted_element>DeliverySystemCLITest</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>21</length>
+</problem>
+</problems>

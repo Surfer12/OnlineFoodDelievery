@@ -1,0 +1,2069 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/Application.java</file>
+  <line>22</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.Application void main(java.lang.String[] args)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Local variable 'deliverySystem' of concrete class &lt;code&gt;DeliverySystem&lt;/code&gt; #loc</description>
+  <highlighted_element>DeliverySystem</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/Application.java</file>
+  <line>26</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.Application void main(java.lang.String[] args)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Local variable 'driver' of concrete class &lt;code&gt;Driver&lt;/code&gt; #loc</description>
+  <highlighted_element>Driver</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/Application.java</file>
+  <line>36</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.Application void main(java.lang.String[] args)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Local variable 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystem.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystem void submitOrder(model.Order order)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>33</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystem.java</file>
+  <line>17</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystem void assignOrderToDriver(model.Order order, model.Driver driver)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>41</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystem.java</file>
+  <line>17</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystem void assignOrderToDriver(model.Order order, model.Driver driver)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'driver' of concrete class &lt;code&gt;Driver&lt;/code&gt; #loc</description>
+  <highlighted_element>Driver</highlighted_element>
+  <language>JAVA</language>
+  <offset>60</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>17</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="field" FQNAME="app.DeliverySystemCLI menuManager" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Instance field 'menuManager' of concrete class &lt;code&gt;MenuManager&lt;/code&gt; #loc</description>
+  <highlighted_element>MenuManager</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>18</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="field" FQNAME="app.DeliverySystemCLI orderManager" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Instance field 'orderManager' of concrete class &lt;code&gt;OrderManager&lt;/code&gt; #loc</description>
+  <highlighted_element>OrderManager</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>19</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="field" FQNAME="app.DeliverySystemCLI driverManager" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Instance field 'driverManager' of concrete class &lt;code&gt;DriverManager&lt;/code&gt; #loc</description>
+  <highlighted_element>DriverManager</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>21</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="field" FQNAME="app.DeliverySystemCLI positiveIntegerHandler" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Instance field 'positiveIntegerHandler' of concrete class &lt;code&gt;ConsoleInputHandler&lt;Integer&gt;&lt;/code&gt; #loc</description>
+  <highlighted_element>ConsoleInputHandler&lt;Integer&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>28</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>22</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="field" FQNAME="app.DeliverySystemCLI emailHandler" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Instance field 'emailHandler' of concrete class &lt;code&gt;ConsoleInputHandler&lt;String&gt;&lt;/code&gt; #loc</description>
+  <highlighted_element>ConsoleInputHandler&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>27</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>23</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="field" FQNAME="app.DeliverySystemCLI locationHandler" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Instance field 'locationHandler' of concrete class &lt;code&gt;ConsoleInputHandler&lt;String&gt;&lt;/code&gt; #loc</description>
+  <highlighted_element>ConsoleInputHandler&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>27</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>27</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI DeliverySystemCLI(java.util.Scanner scanner, managers.MenuManager menuManager, managers.OrderManager orderManager, managers.DriverManager driverManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; emailHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; locationHandler)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'menuManager' of concrete class &lt;code&gt;MenuManager&lt;/code&gt; #loc</description>
+  <highlighted_element>MenuManager</highlighted_element>
+  <language>JAVA</language>
+  <offset>58</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>27</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI DeliverySystemCLI(java.util.Scanner scanner, managers.MenuManager menuManager, managers.OrderManager orderManager, managers.DriverManager driverManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; emailHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; locationHandler)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'orderManager' of concrete class &lt;code&gt;OrderManager&lt;/code&gt; #loc</description>
+  <highlighted_element>OrderManager</highlighted_element>
+  <language>JAVA</language>
+  <offset>89</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>28</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI DeliverySystemCLI(java.util.Scanner scanner, managers.MenuManager menuManager, managers.OrderManager orderManager, managers.DriverManager driverManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; emailHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; locationHandler)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'driverManager' of concrete class &lt;code&gt;DriverManager&lt;/code&gt; #loc</description>
+  <highlighted_element>DriverManager</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>28</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI DeliverySystemCLI(java.util.Scanner scanner, managers.MenuManager menuManager, managers.OrderManager orderManager, managers.DriverManager driverManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; emailHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; locationHandler)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'positiveIntegerHandler' of concrete class &lt;code&gt;ConsoleInputHandler&lt;Integer&gt;&lt;/code&gt; #loc</description>
+  <highlighted_element>ConsoleInputHandler&lt;Integer&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>53</offset>
+  <length>28</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>29</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI DeliverySystemCLI(java.util.Scanner scanner, managers.MenuManager menuManager, managers.OrderManager orderManager, managers.DriverManager driverManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; emailHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; locationHandler)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'emailHandler' of concrete class &lt;code&gt;ConsoleInputHandler&lt;String&gt;&lt;/code&gt; #loc</description>
+  <highlighted_element>ConsoleInputHandler&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>27</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>29</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI DeliverySystemCLI(java.util.Scanner scanner, managers.MenuManager menuManager, managers.OrderManager orderManager, managers.DriverManager driverManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; emailHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; locationHandler)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'locationHandler' of concrete class &lt;code&gt;ConsoleInputHandler&lt;String&gt;&lt;/code&gt; #loc</description>
+  <highlighted_element>ConsoleInputHandler&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>66</offset>
+  <length>27</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>105</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI void main(java.lang.String[] args)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Local variable 'cli' of concrete class &lt;code&gt;DeliverySystemCLI&lt;/code&gt; #loc</description>
+  <highlighted_element>DeliverySystemCLI</highlighted_element>
+  <language>JAVA</language>
+  <offset>14</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/Main.java</file>
+  <line>5</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.Main void main(java.lang.String[] args)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Local variable 'cli' of concrete class &lt;code&gt;DeliverySystemCLI&lt;/code&gt; #loc</description>
+  <highlighted_element>DeliverySystemCLI</highlighted_element>
+  <language>JAVA</language>
+  <offset>8</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/builder/OrderBuilder.java</file>
+  <line>13</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>builder</package>
+  <entry_point TYPE="method" FQNAME="builder.OrderBuilder builder.OrderBuilder withValidatedCustomerId(java.lang.Long customerId)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Method returns a concrete class &lt;code&gt;OrderBuilder&lt;/code&gt; #loc</description>
+  <highlighted_element>OrderBuilder</highlighted_element>
+  <language>JAVA</language>
+  <offset>10</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/builder/OrderBuilder.java</file>
+  <line>18</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>builder</package>
+  <entry_point TYPE="method" FQNAME="builder.OrderBuilder builder.OrderBuilder withCustomerEmail(java.lang.String email)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Method returns a concrete class &lt;code&gt;OrderBuilder&lt;/code&gt; #loc</description>
+  <highlighted_element>OrderBuilder</highlighted_element>
+  <language>JAVA</language>
+  <offset>10</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/builder/OrderBuilder.java</file>
+  <line>23</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>builder</package>
+  <entry_point TYPE="method" FQNAME="builder.OrderBuilder builder.OrderBuilder addItem(model.MenuItem item)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Method returns a concrete class &lt;code&gt;OrderBuilder&lt;/code&gt; #loc</description>
+  <highlighted_element>OrderBuilder</highlighted_element>
+  <language>JAVA</language>
+  <offset>10</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/builder/OrderBuilder.java</file>
+  <line>28</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>builder</package>
+  <entry_point TYPE="method" FQNAME="builder.OrderBuilder builder.OrderBuilder withDeliveryLocation(java.lang.String address, java.lang.String postalCode)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Method returns a concrete class &lt;code&gt;OrderBuilder&lt;/code&gt; #loc</description>
+  <highlighted_element>OrderBuilder</highlighted_element>
+  <language>JAVA</language>
+  <offset>10</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/builder/OrderBuilder.java</file>
+  <line>34</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>builder</package>
+  <entry_point TYPE="method" FQNAME="builder.OrderBuilder model.Order build()" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Method returns a concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>10</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>19</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="field" FQNAME="managers.DriverManager menuChoiceHandler" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Instance field 'menuChoiceHandler' of concrete class &lt;code&gt;ConsoleInputHandler&lt;Integer&gt;&lt;/code&gt; #loc</description>
+  <highlighted_element>ConsoleInputHandler&lt;Integer&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>28</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>33</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void listAvailableDrivers()" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Local variable 'driver' of concrete class &lt;code&gt;Driver&lt;/code&gt; #loc</description>
+  <highlighted_element>Driver</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>38</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrder(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Long&gt; orderIdHandler)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>53</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>38</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrder(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Long&gt; orderIdHandler)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'orderIdHandler' of concrete class &lt;code&gt;ConsoleInputHandler&lt;Long&gt;&lt;/code&gt; #loc</description>
+  <highlighted_element>ConsoleInputHandler&lt;Long&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>66</offset>
+  <length>25</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>47</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrder(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Long&gt; orderIdHandler)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Local variable 'driver' of concrete class &lt;code&gt;Driver&lt;/code&gt; #loc</description>
+  <highlighted_element>Driver</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>58</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrder(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Long&gt; orderIdHandler)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Local variable 'selectedDriver' of concrete class &lt;code&gt;Driver&lt;/code&gt; #loc</description>
+  <highlighted_element>Driver</highlighted_element>
+  <language>JAVA</language>
+  <offset>8</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>69</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void rateDriver(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; menuChoiceHandler)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>44</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>69</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void rateDriver(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; menuChoiceHandler)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'menuChoiceHandler' of concrete class &lt;code&gt;ConsoleInputHandler&lt;Integer&gt;&lt;/code&gt; #loc</description>
+  <highlighted_element>ConsoleInputHandler&lt;Integer&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>57</offset>
+  <length>28</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>70</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void rateDriver(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; menuChoiceHandler)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Local variable 'driver' of concrete class &lt;code&gt;Driver&lt;/code&gt; #loc</description>
+  <highlighted_element>Driver</highlighted_element>
+  <language>JAVA</language>
+  <offset>8</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>88</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager validation.ConsoleInputHandler&lt;java.lang.Integer&gt; getMenuChoiceHandler()" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Method returns a concrete class &lt;code&gt;ConsoleInputHandler&lt;Integer&gt;&lt;/code&gt; #loc</description>
+  <highlighted_element>ConsoleInputHandler&lt;Integer&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>28</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>92</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void manageDriverMenu(java.util.Scanner scanner, managers.OrderManager orderManager)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'orderManager' of concrete class &lt;code&gt;OrderManager&lt;/code&gt; #loc</description>
+  <highlighted_element>OrderManager</highlighted_element>
+  <language>JAVA</language>
+  <offset>50</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>117</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrderInteractive(java.util.Scanner scanner, managers.OrderManager orderManager)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'orderManager' of concrete class &lt;code&gt;OrderManager&lt;/code&gt; #loc</description>
+  <highlighted_element>OrderManager</highlighted_element>
+  <language>JAVA</language>
+  <offset>65</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>125</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrderInteractive(java.util.Scanner scanner, managers.OrderManager orderManager)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Local variable 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>8</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>16</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="field" FQNAME="managers.MenuManager menuChoiceHandler" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Instance field 'menuChoiceHandler' of concrete class &lt;code&gt;ConsoleInputHandler&lt;Integer&gt;&lt;/code&gt; #loc</description>
+  <highlighted_element>ConsoleInputHandler&lt;Integer&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>28</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>37</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager java.util.List&lt;model.MenuItem&gt; selectMenuItems(java.util.Scanner scanner, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'positiveIntegerHandler' of concrete class &lt;code&gt;ConsoleInputHandler&lt;Integer&gt;&lt;/code&gt; #loc</description>
+  <highlighted_element>ConsoleInputHandler&lt;Integer&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>59</offset>
+  <length>28</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>73</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager validation.ConsoleInputHandler&lt;java.lang.Integer&gt; getMenuChoiceHandler()" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Method returns a concrete class &lt;code&gt;ConsoleInputHandler&lt;Integer&gt;&lt;/code&gt; #loc</description>
+  <highlighted_element>ConsoleInputHandler&lt;Integer&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>28</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>21</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="field" FQNAME="managers.OrderManager orderQueue" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Instance field 'orderQueue' of concrete class &lt;code&gt;OrderQueue&lt;/code&gt; #loc</description>
+  <highlighted_element>OrderQueue</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>21</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="field" FQNAME="managers.OrderManager orderQueue" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Instance field 'orderQueue' of concrete class &lt;code&gt;OrderQueue&lt;/code&gt; #loc</description>
+  <highlighted_element>OrderQueue</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>22</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="field" FQNAME="managers.OrderManager orderIdHandler" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Instance field 'orderIdHandler' of concrete class &lt;code&gt;ConsoleInputHandler&lt;Long&gt;&lt;/code&gt; #loc</description>
+  <highlighted_element>ConsoleInputHandler&lt;Long&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>25</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>22</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="field" FQNAME="managers.OrderManager orderIdHandler" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Instance field 'orderIdHandler' of concrete class &lt;code&gt;ConsoleInputHandler&lt;Long&gt;&lt;/code&gt; #loc</description>
+  <highlighted_element>ConsoleInputHandler&lt;Long&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>25</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>34</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Method returns a concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>34</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Method returns a concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>41</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Local variable 'newOrder' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>41</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Local variable 'newOrder' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>61</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void checkOrderStatus(java.util.Scanner scanner)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Local variable 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>61</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void checkOrderStatus(java.util.Scanner scanner)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Local variable 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>73</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager validation.ConsoleInputHandler&lt;java.lang.Long&gt; getOrderIdHandler()" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Method returns a concrete class &lt;code&gt;ConsoleInputHandler&lt;Long&gt;&lt;/code&gt; #loc</description>
+  <highlighted_element>ConsoleInputHandler&lt;Long&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>25</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>73</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager validation.ConsoleInputHandler&lt;java.lang.Long&gt; getOrderIdHandler()" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Method returns a concrete class &lt;code&gt;ConsoleInputHandler&lt;Long&gt;&lt;/code&gt; #loc</description>
+  <highlighted_element>ConsoleInputHandler&lt;Long&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>25</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>81</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'menuManager' of concrete class &lt;code&gt;MenuManager&lt;/code&gt; #loc</description>
+  <highlighted_element>MenuManager</highlighted_element>
+  <language>JAVA</language>
+  <offset>55</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>81</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'menuManager' of concrete class &lt;code&gt;MenuManager&lt;/code&gt; #loc</description>
+  <highlighted_element>MenuManager</highlighted_element>
+  <language>JAVA</language>
+  <offset>55</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>82</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'positiveIntegerHandler' of concrete class &lt;code&gt;ConsoleInputHandler&lt;Integer&gt;&lt;/code&gt; #loc</description>
+  <highlighted_element>ConsoleInputHandler&lt;Integer&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>28</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>82</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'positiveIntegerHandler' of concrete class &lt;code&gt;ConsoleInputHandler&lt;Integer&gt;&lt;/code&gt; #loc</description>
+  <highlighted_element>ConsoleInputHandler&lt;Integer&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>28</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>87</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Local variable 'newOrder' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>87</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Local variable 'newOrder' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>106</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void assignDriverToNewOrder(java.util.Scanner scanner, model.Order order)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>57</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>106</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void assignDriverToNewOrder(java.util.Scanner scanner, model.Order order)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>57</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>108</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void assignDriverToNewOrder(java.util.Scanner scanner, model.Order order)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Local variable 'driverManager' of concrete class &lt;code&gt;DriverManager&lt;/code&gt; #loc</description>
+  <highlighted_element>DriverManager</highlighted_element>
+  <language>JAVA</language>
+  <offset>8</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>108</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void assignDriverToNewOrder(java.util.Scanner scanner, model.Order order)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Local variable 'driverManager' of concrete class &lt;code&gt;DriverManager&lt;/code&gt; #loc</description>
+  <highlighted_element>DriverManager</highlighted_element>
+  <language>JAVA</language>
+  <offset>8</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Customer.java</file>
+  <line>33</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Customer void placeOrder(java.util.List&lt;model.MenuItem&gt; items, model.Driver driver)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'driver' of concrete class &lt;code&gt;Driver&lt;/code&gt; #loc</description>
+  <highlighted_element>Driver</highlighted_element>
+  <language>JAVA</language>
+  <offset>60</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Customer.java</file>
+  <line>34</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Customer void placeOrder(java.util.List&lt;model.MenuItem&gt; items, model.Driver driver)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Local variable 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Customer.java</file>
+  <line>50</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Customer void rateDriver(model.Driver driver, int score, java.lang.String comment)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'driver' of concrete class &lt;code&gt;Driver&lt;/code&gt; #loc</description>
+  <highlighted_element>Driver</highlighted_element>
+  <language>JAVA</language>
+  <offset>32</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Customer.java</file>
+  <line>51</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Customer void rateDriver(model.Driver driver, int score, java.lang.String comment)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Local variable 'rating' of concrete class &lt;code&gt;Rating&lt;/code&gt; #loc</description>
+  <highlighted_element>Rating</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>73</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver void addRating(rating.Rating rating)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'rating' of concrete class &lt;code&gt;Rating&lt;/code&gt; #loc</description>
+  <highlighted_element>Rating</highlighted_element>
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="field" FQNAME="model.Order deliveryLocation" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Instance field 'deliveryLocation' of concrete class &lt;code&gt;Location&lt;/code&gt; #loc</description>
+  <highlighted_element>Location</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>16</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="field" FQNAME="model.Order driver" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Instance field 'driver' of concrete class &lt;code&gt;Driver&lt;/code&gt; #loc</description>
+  <highlighted_element>Driver</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>19</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order Order(java.lang.Long customerId, java.lang.String customerEmail, java.util.List&lt;model.MenuItem&gt; items, model.Location deliveryLocation)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'deliveryLocation' of concrete class &lt;code&gt;Location&lt;/code&gt; #loc</description>
+  <highlighted_element>Location</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>61</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order model.Location getDeliveryLocation()" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Method returns a concrete class &lt;code&gt;Location&lt;/code&gt; #loc</description>
+  <highlighted_element>Location</highlighted_element>
+  <language>JAVA</language>
+  <offset>10</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>89</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order model.Driver getDriver()" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Method returns a concrete class &lt;code&gt;Driver&lt;/code&gt; #loc</description>
+  <highlighted_element>Driver</highlighted_element>
+  <language>JAVA</language>
+  <offset>10</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>93</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order void setDriver(model.Driver driver)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'driver' of concrete class &lt;code&gt;Driver&lt;/code&gt; #loc</description>
+  <highlighted_element>Driver</highlighted_element>
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>19</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService void sendOrderConfirmationToCustomer(model.Order order)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>53</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>25</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService void sendDriverAssignmentNotification(model.Order order, model.Driver driver)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>54</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>25</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService void sendDriverAssignmentNotification(model.Order order, model.Driver driver)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'driver' of concrete class &lt;code&gt;Driver&lt;/code&gt; #loc</description>
+  <highlighted_element>Driver</highlighted_element>
+  <language>JAVA</language>
+  <offset>73</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>31</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService void sendOrderStatusUpdateToCustomer(model.Order order, model.OrderStatus newStatus)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>53</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>37</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService void sendDeliveryCompletionNotification(model.Order order)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>56</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>42</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService java.lang.String formatOrderConfirmationMessage(model.Order order)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>55</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>49</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService java.lang.String formatDriverAssignmentMessage(model.Order order, model.Driver driver)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>54</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>49</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService java.lang.String formatDriverAssignmentMessage(model.Order order, model.Driver driver)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'driver' of concrete class &lt;code&gt;Driver&lt;/code&gt; #loc</description>
+  <highlighted_element>Driver</highlighted_element>
+  <language>JAVA</language>
+  <offset>73</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>56</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService java.lang.String formatEstimatedDeliveryTime(model.Order order)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>52</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>62</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService java.lang.String formatStatusUpdateMessage(model.Order order, model.OrderStatus newStatus)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>50</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>68</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService java.lang.String formatDeliveryCompletionMessage(model.Order order)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>56</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/NotificationService.java</file>
+  <line>10</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.NotificationService void sendOrderConfirmationToCustomer(model.Order order)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>40</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/NotificationService.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.NotificationService void sendDriverAssignmentNotification(model.Order order, model.Driver driver)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>41</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/NotificationService.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.NotificationService void sendDriverAssignmentNotification(model.Order order, model.Driver driver)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'driver' of concrete class &lt;code&gt;Driver&lt;/code&gt; #loc</description>
+  <highlighted_element>Driver</highlighted_element>
+  <language>JAVA</language>
+  <offset>54</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/NotificationService.java</file>
+  <line>14</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.NotificationService void sendOrderStatusUpdateToCustomer(model.Order order, model.OrderStatus newStatus)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>40</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/NotificationService.java</file>
+  <line>16</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.NotificationService void sendDeliveryCompletionNotification(model.Order order)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>43</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderObserver.java</file>
+  <line>6</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="method" FQNAME="observer.OrderObserver void update(model.Order order)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderObserver.java</file>
+  <line>8</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="method" FQNAME="observer.OrderObserver void onOrderEvent(model.Order order, observer.OrderEvent event)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>22</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderObserver.java</file>
+  <line>10</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="method" FQNAME="observer.OrderObserver void customerNotificationOfOrder(model.Order order, observer.OrderEvent event)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>37</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderObserver.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="method" FQNAME="observer.OrderObserver void driverNotificationToCustomer(model.Order order, observer.OrderEvent event)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>38</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderSubject.java</file>
+  <line>10</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="method" FQNAME="observer.OrderSubject void notifyObservers(model.Order order)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderTrackingService.java</file>
+  <line>22</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="method" FQNAME="observer.OrderTrackingService void notifyObservers(model.Order order)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/OrderQueue.java</file>
+  <line>14</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="field" FQNAME="queue.OrderQueue validator" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Instance field 'validator' of concrete class &lt;code&gt;OrderValidator&lt;/code&gt; #loc</description>
+  <highlighted_element>OrderValidator</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/OrderQueue.java</file>
+  <line>23</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="method" FQNAME="queue.OrderQueue void enqueue(model.Order order)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>36</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/OrderQueue.java</file>
+  <line>66</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="method" FQNAME="queue.OrderQueue int getPositionInQueue(model.Order order)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>46</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/OrderQueue.java</file>
+  <line>68</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="method" FQNAME="queue.OrderQueue int getPositionInQueue(model.Order order)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Local variable 'o' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>18</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating Rating(rating.Rating.Builder builder)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'builder' of concrete class &lt;code&gt;Builder&lt;/code&gt; #loc</description>
+  <highlighted_element>Builder</highlighted_element>
+  <language>JAVA</language>
+  <offset>19</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>69</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating.Builder rating.Rating.Builder customerId(java.lang.Long customerId)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Method returns a concrete class &lt;code&gt;Builder&lt;/code&gt; #loc</description>
+  <highlighted_element>Builder</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>74</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating.Builder rating.Rating.Builder driverId(java.lang.Long driverId)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Method returns a concrete class &lt;code&gt;Builder&lt;/code&gt; #loc</description>
+  <highlighted_element>Builder</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>79</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating.Builder rating.Rating.Builder score(int score)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Method returns a concrete class &lt;code&gt;Builder&lt;/code&gt; #loc</description>
+  <highlighted_element>Builder</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>84</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating.Builder rating.Rating.Builder comment(java.lang.String comment)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Method returns a concrete class &lt;code&gt;Builder&lt;/code&gt; #loc</description>
+  <highlighted_element>Builder</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>89</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating.Builder rating.Rating build()" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Method returns a concrete class &lt;code&gt;Rating&lt;/code&gt; #loc</description>
+  <highlighted_element>Rating</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/DriverService.java</file>
+  <line>10</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.DriverService model.Driver getDriverForOrder(model.Order order)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Method returns a concrete class &lt;code&gt;Driver&lt;/code&gt; #loc</description>
+  <highlighted_element>Driver</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/DriverService.java</file>
+  <line>10</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.DriverService model.Driver getDriverForOrder(model.Order order)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>29</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/DriverService.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.DriverService void assignDriverToOrder(model.Driver driver, model.Order order)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'driver' of concrete class &lt;code&gt;Driver&lt;/code&gt; #loc</description>
+  <highlighted_element>Driver</highlighted_element>
+  <language>JAVA</language>
+  <offset>29</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/DriverService.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.DriverService void assignDriverToOrder(model.Driver driver, model.Order order)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>44</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/DriverService.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.DriverService void rateDriver(model.Driver driver, java.lang.Integer rating)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'driver' of concrete class &lt;code&gt;Driver&lt;/code&gt; #loc</description>
+  <highlighted_element>Driver</highlighted_element>
+  <language>JAVA</language>
+  <offset>20</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/DriverServiceImpl.java</file>
+  <line>21</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.DriverServiceImpl model.Driver getDriverForOrder(model.Order order)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Method returns a concrete class &lt;code&gt;Driver&lt;/code&gt; #loc</description>
+  <highlighted_element>Driver</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/DriverServiceImpl.java</file>
+  <line>21</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.DriverServiceImpl model.Driver getDriverForOrder(model.Order order)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>36</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/DriverServiceImpl.java</file>
+  <line>29</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.DriverServiceImpl void assignDriverToOrder(model.Driver driver, model.Order order)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'driver' of concrete class &lt;code&gt;Driver&lt;/code&gt; #loc</description>
+  <highlighted_element>Driver</highlighted_element>
+  <language>JAVA</language>
+  <offset>36</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/DriverServiceImpl.java</file>
+  <line>29</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.DriverServiceImpl void assignDriverToOrder(model.Driver driver, model.Order order)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>51</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/DriverServiceImpl.java</file>
+  <line>39</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.DriverServiceImpl void rateDriver(model.Driver driver, java.lang.Integer rating)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'driver' of concrete class &lt;code&gt;Driver&lt;/code&gt; #loc</description>
+  <highlighted_element>Driver</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderManager.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; emailHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; locationHandler)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'menuManager' of concrete class &lt;code&gt;MenuManager&lt;/code&gt; #loc</description>
+  <highlighted_element>MenuManager</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderManager.java</file>
+  <line>13</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; emailHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; locationHandler)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'positiveIntegerHandler' of concrete class &lt;code&gt;ConsoleInputHandler&lt;Integer&gt;&lt;/code&gt; #loc</description>
+  <highlighted_element>ConsoleInputHandler&lt;Integer&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>28</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderManager.java</file>
+  <line>14</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; emailHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; locationHandler)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'emailHandler' of concrete class &lt;code&gt;ConsoleInputHandler&lt;String&gt;&lt;/code&gt; #loc</description>
+  <highlighted_element>ConsoleInputHandler&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>27</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderManager.java</file>
+  <line>15</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; emailHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; locationHandler)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'locationHandler' of concrete class &lt;code&gt;ConsoleInputHandler&lt;String&gt;&lt;/code&gt; #loc</description>
+  <highlighted_element>ConsoleInputHandler&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>27</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderManagerImpl.java</file>
+  <line>14</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderManagerImpl void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; emailHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; locationHandler)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'menuManager' of concrete class &lt;code&gt;MenuManager&lt;/code&gt; #loc</description>
+  <highlighted_element>MenuManager</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderManagerImpl.java</file>
+  <line>15</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderManagerImpl void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; emailHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; locationHandler)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'positiveIntegerHandler' of concrete class &lt;code&gt;ConsoleInputHandler&lt;Integer&gt;&lt;/code&gt; #loc</description>
+  <highlighted_element>ConsoleInputHandler&lt;Integer&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>28</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderManagerImpl.java</file>
+  <line>16</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderManagerImpl void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; emailHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; locationHandler)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'emailHandler' of concrete class &lt;code&gt;ConsoleInputHandler&lt;String&gt;&lt;/code&gt; #loc</description>
+  <highlighted_element>ConsoleInputHandler&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>27</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderManagerImpl.java</file>
+  <line>17</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderManagerImpl void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; emailHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; locationHandler)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'locationHandler' of concrete class &lt;code&gt;ConsoleInputHandler&lt;String&gt;&lt;/code&gt; #loc</description>
+  <highlighted_element>ConsoleInputHandler&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>27</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderService.java</file>
+  <line>9</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderService model.Order getOrderById(java.lang.Long orderId)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Method returns a concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderService.java</file>
+  <line>10</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderService model.Order createOrder(java.util.List&lt;model.MenuItem&gt; items)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Method returns a concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderService.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderService void displayOrderDetails(model.Order order)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>29</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>15</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl model.Order getOrderById(java.lang.Long orderId)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Method returns a concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>23</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl model.Order createOrder(java.util.List&lt;model.MenuItem&gt; items)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Method returns a concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>28</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl model.Order createOrder(java.util.List&lt;model.MenuItem&gt; items)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Local variable 'newOrder' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>8</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>34</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>36</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>57</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl java.lang.String getOrderStatus(java.lang.Long orderId)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Local variable 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>8</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/DriverServiceImpl.java</file>
+  <line>25</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.DriverServiceImpl model.Driver getDriverForOrder(model.Order order)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Method returns a concrete class &lt;code&gt;Driver&lt;/code&gt; #loc</description>
+  <highlighted_element>Driver</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/DriverServiceImpl.java</file>
+  <line>25</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.DriverServiceImpl model.Driver getDriverForOrder(model.Order order)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>36</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/DriverServiceImpl.java</file>
+  <line>31</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.DriverServiceImpl void assignDriverToOrder(model.Driver driver, model.Order order)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'driver' of concrete class &lt;code&gt;Driver&lt;/code&gt; #loc</description>
+  <highlighted_element>Driver</highlighted_element>
+  <language>JAVA</language>
+  <offset>36</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/DriverServiceImpl.java</file>
+  <line>31</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.DriverServiceImpl void assignDriverToOrder(model.Driver driver, model.Order order)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>51</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/DriverServiceImpl.java</file>
+  <line>36</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.DriverServiceImpl void rateDriver(model.Driver driver, java.lang.Integer rating)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'driver' of concrete class &lt;code&gt;Driver&lt;/code&gt; #loc</description>
+  <highlighted_element>Driver</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>16</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl model.Order getOrderById(java.lang.Long orderId)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Method returns a concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>24</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl model.Order createOrder(java.util.List&lt;model.MenuItem&gt; items)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Method returns a concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>29</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl model.Order createOrder(java.util.List&lt;model.MenuItem&gt; items)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Local variable 'newOrder' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>8</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>35</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>36</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>56</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl java.lang.String getOrderStatus(java.lang.Long orderId)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Local variable 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>8</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/tracker/OrderObserver.java</file>
+  <line>7</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>tracker</package>
+  <entry_point TYPE="method" FQNAME="tracker.OrderObserver void update(model.Order order, model.OrderStatus newStatus)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/tracker/OrderSubject.java</file>
+  <line>10</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>tracker</package>
+  <entry_point TYPE="method" FQNAME="tracker.OrderSubject void notifyObservers(model.Order order)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/tracker/OrderTracker.java</file>
+  <line>37</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>tracker</package>
+  <entry_point TYPE="method" FQNAME="tracker.OrderTracker void notifyObservers(model.Order order)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>37</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/tracker/OrderTracker.java</file>
+  <line>43</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>tracker</package>
+  <entry_point TYPE="method" FQNAME="tracker.OrderTracker void updateOrderStatus(java.lang.Long orderId, model.OrderStatus newStatus, model.Driver assignedDriver)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'assignedDriver' of concrete class &lt;code&gt;Driver&lt;/code&gt; #loc</description>
+  <highlighted_element>Driver</highlighted_element>
+  <language>JAVA</language>
+  <offset>88</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/tracker/OrderTracker.java</file>
+  <line>61</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>tracker</package>
+  <entry_point TYPE="method" FQNAME="tracker.OrderTracker void updateDeliveryEstimates(java.lang.Long orderId, model.Driver driver)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'driver' of concrete class &lt;code&gt;Driver&lt;/code&gt; #loc</description>
+  <highlighted_element>Driver</highlighted_element>
+  <language>JAVA</language>
+  <offset>66</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/tracker/OrderTracker.java</file>
+  <line>82</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>tracker</package>
+  <entry_point TYPE="method" FQNAME="tracker.OrderTracker java.time.LocalDateTime calculateEstimatedDeliveryTime(model.Driver driver)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'driver' of concrete class &lt;code&gt;Driver&lt;/code&gt; #loc</description>
+  <highlighted_element>Driver</highlighted_element>
+  <language>JAVA</language>
+  <offset>62</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/AbstractOrderValidator.java</file>
+  <line>20</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.AbstractOrderValidator boolean validate(model.Order order)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>37</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/AbstractOrderValidator.java</file>
+  <line>29</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.AbstractOrderValidator model.Order parse(java.lang.String input)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Method returns a concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>20</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/OrderValidator.java</file>
+  <line>19</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.OrderValidator void validateOrder(model.Order order)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'order' of concrete class &lt;code&gt;Order&lt;/code&gt; #loc</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>29</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationUtils.java</file>
+  <line>94</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationUtils void validatePayment(payment.Payment payment)" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Parameter 'payment' of concrete class &lt;code&gt;Payment&lt;/code&gt; #loc</description>
+  <highlighted_element>Payment</highlighted_element>
+  <language>JAVA</language>
+  <offset>38</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>26</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="field" FQNAME="app.DeliverySystemCLITest menuManager" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Instance field 'menuManager' of concrete class &lt;code&gt;MenuManager&lt;/code&gt; #loc</description>
+  <highlighted_element>MenuManager</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>28</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="field" FQNAME="app.DeliverySystemCLITest orderManager" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Instance field 'orderManager' of concrete class &lt;code&gt;OrderManager&lt;/code&gt; #loc</description>
+  <highlighted_element>OrderManager</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>30</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="field" FQNAME="app.DeliverySystemCLITest driverManager" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Instance field 'driverManager' of concrete class &lt;code&gt;DriverManager&lt;/code&gt; #loc</description>
+  <highlighted_element>DriverManager</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>32</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="field" FQNAME="app.DeliverySystemCLITest positiveIntegerHandler" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Instance field 'positiveIntegerHandler' of concrete class &lt;code&gt;ConsoleInputHandler&lt;Integer&gt;&lt;/code&gt; #loc</description>
+  <highlighted_element>ConsoleInputHandler&lt;Integer&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>28</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>34</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="field" FQNAME="app.DeliverySystemCLITest menuChoiceHandler" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Instance field 'menuChoiceHandler' of concrete class &lt;code&gt;ConsoleInputHandler&lt;Integer&gt;&lt;/code&gt; #loc</description>
+  <highlighted_element>ConsoleInputHandler&lt;Integer&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>28</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>38</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="field" FQNAME="app.DeliverySystemCLITest orderIdHandler" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Instance field 'orderIdHandler' of concrete class &lt;code&gt;ConsoleInputHandler&lt;Long&gt;&lt;/code&gt; #loc</description>
+  <highlighted_element>ConsoleInputHandler&lt;Long&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>25</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>41</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="field" FQNAME="app.DeliverySystemCLITest deliverySystemCLI" />
+  <problem_class id="UseOfConcreteClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use of concrete class</problem_class>
+  <description>Instance field 'deliverySystemCLI' of concrete class &lt;code&gt;DeliverySystemCLI&lt;/code&gt; #loc</description>
+  <highlighted_element>DeliverySystemCLI</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>17</length>
+</problem>
+</problems>

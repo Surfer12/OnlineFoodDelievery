@@ -1,0 +1,56 @@
+<problems>
+<problem>
+  <package>app</package>
+  <entry_point TYPE="package" FQNAME="app" />
+  <problem_class id="DisjointPackage" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Package with disjoint dependency graph</problem_class>
+  <hints />
+  <description>Package app can be decomposed into 3 independent packages</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <package>services.impl</package>
+  <entry_point TYPE="package" FQNAME="services.impl" />
+  <problem_class id="DisjointPackage" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Package with disjoint dependency graph</problem_class>
+  <hints />
+  <description>Package services.impl can be decomposed into 3 independent packages</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <package>rating</package>
+  <entry_point TYPE="package" FQNAME="rating" />
+  <problem_class id="DisjointPackage" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Package with disjoint dependency graph</problem_class>
+  <hints />
+  <description>Package rating can be decomposed into 2 independent packages</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <package>CustomException</package>
+  <entry_point TYPE="package" FQNAME="CustomException" />
+  <problem_class id="DisjointPackage" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Package with disjoint dependency graph</problem_class>
+  <hints />
+  <description>Package CustomException can be decomposed into 4 independent packages</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <package>services</package>
+  <entry_point TYPE="package" FQNAME="services" />
+  <problem_class id="DisjointPackage" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Package with disjoint dependency graph</problem_class>
+  <hints />
+  <description>Package services can be decomposed into 4 independent packages</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <package>validation</package>
+  <entry_point TYPE="package" FQNAME="validation" />
+  <problem_class id="DisjointPackage" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Package with disjoint dependency graph</problem_class>
+  <hints />
+  <description>Package validation can be decomposed into 4 independent packages</description>
+  <highlighted_element />
+  <language />
+</problem>
+</problems>

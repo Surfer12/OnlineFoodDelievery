@@ -2,11 +2,12 @@ package builder;
 
 import model.MenuItem;
 import model.Order;
+import java.util.List;
 
 public class OrderBuilder {
    private Long customerId;
    private String customerEmail;
-   private MenuItem item;
+   private List<MenuItem> items;
    private String deliveryAddress;
    private String postalCode;
 
@@ -20,8 +21,8 @@ public class OrderBuilder {
       return this;
    }
 
-   public OrderBuilder addItem(final MenuItem item) {
-      this.item = item;
+   public OrderBuilder withItems(final List<MenuItem> items) {
+      this.items = items;
       return this;
    }
 
@@ -33,8 +34,21 @@ public class OrderBuilder {
 
    public Order build() {
       // Create a concrete implementation of Order
-      return new Order(this.customerId, this.customerEmail, this.item, this.deliveryAddress, this.postalCode) {
+      return new Order(this.customerId, this.customerEmail, this.items, this.deliveryAddress, this.postalCode) {
          // You can override any methods if needed
       };
+   }
+
+   public Order createOrder(List<MenuItem> orderItems) throws CustomException.QueueFullException {
+      // ...existing code...
+
+      Order newOrder = new OrderBuilder()
+              .withCustomerId(validatedCustomerId)
+              .withCustomerEmail(validatedEmail)
+              .withItems(orderItems)
+              .withDeliveryLocation(validatedAddress, validatedPostalCode)
+              .build();
+
+      // ...existing code...
    }
 }

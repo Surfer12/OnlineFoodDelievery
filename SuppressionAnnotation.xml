@@ -1,0 +1,54 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>78</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="SuppressionAnnotation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Inspection suppression annotation</problem_class>
+  <description>Annotation suppresses 'unchecked' #loc</description>
+  <highlighted_element>SuppressWarnings</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>105</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="SuppressionAnnotation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Inspection suppression annotation</problem_class>
+  <description>Annotation suppresses 'unchecked' #loc</description>
+  <highlighted_element>SuppressWarnings</highlighted_element>
+  <language>JAVA</language>
+  <offset>7</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>64</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="SuppressionAnnotation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Inspection suppression annotation</problem_class>
+  <description>Annotation suppresses 'unchecked' #loc</description>
+  <highlighted_element>SuppressWarnings</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>70</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="SuppressionAnnotation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Inspection suppression annotation</problem_class>
+  <description>Annotation suppresses 'unchecked' #loc</description>
+  <highlighted_element>SuppressWarnings</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>16</length>
+</problem>
+</problems>

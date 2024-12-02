@@ -1,0 +1,15 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>82</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver java.util.List&lt;java.lang.Integer&gt; getRatings()" />
+  <problem_class id="Java9CollectionFactory" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Immutable collection creation can be replaced with collection factory call</problem_class>
+  <description>Can be replaced with 'List.copyOf()' call</description>
+  <highlighted_element>unmodifiableList</highlighted_element>
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>16</length>
+</problem>
+</problems>

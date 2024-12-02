@@ -1,0 +1,67 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>49</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver void setVehicle(java.lang.String vehicle)" />
+  <problem_class id="LombokSetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Setter may be used</problem_class>
+  <description>Field 'vehicle' may have Lombok @Setter</description>
+  <highlighted_element>public void setVehicle(String vehicle) { this.vehicle = vehicle; }</highlighted_element>
+  <language>JAVA</language>
+  <offset>3</offset>
+  <length>75</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>57</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver void setAvailable(boolean available)" />
+  <problem_class id="LombokSetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Setter may be used</problem_class>
+  <description>Field 'available' may have Lombok @Setter</description>
+  <highlighted_element>public void setAvailable(boolean available) { this.available = available; }</highlighted_element>
+  <language>JAVA</language>
+  <offset>3</offset>
+  <length>84</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>73</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order void setStatus(model.OrderStatus status)" />
+  <problem_class id="LombokSetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Setter may be used</problem_class>
+  <description>Field 'status' may have Lombok @Setter</description>
+  <highlighted_element>public void setStatus(OrderStatus status) { this.status = status; }</highlighted_element>
+  <language>JAVA</language>
+  <offset>3</offset>
+  <length>76</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>81</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order void setEstimatedDeliveryTime(java.time.LocalDateTime estimatedDeliveryTime)" />
+  <problem_class id="LombokSetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Setter may be used</problem_class>
+  <description>Field 'estimatedDeliveryTime' may have Lombok @Setter</description>
+  <highlighted_element>public void setEstimatedDeliveryTime(LocalDateTime estimatedDeliveryTime) { this.estimatedDeli...</highlighted_element>
+  <language>JAVA</language>
+  <offset>3</offset>
+  <length>138</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>93</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order void setDriver(model.Driver driver)" />
+  <problem_class id="LombokSetterMayBeUsed" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lombok @Setter may be used</problem_class>
+  <description>Field 'driver' may have Lombok @Setter</description>
+  <highlighted_element>public void setDriver(Driver driver) { this.driver = driver; }</highlighted_element>
+  <language>JAVA</language>
+  <offset>3</offset>
+  <length>71</length>
+</problem>
+</problems>

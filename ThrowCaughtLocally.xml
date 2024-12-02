@@ -1,0 +1,236 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/OrderQueue.java</file>
+  <line>26</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="method" FQNAME="queue.OrderQueue void enqueue(model.Order order)" />
+  <problem_class id="ThrowCaughtLocally" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'throw' caught by containing 'try' statement</problem_class>
+  <description>&lt;code&gt;throw&lt;/code&gt; caught by containing 'try' statement #loc</description>
+  <highlighted_element>throw</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsHandler.java</file>
+  <line>18</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsHandler RatingsHandler(int maxRatings)" />
+  <problem_class id="ThrowCaughtLocally" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'throw' caught by containing 'try' statement</problem_class>
+  <description>&lt;code&gt;throw&lt;/code&gt; caught by containing 'try' statement #loc</description>
+  <highlighted_element>throw</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsHandler.java</file>
+  <line>33</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsHandler void addRating(T rating)" />
+  <problem_class id="ThrowCaughtLocally" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'throw' caught by containing 'try' statement</problem_class>
+  <description>&lt;code&gt;throw&lt;/code&gt; caught by containing 'try' statement #loc</description>
+  <highlighted_element>throw</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsHandler.java</file>
+  <line>36</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsHandler void addRating(T rating)" />
+  <problem_class id="ThrowCaughtLocally" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'throw' caught by containing 'try' statement</problem_class>
+  <description>&lt;code&gt;throw&lt;/code&gt; caught by containing 'try' statement #loc</description>
+  <highlighted_element>throw</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>28</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateTextInput(java.lang.String input, java.lang.String fieldName)" />
+  <problem_class id="ThrowCaughtLocally" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'throw' caught by containing 'try' statement</problem_class>
+  <description>&lt;code&gt;throw&lt;/code&gt; caught by containing 'try' statement #loc</description>
+  <highlighted_element>throw</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>28</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateTextInput(java.lang.String input, java.lang.String fieldName)" />
+  <problem_class id="ThrowCaughtLocally" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'throw' caught by containing 'try' statement</problem_class>
+  <description>&lt;code&gt;throw&lt;/code&gt; caught by containing 'try' statement #loc</description>
+  <highlighted_element>throw</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>64</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validatePositiveNumber(double number, java.lang.String fieldName)" />
+  <problem_class id="ThrowCaughtLocally" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'throw' caught by containing 'try' statement</problem_class>
+  <description>&lt;code&gt;throw&lt;/code&gt; caught by containing 'try' statement #loc</description>
+  <highlighted_element>throw</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>64</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validatePositiveNumber(double number, java.lang.String fieldName)" />
+  <problem_class id="ThrowCaughtLocally" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'throw' caught by containing 'try' statement</problem_class>
+  <description>&lt;code&gt;throw&lt;/code&gt; caught by containing 'try' statement #loc</description>
+  <highlighted_element>throw</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>82</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateEmailFormat(java.lang.String email)" />
+  <problem_class id="ThrowCaughtLocally" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'throw' caught by containing 'try' statement</problem_class>
+  <description>&lt;code&gt;throw&lt;/code&gt; caught by containing 'try' statement #loc</description>
+  <highlighted_element>throw</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>82</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateEmailFormat(java.lang.String email)" />
+  <problem_class id="ThrowCaughtLocally" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'throw' caught by containing 'try' statement</problem_class>
+  <description>&lt;code&gt;throw&lt;/code&gt; caught by containing 'try' statement #loc</description>
+  <highlighted_element>throw</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>100</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validatePhoneNumber(java.lang.String phoneNumber)" />
+  <problem_class id="ThrowCaughtLocally" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'throw' caught by containing 'try' statement</problem_class>
+  <description>&lt;code&gt;throw&lt;/code&gt; caught by containing 'try' statement #loc</description>
+  <highlighted_element>throw</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>100</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validatePhoneNumber(java.lang.String phoneNumber)" />
+  <problem_class id="ThrowCaughtLocally" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'throw' caught by containing 'try' statement</problem_class>
+  <description>&lt;code&gt;throw&lt;/code&gt; caught by containing 'try' statement #loc</description>
+  <highlighted_element>throw</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationUtils.java</file>
+  <line>38</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationUtils void validateCustomerId(java.lang.Long customerId)" />
+  <problem_class id="ThrowCaughtLocally" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'throw' caught by containing 'try' statement</problem_class>
+  <description>&lt;code&gt;throw&lt;/code&gt; caught by containing 'try' statement #loc</description>
+  <highlighted_element>throw</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationUtils.java</file>
+  <line>56</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationUtils void validateItems(java.util.List&lt;?&gt; items, int maxItems)" />
+  <problem_class id="ThrowCaughtLocally" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'throw' caught by containing 'try' statement</problem_class>
+  <description>&lt;code&gt;throw&lt;/code&gt; caught by containing 'try' statement #loc</description>
+  <highlighted_element>throw</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationUtils.java</file>
+  <line>59</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationUtils void validateItems(java.util.List&lt;?&gt; items, int maxItems)" />
+  <problem_class id="ThrowCaughtLocally" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'throw' caught by containing 'try' statement</problem_class>
+  <description>&lt;code&gt;throw&lt;/code&gt; caught by containing 'try' statement #loc</description>
+  <highlighted_element>throw</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationUtils.java</file>
+  <line>77</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationUtils void validateAmount(double amount, double maxAmount)" />
+  <problem_class id="ThrowCaughtLocally" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'throw' caught by containing 'try' statement</problem_class>
+  <description>&lt;code&gt;throw&lt;/code&gt; caught by containing 'try' statement #loc</description>
+  <highlighted_element>throw</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationUtils.java</file>
+  <line>80</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationUtils void validateAmount(double amount, double maxAmount)" />
+  <problem_class id="ThrowCaughtLocally" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'throw' caught by containing 'try' statement</problem_class>
+  <description>&lt;code&gt;throw&lt;/code&gt; caught by containing 'try' statement #loc</description>
+  <highlighted_element>throw</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationUtils.java</file>
+  <line>97</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationUtils void validatePayment(payment.Payment payment)" />
+  <problem_class id="ThrowCaughtLocally" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'throw' caught by containing 'try' statement</problem_class>
+  <description>&lt;code&gt;throw&lt;/code&gt; caught by containing 'try' statement #loc</description>
+  <highlighted_element>throw</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>5</length>
+</problem>
+</problems>

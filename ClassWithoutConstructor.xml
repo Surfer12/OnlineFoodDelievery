@@ -1,0 +1,353 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/Application.java</file>
+  <line>13</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="class" FQNAME="app.Application" />
+  <problem_class id="ClassWithoutConstructor" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class without constructor</problem_class>
+  <description>Class &lt;code&gt;Application&lt;/code&gt; has no constructor #loc</description>
+  <highlighted_element>Application</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystem.java</file>
+  <line>9</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="class" FQNAME="app.DeliverySystem" />
+  <problem_class id="ClassWithoutConstructor" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class without constructor</problem_class>
+  <description>Class &lt;code&gt;DeliverySystem&lt;/code&gt; has no constructor #loc</description>
+  <highlighted_element>DeliverySystem</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DriverService.java</file>
+  <line>3</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="class" FQNAME="app.DriverService" />
+  <problem_class id="ClassWithoutConstructor" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class without constructor</problem_class>
+  <description>Class &lt;code&gt;DriverService&lt;/code&gt; has no constructor #loc</description>
+  <highlighted_element>DriverService</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/Main.java</file>
+  <line>2</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="class" FQNAME="app.Main" />
+  <problem_class id="ClassWithoutConstructor" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class without constructor</problem_class>
+  <description>Class &lt;code&gt;Main&lt;/code&gt; has no constructor #loc</description>
+  <highlighted_element>Main</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>13</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="class" FQNAME="app.util.MemoryMonitor" />
+  <problem_class id="ClassWithoutConstructor" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class without constructor</problem_class>
+  <description>Class &lt;code&gt;MemoryMonitor&lt;/code&gt; has no constructor #loc</description>
+  <highlighted_element>MemoryMonitor</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/builder/OrderBuilder.java</file>
+  <line>6</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>builder</package>
+  <entry_point TYPE="class" FQNAME="builder.OrderBuilder" />
+  <problem_class id="ClassWithoutConstructor" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class without constructor</problem_class>
+  <description>Class &lt;code&gt;OrderBuilder&lt;/code&gt; has no constructor #loc</description>
+  <highlighted_element>OrderBuilder</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/factory/MenuItemFactory.java</file>
+  <line>10</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>factory</package>
+  <entry_point TYPE="class" FQNAME="factory.MenuItemFactory" />
+  <problem_class id="ClassWithoutConstructor" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class without constructor</problem_class>
+  <description>Class &lt;code&gt;MenuItemFactory&lt;/code&gt; has no constructor #loc</description>
+  <highlighted_element>MenuItemFactory</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>7</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="class" FQNAME="notification.BasicNotificationService" />
+  <problem_class id="ClassWithoutConstructor" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class without constructor</problem_class>
+  <description>Class &lt;code&gt;BasicNotificationService&lt;/code&gt; has no constructor #loc</description>
+  <highlighted_element>BasicNotificationService</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>24</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderTrackingService.java</file>
+  <line>8</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="class" FQNAME="observer.OrderTrackingService" />
+  <problem_class id="ClassWithoutConstructor" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class without constructor</problem_class>
+  <description>Class &lt;code&gt;OrderTrackingService&lt;/code&gt; has no constructor #loc</description>
+  <highlighted_element>OrderTrackingService</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>62</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="class" FQNAME="rating.Rating.Builder" />
+  <problem_class id="ClassWithoutConstructor" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class without constructor</problem_class>
+  <description>Class &lt;code&gt;Builder&lt;/code&gt; has no constructor #loc</description>
+  <highlighted_element>Builder</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/DriverServiceImpl.java</file>
+  <line>10</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="class" FQNAME="services.DriverServiceImpl" />
+  <problem_class id="ClassWithoutConstructor" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class without constructor</problem_class>
+  <description>Class &lt;code&gt;DriverServiceImpl&lt;/code&gt; has no constructor #loc</description>
+  <highlighted_element>DriverServiceImpl</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderManagerImpl.java</file>
+  <line>8</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="class" FQNAME="services.OrderManagerImpl" />
+  <problem_class id="ClassWithoutConstructor" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class without constructor</problem_class>
+  <description>Class &lt;code&gt;OrderManagerImpl&lt;/code&gt; has no constructor #loc</description>
+  <highlighted_element>OrderManagerImpl</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="class" FQNAME="services.OrderServiceImpl" />
+  <problem_class id="ClassWithoutConstructor" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class without constructor</problem_class>
+  <description>Class &lt;code&gt;OrderServiceImpl&lt;/code&gt; has no constructor #loc</description>
+  <highlighted_element>OrderServiceImpl</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/DriverServiceImpl.java</file>
+  <line>15</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="class" FQNAME="services.impl.DriverServiceImpl" />
+  <problem_class id="ClassWithoutConstructor" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class without constructor</problem_class>
+  <description>Class &lt;code&gt;DriverServiceImpl&lt;/code&gt; has no constructor #loc</description>
+  <highlighted_element>DriverServiceImpl</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="class" FQNAME="services.impl.OrderServiceImpl" />
+  <problem_class id="ClassWithoutConstructor" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class without constructor</problem_class>
+  <description>Class &lt;code&gt;OrderServiceImpl&lt;/code&gt; has no constructor #loc</description>
+  <highlighted_element>OrderServiceImpl</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/orderRepository.java</file>
+  <line>7</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="class" FQNAME="services.impl.orderRepository" />
+  <problem_class id="ClassWithoutConstructor" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class without constructor</problem_class>
+  <description>Class &lt;code&gt;orderRepository&lt;/code&gt; has no constructor #loc</description>
+  <highlighted_element>orderRepository</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/AbstractInputValidator.java</file>
+  <line>6</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="class" FQNAME="validation.AbstractInputValidator" />
+  <problem_class id="ClassWithoutConstructor" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class without constructor</problem_class>
+  <description>Class &lt;code&gt;AbstractInputValidator&lt;/code&gt; has no constructor #loc</description>
+  <highlighted_element>AbstractInputValidator</highlighted_element>
+  <language>JAVA</language>
+  <offset>22</offset>
+  <length>22</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/AbstractMenuItemValidator.java</file>
+  <line>8</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="class" FQNAME="validation.AbstractMenuItemValidator" />
+  <problem_class id="ClassWithoutConstructor" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class without constructor</problem_class>
+  <description>Class &lt;code&gt;AbstractMenuItemValidator&lt;/code&gt; has no constructor #loc</description>
+  <highlighted_element>AbstractMenuItemValidator</highlighted_element>
+  <language>JAVA</language>
+  <offset>22</offset>
+  <length>25</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/AbstractOrderValidator.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="class" FQNAME="validation.AbstractOrderValidator" />
+  <problem_class id="ClassWithoutConstructor" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class without constructor</problem_class>
+  <description>Class &lt;code&gt;AbstractOrderValidator&lt;/code&gt; has no constructor #loc</description>
+  <highlighted_element>AbstractOrderValidator</highlighted_element>
+  <language>JAVA</language>
+  <offset>22</offset>
+  <length>22</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/AbstractValidator.java</file>
+  <line>6</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="class" FQNAME="validation.AbstractValidator" />
+  <problem_class id="ClassWithoutConstructor" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class without constructor</problem_class>
+  <description>Class &lt;code&gt;AbstractValidator&lt;/code&gt; has no constructor #loc</description>
+  <highlighted_element>AbstractValidator</highlighted_element>
+  <language>JAVA</language>
+  <offset>22</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/EmailValidator.java</file>
+  <line>5</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="class" FQNAME="validation.EmailValidator" />
+  <problem_class id="ClassWithoutConstructor" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class without constructor</problem_class>
+  <description>Class &lt;code&gt;EmailValidator&lt;/code&gt; has no constructor #loc</description>
+  <highlighted_element>EmailValidator</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>16</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="class" FQNAME="validation.InputValidationUtils" />
+  <problem_class id="ClassWithoutConstructor" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class without constructor</problem_class>
+  <description>Class &lt;code&gt;InputValidationUtils&lt;/code&gt; has no constructor #loc</description>
+  <highlighted_element>InputValidationUtils</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>16</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="class" FQNAME="validation.InputValidationUtils" />
+  <problem_class id="ClassWithoutConstructor" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class without constructor</problem_class>
+  <description>Class &lt;code&gt;InputValidationUtils&lt;/code&gt; has no constructor #loc</description>
+  <highlighted_element>InputValidationUtils</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/OrderValidator.java</file>
+  <line>9</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="class" FQNAME="validation.OrderValidator" />
+  <problem_class id="ClassWithoutConstructor" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class without constructor</problem_class>
+  <description>Class &lt;code&gt;OrderValidator&lt;/code&gt; has no constructor #loc</description>
+  <highlighted_element>OrderValidator</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/PositiveLongValidator.java</file>
+  <line>3</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="class" FQNAME="validation.PositiveLongValidator" />
+  <problem_class id="ClassWithoutConstructor" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class without constructor</problem_class>
+  <description>Class &lt;code&gt;PositiveLongValidator&lt;/code&gt; has no constructor #loc</description>
+  <highlighted_element>PositiveLongValidator</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>21</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationUtils.java</file>
+  <line>27</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="class" FQNAME="validation.ValidationUtils" />
+  <problem_class id="ClassWithoutConstructor" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class without constructor</problem_class>
+  <description>Class &lt;code&gt;ValidationUtils&lt;/code&gt; has no constructor #loc</description>
+  <highlighted_element>ValidationUtils</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>21</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="class" FQNAME="app.DeliverySystemCLITest" />
+  <problem_class id="ClassWithoutConstructor" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class without constructor</problem_class>
+  <description>Class &lt;code&gt;DeliverySystemCLITest&lt;/code&gt; has no constructor #loc</description>
+  <highlighted_element>DeliverySystemCLITest</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>21</length>
+</problem>
+</problems>

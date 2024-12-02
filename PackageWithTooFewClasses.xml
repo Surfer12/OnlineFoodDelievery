@@ -1,0 +1,65 @@
+<problems>
+<problem>
+  <package>factory</package>
+  <entry_point TYPE="package" FQNAME="factory" />
+  <problem_class id="PackageWithTooFewClasses" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Package with too few classes</problem_class>
+  <hints />
+  <description>Package 'factory' contains too few classes (1 &lt; 3)</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <package>app.util</package>
+  <entry_point TYPE="package" FQNAME="app.util" />
+  <problem_class id="PackageWithTooFewClasses" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Package with too few classes</problem_class>
+  <hints />
+  <description>Package 'app.util' contains too few classes (1 &lt; 3)</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <package>notification</package>
+  <entry_point TYPE="package" FQNAME="notification" />
+  <problem_class id="PackageWithTooFewClasses" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Package with too few classes</problem_class>
+  <hints />
+  <description>Package 'notification' contains too few classes (2 &lt; 3)</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <package>orderUtilities</package>
+  <entry_point TYPE="package" FQNAME="orderUtilities" />
+  <problem_class id="PackageWithTooFewClasses" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Package with too few classes</problem_class>
+  <hints />
+  <description>Package 'orderUtilities' contains too few classes (0 &lt; 3)</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <package>builder</package>
+  <entry_point TYPE="package" FQNAME="builder" />
+  <problem_class id="PackageWithTooFewClasses" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Package with too few classes</problem_class>
+  <hints />
+  <description>Package 'builder' contains too few classes (1 &lt; 3)</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <package>payment</package>
+  <entry_point TYPE="package" FQNAME="payment" />
+  <problem_class id="PackageWithTooFewClasses" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Package with too few classes</problem_class>
+  <hints />
+  <description>Package 'payment' contains too few classes (1 &lt; 3)</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <package>queue</package>
+  <entry_point TYPE="package" FQNAME="queue" />
+  <problem_class id="PackageWithTooFewClasses" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Package with too few classes</problem_class>
+  <hints />
+  <description>Package 'queue' contains too few classes (2 &lt; 3)</description>
+  <highlighted_element />
+  <language />
+</problem>
+</problems>

@@ -1,0 +1,990 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/Application.java</file>
+  <line>24</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.Application void main(java.lang.String[] args)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>107</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/Application.java</file>
+  <line>49</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.Application void main(java.lang.String[] args)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>49</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/Application.java</file>
+  <line>52</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.Application void main(java.lang.String[] args)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>80</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystem.java</file>
+  <line>13</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystem void submitOrder(model.Order order)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>45</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystem.java</file>
+  <line>18</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystem void assignOrderToDriver(model.Order order, model.Driver driver)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>34</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystem.java</file>
+  <line>18</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystem void assignOrderToDriver(model.Order order, model.Driver driver)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>55</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystem.java</file>
+  <line>18</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystem void assignOrderToDriver(model.Order order, model.Driver driver)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>80</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystem.java</file>
+  <line>23</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystem void completeDelivery(java.lang.Long orderId, java.lang.Long driverId)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>57</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystem.java</file>
+  <line>23</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystem void completeDelivery(java.lang.Long orderId, java.lang.Long driverId)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>67</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystem.java</file>
+  <line>23</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystem void completeDelivery(java.lang.Long orderId, java.lang.Long driverId)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>83</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/factory/MenuItemFactory.java</file>
+  <line>19</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>factory</package>
+  <entry_point TYPE="method" FQNAME="factory.MenuItemFactory model.MenuItem createMenuItem(java.lang.String type, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>82</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>34</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void listAvailableDrivers()" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>48</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>34</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void listAvailableDrivers()" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>56</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>63</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrder(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Long&gt; orderIdHandler)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>34</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>63</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrder(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Long&gt; orderIdHandler)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>61</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>63</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrder(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Long&gt; orderIdHandler)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>85</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>84</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void rateDriver(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; menuChoiceHandler)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>34</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>84</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void rateDriver(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; menuChoiceHandler)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>53</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>84</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void rateDriver(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; menuChoiceHandler)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>66</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>84</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void rateDriver(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; menuChoiceHandler)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>75</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>44</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>71</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>44</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>71</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>45</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>53</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>45</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>53</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>49</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>48</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>49</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>48</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>63</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void checkOrderStatus(java.util.Scanner scanner)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>52</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>63</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void checkOrderStatus(java.util.Scanner scanner)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>52</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>68</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void checkOrderStatus(java.util.Scanner scanner)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>63</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>68</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void checkOrderStatus(java.util.Scanner scanner)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>63</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>69</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void checkOrderStatus(java.util.Scanner scanner)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>56</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>69</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void checkOrderStatus(java.util.Scanner scanner)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>56</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>101</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>48</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>101</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>48</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>15</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService void sendNotification(java.lang.String message)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>42</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>58</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService java.lang.String formatEstimatedDeliveryTime(model.Order order)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>42</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/OrderQueue.java</file>
+  <line>32</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="method" FQNAME="queue.OrderQueue void enqueue(model.Order order)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>49</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>57</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating void validate()" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>71</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsHandler.java</file>
+  <line>23</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsHandler RatingsHandler(int maxRatings)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>68</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsHandler.java</file>
+  <line>36</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsHandler void addRating(T rating)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>82</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsHandler.java</file>
+  <line>41</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsHandler void addRating(T rating)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>51</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>36</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>40</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>37</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>40</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>62</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler T getInput(java.lang.String prompt)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>41</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>92</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>73</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>92</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>109</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>95</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>55</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>28</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateTextInput(java.lang.String input, java.lang.String fieldName)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>52</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>28</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateTextInput(java.lang.String input, java.lang.String fieldName)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>52</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>31</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateTextInput(java.lang.String input, java.lang.String fieldName)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>59</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>31</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateTextInput(java.lang.String input, java.lang.String fieldName)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>59</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>47</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateNumericInput(java.lang.String input, java.lang.String fieldName)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>49</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>47</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateNumericInput(java.lang.String input, java.lang.String fieldName)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>49</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>49</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateNumericInput(java.lang.String input, java.lang.String fieldName)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>62</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>49</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateNumericInput(java.lang.String input, java.lang.String fieldName)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>62</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>64</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validatePositiveNumber(double number, java.lang.String fieldName)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>52</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>64</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validatePositiveNumber(double number, java.lang.String fieldName)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>52</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>67</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validatePositiveNumber(double number, java.lang.String fieldName)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>64</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>67</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validatePositiveNumber(double number, java.lang.String fieldName)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>64</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>85</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateEmailFormat(java.lang.String email)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>61</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>85</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateEmailFormat(java.lang.String email)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>61</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>103</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validatePhoneNumber(java.lang.String phoneNumber)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>61</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>103</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validatePhoneNumber(java.lang.String phoneNumber)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>61</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/OrderValidator.java</file>
+  <line>29</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.OrderValidator void validateOrder(model.Order order)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>67</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>36</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler T getInput(java.lang.String prompt)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>65</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>36</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler T getInput(java.lang.String prompt)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>81</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>38</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler T getInput(java.lang.String prompt)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>59</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>56</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>78</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>56</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>94</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>59</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>59</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationUtils.java</file>
+  <line>41</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationUtils void validateCustomerId(java.lang.Long customerId)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>60</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationUtils.java</file>
+  <line>59</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationUtils void validateItems(java.util.List&lt;?&gt; items, int maxItems)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>75</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationUtils.java</file>
+  <line>62</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationUtils void validateItems(java.util.List&lt;?&gt; items, int maxItems)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>55</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationUtils.java</file>
+  <line>80</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationUtils void validateAmount(double amount, double maxAmount)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>77</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationUtils.java</file>
+  <line>83</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationUtils void validateAmount(double amount, double maxAmount)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>56</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationUtils.java</file>
+  <line>100</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationUtils void validatePayment(payment.Payment payment)" />
+  <problem_class id="StringConcatenation" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String concatenation</problem_class>
+  <description>String concatenation &lt;code&gt;+&lt;/code&gt; in an internationalized context #loc</description>
+  <highlighted_element>+</highlighted_element>
+  <language>JAVA</language>
+  <offset>57</offset>
+  <length>1</length>
+</problem>
+</problems>

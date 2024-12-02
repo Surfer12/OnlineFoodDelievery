@@ -1,0 +1,15 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidatorImpl.java</file>
+  <line>25</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidatorImpl$2 boolean validate(java.lang.String input)" />
+  <problem_class id="DynamicRegexReplaceableByCompiledPattern" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Dynamic regular expression can be replaced by compiled 'Pattern'</problem_class>
+  <description>&lt;code&gt;matches()&lt;/code&gt; can be replaced with compiled 'java.util.regex.Pattern' construct #loc</description>
+  <highlighted_element>matches</highlighted_element>
+  <language>JAVA</language>
+  <offset>33</offset>
+  <length>7</length>
+</problem>
+</problems>

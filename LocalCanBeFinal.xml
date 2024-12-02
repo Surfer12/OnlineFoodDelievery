@@ -1,0 +1,2706 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/CustomException/OrderProcessingException.java</file>
+  <line>7</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>CustomException</package>
+  <entry_point TYPE="method" FQNAME="CustomException.OrderProcessingException OrderProcessingException(java.lang.String message)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;message&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>message</highlighted_element>
+  <language>JAVA</language>
+  <offset>43</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/CustomException/PaymentException.java</file>
+  <line>7</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>CustomException</package>
+  <entry_point TYPE="method" FQNAME="CustomException.PaymentException PaymentException(java.lang.String message)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;message&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>message</highlighted_element>
+  <language>JAVA</language>
+  <offset>34</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/CustomException/QueueFullException.java</file>
+  <line>7</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>CustomException</package>
+  <entry_point TYPE="method" FQNAME="CustomException.QueueFullException QueueFullException(java.lang.String message)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;message&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>message</highlighted_element>
+  <language>JAVA</language>
+  <offset>36</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/CustomException/ValidationException.java</file>
+  <line>7</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>CustomException</package>
+  <entry_point TYPE="method" FQNAME="CustomException.ValidationException ValidationException(java.lang.String message)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;message&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>message</highlighted_element>
+  <language>JAVA</language>
+  <offset>37</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/Main.java</file>
+  <line>3</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.Main void main(java.lang.String[] args)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;args&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>args</highlighted_element>
+  <language>JAVA</language>
+  <offset>37</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/Main.java</file>
+  <line>5</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.Main void main(java.lang.String[] args)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;cli&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>cli</highlighted_element>
+  <language>JAVA</language>
+  <offset>26</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/factory/MenuItemFactory.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>factory</package>
+  <entry_point TYPE="method" FQNAME="factory.MenuItemFactory model.MenuItem createMenuItem(java.lang.String type, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;type&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>type</highlighted_element>
+  <language>JAVA</language>
+  <offset>48</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/factory/MenuItemFactory.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>factory</package>
+  <entry_point TYPE="method" FQNAME="factory.MenuItemFactory model.MenuItem createMenuItem(java.lang.String type, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;name&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>name</highlighted_element>
+  <language>JAVA</language>
+  <offset>61</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/factory/MenuItemFactory.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>factory</package>
+  <entry_point TYPE="method" FQNAME="factory.MenuItemFactory model.MenuItem createMenuItem(java.lang.String type, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;description&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>description</highlighted_element>
+  <language>JAVA</language>
+  <offset>74</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/factory/MenuItemFactory.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>factory</package>
+  <entry_point TYPE="method" FQNAME="factory.MenuItemFactory model.MenuItem createMenuItem(java.lang.String type, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;price&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>price</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/factory/MenuItemFactory.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>factory</package>
+  <entry_point TYPE="method" FQNAME="factory.MenuItemFactory model.MenuItem createMenuItem(java.lang.String type, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;size&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>size</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/factory/MenuItemFactory.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>factory</package>
+  <entry_point TYPE="method" FQNAME="factory.MenuItemFactory model.MenuItem createMenuItem(java.lang.String type, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;quantity&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>quantity</highlighted_element>
+  <language>JAVA</language>
+  <offset>38</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>31</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void listAvailableDrivers()" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;availableDrivers&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>availableDrivers</highlighted_element>
+  <language>JAVA</language>
+  <offset>21</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>33</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void listAvailableDrivers()" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;driver&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>driver</highlighted_element>
+  <language>JAVA</language>
+  <offset>20</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>38</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrder(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Long&gt; orderIdHandler)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;scanner&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>scanner</highlighted_element>
+  <language>JAVA</language>
+  <offset>44</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>38</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrder(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Long&gt; orderIdHandler)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;order&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>order</highlighted_element>
+  <language>JAVA</language>
+  <offset>59</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>38</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrder(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Long&gt; orderIdHandler)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;orderIdHandler&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>orderIdHandler</highlighted_element>
+  <language>JAVA</language>
+  <offset>92</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>39</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrder(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Long&gt; orderIdHandler)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;availableDrivers&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>availableDrivers</highlighted_element>
+  <language>JAVA</language>
+  <offset>21</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>47</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrder(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Long&gt; orderIdHandler)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;driver&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>driver</highlighted_element>
+  <language>JAVA</language>
+  <offset>19</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>51</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrder(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Long&gt; orderIdHandler)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;driverChoice&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>driverChoice</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>58</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrder(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Long&gt; orderIdHandler)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;selectedDriver&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>selectedDriver</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>69</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void rateDriver(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; menuChoiceHandler)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;scanner&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>scanner</highlighted_element>
+  <language>JAVA</language>
+  <offset>35</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>69</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void rateDriver(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; menuChoiceHandler)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;order&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>order</highlighted_element>
+  <language>JAVA</language>
+  <offset>50</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>69</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void rateDriver(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; menuChoiceHandler)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;menuChoiceHandler&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>menuChoiceHandler</highlighted_element>
+  <language>JAVA</language>
+  <offset>86</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>70</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void rateDriver(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; menuChoiceHandler)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;driver&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>driver</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>76</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void rateDriver(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; menuChoiceHandler)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;rating&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>rating</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>92</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void manageDriverMenu(java.util.Scanner scanner, managers.OrderManager orderManager)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;scanner&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>scanner</highlighted_element>
+  <language>JAVA</language>
+  <offset>41</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>92</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void manageDriverMenu(java.util.Scanner scanner, managers.OrderManager orderManager)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;orderManager&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>orderManager</highlighted_element>
+  <language>JAVA</language>
+  <offset>63</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>99</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void manageDriverMenu(java.util.Scanner scanner, managers.OrderManager orderManager)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;choice&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>choice</highlighted_element>
+  <language>JAVA</language>
+  <offset>20</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>117</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrderInteractive(java.util.Scanner scanner, managers.OrderManager orderManager)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;scanner&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>scanner</highlighted_element>
+  <language>JAVA</language>
+  <offset>56</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>117</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrderInteractive(java.util.Scanner scanner, managers.OrderManager orderManager)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;orderManager&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>orderManager</highlighted_element>
+  <language>JAVA</language>
+  <offset>78</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>118</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrderInteractive(java.util.Scanner scanner, managers.OrderManager orderManager)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;orderId&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>orderId</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>125</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrderInteractive(java.util.Scanner scanner, managers.OrderManager orderManager)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;order&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>order</highlighted_element>
+  <language>JAVA</language>
+  <offset>14</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>20</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager MenuManager()" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;menuSize&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>menuSize</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>29</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager void displayMenu()" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;menu&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>menu</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>32</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager void displayMenu()" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;item&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>item</highlighted_element>
+  <language>JAVA</language>
+  <offset>21</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>37</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager java.util.List&lt;model.MenuItem&gt; selectMenuItems(java.util.Scanner scanner, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;scanner&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>scanner</highlighted_element>
+  <language>JAVA</language>
+  <offset>50</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>37</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager java.util.List&lt;model.MenuItem&gt; selectMenuItems(java.util.Scanner scanner, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;positiveIntegerHandler&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>positiveIntegerHandler</highlighted_element>
+  <language>JAVA</language>
+  <offset>88</offset>
+  <length>22</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>41</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager java.util.List&lt;model.MenuItem&gt; selectMenuItems(java.util.Scanner scanner, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;orderItems&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>orderItems</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>46</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager java.util.List&lt;model.MenuItem&gt; selectMenuItems(java.util.Scanner scanner, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;itemChoice&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>itemChoice</highlighted_element>
+  <language>JAVA</language>
+  <offset>20</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>56</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager java.util.List&lt;model.MenuItem&gt; selectMenuItems(java.util.Scanner scanner, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;selectedItem&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>selectedItem</highlighted_element>
+  <language>JAVA</language>
+  <offset>21</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>58</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager java.util.List&lt;model.MenuItem&gt; selectMenuItems(java.util.Scanner scanner, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;quantity&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>quantity</highlighted_element>
+  <language>JAVA</language>
+  <offset>20</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>34</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;orderItems&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>orderItems</highlighted_element>
+  <language>JAVA</language>
+  <offset>44</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>34</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;orderItems&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>orderItems</highlighted_element>
+  <language>JAVA</language>
+  <offset>44</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>41</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;newOrder&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>newOrder</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>41</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;newOrder&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>newOrder</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>47</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;e&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>e</highlighted_element>
+  <language>JAVA</language>
+  <offset>52</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>47</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;e&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>e</highlighted_element>
+  <language>JAVA</language>
+  <offset>52</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>54</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void checkOrderStatus(java.util.Scanner scanner)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;scanner&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>scanner</highlighted_element>
+  <language>JAVA</language>
+  <offset>41</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>54</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void checkOrderStatus(java.util.Scanner scanner)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;scanner&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>scanner</highlighted_element>
+  <language>JAVA</language>
+  <offset>41</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>56</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void checkOrderStatus(java.util.Scanner scanner)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;orderId&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>orderId</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>56</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void checkOrderStatus(java.util.Scanner scanner)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;orderId&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>orderId</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>61</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void checkOrderStatus(java.util.Scanner scanner)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;order&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>order</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>61</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void checkOrderStatus(java.util.Scanner scanner)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;order&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>order</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>67</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void checkOrderStatus(java.util.Scanner scanner)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;e&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>e</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>67</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void checkOrderStatus(java.util.Scanner scanner)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;e&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>e</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>81</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;scanner&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>scanner</highlighted_element>
+  <language>JAVA</language>
+  <offset>46</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>81</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;scanner&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>scanner</highlighted_element>
+  <language>JAVA</language>
+  <offset>46</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>81</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;menuManager&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>menuManager</highlighted_element>
+  <language>JAVA</language>
+  <offset>67</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>81</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;menuManager&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>menuManager</highlighted_element>
+  <language>JAVA</language>
+  <offset>67</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>82</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;positiveIntegerHandler&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>positiveIntegerHandler</highlighted_element>
+  <language>JAVA</language>
+  <offset>41</offset>
+  <length>22</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>82</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;positiveIntegerHandler&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>positiveIntegerHandler</highlighted_element>
+  <language>JAVA</language>
+  <offset>41</offset>
+  <length>22</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>84</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;orderItems&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>orderItems</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>84</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;orderItems&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>orderItems</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>87</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;newOrder&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>newOrder</highlighted_element>
+  <language>JAVA</language>
+  <offset>22</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>87</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;newOrder&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>newOrder</highlighted_element>
+  <language>JAVA</language>
+  <offset>22</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>92</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;response&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>response</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>92</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;response&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>response</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>100</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;e&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>e</highlighted_element>
+  <language>JAVA</language>
+  <offset>52</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>100</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;e&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>e</highlighted_element>
+  <language>JAVA</language>
+  <offset>52</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>106</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void assignDriverToNewOrder(java.util.Scanner scanner, model.Order order)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;scanner&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>scanner</highlighted_element>
+  <language>JAVA</language>
+  <offset>48</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>106</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void assignDriverToNewOrder(java.util.Scanner scanner, model.Order order)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;scanner&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>scanner</highlighted_element>
+  <language>JAVA</language>
+  <offset>48</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>106</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void assignDriverToNewOrder(java.util.Scanner scanner, model.Order order)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;order&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>order</highlighted_element>
+  <language>JAVA</language>
+  <offset>63</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>106</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void assignDriverToNewOrder(java.util.Scanner scanner, model.Order order)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;order&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>order</highlighted_element>
+  <language>JAVA</language>
+  <offset>63</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>108</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void assignDriverToNewOrder(java.util.Scanner scanner, model.Order order)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;driverManager&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>driverManager</highlighted_element>
+  <language>JAVA</language>
+  <offset>22</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>108</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void assignDriverToNewOrder(java.util.Scanner scanner, model.Order order)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;driverManager&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>driverManager</highlighted_element>
+  <language>JAVA</language>
+  <offset>22</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>49</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver void setVehicle(java.lang.String vehicle)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;vehicle&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>vehicle</highlighted_element>
+  <language>JAVA</language>
+  <offset>33</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>57</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver void setAvailable(boolean available)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;available&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>available</highlighted_element>
+  <language>JAVA</language>
+  <offset>36</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>61</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver void addRating(java.lang.Integer rating)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;rating&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>rating</highlighted_element>
+  <language>JAVA</language>
+  <offset>33</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>73</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver void addRating(rating.Rating rating)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;rating&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>rating</highlighted_element>
+  <language>JAVA</language>
+  <offset>32</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>73</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order void setStatus(model.OrderStatus status)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;status&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>status</highlighted_element>
+  <language>JAVA</language>
+  <offset>37</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>81</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order void setEstimatedDeliveryTime(java.time.LocalDateTime estimatedDeliveryTime)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;estimatedDeliveryTime&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>estimatedDeliveryTime</highlighted_element>
+  <language>JAVA</language>
+  <offset>54</offset>
+  <length>21</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>93</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order void setDriver(model.Driver driver)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;driver&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>driver</highlighted_element>
+  <language>JAVA</language>
+  <offset>32</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderEvent.java</file>
+  <line>19</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="method" FQNAME="observer.OrderEvent OrderEvent(java.lang.String status)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;status&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>status</highlighted_element>
+  <language>JAVA</language>
+  <offset>22</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderTrackingService.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="method" FQNAME="observer.OrderTrackingService void attach(observer.OrderObserver observer)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;observer&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>observer</highlighted_element>
+  <language>JAVA</language>
+  <offset>36</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderTrackingService.java</file>
+  <line>17</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="method" FQNAME="observer.OrderTrackingService void detach(observer.OrderObserver observer)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;observer&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>observer</highlighted_element>
+  <language>JAVA</language>
+  <offset>36</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderTrackingService.java</file>
+  <line>22</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="method" FQNAME="observer.OrderTrackingService void notifyObservers(model.Order order)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;order&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>order</highlighted_element>
+  <language>JAVA</language>
+  <offset>37</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderTrackingService.java</file>
+  <line>23</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="method" FQNAME="observer.OrderTrackingService void notifyObservers(model.Order order)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;observer&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>observer</highlighted_element>
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/payment/Payment.java</file>
+  <line>14</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>payment</package>
+  <entry_point TYPE="method" FQNAME="payment.Payment Payment(java.lang.Long orderId, java.lang.String paymentMethod, double amount)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;orderId&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>orderId</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/payment/Payment.java</file>
+  <line>14</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>payment</package>
+  <entry_point TYPE="method" FQNAME="payment.Payment Payment(java.lang.Long orderId, java.lang.String paymentMethod, double amount)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;paymentMethod&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>paymentMethod</highlighted_element>
+  <language>JAVA</language>
+  <offset>39</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/payment/Payment.java</file>
+  <line>14</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>payment</package>
+  <entry_point TYPE="method" FQNAME="payment.Payment Payment(java.lang.Long orderId, java.lang.String paymentMethod, double amount)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;amount&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>amount</highlighted_element>
+  <language>JAVA</language>
+  <offset>61</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/OrderQueue.java</file>
+  <line>16</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="method" FQNAME="queue.OrderQueue OrderQueue(int maxSize)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;maxSize&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>maxSize</highlighted_element>
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/OrderQueue.java</file>
+  <line>23</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="method" FQNAME="queue.OrderQueue void enqueue(model.Order order)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;order&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>order</highlighted_element>
+  <language>JAVA</language>
+  <offset>42</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/OrderQueue.java</file>
+  <line>31</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="method" FQNAME="queue.OrderQueue void enqueue(model.Order order)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;e&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>e</highlighted_element>
+  <language>JAVA</language>
+  <offset>50</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/OrderQueue.java</file>
+  <line>66</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="method" FQNAME="queue.OrderQueue int getPositionInQueue(model.Order order)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;order&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>order</highlighted_element>
+  <language>JAVA</language>
+  <offset>52</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/OrderQueue.java</file>
+  <line>68</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="method" FQNAME="queue.OrderQueue int getPositionInQueue(model.Order order)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;o&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>o</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>18</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating Rating(rating.Rating.Builder builder)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;builder&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>builder</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>29</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating Rating(java.lang.Long customerId, java.lang.Long driverId, int score, java.lang.String comment)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;customerId&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>customerId</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>29</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating Rating(java.lang.Long customerId, java.lang.Long driverId, int score, java.lang.String comment)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;driverId&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>driverId</highlighted_element>
+  <language>JAVA</language>
+  <offset>40</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>29</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating Rating(java.lang.Long customerId, java.lang.Long driverId, int score, java.lang.String comment)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;score&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>score</highlighted_element>
+  <language>JAVA</language>
+  <offset>54</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>29</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating Rating(java.lang.Long customerId, java.lang.Long driverId, int score, java.lang.String comment)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;comment&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>comment</highlighted_element>
+  <language>JAVA</language>
+  <offset>68</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>41</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating void validate()" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;errors&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>errors</highlighted_element>
+  <language>JAVA</language>
+  <offset>21</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>69</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating.Builder rating.Rating.Builder customerId(java.lang.Long customerId)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;customerId&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>customerId</highlighted_element>
+  <language>JAVA</language>
+  <offset>39</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>74</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating.Builder rating.Rating.Builder driverId(java.lang.Long driverId)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;driverId&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>driverId</highlighted_element>
+  <language>JAVA</language>
+  <offset>37</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>79</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating.Builder rating.Rating.Builder score(int score)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;score&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>score</highlighted_element>
+  <language>JAVA</language>
+  <offset>33</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>84</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating.Builder rating.Rating.Builder comment(java.lang.String comment)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;comment&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>comment</highlighted_element>
+  <language>JAVA</language>
+  <offset>38</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsHandler.java</file>
+  <line>15</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsHandler RatingsHandler(int maxRatings)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;maxRatings&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>maxRatings</highlighted_element>
+  <language>JAVA</language>
+  <offset>29</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsHandler.java</file>
+  <line>22</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsHandler RatingsHandler(int maxRatings)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;e&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>e</highlighted_element>
+  <language>JAVA</language>
+  <offset>40</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsHandler.java</file>
+  <line>29</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsHandler void addRating(T rating)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;rating&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>rating</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsHandler.java</file>
+  <line>40</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsHandler void addRating(T rating)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;e&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>e</highlighted_element>
+  <language>JAVA</language>
+  <offset>61</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/DriverServiceImpl.java</file>
+  <line>21</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.DriverServiceImpl model.Driver getDriverForOrder(model.Order order)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;order&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>order</highlighted_element>
+  <language>JAVA</language>
+  <offset>42</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/DriverServiceImpl.java</file>
+  <line>29</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.DriverServiceImpl void assignDriverToOrder(model.Driver driver, model.Order order)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;driver&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>driver</highlighted_element>
+  <language>JAVA</language>
+  <offset>43</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/DriverServiceImpl.java</file>
+  <line>29</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.DriverServiceImpl void assignDriverToOrder(model.Driver driver, model.Order order)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;order&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>order</highlighted_element>
+  <language>JAVA</language>
+  <offset>57</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/DriverServiceImpl.java</file>
+  <line>39</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.DriverServiceImpl void rateDriver(model.Driver driver, java.lang.Integer rating)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;driver&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>driver</highlighted_element>
+  <language>JAVA</language>
+  <offset>34</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/DriverServiceImpl.java</file>
+  <line>39</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.DriverServiceImpl void rateDriver(model.Driver driver, java.lang.Integer rating)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;rating&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>rating</highlighted_element>
+  <language>JAVA</language>
+  <offset>50</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/MenuServiceImpl.java</file>
+  <line>19</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.MenuServiceImpl void displayMenu()" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;item&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>item</highlighted_element>
+  <language>JAVA</language>
+  <offset>21</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/MenuServiceImpl.java</file>
+  <line>33</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.MenuServiceImpl model.MenuItem getMenuItemByIndex(int index)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;index&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>index</highlighted_element>
+  <language>JAVA</language>
+  <offset>43</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>15</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl model.Order getOrderById(java.lang.Long orderId)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;orderId&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>orderId</highlighted_element>
+  <language>JAVA</language>
+  <offset>35</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>23</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl model.Order createOrder(java.util.List&lt;model.MenuItem&gt; items)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;items&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>items</highlighted_element>
+  <language>JAVA</language>
+  <offset>44</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>28</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl model.Order createOrder(java.util.List&lt;model.MenuItem&gt; items)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;newOrder&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>newOrder</highlighted_element>
+  <language>JAVA</language>
+  <offset>14</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>34</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;order&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>order</highlighted_element>
+  <language>JAVA</language>
+  <offset>42</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>39</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;itemCounts&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>itemCounts</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>42</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;item&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>item</highlighted_element>
+  <language>JAVA</language>
+  <offset>22</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>56</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl java.lang.String getOrderStatus(java.lang.Long orderId)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;orderId&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>orderId</highlighted_element>
+  <language>JAVA</language>
+  <offset>38</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>57</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl java.lang.String getOrderStatus(java.lang.Long orderId)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;order&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>order</highlighted_element>
+  <language>JAVA</language>
+  <offset>14</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/DriverServiceImpl.java</file>
+  <line>25</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.DriverServiceImpl model.Driver getDriverForOrder(model.Order order)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;order&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>order</highlighted_element>
+  <language>JAVA</language>
+  <offset>42</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/DriverServiceImpl.java</file>
+  <line>31</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.DriverServiceImpl void assignDriverToOrder(model.Driver driver, model.Order order)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;driver&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>driver</highlighted_element>
+  <language>JAVA</language>
+  <offset>43</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/DriverServiceImpl.java</file>
+  <line>31</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.DriverServiceImpl void assignDriverToOrder(model.Driver driver, model.Order order)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;order&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>order</highlighted_element>
+  <language>JAVA</language>
+  <offset>57</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/DriverServiceImpl.java</file>
+  <line>36</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.DriverServiceImpl void rateDriver(model.Driver driver, java.lang.Integer rating)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;driver&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>driver</highlighted_element>
+  <language>JAVA</language>
+  <offset>34</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/DriverServiceImpl.java</file>
+  <line>36</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.DriverServiceImpl void rateDriver(model.Driver driver, java.lang.Integer rating)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;rating&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>rating</highlighted_element>
+  <language>JAVA</language>
+  <offset>50</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/MenuServiceImpl.java</file>
+  <line>32</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.MenuServiceImpl void displayMenu()" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;item&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>item</highlighted_element>
+  <language>JAVA</language>
+  <offset>21</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/MenuServiceImpl.java</file>
+  <line>46</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.MenuServiceImpl model.MenuItem getMenuItemByIndex(int index)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;index&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>index</highlighted_element>
+  <language>JAVA</language>
+  <offset>43</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>16</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl model.Order getOrderById(java.lang.Long orderId)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;orderId&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>orderId</highlighted_element>
+  <language>JAVA</language>
+  <offset>35</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>24</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl model.Order createOrder(java.util.List&lt;model.MenuItem&gt; items)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;items&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>items</highlighted_element>
+  <language>JAVA</language>
+  <offset>44</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>29</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl model.Order createOrder(java.util.List&lt;model.MenuItem&gt; items)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;newOrder&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>newOrder</highlighted_element>
+  <language>JAVA</language>
+  <offset>14</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>35</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;order&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>order</highlighted_element>
+  <language>JAVA</language>
+  <offset>42</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>40</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;itemCounts&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>itemCounts</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>43</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;item&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>item</highlighted_element>
+  <language>JAVA</language>
+  <offset>22</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>55</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl java.lang.String getOrderStatus(java.lang.Long orderId)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;orderId&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>orderId</highlighted_element>
+  <language>JAVA</language>
+  <offset>38</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>56</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl java.lang.String getOrderStatus(java.lang.Long orderId)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;order&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>order</highlighted_element>
+  <language>JAVA</language>
+  <offset>14</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>110</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler T handleInput(java.util.Scanner scanner, java.lang.String prompt)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;scanner&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>scanner</highlighted_element>
+  <language>JAVA</language>
+  <offset>32</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>110</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler T handleInput(java.util.Scanner scanner, java.lang.String prompt)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;prompt&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>prompt</highlighted_element>
+  <language>JAVA</language>
+  <offset>48</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>114</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler T handleInput(java.util.Scanner scanner, java.lang.String prompt, java.util.function.Predicate&lt;T&gt; condition)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;scanner&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>scanner</highlighted_element>
+  <language>JAVA</language>
+  <offset>32</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>114</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler T handleInput(java.util.Scanner scanner, java.lang.String prompt, java.util.function.Predicate&lt;T&gt; condition)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;prompt&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>prompt</highlighted_element>
+  <language>JAVA</language>
+  <offset>48</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>114</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler T handleInput(java.util.Scanner scanner, java.lang.String prompt, java.util.function.Predicate&lt;T&gt; condition)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;condition&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>condition</highlighted_element>
+  <language>JAVA</language>
+  <offset>69</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>116</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler T handleInput(java.util.Scanner scanner, java.lang.String prompt, java.util.function.Predicate&lt;T&gt; condition)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;input&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>input</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>25</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateTextInput(java.lang.String input, java.lang.String fieldName)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;input&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>input</highlighted_element>
+  <language>JAVA</language>
+  <offset>47</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>25</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateTextInput(java.lang.String input, java.lang.String fieldName)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;input&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>input</highlighted_element>
+  <language>JAVA</language>
+  <offset>47</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>25</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateTextInput(java.lang.String input, java.lang.String fieldName)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;fieldName&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>fieldName</highlighted_element>
+  <language>JAVA</language>
+  <offset>61</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>25</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateTextInput(java.lang.String input, java.lang.String fieldName)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;fieldName&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>fieldName</highlighted_element>
+  <language>JAVA</language>
+  <offset>61</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>30</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateTextInput(java.lang.String input, java.lang.String fieldName)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;e&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>e</highlighted_element>
+  <language>JAVA</language>
+  <offset>35</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>30</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateTextInput(java.lang.String input, java.lang.String fieldName)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;e&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>e</highlighted_element>
+  <language>JAVA</language>
+  <offset>35</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>43</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateNumericInput(java.lang.String input, java.lang.String fieldName)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;input&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>input</highlighted_element>
+  <language>JAVA</language>
+  <offset>50</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>43</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateNumericInput(java.lang.String input, java.lang.String fieldName)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;input&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>input</highlighted_element>
+  <language>JAVA</language>
+  <offset>50</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>43</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateNumericInput(java.lang.String input, java.lang.String fieldName)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;fieldName&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>fieldName</highlighted_element>
+  <language>JAVA</language>
+  <offset>64</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>43</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateNumericInput(java.lang.String input, java.lang.String fieldName)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;fieldName&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>fieldName</highlighted_element>
+  <language>JAVA</language>
+  <offset>64</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>46</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateNumericInput(java.lang.String input, java.lang.String fieldName)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;e&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>e</highlighted_element>
+  <language>JAVA</language>
+  <offset>37</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>46</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateNumericInput(java.lang.String input, java.lang.String fieldName)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;e&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>e</highlighted_element>
+  <language>JAVA</language>
+  <offset>37</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>48</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateNumericInput(java.lang.String input, java.lang.String fieldName)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;e&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>e</highlighted_element>
+  <language>JAVA</language>
+  <offset>35</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>48</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateNumericInput(java.lang.String input, java.lang.String fieldName)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;e&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>e</highlighted_element>
+  <language>JAVA</language>
+  <offset>35</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>61</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validatePositiveNumber(double number, java.lang.String fieldName)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;number&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>number</highlighted_element>
+  <language>JAVA</language>
+  <offset>52</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>61</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validatePositiveNumber(double number, java.lang.String fieldName)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;number&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>number</highlighted_element>
+  <language>JAVA</language>
+  <offset>52</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>61</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validatePositiveNumber(double number, java.lang.String fieldName)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;fieldName&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>fieldName</highlighted_element>
+  <language>JAVA</language>
+  <offset>67</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>61</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validatePositiveNumber(double number, java.lang.String fieldName)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;fieldName&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>fieldName</highlighted_element>
+  <language>JAVA</language>
+  <offset>67</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>66</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validatePositiveNumber(double number, java.lang.String fieldName)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;e&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>e</highlighted_element>
+  <language>JAVA</language>
+  <offset>35</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>66</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validatePositiveNumber(double number, java.lang.String fieldName)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;e&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>e</highlighted_element>
+  <language>JAVA</language>
+  <offset>35</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>78</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateEmailFormat(java.lang.String email)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;email&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>email</highlighted_element>
+  <language>JAVA</language>
+  <offset>49</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>78</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateEmailFormat(java.lang.String email)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;email&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>email</highlighted_element>
+  <language>JAVA</language>
+  <offset>49</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>80</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateEmailFormat(java.lang.String email)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;emailRegex&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>emailRegex</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>80</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateEmailFormat(java.lang.String email)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;emailRegex&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>emailRegex</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>84</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateEmailFormat(java.lang.String email)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;e&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>e</highlighted_element>
+  <language>JAVA</language>
+  <offset>35</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>84</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateEmailFormat(java.lang.String email)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;e&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>e</highlighted_element>
+  <language>JAVA</language>
+  <offset>35</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>96</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validatePhoneNumber(java.lang.String phoneNumber)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;phoneNumber&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>phoneNumber</highlighted_element>
+  <language>JAVA</language>
+  <offset>49</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>96</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validatePhoneNumber(java.lang.String phoneNumber)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;phoneNumber&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>phoneNumber</highlighted_element>
+  <language>JAVA</language>
+  <offset>49</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>98</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validatePhoneNumber(java.lang.String phoneNumber)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;phoneRegex&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>phoneRegex</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>98</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validatePhoneNumber(java.lang.String phoneNumber)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Variable &lt;code&gt;phoneRegex&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>phoneRegex</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>102</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validatePhoneNumber(java.lang.String phoneNumber)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;e&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>e</highlighted_element>
+  <language>JAVA</language>
+  <offset>35</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>102</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validatePhoneNumber(java.lang.String phoneNumber)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;e&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>e</highlighted_element>
+  <language>JAVA</language>
+  <offset>35</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidatorImpl.java</file>
+  <line>19</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidatorImpl$2 java.lang.String parse(java.lang.String input)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;input&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>input</highlighted_element>
+  <language>JAVA</language>
+  <offset>43</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidatorImpl.java</file>
+  <line>24</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidatorImpl$2 boolean validate(java.lang.String input)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;input&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>input</highlighted_element>
+  <language>JAVA</language>
+  <offset>47</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidatorImpl.java</file>
+  <line>29</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidatorImpl$2 boolean isValid(java.lang.String value)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;value&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>value</highlighted_element>
+  <language>JAVA</language>
+  <offset>46</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidatorImpl.java</file>
+  <line>47</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidatorImpl$3 java.lang.String parse(java.lang.String input)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;input&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>input</highlighted_element>
+  <language>JAVA</language>
+  <offset>43</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidatorImpl.java</file>
+  <line>52</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidatorImpl$3 boolean validate(java.lang.String input)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;input&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>input</highlighted_element>
+  <language>JAVA</language>
+  <offset>47</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidatorImpl.java</file>
+  <line>57</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidatorImpl$3 boolean isValid(java.lang.String value)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;value&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>value</highlighted_element>
+  <language>JAVA</language>
+  <offset>46</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/MenuItemValidator.java</file>
+  <line>6</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.MenuItemValidator MenuItemValidator(int maxMenuSize)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;maxMenuSize&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>maxMenuSize</highlighted_element>
+  <language>JAVA</language>
+  <offset>33</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/MenuItemValidator.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.MenuItemValidator java.lang.Integer parse(java.lang.String input)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;input&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>input</highlighted_element>
+  <language>JAVA</language>
+  <offset>32</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/MenuItemValidator.java</file>
+  <line>14</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.MenuItemValidator java.lang.Integer parse(java.lang.String input)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;e&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>e</highlighted_element>
+  <language>JAVA</language>
+  <offset>39</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/MenuItemValidator.java</file>
+  <line>20</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.MenuItemValidator boolean validate(java.lang.Integer input)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;input&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>input</highlighted_element>
+  <language>JAVA</language>
+  <offset>36</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/MenuItemValidator.java</file>
+  <line>25</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.MenuItemValidator boolean isValid(java.lang.Integer value)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;value&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>value</highlighted_element>
+  <language>JAVA</language>
+  <offset>35</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/OrderValidator.java</file>
+  <line>19</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.OrderValidator void validateOrder(model.Order order)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;order&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>order</highlighted_element>
+  <language>JAVA</language>
+  <offset>35</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/OrderValidator.java</file>
+  <line>28</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.OrderValidator void validateOrder(model.Order order)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;e&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>e</highlighted_element>
+  <language>JAVA</language>
+  <offset>35</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/PositiveIntegerValidator.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.PositiveIntegerValidator java.lang.Integer parse(java.lang.String input)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;e&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>e</highlighted_element>
+  <language>JAVA</language>
+  <offset>39</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/PositiveLongValidator.java</file>
+  <line>4</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.PositiveLongValidator boolean validate(java.lang.Long input)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;input&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>input</highlighted_element>
+  <language>JAVA</language>
+  <offset>33</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/PositiveLongValidator.java</file>
+  <line>9</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.PositiveLongValidator java.lang.Long parse(java.lang.String input)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;input&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>input</highlighted_element>
+  <language>JAVA</language>
+  <offset>29</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/PositiveLongValidator.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.PositiveLongValidator java.lang.Long parse(java.lang.String input)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;e&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>e</highlighted_element>
+  <language>JAVA</language>
+  <offset>39</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/PositiveLongValidator.java</file>
+  <line>18</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.PositiveLongValidator boolean isValid(java.lang.Long value)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;value&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>value</highlighted_element>
+  <language>JAVA</language>
+  <offset>32</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>26</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler T getInput(java.lang.String prompt)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;prompt&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>prompt</highlighted_element>
+  <language>JAVA</language>
+  <offset>29</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationUtils.java</file>
+  <line>35</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationUtils void validateCustomerId(java.lang.Long customerId)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;customerId&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>customerId</highlighted_element>
+  <language>JAVA</language>
+  <offset>46</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationUtils.java</file>
+  <line>40</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationUtils void validateCustomerId(java.lang.Long customerId)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;e&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>e</highlighted_element>
+  <language>JAVA</language>
+  <offset>35</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationUtils.java</file>
+  <line>53</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationUtils void validateItems(java.util.List&lt;?&gt; items, int maxItems)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;items&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>items</highlighted_element>
+  <language>JAVA</language>
+  <offset>44</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationUtils.java</file>
+  <line>53</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationUtils void validateItems(java.util.List&lt;?&gt; items, int maxItems)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;maxItems&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>maxItems</highlighted_element>
+  <language>JAVA</language>
+  <offset>55</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationUtils.java</file>
+  <line>61</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationUtils void validateItems(java.util.List&lt;?&gt; items, int maxItems)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;e&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>e</highlighted_element>
+  <language>JAVA</language>
+  <offset>35</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationUtils.java</file>
+  <line>74</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationUtils void validateAmount(double amount, double maxAmount)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;amount&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>amount</highlighted_element>
+  <language>JAVA</language>
+  <offset>44</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationUtils.java</file>
+  <line>74</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationUtils void validateAmount(double amount, double maxAmount)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;maxAmount&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>maxAmount</highlighted_element>
+  <language>JAVA</language>
+  <offset>59</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationUtils.java</file>
+  <line>82</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationUtils void validateAmount(double amount, double maxAmount)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;e&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>e</highlighted_element>
+  <language>JAVA</language>
+  <offset>35</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationUtils.java</file>
+  <line>94</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationUtils void validatePayment(payment.Payment payment)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;payment&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>payment</highlighted_element>
+  <language>JAVA</language>
+  <offset>46</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationUtils.java</file>
+  <line>99</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationUtils void validatePayment(payment.Payment payment)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;e&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>e</highlighted_element>
+  <language>JAVA</language>
+  <offset>35</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/Validator.java</file>
+  <line>13</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.Validator boolean hasError(T value)" />
+  <problem_class id="LocalCanBeFinal" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Local variable or parameter can be 'final'</problem_class>
+  <description>Parameter &lt;code&gt;value&lt;/code&gt; can have &lt;code&gt;final&lt;/code&gt; modifier</description>
+  <highlighted_element>value</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>5</length>
+</problem>
+</problems>

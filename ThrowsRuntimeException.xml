@@ -1,0 +1,41 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>34</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="ThrowsRuntimeException" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unchecked exception declared in 'throws' clause</problem_class>
+  <description>Unchecked exception &lt;code&gt;CustomException.QueueFullException&lt;/code&gt; declared in 'throws' clause #loc</description>
+  <highlighted_element>CustomException.QueueFullException</highlighted_element>
+  <language>JAVA</language>
+  <offset>63</offset>
+  <length>34</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>34</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="ThrowsRuntimeException" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unchecked exception declared in 'throws' clause</problem_class>
+  <description>Unchecked exception &lt;code&gt;CustomException.QueueFullException&lt;/code&gt; declared in 'throws' clause #loc</description>
+  <highlighted_element>CustomException.QueueFullException</highlighted_element>
+  <language>JAVA</language>
+  <offset>63</offset>
+  <length>34</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/OrderQueue.java</file>
+  <line>23</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="method" FQNAME="queue.OrderQueue void enqueue(model.Order order)" />
+  <problem_class id="ThrowsRuntimeException" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unchecked exception declared in 'throws' clause</problem_class>
+  <description>Unchecked exception &lt;code&gt;CustomException.QueueFullException&lt;/code&gt; declared in 'throws' clause #loc</description>
+  <highlighted_element>CustomException.QueueFullException</highlighted_element>
+  <language>JAVA</language>
+  <offset>56</offset>
+  <length>34</length>
+</problem>
+</problems>

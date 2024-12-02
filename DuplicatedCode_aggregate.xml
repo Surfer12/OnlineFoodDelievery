@@ -1,0 +1,6 @@
+<root>
+<duplicate cost="1" hash="0">
+  <fragment file="file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java" line="35" start="919" end="1570" />
+  <fragment file="file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java" line="36" start="969" end="1589" />
+</duplicate>
+</root>

@@ -1,0 +1,1053 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/build.gradle</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/build.gradle" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>plugins { id 'java' id 'org.springframework.boot' version '3.1.5' id 'io.spring.dependen...</highlighted_element>
+  <language>Groovy</language>
+  <offset>0</offset>
+  <length>3037</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/settings.gradle</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/settings.gradle" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>rootProject.name = 'OnlineFoodDelievery'</highlighted_element>
+  <language>Groovy</language>
+  <offset>0</offset>
+  <length>40</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/CustomException/OrderProcessingException.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>CustomException</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/CustomException/OrderProcessingException.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package CustomException; /** * Exception thrown when an error occurs during order processing. */ ...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>250</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/CustomException/PaymentException.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>CustomException</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/CustomException/PaymentException.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package CustomException; /** * Exception thrown when an error occurs during payment processing. *...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>232</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/CustomException/QueueFullException.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>CustomException</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/CustomException/QueueFullException.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package CustomException; /** * Exception thrown when the order queue is full. */ public class Que...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>218</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/CustomException/ValidationException.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>CustomException</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/CustomException/ValidationException.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package CustomException; /** * Exception thrown when a validation error occurs. */ public class V...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>222</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/Application.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/app/Application.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package app; import java.util.logging.Level; import java.util.logging.Logger; import builder.Order...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>1994</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystem.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/app/DeliverySystem.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package app; import java.util.HashMap; import java.util.Map; import model.Driver; import model.Ord...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>1000</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package app; import java.util.Scanner; import java.util.logging.Logger; import managers.DriverMana...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>4398</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DriverService.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/app/DriverService.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package app; public class DriverService { }</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>46</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/Main.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/app/Main.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package app; public class Main { public static void main(String[] args) { // Initialize ...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>204</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package app.util; import java.lang.management.ManagementFactory; import java.lang.management.Memory...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>1850</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/builder/OrderBuilder.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>builder</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/builder/OrderBuilder.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package builder; import model.MenuItem; import model.Order; public class OrderBuilder { private...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>1049</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/factory/MenuItemFactory.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>factory</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/factory/MenuItemFactory.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package factory; import model.Drink; import model.Hamburger; import model.MenuItem; import model.Pi...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>896</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package managers; import java.util.List; import java.util.Scanner; import java.util.logging.Logger;...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>4878</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package managers; import java.util.ArrayList; import java.util.List; import java.util.Scanner; imp...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>2671</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package managers; import java.util.List; import java.util.Scanner; import java.util.logging.Logger;...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>4353</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package managers; import java.util.List; import java.util.Scanner; import java.util.logging.Logger;...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>4353</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Customer.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/model/Customer.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package model; import java.util.ArrayList; import java.util.List; import rating.Rating; /** * Re...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>1872</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Drink.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/model/Drink.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package model; public class Drink implements MenuItem { private final Long id; private fina...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>879</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/model/Driver.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package model; import java.util.ArrayList; import java.util.Collections; import java.util.List; imp...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>2393</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Fries.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/model/Fries.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package model; public class Fries implements MenuItem { private final Long id; private fina...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>879</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Hamburger.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/model/Hamburger.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package model; public class Hamburger implements MenuItem { private final Long id; private ...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>887</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Location.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/model/Location.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package model; public class Location { private final String address; private final String p...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>402</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/MenuItem.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/model/MenuItem.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package model; public interface MenuItem { String getName(); double getPrice(); }</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>90</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/model/Order.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package model; import java.time.LocalDateTime; import java.util.ArrayList; import java.util.List; ...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>2482</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/OrderStatus.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/model/OrderStatus.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package model; public enum OrderStatus { SUBMITTED, IN_PROGRESS, // Added status PROCES...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>174</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Payment.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/model/Payment.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package model;</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Person.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/model/Person.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package model; public abstract class Person { private final Long id; private final String n...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>637</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Pizza.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/model/Pizza.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package model; public class Pizza implements MenuItem { private final Long id; private fina...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>879</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Rating.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/model/Rating.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package model;</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Salad.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/model/Salad.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package model; public class Salad implements MenuItem { private final Long id; private fina...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>879</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Size.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/model/Size.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package model; public enum Size { SMALL, MEDIUM, LARGE }</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>61</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package notification; import model.Driver; import model.Order; import model.OrderStatus; public cl...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>3790</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/NotificationService.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/notification/NotificationService.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package notification; import model.Driver; import model.Order; import model.OrderStatus; public in...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>436</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderEvent.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/observer/OrderEvent.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package observer; public enum OrderEvent { ORDER_SUBMITTED(&quot;submitted&quot;), DRIVER_ASSIGNED(...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>414</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderObserver.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/observer/OrderObserver.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package observer; import model.Order; public interface OrderObserver { void update(Order order...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>301</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderSubject.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/observer/OrderSubject.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package observer; import model.Order; public interface OrderSubject { void attach(OrderObserve...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>196</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderTrackingService.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/observer/OrderTrackingService.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package observer; import java.util.ArrayList; import java.util.List; import model.Order; public c...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>569</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/orderUtilities/OrderBuilder.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>orderUtilities</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/orderUtilities/OrderBuilder.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package orderUtilities;</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>24</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/payment/Payment.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>payment</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/payment/Payment.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package payment; import java.time.LocalDateTime; public class Payment { private Long paymentId;...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>1529</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/OrderQueue.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/queue/OrderQueue.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package queue; import java.util.ArrayList; import java.util.LinkedList; import java.util.List; impo...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>1858</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/QueueOperations.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/queue/QueueOperations.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package queue; import java.util.Optional; public interface QueueOperations&lt;T&gt; { void enqueue(T ...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>216</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/rating/Rating.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package rating; import java.time.LocalDateTime; import java.util.ArrayList; import java.util.List; ...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>2873</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsBusinessLogic.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/rating/RatingsBusinessLogic.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package rating; import java.util.Optional; import CustomException.QueueFullException; public inte...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>1237</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsBusinessLogic.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/rating/RatingsBusinessLogic.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package rating; import java.util.Optional; import CustomException.QueueFullException; public inte...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>1237</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsHandler.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/rating/RatingsHandler.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package rating; import java.util.Optional; import java.util.concurrent.ConcurrentLinkedDeque; impor...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>3460</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/DriverService.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/services/DriverService.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package services; import java.util.List; import model.Driver; import model.Order; public interfac...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>312</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/DriverServiceImpl.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/services/DriverServiceImpl.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package services; import java.util.ArrayList; import java.util.List; import model.Driver; import m...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>1388</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/MenuService.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/services/MenuService.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package services; import java.util.List; import model.MenuItem; public interface MenuService { ...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>262</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/MenuServiceImpl.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/services/MenuServiceImpl.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package services; import java.util.ArrayList; import java.util.List; import model.MenuItem; publi...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>1266</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderManager.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/services/OrderManager.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package services; import java.util.Scanner; import managers.MenuManager; import validation.Console...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>478</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderManagerImpl.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/services/OrderManagerImpl.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package services; import java.util.Scanner; import managers.MenuManager; import validation.Console...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>956</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderService.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/services/OrderService.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package services; import java.util.List; import model.MenuItem; import model.Order; public interf...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>428</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package services; import java.util.ArrayList; import java.util.HashMap; import java.util.List; impo...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>1971</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/DriverServiceImpl.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/services/impl/DriverServiceImpl.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>/* * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this lic...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>1051</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/MenuServiceImpl.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/services/impl/MenuServiceImpl.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package services.impl; import java.util.ArrayList; import java.util.List; import model.Drink; impo...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>1752</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package services.impl; import java.util.ArrayList; import java.util.HashMap; import java.util.List;...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>1942</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/orderRepository.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/services/impl/orderRepository.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package services.impl; import java.util.List; import model.Order; public class orderRepository { ...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>278</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/tracker/OrderObserver.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>tracker</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/tracker/OrderObserver.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package tracker; import model.Order; import model.OrderStatus; public interface OrderObserver { ...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>152</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/tracker/OrderSubject.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>tracker</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/tracker/OrderSubject.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package tracker; import model.Order; public interface OrderSubject { void attach(OrderObserver...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>195</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/tracker/OrderTracker.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>tracker</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/tracker/OrderTracker.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package tracker; import java.time.LocalDateTime; import java.util.ArrayList; import java.util.List;...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>2868</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/AbstractInputValidator.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/validation/AbstractInputValidator.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package validation; /** * Abstract class that extends AbstractValidator and defines type-specific ...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>1169</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/AbstractMenuItemValidator.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/validation/AbstractMenuItemValidator.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package validation; import model.MenuItem; /** * Abstract class that defines common methods for v...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>696</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/AbstractOrderValidator.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/validation/AbstractOrderValidator.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package validation; import java.util.List; import model.MenuItem; import model.Order; /** * Abst...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>1479</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/AbstractValidator.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/validation/AbstractValidator.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package validation; /** * Abstract class that defines common methods for validating input. */ pub...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>566</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package validation; import java.lang.reflect.Array; import java.util.ArrayList; import java.util.Li...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>4042</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/EmailValidator.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/validation/EmailValidator.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package validation; import java.util.regex.Pattern; public class EmailValidator implements Validat...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>705</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputHandler.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/validation/InputHandler.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package validation; public interface InputHandler&lt;T&gt; { T getInput(String prompt); T[] getM...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>152</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package validation; import CustomException.ValidationException; /** * Utility class for input val...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>3373</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package validation; import CustomException.ValidationException; /** * Utility class for input val...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>3373</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidator.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/validation/InputValidator.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package validation; public interface InputValidator&lt;T&gt; { boolean isValid(T input); String...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>227</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidatorImpl.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/validation/InputValidatorImpl.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package validation; public class InputValidatorImpl&lt;T&gt; implements InputValidator&lt;T&gt; { private f...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>2582</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/MenuItemValidator.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/validation/MenuItemValidator.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package validation; public class MenuItemValidator implements Validator&lt;Integer&gt; { private fina...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>739</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/OrderValidator.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/validation/OrderValidator.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package validation; import CustomException.ValidationException; import model.Order; /** * The Ord...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>988</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/PositiveIntegerValidator.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/validation/PositiveIntegerValidator.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package validation; public class PositiveIntegerValidator implements Validator&lt;Integer&gt; { publ...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>646</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/PositiveLongValidator.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/validation/PositiveLongValidator.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package validation; public class PositiveLongValidator implements Validator&lt;Long&gt; { public bool...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>564</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package validation; import java.lang.reflect.Array; import java.util.ArrayList; import java.util.Li...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>2794</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationUtils.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/validation/ValidationUtils.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package validation; import java.util.List; import CustomException.ValidationException; import paym...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>3171</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/Validator.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/validation/Validator.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package validation; public interface Validator&lt;T&gt; { T parse(String input); boolean validat...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>297</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java" />
+  <problem_class id="JvmLinesOfCodeInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Calculate Kotlin and Java code metrics</problem_class>
+  <description>Metrics description</description>
+  <highlighted_element>package app; import java.util.Scanner; import org.junit.jupiter.api.BeforeEach; import org.junit.j...</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>3707</length>
+</problem>
+</problems>

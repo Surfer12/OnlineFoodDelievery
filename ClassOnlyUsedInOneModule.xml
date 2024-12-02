@@ -1,0 +1,16 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>21</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="class" FQNAME="app.DeliverySystemCLITest" />
+  <problem_class id="ClassOnlyUsedInOneModule" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class only used from one other module</problem_class>
+  <hints />
+  <description>Class &lt;code&gt;DeliverySystemCLITest&lt;/code&gt; has only dependencies on and/or dependents in module 'OnlineFoodDelievery.main' #loc</description>
+  <highlighted_element>DeliverySystemCLITest</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>21</length>
+</problem>
+</problems>

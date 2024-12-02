@@ -85,6 +85,21 @@ public class DriverManager {
         }
     }
 
+    public void rateDriverInteractive(Scanner scanner, OrderManager orderManager) {
+        Long orderId = orderManager.getOrderIdHandler().handleInput(
+                scanner,
+                "Enter Order ID to rate driver: ");
+
+        if (orderId == null) return;
+
+        Order order = orderManager.getOrderService().getOrderById(orderId);
+        if (order != null && order.getStatus() == OrderStatus.DELIVERED) {
+            this.rateDriver(scanner, order, this.menuChoiceHandler);
+        } else {
+            System.out.println("Order not found or not delivered yet.");
+        }
+    }
+
     public ConsoleInputHandler<Integer> getMenuChoiceHandler() {
         return this.menuChoiceHandler;
     }
@@ -128,5 +143,35 @@ public class DriverManager {
         } else {
             System.out.println("Order not found.");
         }
+    }
+
+    public void acceptAndDeliverOrder(Scanner scanner, OrderManager orderManager) {
+        List<Order> pendingOrders = orderManager.getPendingOrders();
+        if (pendingOrders.isEmpty()) {
+            System.out.println("No pending orders to accept.");
+            return;
+        }
+
+        System.out.println("\n--- Pending Orders ---");
+        for (int i = 0; i < pendingOrders.size(); i++) {
+            Order order = pendingOrders.get(i);
+            System.out.printf("%d. Order ID: %d, Customer: %s\n", i + 1, order.getOrderId(), order.getCustomerEmail());
+        }
+
+        Integer orderChoice = this.menuChoiceHandler.handleInput(
+                scanner,
+                "Select an order to accept: ");
+
+        if (orderChoice == null || orderChoice < 1 || orderChoice > pendingOrders.size()) {
+            System.out.println("Invalid choice.");
+            return;
+        }
+
+        Order selectedOrder = pendingOrders.get(orderChoice - 1);
+        this.assignDriverToOrder(scanner, selectedOrder, orderManager.getOrderIdHandler());
+
+        selectedOrder.setStatus(OrderStatus.DELIVERED);
+        System.out.println("Order delivered successfully.");
+        logger.info("Order " + selectedOrder.getOrderId() + " delivered.");
     }
 }

@@ -1,0 +1,119 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>34</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void listAvailableDrivers()" />
+  <problem_class id="ObjectAllocationInLoop" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Object allocation in loop</problem_class>
+  <description>Object allocation via string concatenation in loop #loc</description>
+  <highlighted_element>driver.getName() + &quot; - &quot; + driver.getVehicle()</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>46</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>49</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager java.util.List&lt;model.MenuItem&gt; selectMenuItems(java.util.Scanner scanner, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="ObjectAllocationInLoop" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Object allocation in loop</problem_class>
+  <description>Object allocation via capturing lambda in loop #loc</description>
+  <highlighted_element>input</highlighted_element>
+  <language>JAVA</language>
+  <offset>20</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>62</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler T getInput(java.lang.String prompt)" />
+  <problem_class id="ObjectAllocationInLoop" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Object allocation in loop</problem_class>
+  <description>Object allocation via string concatenation in loop #loc</description>
+  <highlighted_element>&quot;Error: &quot; + e.getMessage()</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>26</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>92</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="ObjectAllocationInLoop" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Object allocation in loop</problem_class>
+  <description>Object allocation via string concatenation in loop #loc</description>
+  <highlighted_element>&quot;Invalid input. Please enter a valid &quot; + this.inputValidator.getTypeName() + &quot;.&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>34</offset>
+  <length>80</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>95</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="ObjectAllocationInLoop" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Object allocation in loop</problem_class>
+  <description>Object allocation via string concatenation in loop #loc</description>
+  <highlighted_element>&quot;Error parsing input: &quot; + e.getMessage()</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>40</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>36</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler T getInput(java.lang.String prompt)" />
+  <problem_class id="ObjectAllocationInLoop" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Object allocation in loop</problem_class>
+  <description>Object allocation via string concatenation in loop #loc</description>
+  <highlighted_element>&quot;Invalid input. Please enter a valid &quot; + this.typeName + &quot;.&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>26</offset>
+  <length>60</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>38</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler T getInput(java.lang.String prompt)" />
+  <problem_class id="ObjectAllocationInLoop" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Object allocation in loop</problem_class>
+  <description>Object allocation via string concatenation in loop #loc</description>
+  <highlighted_element>&quot;Error parsing input: &quot; + e.getMessage()</highlighted_element>
+  <language>JAVA</language>
+  <offset>35</offset>
+  <length>40</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>56</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="ObjectAllocationInLoop" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Object allocation in loop</problem_class>
+  <description>Object allocation via string concatenation in loop #loc</description>
+  <highlighted_element>&quot;Invalid input. Please enter a valid &quot; + this.typeName + &quot;.&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>39</offset>
+  <length>60</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>59</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="ObjectAllocationInLoop" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Object allocation in loop</problem_class>
+  <description>Object allocation via string concatenation in loop #loc</description>
+  <highlighted_element>&quot;Error parsing input: &quot; + e.getMessage()</highlighted_element>
+  <language>JAVA</language>
+  <offset>35</offset>
+  <length>40</length>
+</problem>
+</problems>

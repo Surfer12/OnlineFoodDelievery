@@ -1,0 +1,38 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>13</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="class" FQNAME="app.DeliverySystemCLI" />
+  <problem_class id="ClassWithTooManyTransitiveDependencies" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many transitive dependencies</problem_class>
+  <hints />
+  <description>Class 'DeliverySystemCLI' has too many transitive dependencies (36 &gt; 35)</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/Main.java</file>
+  <line>2</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="class" FQNAME="app.Main" />
+  <problem_class id="ClassWithTooManyTransitiveDependencies" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many transitive dependencies</problem_class>
+  <hints />
+  <description>Class 'Main' has too many transitive dependencies (37 &gt; 35)</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>21</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="class" FQNAME="app.DeliverySystemCLITest" />
+  <problem_class id="ClassWithTooManyTransitiveDependencies" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many transitive dependencies</problem_class>
+  <hints />
+  <description>Class 'DeliverySystemCLITest' has too many transitive dependencies (37 &gt; 35)</description>
+  <highlighted_element />
+  <language />
+</problem>
+</problems>

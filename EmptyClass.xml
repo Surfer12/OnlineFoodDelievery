@@ -1,0 +1,54 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DriverService.java</file>
+  <line>3</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="class" FQNAME="app.DriverService" />
+  <problem_class id="EmptyClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Empty class</problem_class>
+  <description>Class &lt;code&gt;DriverService&lt;/code&gt; is empty #loc</description>
+  <highlighted_element>DriverService</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Payment.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/model/Payment.java" />
+  <problem_class id="EmptyClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Empty class</problem_class>
+  <description>Java file does not declare any class #loc</description>
+  <highlighted_element>package model;</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Rating.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/model/Rating.java" />
+  <problem_class id="EmptyClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Empty class</problem_class>
+  <description>Java file does not declare any class #loc</description>
+  <highlighted_element>package model;</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/orderUtilities/OrderBuilder.java</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>orderUtilities</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/orderUtilities/OrderBuilder.java" />
+  <problem_class id="EmptyClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Empty class</problem_class>
+  <description>Java file does not declare any class #loc</description>
+  <highlighted_element>package orderUtilities;</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>24</length>
+</problem>
+</problems>

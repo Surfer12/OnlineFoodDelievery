@@ -1,0 +1,15 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>57</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl java.lang.String getOrderStatus(java.lang.Long orderId)" />
+  <problem_class id="VariableNotUsedInsideIf" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Reference checked for 'null' is not used inside 'if'</problem_class>
+  <description>&lt;code&gt;order&lt;/code&gt; checked for 'null' is not used inside conditional #loc</description>
+  <highlighted_element>order</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>5</length>
+</problem>
+</problems>

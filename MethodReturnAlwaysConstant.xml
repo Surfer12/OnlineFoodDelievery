@@ -1,0 +1,212 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/AbstractInputValidator.java</file>
+  <line>15</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.AbstractInputValidator boolean validate(T input)" />
+  <problem_class id="MethodReturnAlwaysConstant" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Method returns per-class constant</problem_class>
+  <hints />
+  <description>Method &lt;code&gt;validate()&lt;/code&gt; and all its derivables always return constants</description>
+  <highlighted_element>validate</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/AbstractInputValidator.java</file>
+  <line>24</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.AbstractInputValidator T parse(java.lang.String input)" />
+  <problem_class id="MethodReturnAlwaysConstant" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Method returns per-class constant</problem_class>
+  <hints />
+  <description>Method &lt;code&gt;parse()&lt;/code&gt; and all its derivables always return constants</description>
+  <highlighted_element>parse</highlighted_element>
+  <language>JAVA</language>
+  <offset>22</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/AbstractMenuItemValidator.java</file>
+  <line>17</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.AbstractMenuItemValidator boolean validate(model.MenuItem menuItem)" />
+  <problem_class id="MethodReturnAlwaysConstant" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Method returns per-class constant</problem_class>
+  <hints />
+  <description>Method &lt;code&gt;validate()&lt;/code&gt; and all its derivables always return constants</description>
+  <highlighted_element>validate</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/AbstractMenuItemValidator.java</file>
+  <line>26</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.AbstractMenuItemValidator model.MenuItem parse(java.lang.String input)" />
+  <problem_class id="MethodReturnAlwaysConstant" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Method returns per-class constant</problem_class>
+  <hints />
+  <description>Method &lt;code&gt;parse()&lt;/code&gt; and all its derivables always return constants</description>
+  <highlighted_element>parse</highlighted_element>
+  <language>JAVA</language>
+  <offset>29</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/AbstractOrderValidator.java</file>
+  <line>20</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.AbstractOrderValidator boolean validate(model.Order order)" />
+  <problem_class id="MethodReturnAlwaysConstant" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Method returns per-class constant</problem_class>
+  <hints />
+  <description>Method &lt;code&gt;validate()&lt;/code&gt; and all its derivables always return constants</description>
+  <highlighted_element>validate</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/AbstractOrderValidator.java</file>
+  <line>29</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.AbstractOrderValidator model.Order parse(java.lang.String input)" />
+  <problem_class id="MethodReturnAlwaysConstant" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Method returns per-class constant</problem_class>
+  <hints />
+  <description>Method &lt;code&gt;parse()&lt;/code&gt; and all its derivables always return constants</description>
+  <highlighted_element>parse</highlighted_element>
+  <language>JAVA</language>
+  <offset>26</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/AbstractValidator.java</file>
+  <line>14</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.AbstractValidator boolean validate(T input)" />
+  <problem_class id="MethodReturnAlwaysConstant" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Method returns per-class constant</problem_class>
+  <hints />
+  <description>Method &lt;code&gt;validate()&lt;/code&gt; and all its derivables always return constants</description>
+  <highlighted_element>validate</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/AbstractValidator.java</file>
+  <line>22</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.AbstractValidator T parse(java.lang.String input)" />
+  <problem_class id="MethodReturnAlwaysConstant" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Method returns per-class constant</problem_class>
+  <hints />
+  <description>Method &lt;code&gt;parse()&lt;/code&gt; and all its derivables always return constants</description>
+  <highlighted_element>parse</highlighted_element>
+  <language>JAVA</language>
+  <offset>22</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/EmailValidator.java</file>
+  <line>20</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.EmailValidator java.lang.String getTypeName()" />
+  <problem_class id="MethodReturnAlwaysConstant" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Method returns per-class constant</problem_class>
+  <hints />
+  <description>Method &lt;code&gt;getTypeName()&lt;/code&gt; and all its derivables always return constants</description>
+  <highlighted_element>getTypeName</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidatorImpl.java</file>
+  <line>34</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidatorImpl$2 java.lang.String getTypeName()" />
+  <problem_class id="MethodReturnAlwaysConstant" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Method returns per-class constant</problem_class>
+  <hints />
+  <description>Method &lt;code&gt;getTypeName()&lt;/code&gt; and all its derivables always return constants</description>
+  <highlighted_element>getTypeName</highlighted_element>
+  <language>JAVA</language>
+  <offset>30</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidatorImpl.java</file>
+  <line>62</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidatorImpl$3 java.lang.String getTypeName()" />
+  <problem_class id="MethodReturnAlwaysConstant" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Method returns per-class constant</problem_class>
+  <hints />
+  <description>Method &lt;code&gt;getTypeName()&lt;/code&gt; and all its derivables always return constants</description>
+  <highlighted_element>getTypeName</highlighted_element>
+  <language>JAVA</language>
+  <offset>30</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/MenuItemValidator.java</file>
+  <line>30</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.MenuItemValidator java.lang.String getTypeName()" />
+  <problem_class id="MethodReturnAlwaysConstant" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Method returns per-class constant</problem_class>
+  <hints />
+  <description>Method &lt;code&gt;getTypeName()&lt;/code&gt; and all its derivables always return constants</description>
+  <highlighted_element>getTypeName</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/PositiveIntegerValidator.java</file>
+  <line>28</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.PositiveIntegerValidator java.lang.String getTypeName()" />
+  <problem_class id="MethodReturnAlwaysConstant" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Method returns per-class constant</problem_class>
+  <hints />
+  <description>Method &lt;code&gt;getTypeName()&lt;/code&gt; and all its derivables always return constants</description>
+  <highlighted_element>getTypeName</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/PositiveLongValidator.java</file>
+  <line>23</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.PositiveLongValidator java.lang.String getTypeName()" />
+  <problem_class id="MethodReturnAlwaysConstant" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Method returns per-class constant</problem_class>
+  <hints />
+  <description>Method &lt;code&gt;getTypeName()&lt;/code&gt; and all its derivables always return constants</description>
+  <highlighted_element>getTypeName</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/Validator.java</file>
+  <line>10</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.Validator java.lang.String getTypeName()" />
+  <problem_class id="MethodReturnAlwaysConstant" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Method returns per-class constant</problem_class>
+  <hints />
+  <description>Method &lt;code&gt;getTypeName()&lt;/code&gt; and all its derivables always return constants</description>
+  <highlighted_element>getTypeName</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>11</length>
+</problem>
+</problems>

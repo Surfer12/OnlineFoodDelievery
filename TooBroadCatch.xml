@@ -1,0 +1,119 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/Application.java</file>
+  <line>50</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.Application void main(java.lang.String[] args)" />
+  <problem_class id="TooBroadCatch" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly broad 'catch' block</problem_class>
+  <description>'catch' of &lt;code&gt;Exception&lt;/code&gt; is too broad, masking exception 'RuntimeException' #loc</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>67</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void checkOrderStatus(java.util.Scanner scanner)" />
+  <problem_class id="TooBroadCatch" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly broad 'catch' block</problem_class>
+  <description>'catch' of &lt;code&gt;Exception&lt;/code&gt; is too broad, masking exception 'RuntimeException' #loc</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>67</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void checkOrderStatus(java.util.Scanner scanner)" />
+  <problem_class id="TooBroadCatch" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly broad 'catch' block</problem_class>
+  <description>'catch' of &lt;code&gt;Exception&lt;/code&gt; is too broad, masking exception 'RuntimeException' #loc</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>77</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService void sendEmail(java.lang.String recipientEmail, java.lang.String subject, java.lang.String message)" />
+  <problem_class id="TooBroadCatch" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly broad 'catch' block</problem_class>
+  <description>'catch' of &lt;code&gt;Exception&lt;/code&gt; is too broad, masking exception 'RuntimeException' #loc</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>JAVA</language>
+  <offset>21</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>88</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService void sendSMS(java.lang.String recipientPhone, java.lang.String message)" />
+  <problem_class id="TooBroadCatch" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly broad 'catch' block</problem_class>
+  <description>'catch' of &lt;code&gt;Exception&lt;/code&gt; is too broad, masking exception 'RuntimeException' #loc</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>JAVA</language>
+  <offset>21</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>61</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler T getInput(java.lang.String prompt)" />
+  <problem_class id="TooBroadCatch" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly broad 'catch' block</problem_class>
+  <description>'catch' of &lt;code&gt;Exception&lt;/code&gt; is too broad, masking exception 'RuntimeException' #loc</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>94</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="TooBroadCatch" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly broad 'catch' block</problem_class>
+  <description>'catch' of &lt;code&gt;Exception&lt;/code&gt; is too broad, masking exception 'RuntimeException' #loc</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>37</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler T getInput(java.lang.String prompt)" />
+  <problem_class id="TooBroadCatch" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly broad 'catch' block</problem_class>
+  <description>'catch' of &lt;code&gt;Exception&lt;/code&gt; is too broad, masking exception 'RuntimeException' #loc</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>58</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="TooBroadCatch" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly broad 'catch' block</problem_class>
+  <description>'catch' of &lt;code&gt;Exception&lt;/code&gt; is too broad, masking exception 'RuntimeException' #loc</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>9</length>
+</problem>
+</problems>

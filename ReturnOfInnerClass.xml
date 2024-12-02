@@ -1,0 +1,15 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/builder/OrderBuilder.java</file>
+  <line>36</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>builder</package>
+  <entry_point TYPE="method" FQNAME="builder.OrderBuilder model.Order build()" />
+  <problem_class id="ReturnOfInnerClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Return of instance of anonymous, local or inner class</problem_class>
+  <description>Return of instance of anonymous class #loc</description>
+  <highlighted_element>return</highlighted_element>
+  <language>JAVA</language>
+  <offset>6</offset>
+  <length>6</length>
+</problem>
+</problems>

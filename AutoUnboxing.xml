@@ -1,0 +1,405 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>68</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI void start()" />
+  <problem_class id="AutoUnboxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-unboxing</problem_class>
+  <description>Auto-unboxing &lt;code&gt;choice&lt;/code&gt; #loc</description>
+  <highlighted_element>choice</highlighted_element>
+  <language>JAVA</language>
+  <offset>20</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>55</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrder(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Long&gt; orderIdHandler)" />
+  <problem_class id="AutoUnboxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-unboxing</problem_class>
+  <description>Auto-unboxing &lt;code&gt;driverChoice&lt;/code&gt; #loc</description>
+  <highlighted_element>driverChoice</highlighted_element>
+  <language>JAVA</language>
+  <offset>36</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>55</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrder(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Long&gt; orderIdHandler)" />
+  <problem_class id="AutoUnboxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-unboxing</problem_class>
+  <description>Auto-unboxing &lt;code&gt;driverChoice&lt;/code&gt; #loc</description>
+  <highlighted_element>driverChoice</highlighted_element>
+  <language>JAVA</language>
+  <offset>56</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>58</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrder(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Long&gt; orderIdHandler)" />
+  <problem_class id="AutoUnboxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-unboxing</problem_class>
+  <description>Auto-unboxing &lt;code&gt;driverChoice&lt;/code&gt; #loc</description>
+  <highlighted_element>driverChoice</highlighted_element>
+  <language>JAVA</language>
+  <offset>53</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>79</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void rateDriver(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; menuChoiceHandler)" />
+  <problem_class id="AutoUnboxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-unboxing</problem_class>
+  <description>Auto-unboxing &lt;code&gt;input&lt;/code&gt; #loc</description>
+  <highlighted_element>input</highlighted_element>
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>79</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void rateDriver(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; menuChoiceHandler)" />
+  <problem_class id="AutoUnboxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-unboxing</problem_class>
+  <description>Auto-unboxing &lt;code&gt;input&lt;/code&gt; #loc</description>
+  <highlighted_element>input</highlighted_element>
+  <language>JAVA</language>
+  <offset>39</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>106</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void manageDriverMenu(java.util.Scanner scanner, managers.OrderManager orderManager)" />
+  <problem_class id="AutoUnboxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-unboxing</problem_class>
+  <description>Auto-unboxing &lt;code&gt;choice&lt;/code&gt; #loc</description>
+  <highlighted_element>choice</highlighted_element>
+  <language>JAVA</language>
+  <offset>20</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>49</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager java.util.List&lt;model.MenuItem&gt; selectMenuItems(java.util.Scanner scanner, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="AutoUnboxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-unboxing</problem_class>
+  <description>Auto-unboxing &lt;code&gt;input&lt;/code&gt; #loc</description>
+  <highlighted_element>input</highlighted_element>
+  <language>JAVA</language>
+  <offset>29</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>49</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager java.util.List&lt;model.MenuItem&gt; selectMenuItems(java.util.Scanner scanner, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="AutoUnboxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-unboxing</problem_class>
+  <description>Auto-unboxing &lt;code&gt;input&lt;/code&gt; #loc</description>
+  <highlighted_element>input</highlighted_element>
+  <language>JAVA</language>
+  <offset>43</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>51</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager java.util.List&lt;model.MenuItem&gt; selectMenuItems(java.util.Scanner scanner, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="AutoUnboxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-unboxing</problem_class>
+  <description>Auto-unboxing &lt;code&gt;itemChoice&lt;/code&gt; #loc</description>
+  <highlighted_element>itemChoice</highlighted_element>
+  <language>JAVA</language>
+  <offset>38</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>56</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager java.util.List&lt;model.MenuItem&gt; selectMenuItems(java.util.Scanner scanner, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="AutoUnboxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-unboxing</problem_class>
+  <description>Auto-unboxing &lt;code&gt;itemChoice&lt;/code&gt; #loc</description>
+  <highlighted_element>itemChoice</highlighted_element>
+  <language>JAVA</language>
+  <offset>72</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>61</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager java.util.List&lt;model.MenuItem&gt; selectMenuItems(java.util.Scanner scanner, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="AutoUnboxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-unboxing</problem_class>
+  <description>Auto-unboxing &lt;code&gt;input&lt;/code&gt; #loc</description>
+  <highlighted_element>input</highlighted_element>
+  <language>JAVA</language>
+  <offset>29</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>61</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager java.util.List&lt;model.MenuItem&gt; selectMenuItems(java.util.Scanner scanner, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="AutoUnboxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-unboxing</problem_class>
+  <description>Auto-unboxing &lt;code&gt;input&lt;/code&gt; #loc</description>
+  <highlighted_element>input</highlighted_element>
+  <language>JAVA</language>
+  <offset>42</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>64</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager java.util.List&lt;model.MenuItem&gt; selectMenuItems(java.util.Scanner scanner, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="AutoUnboxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-unboxing</problem_class>
+  <description>Auto-unboxing &lt;code&gt;quantity&lt;/code&gt; #loc</description>
+  <highlighted_element>quantity</highlighted_element>
+  <language>JAVA</language>
+  <offset>36</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>62</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver void addRating(java.lang.Integer rating)" />
+  <problem_class id="AutoUnboxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-unboxing</problem_class>
+  <description>Auto-unboxing &lt;code&gt;rating&lt;/code&gt; #loc</description>
+  <highlighted_element>rating</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>62</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver void addRating(java.lang.Integer rating)" />
+  <problem_class id="AutoUnboxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-unboxing</problem_class>
+  <description>Auto-unboxing &lt;code&gt;rating&lt;/code&gt; #loc</description>
+  <highlighted_element>rating</highlighted_element>
+  <language>JAVA</language>
+  <offset>42</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>46</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating void validate()" />
+  <problem_class id="AutoUnboxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-unboxing</problem_class>
+  <description>Auto-unboxing &lt;code&gt;customerId&lt;/code&gt; #loc</description>
+  <highlighted_element>customerId</highlighted_element>
+  <language>JAVA</language>
+  <offset>34</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>49</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating void validate()" />
+  <problem_class id="AutoUnboxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-unboxing</problem_class>
+  <description>Auto-unboxing &lt;code&gt;driverId&lt;/code&gt; #loc</description>
+  <highlighted_element>driverId</highlighted_element>
+  <language>JAVA</language>
+  <offset>32</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/DriverServiceImpl.java</file>
+  <line>41</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.DriverServiceImpl void rateDriver(model.Driver driver, java.lang.Integer rating)" />
+  <problem_class id="AutoUnboxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-unboxing</problem_class>
+  <description>Auto-unboxing &lt;code&gt;rating&lt;/code&gt; #loc</description>
+  <highlighted_element>rating</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/DriverServiceImpl.java</file>
+  <line>41</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.DriverServiceImpl void rateDriver(model.Driver driver, java.lang.Integer rating)" />
+  <problem_class id="AutoUnboxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-unboxing</problem_class>
+  <description>Auto-unboxing &lt;code&gt;rating&lt;/code&gt; #loc</description>
+  <highlighted_element>rating</highlighted_element>
+  <language>JAVA</language>
+  <offset>30</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>43</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="AutoUnboxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-unboxing</problem_class>
+  <description>Auto-unboxing &lt;code&gt;itemCounts.getOrDefault(item, 0)&lt;/code&gt; #loc</description>
+  <highlighted_element>itemCounts.getOrDefault(item, 0)</highlighted_element>
+  <language>JAVA</language>
+  <offset>33</offset>
+  <length>32</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>50</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="AutoUnboxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-unboxing</problem_class>
+  <description>Auto-unboxing &lt;code&gt;count&lt;/code&gt; #loc</description>
+  <highlighted_element>count</highlighted_element>
+  <language>JAVA</language>
+  <offset>34</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>44</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="AutoUnboxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-unboxing</problem_class>
+  <description>Auto-unboxing &lt;code&gt;itemCounts.getOrDefault(item, 0)&lt;/code&gt; #loc</description>
+  <highlighted_element>itemCounts.getOrDefault(item, 0)</highlighted_element>
+  <language>JAVA</language>
+  <offset>33</offset>
+  <length>32</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>49</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="AutoUnboxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-unboxing</problem_class>
+  <description>Auto-unboxing &lt;code&gt;count&lt;/code&gt; #loc</description>
+  <highlighted_element>count</highlighted_element>
+  <language>JAVA</language>
+  <offset>112</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/MenuItemValidator.java</file>
+  <line>26</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.MenuItemValidator boolean isValid(java.lang.Integer value)" />
+  <problem_class id="AutoUnboxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-unboxing</problem_class>
+  <description>Auto-unboxing &lt;code&gt;value&lt;/code&gt; #loc</description>
+  <highlighted_element>value</highlighted_element>
+  <language>JAVA</language>
+  <offset>32</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/MenuItemValidator.java</file>
+  <line>26</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.MenuItemValidator boolean isValid(java.lang.Integer value)" />
+  <problem_class id="AutoUnboxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-unboxing</problem_class>
+  <description>Auto-unboxing &lt;code&gt;value&lt;/code&gt; #loc</description>
+  <highlighted_element>value</highlighted_element>
+  <language>JAVA</language>
+  <offset>45</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/PositiveIntegerValidator.java</file>
+  <line>19</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.PositiveIntegerValidator boolean isValid(java.lang.Integer value)" />
+  <problem_class id="AutoUnboxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-unboxing</problem_class>
+  <description>Auto-unboxing &lt;code&gt;value&lt;/code&gt; #loc</description>
+  <highlighted_element>value</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/PositiveIntegerValidator.java</file>
+  <line>24</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.PositiveIntegerValidator boolean validate(java.lang.Integer input)" />
+  <problem_class id="AutoUnboxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-unboxing</problem_class>
+  <description>Auto-unboxing &lt;code&gt;input&lt;/code&gt; #loc</description>
+  <highlighted_element>input</highlighted_element>
+  <language>JAVA</language>
+  <offset>32</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/PositiveLongValidator.java</file>
+  <line>5</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.PositiveLongValidator boolean validate(java.lang.Long input)" />
+  <problem_class id="AutoUnboxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-unboxing</problem_class>
+  <description>Auto-unboxing &lt;code&gt;input&lt;/code&gt; #loc</description>
+  <highlighted_element>input</highlighted_element>
+  <language>JAVA</language>
+  <offset>32</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/PositiveLongValidator.java</file>
+  <line>19</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.PositiveLongValidator boolean isValid(java.lang.Long value)" />
+  <problem_class id="AutoUnboxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-unboxing</problem_class>
+  <description>Auto-unboxing &lt;code&gt;value&lt;/code&gt; #loc</description>
+  <highlighted_element>value</highlighted_element>
+  <language>JAVA</language>
+  <offset>32</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationUtils.java</file>
+  <line>37</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationUtils void validateCustomerId(java.lang.Long customerId)" />
+  <problem_class id="AutoUnboxing" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Auto-unboxing</problem_class>
+  <description>Auto-unboxing &lt;code&gt;customerId&lt;/code&gt; #loc</description>
+  <highlighted_element>customerId</highlighted_element>
+  <language>JAVA</language>
+  <offset>35</offset>
+  <length>10</length>
+</problem>
+</problems>

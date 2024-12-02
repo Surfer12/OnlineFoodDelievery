@@ -1,0 +1,41 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/factory/MenuItemFactory.java</file>
+  <line>13</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>factory</package>
+  <entry_point TYPE="method" FQNAME="factory.MenuItemFactory model.MenuItem createMenuItem(java.lang.String type, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="StringToUpperWithoutLocale" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Call to 'String.toUpperCase()' or 'toLowerCase()' without locale</problem_class>
+  <description>&lt;code&gt;String.toLowerCase()&lt;/code&gt; called without specifying a Locale using internationalized strings #loc</description>
+  <highlighted_element>toLowerCase</highlighted_element>
+  <language>JAVA</language>
+  <offset>26</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>92</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="StringToUpperWithoutLocale" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Call to 'String.toUpperCase()' or 'toLowerCase()' without locale</problem_class>
+  <description>&lt;code&gt;String.toUpperCase()&lt;/code&gt; called without specifying a Locale using internationalized strings #loc</description>
+  <highlighted_element>toUpperCase</highlighted_element>
+  <language>JAVA</language>
+  <offset>64</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>92</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="StringToUpperWithoutLocale" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Call to 'String.toUpperCase()' or 'toLowerCase()' without locale</problem_class>
+  <description>&lt;code&gt;String.toUpperCase()&lt;/code&gt; called without specifying a Locale using internationalized strings #loc</description>
+  <highlighted_element>toUpperCase</highlighted_element>
+  <language>JAVA</language>
+  <offset>64</offset>
+  <length>11</length>
+</problem>
+</problems>

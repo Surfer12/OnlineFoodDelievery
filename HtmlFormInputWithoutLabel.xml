@@ -1,0 +1,26 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>1178</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="HtmlFormInputWithoutLabel" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing associated label</problem_class>
+  <description>Missing associated label</description>
+  <highlighted_element>textarea</highlighted_element>
+  <language>XML</language>
+  <offset>11</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>1750</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="HtmlFormInputWithoutLabel" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing associated label</problem_class>
+  <description>Missing associated label</description>
+  <highlighted_element>input</highlighted_element>
+  <language>XML</language>
+  <offset>11</offset>
+  <length>5</length>
+</problem>
+</problems>

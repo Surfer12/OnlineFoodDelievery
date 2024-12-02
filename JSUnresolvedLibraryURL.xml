@@ -1,0 +1,842 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>30</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/light-3e154969b9f9.css</highlighted_element>
+  <language>HTML</language>
+  <offset>67</offset>
+  <length>61</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>30</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/dark-9c5b7a476542.css</highlighted_element>
+  <language>HTML</language>
+  <offset>197</offset>
+  <length>60</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>32</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/primer-primitives-4cf0d59ab51a.css</highlighted_element>
+  <language>HTML</language>
+  <offset>69</offset>
+  <length>73</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>33</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/primer-af846850481e.css</highlighted_element>
+  <language>HTML</language>
+  <offset>69</offset>
+  <length>62</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>34</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/global-8b10f05a77e6.css</highlighted_element>
+  <language>HTML</language>
+  <offset>69</offset>
+  <length>62</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>35</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/github-2f6e722088eb.css</highlighted_element>
+  <language>HTML</language>
+  <offset>69</offset>
+  <length>62</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>36</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/repository-9c77ed90200e.css</highlighted_element>
+  <language>HTML</language>
+  <offset>67</offset>
+  <length>66</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>37</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/releases-d27bae89dc62.css</highlighted_element>
+  <language>HTML</language>
+  <offset>65</offset>
+  <length>64</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>43</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/wp-runtime-6657579a8825.js</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>65</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>44</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/vendors-node_modules_dompurify_dist_purify_js-b73fdff77a4e.js</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>100</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>45</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/vendors-node_modules_oddbird_popover-polyfill_dist_popover_js...</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>116</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>46</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/vendors-node_modules_github_arianotify-polyfill_ariaNotify-po...</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>155</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>47</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/ui_packages_failbot_failbot_ts-93b6a0551aa9.js</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>85</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>48</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/environment-cd35650c2e9c.js</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>66</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>49</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/vendors-node_modules_primer_behaviors_dist_esm_index_mjs-4aa4...</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>111</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>50</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/vendors-node_modules_github_selector-observer_dist_index_esm_...</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>118</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>51</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/vendors-node_modules_github_relative-time-element_dist_index_...</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>118</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>52</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/vendors-node_modules_github_combobox-nav_dist_index_js-node_m...</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>155</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>53</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/vendors-node_modules_github_auto-complete-element_dist_index_...</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>155</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>54</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/vendors-node_modules_github_text-expander-element_dist_index_...</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>118</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>55</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/vendors-node_modules_github_filter-input-element_dist_index_j...</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>155</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>56</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/vendors-node_modules_github_mini-throttle_dist_index_js-node_...</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>155</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>57</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/vendors-node_modules_github_file-attachment-element_dist_inde...</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>155</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>58</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/github-elements-71486356f507.js</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>70</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>59</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/element-registry-e3ab8405ef80.js</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>71</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>60</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/vendors-node_modules_braintree_browser-detection_dist_browser...</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>155</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>61</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/vendors-node_modules_lit-html_lit-html_js-ce7225a304c5.js</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>96</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>62</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/vendors-node_modules_github_hydro-analytics-client_dist_analy...</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>155</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>63</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/vendors-node_modules_github_mini-throttle_dist_index_js-node_...</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>155</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>64</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/vendors-node_modules_github_turbo_dist_turbo_es2017-esm_js-85...</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>113</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>65</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/vendors-node_modules_github_remote-form_dist_index_js-node_mo...</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>155</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>66</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/vendors-node_modules_scroll-anchoring_dist_scroll-anchoring_e...</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>155</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>67</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/vendors-node_modules_color-convert_index_js-0e07cc183eed.js</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>98</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>68</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/vendors-node_modules_github_quote-selection_dist_index_js-nod...</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>155</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>69</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/ui_packages_updatable-content_updatable-content_ts-eae9df0dd5...</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>105</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>70</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/app_assets_modules_github_behaviors_task-list_ts-app_assets_m...</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>155</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>71</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/app_assets_modules_github_sticky-scroll-into-view_ts-7cbef09a...</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>107</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>72</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/app_assets_modules_github_behaviors_ajax-error_ts-app_assets_...</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>155</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>73</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/app_assets_modules_github_behaviors_commenting_edit_ts-app_as...</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>155</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>74</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/behaviors-a6e4c4c86bfa.js</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>64</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>75</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/vendors-node_modules_delegated-events_dist_index_js-node_modu...</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>148</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>76</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/notifications-global-3366f6b6298e.js</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>75</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>77</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/vendors-node_modules_virtualized-list_es_index_js-node_module...</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>152</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>78</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/vendors-node_modules_github_mini-throttle_dist_decorators_js-...</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>155</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>79</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/vendors-node_modules_github_file-attachment-element_dist_inde...</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>155</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>80</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/app_assets_modules_github_ref-selector_ts-043af64042a1.js</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>96</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>81</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/repositories-ce9ff2a57e1f.js</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>67</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>83</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/primer-react-765944243383.js</highlighted_element>
+  <language>HTML</language>
+  <offset>83</offset>
+  <length>67</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>84</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/react-core-cd0a67881543.js</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>65</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>85</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/react-lib-7b7b5264f6c1.js</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>64</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>86</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/octicons-react-45c3a19dd792.js</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>69</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>87</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/vendors-node_modules_tanstack_query-core_build_modern_queryCl...</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>123</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>88</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/vendors-node_modules_emotion_is-prop-valid_dist_emotion-is-pr...</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>155</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>89</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/vendors-node_modules_github_mini-throttle_dist_index_js-node_...</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>155</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>90</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/vendors-node_modules_oddbird_popover-polyfill_dist_popover-fn...</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>119</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>91</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/notifications-subscriptions-menu-3eda30673b32.js</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>87</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>92</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/primer-react.9fa170e9435ed4b922b9.module.css</highlighted_element>
+  <language>HTML</language>
+  <offset>65</offset>
+  <length>83</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>93</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/notifications-subscriptions-menu.1bcff9205c241e99cff2.module....</highlighted_element>
+  <language>HTML</language>
+  <offset>65</offset>
+  <length>103</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>222</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/primer-react-765944243383.js</highlighted_element>
+  <language>HTML</language>
+  <offset>87</offset>
+  <length>67</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>223</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/react-core-cd0a67881543.js</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>65</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>224</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/react-lib-7b7b5264f6c1.js</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>64</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>225</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/octicons-react-45c3a19dd792.js</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>69</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>226</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/vendors-node_modules_tanstack_query-core_build_modern_queryCl...</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>123</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>227</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/vendors-node_modules_emotion_is-prop-valid_dist_emotion-is-pr...</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>155</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>228</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/vendors-node_modules_github_mini-throttle_dist_index_js-node_...</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>155</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>229</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/vendors-node_modules_oddbird_popover-polyfill_dist_popover-fn...</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>119</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>230</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/keyboard-shortcuts-dialog-f3cc184507a7.js</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>80</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>231</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/primer-react.9fa170e9435ed4b922b9.module.css</highlighted_element>
+  <language>HTML</language>
+  <offset>65</offset>
+  <length>83</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>251</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/vendors-node_modules_github_remote-form_dist_index_js-node_mo...</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>155</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>252</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="JSUnresolvedLibraryURL" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missed locally stored library for HTTP link</problem_class>
+  <description>Missed locally stored library for HTTP link</description>
+  <highlighted_element>https://github.githubassets.com/assets/sessions-8fa3b694f335.js</highlighted_element>
+  <language>HTML</language>
+  <offset>81</offset>
+  <length>63</length>
+</problem>
+</problems>

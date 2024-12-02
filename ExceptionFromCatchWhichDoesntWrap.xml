@@ -1,0 +1,41 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>47</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateNumericInput(java.lang.String input, java.lang.String fieldName)" />
+  <problem_class id="ExceptionFromCatchWhichDoesntWrap" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'throw' inside 'catch' block which ignores the caught exception</problem_class>
+  <description>&lt;code&gt;throw&lt;/code&gt; inside 'catch' block ignores the caught exception #loc</description>
+  <highlighted_element>throw</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>47</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validateNumericInput(java.lang.String input, java.lang.String fieldName)" />
+  <problem_class id="ExceptionFromCatchWhichDoesntWrap" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'throw' inside 'catch' block which ignores the caught exception</problem_class>
+  <description>&lt;code&gt;throw&lt;/code&gt; inside 'catch' block ignores the caught exception #loc</description>
+  <highlighted_element>throw</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/OrderValidator.java</file>
+  <line>29</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.OrderValidator void validateOrder(model.Order order)" />
+  <problem_class id="ExceptionFromCatchWhichDoesntWrap" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'throw' inside 'catch' block which ignores the caught exception</problem_class>
+  <description>&lt;code&gt;throw&lt;/code&gt; inside 'catch' block ignores the caught exception #loc</description>
+  <highlighted_element>throw</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>5</length>
+</problem>
+</problems>

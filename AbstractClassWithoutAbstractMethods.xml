@@ -1,0 +1,15 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Person.java</file>
+  <line>3</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="class" FQNAME="model.Person" />
+  <problem_class id="AbstractClassWithoutAbstractMethods" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Abstract class without 'abstract' methods</problem_class>
+  <description>Class &lt;code&gt;Person&lt;/code&gt; is declared 'abstract', and has no 'abstract' methods #loc</description>
+  <highlighted_element>Person</highlighted_element>
+  <language>JAVA</language>
+  <offset>22</offset>
+  <length>6</length>
+</problem>
+</problems>

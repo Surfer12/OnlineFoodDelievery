@@ -1,0 +1,14 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/gradlew.bat</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gradlew.bat" />
+  <problem_class id="InconsistentLineSeparators" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Inconsistent line separators</problem_class>
+  <description>Line separators in the current file (\r\n) differ from the project defaults (\n)</description>
+  <highlighted_element>@rem @rem Copyright 2015 the original author or authors. @rem @rem Licensed under the Apache License...</highlighted_element>
+  <language>textmate</language>
+  <offset>0</offset>
+  <length>2872</length>
+</problem>
+</problems>

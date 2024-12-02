@@ -1,0 +1,15 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Person.java</file>
+  <line>3</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="class" FQNAME="model.Person" />
+  <problem_class id="AbstractClassWithOnlyOneDirectInheritor" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Abstract class with a single direct inheritor</problem_class>
+  <description>Abstract class &lt;code&gt;Person&lt;/code&gt; has only one direct inheritor #loc</description>
+  <highlighted_element>Person</highlighted_element>
+  <language>JAVA</language>
+  <offset>22</offset>
+  <length>6</length>
+</problem>
+</problems>

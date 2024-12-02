@@ -1,0 +1,15 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>40</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void forceGarbageCollection()" />
+  <problem_class id="SystemGC" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Call to 'System.gc()' or 'Runtime.gc()'</problem_class>
+  <description>&lt;code&gt;System.gc()&lt;/code&gt; should not be called in production code #loc</description>
+  <highlighted_element>System.gc()</highlighted_element>
+  <language>JAVA</language>
+  <offset>8</offset>
+  <length>11</length>
+</problem>
+</problems>

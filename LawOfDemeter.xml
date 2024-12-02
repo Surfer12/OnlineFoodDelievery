@@ -1,0 +1,171 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/Application.java</file>
+  <line>45</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.Application void main(java.lang.String[] args)" />
+  <problem_class id="LawOfDemeter" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Law of Demeter</problem_class>
+  <description>Call to &lt;code&gt;getOrderId()&lt;/code&gt; violates Law of Demeter #loc</description>
+  <highlighted_element>getOrderId</highlighted_element>
+  <language>JAVA</language>
+  <offset>50</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>59</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI void start()" />
+  <problem_class id="LawOfDemeter" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Law of Demeter</problem_class>
+  <description>Call to &lt;code&gt;handleInput()&lt;/code&gt; violates Law of Demeter #loc</description>
+  <highlighted_element>handleInput</highlighted_element>
+  <language>JAVA</language>
+  <offset>75</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>78</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI void start()" />
+  <problem_class id="LawOfDemeter" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Law of Demeter</problem_class>
+  <description>Call to &lt;code&gt;getOrderById()&lt;/code&gt; violates Law of Demeter #loc</description>
+  <highlighted_element>getOrderById</highlighted_element>
+  <language>JAVA</language>
+  <offset>60</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>79</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI void start()" />
+  <problem_class id="LawOfDemeter" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Law of Demeter</problem_class>
+  <description>Call to &lt;code&gt;handleInput()&lt;/code&gt; violates Law of Demeter #loc</description>
+  <highlighted_element>handleInput</highlighted_element>
+  <language>JAVA</language>
+  <offset>70</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>84</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void rateDriver(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; menuChoiceHandler)" />
+  <problem_class id="LawOfDemeter" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Law of Demeter</problem_class>
+  <description>Call to &lt;code&gt;getName()&lt;/code&gt; violates Law of Demeter #loc</description>
+  <highlighted_element>getName</highlighted_element>
+  <language>JAVA</language>
+  <offset>43</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>118</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrderInteractive(java.util.Scanner scanner, managers.OrderManager orderManager)" />
+  <problem_class id="LawOfDemeter" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Law of Demeter</problem_class>
+  <description>Call to &lt;code&gt;handleInput()&lt;/code&gt; violates Law of Demeter #loc</description>
+  <highlighted_element>handleInput</highlighted_element>
+  <language>JAVA</language>
+  <offset>56</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>125</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrderInteractive(java.util.Scanner scanner, managers.OrderManager orderManager)" />
+  <problem_class id="LawOfDemeter" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Law of Demeter</problem_class>
+  <description>Call to &lt;code&gt;getOrderById()&lt;/code&gt; violates Law of Demeter #loc</description>
+  <highlighted_element>getOrderById</highlighted_element>
+  <language>JAVA</language>
+  <offset>53</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>44</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="LawOfDemeter" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Law of Demeter</problem_class>
+  <description>Call to &lt;code&gt;getOrderId()&lt;/code&gt; violates Law of Demeter #loc</description>
+  <highlighted_element>getOrderId</highlighted_element>
+  <language>JAVA</language>
+  <offset>82</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>44</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="LawOfDemeter" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Law of Demeter</problem_class>
+  <description>Call to &lt;code&gt;getOrderId()&lt;/code&gt; violates Law of Demeter #loc</description>
+  <highlighted_element>getOrderId</highlighted_element>
+  <language>JAVA</language>
+  <offset>82</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>45</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="LawOfDemeter" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Law of Demeter</problem_class>
+  <description>Call to &lt;code&gt;getOrderId()&lt;/code&gt; violates Law of Demeter #loc</description>
+  <highlighted_element>getOrderId</highlighted_element>
+  <language>JAVA</language>
+  <offset>64</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>45</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="LawOfDemeter" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Law of Demeter</problem_class>
+  <description>Call to &lt;code&gt;getOrderId()&lt;/code&gt; violates Law of Demeter #loc</description>
+  <highlighted_element>getOrderId</highlighted_element>
+  <language>JAVA</language>
+  <offset>64</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>63</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void checkOrderStatus(java.util.Scanner scanner)" />
+  <problem_class id="LawOfDemeter" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Law of Demeter</problem_class>
+  <description>Call to &lt;code&gt;getStatus()&lt;/code&gt; violates Law of Demeter #loc</description>
+  <highlighted_element>getStatus</highlighted_element>
+  <language>JAVA</language>
+  <offset>60</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>63</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void checkOrderStatus(java.util.Scanner scanner)" />
+  <problem_class id="LawOfDemeter" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Law of Demeter</problem_class>
+  <description>Call to &lt;code&gt;getStatus()&lt;/code&gt; violates Law of Demeter #loc</description>
+  <highlighted_element>getStatus</highlighted_element>
+  <language>JAVA</language>
+  <offset>60</offset>
+  <length>9</length>
+</problem>
+</problems>

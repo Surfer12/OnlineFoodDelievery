@@ -1,0 +1,41 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/OrderStatus.java</file>
+  <line>3</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="class" FQNAME="model.OrderStatus" />
+  <problem_class id="EnumClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Enumerated class</problem_class>
+  <description>Enumerated class &lt;code&gt;OrderStatus&lt;/code&gt; #loc</description>
+  <highlighted_element>OrderStatus</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Size.java</file>
+  <line>3</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="class" FQNAME="model.Size" />
+  <problem_class id="EnumClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Enumerated class</problem_class>
+  <description>Enumerated class &lt;code&gt;Size&lt;/code&gt; #loc</description>
+  <highlighted_element>Size</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderEvent.java</file>
+  <line>3</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="class" FQNAME="observer.OrderEvent" />
+  <problem_class id="EnumClass" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Enumerated class</problem_class>
+  <description>Enumerated class &lt;code&gt;OrderEvent&lt;/code&gt; #loc</description>
+  <highlighted_element>OrderEvent</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>10</length>
+</problem>
+</problems>

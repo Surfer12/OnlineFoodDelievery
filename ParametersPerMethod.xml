@@ -1,0 +1,15 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/factory/MenuItemFactory.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>factory</package>
+  <entry_point TYPE="method" FQNAME="factory.MenuItemFactory model.MenuItem createMenuItem(java.lang.String type, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="ParametersPerMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Method with too many parameters</problem_class>
+  <description>&lt;code&gt;createMenuItem()&lt;/code&gt; has too many parameters (num parameters = 6) #loc</description>
+  <highlighted_element>createMenuItem</highlighted_element>
+  <language>JAVA</language>
+  <offset>26</offset>
+  <length>14</length>
+</problem>
+</problems>

@@ -1,0 +1,28 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>93</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="LiteralAsArgToStringEquals" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String literal may be 'equals()' qualifier</problem_class>
+  <description>Literal &quot;Y&quot; is argument of 'equals()', instead of its qualifier #loc</description>
+  <highlighted_element>&quot;Y&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>40</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>93</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="LiteralAsArgToStringEquals" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String literal may be 'equals()' qualifier</problem_class>
+  <description>Literal &quot;Y&quot; is argument of 'equals()', instead of its qualifier #loc</description>
+  <highlighted_element>&quot;Y&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>40</offset>
+  <length>3</length>
+</problem>
+</problems>

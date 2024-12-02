@@ -2,14 +2,16 @@ package services;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
+import java.util.Queue;
 
 import model.MenuItem;
 import model.Order;
 
 public class OrderServiceImpl implements OrderService {
-    private List<Order> orders = new ArrayList<>();
+    private final Queue<Order> orderQueue = new LinkedList<>();
 
     @Override
     public Order getOrderById(Long orderId) {
@@ -26,7 +28,7 @@ public class OrderServiceImpl implements OrderService {
         }
 
         Order newOrder = new Order(0L, "New Order", items, null);
-        this.orders.add(newOrder);
+        orderQueue.add(newOrder);
         return newOrder;
     }
 
@@ -60,7 +62,6 @@ public class OrderServiceImpl implements OrderService {
 
     @Override
     public List<Order> getAllOrders() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getAllOrders'");
+        return new ArrayList<>(orderQueue);
     }
 }

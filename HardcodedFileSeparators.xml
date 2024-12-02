@@ -1,0 +1,54 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>91</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="HardcodedFileSeparators" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded file separator</problem_class>
+  <description>Hardcoded file separator &lt;code&gt;/&lt;/code&gt; #loc</description>
+  <highlighted_element>/</highlighted_element>
+  <language>JAVA</language>
+  <offset>81</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>91</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="HardcodedFileSeparators" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded file separator</problem_class>
+  <description>Hardcoded file separator &lt;code&gt;/&lt;/code&gt; #loc</description>
+  <highlighted_element>/</highlighted_element>
+  <language>JAVA</language>
+  <offset>81</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>98</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validatePhoneNumber(java.lang.String phoneNumber)" />
+  <problem_class id="HardcodedFileSeparators" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded file separator</problem_class>
+  <description>Hardcoded file separator &lt;code&gt;\\&lt;/code&gt; #loc</description>
+  <highlighted_element>\\</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>98</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validatePhoneNumber(java.lang.String phoneNumber)" />
+  <problem_class id="HardcodedFileSeparators" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded file separator</problem_class>
+  <description>Hardcoded file separator &lt;code&gt;\\&lt;/code&gt; #loc</description>
+  <highlighted_element>\\</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>2</length>
+</problem>
+</problems>

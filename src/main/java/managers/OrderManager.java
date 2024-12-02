@@ -3,9 +3,11 @@ package managers;
 import java.util.List;
 import java.util.Scanner;
 import java.util.logging.Logger;
+import java.util.stream.Collectors;
 
 import model.MenuItem;
 import model.Order;
+import model.OrderStatus;
 import queue.OrderQueue;
 import services.OrderService;
 import services.impl.OrderServiceImpl;
@@ -41,7 +43,9 @@ public class OrderManager {
             Order newOrder = this.orderService.createOrder(orderItems);
             this.orderQueue.enqueue(newOrder);
             this.orderService.displayOrderDetails(newOrder);
-            System.out.println("Order placed successfully! Order ID: " + newOrder.getOrderId());
+            System.out.println("Order placed successfully!");
+            System.out.println("Order ID: " + newOrder.getOrderId());
+            System.out.println("Total Amount: $" + newOrder.getTotalAmount());
             logger.info("New order added to queue: " + newOrder.getOrderId());
             return newOrder;
         } catch (CustomException.QueueFullException e) {
@@ -107,5 +111,11 @@ public class OrderManager {
         // This method could be moved to DriverManager if preferred
         DriverManager driverManager = new DriverManager();
         driverManager.assignDriverToOrder(scanner, order, this.orderIdHandler);
+    }
+
+    public List<Order> getPendingOrders() {
+        return this.orderService.getAllOrders().stream()
+                .filter(order -> order.getStatus() == OrderStatus.SUBMITTED)
+                .collect(Collectors.toList());
     }
 }

@@ -1,0 +1,28 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/MenuServiceImpl.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.MenuServiceImpl MenuServiceImpl()" />
+  <problem_class id="UnnecessaryConstructor" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Redundant no-arg constructor</problem_class>
+  <description>No-arg constructor &lt;code&gt;MenuServiceImpl()&lt;/code&gt; is redundant #loc</description>
+  <highlighted_element>MenuServiceImpl</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/PositiveIntegerValidator.java</file>
+  <line>5</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.PositiveIntegerValidator PositiveIntegerValidator()" />
+  <problem_class id="UnnecessaryConstructor" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Redundant no-arg constructor</problem_class>
+  <description>No-arg constructor &lt;code&gt;PositiveIntegerValidator()&lt;/code&gt; is redundant #loc</description>
+  <highlighted_element>PositiveIntegerValidator</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>24</length>
+</problem>
+</problems>

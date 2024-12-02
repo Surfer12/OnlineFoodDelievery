@@ -1,0 +1,14 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/bin/main/application.properties</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/bin/main/application.properties" />
+  <problem_class id="AlphaUnsortedPropertiesFile" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Properties file or resource bundle is alphabetically unsorted</problem_class>
+  <description>Properties file is alphabetically unsorted</description>
+  <highlighted_element># Actuator Endpoints management.endpoints.web.exposure.include=health,metrics,prometheus,heapdump,th...</highlighted_element>
+  <language>Properties</language>
+  <offset>0</offset>
+  <length>574</length>
+</problem>
+</problems>

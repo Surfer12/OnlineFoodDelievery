@@ -1,0 +1,11 @@
+<problems>
+<problem>
+  <package>CustomException</package>
+  <entry_point TYPE="package" FQNAME="CustomException" />
+  <problem_class id="PackageName" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Package naming convention</problem_class>
+  <hints />
+  <description>Package name &lt;code&gt;CustomException&lt;/code&gt; part should not start with an uppercase letter</description>
+  <highlighted_element />
+  <language />
+</problem>
+</problems>

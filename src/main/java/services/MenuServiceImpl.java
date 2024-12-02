@@ -6,10 +6,15 @@ import java.util.List;
 import model.MenuItem;
 
 public class MenuServiceImpl implements MenuService {
-    private List<MenuItem> menuItems = new ArrayList<>();
+    private final List<MenuItem> menuItems;
 
     public MenuServiceImpl() {
-        // Initialize menu items will be handled by the implementing class
+        this.menuItems = List.of(
+            new MenuItem("Hamburger", 5.99),
+            new MenuItem("Fries", 2.99),
+            new MenuItem("Drink", 1.99)
+            // Add more items if needed
+        );
     }
 
     @Override

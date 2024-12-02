@@ -1,0 +1,28 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>54</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void checkOrderStatus(java.util.Scanner scanner)" />
+  <problem_class id="NonBooleanMethodNameMayNotStartWithQuestion" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Non-boolean method name must not start with question word</problem_class>
+  <description>Non-boolean method name &lt;code&gt;checkOrderStatus&lt;/code&gt; starts with a question word #loc</description>
+  <highlighted_element>checkOrderStatus</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>54</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void checkOrderStatus(java.util.Scanner scanner)" />
+  <problem_class id="NonBooleanMethodNameMayNotStartWithQuestion" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Non-boolean method name must not start with question word</problem_class>
+  <description>Non-boolean method name &lt;code&gt;checkOrderStatus&lt;/code&gt; starts with a question word #loc</description>
+  <highlighted_element>checkOrderStatus</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>16</length>
+</problem>
+</problems>

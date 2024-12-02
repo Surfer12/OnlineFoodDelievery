@@ -1,0 +1,483 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystem.java</file>
+  <line>9</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="class" FQNAME="app.DeliverySystem" />
+  <problem_class id="ClassHasNoToStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class does not override 'toString()' method</problem_class>
+  <description>Class 'DeliverySystem' does not override 'toString()' method</description>
+  <highlighted_element>DeliverySystem</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>13</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="class" FQNAME="app.DeliverySystemCLI" />
+  <problem_class id="ClassHasNoToStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class does not override 'toString()' method</problem_class>
+  <description>Class 'DeliverySystemCLI' does not override 'toString()' method</description>
+  <highlighted_element>DeliverySystemCLI</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>13</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="class" FQNAME="app.util.MemoryMonitor" />
+  <problem_class id="ClassHasNoToStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class does not override 'toString()' method</problem_class>
+  <description>Class 'MemoryMonitor' does not override 'toString()' method</description>
+  <highlighted_element>MemoryMonitor</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/builder/OrderBuilder.java</file>
+  <line>6</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>builder</package>
+  <entry_point TYPE="class" FQNAME="builder.OrderBuilder" />
+  <problem_class id="ClassHasNoToStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class does not override 'toString()' method</problem_class>
+  <description>Class 'OrderBuilder' does not override 'toString()' method</description>
+  <highlighted_element>OrderBuilder</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>15</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="class" FQNAME="managers.DriverManager" />
+  <problem_class id="ClassHasNoToStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class does not override 'toString()' method</problem_class>
+  <description>Class 'DriverManager' does not override 'toString()' method</description>
+  <highlighted_element>DriverManager</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>14</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="class" FQNAME="managers.MenuManager" />
+  <problem_class id="ClassHasNoToStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class does not override 'toString()' method</problem_class>
+  <description>Class 'MenuManager' does not override 'toString()' method</description>
+  <highlighted_element>MenuManager</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>16</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="class" FQNAME="managers.OrderManager" />
+  <problem_class id="ClassHasNoToStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class does not override 'toString()' method</problem_class>
+  <description>Class 'OrderManager' does not override 'toString()' method</description>
+  <highlighted_element>OrderManager</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>16</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="class" FQNAME="managers.OrderManager" />
+  <problem_class id="ClassHasNoToStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class does not override 'toString()' method</problem_class>
+  <description>Class 'OrderManager' does not override 'toString()' method</description>
+  <highlighted_element>OrderManager</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Customer.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="class" FQNAME="model.Customer" />
+  <problem_class id="ClassHasNoToStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class does not override 'toString()' method</problem_class>
+  <description>Class 'Customer' does not override 'toString()' method</description>
+  <highlighted_element>Customer</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Drink.java</file>
+  <line>3</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="class" FQNAME="model.Drink" />
+  <problem_class id="ClassHasNoToStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class does not override 'toString()' method</problem_class>
+  <description>Class 'Drink' does not override 'toString()' method</description>
+  <highlighted_element>Drink</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>10</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="class" FQNAME="model.Driver" />
+  <problem_class id="ClassHasNoToStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class does not override 'toString()' method</problem_class>
+  <description>Class 'Driver' does not override 'toString()' method</description>
+  <highlighted_element>Driver</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Fries.java</file>
+  <line>3</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="class" FQNAME="model.Fries" />
+  <problem_class id="ClassHasNoToStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class does not override 'toString()' method</problem_class>
+  <description>Class 'Fries' does not override 'toString()' method</description>
+  <highlighted_element>Fries</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Hamburger.java</file>
+  <line>3</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="class" FQNAME="model.Hamburger" />
+  <problem_class id="ClassHasNoToStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class does not override 'toString()' method</problem_class>
+  <description>Class 'Hamburger' does not override 'toString()' method</description>
+  <highlighted_element>Hamburger</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Location.java</file>
+  <line>3</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="class" FQNAME="model.Location" />
+  <problem_class id="ClassHasNoToStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class does not override 'toString()' method</problem_class>
+  <description>Class 'Location' does not override 'toString()' method</description>
+  <highlighted_element>Location</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>7</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="class" FQNAME="model.Order" />
+  <problem_class id="ClassHasNoToStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class does not override 'toString()' method</problem_class>
+  <description>Class 'Order' does not override 'toString()' method</description>
+  <highlighted_element>Order</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Person.java</file>
+  <line>3</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="class" FQNAME="model.Person" />
+  <problem_class id="ClassHasNoToStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class does not override 'toString()' method</problem_class>
+  <description>Class 'Person' does not override 'toString()' method</description>
+  <highlighted_element>Person</highlighted_element>
+  <language>JAVA</language>
+  <offset>22</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Pizza.java</file>
+  <line>3</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="class" FQNAME="model.Pizza" />
+  <problem_class id="ClassHasNoToStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class does not override 'toString()' method</problem_class>
+  <description>Class 'Pizza' does not override 'toString()' method</description>
+  <highlighted_element>Pizza</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Salad.java</file>
+  <line>3</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="class" FQNAME="model.Salad" />
+  <problem_class id="ClassHasNoToStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class does not override 'toString()' method</problem_class>
+  <description>Class 'Salad' does not override 'toString()' method</description>
+  <highlighted_element>Salad</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderEvent.java</file>
+  <line>3</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="class" FQNAME="observer.OrderEvent" />
+  <problem_class id="ClassHasNoToStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class does not override 'toString()' method</problem_class>
+  <description>Class 'OrderEvent' does not override 'toString()' method</description>
+  <highlighted_element>OrderEvent</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderTrackingService.java</file>
+  <line>8</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="class" FQNAME="observer.OrderTrackingService" />
+  <problem_class id="ClassHasNoToStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class does not override 'toString()' method</problem_class>
+  <description>Class 'OrderTrackingService' does not override 'toString()' method</description>
+  <highlighted_element>OrderTrackingService</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/payment/Payment.java</file>
+  <line>5</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>payment</package>
+  <entry_point TYPE="class" FQNAME="payment.Payment" />
+  <problem_class id="ClassHasNoToStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class does not override 'toString()' method</problem_class>
+  <description>Class 'Payment' does not override 'toString()' method</description>
+  <highlighted_element>Payment</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/OrderQueue.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="class" FQNAME="queue.OrderQueue" />
+  <problem_class id="ClassHasNoToStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class does not override 'toString()' method</problem_class>
+  <description>Class 'OrderQueue' does not override 'toString()' method</description>
+  <highlighted_element>OrderQueue</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>10</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="class" FQNAME="rating.Rating" />
+  <problem_class id="ClassHasNoToStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class does not override 'toString()' method</problem_class>
+  <description>Class 'Rating' does not override 'toString()' method</description>
+  <highlighted_element>Rating</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>62</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="class" FQNAME="rating.Rating.Builder" />
+  <problem_class id="ClassHasNoToStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class does not override 'toString()' method</problem_class>
+  <description>Class 'Builder' does not override 'toString()' method</description>
+  <highlighted_element>Builder</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsHandler.java</file>
+  <line>10</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="class" FQNAME="rating.RatingsHandler" />
+  <problem_class id="ClassHasNoToStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class does not override 'toString()' method</problem_class>
+  <description>Class 'RatingsHandler' does not override 'toString()' method</description>
+  <highlighted_element>RatingsHandler</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/DriverServiceImpl.java</file>
+  <line>10</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="class" FQNAME="services.DriverServiceImpl" />
+  <problem_class id="ClassHasNoToStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class does not override 'toString()' method</problem_class>
+  <description>Class 'DriverServiceImpl' does not override 'toString()' method</description>
+  <highlighted_element>DriverServiceImpl</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/MenuServiceImpl.java</file>
+  <line>8</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="class" FQNAME="services.MenuServiceImpl" />
+  <problem_class id="ClassHasNoToStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class does not override 'toString()' method</problem_class>
+  <description>Class 'MenuServiceImpl' does not override 'toString()' method</description>
+  <highlighted_element>MenuServiceImpl</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="class" FQNAME="services.OrderServiceImpl" />
+  <problem_class id="ClassHasNoToStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class does not override 'toString()' method</problem_class>
+  <description>Class 'OrderServiceImpl' does not override 'toString()' method</description>
+  <highlighted_element>OrderServiceImpl</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/DriverServiceImpl.java</file>
+  <line>15</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="class" FQNAME="services.impl.DriverServiceImpl" />
+  <problem_class id="ClassHasNoToStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class does not override 'toString()' method</problem_class>
+  <description>Class 'DriverServiceImpl' does not override 'toString()' method</description>
+  <highlighted_element>DriverServiceImpl</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/MenuServiceImpl.java</file>
+  <line>13</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="class" FQNAME="services.impl.MenuServiceImpl" />
+  <problem_class id="ClassHasNoToStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class does not override 'toString()' method</problem_class>
+  <description>Class 'MenuServiceImpl' does not override 'toString()' method</description>
+  <highlighted_element>MenuServiceImpl</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="class" FQNAME="services.impl.OrderServiceImpl" />
+  <problem_class id="ClassHasNoToStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class does not override 'toString()' method</problem_class>
+  <description>Class 'OrderServiceImpl' does not override 'toString()' method</description>
+  <highlighted_element>OrderServiceImpl</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/tracker/OrderTracker.java</file>
+  <line>14</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>tracker</package>
+  <entry_point TYPE="class" FQNAME="tracker.OrderTracker" />
+  <problem_class id="ClassHasNoToStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class does not override 'toString()' method</problem_class>
+  <description>Class 'OrderTracker' does not override 'toString()' method</description>
+  <highlighted_element>OrderTracker</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>26</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="class" FQNAME="validation.ConsoleInputHandler" />
+  <problem_class id="ClassHasNoToStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class does not override 'toString()' method</problem_class>
+  <description>Class 'ConsoleInputHandler' does not override 'toString()' method</description>
+  <highlighted_element>ConsoleInputHandler</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidatorImpl.java</file>
+  <line>3</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="class" FQNAME="validation.InputValidatorImpl" />
+  <problem_class id="ClassHasNoToStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class does not override 'toString()' method</problem_class>
+  <description>Class 'InputValidatorImpl' does not override 'toString()' method</description>
+  <highlighted_element>InputValidatorImpl</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/MenuItemValidator.java</file>
+  <line>3</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="class" FQNAME="validation.MenuItemValidator" />
+  <problem_class id="ClassHasNoToStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class does not override 'toString()' method</problem_class>
+  <description>Class 'MenuItemValidator' does not override 'toString()' method</description>
+  <highlighted_element>MenuItemValidator</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>13</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="class" FQNAME="validation.ValidationHandler" />
+  <problem_class id="ClassHasNoToStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class does not override 'toString()' method</problem_class>
+  <description>Class 'ValidationHandler' does not override 'toString()' method</description>
+  <highlighted_element>ValidationHandler</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>21</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="class" FQNAME="app.DeliverySystemCLITest" />
+  <problem_class id="ClassHasNoToStringMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class does not override 'toString()' method</problem_class>
+  <description>Class 'DeliverySystemCLITest' does not override 'toString()' method</description>
+  <highlighted_element>DeliverySystemCLITest</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>21</length>
+</problem>
+</problems>

@@ -1,0 +1,41 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>40</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI DeliverySystemCLI()" />
+  <problem_class id="ImplicitDefaultCharsetUsage" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Implicit platform default charset</problem_class>
+  <description>&lt;code&gt;new Scanner()&lt;/code&gt; call uses the platform's default charset</description>
+  <highlighted_element>Scanner</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>37</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler ConsoleInputHandler(validation.InputValidator&lt;T&gt; inputValidator)" />
+  <problem_class id="ImplicitDefaultCharsetUsage" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Implicit platform default charset</problem_class>
+  <description>&lt;code&gt;new Scanner()&lt;/code&gt; call uses the platform's default charset</description>
+  <highlighted_element>Scanner</highlighted_element>
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>23</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler ValidationHandler(validation.Validator&lt;T&gt; validator, java.lang.String typeName, java.lang.String errorMessage)" />
+  <problem_class id="ImplicitDefaultCharsetUsage" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Implicit platform default charset</problem_class>
+  <description>&lt;code&gt;new Scanner()&lt;/code&gt; call uses the platform's default charset</description>
+  <highlighted_element>Scanner</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>7</length>
+</problem>
+</problems>

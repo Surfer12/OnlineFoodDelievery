@@ -1,0 +1,314 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>17</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void logMemoryUsage()" />
+  <problem_class id="ImplicitNumericConversion" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Implicit numeric conversion</problem_class>
+  <description>Implicit numeric conversion of &lt;code&gt;60000&lt;/code&gt; from 'int' to 'long' #loc</description>
+  <highlighted_element>60000</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>23</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void logMemoryUsage()" />
+  <problem_class id="ImplicitNumericConversion" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Implicit numeric conversion</problem_class>
+  <description>Implicit numeric conversion of &lt;code&gt;(1024 * 1024)&lt;/code&gt; from 'int' to 'long' #loc</description>
+  <highlighted_element>(1024 * 1024)</highlighted_element>
+  <language>JAVA</language>
+  <offset>74</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>24</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void logMemoryUsage()" />
+  <problem_class id="ImplicitNumericConversion" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Implicit numeric conversion</problem_class>
+  <description>Implicit numeric conversion of &lt;code&gt;(1024 * 1024)&lt;/code&gt; from 'int' to 'long' #loc</description>
+  <highlighted_element>(1024 * 1024)</highlighted_element>
+  <language>JAVA</language>
+  <offset>84</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>25</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void logMemoryUsage()" />
+  <problem_class id="ImplicitNumericConversion" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Implicit numeric conversion</problem_class>
+  <description>Implicit numeric conversion of &lt;code&gt;(1024 * 1024)&lt;/code&gt; from 'int' to 'long' #loc</description>
+  <highlighted_element>(1024 * 1024)</highlighted_element>
+  <language>JAVA</language>
+  <offset>72</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>28</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void logMemoryUsage()" />
+  <problem_class id="ImplicitNumericConversion" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Implicit numeric conversion</problem_class>
+  <description>Implicit numeric conversion of &lt;code&gt;(1024 * 1024)&lt;/code&gt; from 'int' to 'long' #loc</description>
+  <highlighted_element>(1024 * 1024)</highlighted_element>
+  <language>JAVA</language>
+  <offset>77</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>29</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void logMemoryUsage()" />
+  <problem_class id="ImplicitNumericConversion" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Implicit numeric conversion</problem_class>
+  <description>Implicit numeric conversion of &lt;code&gt;(1024 * 1024)&lt;/code&gt; from 'int' to 'long' #loc</description>
+  <highlighted_element>(1024 * 1024)</highlighted_element>
+  <language>JAVA</language>
+  <offset>87</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>30</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void logMemoryUsage()" />
+  <problem_class id="ImplicitNumericConversion" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Implicit numeric conversion</problem_class>
+  <description>Implicit numeric conversion of &lt;code&gt;(1024 * 1024)&lt;/code&gt; from 'int' to 'long' #loc</description>
+  <highlighted_element>(1024 * 1024)</highlighted_element>
+  <language>JAVA</language>
+  <offset>75</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>33</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void logMemoryUsage()" />
+  <problem_class id="ImplicitNumericConversion" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Implicit numeric conversion</problem_class>
+  <description>Implicit numeric conversion of &lt;code&gt;heapMemoryUsage.getMax()&lt;/code&gt; from 'long' to 'double' #loc</description>
+  <highlighted_element>heapMemoryUsage.getMax()</highlighted_element>
+  <language>JAVA</language>
+  <offset>49</offset>
+  <length>24</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Drink.java</file>
+  <line>28</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Drink double getPrice()" />
+  <problem_class id="ImplicitNumericConversion" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Implicit numeric conversion</problem_class>
+  <description>Implicit numeric conversion of &lt;code&gt;this.quantity&lt;/code&gt; from 'int' to 'double' #loc</description>
+  <highlighted_element>this.quantity</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Fries.java</file>
+  <line>28</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Fries double getPrice()" />
+  <problem_class id="ImplicitNumericConversion" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Implicit numeric conversion</problem_class>
+  <description>Implicit numeric conversion of &lt;code&gt;this.quantity&lt;/code&gt; from 'int' to 'double' #loc</description>
+  <highlighted_element>this.quantity</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Hamburger.java</file>
+  <line>28</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Hamburger double getPrice()" />
+  <problem_class id="ImplicitNumericConversion" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Implicit numeric conversion</problem_class>
+  <description>Implicit numeric conversion of &lt;code&gt;this.quantity&lt;/code&gt; from 'int' to 'double' #loc</description>
+  <highlighted_element>this.quantity</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Pizza.java</file>
+  <line>28</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Pizza double getPrice()" />
+  <problem_class id="ImplicitNumericConversion" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Implicit numeric conversion</problem_class>
+  <description>Implicit numeric conversion of &lt;code&gt;this.quantity&lt;/code&gt; from 'int' to 'double' #loc</description>
+  <highlighted_element>this.quantity</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Salad.java</file>
+  <line>28</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Salad double getPrice()" />
+  <problem_class id="ImplicitNumericConversion" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Implicit numeric conversion</problem_class>
+  <description>Implicit numeric conversion of &lt;code&gt;this.quantity&lt;/code&gt; from 'int' to 'double' #loc</description>
+  <highlighted_element>this.quantity</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>46</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating void validate()" />
+  <problem_class id="ImplicitNumericConversion" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Implicit numeric conversion</problem_class>
+  <description>Implicit numeric conversion of &lt;code&gt;0&lt;/code&gt; from 'int' to 'long' #loc</description>
+  <highlighted_element>0</highlighted_element>
+  <language>JAVA</language>
+  <offset>48</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>49</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating void validate()" />
+  <problem_class id="ImplicitNumericConversion" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Implicit numeric conversion</problem_class>
+  <description>Implicit numeric conversion of &lt;code&gt;0&lt;/code&gt; from 'int' to 'long' #loc</description>
+  <highlighted_element>0</highlighted_element>
+  <language>JAVA</language>
+  <offset>44</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>40</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="ImplicitNumericConversion" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Implicit numeric conversion</problem_class>
+  <description>Implicit numeric conversion of &lt;code&gt;0&lt;/code&gt; from 'int' to 'double' #loc</description>
+  <highlighted_element>0</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>41</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="ImplicitNumericConversion" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Implicit numeric conversion</problem_class>
+  <description>Implicit numeric conversion of &lt;code&gt;0&lt;/code&gt; from 'int' to 'double' #loc</description>
+  <highlighted_element>0</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/tracker/OrderTracker.java</file>
+  <line>84</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>tracker</package>
+  <entry_point TYPE="method" FQNAME="tracker.OrderTracker java.time.LocalDateTime calculateEstimatedDeliveryTime(model.Driver driver)" />
+  <problem_class id="ImplicitNumericConversion" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Implicit numeric conversion</problem_class>
+  <description>Implicit numeric conversion of &lt;code&gt;30&lt;/code&gt; from 'int' to 'long' #loc</description>
+  <highlighted_element>30</highlighted_element>
+  <language>JAVA</language>
+  <offset>45</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>63</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validatePositiveNumber(double number, java.lang.String fieldName)" />
+  <problem_class id="ImplicitNumericConversion" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Implicit numeric conversion</problem_class>
+  <description>Implicit numeric conversion of &lt;code&gt;0&lt;/code&gt; from 'int' to 'double' #loc</description>
+  <highlighted_element>0</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidationUtils.java</file>
+  <line>63</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidationUtils void validatePositiveNumber(double number, java.lang.String fieldName)" />
+  <problem_class id="ImplicitNumericConversion" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Implicit numeric conversion</problem_class>
+  <description>Implicit numeric conversion of &lt;code&gt;0&lt;/code&gt; from 'int' to 'double' #loc</description>
+  <highlighted_element>0</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/PositiveLongValidator.java</file>
+  <line>5</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.PositiveLongValidator boolean validate(java.lang.Long input)" />
+  <problem_class id="ImplicitNumericConversion" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Implicit numeric conversion</problem_class>
+  <description>Implicit numeric conversion of &lt;code&gt;0&lt;/code&gt; from 'int' to 'long' #loc</description>
+  <highlighted_element>0</highlighted_element>
+  <language>JAVA</language>
+  <offset>40</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/PositiveLongValidator.java</file>
+  <line>19</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.PositiveLongValidator boolean isValid(java.lang.Long value)" />
+  <problem_class id="ImplicitNumericConversion" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Implicit numeric conversion</problem_class>
+  <description>Implicit numeric conversion of &lt;code&gt;0&lt;/code&gt; from 'int' to 'long' #loc</description>
+  <highlighted_element>0</highlighted_element>
+  <language>JAVA</language>
+  <offset>40</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationUtils.java</file>
+  <line>37</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationUtils void validateCustomerId(java.lang.Long customerId)" />
+  <problem_class id="ImplicitNumericConversion" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Implicit numeric conversion</problem_class>
+  <description>Implicit numeric conversion of &lt;code&gt;0&lt;/code&gt; from 'int' to 'long' #loc</description>
+  <highlighted_element>0</highlighted_element>
+  <language>JAVA</language>
+  <offset>49</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationUtils.java</file>
+  <line>76</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationUtils void validateAmount(double amount, double maxAmount)" />
+  <problem_class id="ImplicitNumericConversion" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Implicit numeric conversion</problem_class>
+  <description>Implicit numeric conversion of &lt;code&gt;0&lt;/code&gt; from 'int' to 'double' #loc</description>
+  <highlighted_element>0</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>1</length>
+</problem>
+</problems>

@@ -1,0 +1,38 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/Copilot-Instructions.md</file>
+  <line>86</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Copilot-Instructions.md" />
+  <problem_class id="MarkdownUnresolvedHeaderReference" severity="WARNING" attribute_key="INFO_ATTRIBUTES">Unresolved header reference</problem_class>
+  <description>Cannot resolve anchor 9-adhereance-to-java-language-and-jvm-specifications</description>
+  <highlighted_element>9-adhereance-to-java-language-and-jvm-specifications</highlighted_element>
+  <language>Markdown</language>
+  <offset>56</offset>
+  <length>52</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Copilot-Instructions.md</file>
+  <line>89</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Copilot-Instructions.md" />
+  <problem_class id="MarkdownUnresolvedHeaderReference" severity="WARNING" attribute_key="INFO_ATTRIBUTES">Unresolved header reference</problem_class>
+  <description>Cannot resolve anchor 12-use-of-visual-ails-in-documentation</description>
+  <highlighted_element>12-use-of-visual-ails-in-documentation</highlighted_element>
+  <language>Markdown</language>
+  <offset>43</offset>
+  <length>38</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Copilot-Instructions.md</file>
+  <line>171</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Copilot-Instructions.md" />
+  <problem_class id="MarkdownUnresolvedHeaderReference" severity="WARNING" attribute_key="INFO_ATTRIBUTES">Unresolved header reference</problem_class>
+  <description>Cannot resolve anchor 1-role</description>
+  <highlighted_element>1-role</highlighted_element>
+  <language>Markdown</language>
+  <offset>11</offset>
+  <length>6</length>
+</problem>
+</problems>

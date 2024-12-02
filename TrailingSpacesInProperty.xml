@@ -1,0 +1,26 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/bin/main/application.properties</file>
+  <line>21</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/bin/main/application.properties" />
+  <problem_class id="TrailingSpacesInProperty" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Trailing spaces in property</problem_class>
+  <description>Trailing spaces</description>
+  <highlighted_element />
+  <language>Properties</language>
+  <offset>22</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/resources/application.properties</file>
+  <line>21</line>
+  <module>OnlineFoodDelievery.main</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/resources/application.properties" />
+  <problem_class id="TrailingSpacesInProperty" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Trailing spaces in property</problem_class>
+  <description>Trailing spaces</description>
+  <highlighted_element />
+  <language>Properties</language>
+  <offset>22</offset>
+  <length>1</length>
+</problem>
+</problems>

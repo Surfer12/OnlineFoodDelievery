@@ -1,0 +1,88 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/Copilot-Guidelines.md</file>
+  <line>2</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Copilot-Guidelines.md" />
+  <problem_class id="GrazieInspection" severity="GRAMMAR_ERROR" attribute_key="GRAMMAR_ERROR">Grammar</problem_class>
+  <description>The official name of this software platform is spelled with a capital &quot;H&quot;.</description>
+  <highlighted_element>github</highlighted_element>
+  <language>Markdown</language>
+  <offset>19</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Copilot-Guidelines.md</file>
+  <line>6</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Copilot-Guidelines.md" />
+  <problem_class id="GrazieInspection" severity="GRAMMAR_ERROR" attribute_key="GRAMMAR_ERROR">Grammar</problem_class>
+  <description>The official name of this software platform is spelled with a capital &quot;H&quot;.</description>
+  <highlighted_element>github</highlighted_element>
+  <language>Markdown</language>
+  <offset>36</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Copilot-Guidelines.md</file>
+  <line>14</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Copilot-Guidelines.md" />
+  <problem_class id="GrazieInspection" severity="GRAMMAR_ERROR" attribute_key="GRAMMAR_ERROR">Grammar</problem_class>
+  <description>Unpaired symbol: '&quot;' seems to be missing</description>
+  <highlighted_element>&quot;</highlighted_element>
+  <language>Markdown</language>
+  <offset>0</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Copilot-Guidelines.md</file>
+  <line>22</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Copilot-Guidelines.md" />
+  <problem_class id="GrazieInspection" severity="GRAMMAR_ERROR" attribute_key="GRAMMAR_ERROR">Grammar</problem_class>
+  <description>Unpaired symbol: '&quot;' seems to be missing</description>
+  <highlighted_element>&quot;</highlighted_element>
+  <language>Markdown</language>
+  <offset>91</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>1854</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="GrazieInspection" severity="GRAMMAR_ERROR" attribute_key="GRAMMAR_ERROR">Grammar</problem_class>
+  <description>Did you mean to fix?</description>
+  <highlighted_element>fix</highlighted_element>
+  <language>HTML</language>
+  <offset>14</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>17</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="class" FQNAME="validation.ConsoleInputHandler" />
+  <problem_class id="GrazieInspection" severity="GRAMMAR_ERROR" attribute_key="GRAMMAR_ERROR">Grammar</problem_class>
+  <description>Possible typo: you repeated a word</description>
+  <highlighted_element>Scanner scanner</highlighted_element>
+  <language>JAVA</language>
+  <offset>14</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>22</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="class" FQNAME="validation.ConsoleInputHandler" />
+  <problem_class id="GrazieInspection" severity="GRAMMAR_ERROR" attribute_key="GRAMMAR_ERROR">Grammar</problem_class>
+  <description>Unpaired symbol: '&quot;' seems to be missing</description>
+  <highlighted_element>&quot;</highlighted_element>
+  <language>JAVA</language>
+  <offset>56</offset>
+  <length>1</length>
+</problem>
+</problems>

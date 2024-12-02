@@ -1,0 +1,15 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/factory/MenuItemFactory.java</file>
+  <line>16</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>factory</package>
+  <entry_point TYPE="method" FQNAME="factory.MenuItemFactory model.MenuItem createMenuItem(java.lang.String type, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="DuplicateBranchesInSwitch" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Duplicate branches in 'switch'</problem_class>
+  <description>Duplicate branch in 'switch'</description>
+  <highlighted_element>new Hamburger(null, name, description, price, size, quantity);</highlighted_element>
+  <language>JAVA</language>
+  <offset>26</offset>
+  <length>62</length>
+</problem>
+</problems>

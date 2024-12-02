@@ -1,0 +1,12 @@
+<problems>
+<problem>
+  <file>OnlineFoodDelievery.test</file>
+  <module>OnlineFoodDelievery.test</module>
+  <entry_point TYPE="module" FQNAME="OnlineFoodDelievery.test" />
+  <problem_class id="ModuleWithTooFewClasses" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Module with too few classes</problem_class>
+  <hints />
+  <description>Module 'OnlineFoodDelievery.test' contains too few classes (1 &lt; 10)</description>
+  <highlighted_element />
+  <language />
+</problem>
+</problems>

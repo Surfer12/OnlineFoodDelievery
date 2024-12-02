@@ -1,0 +1,26 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>1856</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="HtmlDeprecatedTag" severity="WARNING" attribute_key="DEPRECATED_ATTRIBUTES">Obsolete tag</problem_class>
+  <description>Obsolete tag #loc</description>
+  <highlighted_element>tt</highlighted_element>
+  <language>XML</language>
+  <offset>122</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>1856</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="HtmlDeprecatedTag" severity="WARNING" attribute_key="DEPRECATED_ATTRIBUTES">Obsolete tag</problem_class>
+  <description>Obsolete tag #loc</description>
+  <highlighted_element>tt</highlighted_element>
+  <language>XML</language>
+  <offset>140</offset>
+  <length>2</length>
+</problem>
+</problems>

@@ -1,0 +1,132 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>93</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI void displayMainMenu()" />
+  <problem_class id="MethodMayBeStatic" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Method can be made 'static'</problem_class>
+  <description>Method &lt;code&gt;displayMainMenu()&lt;/code&gt; may be 'static' #loc</description>
+  <highlighted_element>displayMainMenu</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>38</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void forceGarbageCollection()" />
+  <problem_class id="MethodMayBeStatic" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Method can be made 'static'</problem_class>
+  <description>Method &lt;code&gt;forceGarbageCollection()&lt;/code&gt; may be 'static' #loc</description>
+  <highlighted_element>forceGarbageCollection</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>22</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>42</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService java.lang.String formatOrderConfirmationMessage(model.Order order)" />
+  <problem_class id="MethodMayBeStatic" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Method can be made 'static'</problem_class>
+  <description>Method &lt;code&gt;formatOrderConfirmationMessage()&lt;/code&gt; may be 'static' #loc</description>
+  <highlighted_element>formatOrderConfirmationMessage</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>30</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>56</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService java.lang.String formatEstimatedDeliveryTime(model.Order order)" />
+  <problem_class id="MethodMayBeStatic" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Method can be made 'static'</problem_class>
+  <description>Method &lt;code&gt;formatEstimatedDeliveryTime()&lt;/code&gt; may be 'static' #loc</description>
+  <highlighted_element>formatEstimatedDeliveryTime</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>27</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>62</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService java.lang.String formatStatusUpdateMessage(model.Order order, model.OrderStatus newStatus)" />
+  <problem_class id="MethodMayBeStatic" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Method can be made 'static'</problem_class>
+  <description>Method &lt;code&gt;formatStatusUpdateMessage()&lt;/code&gt; may be 'static' #loc</description>
+  <highlighted_element>formatStatusUpdateMessage</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>25</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>68</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService java.lang.String formatDeliveryCompletionMessage(model.Order order)" />
+  <problem_class id="MethodMayBeStatic" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Method can be made 'static'</problem_class>
+  <description>Method &lt;code&gt;formatDeliveryCompletionMessage()&lt;/code&gt; may be 'static' #loc</description>
+  <highlighted_element>formatDeliveryCompletionMessage</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>31</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>84</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService void sendSMS(java.lang.String recipientPhone, java.lang.String message)" />
+  <problem_class id="MethodMayBeStatic" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Method can be made 'static'</problem_class>
+  <description>Method &lt;code&gt;sendSMS()&lt;/code&gt; may be 'static' #loc</description>
+  <highlighted_element>sendSMS</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/tracker/OrderTracker.java</file>
+  <line>53</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>tracker</package>
+  <entry_point TYPE="method" FQNAME="tracker.OrderTracker boolean isDeliveryInProgress(model.OrderStatus status)" />
+  <problem_class id="MethodMayBeStatic" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Method can be made 'static'</problem_class>
+  <description>Method &lt;code&gt;isDeliveryInProgress()&lt;/code&gt; may be 'static' #loc</description>
+  <highlighted_element>isDeliveryInProgress</highlighted_element>
+  <language>JAVA</language>
+  <offset>19</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/tracker/OrderTracker.java</file>
+  <line>82</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>tracker</package>
+  <entry_point TYPE="method" FQNAME="tracker.OrderTracker java.time.LocalDateTime calculateEstimatedDeliveryTime(model.Driver driver)" />
+  <problem_class id="MethodMayBeStatic" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Method can be made 'static'</problem_class>
+  <description>Method &lt;code&gt;calculateEstimatedDeliveryTime()&lt;/code&gt; may be 'static' #loc</description>
+  <highlighted_element>calculateEstimatedDeliveryTime</highlighted_element>
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>30</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/OrderValidator.java</file>
+  <line>19</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.OrderValidator void validateOrder(model.Order order)" />
+  <problem_class id="MethodMayBeStatic" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Method can be made 'static'</problem_class>
+  <description>Method &lt;code&gt;validateOrder()&lt;/code&gt; may be 'static' #loc</description>
+  <highlighted_element>validateOrder</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>13</length>
+</problem>
+</problems>

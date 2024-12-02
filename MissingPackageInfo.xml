@@ -1,0 +1,146 @@
+<problems>
+<problem>
+  <package>app</package>
+  <entry_point TYPE="package" FQNAME="app" />
+  <problem_class id="MissingPackageInfo" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing 'package-info.java'</problem_class>
+  <hints />
+  <description>Package 'app' is missing a &lt;code&gt;package-info.java&lt;/code&gt; file</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <package>factory</package>
+  <entry_point TYPE="package" FQNAME="factory" />
+  <problem_class id="MissingPackageInfo" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing 'package-info.java'</problem_class>
+  <hints />
+  <description>Package 'factory' is missing a &lt;code&gt;package-info.java&lt;/code&gt; file</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <package>app.util</package>
+  <entry_point TYPE="package" FQNAME="app.util" />
+  <problem_class id="MissingPackageInfo" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing 'package-info.java'</problem_class>
+  <hints />
+  <description>Package 'app.util' is missing a &lt;code&gt;package-info.java&lt;/code&gt; file</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <package>services.impl</package>
+  <entry_point TYPE="package" FQNAME="services.impl" />
+  <problem_class id="MissingPackageInfo" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing 'package-info.java'</problem_class>
+  <hints />
+  <description>Package 'services.impl' is missing a &lt;code&gt;package-info.java&lt;/code&gt; file</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <package>rating</package>
+  <entry_point TYPE="package" FQNAME="rating" />
+  <problem_class id="MissingPackageInfo" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing 'package-info.java'</problem_class>
+  <hints />
+  <description>Package 'rating' is missing a &lt;code&gt;package-info.java&lt;/code&gt; file</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <package>CustomException</package>
+  <entry_point TYPE="package" FQNAME="CustomException" />
+  <problem_class id="MissingPackageInfo" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing 'package-info.java'</problem_class>
+  <hints />
+  <description>Package 'CustomException' is missing a &lt;code&gt;package-info.java&lt;/code&gt; file</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <package>services</package>
+  <entry_point TYPE="package" FQNAME="services" />
+  <problem_class id="MissingPackageInfo" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing 'package-info.java'</problem_class>
+  <hints />
+  <description>Package 'services' is missing a &lt;code&gt;package-info.java&lt;/code&gt; file</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <package>notification</package>
+  <entry_point TYPE="package" FQNAME="notification" />
+  <problem_class id="MissingPackageInfo" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing 'package-info.java'</problem_class>
+  <hints />
+  <description>Package 'notification' is missing a &lt;code&gt;package-info.java&lt;/code&gt; file</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <package>observer</package>
+  <entry_point TYPE="package" FQNAME="observer" />
+  <problem_class id="MissingPackageInfo" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing 'package-info.java'</problem_class>
+  <hints />
+  <description>Package 'observer' is missing a &lt;code&gt;package-info.java&lt;/code&gt; file</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <package>tracker</package>
+  <entry_point TYPE="package" FQNAME="tracker" />
+  <problem_class id="MissingPackageInfo" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing 'package-info.java'</problem_class>
+  <hints />
+  <description>Package 'tracker' is missing a &lt;code&gt;package-info.java&lt;/code&gt; file</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <package>builder</package>
+  <entry_point TYPE="package" FQNAME="builder" />
+  <problem_class id="MissingPackageInfo" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing 'package-info.java'</problem_class>
+  <hints />
+  <description>Package 'builder' is missing a &lt;code&gt;package-info.java&lt;/code&gt; file</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <package>model</package>
+  <entry_point TYPE="package" FQNAME="model" />
+  <problem_class id="MissingPackageInfo" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing 'package-info.java'</problem_class>
+  <hints />
+  <description>Package 'model' is missing a &lt;code&gt;package-info.java&lt;/code&gt; file</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <package>payment</package>
+  <entry_point TYPE="package" FQNAME="payment" />
+  <problem_class id="MissingPackageInfo" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing 'package-info.java'</problem_class>
+  <hints />
+  <description>Package 'payment' is missing a &lt;code&gt;package-info.java&lt;/code&gt; file</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <package>validation</package>
+  <entry_point TYPE="package" FQNAME="validation" />
+  <problem_class id="MissingPackageInfo" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing 'package-info.java'</problem_class>
+  <hints />
+  <description>Package 'validation' is missing a &lt;code&gt;package-info.java&lt;/code&gt; file</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <package>managers</package>
+  <entry_point TYPE="package" FQNAME="managers" />
+  <problem_class id="MissingPackageInfo" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing 'package-info.java'</problem_class>
+  <hints />
+  <description>Package 'managers' is missing a &lt;code&gt;package-info.java&lt;/code&gt; file</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <package>queue</package>
+  <entry_point TYPE="package" FQNAME="queue" />
+  <problem_class id="MissingPackageInfo" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing 'package-info.java'</problem_class>
+  <hints />
+  <description>Package 'queue' is missing a &lt;code&gt;package-info.java&lt;/code&gt; file</description>
+  <highlighted_element />
+  <language />
+</problem>
+</problems>

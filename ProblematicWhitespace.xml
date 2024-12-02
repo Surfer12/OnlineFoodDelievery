@@ -1,0 +1,38 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/OnlineFoodDelievery.code-workspace</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/OnlineFoodDelievery.code-workspace" />
+  <problem_class id="ProblematicWhitespace" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Problematic whitespace</problem_class>
+  <description>File 'OnlineFoodDelievery.code-workspace' uses tabs for indentation</description>
+  <highlighted_element>{ &quot;folders&quot;: [ { &quot;path&quot;: &quot;.&quot; } ], &quot;settings&quot;: { &quot;java.configuration.updateBuildConfigura...</highlighted_element>
+  <language>TEXT</language>
+  <offset>0</offset>
+  <length>172</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/docs/NeededUpdates/NeededUpdates.txt</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/docs/NeededUpdates/NeededUpdates.txt" />
+  <problem_class id="ProblematicWhitespace" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Problematic whitespace</problem_class>
+  <description>File 'NeededUpdates.txt' uses tabs for indentation</description>
+  <highlighted_element>• Add more detailed documentation for each class and method, including usage examples and explanatio...</highlighted_element>
+  <language>TEXT</language>
+  <offset>0</offset>
+  <length>1300</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/promptforproject</file>
+  <line>1</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/promptforproject" />
+  <problem_class id="ProblematicWhitespace" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Problematic whitespace</problem_class>
+  <description>File 'promptforproject' uses tabs for indentation</description>
+  <highlighted_element>Project Assignment: Online Food Delivery System (Java) Objective: This project aims to design and ...</highlighted_element>
+  <language>TEXT</language>
+  <offset>0</offset>
+  <length>3479</length>
+</problem>
+</problems>

@@ -1,0 +1,1120 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>27</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI DeliverySystemCLI(java.util.Scanner scanner, managers.MenuManager menuManager, managers.OrderManager orderManager, managers.DriverManager driverManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; emailHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; locationHandler)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;scanner&lt;/code&gt; hides field in class 'DeliverySystemCLI' #loc</description>
+  <highlighted_element>scanner</highlighted_element>
+  <language>JAVA</language>
+  <offset>43</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>27</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI DeliverySystemCLI(java.util.Scanner scanner, managers.MenuManager menuManager, managers.OrderManager orderManager, managers.DriverManager driverManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; emailHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; locationHandler)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;menuManager&lt;/code&gt; hides field in class 'DeliverySystemCLI' #loc</description>
+  <highlighted_element>menuManager</highlighted_element>
+  <language>JAVA</language>
+  <offset>70</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>27</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI DeliverySystemCLI(java.util.Scanner scanner, managers.MenuManager menuManager, managers.OrderManager orderManager, managers.DriverManager driverManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; emailHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; locationHandler)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;orderManager&lt;/code&gt; hides field in class 'DeliverySystemCLI' #loc</description>
+  <highlighted_element>orderManager</highlighted_element>
+  <language>JAVA</language>
+  <offset>102</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>28</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI DeliverySystemCLI(java.util.Scanner scanner, managers.MenuManager menuManager, managers.OrderManager orderManager, managers.DriverManager driverManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; emailHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; locationHandler)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;driverManager&lt;/code&gt; hides field in class 'DeliverySystemCLI' #loc</description>
+  <highlighted_element>driverManager</highlighted_element>
+  <language>JAVA</language>
+  <offset>32</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>28</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI DeliverySystemCLI(java.util.Scanner scanner, managers.MenuManager menuManager, managers.OrderManager orderManager, managers.DriverManager driverManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; emailHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; locationHandler)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;positiveIntegerHandler&lt;/code&gt; hides field in class 'DeliverySystemCLI' #loc</description>
+  <highlighted_element>positiveIntegerHandler</highlighted_element>
+  <language>JAVA</language>
+  <offset>82</offset>
+  <length>22</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>29</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI DeliverySystemCLI(java.util.Scanner scanner, managers.MenuManager menuManager, managers.OrderManager orderManager, managers.DriverManager driverManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; emailHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; locationHandler)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;emailHandler&lt;/code&gt; hides field in class 'DeliverySystemCLI' #loc</description>
+  <highlighted_element>emailHandler</highlighted_element>
+  <language>JAVA</language>
+  <offset>46</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>29</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI DeliverySystemCLI(java.util.Scanner scanner, managers.MenuManager menuManager, managers.OrderManager orderManager, managers.DriverManager driverManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; emailHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; locationHandler)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;locationHandler&lt;/code&gt; hides field in class 'DeliverySystemCLI' #loc</description>
+  <highlighted_element>locationHandler</highlighted_element>
+  <language>JAVA</language>
+  <offset>94</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/builder/OrderBuilder.java</file>
+  <line>13</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>builder</package>
+  <entry_point TYPE="method" FQNAME="builder.OrderBuilder builder.OrderBuilder withValidatedCustomerId(java.lang.Long customerId)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;customerId&lt;/code&gt; hides field in class 'OrderBuilder' #loc</description>
+  <highlighted_element>customerId</highlighted_element>
+  <language>JAVA</language>
+  <offset>58</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/builder/OrderBuilder.java</file>
+  <line>23</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>builder</package>
+  <entry_point TYPE="method" FQNAME="builder.OrderBuilder builder.OrderBuilder addItem(model.MenuItem item)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;item&lt;/code&gt; hides field in class 'OrderBuilder' #loc</description>
+  <highlighted_element>item</highlighted_element>
+  <language>JAVA</language>
+  <offset>46</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/builder/OrderBuilder.java</file>
+  <line>28</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>builder</package>
+  <entry_point TYPE="method" FQNAME="builder.OrderBuilder builder.OrderBuilder withDeliveryLocation(java.lang.String address, java.lang.String postalCode)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;postalCode&lt;/code&gt; hides field in class 'OrderBuilder' #loc</description>
+  <highlighted_element>postalCode</highlighted_element>
+  <language>JAVA</language>
+  <offset>79</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>69</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void rateDriver(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; menuChoiceHandler)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;menuChoiceHandler&lt;/code&gt; hides field in class 'DriverManager' #loc</description>
+  <highlighted_element>menuChoiceHandler</highlighted_element>
+  <language>JAVA</language>
+  <offset>86</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Drink.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Drink Drink(java.lang.Long id, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;id&lt;/code&gt; hides field in class 'Drink' #loc</description>
+  <highlighted_element>id</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Drink.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Drink Drink(java.lang.Long id, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;name&lt;/code&gt; hides field in class 'Drink' #loc</description>
+  <highlighted_element>name</highlighted_element>
+  <language>JAVA</language>
+  <offset>45</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Drink.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Drink Drink(java.lang.Long id, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;description&lt;/code&gt; hides field in class 'Drink' #loc</description>
+  <highlighted_element>description</highlighted_element>
+  <language>JAVA</language>
+  <offset>64</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Drink.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Drink Drink(java.lang.Long id, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;price&lt;/code&gt; hides field in class 'Drink' #loc</description>
+  <highlighted_element>price</highlighted_element>
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Drink.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Drink Drink(java.lang.Long id, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;size&lt;/code&gt; hides field in class 'Drink' #loc</description>
+  <highlighted_element>size</highlighted_element>
+  <language>JAVA</language>
+  <offset>43</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Drink.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Drink Drink(java.lang.Long id, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;quantity&lt;/code&gt; hides field in class 'Drink' #loc</description>
+  <highlighted_element>quantity</highlighted_element>
+  <language>JAVA</language>
+  <offset>59</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>20</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver Driver(java.lang.Long id, java.lang.String name, java.lang.String vehicleType, java.lang.String licensePlate)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;id&lt;/code&gt; hides field in class 'Driver' #loc</description>
+  <highlighted_element>id</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>20</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver Driver(java.lang.Long id, java.lang.String name, java.lang.String vehicleType, java.lang.String licensePlate)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;name&lt;/code&gt; hides field in class 'Driver' #loc</description>
+  <highlighted_element>name</highlighted_element>
+  <language>JAVA</language>
+  <offset>45</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>20</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver Driver(java.lang.Long id, java.lang.String name, java.lang.String vehicleType, java.lang.String licensePlate)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;vehicleType&lt;/code&gt; hides field in class 'Driver' #loc</description>
+  <highlighted_element>vehicleType</highlighted_element>
+  <language>JAVA</language>
+  <offset>64</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>20</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver Driver(java.lang.Long id, java.lang.String name, java.lang.String vehicleType, java.lang.String licensePlate)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;licensePlate&lt;/code&gt; hides field in class 'Driver' #loc</description>
+  <highlighted_element>licensePlate</highlighted_element>
+  <language>JAVA</language>
+  <offset>90</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>49</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver void setVehicle(java.lang.String vehicle)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;vehicle&lt;/code&gt; hides field in class 'Driver' #loc</description>
+  <highlighted_element>vehicle</highlighted_element>
+  <language>JAVA</language>
+  <offset>33</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>57</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver void setAvailable(boolean available)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;available&lt;/code&gt; hides field in class 'Driver' #loc</description>
+  <highlighted_element>available</highlighted_element>
+  <language>JAVA</language>
+  <offset>36</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Fries.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Fries Fries(java.lang.Long id, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;id&lt;/code&gt; hides field in class 'Fries' #loc</description>
+  <highlighted_element>id</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Fries.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Fries Fries(java.lang.Long id, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;name&lt;/code&gt; hides field in class 'Fries' #loc</description>
+  <highlighted_element>name</highlighted_element>
+  <language>JAVA</language>
+  <offset>45</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Fries.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Fries Fries(java.lang.Long id, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;description&lt;/code&gt; hides field in class 'Fries' #loc</description>
+  <highlighted_element>description</highlighted_element>
+  <language>JAVA</language>
+  <offset>64</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Fries.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Fries Fries(java.lang.Long id, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;price&lt;/code&gt; hides field in class 'Fries' #loc</description>
+  <highlighted_element>price</highlighted_element>
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Fries.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Fries Fries(java.lang.Long id, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;size&lt;/code&gt; hides field in class 'Fries' #loc</description>
+  <highlighted_element>size</highlighted_element>
+  <language>JAVA</language>
+  <offset>43</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Fries.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Fries Fries(java.lang.Long id, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;quantity&lt;/code&gt; hides field in class 'Fries' #loc</description>
+  <highlighted_element>quantity</highlighted_element>
+  <language>JAVA</language>
+  <offset>59</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Hamburger.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Hamburger Hamburger(java.lang.Long id, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;id&lt;/code&gt; hides field in class 'Hamburger' #loc</description>
+  <highlighted_element>id</highlighted_element>
+  <language>JAVA</language>
+  <offset>32</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Hamburger.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Hamburger Hamburger(java.lang.Long id, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;name&lt;/code&gt; hides field in class 'Hamburger' #loc</description>
+  <highlighted_element>name</highlighted_element>
+  <language>JAVA</language>
+  <offset>49</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Hamburger.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Hamburger Hamburger(java.lang.Long id, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;description&lt;/code&gt; hides field in class 'Hamburger' #loc</description>
+  <highlighted_element>description</highlighted_element>
+  <language>JAVA</language>
+  <offset>68</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Hamburger.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Hamburger Hamburger(java.lang.Long id, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;price&lt;/code&gt; hides field in class 'Hamburger' #loc</description>
+  <highlighted_element>price</highlighted_element>
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Hamburger.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Hamburger Hamburger(java.lang.Long id, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;size&lt;/code&gt; hides field in class 'Hamburger' #loc</description>
+  <highlighted_element>size</highlighted_element>
+  <language>JAVA</language>
+  <offset>43</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Hamburger.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Hamburger Hamburger(java.lang.Long id, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;quantity&lt;/code&gt; hides field in class 'Hamburger' #loc</description>
+  <highlighted_element>quantity</highlighted_element>
+  <language>JAVA</language>
+  <offset>59</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Location.java</file>
+  <line>7</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Location Location(java.lang.String address, java.lang.String postalCode)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;address&lt;/code&gt; hides field in class 'Location' #loc</description>
+  <highlighted_element>address</highlighted_element>
+  <language>JAVA</language>
+  <offset>33</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Location.java</file>
+  <line>7</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Location Location(java.lang.String address, java.lang.String postalCode)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;postalCode&lt;/code&gt; hides field in class 'Location' #loc</description>
+  <highlighted_element>postalCode</highlighted_element>
+  <language>JAVA</language>
+  <offset>55</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>18</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order Order(java.lang.Long customerId, java.lang.String customerEmail, java.util.List&lt;model.MenuItem&gt; items, model.Location deliveryLocation)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;customerId&lt;/code&gt; hides field in class 'Order' #loc</description>
+  <highlighted_element>customerId</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>18</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order Order(java.lang.Long customerId, java.lang.String customerEmail, java.util.List&lt;model.MenuItem&gt; items, model.Location deliveryLocation)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;customerEmail&lt;/code&gt; hides field in class 'Order' #loc</description>
+  <highlighted_element>customerEmail</highlighted_element>
+  <language>JAVA</language>
+  <offset>52</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>18</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order Order(java.lang.Long customerId, java.lang.String customerEmail, java.util.List&lt;model.MenuItem&gt; items, model.Location deliveryLocation)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;items&lt;/code&gt; hides field in class 'Order' #loc</description>
+  <highlighted_element>items</highlighted_element>
+  <language>JAVA</language>
+  <offset>88</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>19</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order Order(java.lang.Long customerId, java.lang.String customerEmail, java.util.List&lt;model.MenuItem&gt; items, model.Location deliveryLocation)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;deliveryLocation&lt;/code&gt; hides field in class 'Order' #loc</description>
+  <highlighted_element>deliveryLocation</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>30</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order Order(java.lang.Long customerId, java.lang.String customerEmail, model.MenuItem item, java.lang.String address, java.lang.String postalCode)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;customerId&lt;/code&gt; hides field in class 'Order' #loc</description>
+  <highlighted_element>customerId</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>30</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order Order(java.lang.Long customerId, java.lang.String customerEmail, model.MenuItem item, java.lang.String address, java.lang.String postalCode)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;customerEmail&lt;/code&gt; hides field in class 'Order' #loc</description>
+  <highlighted_element>customerEmail</highlighted_element>
+  <language>JAVA</language>
+  <offset>52</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>73</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order void setStatus(model.OrderStatus status)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;status&lt;/code&gt; hides field in class 'Order' #loc</description>
+  <highlighted_element>status</highlighted_element>
+  <language>JAVA</language>
+  <offset>37</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>81</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order void setEstimatedDeliveryTime(java.time.LocalDateTime estimatedDeliveryTime)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;estimatedDeliveryTime&lt;/code&gt; hides field in class 'Order' #loc</description>
+  <highlighted_element>estimatedDeliveryTime</highlighted_element>
+  <language>JAVA</language>
+  <offset>54</offset>
+  <length>21</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>93</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order void setDriver(model.Driver driver)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;driver&lt;/code&gt; hides field in class 'Order' #loc</description>
+  <highlighted_element>driver</highlighted_element>
+  <language>JAVA</language>
+  <offset>32</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Person.java</file>
+  <line>9</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Person Person(java.lang.Long id, java.lang.String name, java.lang.String email, java.lang.String address)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;id&lt;/code&gt; hides field in class 'Person' #loc</description>
+  <highlighted_element>id</highlighted_element>
+  <language>JAVA</language>
+  <offset>29</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Person.java</file>
+  <line>9</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Person Person(java.lang.Long id, java.lang.String name, java.lang.String email, java.lang.String address)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;name&lt;/code&gt; hides field in class 'Person' #loc</description>
+  <highlighted_element>name</highlighted_element>
+  <language>JAVA</language>
+  <offset>46</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Person.java</file>
+  <line>9</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Person Person(java.lang.Long id, java.lang.String name, java.lang.String email, java.lang.String address)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;email&lt;/code&gt; hides field in class 'Person' #loc</description>
+  <highlighted_element>email</highlighted_element>
+  <language>JAVA</language>
+  <offset>65</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Person.java</file>
+  <line>9</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Person Person(java.lang.Long id, java.lang.String name, java.lang.String email, java.lang.String address)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;address&lt;/code&gt; hides field in class 'Person' #loc</description>
+  <highlighted_element>address</highlighted_element>
+  <language>JAVA</language>
+  <offset>85</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Pizza.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Pizza Pizza(java.lang.Long id, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;id&lt;/code&gt; hides field in class 'Pizza' #loc</description>
+  <highlighted_element>id</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Pizza.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Pizza Pizza(java.lang.Long id, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;name&lt;/code&gt; hides field in class 'Pizza' #loc</description>
+  <highlighted_element>name</highlighted_element>
+  <language>JAVA</language>
+  <offset>45</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Pizza.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Pizza Pizza(java.lang.Long id, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;description&lt;/code&gt; hides field in class 'Pizza' #loc</description>
+  <highlighted_element>description</highlighted_element>
+  <language>JAVA</language>
+  <offset>64</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Pizza.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Pizza Pizza(java.lang.Long id, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;price&lt;/code&gt; hides field in class 'Pizza' #loc</description>
+  <highlighted_element>price</highlighted_element>
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Pizza.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Pizza Pizza(java.lang.Long id, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;size&lt;/code&gt; hides field in class 'Pizza' #loc</description>
+  <highlighted_element>size</highlighted_element>
+  <language>JAVA</language>
+  <offset>43</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Pizza.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Pizza Pizza(java.lang.Long id, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;quantity&lt;/code&gt; hides field in class 'Pizza' #loc</description>
+  <highlighted_element>quantity</highlighted_element>
+  <language>JAVA</language>
+  <offset>59</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Salad.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Salad Salad(java.lang.Long id, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;id&lt;/code&gt; hides field in class 'Salad' #loc</description>
+  <highlighted_element>id</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Salad.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Salad Salad(java.lang.Long id, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;name&lt;/code&gt; hides field in class 'Salad' #loc</description>
+  <highlighted_element>name</highlighted_element>
+  <language>JAVA</language>
+  <offset>45</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Salad.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Salad Salad(java.lang.Long id, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;description&lt;/code&gt; hides field in class 'Salad' #loc</description>
+  <highlighted_element>description</highlighted_element>
+  <language>JAVA</language>
+  <offset>64</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Salad.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Salad Salad(java.lang.Long id, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;price&lt;/code&gt; hides field in class 'Salad' #loc</description>
+  <highlighted_element>price</highlighted_element>
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Salad.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Salad Salad(java.lang.Long id, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;size&lt;/code&gt; hides field in class 'Salad' #loc</description>
+  <highlighted_element>size</highlighted_element>
+  <language>JAVA</language>
+  <offset>43</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Salad.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Salad Salad(java.lang.Long id, java.lang.String name, java.lang.String description, double price, model.Size size, int quantity)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;quantity&lt;/code&gt; hides field in class 'Salad' #loc</description>
+  <highlighted_element>quantity</highlighted_element>
+  <language>JAVA</language>
+  <offset>59</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderEvent.java</file>
+  <line>19</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="method" FQNAME="observer.OrderEvent OrderEvent(java.lang.String status)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;status&lt;/code&gt; hides field in class 'OrderEvent' #loc</description>
+  <highlighted_element>status</highlighted_element>
+  <language>JAVA</language>
+  <offset>22</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/payment/Payment.java</file>
+  <line>14</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>payment</package>
+  <entry_point TYPE="method" FQNAME="payment.Payment Payment(java.lang.Long orderId, java.lang.String paymentMethod, double amount)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;orderId&lt;/code&gt; hides field in class 'Payment' #loc</description>
+  <highlighted_element>orderId</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/payment/Payment.java</file>
+  <line>14</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>payment</package>
+  <entry_point TYPE="method" FQNAME="payment.Payment Payment(java.lang.Long orderId, java.lang.String paymentMethod, double amount)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;paymentMethod&lt;/code&gt; hides field in class 'Payment' #loc</description>
+  <highlighted_element>paymentMethod</highlighted_element>
+  <language>JAVA</language>
+  <offset>39</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/payment/Payment.java</file>
+  <line>14</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>payment</package>
+  <entry_point TYPE="method" FQNAME="payment.Payment Payment(java.lang.Long orderId, java.lang.String paymentMethod, double amount)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;amount&lt;/code&gt; hides field in class 'Payment' #loc</description>
+  <highlighted_element>amount</highlighted_element>
+  <language>JAVA</language>
+  <offset>61</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/OrderQueue.java</file>
+  <line>16</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="method" FQNAME="queue.OrderQueue OrderQueue(int maxSize)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;maxSize&lt;/code&gt; hides field in class 'OrderQueue' #loc</description>
+  <highlighted_element>maxSize</highlighted_element>
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>29</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating Rating(java.lang.Long customerId, java.lang.Long driverId, int score, java.lang.String comment)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;customerId&lt;/code&gt; hides field in class 'Rating' #loc</description>
+  <highlighted_element>customerId</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>29</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating Rating(java.lang.Long customerId, java.lang.Long driverId, int score, java.lang.String comment)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;driverId&lt;/code&gt; hides field in class 'Rating' #loc</description>
+  <highlighted_element>driverId</highlighted_element>
+  <language>JAVA</language>
+  <offset>40</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>29</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating Rating(java.lang.Long customerId, java.lang.Long driverId, int score, java.lang.String comment)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;score&lt;/code&gt; hides field in class 'Rating' #loc</description>
+  <highlighted_element>score</highlighted_element>
+  <language>JAVA</language>
+  <offset>54</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>29</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating Rating(java.lang.Long customerId, java.lang.Long driverId, int score, java.lang.String comment)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;comment&lt;/code&gt; hides field in class 'Rating' #loc</description>
+  <highlighted_element>comment</highlighted_element>
+  <language>JAVA</language>
+  <offset>68</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>69</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating.Builder rating.Rating.Builder customerId(java.lang.Long customerId)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;customerId&lt;/code&gt; hides field in class 'Builder' #loc</description>
+  <highlighted_element>customerId</highlighted_element>
+  <language>JAVA</language>
+  <offset>39</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>74</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating.Builder rating.Rating.Builder driverId(java.lang.Long driverId)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;driverId&lt;/code&gt; hides field in class 'Builder' #loc</description>
+  <highlighted_element>driverId</highlighted_element>
+  <language>JAVA</language>
+  <offset>37</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>79</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating.Builder rating.Rating.Builder score(int score)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;score&lt;/code&gt; hides field in class 'Builder' #loc</description>
+  <highlighted_element>score</highlighted_element>
+  <language>JAVA</language>
+  <offset>33</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>84</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating.Builder rating.Rating.Builder comment(java.lang.String comment)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;comment&lt;/code&gt; hides field in class 'Builder' #loc</description>
+  <highlighted_element>comment</highlighted_element>
+  <language>JAVA</language>
+  <offset>38</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsHandler.java</file>
+  <line>15</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsHandler RatingsHandler(int maxRatings)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;maxRatings&lt;/code&gt; hides field in class 'RatingsHandler' #loc</description>
+  <highlighted_element>maxRatings</highlighted_element>
+  <language>JAVA</language>
+  <offset>29</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>35</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler ConsoleInputHandler(validation.InputValidator&lt;T&gt; inputValidator)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;inputValidator&lt;/code&gt; hides field in class 'ConsoleInputHandler' #loc</description>
+  <highlighted_element>inputValidator</highlighted_element>
+  <language>JAVA</language>
+  <offset>54</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>110</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler T handleInput(java.util.Scanner scanner, java.lang.String prompt)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;scanner&lt;/code&gt; hides field in class 'ConsoleInputHandler' #loc</description>
+  <highlighted_element>scanner</highlighted_element>
+  <language>JAVA</language>
+  <offset>32</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>114</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler T handleInput(java.util.Scanner scanner, java.lang.String prompt, java.util.function.Predicate&lt;T&gt; condition)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;scanner&lt;/code&gt; hides field in class 'ConsoleInputHandler' #loc</description>
+  <highlighted_element>scanner</highlighted_element>
+  <language>JAVA</language>
+  <offset>32</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidatorImpl.java</file>
+  <line>8</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidatorImpl InputValidatorImpl(validation.Validator&lt;T&gt; validator, java.lang.String typeName, java.lang.String errorMessage)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;validator&lt;/code&gt; hides field in class 'InputValidatorImpl' #loc</description>
+  <highlighted_element>validator</highlighted_element>
+  <language>JAVA</language>
+  <offset>49</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidatorImpl.java</file>
+  <line>8</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidatorImpl InputValidatorImpl(validation.Validator&lt;T&gt; validator, java.lang.String typeName, java.lang.String errorMessage)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;typeName&lt;/code&gt; hides field in class 'InputValidatorImpl' #loc</description>
+  <highlighted_element>typeName</highlighted_element>
+  <language>JAVA</language>
+  <offset>73</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidatorImpl.java</file>
+  <line>8</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidatorImpl InputValidatorImpl(validation.Validator&lt;T&gt; validator, java.lang.String typeName, java.lang.String errorMessage)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;errorMessage&lt;/code&gt; hides field in class 'InputValidatorImpl' #loc</description>
+  <highlighted_element>errorMessage</highlighted_element>
+  <language>JAVA</language>
+  <offset>96</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/MenuItemValidator.java</file>
+  <line>6</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.MenuItemValidator MenuItemValidator(int maxMenuSize)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;maxMenuSize&lt;/code&gt; hides field in class 'MenuItemValidator' #loc</description>
+  <highlighted_element>maxMenuSize</highlighted_element>
+  <language>JAVA</language>
+  <offset>33</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>19</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler ValidationHandler(validation.Validator&lt;T&gt; validator, java.lang.String typeName, java.lang.String errorMessage)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;validator&lt;/code&gt; hides field in class 'ValidationHandler' #loc</description>
+  <highlighted_element>validator</highlighted_element>
+  <language>JAVA</language>
+  <offset>48</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>19</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler ValidationHandler(validation.Validator&lt;T&gt; validator, java.lang.String typeName, java.lang.String errorMessage)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;typeName&lt;/code&gt; hides field in class 'ValidationHandler' #loc</description>
+  <highlighted_element>typeName</highlighted_element>
+  <language>JAVA</language>
+  <offset>72</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>19</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler ValidationHandler(validation.Validator&lt;T&gt; validator, java.lang.String typeName, java.lang.String errorMessage)" />
+  <problem_class id="ParameterHidingMemberVariable" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Parameter hides field</problem_class>
+  <description>Parameter &lt;code&gt;errorMessage&lt;/code&gt; hides field in class 'ValidationHandler' #loc</description>
+  <highlighted_element>errorMessage</highlighted_element>
+  <language>JAVA</language>
+  <offset>95</offset>
+  <length>12</length>
+</problem>
+</problems>

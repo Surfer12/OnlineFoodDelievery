@@ -1,0 +1,28 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderObserver.java</file>
+  <line>5</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="class" FQNAME="observer.OrderObserver" />
+  <problem_class id="InterfaceNeverImplemented" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Interface which has no concrete subclass</problem_class>
+  <description>Interface &lt;code&gt;OrderObserver&lt;/code&gt; has no concrete subclass #loc</description>
+  <highlighted_element>OrderObserver</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/tracker/OrderObserver.java</file>
+  <line>6</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>tracker</package>
+  <entry_point TYPE="class" FQNAME="tracker.OrderObserver" />
+  <problem_class id="InterfaceNeverImplemented" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Interface which has no concrete subclass</problem_class>
+  <description>Interface &lt;code&gt;OrderObserver&lt;/code&gt; has no concrete subclass #loc</description>
+  <highlighted_element>OrderObserver</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>13</length>
+</problem>
+</problems>

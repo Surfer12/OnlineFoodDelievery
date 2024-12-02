@@ -1,0 +1,2602 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystem.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystem void submitOrder(model.Order order)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;submitOrder()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>submitOrder</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystem.java</file>
+  <line>17</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystem void assignOrderToDriver(model.Order order, model.Driver driver)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;assignOrderToDriver()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>assignOrderToDriver</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystem.java</file>
+  <line>22</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystem void completeDelivery(java.lang.Long orderId, java.lang.Long driverId)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;completeDelivery()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>completeDelivery</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystem.java</file>
+  <line>27</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystem java.lang.String getOrderStatus(java.lang.Long orderId)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getOrderStatus()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getOrderStatus</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>55</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI void start()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;start()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>start</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>18</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void logMemoryUsage()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;logMemoryUsage()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>logMemoryUsage</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/util/MemoryMonitor.java</file>
+  <line>38</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app.util</package>
+  <entry_point TYPE="method" FQNAME="app.util.MemoryMonitor void forceGarbageCollection()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;forceGarbageCollection()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>forceGarbageCollection</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>22</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/builder/OrderBuilder.java</file>
+  <line>13</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>builder</package>
+  <entry_point TYPE="method" FQNAME="builder.OrderBuilder builder.OrderBuilder withValidatedCustomerId(java.lang.Long customerId)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;withValidatedCustomerId()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>withValidatedCustomerId</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>23</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/builder/OrderBuilder.java</file>
+  <line>18</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>builder</package>
+  <entry_point TYPE="method" FQNAME="builder.OrderBuilder builder.OrderBuilder withCustomerEmail(java.lang.String email)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;withCustomerEmail()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>withCustomerEmail</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/builder/OrderBuilder.java</file>
+  <line>23</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>builder</package>
+  <entry_point TYPE="method" FQNAME="builder.OrderBuilder builder.OrderBuilder addItem(model.MenuItem item)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;addItem()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>addItem</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/builder/OrderBuilder.java</file>
+  <line>28</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>builder</package>
+  <entry_point TYPE="method" FQNAME="builder.OrderBuilder builder.OrderBuilder withDeliveryLocation(java.lang.String address, java.lang.String postalCode)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;withDeliveryLocation()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>withDeliveryLocation</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/builder/OrderBuilder.java</file>
+  <line>34</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>builder</package>
+  <entry_point TYPE="method" FQNAME="builder.OrderBuilder model.Order build()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;build()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>build</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>30</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void listAvailableDrivers()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;listAvailableDrivers()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>listAvailableDrivers</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>38</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrder(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Long&gt; orderIdHandler)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;assignDriverToOrder()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>assignDriverToOrder</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>69</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void rateDriver(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; menuChoiceHandler)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;rateDriver()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>rateDriver</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>88</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager validation.ConsoleInputHandler&lt;java.lang.Integer&gt; getMenuChoiceHandler()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getMenuChoiceHandler()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getMenuChoiceHandler</highlighted_element>
+  <language>JAVA</language>
+  <offset>40</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>92</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void manageDriverMenu(java.util.Scanner scanner, managers.OrderManager orderManager)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;manageDriverMenu()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>manageDriverMenu</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>28</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager void displayMenu()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;displayMenu()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>displayMenu</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>37</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager java.util.List&lt;model.MenuItem&gt; selectMenuItems(java.util.Scanner scanner, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;selectMenuItems()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>selectMenuItems</highlighted_element>
+  <language>JAVA</language>
+  <offset>26</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>73</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager validation.ConsoleInputHandler&lt;java.lang.Integer&gt; getMenuChoiceHandler()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getMenuChoiceHandler()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getMenuChoiceHandler</highlighted_element>
+  <language>JAVA</language>
+  <offset>40</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>77</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager services.MenuService getMenuService()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getMenuService()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getMenuService</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>34</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;createOrder()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>createOrder</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>34</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;createOrder()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>createOrder</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>54</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void checkOrderStatus(java.util.Scanner scanner)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;checkOrderStatus()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>checkOrderStatus</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>54</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void checkOrderStatus(java.util.Scanner scanner)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;checkOrderStatus()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>checkOrderStatus</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>73</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager validation.ConsoleInputHandler&lt;java.lang.Long&gt; getOrderIdHandler()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getOrderIdHandler()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getOrderIdHandler</highlighted_element>
+  <language>JAVA</language>
+  <offset>37</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>73</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager validation.ConsoleInputHandler&lt;java.lang.Long&gt; getOrderIdHandler()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getOrderIdHandler()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getOrderIdHandler</highlighted_element>
+  <language>JAVA</language>
+  <offset>37</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>77</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager services.OrderService getOrderService()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getOrderService()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getOrderService</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>77</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager services.OrderService getOrderService()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getOrderService()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getOrderService</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>81</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;processOrderPlacement()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>processOrderPlacement</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>21</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>81</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;processOrderPlacement()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>processOrderPlacement</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>21</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Customer.java</file>
+  <line>33</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Customer void placeOrder(java.util.List&lt;model.MenuItem&gt; items, model.Driver driver)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;placeOrder()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>placeOrder</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Customer.java</file>
+  <line>50</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Customer void rateDriver(model.Driver driver, int score, java.lang.String comment)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;rateDriver()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>rateDriver</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Customer.java</file>
+  <line>67</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Customer java.util.List&lt;model.Order&gt; getOrderHistory()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getOrderHistory()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getOrderHistory</highlighted_element>
+  <language>JAVA</language>
+  <offset>22</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Drink.java</file>
+  <line>22</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Drink java.lang.String getName()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getName()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getName</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Drink.java</file>
+  <line>27</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Drink double getPrice()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getPrice()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getPrice</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Drink.java</file>
+  <line>31</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Drink model.Size getSize()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getSize()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getSize</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Drink.java</file>
+  <line>35</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Drink int getQuantity()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getQuantity()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getQuantity</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>29</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver java.lang.Long getId()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getId()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getId</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>33</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver java.lang.String getName()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getName()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getName</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>37</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver java.lang.String getVehicleType()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getVehicleType()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getVehicleType</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>41</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver java.lang.String getLicensePlate()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getLicensePlate()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getLicensePlate</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>45</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver java.lang.String getVehicle()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getVehicle()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getVehicle</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>49</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver void setVehicle(java.lang.String vehicle)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;setVehicle()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>setVehicle</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>53</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver boolean isAvailable()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;isAvailable()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>isAvailable</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>57</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver void setAvailable(boolean available)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;setAvailable()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>setAvailable</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>61</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver void addRating(java.lang.Integer rating)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;addRating()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>addRating</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>73</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver void addRating(rating.Rating rating)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;addRating()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>addRating</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>81</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver java.util.List&lt;java.lang.Integer&gt; getRatings()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getRatings()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getRatings</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>85</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver double getAverageRating()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getAverageRating()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getAverageRating</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Fries.java</file>
+  <line>22</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Fries java.lang.String getName()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getName()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getName</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Fries.java</file>
+  <line>27</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Fries double getPrice()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getPrice()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getPrice</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Fries.java</file>
+  <line>31</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Fries model.Size getSize()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getSize()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getSize</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Fries.java</file>
+  <line>35</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Fries int getQuantity()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getQuantity()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getQuantity</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Hamburger.java</file>
+  <line>22</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Hamburger java.lang.String getName()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getName()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getName</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Hamburger.java</file>
+  <line>27</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Hamburger double getPrice()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getPrice()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getPrice</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Hamburger.java</file>
+  <line>31</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Hamburger model.Size getSize()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getSize()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getSize</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Hamburger.java</file>
+  <line>35</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Hamburger int getQuantity()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getQuantity()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getQuantity</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Location.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Location java.lang.String getAddress()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getAddress()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getAddress</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Location.java</file>
+  <line>16</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Location java.lang.String getPostalCode()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getPostalCode()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getPostalCode</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>45</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order java.lang.Long getOrderId()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getOrderId()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getOrderId</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>49</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order java.lang.Long getCustomerId()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getCustomerId()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getCustomerId</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>53</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order java.lang.String getCustomerEmail()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getCustomerEmail()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getCustomerEmail</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>57</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order java.util.List&lt;model.MenuItem&gt; getItems()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getItems()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getItems</highlighted_element>
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>61</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order model.Location getDeliveryLocation()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getDeliveryLocation()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getDeliveryLocation</highlighted_element>
+  <language>JAVA</language>
+  <offset>19</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>65</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order double getTotalAmount()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getTotalAmount()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getTotalAmount</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>69</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order model.OrderStatus getStatus()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getStatus()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getStatus</highlighted_element>
+  <language>JAVA</language>
+  <offset>22</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>73</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order void setStatus(model.OrderStatus status)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;setStatus()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>setStatus</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>77</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order java.time.LocalDateTime getEstimatedDeliveryTime()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getEstimatedDeliveryTime()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getEstimatedDeliveryTime</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>24</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>81</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order void setEstimatedDeliveryTime(java.time.LocalDateTime estimatedDeliveryTime)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;setEstimatedDeliveryTime()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>setEstimatedDeliveryTime</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>24</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>85</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order java.lang.Long getId()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getId()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getId</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>89</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order model.Driver getDriver()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getDriver()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getDriver</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>93</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order void setDriver(model.Driver driver)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;setDriver()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>setDriver</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Person.java</file>
+  <line>16</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Person java.lang.Long getId()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getId()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getId</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Person.java</file>
+  <line>20</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Person java.lang.String getName()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getName()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getName</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Person.java</file>
+  <line>24</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Person java.lang.String getEmail()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getEmail()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getEmail</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Person.java</file>
+  <line>28</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Person java.lang.String getAddress()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getAddress()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getAddress</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Pizza.java</file>
+  <line>22</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Pizza java.lang.String getName()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getName()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getName</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Pizza.java</file>
+  <line>27</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Pizza double getPrice()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getPrice()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getPrice</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Pizza.java</file>
+  <line>31</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Pizza model.Size getSize()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getSize()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getSize</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Pizza.java</file>
+  <line>35</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Pizza int getQuantity()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getQuantity()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getQuantity</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Salad.java</file>
+  <line>22</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Salad java.lang.String getName()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getName()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getName</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Salad.java</file>
+  <line>27</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Salad double getPrice()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getPrice()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getPrice</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Salad.java</file>
+  <line>31</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Salad model.Size getSize()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getSize()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getSize</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Salad.java</file>
+  <line>35</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Salad int getQuantity()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getQuantity()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getQuantity</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>14</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService void sendNotification(java.lang.String message)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;sendNotification()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>sendNotification</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>19</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService void sendOrderConfirmationToCustomer(model.Order order)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;sendOrderConfirmationToCustomer()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>sendOrderConfirmationToCustomer</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>31</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>25</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService void sendDriverAssignmentNotification(model.Order order, model.Driver driver)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;sendDriverAssignmentNotification()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>sendDriverAssignmentNotification</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>32</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>31</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService void sendOrderStatusUpdateToCustomer(model.Order order, model.OrderStatus newStatus)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;sendOrderStatusUpdateToCustomer()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>sendOrderStatusUpdateToCustomer</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>31</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/notification/BasicNotificationService.java</file>
+  <line>37</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>notification</package>
+  <entry_point TYPE="method" FQNAME="notification.BasicNotificationService void sendDeliveryCompletionNotification(model.Order order)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;sendDeliveryCompletionNotification()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>sendDeliveryCompletionNotification</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>34</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderTrackingService.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="method" FQNAME="observer.OrderTrackingService void attach(observer.OrderObserver observer)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;attach()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>attach</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderTrackingService.java</file>
+  <line>17</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="method" FQNAME="observer.OrderTrackingService void detach(observer.OrderObserver observer)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;detach()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>detach</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderTrackingService.java</file>
+  <line>22</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="method" FQNAME="observer.OrderTrackingService void notifyObservers(model.Order order)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;notifyObservers()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>notifyObservers</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/payment/Payment.java</file>
+  <line>22</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>payment</package>
+  <entry_point TYPE="method" FQNAME="payment.Payment boolean processPayment()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;processPayment()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>processPayment</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/payment/Payment.java</file>
+  <line>32</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>payment</package>
+  <entry_point TYPE="method" FQNAME="payment.Payment boolean refundPayment()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;refundPayment()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>refundPayment</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/payment/Payment.java</file>
+  <line>42</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>payment</package>
+  <entry_point TYPE="method" FQNAME="payment.Payment java.lang.Long getPaymentId()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getPaymentId()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getPaymentId</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/payment/Payment.java</file>
+  <line>46</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>payment</package>
+  <entry_point TYPE="method" FQNAME="payment.Payment java.lang.Long getOrderId()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getOrderId()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getOrderId</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/payment/Payment.java</file>
+  <line>50</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>payment</package>
+  <entry_point TYPE="method" FQNAME="payment.Payment java.lang.String getPaymentMethod()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getPaymentMethod()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getPaymentMethod</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/payment/Payment.java</file>
+  <line>54</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>payment</package>
+  <entry_point TYPE="method" FQNAME="payment.Payment double getAmount()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getAmount()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getAmount</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/payment/Payment.java</file>
+  <line>58</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>payment</package>
+  <entry_point TYPE="method" FQNAME="payment.Payment java.time.LocalDateTime getPaymentTime()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getPaymentTime()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getPaymentTime</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/payment/Payment.java</file>
+  <line>62</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>payment</package>
+  <entry_point TYPE="method" FQNAME="payment.Payment boolean isProcessed()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;isProcessed()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>isProcessed</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/payment/Payment.java</file>
+  <line>66</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>payment</package>
+  <entry_point TYPE="method" FQNAME="payment.Payment boolean isRefunded()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;isRefunded()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>isRefunded</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/OrderQueue.java</file>
+  <line>23</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="method" FQNAME="queue.OrderQueue void enqueue(model.Order order)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;enqueue()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>enqueue</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/OrderQueue.java</file>
+  <line>38</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="method" FQNAME="queue.OrderQueue java.util.Optional&lt;model.Order&gt; dequeue()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;dequeue()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>dequeue</highlighted_element>
+  <language>JAVA</language>
+  <offset>39</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/OrderQueue.java</file>
+  <line>43</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="method" FQNAME="queue.OrderQueue java.util.Optional&lt;model.Order&gt; peek()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;peek()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>peek</highlighted_element>
+  <language>JAVA</language>
+  <offset>26</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/OrderQueue.java</file>
+  <line>48</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="method" FQNAME="queue.OrderQueue boolean isEmpty()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;isEmpty()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>isEmpty</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/OrderQueue.java</file>
+  <line>53</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="method" FQNAME="queue.OrderQueue int size()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;size()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>size</highlighted_element>
+  <language>JAVA</language>
+  <offset>14</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/OrderQueue.java</file>
+  <line>58</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="method" FQNAME="queue.OrderQueue void clear()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;clear()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>clear</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/OrderQueue.java</file>
+  <line>62</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="method" FQNAME="queue.OrderQueue java.util.List&lt;model.Order&gt; getPendingOrders()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getPendingOrders()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getPendingOrders</highlighted_element>
+  <language>JAVA</language>
+  <offset>22</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/queue/OrderQueue.java</file>
+  <line>66</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>queue</package>
+  <entry_point TYPE="method" FQNAME="queue.OrderQueue int getPositionInQueue(model.Order order)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getPositionInQueue()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getPositionInQueue</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>69</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating.Builder rating.Rating.Builder customerId(java.lang.Long customerId)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;customerId()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>customerId</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>74</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating.Builder rating.Rating.Builder driverId(java.lang.Long driverId)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;driverId()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>driverId</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>79</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating.Builder rating.Rating.Builder score(int score)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;score()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>score</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>84</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating.Builder rating.Rating.Builder comment(java.lang.String comment)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;comment()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>comment</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>89</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating.Builder rating.Rating build()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;build()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>build</highlighted_element>
+  <language>JAVA</language>
+  <offset>22</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>95</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating java.lang.Long getId()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getId()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getId</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>96</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating java.lang.Long getCustomerId()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getCustomerId()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getCustomerId</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>97</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating java.lang.Long getDriverId()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getDriverId()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getDriverId</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>98</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating int getScore()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getScore()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getScore</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>99</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating java.util.Optional&lt;java.lang.String&gt; getComment()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getComment()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getComment</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>100</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating java.time.LocalDateTime getTimestamp()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getTimestamp()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getTimestamp</highlighted_element>
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsHandler.java</file>
+  <line>29</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsHandler void addRating(T rating)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;addRating()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>addRating</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsHandler.java</file>
+  <line>49</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsHandler java.util.Optional&lt;T&gt; removeOldestRating()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;removeOldestRating()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>removeOldestRating</highlighted_element>
+  <language>JAVA</language>
+  <offset>22</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsHandler.java</file>
+  <line>59</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsHandler java.util.Optional&lt;T&gt; getLatestRating()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getLatestRating()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getLatestRating</highlighted_element>
+  <language>JAVA</language>
+  <offset>22</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsHandler.java</file>
+  <line>69</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsHandler void enforceRatingQueueMaxSize()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;enforceRatingQueueMaxSize()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>enforceRatingQueueMaxSize</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>25</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsHandler.java</file>
+  <line>81</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsHandler void clearAllRatings()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;clearAllRatings()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>clearAllRatings</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsHandler.java</file>
+  <line>91</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsHandler boolean isRatingQueueEmpty()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;isRatingQueueEmpty()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>isRatingQueueEmpty</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsHandler.java</file>
+  <line>101</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsHandler boolean isRatingQueueFull()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;isRatingQueueFull()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>isRatingQueueFull</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsHandler.java</file>
+  <line>111</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsHandler int getCurrentRatingCount()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getCurrentRatingCount()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getCurrentRatingCount</highlighted_element>
+  <language>JAVA</language>
+  <offset>14</offset>
+  <length>21</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsHandler.java</file>
+  <line>121</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsHandler double calculateAverageRating()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;calculateAverageRating()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>calculateAverageRating</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>22</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsHandler.java</file>
+  <line>137</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsHandler int getMaxRatings()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getMaxRatings()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getMaxRatings</highlighted_element>
+  <language>JAVA</language>
+  <offset>14</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/DriverServiceImpl.java</file>
+  <line>14</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.DriverServiceImpl java.util.List&lt;model.Driver&gt; getAvailableDrivers()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getAvailableDrivers()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getAvailableDrivers</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/DriverServiceImpl.java</file>
+  <line>21</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.DriverServiceImpl model.Driver getDriverForOrder(model.Order order)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getDriverForOrder()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getDriverForOrder</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/DriverServiceImpl.java</file>
+  <line>29</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.DriverServiceImpl void assignDriverToOrder(model.Driver driver, model.Order order)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;assignDriverToOrder()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>assignDriverToOrder</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/DriverServiceImpl.java</file>
+  <line>39</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.DriverServiceImpl void rateDriver(model.Driver driver, java.lang.Integer rating)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;rateDriver()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>rateDriver</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/MenuServiceImpl.java</file>
+  <line>16</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.MenuServiceImpl void displayMenu()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;displayMenu()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>displayMenu</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/MenuServiceImpl.java</file>
+  <line>28</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.MenuServiceImpl java.util.List&lt;model.MenuItem&gt; getMenu()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getMenu()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getMenu</highlighted_element>
+  <language>JAVA</language>
+  <offset>26</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/MenuServiceImpl.java</file>
+  <line>33</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.MenuServiceImpl model.MenuItem getMenuItemByIndex(int index)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getMenuItemByIndex()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getMenuItemByIndex</highlighted_element>
+  <language>JAVA</language>
+  <offset>20</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/MenuServiceImpl.java</file>
+  <line>41</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.MenuServiceImpl int getMenuSize()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getMenuSize()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getMenuSize</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/MenuServiceImpl.java</file>
+  <line>46</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.MenuServiceImpl java.util.List&lt;model.MenuItem&gt; getAllMenuItems()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getAllMenuItems()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getAllMenuItems</highlighted_element>
+  <language>JAVA</language>
+  <offset>26</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderManagerImpl.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderManagerImpl void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; emailHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; locationHandler)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;processOrderPlacement()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>processOrderPlacement</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>21</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>15</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl model.Order getOrderById(java.lang.Long orderId)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getOrderById()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getOrderById</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>23</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl model.Order createOrder(java.util.List&lt;model.MenuItem&gt; items)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;createOrder()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>createOrder</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>34</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;displayOrderDetails()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>displayOrderDetails</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>56</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl java.lang.String getOrderStatus(java.lang.Long orderId)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getOrderStatus()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getOrderStatus</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>62</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderServiceImpl java.util.List&lt;model.Order&gt; getAllOrders()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getAllOrders()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getAllOrders</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/DriverServiceImpl.java</file>
+  <line>19</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.DriverServiceImpl java.util.List&lt;model.Driver&gt; getAvailableDrivers()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getAvailableDrivers()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getAvailableDrivers</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/DriverServiceImpl.java</file>
+  <line>25</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.DriverServiceImpl model.Driver getDriverForOrder(model.Order order)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getDriverForOrder()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getDriverForOrder</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/MenuServiceImpl.java</file>
+  <line>29</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.MenuServiceImpl void displayMenu()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;displayMenu()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>displayMenu</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/MenuServiceImpl.java</file>
+  <line>41</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.MenuServiceImpl java.util.List&lt;model.MenuItem&gt; getMenu()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getMenu()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getMenu</highlighted_element>
+  <language>JAVA</language>
+  <offset>26</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/MenuServiceImpl.java</file>
+  <line>46</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.MenuServiceImpl model.MenuItem getMenuItemByIndex(int index)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getMenuItemByIndex()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getMenuItemByIndex</highlighted_element>
+  <language>JAVA</language>
+  <offset>20</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/MenuServiceImpl.java</file>
+  <line>54</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.MenuServiceImpl int getMenuSize()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getMenuSize()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getMenuSize</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/MenuServiceImpl.java</file>
+  <line>59</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.MenuServiceImpl java.util.List&lt;model.MenuItem&gt; getAllMenuItems()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getAllMenuItems()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getAllMenuItems</highlighted_element>
+  <language>JAVA</language>
+  <offset>26</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>16</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl model.Order getOrderById(java.lang.Long orderId)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getOrderById()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getOrderById</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>24</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl model.Order createOrder(java.util.List&lt;model.MenuItem&gt; items)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;createOrder()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>createOrder</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>35</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl void displayOrderDetails(model.Order order)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;displayOrderDetails()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>displayOrderDetails</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>55</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl java.lang.String getOrderStatus(java.lang.Long orderId)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getOrderStatus()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getOrderStatus</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>61</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="method" FQNAME="services.impl.OrderServiceImpl java.util.List&lt;model.Order&gt; getAllOrders()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getAllOrders()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getAllOrders</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/tracker/OrderTracker.java</file>
+  <line>27</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>tracker</package>
+  <entry_point TYPE="method" FQNAME="tracker.OrderTracker void attach(tracker.OrderObserver observer)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;attach()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>attach</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/tracker/OrderTracker.java</file>
+  <line>32</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>tracker</package>
+  <entry_point TYPE="method" FQNAME="tracker.OrderTracker void detach(tracker.OrderObserver observer)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;detach()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>detach</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/tracker/OrderTracker.java</file>
+  <line>37</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>tracker</package>
+  <entry_point TYPE="method" FQNAME="tracker.OrderTracker void notifyObservers(model.Order order)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;notifyObservers()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>notifyObservers</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/tracker/OrderTracker.java</file>
+  <line>43</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>tracker</package>
+  <entry_point TYPE="method" FQNAME="tracker.OrderTracker void updateOrderStatus(java.lang.Long orderId, model.OrderStatus newStatus, model.Driver assignedDriver)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;updateOrderStatus()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>updateOrderStatus</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/tracker/OrderTracker.java</file>
+  <line>66</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>tracker</package>
+  <entry_point TYPE="method" FQNAME="tracker.OrderTracker java.util.Optional&lt;model.OrderStatus&gt; getOrderStatus(java.lang.Long orderId)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getOrderStatus()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getOrderStatus</highlighted_element>
+  <language>JAVA</language>
+  <offset>32</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/tracker/OrderTracker.java</file>
+  <line>70</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>tracker</package>
+  <entry_point TYPE="method" FQNAME="tracker.OrderTracker java.util.Optional&lt;java.time.LocalDateTime&gt; getEstimatedDeliveryTime(java.lang.Long orderId)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getEstimatedDeliveryTime()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getEstimatedDeliveryTime</highlighted_element>
+  <language>JAVA</language>
+  <offset>34</offset>
+  <length>24</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>47</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler T getInput(java.lang.String prompt)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getInput()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getInput</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>79</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getMultipleInputs()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getMultipleInputs</highlighted_element>
+  <language>JAVA</language>
+  <offset>14</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>110</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler T handleInput(java.util.Scanner scanner, java.lang.String prompt)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;handleInput()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>handleInput</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>114</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ConsoleInputHandler T handleInput(java.util.Scanner scanner, java.lang.String prompt, java.util.function.Predicate&lt;T&gt; condition)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;handleInput()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>handleInput</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/EmailValidator.java</file>
+  <line>10</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.EmailValidator java.lang.String parse(java.lang.String input)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;parse()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>parse</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/EmailValidator.java</file>
+  <line>15</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.EmailValidator boolean isValid(java.lang.String email)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;isValid()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>isValid</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/EmailValidator.java</file>
+  <line>20</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.EmailValidator java.lang.String getTypeName()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getTypeName()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getTypeName</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/EmailValidator.java</file>
+  <line>25</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.EmailValidator boolean validate(java.lang.String input)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;validate()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>validate</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidatorImpl.java</file>
+  <line>72</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidatorImpl T parse(java.lang.String input)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;parse()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>parse</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidatorImpl.java</file>
+  <line>77</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidatorImpl boolean isValid(T value)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;isValid()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>isValid</highlighted_element>
+  <language>JAVA</language>
+  <offset>19</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidatorImpl.java</file>
+  <line>82</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidatorImpl java.lang.String getTypeName()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getTypeName()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getTypeName</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidatorImpl.java</file>
+  <line>87</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidatorImpl java.lang.String getErrorMessage()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getErrorMessage()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getErrorMessage</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/MenuItemValidator.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.MenuItemValidator java.lang.Integer parse(java.lang.String input)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;parse()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>parse</highlighted_element>
+  <language>JAVA</language>
+  <offset>19</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/MenuItemValidator.java</file>
+  <line>20</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.MenuItemValidator boolean validate(java.lang.Integer input)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;validate()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>validate</highlighted_element>
+  <language>JAVA</language>
+  <offset>19</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/MenuItemValidator.java</file>
+  <line>25</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.MenuItemValidator boolean isValid(java.lang.Integer value)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;isValid()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>isValid</highlighted_element>
+  <language>JAVA</language>
+  <offset>19</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/MenuItemValidator.java</file>
+  <line>30</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.MenuItemValidator java.lang.String getTypeName()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getTypeName()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getTypeName</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/OrderValidator.java</file>
+  <line>19</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.OrderValidator void validateOrder(model.Order order)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;validateOrder()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>validateOrder</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/PositiveIntegerValidator.java</file>
+  <line>9</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.PositiveIntegerValidator java.lang.Integer parse(java.lang.String input)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;parse()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>parse</highlighted_element>
+  <language>JAVA</language>
+  <offset>19</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/PositiveIntegerValidator.java</file>
+  <line>18</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.PositiveIntegerValidator boolean isValid(java.lang.Integer value)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;isValid()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>isValid</highlighted_element>
+  <language>JAVA</language>
+  <offset>19</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/PositiveIntegerValidator.java</file>
+  <line>23</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.PositiveIntegerValidator boolean validate(java.lang.Integer input)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;validate()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>validate</highlighted_element>
+  <language>JAVA</language>
+  <offset>19</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/PositiveIntegerValidator.java</file>
+  <line>28</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.PositiveIntegerValidator java.lang.String getTypeName()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getTypeName()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getTypeName</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/PositiveLongValidator.java</file>
+  <line>4</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.PositiveLongValidator boolean validate(java.lang.Long input)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;validate()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>validate</highlighted_element>
+  <language>JAVA</language>
+  <offset>19</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/PositiveLongValidator.java</file>
+  <line>9</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.PositiveLongValidator java.lang.Long parse(java.lang.String input)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;parse()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>parse</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/PositiveLongValidator.java</file>
+  <line>18</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.PositiveLongValidator boolean isValid(java.lang.Long value)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;isValid()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>isValid</highlighted_element>
+  <language>JAVA</language>
+  <offset>19</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/PositiveLongValidator.java</file>
+  <line>23</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.PositiveLongValidator java.lang.String getTypeName()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getTypeName()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getTypeName</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>26</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler T getInput(java.lang.String prompt)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getInput()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getInput</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>43</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler T[] getMultipleInputs(java.lang.String prompt, java.lang.String stopCommand)" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getMultipleInputs()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getMultipleInputs</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>75</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler java.lang.String getTypeName()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getTypeName()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getTypeName</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationHandler.java</file>
+  <line>79</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationHandler java.lang.String getErrorMessage()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;getErrorMessage()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>getErrorMessage</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>44</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void setUp()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;setUp()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>setUp</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>51</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void testStartPlaceOrder()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;testStartPlaceOrder()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>testStartPlaceOrder</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>63</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void testStartCheckOrderStatus()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;testStartCheckOrderStatus()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>testStartCheckOrderStatus</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>25</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>74</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void testStartViewMenu()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;testStartViewMenu()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>testStartViewMenu</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>85</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void testStartManageDrivers()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;testStartManageDrivers()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>testStartManageDrivers</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>22</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>96</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void testStartRateDriver()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;testStartRateDriver()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>testStartRateDriver</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/app/DeliverySystemCLITest.java</file>
+  <line>110</line>
+  <module>OnlineFoodDelievery.test</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLITest void testStartExit()" />
+  <problem_class id="DesignForExtension" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Design for extension</problem_class>
+  <description>Method &lt;code&gt;testStartExit()&lt;/code&gt; may be overridden and its functionality ignored #loc</description>
+  <highlighted_element>testStartExit</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>13</length>
+</problem>
+</problems>

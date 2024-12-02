@@ -1,0 +1,93 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/app/DeliverySystemCLI.java</file>
+  <line>28</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>app</package>
+  <entry_point TYPE="method" FQNAME="app.DeliverySystemCLI DeliverySystemCLI(java.util.Scanner scanner, managers.MenuManager menuManager, managers.OrderManager orderManager, managers.DriverManager driverManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; emailHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; locationHandler)" />
+  <problem_class id="ParameterNamingConvention" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Method parameter naming convention</problem_class>
+  <description>Parameter name &lt;code&gt;positiveIntegerHandler&lt;/code&gt; is too long (22 &gt; 20) #loc</description>
+  <highlighted_element>positiveIntegerHandler</highlighted_element>
+  <language>JAVA</language>
+  <offset>82</offset>
+  <length>22</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/MenuManager.java</file>
+  <line>37</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.MenuManager java.util.List&lt;model.MenuItem&gt; selectMenuItems(java.util.Scanner scanner, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="ParameterNamingConvention" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Method parameter naming convention</problem_class>
+  <description>Parameter name &lt;code&gt;positiveIntegerHandler&lt;/code&gt; is too long (22 &gt; 20) #loc</description>
+  <highlighted_element>positiveIntegerHandler</highlighted_element>
+  <language>JAVA</language>
+  <offset>88</offset>
+  <length>22</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>82</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="ParameterNamingConvention" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Method parameter naming convention</problem_class>
+  <description>Parameter name &lt;code&gt;positiveIntegerHandler&lt;/code&gt; is too long (22 &gt; 20) #loc</description>
+  <highlighted_element>positiveIntegerHandler</highlighted_element>
+  <language>JAVA</language>
+  <offset>41</offset>
+  <length>22</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>82</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="ParameterNamingConvention" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Method parameter naming convention</problem_class>
+  <description>Parameter name &lt;code&gt;positiveIntegerHandler&lt;/code&gt; is too long (22 &gt; 20) #loc</description>
+  <highlighted_element>positiveIntegerHandler</highlighted_element>
+  <language>JAVA</language>
+  <offset>41</offset>
+  <length>22</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Order.java</file>
+  <line>81</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Order void setEstimatedDeliveryTime(java.time.LocalDateTime estimatedDeliveryTime)" />
+  <problem_class id="ParameterNamingConvention" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Method parameter naming convention</problem_class>
+  <description>Parameter name &lt;code&gt;estimatedDeliveryTime&lt;/code&gt; is too long (21 &gt; 20) #loc</description>
+  <highlighted_element>estimatedDeliveryTime</highlighted_element>
+  <language>JAVA</language>
+  <offset>54</offset>
+  <length>21</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderManager.java</file>
+  <line>13</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; emailHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; locationHandler)" />
+  <problem_class id="ParameterNamingConvention" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Method parameter naming convention</problem_class>
+  <description>Parameter name &lt;code&gt;positiveIntegerHandler&lt;/code&gt; is too long (22 &gt; 20) #loc</description>
+  <highlighted_element>positiveIntegerHandler</highlighted_element>
+  <language>JAVA</language>
+  <offset>41</offset>
+  <length>22</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderManagerImpl.java</file>
+  <line>15</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="method" FQNAME="services.OrderManagerImpl void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; emailHandler, validation.ConsoleInputHandler&lt;java.lang.String&gt; locationHandler)" />
+  <problem_class id="ParameterNamingConvention" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Method parameter naming convention</problem_class>
+  <description>Parameter name &lt;code&gt;positiveIntegerHandler&lt;/code&gt; is too long (22 &gt; 20) #loc</description>
+  <highlighted_element>positiveIntegerHandler</highlighted_element>
+  <language>JAVA</language>
+  <offset>47</offset>
+  <length>22</length>
+</problem>
+</problems>

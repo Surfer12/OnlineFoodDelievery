@@ -1,0 +1,28 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>18</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java" />
+  <problem_class id="JavadocHtmlLint" severity="ERROR" attribute_key="WRONG_REFERENCES_ATTRIBUTES">HTML problems in Javadoc (DocLint)</problem_class>
+  <description>Unknown tag: Integer</description>
+  <highlighted_element>&lt;Integer&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java</file>
+  <line>20</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/validation/ConsoleInputHandler.java" />
+  <problem_class id="JavadocHtmlLint" severity="ERROR" attribute_key="WRONG_REFERENCES_ATTRIBUTES">HTML problems in Javadoc (DocLint)</problem_class>
+  <description>Unknown tag: Integer</description>
+  <highlighted_element>&lt;Integer&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>33</offset>
+  <length>9</length>
+</problem>
+</problems>

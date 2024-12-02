@@ -1,0 +1,29 @@
+<problems>
+<problem>
+  <package>services.impl</package>
+  <entry_point TYPE="package" FQNAME="services.impl" />
+  <problem_class id="CyclicPackageDependency" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Cyclic package dependency</problem_class>
+  <hints />
+  <description>Package 'services.impl' is cyclically dependent on packages 'managers' and 'services'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <package>services</package>
+  <entry_point TYPE="package" FQNAME="services" />
+  <problem_class id="CyclicPackageDependency" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Cyclic package dependency</problem_class>
+  <hints />
+  <description>Package 'services' is cyclically dependent on packages 'managers' and 'services.impl'</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <package>managers</package>
+  <entry_point TYPE="package" FQNAME="managers" />
+  <problem_class id="CyclicPackageDependency" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Cyclic package dependency</problem_class>
+  <hints />
+  <description>Package 'managers' is cyclically dependent on packages 'services' and 'services.impl'</description>
+  <highlighted_element />
+  <language />
+</problem>
+</problems>

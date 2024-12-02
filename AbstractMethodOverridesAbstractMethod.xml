@@ -1,0 +1,54 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/AbstractInputValidator.java</file>
+  <line>15</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.AbstractInputValidator boolean validate(T input)" />
+  <problem_class id="AbstractMethodOverridesAbstractMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Abstract method overrides abstract method</problem_class>
+  <description>Abstract method &lt;code&gt;validate()&lt;/code&gt; overrides abstract method #loc</description>
+  <highlighted_element>validate</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/AbstractInputValidator.java</file>
+  <line>24</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.AbstractInputValidator T parse(java.lang.String input)" />
+  <problem_class id="AbstractMethodOverridesAbstractMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Abstract method overrides abstract method</problem_class>
+  <description>Abstract method &lt;code&gt;parse()&lt;/code&gt; overrides abstract method #loc</description>
+  <highlighted_element>parse</highlighted_element>
+  <language>JAVA</language>
+  <offset>22</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/AbstractMenuItemValidator.java</file>
+  <line>17</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.AbstractMenuItemValidator boolean validate(model.MenuItem menuItem)" />
+  <problem_class id="AbstractMethodOverridesAbstractMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Abstract method overrides abstract method</problem_class>
+  <description>Abstract method &lt;code&gt;validate()&lt;/code&gt; overrides abstract method #loc</description>
+  <highlighted_element>validate</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/AbstractOrderValidator.java</file>
+  <line>20</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.AbstractOrderValidator boolean validate(model.Order order)" />
+  <problem_class id="AbstractMethodOverridesAbstractMethod" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Abstract method overrides abstract method</problem_class>
+  <description>Abstract method &lt;code&gt;validate()&lt;/code&gt; overrides abstract method #loc</description>
+  <highlighted_element>validate</highlighted_element>
+  <language>JAVA</language>
+  <offset>28</offset>
+  <length>8</length>
+</problem>
+</problems>

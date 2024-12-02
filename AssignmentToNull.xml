@@ -1,0 +1,15 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>30</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating Rating(java.lang.Long customerId, java.lang.Long driverId, int score, java.lang.String comment)" />
+  <problem_class id="AssignmentToNull" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'null' assignment</problem_class>
+  <description>'null' assigned to variable &lt;code&gt;this.id&lt;/code&gt; #loc</description>
+  <highlighted_element>this.id</highlighted_element>
+  <language>JAVA</language>
+  <offset>8</offset>
+  <length>7</length>
+</problem>
+</problems>

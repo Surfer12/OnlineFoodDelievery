@@ -1,0 +1,197 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>63</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void assignDriverToOrder(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Long&gt; orderIdHandler)" />
+  <problem_class id="UnqualifiedStaticUsage" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unqualified static access</problem_class>
+  <description>Unqualified static field access &lt;code&gt;logger&lt;/code&gt; #loc</description>
+  <highlighted_element>logger</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/DriverManager.java</file>
+  <line>84</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.DriverManager void rateDriver(java.util.Scanner scanner, model.Order order, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; menuChoiceHandler)" />
+  <problem_class id="UnqualifiedStaticUsage" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unqualified static access</problem_class>
+  <description>Unqualified static field access &lt;code&gt;logger&lt;/code&gt; #loc</description>
+  <highlighted_element>logger</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>26</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager OrderManager()" />
+  <problem_class id="UnqualifiedStaticUsage" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unqualified static access</problem_class>
+  <description>Unqualified static field access &lt;code&gt;MAX_QUEUE_SIZE&lt;/code&gt; #loc</description>
+  <highlighted_element>MAX_QUEUE_SIZE</highlighted_element>
+  <language>JAVA</language>
+  <offset>41</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>26</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager OrderManager()" />
+  <problem_class id="UnqualifiedStaticUsage" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unqualified static access</problem_class>
+  <description>Unqualified static field access &lt;code&gt;MAX_QUEUE_SIZE&lt;/code&gt; #loc</description>
+  <highlighted_element>MAX_QUEUE_SIZE</highlighted_element>
+  <language>JAVA</language>
+  <offset>41</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>45</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="UnqualifiedStaticUsage" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unqualified static access</problem_class>
+  <description>Unqualified static field access &lt;code&gt;logger&lt;/code&gt; #loc</description>
+  <highlighted_element>logger</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>45</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="UnqualifiedStaticUsage" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unqualified static access</problem_class>
+  <description>Unqualified static field access &lt;code&gt;logger&lt;/code&gt; #loc</description>
+  <highlighted_element>logger</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>49</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="UnqualifiedStaticUsage" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unqualified static access</problem_class>
+  <description>Unqualified static field access &lt;code&gt;logger&lt;/code&gt; #loc</description>
+  <highlighted_element>logger</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>49</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager model.Order createOrder(java.util.List&lt;model.MenuItem&gt; orderItems)" />
+  <problem_class id="UnqualifiedStaticUsage" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unqualified static access</problem_class>
+  <description>Unqualified static field access &lt;code&gt;logger&lt;/code&gt; #loc</description>
+  <highlighted_element>logger</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>69</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void checkOrderStatus(java.util.Scanner scanner)" />
+  <problem_class id="UnqualifiedStaticUsage" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unqualified static access</problem_class>
+  <description>Unqualified static field access &lt;code&gt;logger&lt;/code&gt; #loc</description>
+  <highlighted_element>logger</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>69</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void checkOrderStatus(java.util.Scanner scanner)" />
+  <problem_class id="UnqualifiedStaticUsage" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unqualified static access</problem_class>
+  <description>Unqualified static field access &lt;code&gt;logger&lt;/code&gt; #loc</description>
+  <highlighted_element>logger</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>101</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="UnqualifiedStaticUsage" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unqualified static access</problem_class>
+  <description>Unqualified static field access &lt;code&gt;logger&lt;/code&gt; #loc</description>
+  <highlighted_element>logger</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/managers/OrderManager.java</file>
+  <line>101</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>managers</package>
+  <entry_point TYPE="method" FQNAME="managers.OrderManager void processOrderPlacement(java.util.Scanner scanner, managers.MenuManager menuManager, validation.ConsoleInputHandler&lt;java.lang.Integer&gt; positiveIntegerHandler)" />
+  <problem_class id="UnqualifiedStaticUsage" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unqualified static access</problem_class>
+  <description>Unqualified static field access &lt;code&gt;logger&lt;/code&gt; #loc</description>
+  <highlighted_element>logger</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/model/Driver.java</file>
+  <line>66</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>model</package>
+  <entry_point TYPE="method" FQNAME="model.Driver void addRating(java.lang.Integer rating)" />
+  <problem_class id="UnqualifiedStaticUsage" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unqualified static access</problem_class>
+  <description>Unqualified static field access &lt;code&gt;MAX_RATINGS&lt;/code&gt; #loc</description>
+  <highlighted_element>MAX_RATINGS</highlighted_element>
+  <language>JAVA</language>
+  <offset>33</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/OrderValidator.java</file>
+  <line>26</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.OrderValidator void validateOrder(model.Order order)" />
+  <problem_class id="UnqualifiedStaticUsage" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unqualified static access</problem_class>
+  <description>Unqualified static field access &lt;code&gt;MAX_ITEMS_PER_ORDER&lt;/code&gt; #loc</description>
+  <highlighted_element>MAX_ITEMS_PER_ORDER</highlighted_element>
+  <language>JAVA</language>
+  <offset>57</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/OrderValidator.java</file>
+  <line>27</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.OrderValidator void validateOrder(model.Order order)" />
+  <problem_class id="UnqualifiedStaticUsage" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unqualified static access</problem_class>
+  <description>Unqualified static field access &lt;code&gt;MAX_ORDER_AMOUNT&lt;/code&gt; #loc</description>
+  <highlighted_element>MAX_ORDER_AMOUNT</highlighted_element>
+  <language>JAVA</language>
+  <offset>64</offset>
+  <length>16</length>
+</problem>
+</problems>

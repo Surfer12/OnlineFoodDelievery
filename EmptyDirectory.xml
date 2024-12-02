@@ -1,0 +1,38 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/bin/default</file>
+  <entry_point TYPE="dir" FQNAME="$PROJECT_DIR$/bin/default" />
+  <problem_class id="EmptyDirectory" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Empty directory</problem_class>
+  <hints />
+  <description>Empty directory &lt;code&gt;bin/default&lt;/code&gt;</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/bin/generated-sources/annotations</file>
+  <entry_point TYPE="dir" FQNAME="$PROJECT_DIR$/bin/generated-sources/annotations" />
+  <problem_class id="EmptyDirectory" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Empty directory</problem_class>
+  <hints />
+  <description>Empty directory &lt;code&gt;bin/generated-sources/annotations&lt;/code&gt;</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/bin/generated-test-sources/annotations</file>
+  <entry_point TYPE="dir" FQNAME="$PROJECT_DIR$/bin/generated-test-sources/annotations" />
+  <problem_class id="EmptyDirectory" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Empty directory</problem_class>
+  <hints />
+  <description>Empty directory &lt;code&gt;bin/generated-test-sources/annotations&lt;/code&gt;</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/bin/main/orderUtilities</file>
+  <entry_point TYPE="dir" FQNAME="$PROJECT_DIR$/bin/main/orderUtilities" />
+  <problem_class id="EmptyDirectory" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Empty directory</problem_class>
+  <hints />
+  <description>Empty directory &lt;code&gt;bin/main/orderUtilities&lt;/code&gt;</description>
+  <highlighted_element />
+  <language />
+</problem>
+</problems>

@@ -1,0 +1,93 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>26</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating Rating(rating.Rating.Builder builder)" />
+  <problem_class id="UnqualifiedMethodAccess" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Instance method call not qualified with 'this'</problem_class>
+  <description>Instance method call &lt;code&gt;validate()&lt;/code&gt; is not qualified with 'this' #loc</description>
+  <highlighted_element>validate</highlighted_element>
+  <language>JAVA</language>
+  <offset>8</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>37</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating Rating(java.lang.Long customerId, java.lang.Long driverId, int score, java.lang.String comment)" />
+  <problem_class id="UnqualifiedMethodAccess" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Instance method call not qualified with 'this'</problem_class>
+  <description>Instance method call &lt;code&gt;validate()&lt;/code&gt; is not qualified with 'this' #loc</description>
+  <highlighted_element>validate</highlighted_element>
+  <language>JAVA</language>
+  <offset>8</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsHandler.java</file>
+  <line>35</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsHandler void addRating(T rating)" />
+  <problem_class id="UnqualifiedMethodAccess" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Instance method call not qualified with 'this'</problem_class>
+  <description>Instance method call &lt;code&gt;isRatingQueueFull()&lt;/code&gt; is not qualified with 'this' #loc</description>
+  <highlighted_element>isRatingQueueFull</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/RatingsHandler.java</file>
+  <line>39</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.RatingsHandler void addRating(T rating)" />
+  <problem_class id="UnqualifiedMethodAccess" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Instance method call not qualified with 'this'</problem_class>
+  <description>Instance method call &lt;code&gt;enforceRatingQueueMaxSize()&lt;/code&gt; is not qualified with 'this' #loc</description>
+  <highlighted_element>enforceRatingQueueMaxSize</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>25</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidatorImpl.java</file>
+  <line>30</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidatorImpl$2 boolean isValid(java.lang.String value)" />
+  <problem_class id="UnqualifiedMethodAccess" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Instance method call not qualified with 'this'</problem_class>
+  <description>Instance method call &lt;code&gt;validate()&lt;/code&gt; is not qualified with 'this' #loc</description>
+  <highlighted_element>validate</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/InputValidatorImpl.java</file>
+  <line>58</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.InputValidatorImpl$3 boolean isValid(java.lang.String value)" />
+  <problem_class id="UnqualifiedMethodAccess" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Instance method call not qualified with 'this'</problem_class>
+  <description>Instance method call &lt;code&gt;validate()&lt;/code&gt; is not qualified with 'this' #loc</description>
+  <highlighted_element>validate</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/Validator.java</file>
+  <line>14</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.Validator boolean hasError(T value)" />
+  <problem_class id="UnqualifiedMethodAccess" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Instance method call not qualified with 'this'</problem_class>
+  <description>Instance method call &lt;code&gt;isValid()&lt;/code&gt; is not qualified with 'this' #loc</description>
+  <highlighted_element>isValid</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>7</length>
+</problem>
+</problems>

@@ -1,0 +1,106 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>873</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="Annotator" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Annotator</problem_class>
+  <hints />
+  <description>Closing tag matches nothing #loc</description>
+  <highlighted_element>&lt;/option&gt;</highlighted_element>
+  <language>HTML</language>
+  <offset>48</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>873</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="Annotator" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Annotator</problem_class>
+  <hints />
+  <description>Closing tag matches nothing #loc</description>
+  <highlighted_element>&lt;/form&gt;</highlighted_element>
+  <language>HTML</language>
+  <offset>57</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>1176</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="Annotator" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Annotator</problem_class>
+  <hints />
+  <description>Closing tag matches nothing #loc</description>
+  <highlighted_element>&lt;/option&gt;</highlighted_element>
+  <language>HTML</language>
+  <offset>107</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>1176</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="Annotator" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Annotator</problem_class>
+  <hints />
+  <description>Closing tag matches nothing #loc</description>
+  <highlighted_element>&lt;/form&gt;</highlighted_element>
+  <language>HTML</language>
+  <offset>116</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>1214</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="Annotator" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Annotator</problem_class>
+  <hints />
+  <description>Closing tag matches nothing #loc</description>
+  <highlighted_element>&lt;/option&gt;</highlighted_element>
+  <language>HTML</language>
+  <offset>46</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>1214</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="Annotator" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Annotator</problem_class>
+  <hints />
+  <description>Closing tag matches nothing #loc</description>
+  <highlighted_element>&lt;/form&gt;</highlighted_element>
+  <language>HTML</language>
+  <offset>55</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>1919</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="Annotator" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Annotator</problem_class>
+  <hints />
+  <description>Closing tag matches nothing #loc</description>
+  <highlighted_element>&lt;/option&gt;</highlighted_element>
+  <language>HTML</language>
+  <offset>40</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html</file>
+  <line>1919</line>
+  <module>OnlineFoodDelievery</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/install:uninstall.sh at master · Homebrew:install · GitHub.html" />
+  <problem_class id="Annotator" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Annotator</problem_class>
+  <hints />
+  <description>Closing tag matches nothing #loc</description>
+  <highlighted_element>&lt;/form&gt;</highlighted_element>
+  <language>HTML</language>
+  <offset>49</offset>
+  <length>7</length>
+</problem>
+</problems>

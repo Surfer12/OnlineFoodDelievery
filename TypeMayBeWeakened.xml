@@ -1,0 +1,93 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/observer/OrderTrackingService.java</file>
+  <line>9</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>observer</package>
+  <entry_point TYPE="field" FQNAME="observer.OrderTrackingService observers" />
+  <problem_class id="TypeMayBeWeakened" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Type may be weakened</problem_class>
+  <description>Type of field &lt;code&gt;observers&lt;/code&gt; may be weakened to 'java.util.Collection' #loc</description>
+  <highlighted_element>observers</highlighted_element>
+  <language>JAVA</language>
+  <offset>31</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/rating/Rating.java</file>
+  <line>41</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>rating</package>
+  <entry_point TYPE="method" FQNAME="rating.Rating void validate()" />
+  <problem_class id="TypeMayBeWeakened" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Type may be weakened</problem_class>
+  <description>Type of variable &lt;code&gt;errors&lt;/code&gt; may be weakened to 'java.util.Collection' #loc</description>
+  <highlighted_element>errors</highlighted_element>
+  <language>JAVA</language>
+  <offset>21</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/DriverServiceImpl.java</file>
+  <line>11</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="field" FQNAME="services.DriverServiceImpl drivers" />
+  <problem_class id="TypeMayBeWeakened" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Type may be weakened</problem_class>
+  <description>Type of field &lt;code&gt;drivers&lt;/code&gt; may be weakened to 'java.util.Collection' #loc</description>
+  <highlighted_element>drivers</highlighted_element>
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java</file>
+  <line>12</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services</package>
+  <entry_point TYPE="field" FQNAME="services.OrderServiceImpl orders" />
+  <problem_class id="TypeMayBeWeakened" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Type may be weakened</problem_class>
+  <description>Type of field &lt;code&gt;orders&lt;/code&gt; may be weakened to 'java.util.Collection' #loc</description>
+  <highlighted_element>orders</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/DriverServiceImpl.java</file>
+  <line>16</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="field" FQNAME="services.impl.DriverServiceImpl drivers" />
+  <problem_class id="TypeMayBeWeakened" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Type may be weakened</problem_class>
+  <description>Type of field &lt;code&gt;drivers&lt;/code&gt; may be weakened to 'java.util.Collection' #loc</description>
+  <highlighted_element>drivers</highlighted_element>
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/services/impl/OrderServiceImpl.java</file>
+  <line>13</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>services.impl</package>
+  <entry_point TYPE="field" FQNAME="services.impl.OrderServiceImpl orders" />
+  <problem_class id="TypeMayBeWeakened" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Type may be weakened</problem_class>
+  <description>Type of field &lt;code&gt;orders&lt;/code&gt; may be weakened to 'java.util.Collection' #loc</description>
+  <highlighted_element>orders</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/validation/ValidationUtils.java</file>
+  <line>53</line>
+  <module>OnlineFoodDelievery.main</module>
+  <package>validation</package>
+  <entry_point TYPE="method" FQNAME="validation.ValidationUtils void validateItems(java.util.List&lt;?&gt; items, int maxItems)" />
+  <problem_class id="TypeMayBeWeakened" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Type may be weakened</problem_class>
+  <description>Type of parameter &lt;code&gt;items&lt;/code&gt; may be weakened to 'java.util.Collection' #loc</description>
+  <highlighted_element>items</highlighted_element>
+  <language>JAVA</language>
+  <offset>44</offset>
+  <length>5</length>
+</problem>
+</problems>

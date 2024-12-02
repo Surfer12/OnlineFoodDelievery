@@ -1,0 +1,11 @@
+<problems>
+<problem>
+  <package>app</package>
+  <entry_point TYPE="package" FQNAME="app" />
+  <problem_class id="PackageInMultipleModules" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Package with classes in multiple modules</problem_class>
+  <hints />
+  <description>Package 'app' has classes in modules 'OnlineFoodDelievery.main' and 'OnlineFoodDelievery.test'</description>
+  <highlighted_element />
+  <language />
+</problem>
+</problems>
