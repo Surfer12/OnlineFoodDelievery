@@ -54,51 +54,56 @@ public class DeliverySystemCLI {
 
     public void start() {
         while (this.running) {
-            this.displayMainMenu();
-
-            Integer choice = this.menuManager.getMenuChoiceHandler().handleInput(
-                    this.scanner,
-                    "Enter your choice below: ");
-
-            if (choice == null) {
-                System.out.println("Invalid input. Please try again.");
-                continue;
-            }
-
-            switch (choice) {
-                case 1:
-                    // Allow customer to place a new order
-                    this.orderManager.processOrderPlacement(
-                            this.scanner,
-                            this.menuManager,
-                            this.positiveIntegerHandler);
-                    break;
-                case 2:
-                    // Allow driver to accept and deliver an order
-                    this.driverManager.acceptAndDeliverOrder(this.scanner, this.orderManager);
-                    break;
-                case 3:
-                    // Check order status
-                    this.orderManager.checkOrderStatus(this.scanner);
-                    break;
-                case 4:
-                    // View menu
-                    this.menuManager.displayMenu();
-                    break;
-                case 5:
-                    // Manage drivers
-                    this.driverManager.manageDriverMenu(this.scanner, this.orderManager);
-                    break;
-                case 6:
-                    // Rate driver
-                    this.driverManager.rateDriverInteractive(this.scanner, this.orderManager);
-                    break;
-                case 7:
-                    System.out.println("Exiting...");
-                    this.running = false;
-                    break;
-                default:
-                    System.out.println("Invalid choice. Please enter a number between 1 and 7.");
+            try {
+                this.displayMainMenu();
+        
+                Integer choice = this.menuManager.getMenuChoiceHandler().handleInput(
+                        this.scanner,
+                        "Please enter your choice (1-7): ");
+        
+                if (choice == null) {
+                    System.out.println("Invalid input. Please enter a number between 1 and 7.");
+                    continue;
+                }
+        
+                switch (choice) {
+                    case 1:
+                        // Place a new order
+                        this.orderManager.processOrderPlacement(
+                                this.scanner,
+                                this.menuManager,
+                                this.positiveIntegerHandler);
+                        break;
+                    case 2:
+                        // Accept and deliver an order
+                        this.driverManager.acceptAndDeliverOrder(this.scanner, this.orderManager);
+                        break;
+                    case 3:
+                        // Check order status
+                        this.orderManager.checkOrderStatus(this.scanner);
+                        break;
+                    case 4:
+                        // View menu
+                        this.menuManager.displayMenu();
+                        break;
+                    case 5:
+                        // Manage drivers
+                        this.driverManager.manageDriverMenu(this.scanner, this.orderManager);
+                        break;
+                    case 6:
+                        // Rate driver
+                        this.driverManager.rateDriverInteractive(this.scanner, this.orderManager);
+                        break;
+                    case 7:
+                        System.out.println("Thank you for using the Online Food Delivery System. Goodbye!");
+                        this.running = false;
+                        break;
+                    default:
+                        System.out.println("Invalid choice. Please enter a number between 1 and 7.");
+                }
+            } catch (Exception e) {
+                System.out.println("An unexpected error occurred: " + e.getMessage());
+                logger.severe("Error in start(): " + e);
             }
         }
         this.scanner.close();
