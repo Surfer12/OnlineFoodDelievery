@@ -35,6 +35,7 @@ If you have an idea for an enhancement, please create an issue on GitHub with a 
 3. Make your changes.
 4. Ensure your changes pass all tests.
 5. Submit a pull request.
+- **Do not commit `.hprof` files** as they are heap dumps used for debugging purposes.
 
 ## Development Setup
 
