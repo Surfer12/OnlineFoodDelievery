@@ -1,3 +1,9 @@
 {
-    "java.configuration.updateBuildConfiguration": "automatic"
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-23",
+            "path": "/Library/Java/JavaVirtualMachines/temurin-23.jdk/Contents/Home"
+        }
+    ]
 }
