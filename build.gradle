@@ -36,9 +36,7 @@ dependencies {
     
     // Logging
     implementation platform('org.slf4j:slf4j-bom:2.0.9')
-    implementation 'org.slf4j:slf4j-api'
-    implementation 'ch.qos.logback:logback-classic:1.4.14'
-    
+    implementation 'org.slf4j:slf4j-api'    
     // Testing
     testImplementation platform('org.junit:junit-bom:5.10.1')
     testImplementation 'org.junit.jupiter:junit-jupiter'
@@ -57,4 +55,10 @@ test {
     testLogging {
         events 'passed', 'skipped', 'failed'
     }
+}
+
+run {
+    // ...existing JVM options...
+    // Comment out or remove the heap dump option if present
+    // jvmArgs += "-XX:+HeapDumpOnOutOfMemoryError"
 }
