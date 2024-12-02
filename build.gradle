@@ -1,11 +1,33 @@
 plugins {
     id 'java'
-    id 'org.springframework.boot' version '3.4.0'
+    id 'org.springframework.boot' version '3.1.5'
     id 'io.spring.dependency-management' version '1.1.4'
     id 'io.freefair.lombok' version '8.1.0'
     id 'application'
     id 'java-library'
     id 'distribution'
+}
+
+// Create directories
+def createDirectories = tasks.register('createDirectories') {
+    doFirst {
+        mkdir 'build'
+        mkdir 'build/heapdump'
+        mkdir 'build/logs'
+    }
+}
+
+tasks.named('compileJava') {
+    dependsOn createDirectories
+    options.fork = true
+    options.forkOptions.jvmArgs = [
+        '-XX:+HeapDumpOnOutOfMemoryError',
+        '-XX:HeapDumpPath=build/heapdump',
+        '-Xlog:gc*:file=build/logs/gc.log:time,uptime,level,tags',
+        '-XX:+UseG1GC',
+        '-XX:MaxGCPauseMillis=200',
+        '-XX:+UseStringDeduplication'
+    ]
 }
 
 repositories {
@@ -27,12 +49,12 @@ configurations {
 }
 
 application {
-    mainClass = 'src.main.java.app.DeliverySystemCLI'
+    mainClass = 'app.DeliverySystemCLI'
 }
 
 dependencies {
     // Spring Boot
-    implementation 'org.springframework.boot:spring-boot-starter:3.4.0'
+    implementation 'org.springframework.boot:spring-boot-starter:3.1.5'
     
     // Logging
     implementation platform('org.slf4j:slf4j-bom:2.0.9')
@@ -43,14 +65,14 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter'
     testImplementation 'org.mockito:mockito-core:5.8.0'
     testImplementation 'org.mockito:mockito-junit-jupiter:5.8.0'
-    testImplementation 'org.springframework.boot:spring-boot-starter-test:3.4.0'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test:3.1.5'
     
     // Lombok
     compileOnly 'org.projectlombok:lombok:1.18.30'
     annotationProcessor 'org.projectlombok:lombok:1.18.30'
 
     // Monitoring and Metrics
-    implementation 'org.springframework.boot:spring-boot-starter-actuator:3.4.0'
+    implementation 'org.springframework.boot:spring-boot-starter-actuator:3.1.5'
     implementation 'io.micrometer:micrometer-registry-prometheus:1.12.0'
 }
 
@@ -62,47 +84,40 @@ test {
     }
 }
 
-/* distributions {
+distributions {
     main {
         contents {
-            from('bin') {
-                into 'bin'
+            into('/') {
+                from 'src/dist'
+                from 'build/libs'
             }
-            from('build') {
-                into 'build'
+            into('lib') {
+                from configurations.runtimeClasspath
             }
-        from('build-cache') {
-                into 'build-cache'
+            into('config') {
+                from 'src/main/resources'
+                exclude '**/*.properties.template'
             }
-            from('gradle') {
-                into '.gradle'
+            into('bin') {
+                from 'scripts'
+                fileMode = 0755
+            }
+            into('logs') {
+                // Create empty logs directory
             }
         }
     }
-} */
+}
 
-tasks.withType(JavaCompile) {
-    options.fork = true
-    options.forkOptions.jvmArgs += [
-        // Heap and Memory Logging
-        '-XX:+HeapDumpOnOutOfMemoryError',
-        '-XX:HeapDumpPath=build/heapdump',
-        '-verbose:gc', 
-        '-Xloggc:build/gc.log', 
-        '-XX:+PrintGCDetails', 
-        '-XX:+PrintGCTimeStamps',
-        '-XX:+PrintGCDateStamps',
-        '-XX:+PrintHeapAtGC',
-        '-XX:+PrintTenuringDistribution',
-        '-XX:+PrintGCApplicationStoppedTime',
-        '-XX:+UseGCLogFileRotation', 
-        '-XX:NumberOfGCLogFiles=5', 
-        '-XX:GCLogFileSize=5M',
-        
-        // Memory Management
-        '-XX:+UseG1GC',  // Use G1 Garbage Collector
-        '-XX:MaxGCPauseMillis=200',  // Max pause time goal
-        '-XX:G1HeapRegionSize=8m'  // Adjust region size
-    ]
+// Add this new task to create distribution directories
+tasks.register('createDistDirs') {
+    doLast {
+        mkdir 'src/dist'
+        mkdir 'scripts'
+    }
+}
+
+tasks.named('assembleDist') {
+    dependsOn 'createDistDirs'
 }
 
