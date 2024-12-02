@@ -1,3 +1,5 @@
+java_pid1685.hprof
+
 *.hprof
 
 # Created by https://www.gitignore.io/api/java,gradle,intellij
@@ -29,7 +31,8 @@
 .idea/mongoSettings.xml
 
 ## File-based project format:
-*.iws                               # IntelliJ/WebStorm
+*.iws                               
+# IntelliJ/WebStorm
 
 ## Plugin-specific files:
 
