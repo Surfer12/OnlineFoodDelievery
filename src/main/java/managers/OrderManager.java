@@ -96,7 +96,7 @@ public class OrderManager {
             final ConsoleInputHandler<String> emailHandler,
             final ConsoleInputHandler<String> locationHandler) {
         try {
-            final List<MenuItem> orderItems = menuManager.selectMenuItems(scanner, positiveIntegerHandler);
+            final List<MenuItem> orderItems = menuManager.getMenuItems(scanner, positiveIntegerHandler);
 
             if (!orderItems.isEmpty()) {
                 final Order newOrder = this.createOrder(orderItems);
