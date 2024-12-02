@@ -27,7 +27,7 @@ configurations {
 }
 
 application {
-    mainClass = 'app.DeliverySystemCLI'
+    mainClass = 'src.main.java.app.DeliverySystemCLI'
 }
 
 dependencies {
