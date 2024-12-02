@@ -26,9 +26,6 @@ java_pid1685.hprof
 # Gradle:
 .idea/gradle.xml
 .idea/libraries
-.gradle/**
-
-
 
 
 # Mongo Explorer plugin:
