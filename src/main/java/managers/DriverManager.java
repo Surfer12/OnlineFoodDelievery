@@ -60,6 +60,7 @@ public class DriverManager {
 
         if (order != null) {
             this.driverService.assignDriverToOrder(selectedDriver, order);
+            order.setStatus(OrderStatus.CONFIRMED); // Update order status
             System.out.println("Driver assigned successfully.");
             logger.info("Driver " + selectedDriver.getName() + " assigned to order " + order.getId()); // Use getId() method
         } else {
@@ -80,7 +81,7 @@ public class DriverManager {
                 input -> input >= 1 && input <= 5);
 
         if (rating != null) {
-            this.driverService.rateDriver(driver, rating);
+            driver.addRating(rating); // Use addRating method
             System.out.println("Thank you for your feedback!");
             logger.info("Driver " + driver.getName() + " rated: " + rating + " stars");
         }
@@ -156,7 +157,7 @@ public class DriverManager {
         System.out.println("\n--- Pending Orders ---");
         for (int i = 0; i < pendingOrders.size(); i++) {
             Order order = pendingOrders.get(i);
-            System.out.printf("%d. Order ID: %d, Customer: %s\n", i + 1, order.getOrderId(), order.getCustomerEmail());
+            System.out.printf("%d. Order ID: %d, Customer: %s\n", i + 1, order.getId(), order.getCustomerEmail());
         }
 
         Integer orderChoice = this.menuChoiceHandler.handleInput(
@@ -179,6 +180,6 @@ public class DriverManager {
         driverService.assignDriverToOrder(driver, selectedOrder);
         selectedOrder.setStatus(OrderStatus.IN_PROGRESS);
         System.out.println("Order assigned to driver " + driver.getName() + " and is now in progress.");
-        logger.info("Order " + selectedOrder.getOrderId() + " delivered.");
+        logger.info("Order " + selectedOrder.getId() + " delivered.");
     }
 }

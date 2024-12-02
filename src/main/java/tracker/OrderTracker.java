@@ -35,8 +35,9 @@ public class OrderTracker implements OrderSubject {
 
    @Override
    public void notifyObservers(final Order order) {
+      OrderStatus status = this.orderStatuses.get(order.getId());
       for (final OrderObserver observer : this.observers) {
-         observer.update(order, this.orderStatuses.get(order.getId())); // Use getId() method
+         observer.update(order, status); // Notify with both Order and OrderStatus
       }
    }
 
@@ -44,6 +45,7 @@ public class OrderTracker implements OrderSubject {
       this.validateOrderUpdateRequest(orderId, newStatus);
       this.updateStatusInDatabase(orderId, newStatus);
       this.updateDeliveryEstimates(orderId, assignedDriver);
+      this.notifyObserversAboutOrderUpdate(orderId); // Notify observers after update
    }
 
    private void validateOrderUpdateRequest(final Long orderId, final OrderStatus newStatus) {

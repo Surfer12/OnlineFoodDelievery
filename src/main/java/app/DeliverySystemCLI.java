@@ -11,6 +11,9 @@ import validation.validators.EmailValidator;
 import validation.validators.LocationValidator;
 import validation.validators.PositiveIntegerValidator;
 import order.Order; // Updated import
+import managers.MenuManager;
+import managers.OrderManager;
+import managers.DriverManager;
 
 public class DeliverySystemCLI {
     private final Scanner scanner;
@@ -19,6 +22,10 @@ public class DeliverySystemCLI {
     private final ConsoleInputHandler<Integer> positiveIntHandler;
     private final ConsoleInputHandler<String> emailHandler;
     private final ConsoleInputHandler<String> locationHandler;
+
+    private MenuManager menuManager;
+    private OrderManager orderManager;
+    private DriverManager driverManager;
 
     public DeliverySystemCLI() {
         this.scanner = new Scanner(System.in);
@@ -29,6 +36,11 @@ public class DeliverySystemCLI {
         this.positiveIntHandler = new ConsoleInputHandler<Integer>(new PositiveIntegerValidator());
         this.emailHandler = new ConsoleInputHandler<String>(new EmailValidator());
         this.locationHandler = new ConsoleInputHandler<String>(new LocationValidator());
+
+        // Initialize managers
+        this.menuManager = new MenuManager();
+        this.orderManager = new OrderManager();
+        this.driverManager = new DriverManager();
     }
 
     // Constructor with required parameters
@@ -41,62 +53,48 @@ public class DeliverySystemCLI {
 
     private void initializeMenu() {
         // Initialize menu items using ConcreteMenuItem
-        final ConcreteMenuItem hamburger = new ConcreteMenuItem("Hamburger", 5.99);
-        final ConcreteMenuItem fries = new ConcreteMenuItem("Fries", 2.99);
-        final ConcreteMenuItem drink = new ConcreteMenuItem("Drink", 1.99);
+        final MenuItem hamburger = new ConcreteMenuItem("Hamburger", 5.99);
+        final MenuItem fries = new ConcreteMenuItem("Fries", 2.99);
+        final MenuItem drink = new ConcreteMenuItem("Drink", 1.99);
+        menuManager.addMenuItem(hamburger);
+        menuManager.addMenuItem(fries);
+        menuManager.addMenuItem(drink);
     }
 
     public void start() {
         System.out.println("=== Online Food Delivery System ===");
 
-        // Customer ID Input
-        System.out.println("\nCustomer ID Requirements:");
-        System.out.println("- Must be a positive number");
-        final Integer customerId = this.positiveIntHandler.getInput("Enter Customer ID: ");
+        while (true) {
+            displayMainMenu();
+            Integer choice = positiveIntHandler.handleInput(scanner, "Enter your choice: ");
 
-        // Email Input
-        System.out.println("\nEmail Address Requirements:");
-        System.out.println("- Must be a valid email format");
-        System.out.println("- Example: username@example.com");
-        final String customerEmail = this.emailHandler.getInput("Enter Email Address: ");
+            if (choice == null)
+                continue;
 
-        // Delivery Address Input
-        System.out.println("\nDelivery Address Requirements:");
-        System.out.println("- Cannot be empty");
-        System.out.println("- Must be a valid location");
-        final String deliveryAddress = this.locationHandler.getInput("Enter Delivery Address: ");
+            switch (choice) {
+                case 1 -> orderManager.processOrderPlacement(scanner, menuManager, positiveIntHandler, emailHandler, locationHandler);
+                case 2 -> orderManager.checkOrderStatus(scanner);
+                case 3 -> menuManager.displayMenu();
+                case 4 -> driverManager.manageDriverMenu(scanner, orderManager);
+                case 5 -> driverManager.rateDriverInteractive(scanner, orderManager);
+                case 6 -> {
+                    System.out.println("Exiting system. Goodbye!");
+                    scanner.close();
+                    return;
+                }
+                default -> System.out.println("Invalid choice. Please try again.");
+            }
+        }
+    }
 
-        // Postal Code Input
-        System.out.println("\nPostal Code Requirements:");
-        System.out.println("- Must be a valid US postal code");
-        System.out.println("- 5 digits (e.g., 12345)");
-        System.out.println("- Optional 4-digit extension (e.g., 12345-6789)");
-        final String postalCode = this.getValidPostalCode();
-
-        // Order Items Input
-        System.out.println("\nOrder Items Requirements:");
-        System.out.println("- Must select at least one item");
-        System.out.println("Available Menu Items:");
-        this.displayMenuItems();
-        final List<MenuItem> orderItems = this.selectOrderItems();
-
-        // Create Order object using the new constructor
-        Order order = new Order(
-            // Assume 'id' is generated or fetched appropriately
-            id,
-            customerEmail,
-            deliveryAddress,
-            postalCode,
-            orderItems
-        );
-
-        // TODO: Complete order processing logic
-        System.out.println("\nOrder Summary:");
-        System.out.println("Customer ID: " + customerId);
-        System.out.println("Email: " + customerEmail);
-        System.out.println("Delivery Address: " + deliveryAddress);
-        System.out.println("Postal Code: " + postalCode);
-        System.out.println("Selected Items: " + orderItems);
+    private void displayMainMenu() {
+        System.out.println("\n--- Main Menu ---");
+        System.out.println("1. Place Order");
+        System.out.println("2. Check Order Status");
+        System.out.println("3. View Menu");
+        System.out.println("4. Manage Drivers");
+        System.out.println("5. Rate Driver");
+        System.out.println("6. Exit");
     }
 
     private String getValidPostalCode() {

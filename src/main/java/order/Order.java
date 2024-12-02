@@ -10,6 +10,7 @@ public class Order {
     private final String postalCode;
     private final List<MenuItem> items;
     private final double totalPrice;
+    private OrderStatus status; // Added status field
 
     public Order(Long id, String customerEmail, String deliveryAddress, String postalCode, List<MenuItem> items) {
         this.id = id;
@@ -18,6 +19,7 @@ public class Order {
         this.postalCode = postalCode;
         this.items = items;
         this.totalPrice = calculateTotalPrice();
+        this.status = OrderStatus.PENDING; // Initialize status
     }
 
     private double calculateTotalPrice() {
@@ -46,5 +48,13 @@ public class Order {
 
     public double getTotalPrice() {
         return totalPrice;
+    }
+
+    public OrderStatus getStatus() {
+        return status;
+    }
+
+    public void setStatus(OrderStatus status) {
+        this.status = status;
     }
 }

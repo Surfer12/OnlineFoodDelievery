@@ -9,9 +9,10 @@ import java.util.Queue;
 
 import model.MenuItem;
 import order.Order; // Updated import
+import model.OrderStatus;
 
 public class OrderServiceImpl implements OrderService {
-    private final Queue<Order> orderQueue = new LinkedList<>();
+    private final Queue<Order> orderQueue = new LinkedList<>(); // Ensure FIFO processing
 
     @Override
     public Order getOrderById(Long orderId) {
@@ -35,6 +36,7 @@ public class OrderServiceImpl implements OrderService {
             postalCode,
             items
         );
+        order.setStatus(OrderStatus.PENDING); // Initialize status
         orderQueue.add(order);
         return order;
     }
@@ -46,6 +48,7 @@ public class OrderServiceImpl implements OrderService {
         System.out.println("Customer Email: " + order.getCustomerEmail());
         System.out.println("Delivery Address: " + order.getDeliveryAddress());
         System.out.println("Postal Code: " + order.getPostalCode());
+        System.out.println("Status: " + order.getStatus()); // Display status
         System.out.println("Items:");
 
         Map<MenuItem, Integer> itemCounts = new HashMap<>();
@@ -72,6 +75,6 @@ public class OrderServiceImpl implements OrderService {
 
     @Override
     public List<Order> getAllOrders() {
-        return new ArrayList<>(orderQueue);
+        return new ArrayList<>(orderQueue); // Return a copy to preserve encapsulation
     }
 }

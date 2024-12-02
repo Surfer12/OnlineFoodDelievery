@@ -15,6 +15,7 @@ import services.impl.OrderServiceImpl;
 import validation.ConsoleInputHandler;
 import validation.InputValidatorImpl;
 import validation.PositiveLongValidator;
+import tracker.OrderTracker; // New import
 
 public class OrderManager {
     private static final Logger logger = Logger.getLogger(OrderManager.class.getName());
@@ -23,6 +24,7 @@ public class OrderManager {
     private final OrderService orderService;
     private final OrderQueue orderQueue;
     private final ConsoleInputHandler<Long> orderIdHandler;
+    private final OrderTracker orderTracker; // Added OrderTracker
 
     public OrderManager() {
         this.orderService = new OrderServiceImpl();
@@ -32,6 +34,7 @@ public class OrderManager {
                         new PositiveLongValidator(),
                         "Order ID",
                         "Invalid Order ID"));
+        this.orderTracker = new OrderTracker(); // Initialize OrderTracker
     }
 
     public Order createOrder(List<MenuItem> orderItems) throws CustomException.QueueFullException {
@@ -47,6 +50,9 @@ public class OrderManager {
             System.out.println("Order placed successfully!");
             System.out.println("Order ID: " + newOrder.getOrderId());
             System.out.println("Total Amount: $" + newOrder.getTotalAmount());
+            this.orderTracker.attach(new CustomerNotifier(new NotificationServiceImpl())); // Attach observer
+            this.orderTracker.attach(new DriverNotifier(new NotificationServiceImpl())); // Attach another observer
+            this.orderTracker.notifyObservers(newOrder); // Notify observers
             logger.info("New order added to queue: " + newOrder.getOrderId());
             return newOrder;
         } catch (CustomException.QueueFullException e) {
@@ -114,6 +120,7 @@ public class OrderManager {
         // This method could be moved to DriverManager if preferred
         DriverManager driverManager = new DriverManager();
         driverManager.assignDriverToOrder(scanner, order, this.orderIdHandler);
+        this.orderTracker.updateOrderStatus(order.getOrderId(), OrderStatus.CONFIRMED, driverManager.getAssignedDriver(order));
     }
 
     public List<Order> getPendingOrders() {
@@ -125,6 +132,7 @@ public class OrderManager {
     public void updateOrderStatus(Order order, String status) {
         order.setStatus(OrderStatus.valueOf(status));
         this.orderService.updateOrder(order);
+        this.orderTracker.updateOrderStatus(order.getOrderId(), OrderStatus.valueOf(status), null); // Update tracker
         System.out.println("Order status updated to: " + status);
     }
 }

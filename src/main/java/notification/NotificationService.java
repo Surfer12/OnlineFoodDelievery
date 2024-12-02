@@ -11,7 +11,7 @@ public interface NotificationService {
 
     void sendDriverAssignmentNotification(Order order, Driver driver);
 
-    void sendOrderStatusUpdateToCustomer(Order order, OrderStatus newStatus);
+    void sendOrderStatusUpdateToCustomer(Order order, OrderStatus newStatus); // Updated method
 
     void sendDeliveryCompletionNotification(Order order);
 }
