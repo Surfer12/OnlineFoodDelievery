@@ -1,0 +1,29 @@
+{
+    "extends": [
+        "stylelint-config-standard",
+        "stylelint-config-prettier"
+    ],
+    "plugins": [
+        "stylelint-order",
+        "stylelint-scss"
+    ],
+    "rules": {
+        "indentation": 2,
+        "max-line-length": 100,
+        "color-hex-case": "lower",
+        "color-named": "never",
+        "selector-list-comma-newline-after": "always",
+        "selector-max-compound-selectors": 3,
+        "selector-no-qualifying-type": true,
+        "declaration-block-trailing-semicolon": "always",
+        "declaration-no-important": true,
+        "declaration-block-no-duplicate-properties": true,
+        "order/properties-alphabetical-order": true,
+        "unit-allowed-list": ["px", "%", "em", "rem", "vh", "vw", "s"],
+        "value-keyword-case": "lower",
+        "media-feature-name-no-unknown": true,
+        "at-rule-no-unknown": [true, {
+            "ignoreAtRules": ["include", "mixin", "extend"]
+        }]
+    }
+}
