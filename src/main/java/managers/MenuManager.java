@@ -22,4 +22,12 @@ public class MenuManager {
                 .findFirst()
                 .orElse(null);
     }
+
+    public void displayMenu() {
+        System.out.println("--- Menu Items ---");
+        for (final MenuItem item : this.menuItems) {
+            System.out.printf("ID: %d, Name: %s, Price: $%.2f%n",
+                    item.getId(), item.getName(), item.getPrice());
+        }
+    }
 }
