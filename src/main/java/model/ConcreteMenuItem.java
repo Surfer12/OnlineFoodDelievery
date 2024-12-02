@@ -1,13 +1,15 @@
 package model;
 
 public class ConcreteMenuItem implements MenuItem {
-    private String name;
-    private double price;
-    private Size size;
-    private int quantity;
+    private final Long id;
+    private final String name;
+    private final String description;
+    private final double price;
+    private final Size size;
+    private final int quantity;
 
     public ConcreteMenuItem(final Long id, final String name, final String description,
-                            final double price, final Size size, final int quantity) {
+            final double price, final Size size, final int quantity) {
         this.id = id;
         this.name = name;
         this.description = description;
@@ -32,5 +34,13 @@ public class ConcreteMenuItem implements MenuItem {
 
     public int getQuantity() {
         return this.quantity;
+    }
+
+    public Long getId() {
+        return this.id;
+    }
+
+    public String getDescription() {
+        return this.description;
     }
 }
