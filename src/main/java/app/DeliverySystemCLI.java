@@ -4,11 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+import model.ConcreteMenuItem;
 import model.MenuItem;
 import validation.ConsoleInputHandler;
-import validation.EmailValidator;
-import validation.PositiveIntegerValidator;
+import validation.validators.EmailValidator;
 import validation.validators.LocationValidator;
+import validation.validators.PositiveIntegerValidator;
 
 public class DeliverySystemCLI {
     private final Scanner scanner;
@@ -23,17 +24,17 @@ public class DeliverySystemCLI {
         this.orderQueue = new OrderQueue();
         this.initializeMenu();
 
-        // Initialize input handlers with specific validators
-        this.positiveIntHandler = new ConsoleInputHandler<>(new PositiveIntegerValidator());
-        this.emailHandler = new ConsoleInputHandler<>(new EmailValidator());
-        this.locationHandler = new ConsoleInputHandler<>(new LocationValidator());
+        // Explicitly specify type arguments
+        this.positiveIntHandler = new ConsoleInputHandler<Integer>(new PositiveIntegerValidator());
+        this.emailHandler = new ConsoleInputHandler<String>(new EmailValidator());
+        this.locationHandler = new ConsoleInputHandler<String>(new LocationValidator());
     }
 
     private void initializeMenu() {
-        // Initialize menu items
-        final MenuItem hamburger = new MenuItem("Hamburger", 5.99);
-        final MenuItem fries = new MenuItem("Fries", 2.99);
-        final MenuItem drink = new MenuItem("Drink", 1.99);
+        // Initialize menu items using ConcreteMenuItem
+        final ConcreteMenuItem hamburger = new ConcreteMenuItem("Hamburger", 5.99);
+        final ConcreteMenuItem fries = new ConcreteMenuItem("Fries", 2.99);
+        final ConcreteMenuItem drink = new ConcreteMenuItem("Drink", 1.99);
     }
 
     public void start() {
@@ -112,13 +113,13 @@ public class DeliverySystemCLI {
                 for (final String itemNum : itemNumbers) {
                     switch (itemNum) {
                         case "1":
-                            selectedItems.add(new MenuItem("Hamburger", 5.99));
+                            selectedItems.add(new ConcreteMenuItem("Hamburger", 5.99));
                             break;
                         case "2":
-                            selectedItems.add(new MenuItem("Fries", 2.99));
+                            selectedItems.add(new ConcreteMenuItem("Fries", 2.99));
                             break;
                         case "3":
-                            selectedItems.add(new MenuItem("Drink", 1.99));
+                            selectedItems.add(new ConcreteMenuItem("Drink", 1.99));
                             break;
                         default:
                             System.out.println("Invalid item number: " + itemNum);
