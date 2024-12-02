@@ -1,52 +1,98 @@
 package managers;
 
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-import org.mockito.Mockito;
-import static org.mockito.Mockito.*;
 import static org.junit.jupiter.api.Assertions.*;
+import static org.mockito.Mockito.*;
 
-import services.OrderService;
-import services.impl.OrderServiceImpl;
-import model.MenuItem;
-import model.Order;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Scanner;
 
-public class OrderManagerTest {
-    private OrderService orderServiceMock;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.mockito.Mock;
+import org.mockito.MockitoAnnotations;
+
+import model.MenuItem;
+import model.Order;
+import model.OrderStatus;
+import services.OrderService;
+import validation.ConsoleInputHandler;
+
+class OrderManagerTest {
+
+    @Mock
+    private OrderService orderService;
+    
+    @Mock
+    private ConsoleInputHandler<Long> orderIdHandler;
+    
+    @Mock
+    private Scanner scanner;
+
     private OrderManager orderManager;
 
     @BeforeEach
     void setUp() {
-        orderServiceMock = mock(OrderServiceImpl.class);
+        MockitoAnnotations.openMocks(this);
         orderManager = new OrderManager();
-        orderManager.orderService = orderServiceMock; // Inject mock
+        // Use reflection to set mocked orderService
+        setField(orderManager, "orderService", orderService);
+        setField(orderManager, "orderIdHandler", orderIdHandler);
     }
 
     @Test
-    void testCreateOrderSuccess() throws CustomException.QueueFullException {
-        MenuItem item = new MenuItem("Pizza", "Delicious cheese pizza", 10.0, Size.MEDIUM, 1);
+    void createOrder_ValidItems_Success() throws CustomException.QueueFullException {
+        // Arrange
+        MenuItem item = new MenuItem("Test Item", "Description", 10.0);
         List<MenuItem> items = Arrays.asList(item);
-        Order mockOrder = new Order();
-        when(orderServiceMock.createOrder(items)).thenReturn(mockOrder);
+        Order expectedOrder = new Order();
+        when(orderService.createOrder(items)).thenReturn(expectedOrder);
 
-        Order createdOrder = orderManager.createOrder(items);
-        assertNotNull(createdOrder);
-        verify(orderServiceMock, times(1)).createOrder(items);
+        // Act
+        Order result = orderManager.createOrder(items);
+
+        // Assert
+        assertNotNull(result);
+        verify(orderService).createOrder(items);
+        verify(orderService).displayOrderDetails(expectedOrder);
     }
 
     @Test
-    void testCreateOrderEmptyItems() throws CustomException.QueueFullException {
+    void createOrder_EmptyItems_ReturnsNull() throws CustomException.QueueFullException {
+        // Arrange
         List<MenuItem> items = Arrays.asList();
-        Order createdOrder = orderManager.createOrder(items);
-        assertNull(createdOrder);
-        verify(orderServiceMock, never()).createOrder(anyList());
+
+        // Act
+        Order result = orderManager.createOrder(items);
+
+        // Assert
+        assertNull(result);
+        verify(orderService, never()).createOrder(any());
     }
 
-    // ...additional test methods...
-}
+    @Test
+    void checkOrderStatus_ValidOrder_DisplaysStatus() {
+        // Arrange
+        Long orderId = 1L;
+        Order mockOrder = new Order();
+        mockOrder.setStatus(OrderStatus.IN_PROGRESS);
+        when(orderIdHandler.handleInput(any(), any())).thenReturn(orderId);
+        when(orderService.getOrderById(orderId)).thenReturn(mockOrder);
 
-public class OrderManagerTest {
-    
+        // Act
+        orderManager.checkOrderStatus(scanner);
+
+        // Assert
+        verify(orderService).getOrderById(orderId);
+    }
+
+    private void setField(Object target, String fieldName, Object value) {
+        try {
+            java.lang.reflect.Field field = target.getClass().getDeclaredField(fieldName);
+            field.setAccessible(true);
+            field.set(target, value);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
 }
