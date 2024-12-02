@@ -35,8 +35,9 @@ public class Customer extends Person {
             this.getId(),
             this.getEmail(),
             items,
-            new Location(this.getAddress(), this.getPostalCode()),
-            driver.getId());
+            this.getAddress(),
+            this.getAddress());
+      order.setDriver(driver);
       this.orderHistory.add(order);
    }
 
