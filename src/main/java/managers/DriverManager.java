@@ -5,7 +5,7 @@ import java.util.Scanner;
 import java.util.logging.Logger;
 
 import model.Driver;
-import model.Order;
+import order.Order; // Updated import
 import services.DriverService;
 import services.impl.DriverServiceImpl;
 import validation.ConsoleInputHandler;
@@ -61,7 +61,7 @@ public class DriverManager {
         if (order != null) {
             this.driverService.assignDriverToOrder(selectedDriver, order);
             System.out.println("Driver assigned successfully.");
-            logger.info("Driver " + selectedDriver.getName() + " assigned to order " + order.getOrderId());
+            logger.info("Driver " + selectedDriver.getName() + " assigned to order " + order.getId()); // Use getId() method
         } else {
             System.out.println("Order not found.");
         }

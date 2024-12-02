@@ -7,7 +7,7 @@ import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
 import model.MenuItem;
-import model.Order;
+import order.Order; // Updated import
 import model.OrderStatus;
 import queue.OrderQueue;
 import services.OrderService;
@@ -84,7 +84,9 @@ public class OrderManager {
     }
 
     public void processOrderPlacement(Scanner scanner, MenuManager menuManager,
-            ConsoleInputHandler<Integer> positiveIntegerHandler) {
+            ConsoleInputHandler<Integer> positiveIntegerHandler,
+            ConsoleInputHandler<String> emailHandler,
+            ConsoleInputHandler<String> locationHandler) {
         try {
             List<MenuItem> orderItems = menuManager.selectMenuItems(scanner, positiveIntegerHandler);
 
@@ -118,5 +120,11 @@ public class OrderManager {
         return this.orderService.getAllOrders().stream()
                 .filter(order -> order.getStatus() == OrderStatus.SUBMITTED)
                 .collect(Collectors.toList());
+    }
+
+    public void updateOrderStatus(Order order, String status) {
+        order.setStatus(OrderStatus.valueOf(status));
+        this.orderService.updateOrder(order);
+        System.out.println("Order status updated to: " + status);
     }
 }

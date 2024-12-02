@@ -8,8 +8,8 @@ import java.util.Optional;
 import java.util.concurrent.ConcurrentHashMap;
 
 import model.Driver;
-import model.Order;
 import model.OrderStatus;
+import order.Order; // Updated import
 
 public class OrderTracker implements OrderSubject {
    private final Map<Long, OrderStatus> orderStatuses;
@@ -36,7 +36,7 @@ public class OrderTracker implements OrderSubject {
    @Override
    public void notifyObservers(final Order order) {
       for (final OrderObserver observer : this.observers) {
-         observer.update(order, this.orderStatuses.get(order.getOrderId()));
+         observer.update(order, this.orderStatuses.get(order.getId())); // Use getId() method
       }
    }
 

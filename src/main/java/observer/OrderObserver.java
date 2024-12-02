@@ -1,6 +1,6 @@
 package observer;
 
-import model.Order;
+import order.Order; // Updated import
 
 public interface OrderObserver {
     void update(Order order);

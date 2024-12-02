@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.Queue;
 
 import model.MenuItem;
-import model.Order;
+import order.Order; // Updated import
 
 public class OrderServiceImpl implements OrderService {
     private final Queue<Order> orderQueue = new LinkedList<>();
@@ -27,15 +27,25 @@ public class OrderServiceImpl implements OrderService {
             throw new IllegalArgumentException("Order must contain at least one item");
         }
 
-        Order newOrder = new Order(0L, "New Order", items, null);
-        orderQueue.add(newOrder);
-        return newOrder;
+        Order order = new Order(
+            // Provide necessary parameters according to the new constructor
+            idGenerator.generateId(),
+            customerEmail,
+            deliveryAddress,
+            postalCode,
+            items
+        );
+        orderQueue.add(order);
+        return order;
     }
 
     @Override
     public void displayOrderDetails(Order order) {
         System.out.println("Order Details:");
-        System.out.println("Order ID: " + order.getOrderId());
+        System.out.println("Order ID: " + order.getId());
+        System.out.println("Customer Email: " + order.getCustomerEmail());
+        System.out.println("Delivery Address: " + order.getDeliveryAddress());
+        System.out.println("Postal Code: " + order.getPostalCode());
         System.out.println("Items:");
 
         Map<MenuItem, Integer> itemCounts = new HashMap<>();

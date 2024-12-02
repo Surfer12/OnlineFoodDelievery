@@ -10,6 +10,7 @@ import validation.ConsoleInputHandler;
 import validation.validators.EmailValidator;
 import validation.validators.LocationValidator;
 import validation.validators.PositiveIntegerValidator;
+import order.Order; // Updated import
 
 public class DeliverySystemCLI {
     private final Scanner scanner;
@@ -78,6 +79,16 @@ public class DeliverySystemCLI {
         System.out.println("Available Menu Items:");
         this.displayMenuItems();
         final List<MenuItem> orderItems = this.selectOrderItems();
+
+        // Create Order object using the new constructor
+        Order order = new Order(
+            // Assume 'id' is generated or fetched appropriately
+            id,
+            customerEmail,
+            deliveryAddress,
+            postalCode,
+            orderItems
+        );
 
         // TODO: Complete order processing logic
         System.out.println("\nOrder Summary:");

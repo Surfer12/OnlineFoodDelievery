@@ -3,7 +3,7 @@ package services;
 import java.util.List;
 
 import model.MenuItem;
-import model.Order;
+import order.Order; // Updated import
 
 public interface OrderService {
     Order getOrderById(Long orderId);
@@ -13,6 +13,5 @@ public interface OrderService {
 
     String getOrderStatus(Long orderId);
 
-    // Add method to retrieve orders in FIFO
-    List<Order> getAllOrders(); // Ensure orders are retrieved in the order they were placed
+    List<Order> getAllOrders();
 }
