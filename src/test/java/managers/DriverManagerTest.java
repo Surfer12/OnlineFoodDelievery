@@ -4,6 +4,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
 import java.util.Arrays;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
@@ -52,7 +53,7 @@ class DriverManagerTest {
     @Test
     void assignDriverToOrder_ValidOrder_Success() {
         // Arrange
-        Order order = new Order();
+        Order order = new Order(new ArrayList<>());
         Driver driver = new Driver(1L, "John", "Car", "ABC123");
         when(driverService.getAvailableDrivers()).thenReturn(Arrays.asList(driver));
         when(menuChoiceHandler.handleInput(any(), any())).thenReturn(1);
@@ -67,7 +68,7 @@ class DriverManagerTest {
     @Test
     void rateDriver_ValidRating_Success() {
         // Arrange
-        Order order = new Order();
+        Order order = new Order(new ArrayList<>());
         Driver driver = new Driver(1L, "John", "Car", "ABC123");
         when(driverService.getDriverForOrder(order)).thenReturn(driver);
         when(menuChoiceHandler.handleInput(any(), any(), any())).thenReturn(5);
@@ -82,7 +83,8 @@ class DriverManagerTest {
     @Test
     void acceptAndDeliverOrder_ValidOrder_Success() {
         // Arrange
-        Order order = new Order();
+        // Create an empty order to avoid null pointer exceptions
+        Order order = new Order(new ArrayList<>());
         order.setStatus(OrderStatus.SUBMITTED);
         Driver driver = new Driver(1L, "John", "Car", "ABC123");
         when(orderManager.getPendingOrders()).thenReturn(Arrays.asList(order));

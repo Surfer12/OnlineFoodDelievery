@@ -37,13 +37,17 @@ public class Order {
    }
 
    public Order(List<MenuItem> items) {
-      this.items = items;
+      this.customerId = 0L; // Default or placeholder value
+      this.customerEmail = "unknown@example.com"; // Default or placeholder value
+      this.deliveryLocation = new Location("unknown", "00000"); // Default or placeholder value
+      this.orderId = System.currentTimeMillis(); // Simple ID generation
+      this.items = items != null ? new ArrayList<>(items) : new ArrayList<>();
       this.status = OrderStatus.SUBMITTED;
       this.totalAmount = calculateTotalAmount();
    }
 
-   private void calculateTotalAmount() {
-      this.totalAmount = this.items.stream()
+   private double calculateTotalAmount() {
+      return this.items.stream()
             .mapToDouble(MenuItem::getPrice)
             .sum();
    }
