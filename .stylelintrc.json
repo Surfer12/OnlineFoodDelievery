@@ -8,14 +8,9 @@
         "stylelint-scss"
     ],
     "rules": {
-        "indentation": 2,
-        "max-line-length": 100,
-        "color-hex-case": "lower",
         "color-named": "never",
-        "selector-list-comma-newline-after": "always",
         "selector-max-compound-selectors": 3,
         "selector-no-qualifying-type": true,
-        "declaration-block-trailing-semicolon": "always",
         "declaration-no-important": true,
         "declaration-block-no-duplicate-properties": true,
         "order/properties-alphabetical-order": true,
