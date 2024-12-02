@@ -30,8 +30,7 @@ public class DeliverySystemCLI {
 
     public DeliverySystemCLI() {
         this.scanner = new Scanner(System.in);
-        this.orderQueue = new OrderQueue();
-        this.initializeMenu();
+        this.orderQueue = new OrderQueue(100);
 
         // Explicitly specify type arguments
         this.positiveIntHandler = new ConsoleInputHandler<Integer>(new PositiveIntegerValidator());
@@ -42,6 +41,8 @@ public class DeliverySystemCLI {
         this.menuManager = new MenuManager();
         this.orderManager = new OrderManager();
         this.driverManager = new DriverManager();
+
+        this.initializeMenu();
     }
 
     // Constructor with required parameters
@@ -54,7 +55,6 @@ public class DeliverySystemCLI {
     }
 
     private void initializeMenu() {
-        // Initialize menu items using ConcreteMenuItem
         final MenuItem hamburger = new ConcreteMenuItem(1L, "Hamburger", "Beef patty with lettuce and tomato", 5.99,
                 Size.MEDIUM, 1);
         final MenuItem fries = new ConcreteMenuItem(2L, "Fries", "Crispy golden fries", 2.99, Size.LARGE, 1);
