@@ -81,7 +81,7 @@ public class DeliverySystemCLI {
                 case 2 -> this.orderManager.checkOrderStatus(this.scanner);
                 case 3 -> this.menuManager.displayMenu();
                 case 4 -> this.driverManager.manageDriverMenu(this.scanner, this.orderManager);
-                case 5 -> this.driverManager.rateDriverInteractive(this.scanner, this.orderManager);
+                case 5 -> this.rateDriver();
                 case 6 -> {
                     System.out.println("Exiting system. Goodbye!");
                     this.scanner.close();
@@ -156,6 +156,19 @@ public class DeliverySystemCLI {
         }
 
         return selectedItems;
+    }
+
+    private void rateDriver() {
+        System.out.println("Enter the driver's ID to rate: ");
+        Long driverId = Long.parseLong(scanner.nextLine());
+        System.out.println("Enter your rating (1-5): ");
+        int ratingValue = Integer.parseInt(scanner.nextLine());
+        Driver driver = driverManager.getDriverById(driverId);
+        if (driver != null) {
+            driverManager.rateDriver(driver, ratingValue);
+        } else {
+            System.out.println("Driver not found.");
+        }
     }
 
     public static void main(final String[] args) {

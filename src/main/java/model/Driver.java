@@ -1,10 +1,12 @@
 package model;
 
 import java.util.ArrayDeque;
+import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
 import java.util.Queue;
 import java.util.logging.Logger;
+import java.util.stream.Collectors;
 
 public class Driver {
    private static final Logger logger = Logger.getLogger(Driver.class.getName());
@@ -18,7 +20,7 @@ public class Driver {
    private final String licensePlate;
    private String vehicle;
    private boolean available;
-   private final Queue<Integer> ratings = new ArrayDeque<>(Driver.MAX_RATINGS);
+   private final Queue<Rating> ratings = new ArrayDeque<>(Driver.MAX_RATINGS);
    private Order currentOrder;
    private Location currentLocation;
 
@@ -113,15 +115,26 @@ public class Driver {
       if (this.ratings.size() >= Driver.MAX_RATINGS) {
          this.ratings.poll(); // Remove oldest rating
       }
-      this.ratings.offer(rating);
+      this.ratings.offer(new Rating(rating));
       Driver.logger.info(() -> String.format("Added rating %d to driver %s", rating, this.name));
    }
 
    public double getAverageRating() {
       return this.ratings.stream()
-            .mapToInt(Integer::intValue)
+            .mapToInt(Rating::getValue)
             .average()
             .orElse(0.0);
+   }
+
+   public List<Rating> getRatings() {
+      return this.ratings.stream().collect(Collectors.toList());
+   }
+
+   public void addRating(Rating rating) {
+      if (this.ratings.size() >= Driver.MAX_RATINGS) {
+         this.ratings.poll(); // Remove oldest rating
+      }
+      this.ratings.offer(rating);
    }
 
    @Override

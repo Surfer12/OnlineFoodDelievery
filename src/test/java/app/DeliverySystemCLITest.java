@@ -3,6 +3,8 @@ package app;
 import managers.DriverManager;
 import managers.MenuManager;
 import managers.OrderManager;
+import model.Driver;
+import model.Rating;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -12,8 +14,10 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import services.OrderService;
 import validation.ConsoleInputHandler;
 
+import java.util.List;
 import java.util.Scanner;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
@@ -115,5 +119,31 @@ public class DeliverySystemCLITest {
         this.deliverySystemCLI.start();
 
         verify(this.scanner).close();
+    }
+
+    @Test
+    public void testRateDriver() {
+        Driver driver = new Driver(1L, "John Doe", "Car", "ABC123");
+        when(scanner.nextLine()).thenReturn("1", "5");
+        when(driverManager.getDriverById(1L)).thenReturn(driver);
+
+        deliverySystemCLI.rateDriver();
+
+        verify(driverManager).rateDriver(driver, 5);
+    }
+
+    @Test
+    public void testGetDriverRatings() {
+        Driver driver = new Driver(1L, "John Doe", "Car", "ABC123");
+        Rating rating1 = new Rating(5);
+        Rating rating2 = new Rating(4);
+        driver.addRating(rating1);
+        driver.addRating(rating2);
+
+        List<Rating> ratings = deliverySystemCLI.getDriverRatings(driver);
+
+        assertEquals(2, ratings.size());
+        assertEquals(5, ratings.get(0).getValue());
+        assertEquals(4, ratings.get(1).getValue());
     }
 }
