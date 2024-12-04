@@ -3,12 +3,18 @@ package services;
 import model.Driver;
 import model.Order;
 import model.OrderStatus;
+import rating.Rating;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class DriverServiceImpl implements DriverService {
     private List<Driver> drivers = new ArrayList<>();
+
+    @Override
+    public List<Driver> getAllDrivers() {
+        return new ArrayList<>(this.drivers);
+    }
 
     @Override
     public List<Driver> getAvailableDrivers() {
@@ -30,14 +36,13 @@ public class DriverServiceImpl implements DriverService {
         if (driver != null && order != null) {
             driver.setAvailable(false);
             order.setDriver(driver);
-            // Optionally update order status
-            order.setStatus(OrderStatus.IN_PROGRESS); // Ensure OrderStatus.IN_PROGRESS exists
+            order.setStatus(OrderStatus.IN_PROGRESS);
         }
     }
 
     @Override
     public void rateDriver(Driver driver, Integer rating) {
-        if (driver != null) {
+        if (driver != null & rating != null) {
             if (rating < 1 || rating > 5) {
                 System.out.println("Rating must be between 1 and 5.");
                 return;

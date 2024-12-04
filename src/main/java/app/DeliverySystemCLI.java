@@ -163,9 +163,17 @@ public class DeliverySystemCLI {
         Long driverId = Long.parseLong(scanner.nextLine());
         System.out.println("Enter your rating (1-5): ");
         int ratingValue = Integer.parseInt(scanner.nextLine());
-        Driver driver = driverManager.getDriverById(driverId);
+        System.out.println("Enter comment: ");
+        String comment = scanner.nextLine();
+
+        Rating rating = new Rating.Builder()
+            .score(ratingValue)
+            .comment(comment)
+            .build();
+
+        Driver driver = driverManager.findDriverById(driverId);
         if (driver != null) {
-            driverManager.rateDriver(driver, ratingValue);
+            driverService.rateDriver(driver, rating);
         } else {
             System.out.println("Driver not found.");
         }

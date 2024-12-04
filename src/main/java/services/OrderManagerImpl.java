@@ -19,7 +19,7 @@ public class OrderManagerImpl implements OrderManager {
             final ConsoleInputHandler<String> emailHandler,
             final ConsoleInputHandler<String> locationHandler) {
         // Get menu items
-        final List<MenuItem> orderItems = menuManager.getMenuItems(scanner, positiveIntegerHandler);
+        final List<MenuItem> orderItems = menuManager.selectMenuItems(scanner, positiveIntegerHandler);
 
         // Use emailHandler to get and validate email
         final String email = emailHandler.getInput("Enter your email: ");
@@ -30,15 +30,14 @@ public class OrderManagerImpl implements OrderManager {
 
         // Create a new order with the provided details
         final OrderServiceImpl orderService = new OrderServiceImpl();
-        final Order order = new Order(
+        final Order order = orderService.createNewOrder(
                 IdGenerator.generateId(),
                 email,
                 orderItems,
                 location,
                 postalCode);
 
-        // Add the order to the service
-        orderService.createOrder(orderItems);
+        orderService.saveOrder(order);
     }
 
     // ...existing code...

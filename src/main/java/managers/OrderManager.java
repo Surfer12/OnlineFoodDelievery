@@ -96,34 +96,30 @@ public class OrderManager {
             final ConsoleInputHandler<String> emailHandler,
             final ConsoleInputHandler<String> locationHandler) {
         try {
-            final List<MenuItem> orderItems = menuManager.getMenuItems(scanner, positiveIntegerHandler);
+            final List<MenuItem> orderItems = menuManager.selectMenuItems(scanner, positiveIntegerHandler);
 
             if (!orderItems.isEmpty()) {
                 final Order newOrder = this.createOrder(orderItems);
-
-                // Optional: Prompt for driver assignment after order creation
                 if (newOrder != null) {
                     System.out.println("Would you like to assign a driver now? (Y/N)");
                     final String response = scanner.nextLine().trim().toUpperCase();
                     if ("Y".equals(response)) {
-                        // You might want to pass the DriverManager as a parameter
-                        // or create a method to handle driver assignment
-                        this.assignDriverToNewOrder(scanner, newOrder);
+                        this.assignDriverToOrder(newOrder);
                     }
                 }
             }
         } catch (final CustomException.QueueFullException e) {
-            OrderManager.logger.warning("Order queue full: " + e.getMessage());
+            logger.warning("Order queue full: " + e.getMessage());
             System.out.println("Sorry, we cannot accept more orders at the moment.");
         }
     }
 
-    private void assignDriverToNewOrder(final Scanner scanner, final Order order) {
-        // This method could be moved to DriverManager if preferred
-        final DriverManager driverManager = new DriverManager();
-        driverManager.assignDriverToOrder(scanner, order, this.orderIdHandler);
-        this.orderTracker.updateOrderStatus(order.getOrderId(), OrderStatus.CONFIRMED,
-                driverManager.getAssignedDriver(order));
+    private void assignDriverToOrder(final Order order) {
+        Driver driver = driverManager.findAvailableDriver();
+        if (driver != null) {
+            driverManager.assignDriver(driver, order);
+            orderTracker.updateOrderStatus(order.getOrderId(), OrderStatus.CONFIRMED, driver);
+        }
     }
 
     public List<Order> getPendingOrders() {
@@ -132,10 +128,10 @@ public class OrderManager {
                 .collect(Collectors.toList());
     }
 
-    public void updateOrderStatus(final Order order, final String status) {
-        order.setStatus(OrderStatus.valueOf(status));
-        this.orderService.updateOrder(order);
-        this.orderTracker.updateOrderStatus(order.getOrderId(), OrderStatus.valueOf(status), null); // Update tracker
+    public void updateOrderStatus(final Order order, final OrderStatus status) {
+        order.setStatus(status);
+        orderService.save(order);
+        orderTracker.updateOrderStatus(order.getOrderId(), status, order.getDriver());
         System.out.println("Order status updated to: " + status);
     }
 }
