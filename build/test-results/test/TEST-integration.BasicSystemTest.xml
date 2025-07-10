@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="integration.BasicSystemTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-07-10T10:20:49" hostname="fv-az1694-814" time="0.028">
+  <properties/>
+  <testcase name="testMenuManagerBasicFunctionality()" classname="integration.BasicSystemTest" time="0.019"/>
+  <testcase name="testDeliverySystemCLICanBeInstantiated()" classname="integration.BasicSystemTest" time="0.005"/>
+  <testcase name="testSystemInstantiation()" classname="integration.BasicSystemTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
