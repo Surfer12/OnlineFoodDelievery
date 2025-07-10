@@ -5,6 +5,10 @@ import java.util.Scanner;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
+import CustomException.QueueFullException;
+import managers.DriverManager;
+import managers.MenuManager;
+import model.Driver;
 import model.MenuItem;
 import model.Order;
 import model.OrderStatus;
@@ -27,6 +31,8 @@ public class OrderManager {
     private final OrderQueue orderQueue;
     private final ConsoleInputHandler<Long> orderIdHandler;
     private final OrderTracker orderTracker; // Added OrderTracker
+    private final DriverManager driverManager;
+    private final MenuManager menuManager;
 
     public OrderManager() {
         this.orderService = new OrderServiceImpl();
@@ -37,6 +43,8 @@ public class OrderManager {
                         "Order ID",
                         "Invalid Order ID"));
         this.orderTracker = new OrderTracker(); // Initialize OrderTracker
+        this.driverManager = new DriverManager();
+        this.menuManager = new MenuManager();
     }
 
     public Order createOrder(final List<MenuItem> orderItems) throws CustomException.QueueFullException {
@@ -115,11 +123,10 @@ public class OrderManager {
     }
 
     private void assignDriverToOrder(final Order order) {
-        Driver driver = driverManager.findAvailableDriver();
-        if (driver != null) {
-            driverManager.assignDriver(driver, order);
-            orderTracker.updateOrderStatus(order.getOrderId(), OrderStatus.CONFIRMED, driver);
-        }
+        java.util.Optional<Driver> driverOpt = driverManager.assignDriverToOrder(null, order);
+        driverOpt.ifPresent(driver -> 
+            orderTracker.updateOrderStatus(order.getOrderId(), OrderStatus.CONFIRMED, driver)
+        );
     }
 
     public List<Order> getPendingOrders() {

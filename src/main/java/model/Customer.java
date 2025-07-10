@@ -57,7 +57,7 @@ public class Customer extends Person {
             .build();
 
       // Assuming Driver has a method to add a Rating object
-      driver.addRating(rating);
+      driver.addRating(new model.Rating(rating.getScore()));
    }
 
    /**
