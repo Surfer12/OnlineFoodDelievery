@@ -1,6 +1,6 @@
 plugins {
     id 'java'
-    id 'org.springframework.boot' version '3.1.5'
+    id 'org.springframework.boot' version '3.2.7'
     id 'io.spring.dependency-management' version '1.1.4'
     id 'io.freefair.lombok' version '8.1.0'
     id 'application'
@@ -36,10 +36,10 @@ repositories {
 }
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_17
-    targetCompatibility = JavaVersion.VERSION_17
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
     toolchain {
-        languageVersion.set(JavaLanguageVersion.of(17))
+        languageVersion.set(JavaLanguageVersion.of(21))
     }
 }
 
@@ -55,7 +55,7 @@ application {
 
 dependencies {
     // Spring Boot
-    implementation 'org.springframework.boot:spring-boot-starter:3.1.5'
+    implementation 'org.springframework.boot:spring-boot-starter:3.2.7'
     
     // Logging
     implementation platform('org.slf4j:slf4j-bom:2.0.9')
@@ -66,15 +66,41 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter'
     testImplementation 'org.mockito:mockito-core:5.8.0'
     testImplementation 'org.mockito:mockito-junit-jupiter:5.8.0'
-    testImplementation 'org.springframework.boot:spring-boot-starter-test:3.1.5'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test:3.2.7'
     
     // Lombok
     compileOnly 'org.projectlombok:lombok:1.18.30'
     annotationProcessor 'org.projectlombok:lombok:1.18.30'
 
     // Monitoring and Metrics
-    implementation 'org.springframework.boot:spring-boot-starter-actuator:3.1.5'
-    implementation 'io.micrometer:micrometer-registry-prometheus:1.12.0'
+    implementation 'org.springframework.boot:spring-boot-starter-actuator:3.2.7'
+    implementation 'io.micrometer:micrometer-registry-prometheus:1.12.1'
+    
+    // Force secure versions for transitive dependencies
+    constraints {
+        // Jackson vulnerabilities
+        implementation('com.fasterxml.jackson.core:jackson-core:2.16.1')
+        implementation('com.fasterxml.jackson.core:jackson-databind:2.16.1')
+        implementation('com.fasterxml.jackson.core:jackson-annotations:2.16.1')
+        
+        // JSON-Path vulnerability
+        implementation('com.jayway.jsonpath:json-path:2.9.0')
+        
+        // JSON-Smart vulnerability
+        implementation('net.minidev:json-smart:2.4.11')
+        
+        // XMLUnit vulnerability
+        implementation('org.xmlunit:xmlunit-core:2.9.1')
+        
+        // Commons Compress vulnerabilities
+        implementation('org.apache.commons:commons-compress:1.25.0')
+        
+        // Commons Lang vulnerability
+        implementation('org.apache.commons:commons-lang3:3.14.0')
+        
+        // Commons BeanUtils vulnerability
+        implementation('commons-beanutils:commons-beanutils:1.9.4')
+    }
 }
 
 test {
