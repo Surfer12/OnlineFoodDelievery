@@ -4,7 +4,7 @@
 [versions]
 # Core Java and Spring versions
 java = "21"
-spring-boot = "3.2.1"
+spring-boot = "3.2.7"
 spring-dependency-management = "1.1.4"
 
 # Testing frameworks
@@ -18,11 +18,11 @@ logback = "1.4.14"
 
 # Utility libraries
 lombok = "1.18.30"
-jackson = "2.15.3"
+jackson = "2.16.1"
 
 # Monitoring and observability
 micrometer = "1.12.1"
-actuator = "3.2.1"
+actuator = "3.2.7"
 
 [libraries]
 # Spring Boot Starters
