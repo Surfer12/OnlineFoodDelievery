@@ -41,15 +41,27 @@ public class DriverServiceImpl implements DriverService {
     }
 
     @Override
-    public void rateDriver(Driver driver, Integer rating) {
-        if (driver != null & rating != null) {
-            if (rating < 1 || rating > 5) {
-                System.out.println("Rating must be between 1 and 5.");
-                return;
-            }
-            driver.addRating(rating);
+    public java.util.Optional<Driver> findAvailableDriver() {
+        return this.drivers.stream()
+                .filter(Driver::isAvailable)
+                .findFirst();
+    }
+
+    @Override
+    public void updateDriverAvailability(Driver driver, boolean isAvailable) {
+        if (driver != null) {
+            driver.setAvailable(isAvailable);
+        }
+    }
+
+    @Override
+    public void rateDriver(Driver driver, rating.Rating rating) {
+        if (driver != null && rating != null) {
+            // Convert rating.Rating to model.Rating
+            model.Rating driverRating = new model.Rating(rating.getScore());
+            driver.addRating(driverRating);
         } else {
-            System.out.println("Driver not found.");
+            System.out.println("Driver or rating not found.");
         }
     }
 }

@@ -39,9 +39,9 @@ public class OrderServiceImpl implements OrderService {
         }
 
         Order order = new Order(
-                idGenerator.generateId(),
-                items,
+                1L, // Default customer ID
                 customerEmail,
+                items,
                 deliveryAddress,
                 postalCode);
         order.setStatus(OrderStatus.PENDING); // Initialize status
@@ -84,5 +84,14 @@ public class OrderServiceImpl implements OrderService {
     @Override
     public List<Order> getAllOrders() {
         return new ArrayList<>(orderQueue); // Return a copy to preserve encapsulation
+    }
+
+    @Override
+    public void save(Order order) {
+        // For this simple implementation, we just ensure the order is in the queue
+        if (!orderQueue.contains(order)) {
+            orderQueue.add(order);
+        }
+        // In a real application, this would persist to database
     }
 }

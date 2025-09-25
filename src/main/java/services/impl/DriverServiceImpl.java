@@ -81,6 +81,17 @@ public class DriverServiceImpl implements DriverService {
         return new ArrayList<>(this.drivers);
     }
 
+    @Override
+    public void rateDriver(Driver driver, rating.Rating rating) {
+        if (driver != null && rating != null) {
+            // Convert rating.Rating to model.Rating
+            model.Rating driverRating = new model.Rating(rating.getScore());
+            driver.addRating(driverRating);
+        } else {
+            logger.warning("Driver or rating not found.");
+        }
+    }
+
     // Additional utility methods
     public void addDriver(final Driver driver) {
         if (driver == null) {

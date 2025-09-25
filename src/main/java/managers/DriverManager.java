@@ -146,4 +146,53 @@ public class DriverManager {
                     DriverManager.logger.warning("No available drivers to accept order");
                 });
     }
+
+    public Driver findDriverById(Long driverId) {
+        return driverService.getAllDrivers().stream()
+                .filter(driver -> driver.getId().equals(driverId))
+                .findFirst()
+                .orElse(null);
+    }
+
+    public void manageDriverMenu(Scanner scanner, OrderManager orderManager) {
+        System.out.println("\n--- Driver Management Menu ---");
+        System.out.println("1. List Available Drivers");
+        System.out.println("2. View Driver Details");
+        System.out.println("3. Update Driver Availability");
+        System.out.println("4. Return to Main Menu");
+        
+        try {
+            int choice = Integer.parseInt(scanner.nextLine());
+            switch (choice) {
+                case 1 -> listAvailableDrivers();
+                case 2 -> {
+                    System.out.println("Enter driver ID: ");
+                    Long driverId = Long.parseLong(scanner.nextLine());
+                    Driver driver = findDriverById(driverId);
+                    if (driver != null) {
+                        System.out.println("Driver Details: " + driver);
+                    } else {
+                        System.out.println("Driver not found.");
+                    }
+                }
+                case 3 -> {
+                    System.out.println("Enter driver ID: ");
+                    Long driverId = Long.parseLong(scanner.nextLine());
+                    Driver driver = findDriverById(driverId);
+                    if (driver != null) {
+                        System.out.println("Enter availability (true/false): ");
+                        boolean available = Boolean.parseBoolean(scanner.nextLine());
+                        driverService.updateDriverAvailability(driver, available);
+                        System.out.println("Driver availability updated.");
+                    } else {
+                        System.out.println("Driver not found.");
+                    }
+                }
+                case 4 -> System.out.println("Returning to main menu...");
+                default -> System.out.println("Invalid choice.");
+            }
+        } catch (NumberFormatException e) {
+            System.out.println("Invalid input. Please enter a number.");
+        }
+    }
 }

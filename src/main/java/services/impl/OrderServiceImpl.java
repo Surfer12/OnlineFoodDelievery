@@ -62,4 +62,13 @@ public class OrderServiceImpl implements OrderService {
         // Return the list of orders directly
         return new ArrayList<>(this.orders);
     }
+
+    @Override
+    public void save(Order order) {
+        // For this simple implementation, we just ensure the order is in the list
+        if (!orders.contains(order)) {
+            orders.add(order);
+        }
+        // In a real application, this would persist to database
+    }
 }

@@ -8,9 +8,13 @@ import managers.DriverManager;
 import managers.MenuManager;
 import managers.OrderManager;
 import model.ConcreteMenuItem;
+import model.Driver;
 import model.MenuItem;
 import model.Size;
 import queue.OrderQueue;
+import rating.Rating;
+import services.DriverService;
+import services.DriverServiceImpl;
 import validation.ConsoleInputHandler;
 import validation.validators.EmailValidator;
 import validation.validators.LocationValidator;
@@ -27,6 +31,7 @@ public class DeliverySystemCLI {
     private final MenuManager menuManager;
     private final OrderManager orderManager;
     private final DriverManager driverManager;
+    private final DriverService driverService;
 
     public DeliverySystemCLI() {
         this.scanner = new Scanner(System.in);
@@ -41,6 +46,7 @@ public class DeliverySystemCLI {
         this.menuManager = new MenuManager();
         this.orderManager = new OrderManager();
         this.driverManager = new DriverManager();
+        this.driverService = new DriverServiceImpl();
 
         this.initializeMenu();
     }
@@ -49,9 +55,17 @@ public class DeliverySystemCLI {
     public DeliverySystemCLI(final Scanner scanner, final MenuManager menuManager, final OrderManager orderManager,
             final DriverManager driverManager) {
         this.scanner = scanner;
+        this.orderQueue = new OrderQueue(100);
+        
+        // Initialize validators
+        this.positiveIntHandler = new ConsoleInputHandler<Integer>(new PositiveIntegerValidator());
+        this.emailHandler = new ConsoleInputHandler<String>(new EmailValidator());
+        this.locationHandler = new ConsoleInputHandler<String>(new LocationValidator());
+        
         this.menuManager = menuManager;
         this.orderManager = orderManager;
         this.driverManager = driverManager;
+        this.driverService = new DriverServiceImpl();
     }
 
     private void initializeMenu() {
@@ -167,6 +181,8 @@ public class DeliverySystemCLI {
         String comment = scanner.nextLine();
 
         Rating rating = new Rating.Builder()
+            .customerId(1L) // Default customer ID for now
+            .driverId(driverId)
             .score(ratingValue)
             .comment(comment)
             .build();

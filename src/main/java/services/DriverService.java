@@ -52,4 +52,12 @@ public interface DriverService {
      * @return List of all drivers
      */
     List<Driver> getAllDrivers();
+
+    /**
+     * Rate a driver.
+     *
+     * @param driver The driver to rate
+     * @param rating The rating to give
+     */
+    void rateDriver(Driver driver, rating.Rating rating);
 }

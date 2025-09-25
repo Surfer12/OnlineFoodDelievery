@@ -15,4 +15,6 @@ public interface OrderService {
     String getOrderStatus(Long orderId);
 
     List<Order> getAllOrders();
+
+    void save(Order order);
 }
