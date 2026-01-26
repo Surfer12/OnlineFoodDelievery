@@ -10,7 +10,7 @@ spring-dependency-management = "1.1.4"
 # Testing frameworks
 junit = "5.10.1"
 mockito = "5.8.0"
-assertj = "3.24.2"
+assertj = "3.27.7"
 
 # Logging
 slf4j = "2.0.9"
